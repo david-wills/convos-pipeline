@@ -1,0 +1,576 @@
+{
+  "episode": {
+    "id": "f6c4c1b0fa51b2449123449e7366619522c9435743334e4f1841795849382da4",
+    "podcastTitle": "The Journal.",
+    "feedUrl": "https://video-api.shdsvc.dowjones.io/api/podcasts/feed/the%20journal",
+    "guid": "https://pdst.fm/e/traffic.megaphone.fm/WSJ6847895185.mp3",
+    "title": "How Big Food Is Navigating the GLP-1 Era",
+    "description": "For decades, food companies have relied on a proven playbook: cater to shoppers with sugar, salt and flavor. This approach has been so successful that some critics have accused the food industry of fueling an obesity epidemic. But with weight-loss drugs and health-conscious shopping on the rise, food companies have a whole new challenge. WSJ’s Amira McKee explores the new ways food makers are meeting the moment. Jessica Mendoza hosts.\n\nFurther Listening: \n\n- Trillion Dollar Shot\n\n- Weight-Loss Drugs Are Gobbling Up Small Town Budgets\n\nSign up for WSJ’s free What’s News newsletter.\n\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+    "pubDate": "2026-09-02T20:12:00.000Z",
+    "duration": 1070,
+    "audioUrl": "https://pdst.fm/e/traffic.megaphone.fm/WSJ6847895185.mp3",
+    "artworkUrl": null
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1142,
+    "utteranceCount": 82
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:09.554Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Inside Conagra's Test Kitchen",
+      "description": "WSJ reporter Amira McKee describes her visit to Conagra's industrial test kitchen in Omaha, where chefs are reimagining breakfast for a new era of consumers.",
+      "startTime": 7.584,
+      "endTime": 267.256,
+      "anchorPhrase": "last month, our colleague amira mckee got an inside look at a test kitchen in"
+    },
+    {
+      "index": 1,
+      "title": "How Big Food Got Us Hooked",
+      "description": "The food industry's decades-long playbook of engineering cravings through salt, sugar, and flavor — and the critics who say it fueled an obesity epidemic.",
+      "startTime": 267.256,
+      "endTime": 353.922,
+      "anchorPhrase": "amira, what is your go-to snack? it's like, i'm, i'm very partial to chocolate-covered pretzels"
+    },
+    {
+      "index": 2,
+      "title": "GLP-1s Kill the Craving",
+      "description": "Weight-loss drugs are blunting users' appetites and altering their taste buds, making once-beloved snacks taste like Styrofoam.",
+      "startTime": 353.922,
+      "endTime": 439.402,
+      "anchorPhrase": "but glp-1 drugs are changing how people feel about food and how much of it"
+    },
+    {
+      "index": 3,
+      "title": "A $55 Billion Headwind",
+      "description": "With 1 in 5 U.S. households touched by GLP-1 use and JP Morgan projecting massive revenue losses, food companies face a reckoning by 2030.",
+      "startTime": 439.402,
+      "endTime": 612.134,
+      "anchorPhrase": "it is certainly a good cohort of, of american households that are being impacted by"
+    },
+    {
+      "index": 4,
+      "title": "The New Playbook: Protein Badges and Buffalo Mac",
+      "description": "Food makers like Conagra and Nestlé are slapping GLP-1-friendly labels on packaging and reformulating recipes to pack in protein and fiber without sacrificing taste.",
+      "startTime": 612.134,
+      "endTime": 853.71,
+      "anchorPhrase": "this episode is brought to you by indeed. the right hire can make or break"
+    },
+    {
+      "index": 5,
+      "title": "Meet Lisa, the AI Food Consumer",
+      "description": "General Mills built AI personas — including a fictional GLP-1 user named Lisa — to speed up product development and replace slow, anecdotal focus groups.",
+      "startTime": 853.71,
+      "endTime": 936.896,
+      "anchorPhrase": "want. so conagra, for example, sort of sifts through credit card data and social media"
+    },
+    {
+      "index": 6,
+      "title": "Why This Diet Trend Won't Fade",
+      "description": "Unlike keto or fat-free fads, GLP-1 drugs are structurally permanent — and food executives know the old playbook of irresistible indulgence needs a serious update.",
+      "startTime": 936.896,
+      "endTime": 1142,
+      "anchorPhrase": "than databased. it would be anecdotal. interesting. amira says some food executives are ready to"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 7.6,
+      "end": 13.8,
+      "speaker": "A",
+      "text": "Last month, our colleague Amira McKee got an inside look at a test kitchen in Omaha, Nebraska."
+    },
+    {
+      "start": 15.4,
+      "end": 26.9,
+      "speaker": "B",
+      "text": "So imagine an industrial kitchen, the kind you might see in a fine dining movie. You know, the one with these stainless steel appliances, everything's huge, and the chefs are in these aprons."
+    },
+    {
+      "start": 27.6,
+      "end": 30.3,
+      "speaker": "A",
+      "text": "I'm like picturing Ratatouille in my head, but okay, I'm with you."
+    },
+    {
+      "start": 30.8,
+      "end": 39,
+      "speaker": "B",
+      "text": "Something like that. And you know, you might not realize that you're in, you know, a development laboratory for one of America's biggest food makers."
+    },
+    {
+      "start": 41.7,
+      "end": 59.6,
+      "speaker": "A",
+      "text": "That food maker is Conagra, the company behind Slim Jims and Hungry-Man dinners. Kitchens like this one are places where food brands perfect the kind of packaged food you see on shelves and in freezers at grocery stores around the country. In this test kitchen, Conagra chefs were working on their newest breakfast recipes."
+    },
+    {
+      "start": 60.7,
+      "end": 72.6,
+      "speaker": "B",
+      "text": "These chefs serve this bowl of microwaved eggs and sausage and potatoes to a group of executives. The executives sort of pour this gooey orange cheese sauce over the bowl."
+    },
+    {
+      "start": 72.9,
+      "end": 73.2,
+      "speaker": "C",
+      "text": "Hmm."
+    },
+    {
+      "start": 73.5,
+      "end": 95.2,
+      "speaker": "B",
+      "text": "And before they even take a bite, they sort of pause and they ask themselves, was this satisfying? How would this make a consumer feel? They're sort of trying to evaluate whether or not, you know, this consumer experience of, again, pouring the cheese sort of adds something for the consumer who's buying this in the frozen aisle of their grocery store."
+    },
+    {
+      "start": 97.1,
+      "end": 112.2,
+      "speaker": "A",
+      "text": "Kitchens like this one are a window into a shift happening across the food industry: people spending less on food. It's a shift driven by a combination of higher food prices, healthy eating trends, and The rise of GLP-1 weight loss drugs."
+    },
+    {
+      "start": 113.1,
+      "end": 142.4,
+      "speaker": "B",
+      "text": "A pretty solid portion of the American population is already on these drugs, and it's a number that's expected to really increase aggressively in the next couple years and drain the industry of billions of dollars. And so it's about creating products that will woo and, you know, win over these GLP-1 consumers who, who don't feel hungry for the foods that these companies make. How do you deliver satisfaction and satiation to consumers who don't experience sort of hunger and fullness like an average person might."
+    },
+    {
+      "start": 145.6,
+      "end": 162.8,
+      "speaker": "A",
+      "text": "Welcome to The Journal, our show about money, business, and power. I'm Jessica Mendoza. It's Wednesday, September 2nd. Coming up on the show, the food industry's attempt to win over the GLP-1 user."
+    },
+    {
+      "start": 170.9,
+      "end": 199.3,
+      "speaker": "D",
+      "text": "This episode is presented by Intuit Credit Karma. Relaxation doesn't always look like spa days or fluffy pillows. Sometimes it's simpler than that. It's when those pesky tasks you don't have time for, like hunting down your credit card perks, are handled for you. Like how Card Optimizer from Intuit Credit Karma brings your card details together in one simple place, so tracking rewards and redeeming benefits is actually easy. You deserve less ugh and more ah. Intuit Credit Karma. Download the app to get started."
+    },
+    {
+      "start": 200.8,
+      "end": 258.8,
+      "speaker": "C",
+      "text": "For adults with Crohn's disease or ulcerative colitis symptoms, every choice matters. Tremfya offers self-injection or intravenous infusion from the start. Tremfya is administered as injections under the skin or infusions through a vein every 4 weeks, followed by injections under the skin every 4 or 8 weeks. If your doctor decides that you can self-inject Tremfya, proper training is required. Tremfya is a prescription medicine used to treat adults with moderately to severely active Crohn's disease and adults with moderately to severely active ulcerative colitis. Serious allergic reactions, increased risk of infections or lower ability to fight them, and liver problems may occur. Before treatment, get checked for infections and tuberculosis. Tell your doctor if you have an infection, flu-like symptoms, or need a vaccine. Explore what's possible. Ask your doctor about Tremfya today. Call 1-800-526-7736 to learn more or visit tremfayaradio.com."
+    },
+    {
+      "start": 267.3,
+      "end": 278.6,
+      "speaker": "A",
+      "text": "Amira, what is your go-to snack? It's like, I'm, I'm very partial to chocolate-covered pretzels myself because I love, like, it's salty, it's sweet, it does all of the things all at once."
+    },
+    {
+      "start": 278.9,
+      "end": 288,
+      "speaker": "B",
+      "text": "That's a good one. I concur on that point. I'm also a big fan of a tortilla chip. Yeah, honestly, give Megan a Dorito. Make it anything and I'll enjoy it."
+    },
+    {
+      "start": 290.2,
+      "end": 302.4,
+      "speaker": "A",
+      "text": "Saltiness, crispiness, and at least in my case, sweetness, or maybe some combination of all of them. Those are the types of flavors and textures that the food industry turns to to keep us coming back for more."
+    },
+    {
+      "start": 303.3,
+      "end": 344.2,
+      "speaker": "B",
+      "text": "A lot of these snacks are really designed to cater to those cravings, the kinds of things that you sort of think about during your workday or, you know, have to keep yourself from eating off the snack bar. To put it sort of flippantly, right, these food makers make the kinds the kinds of foods that we want to eat, and they invest a lot of time and money into studying and figuring out exactly what that is. Because these food companies are so good at fine-tuning their products to what we crave and the kind of food we're really excited about, critics have accused the industry of sort of getting consumers hooked on their foods, drawing comparisons between what nicotine does to smokers and sort of fueling the obesity epidemic we have in our country."
+    },
+    {
+      "start": 344.7,
+      "end": 346.5,
+      "speaker": "A",
+      "text": "And have food companies pushed back on that?"
+    },
+    {
+      "start": 346.9,
+      "end": 352,
+      "speaker": "B",
+      "text": "Food companies would tell you, right, that their goal is to make the food that people want to eat."
+    },
+    {
+      "start": 353.9,
+      "end": 359.8,
+      "speaker": "A",
+      "text": "But GLP-1 drugs are changing how people feel about food and how much of it they even want to consume."
+    },
+    {
+      "start": 360.8,
+      "end": 381.3,
+      "speaker": "B",
+      "text": "There's a pretty large body of data about how GLP-1 sort of changes consumer sentiment. One study by PwC sort of points out that GLP-1 users are most likely to turn away from foods like salty snacks and baked goods. Also products like alcohol, other things that are sort of based on cravings."
+    },
+    {
+      "start": 382.2,
+      "end": 387.5,
+      "speaker": "A",
+      "text": "And it's not just that these consumers are craving less, they're also experiencing food differently."
+    },
+    {
+      "start": 388.1,
+      "end": 412.6,
+      "speaker": "B",
+      "text": "Studies have found there's this pretty well-documented side effect of the medications that causes individuals taking them to not experience flavor the same. It impairs things like sweetness, like saltiness, like sourness. One of these folks taking These medications sort of described the first couple of months on Wegovy. His meals tasted like Styrofoam. Things that he once loved just didn't taste that good anymore."
+    },
+    {
+      "start": 413.5,
+      "end": 415.9,
+      "speaker": "A",
+      "text": "Others have expressed this feeling on social media too."
+    },
+    {
+      "start": 416.6,
+      "end": 423.6,
+      "speaker": "B",
+      "text": "So anyone else have a strange metallic taste in their mouth? My Diet Cokes don't taste the same. My foods don't taste the same."
+    },
+    {
+      "start": 423.8,
+      "end": 428.2,
+      "speaker": "D",
+      "text": "Starting a GLP-1 has completely changed my diet and my taste buds."
+    },
+    {
+      "start": 429,
+      "end": 438.7,
+      "speaker": "A",
+      "text": "And we're talking a lot of Americans now, right? I saw one report that said 1 in 5 US households have someone who's taking GLP-1s, which sounds like a big number."
+    },
+    {
+      "start": 439.4,
+      "end": 458.5,
+      "speaker": "B",
+      "text": "It is certainly a good cohort of, of American households that are being impacted by GLP-1s in some way, shape, or form. And it's important to remember that the person in that household is likely a parent, right? Oftentimes the person who's doing the grocery shopping for the house, right? There are implications beyond the individual when it comes to sort of having a GLP-1 user. In the house, right?"
+    },
+    {
+      "start": 458.6,
+      "end": 464.2,
+      "speaker": "A",
+      "text": "There's like sort of the adjacent people as well who are going to be eating from the same grocery list, basically."
+    },
+    {
+      "start": 464.9,
+      "end": 484.9,
+      "speaker": "B",
+      "text": "Exactly. And JP Morgan's sort of base case projection for GLP-1 users is that it'll drain the food industry of $30 to $55 billion in the next couple years, as soon as 2030. And so it is a pretty huge headwind for the industry."
+    },
+    {
+      "start": 485.1,
+      "end": 509.7,
+      "speaker": "A",
+      "text": "Plus The problem is, a lot of the people who are likely to be on GLP-1s now were also some of the food industry's best customers. To keep those former snackers coming back, companies have to consider a new set of factors in the food they sell. For instance, studies show GLP-1s can lead to muscle loss and can cause gastrointestinal issues. What does that mean for the snacks that those consumers want?"
+    },
+    {
+      "start": 509.9,
+      "end": 525.9,
+      "speaker": "B",
+      "text": "There are a growing number of consumers who are thinking more about their health and looking for, you know, attributes like more protein, more fiber. They are sort of moving away from those center aisle products and towards the periphery for, you know, fresher, fresher goods."
+    },
+    {
+      "start": 526.4,
+      "end": 536,
+      "speaker": "A",
+      "text": "I like the visual of that. You know, they're going towards where the produce is, where the vegetables are, where the smoothies are, rather than in the middle where all the, you know, the cookies and the biscuits and the chips are."
+    },
+    {
+      "start": 536.5,
+      "end": 559.6,
+      "speaker": "B",
+      "text": "And that is a problem for food makers who make, you know, snacks, the kinds of things that you'd find in the middle of the grocery store. Because they're imagining a consumer who's standing in a frozen aisle and looking at sort of a plethora of options. And they're looking for, at least according to their research, right, protein and fiber. But you also want something that makes you feel good, right? That is something that you want to eat. And puzzling that out is part of the challenge."
+    },
+    {
+      "start": 562.5,
+      "end": 566.9,
+      "speaker": "A",
+      "text": "And GLP-1 users aren't the only challenge the food industry has to worry about."
+    },
+    {
+      "start": 567.9,
+      "end": 595.9,
+      "speaker": "B",
+      "text": "Food companies in general are in sort of a sea of troubles. Just to name a few, I mean, food companies are dealing with increasing costs, consumers penny-pinching because of persistent inflation. And there's also this increasing cohort of sort of health-conscious consumers of which sort of GLP-1 users fit in. And they're looking to sort of capture GLP-1 users and the sort of health-conscious crowd by making products that appeal to all of their needs in one."
+    },
+    {
+      "start": 597.4,
+      "end": 602,
+      "speaker": "A",
+      "text": "So how food companies are meeting the moment? That's next."
+    },
+    {
+      "start": 612.1,
+      "end": 668.9,
+      "speaker": "E",
+      "text": "This episode is brought to you by Indeed. The right hire can make or break your company, especially if you're a small business. And relying on luck to find that person isn't really the best strategy. But you know what is? Using Indeed Sponsored Jobs. You can use it to boost your job post to make sure it reaches more people with the right talents, certification, location, and more. Sponsored jobs posted directly on Indeed are 95% more likely to report a hire than non-sponsored jobs. Spend less time searching and more time actually interviewing candidates who check all your boxes. Less stress, less time, more results. When you need the right person to cut through the chaos, this is a job for Indeed sponsored jobs. And listeners of this show will get a $75 sponsored job credit to help get your job the premium status it deserves at indeed.com/ podcast. Just go to indeed.com/podcast right now and support the show by saying you heard about Indeed here. Indeed.com/podcast. Terms and conditions apply. Hiring now? Then this is a job for Indeed Sponsored Jobs."
+    },
+    {
+      "start": 670.8,
+      "end": 696.3,
+      "speaker": "D",
+      "text": "This episode is supported by Anthropic, the public benefit corporation behind Claude. People have hard questions about AI. What happens to jobs? Whether their kids end up better off? Anthropic asked over 100,000 people their thoughts on AI. And is tracking in public what it does about them and where they might not have the answer just yet. There's hope in hard questions. Ask yours at Claude.ai/thejournal."
+    },
+    {
+      "start": 705.4,
+      "end": 717.1,
+      "speaker": "A",
+      "text": "To keep newly health-conscious shoppers coming back for more, the food industry is turning to a bunch of different approaches. One is making sure the packaging highlights the types of things these customers are looking for."
+    },
+    {
+      "start": 718.2,
+      "end": 740.5,
+      "speaker": "B",
+      "text": "And so they're looking to grab these folks' attention. And one strategy that some companies have made, I'm thinking of Conagra and Nestlé, is to have GLP-1-friendly badges on them. So you can sort of scan these boxes and see explicitly GLP-1-friendly. But there are other products that say, you know, or have huge callouts that this has, you know, 40 grams of protein in it or is high in fiber."
+    },
+    {
+      "start": 741.6,
+      "end": 760.6,
+      "speaker": "A",
+      "text": "But more importantly, companies also have to nail the recipes. Amira spoke to some chefs in charge of the recipe revamp at Conagra and other big food companies. And they told her that finding the right balance between what consumers want and what food companies can actually make takes a lot of trial and error."
+    },
+    {
+      "start": 761.3,
+      "end": 773.7,
+      "speaker": "B",
+      "text": "One food scientist, it sort of stuck with me. She said, you know, we could make a pizza with 120 grams of protein, but it would have your daily calorie count calorie limit, and you would also have to take a nap after, right? They can sort of—"
+    },
+    {
+      "start": 773.9,
+      "end": 776.5,
+      "speaker": "A",
+      "text": "that's it, that's, that's, that's it for the day."
+    },
+    {
+      "start": 776.6,
+      "end": 795.5,
+      "speaker": "B",
+      "text": "Yeah, uh, because protein sort of hits— sit heavy, and it also tends to be higher in calories. And some of these chefs were telling me about another prototype of sort of a burrito with 40 grams of protein that had to be scrapped because they just couldn't fit that amount of filling in a tortilla that was appropriate for sort of an American microwave."
+    },
+    {
+      "start": 795.7,
+      "end": 803.7,
+      "speaker": "A",
+      "text": "Wow. One recipe from the Conagra test kitchen did see some success, according to the company. Amira got to try it when she visited the facility."
+    },
+    {
+      "start": 804.6,
+      "end": 814.6,
+      "speaker": "B",
+      "text": "One of the recipes that they sort of walked me through is this buffalo mac and cheese that has 40 grams of protein and is labeled to really emphasize that it's high in protein."
+    },
+    {
+      "start": 815.2,
+      "end": 815.9,
+      "speaker": "A",
+      "text": "What did it taste like?"
+    },
+    {
+      "start": 816.4,
+      "end": 823.5,
+      "speaker": "B",
+      "text": "It was good. It was tasty. It felt rich. It had a lot of chicken in it, which I imagine is where the protein comes from."
+    },
+    {
+      "start": 824.2,
+      "end": 828.9,
+      "speaker": "A",
+      "text": "I mean, did it taste the way you expect buffalo mac and cheese to taste like, or was it blander?"
+    },
+    {
+      "start": 829.5,
+      "end": 831,
+      "speaker": "B",
+      "text": "It felt pretty decadent to me."
+    },
+    {
+      "start": 831.4,
+      "end": 831.7,
+      "speaker": "D",
+      "text": "Hmm."
+    },
+    {
+      "start": 831.9,
+      "end": 841.5,
+      "speaker": "B",
+      "text": "And that is an example of a product that is a little bit higher in calories and has a little bit of a larger portion, but that the sort of higher in protein was something they did with GLP-1 users in mind."
+    },
+    {
+      "start": 845.6,
+      "end": 853,
+      "speaker": "A",
+      "text": "Beyond experimenting in test kitchens, food companies are also turning to data to get a clearer picture of what these customers actually want."
+    },
+    {
+      "start": 853.7,
+      "end": 868.5,
+      "speaker": "B",
+      "text": "So Conagra, for example, sort of sifts through credit card data and social media posts. They're looking at our, you know, late night delivery orders, our fast food menus, the kinds of things we're talking about on Reddit, that kind of data to figure out what we're looking for."
+    },
+    {
+      "start": 869.5,
+      "end": 881.8,
+      "speaker": "A",
+      "text": "Some companies like General Mills have gone a step further. They created what they call AI personas. Basically, they take a bunch of interviews, social media, and sales data to help advise their product development teams."
+    },
+    {
+      "start": 882.8,
+      "end": 899.7,
+      "speaker": "B",
+      "text": "One is named Lisa, who represents a woman in her 30s or 40s with sort of a long history of dieting and who's on GLP-1s. And the company says that doubles like Lisa help the company develop solutions, including helping them develop a GLP-1-friendly brand that is debuting soon."
+    },
+    {
+      "start": 900.5,
+      "end": 907.6,
+      "speaker": "A",
+      "text": "What are these digital personas, this data, what is all that able to do that traditional focus groups aren't able to?"
+    },
+    {
+      "start": 908.4,
+      "end": 934.4,
+      "speaker": "B",
+      "text": "One of the benefits that General Mills sort of pointed to was that you can do it in a really, a fraction of a time that is required for these traditional testings. And also, it's built on sort of an immense amount of data. And so Lisa can be representative of a general average of her cohort with some of these attributes. Whereas you or an I would be a very specific person, you know, and not necessarily—"
+    },
+    {
+      "start": 934.4,
+      "end": 936.8,
+      "speaker": "A",
+      "text": "it would be anecdotal rather than databased."
+    },
+    {
+      "start": 936.9,
+      "end": 937.6,
+      "speaker": "B",
+      "text": "It would be anecdotal."
+    },
+    {
+      "start": 937.7,
+      "end": 950.6,
+      "speaker": "A",
+      "text": "Interesting. Amira says some food executives are ready to invest in these strategies because this moment could be different. GLP-1s have the potential to be more lasting than other diet trends the industry has weathered."
+    },
+    {
+      "start": 951.6,
+      "end": 970.3,
+      "speaker": "B",
+      "text": "At ConAgra, this executive's name is Bob Nolan, has been in the industry in a very long time and studies sort of demand science, what consumers want, has seen lots of these sort of dieting practices come and go. Thinking about keto, low carb, gluten-free, name it, fat-free."
+    },
+    {
+      "start": 970.7,
+      "end": 971.5,
+      "speaker": "A",
+      "text": "Yeah, yeah."
+    },
+    {
+      "start": 971.8,
+      "end": 1018.4,
+      "speaker": "B",
+      "text": "And those have waned and waxed over the years, right? But GLP-1s are different just structurally. In the next 5 years, we could see hundreds across the globe of generic offerings, new versions of these drugs. And these medications really aren't going anywhere, and food companies realize that. If the old playbook, right, is making food that is delicious and gets people excited about eating, when it comes to GLP-1 users and our sort of health-conscious crowd, the new playbook is, is making food that these folks have decided they should eat. And so have those kinds of attributes like protein and fiber and are easy to make and maybe have some of these sort of experiential Factors to them."
+    },
+    {
+      "start": 1019.5,
+      "end": 1042.5,
+      "speaker": "A",
+      "text": "Still, Amira says there's a huge consumer base that food companies need to continue to cater to because most Americans aren't on GLP-1s and still want their usual snacks. How are these food companies balancing these two groups? You know, the health-conscious consumer and then the more traditional consumer who's still kind of like going to buy the brands and the snacks and the foods that they've always bought."
+    },
+    {
+      "start": 1043.4,
+      "end": 1061.7,
+      "speaker": "B",
+      "text": "The short answer is that lots of these products that you sort of know and love that are high in fat, salt, and sugar, right, they're not going anywhere. These sort of health-conscious products are additions, right, to help draw in more of these consumers. But many of those products that we know and love aren't necessarily going anywhere."
+    },
+    {
+      "start": 1061.9,
+      "end": 1063.9,
+      "speaker": "A",
+      "text": "So my chocolate-covered pretzels are safe?"
+    },
+    {
+      "start": 1064.6,
+      "end": 1065.6,
+      "speaker": "B",
+      "text": "Seems like it."
+    },
+    {
+      "start": 1079.8,
+      "end": 1095.8,
+      "speaker": "A",
+      "text": "That's all for today, Wednesday, September 2nd. The Journal is a co-production of Spotify and The Wall Street Journal. Additional reporting in this episode from Jesse Newman. For listening. See you tomorrow."
+    },
+    {
+      "start": 1099.5,
+      "end": 1104.2,
+      "speaker": "D",
+      "text": "You matched on Hinge, you're vibing, then her energy completely changes."
+    },
+    {
+      "start": 1104.6,
+      "end": 1105.2,
+      "speaker": "A",
+      "text": "What do you do?"
+    },
+    {
+      "start": 1106.1,
+      "end": 1112.5,
+      "speaker": "B",
+      "text": "I'm Raven Smith, and I wrote and read a real love story about this exact sitch. Listen to the free audiobook now."
+    },
+    {
+      "start": 1115,
+      "end": 1115.6,
+      "speaker": "D",
+      "text": "I'm not giving up."
+    },
+    {
+      "start": 1116.1,
+      "end": 1117.7,
+      "speaker": "B",
+      "text": "I am selling the building."
+    },
+    {
+      "start": 1119.5,
+      "end": 1121.6,
+      "speaker": "D",
+      "text": "The final season of FX's The Bear."
+    },
+    {
+      "start": 1123.1,
+      "end": 1124.3,
+      "speaker": "B",
+      "text": "The restaurant is flooded."
+    },
+    {
+      "start": 1124.4,
+      "end": 1125.7,
+      "speaker": "A",
+      "text": "That ball's not cheap!"
+    },
+    {
+      "start": 1125.9,
+      "end": 1127.3,
+      "speaker": "D",
+      "text": "Everything's either going to be OK—"
+    },
+    {
+      "start": 1127.7,
+      "end": 1128.8,
+      "speaker": "A",
+      "text": "No! Stop!"
+    },
+    {
+      "start": 1129.6,
+      "end": 1130.3,
+      "speaker": "E",
+      "text": "—or not."
+    },
+    {
+      "start": 1131.6,
+      "end": 1141.1,
+      "speaker": "D",
+      "text": "We are outgunned and we are outmanned, but we have each other. FX's The Bear, the final season. All episodes now streaming on Disney+."
+    }
+  ]
+}

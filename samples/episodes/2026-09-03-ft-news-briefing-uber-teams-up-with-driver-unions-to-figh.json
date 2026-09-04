@@ -1,0 +1,304 @@
+{
+  "episode": {
+    "id": "5f8dfcd2f78870c95c678dcbc9109e8c3a2ffd573fbf7a27858bf79bf4897794",
+    "podcastTitle": "FT News Briefing",
+    "feedUrl": "https://feeds.acast.com/public/shows/73fe3ede-5c5c-4850-96a8-30db8dbae8bf",
+    "guid": "6a98b2c3e7a9fe247822e2ba",
+    "title": "Uber teams up with driver unions to fight robotaxis",
+    "description": "<p>Auditors warned Guggenheim Partners about weak controls within its business, and Uber is teaming up with driver unions to try to slow the rollout of robotaxis. Plus, US oil major Chevron and Italy’s Eni are boosting investment in oil production in Venezuela.</p><br><p><strong>Mentioned in this podcast:</strong></p><p><a href=\"https://www.ft.com/content/70e8e4e6-def9-4683-9aa3-4bf7351474e4?accessToken=zwAAAaD9-DxBkc9w6OTm3vlGg9Oao0v3NRR05AE.MEYCIQDfpDQUWzlel-WbryOAv_CD09RjSG9sID8QGnXdzxYPUQIhAOZeCjEu6pjEkLFYdFroRhrhmrXFkfKtthncHWXT45SV&amp;segmentId=7d4bcc2e-e664-92ba-62e3-5590579f1902\" rel=\"noopener noreferrer\" target=\"_blank\">KPMG warned Guggenheim unit over deficiencies in internal controls</a></p><p><a href=\"https://www.ft.com/content/84171f91-5f39-4878-bbc5-e4e6262c4321?accessToken=zwAAAaD90Webk9OEFx-RXzlIeNO7xeTmJixDIc9w_fXDazpJTdOhQYWrpg0U1dOnZyHbNuFBmNOq2IyQE3qs6QE.MEYCIQDLZuRJAg-PUVmzXsrbBT403qejv4602N-21diVLbkU4wIhANLt_53DgNV5fTAvzH2zdh6vnJ7WuYfBFptwx7aPM746&amp;segmentId=7d4bcc2e-e664-92ba-62e3-5590579f1902\" rel=\"noopener noreferrer\" target=\"_blank\">Uber allies with driver unions in bid to slow robotaxi rollout</a></p><p><a href=\"https://www.ft.com/content/a76721db-36e1-4198-aad8-8c90137aace9?accessToken=zwAAAaD90Webk9OEFx-RXzlIeNO7xeTmJixDIc9w_fXDazpJTdOhQYWrpg0U1dOnZyHbNuFBmNOq2IyQE3qs6QE.MEYCIQDLZuRJAg-PUVmzXsrbBT403qejv4602N-21diVLbkU4wIhANLt_53DgNV5fTAvzH2zdh6vnJ7WuYfBFptwx7aPM746&amp;segmentId=7d4bcc2e-e664-92ba-62e3-5590579f1902\" rel=\"noopener noreferrer\" target=\"_blank\">Chevron to double Venezuela oil production with $7bn pledge</a></p><br><p>Want to get in touch? Email us at <a href=\"mailto:podcasts@ft.com\" rel=\"noopener noreferrer\" target=\"_blank\">podcasts@ft.com</a></p><br><p>Note: The FT does not use generative AI to voice its podcasts&nbsp;</p><br><p>The FT News Briefing is produced by Sonja Hutson, Saffeya Ahmed, and Josh Gabert-Doyon. Our show is mixed by Sam Giovinco and Kelly Garry. Additional help from Gavin Kallmann, Michael Lello, Pe",
+    "pubDate": "2026-09-03T04:00:00.000Z",
+    "duration": 671,
+    "audioUrl": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6a98b2c3e7a9fe247822e2ba/media.mp3",
+    "artworkUrl": "https://assets.pippa.io/shows/621e1a5bf5df83377cc948b8/1771582499067-6d97f00e-76d7-4cba-88d5-a1a9d37b4494.jpeg"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 744,
+    "utteranceCount": 38
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:39.472Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Today's Headlines Preview",
+      "description": "Host Sonia Hudson teases three major stories: auditor warnings at Guggenheim, Uber's robotaxi battle, and oil investment returning to Venezuela.",
+      "startTime": 0.272,
+      "endTime": 63.02,
+      "anchorPhrase": "this episode is brought to you by hard lessons, a morgan stanley podcast. iconic investors"
+    },
+    {
+      "index": 1,
+      "title": "KPMG Flags Guggenheim's Weak Controls",
+      "description": "Auditors warned billionaire Mark Walter's Guggenheim Partners about internal control deficiencies at a subsidiary that improperly recognized $275 million in revenue.",
+      "startTime": 63.02,
+      "endTime": 115.086,
+      "anchorPhrase": "right? i'm sonia hudson in for mark filipino, and here's the news you need to"
+    },
+    {
+      "index": 2,
+      "title": "Uber's Unlikely Union Alliance",
+      "description": "Uber joins forces with taxi driver unions to lobby regulators and slow Waymo's robotaxi expansion, as driverless vehicles begin eating into Uber's market share.",
+      "startTime": 115.086,
+      "endTime": 340.684,
+      "anchorPhrase": "in revenue. that's according to people familiar with the matter. the auditor's findings highlight how"
+    },
+    {
+      "index": 3,
+      "title": "The Disruptor Gets Disrupted",
+      "description": "FT correspondent Raif Uddin reflects on how Uber, once the ultimate disruptor, now finds itself scrambling against autonomous vehicle competitors it didn't see coming.",
+      "startTime": 340.684,
+      "endTime": 412.419,
+      "anchorPhrase": "reef, what do you think this tells us about the disruptive companies that silicon valley,"
+    },
+    {
+      "index": 4,
+      "title": "Big Oil's Venezuela Comeback",
+      "description": "Chevron pledges to more than double Venezuelan oil production while Eni also boosts investment, marking the first major US oil moves since Maduro's fall.",
+      "startTime": 412.419,
+      "endTime": 597.975,
+      "anchorPhrase": "oil companies are starting to invest more in venezuela. yesterday, chevron committed to more than"
+    },
+    {
+      "index": 5,
+      "title": "What It Takes to Go Back In",
+      "description": "FT energy editor Malcolm Moore explains why most oil majors remain cautious, citing the need for legal stability, fiscal protections, and long-term political predictability in Venezuela.",
+      "startTime": 597.975,
+      "endTime": 744,
+      "anchorPhrase": "what would need to change for more companies to move into venezuela? i think there's"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.3,
+      "end": 17.6,
+      "speaker": "A",
+      "text": "This episode is brought to you by Hard Lessons, a Morgan Stanley podcast. Iconic investors like Stan Druckenmiller, John Gray, and Rick Rieder break down calls that worked. I knew that this stock would go up for at least 2 or 3 years and go up a lot. Ones that didn't. I quite frankly thought the company could have reversed course."
+    },
+    {
+      "start": 18,
+      "end": 18.4,
+      "speaker": "B",
+      "text": "They didn't."
+    },
+    {
+      "start": 18.9,
+      "end": 20.1,
+      "speaker": "A",
+      "text": "And what they learned in between."
+    },
+    {
+      "start": 20.4,
+      "end": 23.8,
+      "speaker": "D",
+      "text": "When you buy everything and it goes up, it doesn't train you to be a great investor."
+    },
+    {
+      "start": 24,
+      "end": 28.9,
+      "speaker": "A",
+      "text": "It's these hard lessons that make all the difference. Listen to Hard Lessons wherever you get your podcasts."
+    },
+    {
+      "start": 33,
+      "end": 55,
+      "speaker": "B",
+      "text": "Good morning from the Financial Times. Today is Thursday, September 3rd, and this is your FT News Briefing. Auditors flagged concerns about one of billionaire Mark Walter's businesses, and Uber is fighting robotaxis with an unlikely ally. Plus, will other oil companies follow Chevron back to Venezuela?"
+    },
+    {
+      "start": 55.5,
+      "end": 62.4,
+      "speaker": "D",
+      "text": "What companies are looking for is the reassurance that they can spend billions of dollars in Venezuela safely, right?"
+    },
+    {
+      "start": 63,
+      "end": 171,
+      "speaker": "B",
+      "text": "I'm Sonia Hudson in for Mark Filipino, and here's the news you need to start your day. APMG warned billionaire Mark Walters' Guggenheim Partners that it had weak internal controls at one of its units. The warning from the Big Four auditor came months before insurers controlled by Walter revealed that they had been subpoenaed. That was as part of an investigation by U.S. prosecutors over their disclosures about lending to other parts of the billionaire's empire. KPMG flagged up issues with how a subsidiary at Guggenheim's asset management arm recognized $275 million in revenue. That's according to people familiar with the matter. The auditor's findings highlight how the troubles at Walter's businesses are not contained to his insurance holdings. KPMG declined to comment. Guggenheim's asset management arm told DFT that it is consistent with accounting standards and regulatory requirements, and that, quote, the auditors issued an unqualified opinion. Uber has found an unexpected ally in its battle against its robo-taxi competitor Waymo. It's teaming up with taxi driver unions. They're both fighting against job losses caused by driverless services. Plus, Uber's under pressure from investors more broadly. Just yesterday, it announced it's laying off 10% of its workforce. Here to talk about all this is The FT's Rafe Udden. Hi, Rafe."
+    },
+    {
+      "start": 171.4,
+      "end": 171.9,
+      "speaker": "C",
+      "text": "Hey, Sonia."
+    },
+    {
+      "start": 172.4,
+      "end": 195.7,
+      "speaker": "B",
+      "text": "So labor groups and Uber haven't always had the best relationship, to put it mildly. You know, I remember when I was a reporter in San Francisco, like 10 years ago, they were locked in some pretty fierce battles. So this is definitely pretty wild to see. What kind of strategy are Uber and these unions taking to push back against autonomous vehicles?"
+    },
+    {
+      "start": 196.3,
+      "end": 239,
+      "speaker": "C",
+      "text": "So both groups are pushing quite aggressively with regulators and other local officials to slow down the deployment of robotaxis. They're both arguing that this is going to be hugely disruptive to drivers, particularly in and around their earnings, and that the technology shouldn't just be allowed into markets as quickly as it has done in places like San Francisco and LA. They've also asked for hybrid networks to be enshrined in legislation. So basically, Uber or other ride-hailing platforms will control the, the market around these deployments, basically ensuring that autonomous vehicles are not dominating these markets so quickly."
+    },
+    {
+      "start": 239.7,
+      "end": 247.1,
+      "speaker": "B",
+      "text": "What kind of pressure is Uber facing as a company? You know, how big of an issue is this for them?"
+    },
+    {
+      "start": 247.6,
+      "end": 296.9,
+      "speaker": "C",
+      "text": "So we've already seen in places where Waymo is already deploying thousands of vehicles on public roads that it's starting to eat into Uber's market share and is starting to impact Uber's bottom line. And that's causing some investor angst and concern that Uber weren't well placed or positioned to deal with competition in this market. They axed their own self-driving effort several years ago, and now they're relying on partners, many of whom are yet to deploy or even be permitted to to deploy. Just this week, they announced that they were going to lay off several thousand workers, not just in the ride-hailing market, but also in the food delivery market where competitors like DoorDash are competing much more aggressively with Uber than they have in the past."
+    },
+    {
+      "start": 297.5,
+      "end": 305.4,
+      "speaker": "B",
+      "text": "And what does Waymo, the autonomous ride-hailing company, have to say about these efforts to limit the rollout of its vehicles?"
+    },
+    {
+      "start": 305.9,
+      "end": 339.8,
+      "speaker": "C",
+      "text": "So Waymo's argument is that they shouldn't be hamstrung in any way in terms of their deployment. They want a federal framework in the US and they want to be permitted around the globe. So their position is, it's not fundamentally our responsibility to deal with some of the fallout that might impact drivers here. That said, they have had to find common ground with drivers groups in some places. So in and around airports where drivers groups have dedicated drop-offs. They've had to make some concessions in order to access those spaces."
+    },
+    {
+      "start": 340.7,
+      "end": 355.2,
+      "speaker": "B",
+      "text": "Reef, what do you think this tells us about the disruptive companies that Silicon Valley, I think you could say, is pretty obsessed with? Uber disrupted the taxi industry and now it's on the receiving end of that same dynamic."
+    },
+    {
+      "start": 355.6,
+      "end": 397.6,
+      "speaker": "C",
+      "text": "So I don't think anyone 10 years ago thought that Uber was going to be disrupted so soon. This was a company that was burning through billions of dollars each year to build up its market share. And in such a short period, it's already facing quite significant pressures, in part because I don't think we thought autonomous vehicles would come quite so soon, and seemingly they have. But also because this is a company that is no longer quite as buzzy as it once was. There, there are more interesting companies now. In the market. And so that compression is quite surprising. I don't think we were quite expecting Uber to be under the cosh quite so soon."
+    },
+    {
+      "start": 398.2,
+      "end": 405,
+      "speaker": "B",
+      "text": "The disruptor becomes the disrupted. Raif Uddin is the FT's San Francisco correspondent. Thanks, Raif."
+    },
+    {
+      "start": 405.3,
+      "end": 405.9,
+      "speaker": "C",
+      "text": "Thanks, Sonia."
+    },
+    {
+      "start": 412.4,
+      "end": 445.3,
+      "speaker": "B",
+      "text": "Oil companies are starting to invest more in Venezuela. Yesterday, Chevron committed to more than double its oil production in the country over the next 5 years. It's the first big investment from a US oil major since the Trump administration toppled former leader Nicolás Maduro in January. Italian oil giant Eni also announced that it will boost production there, but there's still a lot of hesitation from other companies. Here to discuss what investment in Venezuela could look like is the FT's energy editor Malcolm Moore. Hi, Malcolm."
+    },
+    {
+      "start": 445.7,
+      "end": 445.9,
+      "speaker": "D",
+      "text": "Hi there."
+    },
+    {
+      "start": 446.3,
+      "end": 457.8,
+      "speaker": "B",
+      "text": "So oil companies have not exactly rushed to Venezuela since Maduro was toppled, but we did see these announcements yesterday from Chevron and Eni. What's changing right now?"
+    },
+    {
+      "start": 458.1,
+      "end": 510.5,
+      "speaker": "D",
+      "text": "So it has been a while. If you remember, Maduro was toppled in January and the week after, President Trump called the entire oil industry to the White House and said that Venezuela needed $100 billion of investment. Are you all going to invest? And almost all of them kind of ummed and ahhed their way through that meeting. Exxon was the bluntest. They said, look, it's uninvestable right now. And they said, firstly, we need it to be secure on the ground. And then also we're going to need, you know, legal and fiscal protections, all of those things. Nobody really knew what would happen in Venezuela back in January, but now people are a little bit more sure of the regime, perhaps. And there's also been a change to the hydrocarbons law, which has given them a little bit more comfort in terms of, you know, if things go wrong, can they arbitrate internationally, for example."
+    },
+    {
+      "start": 511.2,
+      "end": 517.5,
+      "speaker": "B",
+      "text": "Are other companies following in Chevron and Eni's footsteps, or are they still hesitant?"
+    },
+    {
+      "start": 518,
+      "end": 542.4,
+      "speaker": "D",
+      "text": "So I would say that the companies that have been operating in Venezuela beforehand are all going back in, and they're looking to expand. The other companies that left, well, they now need to find a way back in, and that's going to take a little while because they're going to need to rebuild expertise on the ground and rebuild relationships and then start to look at what assets might be available and what the best opportunities are for them."
+    },
+    {
+      "start": 542.8,
+      "end": 548.3,
+      "speaker": "B",
+      "text": "Okay. So it may be a little while before we see announcements from other oil majors then."
+    },
+    {
+      "start": 548.5,
+      "end": 559.5,
+      "speaker": "D",
+      "text": "We're not expecting anything imminently, but President Trump did say that Exxon was definitely going back in. Exxon hasn't said anything about going back in, so, uh, we'll have to wait and see on that front."
+    },
+    {
+      "start": 560.1,
+      "end": 574.1,
+      "speaker": "B",
+      "text": "Malcolm, we talked in the show earlier this week about the US government's joint oil venture in Venezuela. How do you think that is impacting how these oil companies are thinking about investing there?"
+    },
+    {
+      "start": 574.8,
+      "end": 597.2,
+      "speaker": "D",
+      "text": "When I speak to the oil companies, they really want to distance themselves from that particular deal. This is a very unconventional joint venture, which is gonna see, you know, the Pentagon essentially finance a private company and take a share of its production. That's not a conventional deal for the oil industry. And they're all trying to stress that, you know, that's not how they're going about doing things."
+    },
+    {
+      "start": 598,
+      "end": 602.4,
+      "speaker": "B",
+      "text": "What would need to change for more companies to move into Venezuela?"
+    },
+    {
+      "start": 603,
+      "end": 632.1,
+      "speaker": "D",
+      "text": "I think there's no doubt that Venezuela is a huge prize. You know, it has incredible oil reserves, but you know, what companies are looking for is the reassurance that they can spend billions of dollars in Venezuela safely, right? A public oil company can't risk that amount of shareholder money without feeling really confident in the legal situation and some predictability, you know, not just in this Venezuelan government, but in the next one and the one after that."
+    },
+    {
+      "start": 632.9,
+      "end": 638.5,
+      "speaker": "B",
+      "text": "Do you think we could see anyone outside of these oil majors take advantage of the opportunity there?"
+    },
+    {
+      "start": 639.2,
+      "end": 670.5,
+      "speaker": "D",
+      "text": "There are a lot of smaller players that are kind of around the edges in Venezuela. And so you're seeing yesterday, for example, Chevron and Eni announced deals, but there were also rumors of a load of smaller companies that were also looking to get a piece of the action. And you know, they're prepared to take more risk. They may be prepared to take on assets that the larger companies don't think are economical. And, you know, they may just have connections to the administration that proved to be helpful to them. Could be any combination of those things."
+    },
+    {
+      "start": 671.1,
+      "end": 674,
+      "speaker": "B",
+      "text": "Malcolm Moore is the FT's energy editor. Thanks, Malcolm."
+    },
+    {
+      "start": 674.3,
+      "end": 674.6,
+      "speaker": "D",
+      "text": "Thanks."
+    },
+    {
+      "start": 679.6,
+      "end": 689,
+      "speaker": "B",
+      "text": "You can read more on all these stories for free when you click the links in our show notes. This has been your daily FT news briefing. Check back tomorrow for the latest business news."
+    },
+    {
+      "start": 703.7,
+      "end": 717.3,
+      "speaker": "A",
+      "text": "Meet Finn, the single customer agent made for the entire journey from qualifying sales leads to resolving support issues. Finn works across teams, carrying context from one conversation to the next. Learn more at finn.ai."
+    },
+    {
+      "start": 718.7,
+      "end": 743.2,
+      "speaker": "E",
+      "text": "With the Spark Cash Plus card from Capital One, you earn unlimited 2% cash back on every purchase, and you get big purchasing power so your business can spend more and earn more. Steven, Brandon, and Bruno, the business owners of Sand Cloud, reinvested their 2% cash back to help build the company's retail presence. Capital One. What's in your wallet? Find out more at capitalone.com/sparkcashplus. Terms apply."
+    }
+  ]
+}

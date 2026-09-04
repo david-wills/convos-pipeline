@@ -1,0 +1,496 @@
+{
+  "episode": {
+    "id": "04a418aa73840a34af59ff9f5a57dc132d87053209e833c44add12bc6bb1927e",
+    "podcastTitle": "The Intelligence from The Economist",
+    "feedUrl": "https://access.acast.com/rss/d556eb54-6160-4c85-95f4-47d9f5216c49",
+    "guid": "6a993426809ae7c2f4293df9",
+    "title": "Ire and ICE: the toll of America’s deportations",
+    "description": "<p>Donald Trump’s stance on <a href=\"https://www.economist.com/leaders/2026/08/27/the-unwelcoming-states-of-america?utm_campaign=a.io&utm_medium=audio.podcast.np&utm_source=theintelligence&utm_content=discovery.content.anonymous.tr_shownotes_na-na_article&utm_term=sa.listeners\" rel=\"noopener noreferrer\" target=\"_blank\">immigration</a> helped him win the presidency. Our correspondent asks if a backlash against the campaign could damage Republican midterm prospects. <a href=\"https://www.economist.com/business/2026/08/20/can-reddit-survive-in-the-ai-era?utm_campaign=a.io&utm_medium=audio.podcast.np&utm_source=theintelligence&utm_content=discovery.content.anonymous.tr_shownotes_na-na_article&utm_term=sa.listeners\" rel=\"noopener noreferrer\" target=\"_blank\">Reddit</a> is struggling in an age of AI. And the enduring beauty of the <a href=\"https://www.economist.com/britain/2026/09/01/france-is-love-bombing-britain?utm_campaign=a.io&utm_medium=audio.podcast.np&utm_source=theintelligence&utm_content=discovery.content.anonymous.tr_shownotes_na-na_article&utm_term=sa.listeners\" rel=\"noopener noreferrer\" target=\"_blank\">Bayeux tapestry</a>.</p><br><p>Guests and host:</p><ul><li>Aryn Braun, West Coast correspondent</li><li>Shera Avi-Yonah, business correspondent</li><li>Alexandra Suich Bass, culture editor</li><li>Rosie Blau, co-host of “The Intelligence”</li><li>Jason Palmer, co-host of “The Intelligence”</li></ul><p><br></p><p>Topics covered:&nbsp;</p><ul><li>Deportation, ICE, immigration, Minneapolis</li><li>Reddit, Google, AI</li><li>Bayeux tapestry, 1066, British Museum</li></ul><p><br></p><p><em>Listen to what matters most, from global politics and business to science and technology—</em><a href=\"https://subscribenow.economist.com/podcasts-plus\" rel=\"noopener noreferrer\" target=\"_blank\"><em>subscribe to The Economist</em></a><em>.</em></p><br><p><br></p>\n\n<hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener ",
+    "pubDate": "2026-09-03T10:07:25.000Z",
+    "duration": 1392,
+    "audioUrl": "https://sphinx.acast.com/p/acast/s/theintelligencepodcast/e/6a993426809ae7c2f4293df9/media.mp3?tk=eyJ0ayI6ImRlZmF1bHQiLCJhZHMiOnRydWUsInNwb25zIjp0cnVlLCJzdGF0dXMiOiJwdWJsaWMifQ==&sig=wC8-L8WPLbYX_F-G71VsNBS_Fz_hD_rK4E-Ouk9VrlA",
+    "artworkUrl": "https://assets.pippa.io/shows/62e286a934d4d93d6587424a/1788425218907-a081bca4-2fd9-47a9-8e35-a7765d484de9.jpeg"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1478,
+    "utteranceCount": 70
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:36.979Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Trump's Quiet Deportation Machine",
+      "description": "West Coast correspondent Arun Braun breaks down how America's mass deportation campaign has shifted from dramatic street raids to a quieter but more aggressive interior enforcement operation.",
+      "startTime": 0.122,
+      "endTime": 454.102,
+      "anchorPhrase": "customers shouldn't have to start from scratch every time they need help. that's why we"
+    },
+    {
+      "index": 1,
+      "title": "Immigration Backlash at the Ballot Box",
+      "description": "With midterms approaching, polling shows Trump's immigration approval has gone underwater, and Hispanic voters — a key 2024 coalition — are turning against ICE.",
+      "startTime": 454.102,
+      "endTime": 622.295,
+      "anchorPhrase": "and what do ordinary americans think about all of this? this is the million-dollar question"
+    },
+    {
+      "index": 2,
+      "title": "Reddit's AI-Era Identity Crisis",
+      "description": "Business correspondent Shira Avi-Yonah explains why Reddit's stock has plunged as Google's AI Overviews threaten to drain the traffic that keeps its ad business alive.",
+      "startTime": 622.295,
+      "endTime": 901.79,
+      "anchorPhrase": "reddit is one of those places on the internet that can feel bottomless. it's a"
+    },
+    {
+      "index": 3,
+      "title": "Can Reddit Survive Without Google?",
+      "description": "Reddit faces a strategic fork: renegotiate its data deals with AI giants or bet on building a loyal direct user base through its app.",
+      "startTime": 901.79,
+      "endTime": 1039.557,
+      "anchorPhrase": "so what's to be done then, given that this relationship is already sort of set"
+    },
+    {
+      "index": 4,
+      "title": "The Bayeux Tapestry Comes Home",
+      "description": "Culture editor Alexandra Suich Bass witnesses the secretive overnight arrival of the Bayeux Tapestry at the British Museum — its first-ever exhibition outside France in nearly a millennium.",
+      "startTime": 1039.557,
+      "endTime": 1370.86,
+      "anchorPhrase": "on a sultry summer night, as a slumbering london slipped into the witching hour, i"
+    },
+    {
+      "index": 5,
+      "title": "A Medieval Masterpiece, Still Speaking",
+      "description": "From Napoleon's obsession to Nazi theft attempts, the tapestry's turbulent survival story mirrors the timeless human themes of power, loss, and art-making it depicts.",
+      "startTime": 1370.86,
+      "endTime": 1478,
+      "anchorPhrase": "the people who are living through that, i mean, just the kind of strife and"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.1,
+      "end": 13.7,
+      "speaker": "A",
+      "text": "Customers shouldn't have to start from scratch every time they need help. That's why we built Finn. Finn answers questions, helps buyers find what they need, and remembers the context from one conversation to the next. Learn more at finn.ai."
+    },
+    {
+      "start": 20.9,
+      "end": 21.6,
+      "speaker": "B",
+      "text": "The Economist."
+    },
+    {
+      "start": 27.4,
+      "end": 29.9,
+      "speaker": "C",
+      "text": "Hello and welcome to The Intelligence from The Economist. I'm Rosie Bloor."
+    },
+    {
+      "start": 31.9,
+      "end": 32.8,
+      "speaker": "B",
+      "text": "And I'm Jason Palmer."
+    },
+    {
+      "start": 37,
+      "end": 70,
+      "speaker": "C",
+      "text": "Today on the show, has Reddit had it in the age of AI? And the Bayer tapestry conquers Britain. First up though. Donald Trump has been talking about how he'd deal with illegal immigrants since long before he was elected for a second term."
+    },
+    {
+      "start": 70.3,
+      "end": 77,
+      "speaker": "D",
+      "text": "The Republican platform promises to launch the largest deportation operation in the history of our country."
+    },
+    {
+      "start": 78.9,
+      "end": 81.5,
+      "speaker": "C",
+      "text": "And he certainly followed through on that promise."
+    },
+    {
+      "start": 81.8,
+      "end": 86,
+      "speaker": "E",
+      "text": "The one you're arresting is the true American hero."
+    },
+    {
+      "start": 86.1,
+      "end": 86.7,
+      "speaker": "C",
+      "text": "Off the street."
+    },
+    {
+      "start": 86.9,
+      "end": 87.3,
+      "speaker": "F",
+      "text": "Back it up."
+    },
+    {
+      "start": 90.3,
+      "end": 90.5,
+      "speaker": "G",
+      "text": "Stop!"
+    },
+    {
+      "start": 90.8,
+      "end": 105.6,
+      "speaker": "C",
+      "text": "Openly on the streets of Minneapolis, Chicago, and elsewhere, and in recent months, much more quietly. But is a policy that helped elect Trump as president now taking a political toll?"
+    },
+    {
+      "start": 107.3,
+      "end": 116.7,
+      "speaker": "D",
+      "text": "Barack Obama, a Democrat, was known as a deporter-in-chief. He removed something like 430,000 people in 2013."
+    },
+    {
+      "start": 116.9,
+      "end": 119.2,
+      "speaker": "C",
+      "text": "Arun Braun is our West Coast correspondent."
+    },
+    {
+      "start": 120.2,
+      "end": 137.6,
+      "speaker": "D",
+      "text": "And he did that by focusing on recent border crossers and people in jails and prisons. Donald Trump has to do something much different because the border is quiet. So he's focusing on the interior of the country, arresting people on streets, in their homes, and that's much more visible to the American people."
+    },
+    {
+      "start": 140.4,
+      "end": 145.1,
+      "speaker": "C",
+      "text": "Aaron, how many people have been deported since Trump took office for a second time?"
+    },
+    {
+      "start": 146,
+      "end": 191,
+      "speaker": "D",
+      "text": "This is a great question, Rosie, and we don't actually know the answer because the Trump administration has not published official removal statistics since the president took office in January 2025. But the administration claims that they have deported a million people and about 2.2 million more have left voluntarily. Now, that's just what a Department of Homeland Security spokesman is telling me in an email, but the direction of travel is certainly becoming clear. In July, ICE arrested 50,000 people. That's a record for the agency. Immigration judges are issuing removal orders at a remarkable pace. So we can see the campaign is really starting to ramp up at this point."
+    },
+    {
+      "start": 192,
+      "end": 199.5,
+      "speaker": "C",
+      "text": "And you say the focus for this administration is people who've been living in the states for a long time. Who are these people?"
+    },
+    {
+      "start": 200.6,
+      "end": 259.4,
+      "speaker": "D",
+      "text": "I wouldn't say the administration is focusing specifically on those people, but because they need to focus on interior arrests rather than people who are just walking across the border, those folks who have been living in the US for potentially decades are getting caught up in the dragnet. And so you have people who perhaps have been undocumented for decades that are getting caught up in the mass deportation campaign. But you also have this novel legal strategy that the administration is using to strip people who are in America legally of their legal status. You think about Haitians in Ohio, for example, who have temporary protected status who are now being fitted with ankle monitors and who are now vulnerable to deportation. People who were let in on humanitarian parole during the Biden administration are now vulnerable to deportation. And this is a novel strategy. We've never really seen anything like this from other presidents before."
+    },
+    {
+      "start": 260.4,
+      "end": 276.3,
+      "speaker": "C",
+      "text": "Earlier in the year, we had extraordinary scenes in Minneapolis. There were thousands of federal agents on the streets 2 people were killed in those protests, and yet we haven't seen anything like that for some months now. So what's going on?"
+    },
+    {
+      "start": 277.4,
+      "end": 368.5,
+      "speaker": "D",
+      "text": "Yeah, I think that that was sort of the Minneapolis effect, right? Like, Americans were really horrified by what they saw on the streets in Minneapolis. Border Patrol agents assaulting protesters, like you say, 2 American citizens killed, and the administration really was on the back foot after that. I think it's fair to say they sacked Kristi Noem, the Department of Homeland Security Secretary, Tom Homan got sent in, Donald Trump's border czar, to kind of clean up the mess. And so after that, things really quieted down. You had Markwayne Mullin come in to lead DHS. He was a senator for Oklahoma. He said in his confirmation hearing he didn't want to be in the news. He wanted to do a kind of quiet, effective job. And he's been aided by $70 billion more that Congress has now appropriated for immigration enforcement. And so now I think The mass deportation campaign is much quieter. It's a bit less visible, but it's even more effective. And it's still aggressive. I mean, if you think about, for example, the way that ICE agents are using technology to target people, there's court testimony that shows an agent saying that he pulls up an app on his phone created by Palantir, and it basically gives them a map, he says, like Google Maps, in which he can see all of the potential immigrants that they might be able to target in the area that they're in. And that's how they make their targets. Target lists. So it's still an incredibly aggressive campaign. It's just not as focused on these showy theatrical raids."
+    },
+    {
+      "start": 369.1,
+      "end": 379.2,
+      "speaker": "C",
+      "text": "So what happens after people are arrested? As you say, lots of people are being targeted. Presumably there isn't reason to deport all of them. Can they argue their case?"
+    },
+    {
+      "start": 380.1,
+      "end": 453.3,
+      "speaker": "D",
+      "text": "So after an immigrant gets picked up by ICE, they go through proceedings in immigration court, and these courts are run by the Department of Justice. It's not an independent court system by any means. I went to an immigration court in Los Angeles for half of a day just to sit in on proceedings and see what they were like. And the courts are so overcrowded with cases. Judges are hearing, you know, what folks are calling these mega master hearings, which is 50 cases, 100 cases in a 3-hour setting. Immigrants and their families are clogging the hallways of judicial buildings. The judge that I was watching just had his eyes trained on the clock the whole time. He was so worried about getting through. You know, the 96 cases that he had on the docket that morning. And these hearings are being changed around. Immigrants aren't getting as much notice for when they need to show up in court. If they show up in court, they might be unprepared. They might not have a lawyer. They might not show up at all. And I think that's part of the administration's strategy. If a migrant doesn't show up in court, they can be ordered removed in absentia, it's called. And that's a way for the administration to just continue to rack up more removal orders."
+    },
+    {
+      "start": 454.1,
+      "end": 456.2,
+      "speaker": "C",
+      "text": "And what do ordinary Americans think about all of this?"
+    },
+    {
+      "start": 457.2,
+      "end": 526.6,
+      "speaker": "D",
+      "text": "This is the million-dollar question that I'm thinking a lot about as we head into the midterms. Donald Trump has campaigned on immigration. It's been the issue that arguably has won him both of his campaigns. But now his net approval rating for immigration is underwater. Americans writ large are not happy with the level of force that ICE has been using to carry out the deportation campaign. Roughly half of Americans say they support abolishing ICE. And one of the most interesting things that I'm tracking is how Hispanic voters are reacting to the mass deportation campaign. They really helped Donald Trump secure his victory in 2024. He had record support among Hispanic voters. But more than the other ethnic groups, Hispanics do not like what is going on with ICE. They are 10 percentage points more likely to say they want to abolish the agency. And so that might have a big effect on who wins swingy House seats in South Texas or in California, for example. Americans were promised a deportation campaign that would go after criminals and gang members, and that's not what's being delivered."
+    },
+    {
+      "start": 527.7,
+      "end": 532.8,
+      "speaker": "C",
+      "text": "Aaron, we can hear more from you on this subject on the current edition of Checks and Balance."
+    },
+    {
+      "start": 533.9,
+      "end": 546.7,
+      "speaker": "D",
+      "text": "Yes, John Prado and James Bennett and I talk at length about deportations, as well as a reporting trip I just took to the border to see how the border wall is finally being built."
+    },
+    {
+      "start": 547.4,
+      "end": 553.7,
+      "speaker": "C",
+      "text": "And there's also been a discussion about this on Insider as well. So lots of other things to listen to. Arun, thank you so much."
+    },
+    {
+      "start": 554.5,
+      "end": 555.1,
+      "speaker": "D",
+      "text": "Thank you, Rosie."
+    },
+    {
+      "start": 567.9,
+      "end": 597.2,
+      "speaker": "B",
+      "text": "This Intelligence podcast is sponsored by Zurich Insurance, helping businesses meet new opportunities Prepare. Meet change prepared. Meet growth prepared. Because with experienced professionals who understand your industry, decades of risk engineering expertise, and one of the world's largest commercial insurance networks, Zurich Insurance helps businesses understand risk, build resilience, and move forward with confidence. Meet tomorrow prepared with Zurich Insurance."
+    },
+    {
+      "start": 599.7,
+      "end": 613.3,
+      "speaker": "A",
+      "text": "Meet Finn, the single customer agent made for the entire journey. From qualifying sales leads to resolving support issues, issues, Finn works across teams, carrying context from one conversation to the next. Learn more at finn.ai."
+    },
+    {
+      "start": 622.3,
+      "end": 649.8,
+      "speaker": "B",
+      "text": "Reddit is one of those places on the internet that can feel bottomless. It's a sort of self-governing internet forum whose design encourages diversity. Whatever your interest or curiosity or obsession, there's a subreddit for it. It bills itself as the heart of the internet, but there are palpitations. Reddit's shareholders are rightly worried about what happens to all that sweet, sweet human-generated stuff in the era of AI."
+    },
+    {
+      "start": 651.1,
+      "end": 656.2,
+      "speaker": "E",
+      "text": "Reddit has had a difficult time as of late. Its share price has dropped by about a third this year."
+    },
+    {
+      "start": 657.3,
+      "end": 660,
+      "speaker": "B",
+      "text": "Shira Avayona is a business correspondent for The Economist."
+    },
+    {
+      "start": 661,
+      "end": 680.1,
+      "speaker": "E",
+      "text": "If you've done a Google search lately, you might have noticed one reason why. That AI-generated box at the top above the old-school 10 blue links. Investors worry that if people get their information from that box and not from links like sites to Reddit, that will hurt its traffic and therefore its business."
+    },
+    {
+      "start": 682.8,
+      "end": 687.7,
+      "speaker": "B",
+      "text": "So before we get into what sort of business model troubles it's got, what is its business model?"
+    },
+    {
+      "start": 688.4,
+      "end": 772.4,
+      "speaker": "E",
+      "text": "So Reddit's executives like to say that it's kind of neither fish nor fowl. It's not quite social media, and in fact, it kind of harkens back to the old forums of the early internet in the '90s. So some of its business is like Instagram, which generates profit from an ads business that's based on serving users things that might be relevant to them. But some of it is also like Wikipedia in that it relies very heavily on an army of volunteer moderators that, you know, police their individual subforums or subreddits in its parlance. And in fact, this kind of tension between being kind of like social media but kind of not has caused Reddit problems in the past. So for example, in 2023, many of Reddit's volunteer moderators went on strike after the company announced that it would start charging for access to its application programming interface, or API. Which many independent developers used to kind of build apps off Reddit. But in the end, the platform stuck with the policy. And in fact, at the time, it may not have had small developers in mind because the following year it announced deals with Google and OpenAI, who reportedly agreed to pay $60 and $70 million a year to use Reddit's data to, in part, train AI chatbots like ChatGPT."
+    },
+    {
+      "start": 773.5,
+      "end": 777.5,
+      "speaker": "B",
+      "text": "And why is Reddit's data worth so much to the likes of Google and OpenAI?"
+    },
+    {
+      "start": 778.5,
+      "end": 838.5,
+      "speaker": "E",
+      "text": "So a study commissioned by the company showed that at least among many leading American chatbots, Reddit is the most cited source. And one super valuable use of its data is generating product recommendations. So some really popular subreddits like Buy It for Life, but also my personal favorite, Skincare Addiction, have a really passionate community of people that will give you honest, non-sponsored product reviews. And Reddit says that about 40% of conversations across the site as a whole relate to commercial activity in some shape or form, and a lot of that is shopping. And having that kind of corpus of high-quality reviews, and in fact human debate about, well, which dishwasher lasts longer and which hair dryer is better, is really useful for AI chatbots that want to generate their own shopping recommendations and in fact themselves one day hope to make revenue off of presenting products to users and then taking a cut when they buy them."
+    },
+    {
+      "start": 839.9,
+      "end": 849.3,
+      "speaker": "B",
+      "text": "So in turn, they want to make recommendations and sell ads against them. So Reddit has sold its golden goose already though to these chatbot makers."
+    },
+    {
+      "start": 849.9,
+      "end": 900.9,
+      "speaker": "E",
+      "text": "As of late, Google's relationship with Reddit in particular has become a bit less of a two-way street. So for years it directed a lot of search traffic Reddit's way. Uh, you can think of the kind of classic search tool of just appending Reddit to your query if you wanted results from Reddit comments. But as Google steers people away from sending them to other sites and toward its own kind of AI Overview of information that might affect Reddit's traffic, investors worry. Reddit stock took its largest ever single-day plunge in July after it said that, quote, choppy search referrals may have hurt. And independent data suggests that the average amount of time per user spent on Reddit's app has been dropping too in recent months."
+    },
+    {
+      "start": 901.8,
+      "end": 906.2,
+      "speaker": "B",
+      "text": "So what's to be done then, given that this relationship is already sort of set in stone?"
+    },
+    {
+      "start": 907.2,
+      "end": 991.3,
+      "speaker": "E",
+      "text": "So Reddit has two main options. One is to bargain for a better deal with Google and other companies now that it knows just how valuable its data is. And the company is reportedly working on negotiating those agreements, although it hasn't said whether or not it's committed to re-upping the ones that it made several years ago. It's also sued a number of AI companies with whom it didn't make agreements. Saying that they illegally used its data to train AI chatbots anyway. And if it wins those lawsuits, that might give it useful leverage in future negotiations if it decides to go down that route. But I think the second path is probably the one that Reddit's executives have suggested they would prefer, which is rather than becoming a kind of data mine for other companies to attract more users to come to its site and even more its app directly without needing to be referred either from a chatbot or from search. So in its last earnings call, its boss Steve Huffman said that traffic from search is not where the business lives, and it hopes that more people will create an account, log into the app, and that that will help it make its ads business, which is growing really rapidly already. Be the kind of cornerstone of its revenue rather than training deals."
+    },
+    {
+      "start": 995,
+      "end": 999,
+      "speaker": "B",
+      "text": "Any specific skincare recommendations for me on the basis of what you've learned on Reddit?"
+    },
+    {
+      "start": 999,
+      "end": 1004.9,
+      "speaker": "E",
+      "text": "Wear sunscreen. I really like the cheap Japanese ones that you can get in convenience stores there."
+    },
+    {
+      "start": 1005.3,
+      "end": 1005.6,
+      "speaker": "H",
+      "text": "Right."
+    },
+    {
+      "start": 1005.8,
+      "end": 1006.5,
+      "speaker": "E",
+      "text": "Not sponsored."
+    },
+    {
+      "start": 1008.5,
+      "end": 1012.9,
+      "speaker": "B",
+      "text": "Other brands are available. Shira, thanks very much for your time."
+    },
+    {
+      "start": 1013.2,
+      "end": 1013.7,
+      "speaker": "E",
+      "text": "Thanks, Jason."
+    },
+    {
+      "start": 1039.6,
+      "end": 1046.2,
+      "speaker": "H",
+      "text": "On a sultry summer night, as a slumbering London slipped into the witching hour, I made my way to the British Museum."
+    },
+    {
+      "start": 1048,
+      "end": 1050.8,
+      "speaker": "C",
+      "text": "Alexandra Sewicz Bass is The Economist's culture editor."
+    },
+    {
+      "start": 1053.5,
+      "end": 1054.4,
+      "speaker": "G",
+      "text": "Sounds like a lorry."
+    },
+    {
+      "start": 1056.1,
+      "end": 1088.7,
+      "speaker": "H",
+      "text": "Standing at a loading bay, I waited until a truck loomed out of the darkness. Chaperoned by a police an undisclosed location in France. This delivery is why we were all here, to witness a homecoming some 900 years in the making. An enormous crate was unloaded and ushered inside. There, a small army of curators began the breathless task of unfurling its cargo, slowly revealing an epic saga of war and conquest."
+    },
+    {
+      "start": 1090.1,
+      "end": 1101.3,
+      "speaker": "G",
+      "text": "You start to get these kind of glimpses of the story that you're used to, and you're going to predict what the next kind of bit is. So a bit geeky, really, but it was just amazing just to kind of say, oh my gosh, we're going to see this now, and that's going to come off."
+    },
+    {
+      "start": 1102.4,
+      "end": 1166.3,
+      "speaker": "H",
+      "text": "Stretching the length of a Boeing 747, the Bayeux Tapestry is the only surviving work of medieval art of its size. Though it was likely stitched in England, it's named after the French town where it's lived for close to a millennium. Its much-anticipated exhibition at the British Museum is the first outside of France. The tapestry depicts William the Bastard turned Conqueror's invasion of England in 1066. It begins with England's childless king Edward sending a nobleman named Harold to Normandy Once there, he befriends William and appears to swear an oath that William should have the crown. But when Edward dies, Harold breaks his promise and claims the throne. High above, the cosmos voice their displeasure. Halley's Comet blazes across the sky, an omen of doom. Then comes the war."
+    },
+    {
+      "start": 1166.5,
+      "end": 1168.3,
+      "speaker": "D",
+      "text": "War!"
+    },
+    {
+      "start": 1168.7,
+      "end": 1186.4,
+      "speaker": "H",
+      "text": "William and his Norman countrymen are They're easily identified by their odd hairstyle—long locks in the front, shaved bald in the back. Their English rivals, meanwhile, sport mustaches. Medieval as the scene is, there's something immediately legible about it."
+    },
+    {
+      "start": 1186.7,
+      "end": 1194.7,
+      "speaker": "G",
+      "text": "It has that kind of three-dimensional look, those cartoon-like characters. They have an immediacy, don't they, that makes you kind of quite familiar with it."
+    },
+    {
+      "start": 1195.2,
+      "end": 1198.5,
+      "speaker": "H",
+      "text": "Michael Lewis is one of the curators behind the exhibition."
+    },
+    {
+      "start": 1199,
+      "end": 1208.3,
+      "speaker": "G",
+      "text": "It's a sort of style that we're familiar with nowadays in other ways, so for example cartoon books or graphic novels, you know, there's something about that that you kind of easily kind of relate to."
+    },
+    {
+      "start": 1209.9,
+      "end": 1212.5,
+      "speaker": "E",
+      "text": "Indeed, this bit is cartoonishly brutal."
+    },
+    {
+      "start": 1213.6,
+      "end": 1256.9,
+      "speaker": "H",
+      "text": "The battlefield is strewn with stripped corpses, felled horses, flying arrows, and pointed suffering. Harold is killed, English troops The troops flee. William is victorious. And then— we don't know how it ends, do we? No. That's because the end of the tapestry is missing. It's theorized that it once showed William's triumphant coronation, but no one knows for sure. One expert told me it could have gone on for a few centimeters or even a few meters. But this air of mystery is part of what makes it so compelling."
+    },
+    {
+      "start": 1258.6,
+      "end": 1280.6,
+      "speaker": "F",
+      "text": "I think things that you have to kind of fill in the blanks are more alluring than if everything is— I don't want to use the phrase nailed down because that feels unfortunate for a tapestry, but I think the fact that there is something missing, it kind of actually invites you in as both a narrative, but, you know, as a supreme piece of medieval arts, to engage with it and think about about why it was made, what's missing, what it means. It's an object with real presence."
+    },
+    {
+      "start": 1281.4,
+      "end": 1287.4,
+      "speaker": "H",
+      "text": "As Nick Cullinan, the British Museum's director, explained to me, much of the tapestry's creation remains unknown."
+    },
+    {
+      "start": 1288.4,
+      "end": 1314.7,
+      "speaker": "F",
+      "text": "Who commissioned it, who made it, and how was it actually all done? You know, it's a 70-plus-meter tapestry. The physical act of embroidering that, how many hands, you know, probably women, probably nuns. It was probably done outside because of of the Leaning Lights. I just think the idea of, like, all of these nuns sitting in a field is— I mean, something that's so monumental but is so intimate in its making is really interesting."
+    },
+    {
+      "start": 1316.1,
+      "end": 1369,
+      "speaker": "H",
+      "text": "Whoever held the needle, their work still has so much to offer. The richly embroidered linen teems with 737 animals and 627 people. There are the Latin phrases, the Aesop's Fables in the margins, the oddly prominent genitalia. And then there's all the timestamps it's collected over the centuries. The little artistic liberties restorers have taken. An arrow hitting an eye here, a man wrapped in a vine there. And of course, there's the story of its survival. How it dodged being ripped up for wagon covers during the French Revolution. Napoleon's fondness for its visions of victory over the English, the Nazis' efforts to steal it. At its heart, it evokes unchanging themes of the human experience: promises and power, suffering and salvation."
+    },
+    {
+      "start": 1370.9,
+      "end": 1396,
+      "speaker": "G",
+      "text": "The people who are living through that, I mean, just the kind of strife and turmoil that they would have experienced around them. And if you think of the women who embroidered the tapestry, then they probably would would be reflecting on some of this as they do those stitches. You know, there's scenes of women experiencing violence, there's scenes of houses being plundered, there's scenes of men being killed. So this probably would have hit them pretty hard as they were creating this embroidery."
+    },
+    {
+      "start": 1396.2,
+      "end": 1411.4,
+      "speaker": "H",
+      "text": "It's a tableau that's as tragic as it is timeless. A world ravaged by violence, survivors seeking solace and understanding in art. These threads stretch across time and generations."
+    },
+    {
+      "start": 1439.6,
+      "end": 1443.9,
+      "speaker": "C",
+      "text": "That's it for this episode of The Intelligence. We'll see you back here tomorrow."
+    },
+    {
+      "start": 1462.2,
+      "end": 1475.9,
+      "speaker": "A",
+      "text": "Customers shouldn't have to start from scratch every time they need help. That's why we built Finn. Finn answers questions, helps buyers find what they need, and remembers the context from one conversation to the next. Learn more at finn.ai."
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "episode": {
+    "id": "7a73e11fcec19f005d1b80aee7d0bd7c689a6782fe12a1cc042320871f2b0a4b",
+    "podcastTitle": "Reuters World News",
+    "feedUrl": "https://feeds.megaphone.fm/reutersworldnews",
+    "guid": "https://pdst.fm/e/traffic.megaphone.fm/THRH9204196812.mp3",
+    "title": "UPDATE: Gloria Steinem, Iran's economy and the Pentagon's testosterone pullback",
+    "description": "Iran's beginning to buckle under the strain of recent U.S. economic pressure, according to Iranian sources. Feminist leader Gloria Steinem dies at the age of 92. Trump's pledge to get U.S. finances under control falls flat, creating a looming fiscal crunch. And Denmark deploys conscripts to Greenland for the first time in recent history.\n\n\n📲 Podcasts, breaking news, and video analysis from the source. ⁠⁠⁠⁠Download the Reuters app here.⁠⁠⁠⁠\n\nListen to the Morning Bid podcast ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠.\n\nSign up for the Reuters Econ World newsletter ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠. \n\nListen to the Reuters Econ World podcast ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠.\n\nVisit the ⁠⁠Thomson Reuters Privacy Statement⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ for information on our privacy and data protection practices. \n\nYou may also visit megaphone.fm/adchoices to opt out of targeted advertising.\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+    "pubDate": "2026-09-03T19:29:00.000Z",
+    "duration": 718,
+    "audioUrl": "https://pdst.fm/e/traffic.megaphone.fm/THRH9204196812.mp3",
+    "artworkUrl": "https://megaphone.imgix.net/podcasts/af311efa-a770-11f1-8b3c-7ffeea798ae5/image/c7ab3eb590176bb42a5dec5bc4e9378f.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 656,
+    "utteranceCount": 31
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:29.346Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Headlines in 60 Seconds",
+      "description": "Hosts preview the day's top stories: Iran's economic strain, the $40 trillion national debt, and Gloria Steinem's death.",
+      "startTime": 0,
+      "endTime": 70.506,
+      "anchorPhrase": "hi, i'm carmel crimmins in dublin. and i'm christopher wall jesper in chicago. it's thursday,"
+    },
+    {
+      "index": 1,
+      "title": "Iran's Economy on the Brink",
+      "description": "US sanctions have slashed Iran's oil exports and crushed its currency, with sources warning only two months of gasoline supply remain.",
+      "startTime": 70.506,
+      "endTime": 150.582,
+      "anchorPhrase": "iran's economy is showing signs of buckling under a us blockade and expanded sanctions. that's"
+    },
+    {
+      "index": 2,
+      "title": "Pentagon's Testosterone Test U-Turn",
+      "description": "The Defense Department quietly pulled new guidance mandating testosterone screening for all service members just one day after posting it.",
+      "startTime": 150.582,
+      "endTime": 197.01,
+      "anchorPhrase": "the pentagon has temporarily pulled back new clinical guidance that would have mandated testosterone deficiency"
+    },
+    {
+      "index": 3,
+      "title": "Gloria Steinem's Fearless Legacy",
+      "description": "The feminist icon and co-founder of Ms. Magazine died at 92, leaving behind five decades of activism for women's equality and social justice.",
+      "startTime": 197.01,
+      "endTime": 284.099,
+      "anchorPhrase": "gloria steinem, the iconic feminist leader, journalist, and co-founder of ms. magazine, has died at"
+    },
+    {
+      "index": 4,
+      "title": "Birthright Citizenship Blocked Again",
+      "description": "A federal judge strikes down Trump's second attempt to limit birthright citizenship, while Democrats push back against capping the Supreme Court at nine justices.",
+      "startTime": 284.099,
+      "endTime": 355.084,
+      "anchorPhrase": "for the second time, a federal judge is blocking president trump's attempt to limit birthright"
+    },
+    {
+      "index": 5,
+      "title": "America's $40 Trillion Debt Spiral",
+      "description": "Tax cuts, rising interest costs, and stalled spending reforms have pushed the national debt past a historic milestone, with no easy exit in sight.",
+      "startTime": 355.084,
+      "endTime": 524.52,
+      "anchorPhrase": "wayfair, every style, every home. president donald trump came back to the white house promising"
+    },
+    {
+      "index": 6,
+      "title": "Denmark Sends Troops to Greenland",
+      "description": "For the first time in recent history, Danish conscripts are deployed to Greenland as Copenhagen flexes its Arctic presence amid US territorial demands.",
+      "startTime": 524.52,
+      "endTime": 584.904,
+      "anchorPhrase": "this month. thanks, mike. remember, you can get morning bid wherever you get your podcasts."
+    },
+    {
+      "index": 7,
+      "title": "NYC Bans AI in Elementary Schools",
+      "description": "New York City Mayor Zoran Mamdani announces the country's most restrictive AI policy for public schools, blocking its use for younger children for a full year.",
+      "startTime": 584.904,
+      "endTime": 656,
+      "anchorPhrase": "children need their teachers and human connection in order to learn and in order to"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0,
+      "end": 1.6,
+      "speaker": "A",
+      "text": "Hi, I'm Carmel Crimmins in Dublin."
+    },
+    {
+      "start": 2,
+      "end": 13.5,
+      "speaker": "B",
+      "text": "And I'm Christopher Wall Jesper in Chicago. It's Thursday, September 3rd. Today: Iran's economy begins to show signs of strain as US economic pressure takes its toll."
+    },
+    {
+      "start": 14.8,
+      "end": 19.6,
+      "speaker": "A",
+      "text": "Trump came to Washington promising to balance the books, but the national debt has hit $40 trillion."
+    },
+    {
+      "start": 20.5,
+      "end": 24.8,
+      "speaker": "B",
+      "text": "And feminist icon Gloria Steinem has died at the age of 92."
+    },
+    {
+      "start": 25.9,
+      "end": 32.3,
+      "speaker": "A",
+      "text": "This is Reuters World News. Bringing you everything you need to know from the front lines in 10 minutes, 7 days a week."
+    },
+    {
+      "start": 37.4,
+      "end": 64.5,
+      "speaker": "C",
+      "text": "Who says Halloween only lasts one day? With Wayfair, one night of Halloween becomes a whole season at home. From larger-than-life yard decor and moody lighting to festive accents for every room in the house, Wayfair has what you need to make Halloween feel like magic all in one place. Because the best Halloween memories aren't made in just one night. They're made all season long. Shop Halloween decor now at wayfair.com. That's wayfair.com."
+    },
+    {
+      "start": 64.6,
+      "end": 65.5,
+      "speaker": "D",
+      "text": "Wayfair."
+    },
+    {
+      "start": 65.5,
+      "end": 66.8,
+      "speaker": "A",
+      "text": "Every style, every home."
+    },
+    {
+      "start": 70.5,
+      "end": 115.8,
+      "speaker": "B",
+      "text": "Iran's economy is showing signs of buckling under a US blockade and expanded sanctions. That's according to 3 senior Iranian sources. Oil exports have collapsed to just 260,000 barrels a day. That's down from 1.7 million a year ago. Iran's currency has lost more than half its value. Inflation is near 70%. And one source says Iran has only 2 months of gasoline supply left. The squeeze is cutting off Tehran's access to foreign currency and international financing networks that it's used to skirt previous sanctions for decades. The strain could bring Iran back to the negotiation table, but Iran officials warn they could respond with further military escalation."
+    },
+    {
+      "start": 117.2,
+      "end": 148.6,
+      "speaker": "A",
+      "text": "Reuters has learned Tehran is warning Washington it would launch a large-scale attack if Israel moves on a contested ridge in southern Lebanon. According to two officials, Iranian Revolutionary Guard members, including senior officers, are there alongside Hezbollah fighters. Iran's warning, delivered via Oman last month, appears to have worked for now. One official says US pressure has led Israel to hold off on storming the site. But Lebanese security officials warn an Israeli operation there could still come within weeks."
+    },
+    {
+      "start": 150.6,
+      "end": 181.1,
+      "speaker": "B",
+      "text": "The Pentagon has temporarily pulled back new clinical guidance that would have mandated testosterone deficiency screening for all service members aged 30 and above. The guidance calling for blood tests for men and women to be screened for fatigue and menstrual irregularities was posted to the Defense Department's website on Wednesday, but just a day later, it was removed. A U.S. official told Reuters the draft is being rescinded to allow for updates and interim guidance remains in effect."
+    },
+    {
+      "start": 182,
+      "end": 195.6,
+      "speaker": "A",
+      "text": "Medical experts are pushing back, saying there's little scientific evidence that universal screening for low testosterone would improve U.S. combat readiness. The FDA is set to convene its own expert panel on testosterone use later this month."
+    },
+    {
+      "start": 197,
+      "end": 204.4,
+      "speaker": "B",
+      "text": "Gloria Steinem, the iconic feminist leader, journalist, and co-founder of Ms. Magazine, has died at the age of 92."
+    },
+    {
+      "start": 205.1,
+      "end": 228.4,
+      "speaker": "E",
+      "text": "You know, sometimes reporters say to me, what are you most proud of? And I always say, I haven't done it yet. Because, you know, I live in the future and I live in the present. I don't, I don't live in the past, but But I feel lucky, I feel, you know, exultant, I feel angry, I feel all the emotions of life about what's come before."
+    },
+    {
+      "start": 229.6,
+      "end": 254.6,
+      "speaker": "B",
+      "text": "For more than 5 decades, she championed women's equality, reproductive rights, and social justice. Steinem helped found New York Magazine in the '60s and the National Women's Political Caucus in the early '70s. And in 1963, she published a groundbreaking exposé after spending 11 days as a Playboy Bunny, revealing the poor pay and sexist treatment women endured."
+    },
+    {
+      "start": 254.7,
+      "end": 268.5,
+      "speaker": "E",
+      "text": "It, it almost destroyed me. It was a big mistake. I was just beginning to be taken seriously. And once you're seen as a bunny, you're finished. At least then, and pretty much now too."
+    },
+    {
+      "start": 269.2,
+      "end": 282.5,
+      "speaker": "B",
+      "text": "Steinem became the face of a second wave of feminism, emphasizing that the movement must include women of every race. President Obama awarded her the Presidential Medal of Freedom in 2013."
+    },
+    {
+      "start": 284.1,
+      "end": 326.4,
+      "speaker": "A",
+      "text": "For the second time, a federal judge is blocking President Trump's attempt to limit birthright citizenship. The latest executive order signed in August came after the Supreme Court struck down Trump's original effort. Judge Deborah Boardman ruled the new order is almost certainly unconstitutional, saying the court has already decided the children covered by the case are citizens at birth. And sticking with the courts, Democrats are blocking a Republican push to permanently cap the number of Supreme Court justices at 9. Republicans had pushed the amendment to lock in the court's current 6-3 conservative majority ahead of the midterms. Democrats are proposing expanding the court to 13 justices."
+    },
+    {
+      "start": 330.6,
+      "end": 355,
+      "speaker": "C",
+      "text": "Who says Halloween only lasts one day? With Wayfair, one night of Halloween becomes a whole season at home. From larger-than-life yard decor and moody lighting to festive accents for every room in the house, Wayfair has what you need to make Halloween feel like magic all in one place. Because the best Halloween memories aren't made in just one night. They're made all season long. Shop Halloween decor now at Wayfair.com."
+    },
+    {
+      "start": 355.1,
+      "end": 392.9,
+      "speaker": "A",
+      "text": "Wayfair, every style, every home. President Donald Trump came back to the White House promising to get the US's finances in order, but the national debt crossed a milestone this summer, surging past $40 trillion. Budget experts say tax cuts, higher spending, rising borrowing costs, and the Iran conflict have pushed finances deeper into the red. The White House argues economic growth will ultimately ease the burden. But as reporter Jacob Bogage explains, with midterm elections coming and interest costs climbing, tough choices could be ahead."
+    },
+    {
+      "start": 393.7,
+      "end": 459.4,
+      "speaker": "F",
+      "text": "President Trump said he was gonna come into office and try to balance the budget and do so either through economic growth or through cutting spending. Well, the economy's grown, but a lot of the benefits of that have been wiped out by inflation. A lot of that caused by his own tariffs. And then on cost cutting, he rolls out the U.S., uh, Department of Government Efficiency, or the U.S. DOJ service, but that didn't really accomplish very much. And so what we really have is government operations and government spending that's flat along with tax cuts, and that's made the situation a lot worse. The U.S. cannot continue on this trajectory with the tax rates that it currently has, giving out the benefits and Social Security and Medicare that it currently does. At the end of the road, there's either going to be much higher taxes, much lower benefits, or a combination of both. And we've kind of reached the point where you can't get out of this debt spiral without causing pain."
+    },
+    {
+      "start": 461.5,
+      "end": 473.6,
+      "speaker": "A",
+      "text": "And markets are watching that rising debt load closely, particularly in the bond market, where yields have been reflecting investor anxiety about the US fiscal trajectory. For more on what this all means, here's our Morning Bid host, Mike Dolan."
+    },
+    {
+      "start": 474.3,
+      "end": 524.2,
+      "speaker": "G",
+      "text": "It's been a very disturbing week for world bond markets, that's for sure. But things have calmed down a little today. We did get to the highest borrowing rates for the US government and indeed European governments and Japanese governments. for well over a decade, earlier this week. There is concern about rising interest rates this month from, uh, all three regions, and there is a growing concern about the amount of debt that's been raised as we get into budget season, particularly in Europe. But for the US, uh, maybe things have calmed because we get a very big update on the US labor market this week. Uh, the US non-farm payrolls for August is due out on Friday. And maybe there's just a holding pattern before we see the update on that, 'cause it may be an important ingredient for the Fed's policy meeting later this month."
+    },
+    {
+      "start": 524.5,
+      "end": 554.9,
+      "speaker": "A",
+      "text": "Thanks, Mike. Remember, you can get Morning Bid wherever you get your podcasts. To Greenland now, where the first time in recent history, Danish conscripts have been deployed. It's part of Denmark's attempt to strengthen its presence in the Arctic after US demands to acquire the territory. The young soldiers are taking part in Arctic Endurance, a military exercise near Kangaroo Sack designed to train troops for operations in extreme Arctic conditions. Captain Laurie Jebsen says the goal is to adapt basic military training to the Arctic environment."
+    },
+    {
+      "start": 555.4,
+      "end": 561.8,
+      "speaker": "E",
+      "text": "And now we are here, so we adapt the military training to the Arctic terrain."
+    },
+    {
+      "start": 562.9,
+      "end": 567,
+      "speaker": "A",
+      "text": "20-year-old conscript Arthur says nothing prepared him for Greenland's landscape."
+    },
+    {
+      "start": 567.2,
+      "end": 582.7,
+      "speaker": "D",
+      "text": "But then we got out of the plane. You're surrounded by it. We're in a valley. Where the mountains are like 500 meters tall and you go up and it's steep and you go, you go on top of the mountain, you look over the horizon and it's more mountains. It's the same height, even, even higher, even taller."
+    },
+    {
+      "start": 584.9,
+      "end": 590,
+      "speaker": "H",
+      "text": "Children need their teachers and human connection in order to learn and in order to grow."
+    },
+    {
+      "start": 590.8,
+      "end": 610.3,
+      "speaker": "A",
+      "text": "New York City Mayor Zoran Mamdani announcing what he calls the city's first artificial intelligence policy for public schools. It's a 1-year ban on AI that will affect all children in elementary and middle schools for the current school year. Mamdani says technology is increasingly part of daily life, but argues that it doesn't belong in every setting."
+    },
+    {
+      "start": 611.2,
+      "end": 624.1,
+      "speaker": "H",
+      "text": "A 6-year-old child is too young to slice an onion, to fry an egg, or to use a stove safely. But once that child is 16, that knowledge becomes something they are mature enough to learn. That same principle applies to AI."
+    },
+    {
+      "start": 625.1,
+      "end": 648.9,
+      "speaker": "A",
+      "text": "The move is the most restrictive to date across the US. For more on any of the stories from today, as well as more analysis and news shaping our world, check out reuters.com or the Reuters app. There's a link in the description to download it and start getting pure news straight from the source. Don't forget to follow us on your favorite podcast player. And if you're listening on a smart speaker, just ask for the latest news from Reuters 7 days a week."
+    }
+  ]
+}

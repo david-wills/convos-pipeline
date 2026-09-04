@@ -1,0 +1,470 @@
+{
+  "episode": {
+    "id": "33298d95f1e044fc0b43c110a6a9ac1a65a0a58c241675b2bbedf91d20f1988a",
+    "podcastTitle": "Big Take",
+    "feedUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/825d4e29-b616-46f4-afd7-ae2b0013005c/8b1dd624-a026-43e9-8b57-ae2b00130066/podcast.rss",
+    "guid": "d1a16d99-5d3a-49fb-a8d9-b4ba012dcf26",
+    "title": "The Hottest New Trade Is Your Own Electricity",
+    "description": "<p>Energy consumers are used to a pretty simple transaction with utility companies: get electricity to power your home, pay up every month. Now, more consumers are stockpiling their own energy using solar panels and batteries. And some are even making money by selling that energy back to the grid.</p> <p>On today&rsquo;s Big Take podcast, host Sarah Holder talks to Zero host Akshat Rathi about a new class of at-home energy trader that&rsquo;s vibe coding its way to daily energy savings and big profits.</p> <p>Read more: <a href=\"https://www.bloomberg.com/news/features/2026-09-03/consumers-profit-off-solar-batteries-selling-excess-energy-back-to-grid?srnd=undefined\">Almost Anyone Can Make Money Selling Electricity With AI and Batteries</a></p> <p>We have a special Bloomberg subscription offer for podcast listeners at <a href=\"https://www.bloomberg.com/subscriptions/podcasts\">Bloomberg.com/podcastoffer.</a></p> <p><strong>Hosted by</strong> Sarah Holder; <strong>Produced by</strong> Julia Press; <strong>Reported by</strong> Akshat Rathi and Olivia Rudgard; <strong>Edited by</strong> Aaron Edwards.</p> <p><strong>Fact-checking by</strong> Rachael Lewis-Krisky, Victor Swezey and Brunella Tipismana Urbano; <strong>Engineering by</strong> Emma Munger.</p> <p><strong>Senior Producer:</strong> Naomi Shavin; <strong>Deputy Executive Producer:</strong> Julia Weaver. <strong>Executive Producer:</strong> Nicole Beemsterboer.</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>",
+    "pubDate": "2026-09-03T19:30:00.000Z",
+    "duration": 1029,
+    "audioUrl": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/825d4e29-b616-46f4-afd7-ae2b0013005c/d1a16d99-5d3a-49fb-a8d9-b4ba012dcf26/audio.mp3?utm_source=Podcast&in_playlist=8b1dd624-a026-43e9-8b57-ae2b00130066",
+    "artworkUrl": "https://www.omnycontent.com/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/825d4e29-b616-46f4-afd7-ae2b0013005c/d1a16d99-5d3a-49fb-a8d9-b4ba012dcf26/image.jpg?t=1788459661&size=Large"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1334,
+    "utteranceCount": 63
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:59.317Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Meet the Backyard Energy Trader",
+      "description": "Sarah Holder introduces Aaron Wilkes, a UK train driver who built an air traffic control-style system to monitor and trade electricity from his own home.",
+      "startTime": 0.128,
+      "endTime": 293.192,
+      "anchorPhrase": "some people treat chatgpt like some kind of smart search engine, and some use it"
+    },
+    {
+      "index": 1,
+      "title": "Buy Low, Sell High — With Your House",
+      "description": "Akshat Rathi explains how dynamic hourly electricity pricing has unlocked a new kind of arbitrage that ordinary homeowners can now run on autopilot.",
+      "startTime": 293.192,
+      "endTime": 477.85,
+      "anchorPhrase": "i'm sarah holder, and this is the big take from bloomberg news. today on the"
+    },
+    {
+      "index": 2,
+      "title": "Vibe Coding the Power Grid",
+      "description": "Three forces — cheaper solar panels, dynamic utility pricing, and AI coding tools like ChatGPT — have made home energy trading newly accessible to non-experts.",
+      "startTime": 477.85,
+      "endTime": 598.443,
+      "anchorPhrase": "that information? things. one is the price of solar and batteries that have just come"
+    },
+    {
+      "index": 3,
+      "title": "Virtual Power Plants Pay Off",
+      "description": "Not everyone trades aggressively — retired Arizona homeowner Greg Robinson lets his utility tap his battery during demand spikes, earning $1,000 in seven months with almost no effort.",
+      "startTime": 598.443,
+      "endTime": 682.24,
+      "anchorPhrase": "no, he's not. most people who are participating are letting the utility do that work"
+    },
+    {
+      "index": 4,
+      "title": "Heat Waves Are Payday",
+      "description": "UK traders who can predict extreme weather events are cashing in on the grid's most vulnerable — and lucrative — moments.",
+      "startTime": 682.24,
+      "endTime": 900.932,
+      "anchorPhrase": "strain. his essentially biggest payoff days were the days when there was an extreme heat"
+    },
+    {
+      "index": 5,
+      "title": "Why Electricity Is Different",
+      "description": "Akshat explains how the regulated monopoly structure of energy grids is being forced to evolve as consumers become producers and startups step in as middlemen.",
+      "startTime": 900.932,
+      "endTime": 1055.653,
+      "anchorPhrase": "akshat, you mentioned that energy trading is pretty unique. in other markets, consumers are consumers."
+    },
+    {
+      "index": 6,
+      "title": "Meta Enters the Power Market",
+      "description": "Big Tech's massive AI energy appetite is turning companies like Meta into serious electricity traders, with hedge funds and oil firms following close behind.",
+      "startTime": 1055.653,
+      "endTime": 1143.358,
+      "anchorPhrase": "and akshat, i have to ask, it's not just individuals that are getting into the"
+    },
+    {
+      "index": 7,
+      "title": "The Barrier Blocking Most Consumers",
+      "description": "Widespread home energy trading won't happen until utilities and regulators unlock dynamic pricing — a small regulatory shift with potentially enormous behavioral impact.",
+      "startTime": 1143.358,
+      "endTime": 1334,
+      "anchorPhrase": "what would it take for this model to expand to more places and to more"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.1,
+      "end": 42.1,
+      "speaker": "A",
+      "text": "Some people treat ChatGPT like some kind of smart search engine, and some use it to get work done. ChatGPT Work is a new way of working in ChatGPT that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work. It's designed to help you move from a chaotic starting point to a reviewable first version. So all the source materials, briefs, and scattered information that you have to grind through to turn into something useful can just become something useful. Put ChatGPT to work on your most ambitious ideas and projects. Get started at chatgpt.com by selecting Work Mode, available on Plus and Pro plans."
+    },
+    {
+      "start": 42.9,
+      "end": 49,
+      "speaker": "B",
+      "text": "This dog salon? Operational excellence, thanks to Genius from Global Payments. Scheduling?"
+    },
+    {
+      "start": 49.4,
+      "end": 50.2,
+      "speaker": "C",
+      "text": "Personalized."
+    },
+    {
+      "start": 50.6,
+      "end": 51.1,
+      "speaker": "D",
+      "text": "Checkouts?"
+    },
+    {
+      "start": 51.5,
+      "end": 55.5,
+      "speaker": "B",
+      "text": "Instant. Absolutely genius. Big league reliability for any business."
+    },
+    {
+      "start": 56.2,
+      "end": 57.1,
+      "speaker": "C",
+      "text": "That's genius."
+    },
+    {
+      "start": 58,
+      "end": 85.8,
+      "speaker": "E",
+      "text": "At Venture Global, we think about what can be done, not what's usually done. Through innovation, Venture Global is not only building some of the largest energy facilities in the world right here in the United States, but delivering American energy at a fraction of the cost in a fraction of the time. So while others are busy talking, we're busy building. That's Venture Global. That's unstoppable energy."
+    },
+    {
+      "start": 90.7,
+      "end": 91.9,
+      "speaker": "F",
+      "text": "Bloomberg Audio Studios."
+    },
+    {
+      "start": 92.4,
+      "end": 93.1,
+      "speaker": "D",
+      "text": "Podcasts."
+    },
+    {
+      "start": 93.4,
+      "end": 93.9,
+      "speaker": "A",
+      "text": "Radio."
+    },
+    {
+      "start": 94.3,
+      "end": 94.8,
+      "speaker": "C",
+      "text": "News."
+    },
+    {
+      "start": 95.3,
+      "end": 95.8,
+      "speaker": "G",
+      "text": "Hey, how are you?"
+    },
+    {
+      "start": 96,
+      "end": 98.8,
+      "speaker": "F",
+      "text": "Good, how are you? Nice to meet you. Nice to meet you too."
+    },
+    {
+      "start": 99.1,
+      "end": 107.3,
+      "speaker": "C",
+      "text": "Aaron Wilkes is a train driver who lives in a tiny village about an hour and a half outside of London in a home built in the 1960s."
+    },
+    {
+      "start": 107.9,
+      "end": 111.2,
+      "speaker": "G",
+      "text": "A 1960s home with an air traffic control style energy system."
+    },
+    {
+      "start": 111.3,
+      "end": 151,
+      "speaker": "C",
+      "text": "An air traffic control air traffic control style energy system. What Aaron's describing is the way he monitors and trades a hot commodity from his house, his own electricity. Aaron is part of a growing number of Vibe Coding energy traders, people who produce energy at home using solar panels, store that energy using batteries, and then figure out when to use it and when to sell it back to the grid. Aaron does it all using that air traffic control system, a piece of software on his tablet that shows a series of circles, kind of like those activity rings on an Apple Watch."
+    },
+    {
+      "start": 151,
+      "end": 159.9,
+      "speaker": "G",
+      "text": "The idea of this was to show my partner what's going on right now and then what's gonna happen in the future. So each ring represents something different."
+    },
+    {
+      "start": 159.9,
+      "end": 165.1,
+      "speaker": "C",
+      "text": "One ring represents the power coming from the solar panels on the roof of his house."
+    },
+    {
+      "start": 165.1,
+      "end": 170.2,
+      "speaker": "G",
+      "text": "If the battery's charging, it will spin a certain way. If the battery's discharging, it will then go the other way."
+    },
+    {
+      "start": 170.2,
+      "end": 189.7,
+      "speaker": "C",
+      "text": "Another ring shows whether his house is importing energy from the power grid or exporting the energy he's generating at home to the grid. It's all color-coded. Red tells him that the price of energy is high, purple a little less so. Green means it's cheap, like right now."
+    },
+    {
+      "start": 190.4,
+      "end": 201.2,
+      "speaker": "G",
+      "text": "So it's an indication to anyone in the house that let's get the laundry on, charge the car, start heating hot water up, and if you want to, stick the aircon on."
+    },
+    {
+      "start": 202,
+      "end": 222.7,
+      "speaker": "C",
+      "text": "Aaron's built a sophisticated system that uses all this information to decide the best times of day to use or conserve his energy. And he says the strategy isn't just about saving money. It's also about supporting the power grid by providing extra energy in times of higher demand. And that can actually make him money."
+    },
+    {
+      "start": 223.2,
+      "end": 229,
+      "speaker": "G",
+      "text": "If I had a bigger battery, I'd be able to export a lot more and there'd be a huge amount more opportunity there."
+    },
+    {
+      "start": 231,
+      "end": 246.9,
+      "speaker": "C",
+      "text": "Home energy traders like Aaron operate with the same ethos that commodities traders follow: buy low, sell high. But Bloomberg senior climate reporter and host of the Zero podcast, Akshat Rathie, says this doesn't look anything like a trading floor."
+    },
+    {
+      "start": 247.3,
+      "end": 267.2,
+      "speaker": "F",
+      "text": "You are not going to get those Hollywood scenes of, \"I want the shares at this price.\" In the case of electricity trading, you're getting electricity prices for the next 24 hours, hour by hour, or half an hour by half an hour. Most of these people who take the agency of deciding to buy low and sell high are automating those decisions."
+    },
+    {
+      "start": 267.6,
+      "end": 286.6,
+      "speaker": "C",
+      "text": "Aaron only makes about £5 to £10 a month right now, but he's hoping that amount will rise. And Akshat has spoken with traders who've made a few hundred dollars overnight using similar tactics. So how exactly are they pulling it off? And could Aaron one day go from cutting down his bills to actually making real money?"
+    },
+    {
+      "start": 287,
+      "end": 287.9,
+      "speaker": "G",
+      "text": "That's the dream, innit?"
+    },
+    {
+      "start": 293.2,
+      "end": 338.3,
+      "speaker": "C",
+      "text": "I'm Sarah Holder, and this is The Big Take from Bloomberg News. Today on the show, is the next hot trade electricity from your own home? We go inside a new class of energy trader that's taking more control over their bills and making money along the way. And how those traders are navigating everything from volatile electricity prices to threats posed by climate change. So Akshat, you've been reporting on this phenomenon where regular old energy consumers are essentially becoming hobbyist energy day traders. They're using new tools to track the price of energy and using that information to time their consumption and in some cases sell energy they're generating at home. Tell me more about how this works."
+    },
+    {
+      "start": 340.3,
+      "end": 390.3,
+      "speaker": "F",
+      "text": "More and more people are getting solar panels and batteries at home. Sometimes they are generating generating power that is more than what the consumer is consuming at home, or sometimes they're generating power at a time when it's already a grid chokeup, that there's too much solar power. And so it's better for that consumer to, rather than send that solar power on the grid, actually store it in the battery that they have at home. The thing that is an unlock here is really the pricing. The fact that you can now look at day-ahead prices, hour by hour, sometimes 30 minutes by 30 minutes, and then decide when to buy low, sell high. Essentially do arbitrage, what expert traders do on a daily basis, but now do it with your home assets for electricity and make money on the side."
+    },
+    {
+      "start": 390.3,
+      "end": 419.5,
+      "speaker": "C",
+      "text": "So there's two components to this. There's using energy when prices are lower, buying energy when prices are lower, and selling when prices are higher. I mean, it seems like kind of similar to what folks already do in terms of timing their energy consumption to get lower prices, right? Utility companies encourage this. Run your dishwasher late at night or early in the morning, not during peak hours. Turn down your air conditioner when everyone's home from work. Is this essentially the same idea?"
+    },
+    {
+      "start": 419.5,
+      "end": 460.6,
+      "speaker": "F",
+      "text": "It is, but it's taking it one step forward because that off-peak, on-peak pricing that you're talking about has been in the system for some time now. Lots of countries have them. What we are talking about now is dynamic pricing by every hour, by every 30 minutes. And in those, the prices can vary quite a lot. So there can be a 10x difference between the price. Sometimes, especially in places like Spain or California or Australia, prices go negative in the day, which is to say the utility is paying you to use that electricity. And so you can then Essentially use that to charge your battery, get paid to charge your battery, and then consume that electricity later for free."
+    },
+    {
+      "start": 462.4,
+      "end": 477.6,
+      "speaker": "C",
+      "text": "What is actually behind this trend? What's changed that's made it possible for this new kind of trader to emerge, for all this new information to be out there, and for homeowners and energy users to be able to act on that information?"
+    },
+    {
+      "start": 477.9,
+      "end": 535.7,
+      "speaker": "F",
+      "text": "3 things. One is the price of solar and batteries that have just come down so much that more and more people are able to afford to put them on their rooftops or in their garages. Second is access to these dynamic pricing from the utility. It is still not something that is widely common. In the EU, it's now a regulation. All countries with utilities that have more than 200,000 customers have to have this pricing, but it's not true in the US. Not all US utilities provide this kind of dynamic pricing. And then the third thing is having the technical tools even if you don't have the technical ability. So some of the day traders we talked about, have used ChatGPT to essentially vibe code an automation system that talks to all their electricity assets and takes prices from the grid and manages it for them in the background, which is how they are able to not worry like day traders do and don't have the stress of a day trader."
+    },
+    {
+      "start": 538.5,
+      "end": 543.5,
+      "speaker": "G",
+      "text": "In terms of like my knowledge in coding, I have no knowledge. I don't know any languages."
+    },
+    {
+      "start": 544.1,
+      "end": 570.6,
+      "speaker": "C",
+      "text": "Aaron Wilkes designed his home energy trading system using ChatGPT. He downloaded a free open-source software called Home Assistant, which allows the algorithm he's built to tell his devices, like his electric vehicle charger, when to turn on. It's all hooked up to a basic computer server. And because Aaron isn't a coder, he's had to put some trust in the AI agent. And he says sometimes it gets things wrong."
+    },
+    {
+      "start": 571,
+      "end": 588.1,
+      "speaker": "G",
+      "text": "We have like a screen set up in our living room, and I've sat there at periods and going, why the hell is the car charging now? I know it's 5 o'clock in the evening. It's expensive. So immediately I pull out, I have a chat with the agent and I go, why is my car charging? And then it'll go, oh, I've lost connection with the API, couldn't turn it off. And then you're like, ugh."
+    },
+    {
+      "start": 588.6,
+      "end": 597.7,
+      "speaker": "C",
+      "text": "Akshat, this sounds like a ton of work. This sounds sophisticated. Even vibe coding, you know, maybe I could do it, but is Aaron the norm for this class of trader?"
+    },
+    {
+      "start": 598.4,
+      "end": 639.2,
+      "speaker": "F",
+      "text": "No, he's not. Most people who are participating are letting the utility do that work for them. So we spoke to a retired gentleman in Arizona, Greg Robinson, and he basically lets his utility utility decide when to use his battery for participating in a virtual power plant. And when it participates in a virtual power plant, the utility makes a payment. In the last 7 months that he's had this asset, it's only been used one time. He's only earned about $1,000, but he's happy with it. He's like, at least I am helping the grid, and in the process I'm also making some money, which is allowing me to get a faster return on this asset that I have at my home."
+    },
+    {
+      "start": 642.1,
+      "end": 682.1,
+      "speaker": "C",
+      "text": "Greg is helping the grid by supplying it with energy in times of increased demand, using the electricity stored in his home battery. This kind of relationship exists because of a weird quirk of the energy market. It's expensive for utility companies to store electricity, which makes it hard to stockpile it for emergencies. So if demand spikes during an extreme weather event or a heat wave, utilities can turn to people like Greg people with solar panels and batteries as another power source. Akshat met another energy trader in the UK who's been able to predict the days the grid will be under the biggest strain."
+    },
+    {
+      "start": 682.2,
+      "end": 689.1,
+      "speaker": "F",
+      "text": "His essentially biggest payoff days were the days when there was an extreme heat wave in the UK."
+    },
+    {
+      "start": 689.3,
+      "end": 706.9,
+      "speaker": "C",
+      "text": "Well, I'm wondering what the advent of energy trading like this has meant for people's exposure to and awareness of the risks of climate change and their interest in renewable energy infrastructure? Has tracking energy prices like this given people sort of a new perspective?"
+    },
+    {
+      "start": 706.9,
+      "end": 752.5,
+      "speaker": "F",
+      "text": "Of the 5 people who feature in our story, 3 of them said that they do care about the fact that their emissions are lower in the process because they are using clean energy. 2 of them really didn't mind. All they cared about was either making money or lowering their bills. But all 5 were pretty convinced that this is something that is good for their wallet as it is good for the environment as well. So it's that double reason that gives people more motivation to stick with it. Every other form of energy, we're just a consumer. We get what we are given by a company at whatever price that the company is able to sell it to us. Whereas with electricity, you are now a prosumer. You can now produce your own energy, and if you produce more than what you consume, you can sell it and make money."
+    },
+    {
+      "start": 755.5,
+      "end": 764.1,
+      "speaker": "C",
+      "text": "Coming up, how startups fit into this energy trading ecosystem and what it would take for more energy consumers to become prosumers."
+    },
+    {
+      "start": 770,
+      "end": 803.4,
+      "speaker": "H",
+      "text": "Quick one before you jump back in. You're listening for ways to help teams move faster, make sharper decisions, and turn scattered context into work they can use. ChatGPT for Business can help. ChatGPT for Business gives teams a shared workspace with admin controls, permissions, and access to work and codex in ChatGPT. This means your business can move from question to answer and code to rollout quicker. Join over 10 million business and enterprise users worldwide already using ChatGPT for Work. Download the ChatGPT desktop app or contact sales to learn more."
+    },
+    {
+      "start": 810.7,
+      "end": 863.7,
+      "speaker": "I",
+      "text": "Every sale comes down to a single second, the one between buy now and maybe later. PayPal is built to help your business win that moment with a checkout experience that feels certain, reliable, and familiar. With a global two-sided network and hundreds of millions of buyers who already know us, All to keep you in control however buying happens next. New markets, new AI-powered selling services, a whole new agentic era where you decide how your business will show up and stand out. PayPal is built to help your business come out ahead. We're built for payments, built for growth, built for agentic. PayPal Open. Built for all business. Visit paypalopen.com to get started. That's paypalopen.com."
+    },
+    {
+      "start": 864.8,
+      "end": 888.9,
+      "speaker": "D",
+      "text": "Hey guys, Lady Luck here. Are you going on any road trips this summer? I know I'm going to be going on a bunch of road trips, and being that I'm going to be passenger princess, I love playing on spinquest.com. Spin Quest has all of my favorite slot games live blackjack, live craps. Head on over to SpinQuest right now and get yourself a $30 coin pack for just $10."
+    },
+    {
+      "start": 889.6,
+      "end": 892.7,
+      "speaker": "E",
+      "text": "SpinQuest is a free-to-play social casino. Void where prohibited."
+    },
+    {
+      "start": 892.8,
+      "end": 894.7,
+      "speaker": "F",
+      "text": "Visit spinquest.com for more details."
+    },
+    {
+      "start": 900.9,
+      "end": 917.6,
+      "speaker": "C",
+      "text": "Akshat, you mentioned that energy trading is pretty unique. In other markets, consumers are consumers. They're not able to make money off the products that they're getting. Why is electricity and energy such a different kind of market?"
+    },
+    {
+      "start": 918,
+      "end": 994.1,
+      "speaker": "F",
+      "text": "Because the grid itself has to be a regulated monopoly. You cannot have two competing grids, and that means that asset cannot run in the normal competitive capitalist system that we have. And most grids around the world are very heavily regulated. They're owned by national governments, and those governments are thinking, you know what, we don't want to give people a headache. We just want to provide them one standard price. And, you know, we'll manage the losses and the profits on our side because we just want people to have electricity when they want it and at a reasonable price. But with solar, especially now that consumers are becoming producers of energy, those grid operators are having to change their mind because suddenly their own asset is not being used as much because people are just consuming their own solar power. And so they're being forced to change by the change of technology. They're being forced to become acceptors of electricity from what was previously a consumer. And this is forcing utilities to start to change how they bill electricity. But it's only happened in rich country markets so far."
+    },
+    {
+      "start": 995.7,
+      "end": 1010.4,
+      "speaker": "C",
+      "text": "There's also an economy of new startups acting as middlemen between the consumer and the energy grid. One based in the UK called Axle essentially connects the grid to households with excess power and helps households sell that power back to the utility."
+    },
+    {
+      "start": 1011,
+      "end": 1015.1,
+      "speaker": "F",
+      "text": "And what Axle then does is takes a little cut and distributes the rest of the revenue."
+    },
+    {
+      "start": 1015.3,
+      "end": 1015.5,
+      "speaker": "B",
+      "text": "Hmm."
+    },
+    {
+      "start": 1015.8,
+      "end": 1025.6,
+      "speaker": "C",
+      "text": "Okay. So for the consumers, they're making money. Axle also taking a cut. And then for the grid operator, this helps ease pressure on the grid at these crucial moments."
+    },
+    {
+      "start": 1026.1,
+      "end": 1054.7,
+      "speaker": "F",
+      "text": "That's right. And we are going to see more and more of this because of the sheer amount of electricity demand that is growing on the grid, especially in the US, but in other parts of the world with these data centers that are coming online and just consuming huge, huge sums of power. The moments when peak consumption is going to stress the grid is increasing and having this demand-side flexibility, as the jargon in the industry is, is useful."
+    },
+    {
+      "start": 1055.7,
+      "end": 1068.9,
+      "speaker": "C",
+      "text": "And Akshat, I have to ask, it's not just individuals that are getting into the power trading game, right? Meta, whose data centers consume vast amounts of energy, are also engaging in power trading. How do they fit into this picture?"
+    },
+    {
+      "start": 1069.6,
+      "end": 1141.7,
+      "speaker": "F",
+      "text": "Meta and other big tech companies are now essentially becoming the fastest growing energy consumer just because the sheer amount of electricity that these AI data centers are consuming to power all these chatbots. And if you are consuming a commodity in that volume and paying those sums, you might as well start to trade it because you have the assets that can consume. You in some cases also have the assets that produce the electricity. And then there's a grid which is much larger and there's a market in which you can sell and buy electricity and essentially optimize your own consumption and your own pricing. So it's not a surprise that Meta is taking part. We know a bunch of hedge funds have been taking part. We know a bunch of oil trading companies have gotten into electricity trading. Trading makes sense to try and hedge your bets, figure out ways to save money. And we are talking millions and tens of millions of dollars that are likely to be made or saved as a result of these big tech companies essentially becoming energy traders."
+    },
+    {
+      "start": 1143.4,
+      "end": 1148.4,
+      "speaker": "C",
+      "text": "What would it take for this model to expand to more places and to more people?"
+    },
+    {
+      "start": 1148.8,
+      "end": 1203.2,
+      "speaker": "F",
+      "text": "Taking a step back and looking at it from an all-country global perspective, the thing that needs to happen is for the utility to become more agile in how it is allowing its consumers to price electricity. Yes, there is safety in providing one price fixed price all through the year or some parts of the year. But there is also real opportunity in saving money, in changing people's behavior on how to consume electricity. Maybe you charge your car only in the day. Maybe you only wash during daylight hours. But that behavioral change won't happen unless utilities and their regulators allow for this kind of pricing to be available to consumers. And so a little bit of risk, but there's plenty to gain from that process."
+    },
+    {
+      "start": 1209.5,
+      "end": 1231.2,
+      "speaker": "C",
+      "text": "This is The Big Take from Bloomberg News. I'm Sarah Holder. To get more from The Big Take and unlimited access to all of Bloomberg.com, subscribe today at Bloomberg.com/BigTake. Www.fx.com/podcastoffer. If you liked this episode, make sure to follow and review The Big Take wherever you listen to podcasts. It helps people find the show. Thanks for listening. We'll be back tomorrow."
+    },
+    {
+      "start": 1242.6,
+      "end": 1270.4,
+      "speaker": "E",
+      "text": "This episode is supported by FX's The Drop: A Snowfall Saga. Wanda and Leon are back, but this time, they're chasing a different kind of legacy. As West Coast rap begins to take over '90s Los Angeles, Wanda is betting on a new generation of artists. But in a city where every opportunity comes with a price, they'll have to decide what they're willing to risk to leave their mark. FX's The Drop premieres September 8th on FX and Hulu."
+    },
+    {
+      "start": 1271,
+      "end": 1303.2,
+      "speaker": "D",
+      "text": "I love the little everyday moments with my dog, especially treat time. But dental care? Not always so fun. Until we found Greenies Dental Treats. These are more than just tasty. They're vet recommended and designed to support the 4 areas vets check the most: plaque, tartar, gums, and breath. Their unique texture cleans down to the gum line and supports cleaner teeth after 28 days when fed daily. It's a simple daily habit that supports their health and gives us another moment to enjoy together. Greenies make health a treat. Shop now at Greenies.com."
+    },
+    {
+      "start": 1303.7,
+      "end": 1333.1,
+      "speaker": "B",
+      "text": "Hey, did you know Dietzen Watson has been family owned for over 85 years? To us, that means it's more than a business. It's personal. We make our premium meats and cheeses the right way, even if it's slower or inconvenient or hard, because that's how you get the highest quality. If it's not good enough for our family, it's not good enough for yours. And while others cut corners, we keep raising the bar. So if you see the Dietzen Watson name, you'll know every slice has my family's seal of approval. Dietzen Watson. It's a family thing since 1939."
+    }
+  ]
+}

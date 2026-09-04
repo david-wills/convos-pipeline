@@ -1,0 +1,418 @@
+{
+  "episode": {
+    "id": "a763fe965a8aaf994ee24cf33b72c0e68da78f6d646e25d1a95d915a48e2a7cc",
+    "podcastTitle": "Start Here",
+    "feedUrl": "https://feeds.megaphone.fm/ESP8447327256",
+    "guid": "https://www.podtrac.com/pts/redirect.mp3/pscrb.fm/rss/p/traffic.megaphone.fm/ESP3887709605.mp3",
+    "title": "Why NYC Banned AI in Schools",
+    "description": "New York City Mayor Zohran Mamdani announces a public school ban on artificial intelligence in grades K-8. Democrats react to Sen. Ed Markey’s primary victory in Massachusetts. And New Jersey asks the Supreme Court to allow states to regulate prediction markets. \nLearn more about your ad choices. Visit podcastchoices.com/adchoices",
+    "pubDate": "2026-09-03T09:30:00.000Z",
+    "duration": 1480,
+    "audioUrl": "https://www.podtrac.com/pts/redirect.mp3/pscrb.fm/rss/p/traffic.megaphone.fm/ESP3887709605.mp3",
+    "artworkUrl": "https://megaphone.imgix.net/podcasts/33829d70-b053-11f0-8986-270b46200f94/image/376245ddfebff5259b3471c5b30cbc8c.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1554,
+    "utteranceCount": 57
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:25.726Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "NYC's AI School Ban",
+      "description": "New York City Mayor Zohran Mamdani announces sweeping new AI restrictions for K-8 public schools, setting up the nation's largest education experiment.",
+      "startTime": 0.112,
+      "endTime": 222.563,
+      "anchorPhrase": "teens share everything. that may include the bacteria that can cause meningococcal disease known as"
+    },
+    {
+      "index": 1,
+      "title": "What the Rules Actually Say",
+      "description": "Chalkbeat reporter Alex Zimmermann breaks down exactly which AI tools are banned, which are allowed, and what teachers can and cannot use.",
+      "startTime": 222.563,
+      "endTime": 537.969,
+      "anchorPhrase": "walk me through them? yeah, so there are a couple different rules. one set of"
+    },
+    {
+      "index": 2,
+      "title": "A 180-Degree Policy Flip",
+      "description": "NYC's new AI stance is a dramatic reversal from just a year ago, and since it's a one-year pilot, no one knows what comes next.",
+      "startTime": 537.969,
+      "endTime": 800.404,
+      "anchorPhrase": "middle school. so how significant do these guidelines feel at the end of the day?"
+    },
+    {
+      "index": 3,
+      "title": "Ed Markey's Generational Upset",
+      "description": "The 80-year-old Massachusetts senator crushed a younger challenger, proving that age alone isn't enough to make a change argument stick.",
+      "startTime": 800.404,
+      "endTime": 1038.952,
+      "anchorPhrase": "of their caucus? gates and these wanted to shut the government down. that's why they"
+    },
+    {
+      "index": 4,
+      "title": "Moderates Blindside Hakeem Jeffries",
+      "description": "Two moderate Democrats crossed party lines on a key House vote without warning leadership, exposing real tension inside the Democratic big tent.",
+      "startTime": 1038.952,
+      "endTime": 1262.257,
+      "anchorPhrase": "party right now. well, this is the thing, because i often feel like democratic leadership"
+    },
+    {
+      "index": 5,
+      "title": "Kalshi vs. Every State",
+      "description": "New Jersey asks the Supreme Court to settle whether prediction markets are gambling or financial instruments, after federal courts ruled in opposite directions.",
+      "startTime": 1262.257,
+      "endTime": 1554,
+      "anchorPhrase": "and one last thing. i was at the us open earlier this week. all right,"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.1,
+      "end": 14.8,
+      "speaker": "A",
+      "text": "Teens share everything. That may include the bacteria that can cause meningococcal disease known as meningitis. Even if your teen's been vaccinated in the past, they could still be missing meningitis vaccinations. Ask your teen's doctor or visit meningitis.com today. Sponsored by GSK."
+    },
+    {
+      "start": 15.9,
+      "end": 40.1,
+      "speaker": "B",
+      "text": "It's Thursday, September 3rd, and there's nothing artificial about this intelligence debate. We start here. New York City lays out sweeping new AI policies for school kids. They need to learn what it feels like to not know the answer. This now becomes the nation's largest education experiment. But does it address parents' concerns? Democrats want change. That doesn't mean they're running the old guard out of town."
+    },
+    {
+      "start": 40.5,
+      "end": 44.7,
+      "speaker": "C",
+      "text": "Voters didn't accept age by itself as an argument for, for change."
+    },
+    {
+      "start": 44.8,
+      "end": 89.4,
+      "speaker": "B",
+      "text": "What we can learn from an emphatic win in Massachusetts. And good luck predicting the outcome of this. New Jersey's attorney general released a statement claiming that companies like Caelsi do not follow any of the state's gambling laws. Judges disagree about prediction market giants like Caelsi. Now the Supreme Court is being being asked to step in. From ABC News, this is Start Here. I'm Brad Milkey. Earlier this week, President Trump came out with a really interesting statement. It was about data centers, those gargantuan tech facilities that power artificial intelligence programs while churning through vast amounts of electricity, water, and neighbors' patience."
+    },
+    {
+      "start": 89.8,
+      "end": 91.5,
+      "speaker": "D",
+      "text": "If I were a community, I would want the data center. It means jobs."
+    },
+    {
+      "start": 94.2,
+      "end": 116.4,
+      "speaker": "B",
+      "text": "It means income and it means lower taxes. The president clearly sees AI as fundamental to this nation's economic future. In a social media post, he said, quote, the only reason that communities throughout the USA should not want data centers is that they want to end up being backwards and poor, end quote. The reason that is so interesting is because it completely flies in the face of the political moment."
+    },
+    {
+      "start": 116.7,
+      "end": 118.8,
+      "speaker": "D",
+      "text": "Data centers, shut it down!"
+    },
+    {
+      "start": 118.9,
+      "end": 175.7,
+      "speaker": "B",
+      "text": "Data centers are coming under fire from communities left, right, and center. And that's why I set that standard no data centers disturbing local communities in Texas. Texas Republicans have sounded the alarm, saying their constituencies are furious about skyrocketing utility rates. Well, now here's President Trump watching China create their own digital centers, saying you're backwards if you don't support this march towards AI. AI, artificial intelligence. I always thought it should be, uh, S-I, supreme intelligence, but at the same time though, AI is already a fact of life in many arenas. Take school. If you're an English teacher, are you seriously not going to consider the fact your students might have access to ChatGPT? If you're a parent, do you really not want your kid to learn to use these programs ever? On the other hand, though, in many cases, the dig against these programs is not that they clean up your spelling or clean up your thoughts for an essay. It's that they teach you how to avoid having to think in the first place."
+    },
+    {
+      "start": 176.1,
+      "end": 181.5,
+      "speaker": "A",
+      "text": "Taking a responsible look at how we are utilizing tech in the classroom."
+    },
+    {
+      "start": 181.7,
+      "end": 222.1,
+      "speaker": "B",
+      "text": "Well, yesterday, with barely a week before the school year gets underway, New York City Mayor Zoran LaMDA announced that his education department is implementing new guidelines for how AI is used in New York schools. Kids need to learn to think for themselves. They need to work alongside their peers. They need to learn how to ask better questions, and they need to learn what it feels like to not know the answer. These weren't just guidelines for students either. And since this is the largest school system in the country, it's quickly come into focus from other schools nationwide. So today I wanna start the show by bringing in Alex Zimmermann, He's a senior reporter at Chalkbeat New York, where he's been following the AI debate for months. Alex, thanks for being here. First off, what are these new rules? Can you walk me through them?"
+    },
+    {
+      "start": 222.6,
+      "end": 275.3,
+      "speaker": "D",
+      "text": "Yeah, so there are a couple different rules. One set of rules has to do with the use of generative AI. So like chatbots or AI tutors, those are completely banned from preschool through 8th grade. So in theory, students in school shouldn't be able to have access to those. And then in high school, they're allowing more AI, including generative AI in some cases. So if you're a high school student and you're in a program that's like a career and technical education program, you're allowed to use AI in that context. The city also is saying that there are 5 AI tools, some of which include generative AI, that they have vetted and approved for use in high schools, and that up to 50,000 high school students will be allowed to use them. For context, there are roughly 289,000 New York City high school students. So it's not most high school students, but a sizable number of them."
+    },
+    {
+      "start": 275.7,
+      "end": 290.9,
+      "speaker": "B",
+      "text": "But so then if we're talking mainly in terms of the ban on AI among students, what's the issue? Because I feel like when people talk about AI in the school system, everyone's always concerned about cheating, right? But I can't imagine that's as big of a deal for like 4th graders. So, so what are the concerns?"
+    },
+    {
+      "start": 291.3,
+      "end": 302,
+      "speaker": "D",
+      "text": "Yeah, I think that there are a range of concerns. If you talk to families, I think there is just sort of a broader backlash right now against edtech tools. And screens in schools."
+    },
+    {
+      "start": 302.2,
+      "end": 305.5,
+      "speaker": "C",
+      "text": "Technology can be a tool. It will never be a teacher."
+    },
+    {
+      "start": 305.9,
+      "end": 323.8,
+      "speaker": "D",
+      "text": "And so I think there is some concern that, you know, using those kinds of tools can kind of offload some of your thinking, that it's harder to engage in kind of like a productive struggle if you're using a lot of these tools, especially chatbots. You know, it is a thing that students are using in like middle schools, for example."
+    },
+    {
+      "start": 324,
+      "end": 332,
+      "speaker": "B",
+      "text": "And somebody will say like, \"Hey, could you summarize this book for me?\" Which seems harmless, but then you're like, \"Wait, you're not getting that experience of going back and rereading the section you didn't catch.\" or something."
+    },
+    {
+      "start": 332.2,
+      "end": 358.8,
+      "speaker": "D",
+      "text": "Yeah, exactly. And one thing teachers have really been craving is like more guidance from the city about like how to handle it. What if, if students are bringing in work that seems like it's been like AI-generated, like the, the city just doesn't really have like a comprehensive answer about what to do about that. And so that's like a very classroom by classroom, school by school reality. And like that just like raises a bunch of questions. And at yesterday's press conference, they didn't really have like an answer to like how they're thinking about that."
+    },
+    {
+      "start": 359.4,
+      "end": 375.5,
+      "speaker": "B",
+      "text": "Well, and I know there are groups in New York City that had been calling for full moratoriums on anything to do with AI, almost at any grade level. So what is the thinking as far as high schoolers then? How are education officials thinking about how high schoolers should or should not be using AI? Because it's going to be part of the workforce, you imagine, in the future."
+    },
+    {
+      "start": 376,
+      "end": 437.2,
+      "speaker": "D",
+      "text": "Right. And that's kind of the argument they're making, right? Like they're, they're saying they're trying to strike a balance between the fact that like AI is embedded in so many different things that we're using all the time. For our high schoolers, our responsibility is different. It is increasingly part of the world and workforce they are about to enter. I think they're trying to hedge against this argument that, like, what happens if you have students who are really, like, unprepared for that? So one thing they're also trying to do in high school is requiring that every single student take these, like, twice-yearly AI courses that are, like, 45 minutes long that are essentially trying to sort of explain, like, what some of the benefits of AI are, what some of the risks are in terms of, like, biases and like ethical issues. Um, they haven't said a lot about like what the content of that is going to be, and I imagine there's going to be like a lot of interest from people in how they frame like what AI is and how it should be used. But they are, they're sort of promising to do something to like help prepare like every student for it."
+    },
+    {
+      "start": 437.4,
+      "end": 462.7,
+      "speaker": "B",
+      "text": "This will be like when back in high school and my librarian was like, okay everyone, gather around, we're going to learn how to use Google today. And our teachers would be like, what? They should be using the Card catalog, why are you teaching this? And of course, yeah, exactly. Librarian understood what was around the corner here. Um, what about teachers though? Because I did find it interesting, this was not just about limiting students, it also limited teachers in some ways, or addressed what teachers can and cannot use. What are the issues here?"
+    },
+    {
+      "start": 463.1,
+      "end": 479.5,
+      "speaker": "D",
+      "text": "Yeah, so sort of similar to some guidance they put out a few months ago, there are some areas where teachers are just like not allowed to use AI at all. So like one example of that is to create like special education learning plans, which are these documents that spell out what services students with disabilities get."
+    },
+    {
+      "start": 479.6,
+      "end": 485.1,
+      "speaker": "B",
+      "text": "Like somebody will put into a chatbot or something like, what would be a good custom-built program for this with these things?"
+    },
+    {
+      "start": 485.2,
+      "end": 485.6,
+      "speaker": "D",
+      "text": "And they'll—"
+    },
+    {
+      "start": 485.8,
+      "end": 486.9,
+      "speaker": "B",
+      "text": "it'll spit out an answer to them."
+    },
+    {
+      "start": 487.1,
+      "end": 537.5,
+      "speaker": "D",
+      "text": "Right. I mean, these are really intensive documents that can be like quite long. And, you know, there could be some incentives for a teacher to say, like, I can just tell a chatbot like generally what the student needs and it can help turn that into a narrative that I need for this plan. And I have to do that for dozens of students. And that's like a really time-consuming thing. So That is one area where the city is saying, like, nope, you can't, you can't use it for that. We are launching limited, carefully controlled high school pilots that involved 5 vetted, approved AI programs. But there are other areas where the city is sort of saying, like, teachers have more of a green light for this. Like, one example of that is like creating lesson plans or even like translating materials for students who speak different languages. So there are more approved AI uses, I would say, for teachers, especially in elementary and middle school."
+    },
+    {
+      "start": 538,
+      "end": 546.3,
+      "speaker": "B",
+      "text": "So how significant do these guidelines feel at the end of the day? Like, are these comprehensive enough to finally give us some sort of an answer to how schools should be treating AI?"
+    },
+    {
+      "start": 546.8,
+      "end": 564.5,
+      "speaker": "D",
+      "text": "Right. And so I think it's like really striking in a lot of ways. One, New York City is the largest school system in America. So I think you're right that like a lot of other school districts are going to be looking to New York and thinking like, is this a policy like we want to emulate? So I think it does have that kind of weight to it. Um, I think it's also really noteworthy that this is going to be like a one-year policy."
+    },
+    {
+      "start": 564.7,
+      "end": 575.4,
+      "speaker": "B",
+      "text": "It is by design a finite one-year policy. Over the course of the coming school year, we will carefully monitor each of these programs and evaluate their impact and evaluate their success."
+    },
+    {
+      "start": 577.8,
+      "end": 634.5,
+      "speaker": "D",
+      "text": "The other thing I would say that I think is like really interesting is if you just think about like what New York City public school officials were saying like a year or two ago, this is like a 180-degree turn. Like the previous schools chancellor was like, AI is going to revolutionize everything we do. We're going to use it to, like, give students quick feedback. Like, teachers are going to be using it all the time. It was like a very, like, we're embracing AI kind of stance. And then the politics of it have, like, really dramatically shifted in the last, you know, even like 6, 10 months. And, you know, I think there's like a politics dimension to it, too, where, like, Mayor Mamdani is identifying this as an issue that he can really capitalize on and can sort of set a tone that, like, he's going to, you know, at this press conference, he kept talking about, like, We're not going to, like, let for-profit companies, like, into our schools. And, like, you had this sort of, like, populist message, too, around that. So I think— I just think, like, it's been this really, really dramatic and interesting shift over the last few months."
+    },
+    {
+      "start": 634.9,
+      "end": 645.2,
+      "speaker": "B",
+      "text": "Yeah, I was going to say, from a Chromebook in every hand and a chatbot in every home to now what we are seeing in public schools right now. Alex Zimmerman from Chalkbeat, New York, thank you so much. Really appreciate it."
+    },
+    {
+      "start": 645.5,
+      "end": 646.7,
+      "speaker": "D",
+      "text": "Yeah, this is fun. Thanks for having me."
+    },
+    {
+      "start": 650.7,
+      "end": 800.3,
+      "speaker": "B",
+      "text": "Next up on Start Here, moderates are known for being moderate. So why is there there's so much drama around these Democrats. We're back in a bit. This show is sponsored by ZipRecruiter. Can you think of the last time someone went above and beyond for you? Like the barista at your local coffee shop who mysteriously remembered your birthday, or that concierge you met on your last trip who saw you had a bird keychain and made a point to tell you about the local bird sanctuary? Those fleeting moments may be small, but they really make a difference. It's the kind of positive impression you want to see from everyone in your life, and especially from the candidates that you're hiring. When you're hiring, ZipRecruiter gives great candidates the tools they need to go the extra step and tell you why they're interested in that job. It gives those standout candidates a way to stand out from the others. And ZipRecruiter also has this new feature that shows you the most interested qualified candidates first, so you get to meet the right people faster. Try ZipRecruiter and meet great candidates who will go the extra step for your job. 4 out of 5 employers who post on ZipRecruiter get a quality candidate within the first day. Try it for free today at ziprecruiter.com/starthere. That's ziprecruiter.com/starthere. Ziprecruiter.com/starthere. ZipRecruiter. Meet your match on ZipRecruiter. Today I want to tell you about an exciting new deal from our friends at Cozy Earth. Take a moment and think back to the best night of sleep you ever had. Did it feel like you might never sleep that well again? Well, good news, you can give yourself an amazing night of sleep every night by upgrading your bedding to Cozy Earth. Cozy Earth offers luxury bedding at an incredible price. Their ultra-soft temperature-regulating sheets, coverlets, and duvet covers are the perfect companion for a night of uninterrupted relaxation. The sheets come in all different colors and stripes, so there's something for everyone, whether you're doing a big fall refresh for your master bedroom or updating a guest room in time for the holidays. And as comfy as they are on day one, they actually only get better from there because they are designed to get softer with every wash. Best of all, with our limited time deal, the already great prices are even better. You can get 50% off a wide assortment of bedding options by going to our unique link. That's right, 50% off. But hurry, this deal is only for a very limited time. Get yourself the bedding of your dreams right now. Right now. Go to abcsecretsavings.com/starthere for 50% off the best bedding you will ever sleep on. That's abcsecretsavings.com/starthere. For a good decade, the question in congressional circles was often, can Republicans control the members of their caucus?"
+    },
+    {
+      "start": 800.4,
+      "end": 803.7,
+      "speaker": "D",
+      "text": "Gates and these 8 wanted to shut the government down."
+    },
+    {
+      "start": 803.8,
+      "end": 832.4,
+      "speaker": "B",
+      "text": "That's why they wanted to remove me from speaker. Moving from an opposition party to a governing party comes with growing pains. And well, we're feeling those growing pains today. Think about it. You had hawkish members who were elected during the Iraq War. You had Tea Party Republicans who surged to power in a wave of populist anger. Then you had Trump Republicans with their own completely different sets of motivations. It was no surprise that in really tight votes, they had trouble sticking together. Well, now you have a really big, really angry Democratic Party."
+    },
+    {
+      "start": 832.6,
+      "end": 836.2,
+      "speaker": "A",
+      "text": "We are witnessing An oligarchy in America."
+    },
+    {
+      "start": 836.4,
+      "end": 881.1,
+      "speaker": "B",
+      "text": "I was elected as a Democratic Socialist and I will govern as a Democratic Socialist. You got Obama-era Democrats, Democratic Socialists. You got Democrats in big cities who see fighting Donald Trump as a major part of the mandate. You got moderate Dems who want nothing more than to stick to local politics. Some of this is geographical, but some is also generational. And this week, all that seemed to come together in a Massachusetts primary featuring 80-year-old Senator Ed Markey. In the wake of that race, perhaps there are more questions than answers. ABC's Political director Avery Harper is here to break it all down. Avery, I was told if you want to succeed as a Democrat this race, you want to be young, you want to be super progressive, like Democratic socialists are getting more looks than ever. And yet the 80-year-old won here. What happened in this race?"
+    },
+    {
+      "start": 881.8,
+      "end": 896.6,
+      "speaker": "C",
+      "text": "Yeah, I think the biggest takeaway for me from Massachusetts is that voters didn't accept age by itself as an argument for change in that state. Ed Markey is 80 years old and running for reelection in the Senate tonight."
+    },
+    {
+      "start": 897.5,
+      "end": 905,
+      "speaker": "B",
+      "text": "It's a testament to the power of the progressive movement of our nation."
+    },
+    {
+      "start": 905.4,
+      "end": 911.5,
+      "speaker": "C",
+      "text": "Seth Moulton is 47, and he explicitly made generational change a part of his case."
+    },
+    {
+      "start": 911.7,
+      "end": 918.4,
+      "speaker": "B",
+      "text": "The overriding message is that the Democratic Party needs to change, that the establishment in Washington is not getting it done."
+    },
+    {
+      "start": 918.6,
+      "end": 936.1,
+      "speaker": "C",
+      "text": "Markey still beat him decisively. And so I think there's clearly an appetite within the Democratic Party to talk about a new generation of leadership. But Massachusetts voters basically said, show me why the younger candidate is better, simply not just a younger candidate."
+    },
+    {
+      "start": 936.4,
+      "end": 945.7,
+      "speaker": "B",
+      "text": "I was going to say, is the idea that it always seems like we're perpetually in a change election, like every election now is a change election. Is that not necessarily always the case for some of these districts?"
+    },
+    {
+      "start": 945.8,
+      "end": 968.3,
+      "speaker": "C",
+      "text": "Yeah, I think that you have Dan Coe, who won in the primary to succeed Seth Moulton, and I think that is super interesting because Koh really embraced the Democratic establishment in a way that we have not seen many other candidates do this cycle. As senior adviser in the Biden White House, I helped fix the damage from Trump's first term."
+    },
+    {
+      "start": 968.6,
+      "end": 971.1,
+      "speaker": "B",
+      "text": "Since then, I've confronted his lies head on."
+    },
+    {
+      "start": 971.5,
+      "end": 1038.3,
+      "speaker": "C",
+      "text": "He had endorsements from both Joe Biden and Kamala Harris and touted his experience with the Biden White House. And at a moment where there's so much conversation about Democrats trying to reinvent themselves after 2024. He essentially said that I worked for these people, I know how government works, and that experience is an asset. But Ed Markey's record and his progressive ideals were a key part of this race. And you have to remember that Ed Markey actually has beaten this argument twice now. Back in 2020, Joe Kennedy challenged him and Barkley beat him as well. So Seth Moulton tried another version of this argument again this year. I think it resonated more after we saw Joe Biden bow out of the presidential race in 2024. But it still failed here. So he was able to say, look at my record, look at how progressive I've been. He had the support of progressive heavyweights, people like AOC and Bernie Sanders. And that's where the energy is within the Democratic Party right now."
+    },
+    {
+      "start": 1039,
+      "end": 1065.1,
+      "speaker": "B",
+      "text": "Well, this is the thing, because I often feel like Democratic leadership seems like it's often more worried about those progressive candidates perhaps leaning too far left. Right. The leadership is probably thinking, you know, what flies in a primary might not fly in a general election. They want to keep everyone together and on the same page. But this week it sounded like it was moderates, a couple of moderate Democrats who surprised, who blindsided House Minority Leader Hakeem Jeffries, the heir to Nancy Pelosi. What happened here?"
+    },
+    {
+      "start": 1065.4,
+      "end": 1138,
+      "speaker": "C",
+      "text": "Yeah, this can sound a little bit procedural and boring, but it really does matter in this case. Republicans needed to pass what's called a rule. It's essentially a gateway that allows legislation to come to the House floor. And there were Republicans who were prepared to tank this rule. And normally Democrats or the opposition party would not rescue the majority on a vote for a rule, but we saw Jared Golden of Maine and Mary Glucen-Camp-Perez of Washington cross over and vote with Republicans. And essentially without those two Democrats, Republicans would have suffered a truly embarrassing defeat here. But the reason why we saw Hakeem Jeffries and leadership seem really upset about the fact that this happened is not just because we saw some of those Democrats cross party lines to vote with Republicans, but they felt like they were not adequately notified that this was going to happen. So there's this feeling that there was a bit of an undermining of trust. I mean, even in the statement that was issued, they indicated that they felt like these Democrats just did not give them the proper notice so that they knew that this was coming."
+    },
+    {
+      "start": 1138.2,
+      "end": 1151.1,
+      "speaker": "B",
+      "text": "Well, this is what I'm trying to figure out is Republicans always used to say like, hey, we don't agree with Nancy Pelosi, but man, does she control her caucus, right? Like people do not step out of line or she will have their heads. Is that not the case under Hakeem Jeffries or has anything changed here?"
+    },
+    {
+      "start": 1151.2,
+      "end": 1191.5,
+      "speaker": "C",
+      "text": "For the most part, it has not changed. But I think that for Democrats, which have always championed themselves as this big tent party, I think it does become an issue for leadership. If Hakeem Jeffries becomes Speaker of the House after November, if Democrats take control of the House, he's going to have to try and bridge the gap between these very, very moderate candidates, people like Jared Golden and Marie Gluzenkamp-Pérez, and this insurgent progressive left, some folks who identify as Democratic socialists that are are in his party, and that is going to be a challenge for him."
+    },
+    {
+      "start": 1191.6,
+      "end": 1204,
+      "speaker": "B",
+      "text": "Yeah, but that's what's so interesting is that we knew he might be slapping the hand of some of those progressives, and yet here he is being like, we'll see if we have to sort of punish somehow these moderates who sided with Republicans in this one instance. All right, Avery Harper, thank you so much."
+    },
+    {
+      "start": 1204.3,
+      "end": 1204.7,
+      "speaker": "C",
+      "text": "Thank you."
+    },
+    {
+      "start": 1206,
+      "end": 1212.5,
+      "speaker": "B",
+      "text": "Okay, one more quick break. When we come back, are prediction markets legal? You can bet on it for now. One last thing is next."
+    },
+    {
+      "start": 1216.4,
+      "end": 1261.2,
+      "speaker": "A",
+      "text": "Teens share everything. That may include the bacteria that can cause meningococcal disease known as meningitis. Even if your teen's been vaccinated in the past, they could still be missing meningitis vaccinations. Ask your teen's doctor or visit meningitis.com today. Sponsored by GSK. Cozy season is ahead and you'll be spending way more time inside. Is your home ready? Don't worry. With Wayfair, you can upgrade your space without breaking the bank. Score up to 70% off during their Labor Day clearance on furniture, area rugs, mattresses, and more. Plus, surprise flash deals you can't miss. Whether it's one room or the whole house, Wayfair has pieces for every style and budget. Shop Wayfair's Labor Day clearance now through September 7th at wayfair.com. Wayfair, every style, every home."
+    },
+    {
+      "start": 1262.3,
+      "end": 1276.9,
+      "speaker": "B",
+      "text": "And one last thing. I was at the US Open earlier this week. All right, we are here at round 1 of the Open. The tennis was great. The vibe The vibes were immaculate, but the thing that seemed to be popping up everywhere was the US Open's newest sponsor."
+    },
+    {
+      "start": 1277,
+      "end": 1277.7,
+      "speaker": "A",
+      "text": "Caution!"
+    },
+    {
+      "start": 1277.8,
+      "end": 1484.1,
+      "speaker": "B",
+      "text": "Caution! Caution! That's the latest ad from Caution, which can now call itself the official prediction market partner of the US Open. This is among the biggest sites on which you can bet on everything: elections, award shows, natural disasters— eek— along with good old-fashioned sports. Well, now New Jersey is pushing the Supreme Court to take a closer look at these sites. You see, the entire prediction industry revolves around one fundamental claim: this is not sports betting. Rather, these companies say they're financial markets. You know how you can set up a futures market where people are buying and selling shares of companies they don't own based on what they think will happen later? Well, Cauchy will set up a market with contracts tied to different outcomes. If the contract is based on whether Coco Gauff wins the next set, you wait for it to happen. If it does, all the yes contracts get paid. If she doesn't win, when the no contracts get paid. Now, along the way, you can buy and sell these contracts at different prices, which might seem like odds changing, but no, it's different, completely different from sports betting, they say. New Jersey's top prosecutor says this distinction is dumb. New Jersey's Attorney General released a statement claiming that companies like Kalshi do not follow any of the state's gambling laws. Of course this is gambling, she says, but that's not even what this lawsuit is about. The lawsuit is about about who gets to decide. You see, just this past April, the Third Circuit Court of Appeals sided with Kalshi on this. They were the first federal court to say this is different from sports betting. It's futures trading, and the federal government has the ultimate say over it in the form of the Commodity Futures Trading Commission. Well, the CFTC under President Trump has routinely backed up these prediction sites. By the way, the president's son, Donald Trump Jr., is part of a group investing hundreds of millions into one of these sites, Kalshi's rival, Polymarket. And just last week, a different federal court said no, actually, Cauchy is not immune from state betting laws. The judge sided with us and agreed that what Cauchy was doing was illegal in violation of Washington state law. And the good news is that the judge is shutting down most of Cauchy's operations in Washington state. New Jersey is now asking the Supreme Court to step in on this once and for all. Cauchy argues that a nationwide financial institution needs to be able to function across all 50 states. A spokesperson also pointed out both appellate rulings recognize the supremacy of the CFTC on this issue. What's ironic about this is this is not New Jersey's first time going to the Supreme Court over sports betting. A decade ago, Governor Chris Christie waged a crusade to overturn federal laws that effectively outlawed sports betting in most states. The moment the Supreme Court sided with New Jersey, sportsbooks opened up everywhere. You could argue this paved the way for the hypercharged sports betting culture we see now that has allowed sites like Caelsi to thrive. The fact that courts have knocked the ball back and forth over this makes it much more likely the justices will have to take this up. They have till the end of the year to decide. Meanwhile, if you've got a hunch on what they'll do, you gotta imagine someone's taking bets. I mean, contracts. You could almost feel the scrutiny of Kalschee ramping up at the US Open. Like one of the signs was down on the ground between where the ball kids kneel. So like it was blocked for half the matches. You're like, okay, That's, that's where you're putting the billboards. More on all these stories on ABC News Live, wherever you stream live news. I'm Brad Milkey. See you tomorrow."
+    },
+    {
+      "start": 1493.4,
+      "end": 1553.3,
+      "speaker": "A",
+      "text": "Cozy season is ahead and you'll be spending way more time inside. Is your home ready? Don't worry, with Wayfair you can upgrade your space without breaking the bank. Score up to 70% off during their Labor Day clearance on furniture, area rugs, mattresses, and more. Plus, surprise flash deals you can't miss. Whether it's one room or the whole house, Wayfair has pieces for every style and budget. Shop Wayfair's Labor Day clearance now through September 7th at wayfair.com. Wayfair, every style, every home. The most memorable gifts aren't found, they're made. Zazzle is a custom marketplace where you pick any product, a mug, a card, a tote, a phone case, and make it personal. A photo, a name, an inside joke. The kind of gift that actually fits the person. That's what 30 million customers have been coming back to Zazzle for over 20 years to find. Right now, save 25% on your first order at Zazzle.com. That's Zazzle.com. Make it ZA-mazing."
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "episode": {
+    "id": "521e6feb9c2793e7ee33bacbc6a0481f6f83cb2a0c593448a87270f2570a57b1",
+    "podcastTitle": "Big Take",
+    "feedUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/825d4e29-b616-46f4-afd7-ae2b0013005c/8b1dd624-a026-43e9-8b57-ae2b00130066/podcast.rss",
+    "guid": "2190b992-2598-4e23-8742-b4b9014943c5",
+    "title": "Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability",
+    "description": "<p>Hundreds of hydropower workers remain missing in Nepal after a glacial collapse caused catastrophic flooding. The disaster laid bare the rising climate risks across Asia and the danger of building in an increasingly volatile environment.</p> <p>On today&rsquo;s Big Take Asia podcast, guest host Rebecca Choong Wilkins sits down with Bloomberg&rsquo;s Clara Ferreira Marques and Bloomberg Opinion&rsquo;s David Fickling to talk about the human and economic toll of the disaster, why the catastrophe is a warning for the rest of the world and how Nepal&rsquo;s big bet on clean energy may now be at risk.</p> <p>We have a special Bloomberg subscription offer for podcast listeners at <a href=\"https://www.bloomberg.com/subscriptions/podcasts\">Bloomberg.com/podcastoffer.</a></p> <p><strong>Hosted by</strong> Rebecca Choong Wilkins; <strong>Produced by</strong> Yang Yang; <strong>Reported by</strong> Clara Ferreira Marques, David Fickling; <strong>Edited by</strong> Paddy Hirsch, Crispina Robert and Tracey Samuelson.</p> <p><strong>Fact-checking by</strong> Naomi Ng; <strong>Engineering by</strong> Alex Sugiura</p> <p><strong>Senior Producer:</strong> Naomi Shavin; <strong>Deputy Executive Producer:</strong> Julia Weaver; <strong>Executive Producer:</strong> Nicole Beemsterboer.</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>",
+    "pubDate": "2026-09-02T20:03:58.000Z",
+    "duration": 1006,
+    "audioUrl": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/825d4e29-b616-46f4-afd7-ae2b0013005c/2190b992-2598-4e23-8742-b4b9014943c5/audio.mp3?utm_source=Podcast&in_playlist=8b1dd624-a026-43e9-8b57-ae2b00130066",
+    "artworkUrl": "https://www.omnycontent.com/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/825d4e29-b616-46f4-afd7-ae2b0013005c/2190b992-2598-4e23-8742-b4b9014943c5/image.jpg?t=1788379258&size=Large"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1326,
+    "utteranceCount": 69
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:58.438Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Nepal's Catastrophic Glacial Flood",
+      "description": "Hundreds of hydropower workers go missing as a glacial collapse sends a devastating wall of water through valley communities on Nepal's border with China.",
+      "startTime": 0.128,
+      "endTime": 321.153,
+      "anchorPhrase": "some people treat chatgpt like some kind of smart search engine, and some use it"
+    },
+    {
+      "index": 1,
+      "title": "Why Mountains Are Falling Apart",
+      "description": "Melting glaciers and thawing permafrost are destabilizing mountain landscapes globally, making deadly landslides and flash floods an increasingly common occurrence.",
+      "startTime": 321.153,
+      "endTime": 473.514,
+      "anchorPhrase": "this is the big take asia from bloomberg news. i'm rebecca chung wilkins in for"
+    },
+    {
+      "index": 2,
+      "title": "A Global Crisis, Not Just Nepal",
+      "description": "From Alaska to Switzerland to the Indian Himalayas, glacial lake outburst floods are threatening communities on four continents.",
+      "startTime": 473.514,
+      "endTime": 553.279,
+      "anchorPhrase": "world. this is quite a common thing around the world, really, on mainly continents. north"
+    },
+    {
+      "index": 3,
+      "title": "Warning Systems Rich vs. Poor Countries",
+      "description": "Switzerland evacuated its village nine days before a glacier collapsed, while Nepal received only minutes of warning — exposing a stark gap in monitoring and data-sharing capacity.",
+      "startTime": 553.279,
+      "endTime": 796.977,
+      "anchorPhrase": "take the example of that swiss village we talked about, blatten, last year. that glacier"
+    },
+    {
+      "index": 4,
+      "title": "Hydropower: Flood Shield or Sitting Duck?",
+      "description": "Nepal's reliance on run-of-river dams, cheaper but lacking flood storage capacity, leaves communities more exposed compared to the large reservoir dams built elsewhere.",
+      "startTime": 796.977,
+      "endTime": 941.473,
+      "anchorPhrase": "countries affected by the kind of flooding that has hit northern nepal are investing in"
+    },
+    {
+      "index": 5,
+      "title": "The Insurance and Investment Squeeze",
+      "description": "Rising disaster frequency is driving up insurance costs while hydropower continues to receive less development funding than fossil fuels, even after the Paris Agreement.",
+      "startTime": 941.473,
+      "endTime": 1103.334,
+      "anchorPhrase": "disasters like the one playing out in northern nepal right now complicate the picture. there"
+    },
+    {
+      "index": 6,
+      "title": "Can Nepal Still Win the Hydro Bet?",
+      "description": "Despite the devastation, Nepal's hydropower ambitions remain viable if the new government can establish proper oversight and learn from countries like Ethiopia and Laos.",
+      "startTime": 1103.334,
+      "endTime": 1326,
+      "anchorPhrase": "this. hydropower presents an opportunity for nepal, but the devastation from the recent flooding shows"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.1,
+      "end": 42.1,
+      "speaker": "A",
+      "text": "Some people treat ChatGPT like some kind of smart search engine, and some use it to get work done. ChatGPT Work is a new way of working in ChatGPT that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work. It's designed to help you move from a chaotic starting point to a reviewable first version. So all the source materials, briefs, and scattered information that you have to grind through to turn into something useful can just become something useful. Put ChatGPT to work on your most ambitious ideas and projects. Get started at chatgpt.com by selecting Work Mode, available on Plus and Pro plans."
+    },
+    {
+      "start": 43.2,
+      "end": 63.9,
+      "speaker": "B",
+      "text": "Dog grooming genius here. Most people see a busy dog salon, but I see operational excellence, thanks to Genius from Global Payments. Scheduling, personalized, Checkouts? Instant. Absolutely genius. From game day crowds to every groomer in this shop, Genius keeps everything flowing seamlessly."
+    },
+    {
+      "start": 64,
+      "end": 65.4,
+      "speaker": "C",
+      "text": "Schnauzer is styled!"
+    },
+    {
+      "start": 65.4,
+      "end": 71.5,
+      "speaker": "B",
+      "text": "Flawless execution. Big league reliability for any business. That's Genius."
+    },
+    {
+      "start": 73,
+      "end": 100.8,
+      "speaker": "D",
+      "text": "At Venture Global, we think about what can be done, not what's usually done. Through innovation, Venture Global is not only building some of the largest energy facilities in the world right here in the United States, But delivering American energy at a fraction of the cost in a fraction of the time. So while others are busy talking, we're busy building. That's Venture Global. That's unstoppable energy."
+    },
+    {
+      "start": 105.3,
+      "end": 107,
+      "speaker": "A",
+      "text": "Bloomberg Audio Studios."
+    },
+    {
+      "start": 107.4,
+      "end": 108.1,
+      "speaker": "E",
+      "text": "Podcasts."
+    },
+    {
+      "start": 108.4,
+      "end": 108.9,
+      "speaker": "A",
+      "text": "Radio."
+    },
+    {
+      "start": 109.3,
+      "end": 109.8,
+      "speaker": "E",
+      "text": "News."
+    },
+    {
+      "start": 111.6,
+      "end": 112.2,
+      "speaker": "F",
+      "text": "Oh my God."
+    },
+    {
+      "start": 112.3,
+      "end": 113.1,
+      "speaker": "C",
+      "text": "Oh my God."
+    },
+    {
+      "start": 118.5,
+      "end": 138.4,
+      "speaker": "G",
+      "text": "For much of the past week, the world has watched in shock as the aftermath of devastating floods in Nepal comes into focus. More than 1,000 people were killed and thousands more are still missing after a glacial collapse swept ice, mud, rock, and water through valley communities along the country's border with China."
+    },
+    {
+      "start": 140.1,
+      "end": 154.3,
+      "speaker": "H",
+      "text": "For all of us covering it, the thing that really stood out were the images. The images here we had of the border, the checkpoint with China, of that sort of flood of water, and And the sheer destructive power of that wave, I think, really took people aback."
+    },
+    {
+      "start": 154.7,
+      "end": 158.1,
+      "speaker": "G",
+      "text": "Bloomberg's Clara Ferreira Marques has been covering the disaster."
+    },
+    {
+      "start": 158.6,
+      "end": 168.3,
+      "speaker": "H",
+      "text": "We are still in the early stages of recovery. There is still a hunt for workers, hundreds of workers on various hydropower projects that have disappeared."
+    },
+    {
+      "start": 168.8,
+      "end": 174.9,
+      "speaker": "G",
+      "text": "Close to 12,000 people have been rescued, and search teams in Nepal are still pulling out survivors."
+    },
+    {
+      "start": 175.4,
+      "end": 191.4,
+      "speaker": "H",
+      "text": "The hope of finding anyone alive is fading fast, and it's difficult to access for rescuers. It's difficult for people to come down the mountain themselves. And of course, the disaster has affected a lot of the infrastructure, the bridges, the roads, and all of that is complicating this still further."
+    },
+    {
+      "start": 193.6,
+      "end": 206.2,
+      "speaker": "G",
+      "text": "Beyond the immense human toll, the costs to rebuild are likely staggering. Nepal's finance minister has estimated the cost of rebuilding to be $4 to $5 billion, roughly a tenth of the size of its economy."
+    },
+    {
+      "start": 206.7,
+      "end": 222.9,
+      "speaker": "H",
+      "text": "Nepal is one of the poorest countries in Asia. It's a $45 billion economy. It, you know, had devastating earthquake in 2015, which set the country back billions of dollars in reconstruction costs, left hundreds of thousands homeless."
+    },
+    {
+      "start": 223.5,
+      "end": 243.9,
+      "speaker": "G",
+      "text": "As part of its recovery, Nepal has relied on its tourism industry. It's also invested in hydropower projects. Hoping to spur domestic development with cheap, reliable electricity and to export surplus energy to neighboring countries. But Clara says the location and the scale of this disaster has threatened both."
+    },
+    {
+      "start": 244.4,
+      "end": 269.4,
+      "speaker": "H",
+      "text": "This is on the border between Nepal and China, so Nepal and Tibet. It's a popular pilgrim route. You have all this sort of administrative structure and military structure, so a lot of people working at checkpoints, at health centers, and then you have the hydropower workers. So they really make up a very substantial portion of the people missing, given the sheer scale of hydropower construction in the wider region and in this area in particular."
+    },
+    {
+      "start": 270.7,
+      "end": 275.2,
+      "speaker": "C",
+      "text": "One thing that we can see very clearly is that these incidents are becoming much more common."
+    },
+    {
+      "start": 275.6,
+      "end": 284.6,
+      "speaker": "G",
+      "text": "David Fickling is a Bloomberg Opinion columnist. He says a warming planet is creating special hazards for mountainous regions around the globe."
+    },
+    {
+      "start": 285,
+      "end": 313.7,
+      "speaker": "C",
+      "text": "Because these mountain landscapes really are held together by ice and the ice is melting. 8 of the 10 worst years for glacier ice losses have been since 2016. And if you look in the eastern Himalayas, landslides are displacing about 5 times material— more material now than they were in the 1980s. There's about 15 million people who live in regions of risk of these sorts of floods. About 10 million of them alone are just in high mountain Asia, essentially the broader Himalayan region."
+    },
+    {
+      "start": 321.2,
+      "end": 385.7,
+      "speaker": "G",
+      "text": "This is The Big Take Asia from Bloomberg News. I'm Rebecca Chung Wilkins in for Wanha. Every week we take you inside some of the world's biggest and most powerful economies and the markets, tycoons, and businesses that drive this ever-shifting region. Today on the show, flooding on the northern border of Nepal has devastated the region and claimed more than 1,000 lives. But Nepal isn't the only country affected by this kind of natural disaster. We look at what triggered the floods, what countries around the world are doing to prepare for similar events, and how one critical industry sits at the center of the challenge, both as a solution and a potential problem. Scientists currently believe the floods in northern Nepal were triggered when a massive chunk of ice and rock broke away from a glacier high in the Himalayas. That in turn sent a powerful surge of water downstream through the river and into communities."
+    },
+    {
+      "start": 385.9,
+      "end": 413.5,
+      "speaker": "C",
+      "text": "You can't say that one particular landslide was caused by climate change because landslides in general are, you know, contingent on such a complicated array of things that go wrong— a mountain collapsing, seasonal floods, and that sort of thing. It's very hard to detect the signal of climate change. But in general, one thing that we can see very clearly is that these incidents are becoming much more common because these mountain landscapes really are held together by ice and the ice is melting."
+    },
+    {
+      "start": 414.2,
+      "end": 427.9,
+      "speaker": "G",
+      "text": "And Bloomberg Opinion's David Fickling says it's not just glaciers that are melting. Permafrost, ground that's supposed to remain frozen year-round, is also thawing, and that can make mountainsides less stable."
+    },
+    {
+      "start": 428.5,
+      "end": 457.7,
+      "speaker": "C",
+      "text": "Roughly a quarter of the land area of the globe is what you could broadly call the cryosphere. So this is area where ice is predominant. A lot of that is ice cap, obviously Antarctica and Greenland, but a huge stretch of that is the permafrost region. The permafrost is changing quite rapidly. You could have a layer of permafrost that's underlying a glacier, and when that turns to non-melted soil and rock, it's not nearly as robust as permafrost, and then the glacier can just slide off like, you know, the slow sliding off a chalet roof in spring."
+    },
+    {
+      "start": 458.8,
+      "end": 472.9,
+      "speaker": "G",
+      "text": "The disaster in Nepal has been catastrophic, but it was by no means unique. David says landslides and flash floods triggered by glaciers melting from warmer temperatures are a growing threats in mountainous regions across the world."
+    },
+    {
+      "start": 473.5,
+      "end": 528.2,
+      "speaker": "C",
+      "text": "This is quite a common thing around the world, really, on mainly 4 continents. North America, for instance, Juneau, the capital city of Alaska, every year has a glacial lake outburst flood. The last one flowed through just last, last month. So that's a very common occurrence. Switzerland, of course, many people remember the footage from last year of the little town of Blatten that was obliterated last year by a landslide very similar to this one. South America, you have these sorts of things in the Andes. It's a sort of similar geography. And of course, India is probably the country that's most exposed to this. The only comparable disaster to this I can think of in recent years is around the town of Kedarnath, which is a pilgrimage town in Uttarakhand state in the Himalayan portion of India. More than 6,000 people were killed in a series of flooding and landslide and glacier disasters there in about 2013."
+    },
+    {
+      "start": 530.2,
+      "end": 552.4,
+      "speaker": "G",
+      "text": "By some estimates, around 15 million people live in areas at risk from glacial lake floods, with roughly two-thirds of them in the high mountains of Asia. As those risks grow, governments are grappling with the same challenge: how to anticipate and prepare for disasters that can unfold with little warning. But countries are not equally equipped."
+    },
+    {
+      "start": 553.3,
+      "end": 565.9,
+      "speaker": "C",
+      "text": "Take the example of that Swiss village we talked about, Blatten, last year. That glacier has been heavily monitored and Switzerland has heavily monitored many of its glaciers for the best part of a century. There's a lot of understanding of what happens there."
+    },
+    {
+      "start": 566.4,
+      "end": 585.8,
+      "speaker": "G",
+      "text": "Swiss authorities began evacuating some residents from Blattan in mid-May 2025. That was 9 days before the glacier actually collapsed. By contrast, warnings in Nepal came just minutes before the water swept through due to gaps in weather monitoring and data sharing with China."
+    },
+    {
+      "start": 586.2,
+      "end": 611.6,
+      "speaker": "C",
+      "text": "In terms of information sharing, it sounds like a lot of the information sharing has been lacking. But one thing I would add is that these are really genuinely very remote regions. The quality of information collection is just fundamentally not very good. Nepal sits in the middle of a very tense geopolitical situation between India and China. So Nepal sits in a little uncomfortable situation there, and that's been caught up in the geopolitics. But I don't really think this was geopolitics that caused this."
+    },
+    {
+      "start": 612.9,
+      "end": 625.7,
+      "speaker": "G",
+      "text": "One difficulty in Nepal is that the government gets stuck in this reactive cycle. As flooding becomes more frequent, the government is forced to race to fix the problem, only then to have another disaster hit."
+    },
+    {
+      "start": 625.9,
+      "end": 652,
+      "speaker": "C",
+      "text": "Yeah, I mean, state capacity is a huge problem with any of these things. This is though why I'd say you need more infrastructure for development and for wealth. You need infrastructure. And if you have sort of, you know, low-quality infrastructure that's not providing as much wealth, as much, you know, foreign exchange revenue, as much profit for local businesses, then it makes it so much harder to achieve the sort of things in adaptation that you need to achieve."
+    },
+    {
+      "start": 654.2,
+      "end": 661.8,
+      "speaker": "G",
+      "text": "After the break, what can Nepal and other mountain countries do to protect themselves from these types of disasters in the future?"
+    },
+    {
+      "start": 667.6,
+      "end": 701,
+      "speaker": "I",
+      "text": "Quick one before you jump back in. You're listening for ways to help teams move faster, make sharper decisions, and turn scattered context into work they can use. ChatGPT for Business can help. ChatGPT for Business gives teams a shared workspace with admin controls, permissions, and access to work and codex in ChatGPT. This means your business can move from question to answer and code to rollout quicker. Join over 10 million business and enterprise users worldwide already using ChatGPT for Work. Download the ChatGPT desktop app or contact sales to learn more."
+    },
+    {
+      "start": 703.3,
+      "end": 718.6,
+      "speaker": "J",
+      "text": "When I was 14 years old, I was kidnapped and held captive for 9 months. I survived, and I've spent my life exploring how other people survive what should have destroyed them. I'm Elizabeth Smart, and these are the Survivor Files."
+    },
+    {
+      "start": 718.9,
+      "end": 724.8,
+      "speaker": "F",
+      "text": "I just remember this low, taunting voice next to my ear saying, \"Shut up."
+    },
+    {
+      "start": 725.4,
+      "end": 735.8,
+      "speaker": "J",
+      "text": "Don't say anything.\" Every week I'm with survivors who lived through the unthinkable. I knew if he woke up, without a doubt he was going to hurt me."
+    },
+    {
+      "start": 736,
+      "end": 742.9,
+      "speaker": "C",
+      "text": "I started feeling that there was someone at the end of my bed and I just started screaming."
+    },
+    {
+      "start": 743.5,
+      "end": 762.5,
+      "speaker": "J",
+      "text": "They are abducted, stalked, controlled, and nearly silenced. But these aren't stories about what's taken from them. They're stories about what it takes to make it out alive. Listen to The Survivor Files with Elizabeth Smart on the iHeartRadio app, Apple Podcasts, or wherever you get your podcasts."
+    },
+    {
+      "start": 763.8,
+      "end": 784,
+      "speaker": "K",
+      "text": "Your night in just got legendary! Get ready to chase the rush, spin, win, and redeem instantly straight to your bank account at LegendsWithAZ.com. With free-to-play slots, blackjack, keno, roulette, and more, experience all the The thrills of Vegas without leaving your couch. Legends has it all. Legends is a free-to-play social casino. Void for prohibited."
+    },
+    {
+      "start": 784,
+      "end": 784.4,
+      "speaker": "D",
+      "text": "Must be 18+."
+    },
+    {
+      "start": 784.4,
+      "end": 784.9,
+      "speaker": "K",
+      "text": "Play responsibly."
+    },
+    {
+      "start": 785,
+      "end": 786.4,
+      "speaker": "C",
+      "text": "Visit legends.com for full details."
+    },
+    {
+      "start": 786.6,
+      "end": 791.4,
+      "speaker": "K",
+      "text": "Get in the game now and score a 100% match on your first purchase only at legendswithaz.com."
+    },
+    {
+      "start": 797,
+      "end": 819.1,
+      "speaker": "G",
+      "text": "Countries affected by the kind of flooding that has hit northern Nepal are investing in a variety of measures to offset growing climate-related risks. Things like early warning systems to flag potential weaknesses, sponge cities to absorb and store rainwater and big infrastructure projects like dams, river dikes, and increasingly hydropower."
+    },
+    {
+      "start": 819.7,
+      "end": 837.1,
+      "speaker": "C",
+      "text": "A lot of the big hydro projects of the 20th century were built not so much for electricity, they were actually built for flood management and for flood control. And the hydroelectricity was the sort of co-benefit that paid for the flood control. That's the case with a lot of the big US dam projects. It's the case with the Three Gorges Dam in China."
+    },
+    {
+      "start": 838.3,
+      "end": 849.8,
+      "speaker": "G",
+      "text": "But not all hydropower projects are created equal. David says there are generally two types of hydropower dams, and one can offer significantly more protection against flooding than the other."
+    },
+    {
+      "start": 850.5,
+      "end": 891.9,
+      "speaker": "C",
+      "text": "One is called storage hydro and the other is called run-of-river hydro. Now, storage hydro is what we normally think about. It's a big dam that makes a reservoir. People are displaced from the reservoir that as, as that fills up, and then when you have this new reservoir like, you know, like Glen Canyon in the US or the Three Gorges in China. That's barely being built in places like Nepal. And what we have instead is something called run-of-river hydro, which is more like a water wheel. It doesn't create much of a reservoir. It doesn't disrupt the river flow very much. It's cheaper to build, but it doesn't provide the benefits of storing energy and doing flood management that you get from storage hydro. So Nepal is sort of building the cheaper version that doesn't provide flood protection."
+    },
+    {
+      "start": 892.7,
+      "end": 908.2,
+      "speaker": "G",
+      "text": "And yet hydropower is still an important pillar of the country's economic ambitions. It provides cheap electricity at home and is a source of export revenue abroad. But Nepal has struggled to fully capitalize on hydropower's potential."
+    },
+    {
+      "start": 908.7,
+      "end": 940.6,
+      "speaker": "C",
+      "text": "The biggest problem for Nepal is just that it's been a very poor country. It doesn't have a sophisticated electricity grid. About like 13% of electricity is lost every year just by, you know, general losses in the grid network. It's got very minimal integration with exports to India. And also these run-of-river dams, which are the ones that they're building, 90% of them are these run-of-river dams. They export electricity only when the water is running. They can't store it for later months. And that means they're often selling into the Indian market at the time when prices are lowest. So it's not very attractive."
+    },
+    {
+      "start": 941.5,
+      "end": 963.7,
+      "speaker": "G",
+      "text": "Disasters like the one playing out in northern Nepal right now complicate the picture. There are hundreds of hydro projects in the country, either in development or up and running. But about a dozen of them have been affected by these floods. That's already creating ripple effects through the hydropower industry as project companies call on their insurers to assess the damage."
+    },
+    {
+      "start": 965.1,
+      "end": 992.7,
+      "speaker": "C",
+      "text": "Obviously, an incident like this pushes up the cost of insurance. Insurers have been talking about this for decades at this point. The frequency of natural disasters is going up and that is increasing their costs. And that interacts with the fact, of course, that insurers, one side of their business is insured losses and the other side is the investment side of their business. And a lot of their investments have been struggling in recent years as well. So they're sort of squeezed on both ends. It's going to push up the cost of insurance quite considerably."
+    },
+    {
+      "start": 993.5,
+      "end": 999.4,
+      "speaker": "G",
+      "text": "David says that won't help an industry that's been pushed down the list for investment for more than two decades."
+    },
+    {
+      "start": 1000,
+      "end": 1067.2,
+      "speaker": "C",
+      "text": "The funding drought that hit hydro in the '90s has not really receded. Of all the money that was committed by the major development banks in 2022 to energy, hydro took just 2.8% of all of that money. And if you look since the Paris Agreement in 2015, the amount committed to hydro has been about $8.7 billion. Fossil fuels has received about $12 billion since the Paris Agreement. So fossil fuels since the Paris Agreement on climate change have actually received more funding from development banks than hydroelectricity. And that, I think, is, is clearly a failure. I think actually the fact that wind and solar and batteries are such a compelling energy generation, um, cocktail is in some ways a problem in itself because it provides a, a lot of, um, very easy bankable projects that sort of crowd out a lot of this hydro, which is quite hard. Wind, solar, and batteries provide pretty much guaranteed cash flows between 1 and 5 years of getting your financial sign-off, whereas hydro is more like 10 to 15 years."
+    },
+    {
+      "start": 1068.5,
+      "end": 1074.5,
+      "speaker": "G",
+      "text": "Despite all of those challenges, David doesn't see Nepal backing away from its bet on hydropower."
+    },
+    {
+      "start": 1075.1,
+      "end": 1102.8,
+      "speaker": "C",
+      "text": "I think every country should aspire towards development, and I think Nepal has great potential to be an export powerhouse of this sort. That's what we're seeing a lot of other, like, high-altitude countries doing. You know, Ethiopia has done very well from building the Grand Ethiopian Renaissance Dam, this one that was built. Tanzania just financed a dam which has just recently opened and is similarly successful. Laos is another example of this. So there are plenty of examples of countries that can do well from this."
+    },
+    {
+      "start": 1103.3,
+      "end": 1125.5,
+      "speaker": "G",
+      "text": "Hydropower presents an opportunity for Nepal, but the devastation from the recent flooding shows the risks in developing this industry. Nepal's new government has been in power less than 6 months. David says to be successful in developing hydro, it needs to make some changes to the way things are done, starting with proper oversight."
+    },
+    {
+      "start": 1126,
+      "end": 1150.7,
+      "speaker": "C",
+      "text": "At the moment, no one's really taking responsibility for the problem. So Nepal, they have a planning law in Nepal, but essentially in these high mountain valleys, these are a long way from the arm of the law. So are these buildings and roads being built in stable situations that aren't going to be affected by floods, or, or are they just being built wherever you can persuade local officials to let you build them. When institutions are actually capable of taking responsibility for this, they actually can mitigate some of the damage."
+    },
+    {
+      "start": 1152,
+      "end": 1169.3,
+      "speaker": "G",
+      "text": "The Nepalese government estimates it will cost between $4 and $5 billion to rebuild after these floods. But David notes that this is the third such disaster to hit the region in as many years, and there's no way to tell when the next one will strike."
+    },
+    {
+      "start": 1169.9,
+      "end": 1191.2,
+      "speaker": "C",
+      "text": "The more you look into it, the more you realize these are becoming annual events. And one thing that we see, we've been warning about for many years with climate change, is that you spend all your time just running on the spot, basically, because of course you're, you're dealing with the, with the previous disaster and the consequences from the previous disaster before the next disaster even hits."
+    },
+    {
+      "start": 1199.8,
+      "end": 1224.1,
+      "speaker": "G",
+      "text": "This is The Big Take Asia from Bloomberg News. I'm Rebecca Chung Wilkins. To get more from The Big Take and unlimited access to all of Bloomberg.com, subscribe today at Bloomberg.com/podcastoffer. If you like the episode, make sure to subscribe and review The Big Take Asia wherever you listen to podcasts. It helps people find the show. Thank you for listening. See you next time."
+    },
+    {
+      "start": 1234.4,
+      "end": 1262.2,
+      "speaker": "L",
+      "text": "This episode is supported by FX's The Drop: A Snowfall Saga. Wanda and Leon are back, but this time they're chasing a different kind of legacy as West Coast rap begins to take over '90s Los Angeles. Wanda is betting on a new generation of artists. But in a city where every opportunity comes with a price, they'll have to decide what they're willing to risk to leave their mark. FX's The Drop premieres September 8th on FX and Hulu."
+    },
+    {
+      "start": 1262.8,
+      "end": 1295,
+      "speaker": "E",
+      "text": "I love the little everyday moments with my dog, especially treat time. But dental care? Not always so fun. Until we found Greenies Dental Treats. These are more than just tasty. They're vet recommended and designed to support the 4 areas vets check the most. Plaque, tartar, gums, and breath. Their unique texture cleans down to the gum line and supports cleaner teeth after 28 days when fed daily. It's a simple daily habit that supports their health and gives us another moment to enjoy together. Greenies make health a treat. Shop now at greenies.com."
+    },
+    {
+      "start": 1296.1,
+      "end": 1318.9,
+      "speaker": "F",
+      "text": "Hey guys, Lady Luck here. Are you going on any road trips this summer? I know I'm going to be going on a bunch of road trips, and being that I'm going to be passenger princess, I love playing on spinquest.com. Spin Quest has all of my favorite slot games, live blackjack, live craps. Head on over to Spin Quest right now and get yourself a $30 coin pack for just $10."
+    },
+    {
+      "start": 1319.5,
+      "end": 1324.7,
+      "speaker": "C",
+      "text": "Spin Quest is a free-to-play social casino. Void where prohibited. Visit spinquest.com for more details."
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "episode": {
+    "id": "8e905f92477b1fe4c502d2a329e5d2c4dfb634785ba69fd4cc259541a77e62bd",
+    "podcastTitle": "The Playbook Podcast",
+    "feedUrl": "https://feeds.megaphone.fm/ASD6963560714",
+    "guid": "https://traffic.megaphone.fm/POLL1496791968.mp3",
+    "title": "The GOP’s fifth stage of grief",
+    "description": "In a Friday roundup, White House reporter Sophia Cai and Playbook’s Ali Bianco unpack three stories animating Washington this morning. They break down&nbsp;what yesterday’s&nbsp;White House press briefing reveals&nbsp;about&nbsp;cracks in Trump’s coalition, the implications of a private phone call between President Donald Trump and Meta CEO Mark Zuckerberg&nbsp;and why Democrats are celebrating two major redistricting rulings. Plus, Washington may be welcoming a new addition to its skyline: a 250-foot monument.&nbsp;\n\nFor more news and analysis, subscribe to the Playbook newsletter:&nbsp;politico.com/playbook&nbsp;",
+    "pubDate": "2026-09-04T09:00:00.000Z",
+    "duration": 1147,
+    "audioUrl": "https://traffic.megaphone.fm/POLL1496791968.mp3",
+    "artworkUrl": null
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1136,
+    "utteranceCount": 46
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:54.096Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Today's Three Big Stories",
+      "description": "Sophia and Ali preview the Friday roundup: Vance's press briefing, Trump's Zuckerberg call, and Democratic redistricting wins.",
+      "startTime": 0.432,
+      "endTime": 69.03,
+      "anchorPhrase": "support for the show comes from anthropic, the team behind claude. a kidney disease diagnosis"
+    },
+    {
+      "index": 1,
+      "title": "Vance Auditions at the Podium",
+      "description": "JD Vance's first White House press briefing reveals the constant performance pressure Trump puts on everyone around him.",
+      "startTime": 69.03,
+      "endTime": 199.111,
+      "anchorPhrase": "okay, so we've got a lot to dig into today. to start us off, i"
+    },
+    {
+      "index": 2,
+      "title": "GOP's Iran Acceptance Problem",
+      "description": "Republicans are reaching the fifth stage of grief over the Iran conflict, settling into the reality that it will define the midterm campaign trail.",
+      "startTime": 199.111,
+      "endTime": 409.108,
+      "anchorPhrase": "so with something a little bit more serious, i do wanna talk about jd vance's"
+    },
+    {
+      "index": 3,
+      "title": "Skipping the MAGA Convention",
+      "description": "Vulnerable Republican candidates are quietly dodging the Dallas midterm convention, caught between Trump loyalty and electoral survival.",
+      "startTime": 409.108,
+      "endTime": 543.394,
+      "anchorPhrase": "several republican candidates in close congressional races have said they don't plan to attend the"
+    },
+    {
+      "index": 4,
+      "title": "Zuckerberg's White House Intervention",
+      "description": "A private phone call between Trump and Meta's CEO quietly derailed plans for a national AI regulator before the deal could be sealed.",
+      "startTime": 543.394,
+      "endTime": 865.804,
+      "anchorPhrase": "thinking about things that are going to totally change the midterms and trump, we need"
+    },
+    {
+      "index": 5,
+      "title": "Democrats Win the Redistricting Fight",
+      "description": "State Supreme Courts in Missouri and Maryland handed Democrats major map victories that could flip control of the House in November.",
+      "startTime": 865.804,
+      "endTime": 1043.192,
+      "anchorPhrase": "yeah, no, i think you're absolutely right. so let's switch gears and talk about some"
+    },
+    {
+      "index": 6,
+      "title": "Washington's 250-Foot Trump Monument",
+      "description": "Interior Secretary Doug Burgum announces excavation could begin within two weeks on the massive Trump arch near the National Mall.",
+      "startTime": 1043.192,
+      "endTime": 1136,
+      "anchorPhrase": "even just months ago. it's a much bigger issue to be paying attention about. well,"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.4,
+      "end": 57.4,
+      "speaker": "A",
+      "text": "Support for the show comes from Anthropic, the team behind Claude. A kidney disease diagnosis is hard enough without a long wait for answers. At Arcana Labs, growing caseloads threaten their promise to give patients next-day biopsy results. Using Claude to help process referral paperwork with 97 to 98% accuracy, Arcana is able to keep that promise as they grow. Read Arcana's story at Claude.com/arcana. Arcanalabs. Today on The Playbook Podcast, we're bringing you a Friday Roundup where we'll unpack 3 of the biggest stories animating Washington today. We'll talk about the first White House press briefing in 42 days, insights from a private phone call between President Trump and Mark Zuckerberg, and the Democratic Party's wins in 2 big redistricting questions."
+    },
+    {
+      "start": 57.4,
+      "end": 57.6,
+      "speaker": "B",
+      "text": "Good morning."
+    },
+    {
+      "start": 57.6,
+      "end": 61.9,
+      "speaker": "A",
+      "text": "I'm Sophia Kamarck. I'm Leigh Ann Peay, White House reporter at Politico."
+    },
+    {
+      "start": 62.9,
+      "end": 66.7,
+      "speaker": "C",
+      "text": "And I'm Ali Bianco, Playbook reporter. It's Friday, September 4th."
+    },
+    {
+      "start": 69,
+      "end": 90.3,
+      "speaker": "A",
+      "text": "Okay, so we've got a lot to dig into today. To start us off, I want to talk about the White House press briefing that happened yesterday, which of course was held by Vice President J.D. Vance. We got to see a fun side of the vice president. Early on, he was asked about the vacant press secretary position. Let's take a listen."
+    },
+    {
+      "start": 91.2,
+      "end": 116.6,
+      "speaker": "B",
+      "text": "Are we talking to you as the vice president or the press secretary? So I'm not Marco. I have not yet accepted any additional jobs, though I guess the Fraud Task Force is my— is my co-chair, is my second additional job. It's funny, before I came out here, I was talking with the president in the Oval Office and he said— he said, be careful. I want you to do well. But if you do too well, I might make you the press secretary. So I've got to screw up a little bit because I'm busy enough as it is."
+    },
+    {
+      "start": 116.8,
+      "end": 164.3,
+      "speaker": "A",
+      "text": "So it's quite fun to get a little bit of that behind the scenes, right? You know, Vance, this time he got a list of names of reporters so he could call on them by name. And he's not like saying, you over there in the red tie or anything like that. But Trump also is telling Vance a lot in that interaction. He's saying, it's always an audition. You know, I'm always watching you. And that can be a lot of pressure if you're JD Vance, if you're Marco Rubio and all of these people. Well, they had an opportunity to perform behind the podium last time when Carolyn Levitt was out for maternity leave, and they'll have an indefinite amount of opportunities potentially if that place is not filled. And one thing is for certain, Trump will be watching."
+    },
+    {
+      "start": 165.2,
+      "end": 191.1,
+      "speaker": "C",
+      "text": "I mean, to your point about getting a little bit of that back and forth behind the scenes with Trump, it just— you got to think about all of the reporting that's told us about Trump privately polling his aides, Marco versus JD. JD, who do you think about for 2028? You gotta think some of it was subliminally there for the vice president as he was obviously making those, those comparisons between himself and the Secretary of State."
+    },
+    {
+      "start": 192.3,
+      "end": 196.2,
+      "speaker": "A",
+      "text": "Yeah, it's always like in the back of their heads and Trump just loves that."
+    },
+    {
+      "start": 196.8,
+      "end": 198,
+      "speaker": "C",
+      "text": "He does. He just eats it up."
+    },
+    {
+      "start": 199.1,
+      "end": 209.9,
+      "speaker": "A",
+      "text": "So with something a little bit more serious, uh, I do wanna talk about JD Vance's response to one of the biggest thorns in Republican sides right now, the Iran War. Let's listen."
+    },
+    {
+      "start": 210.8,
+      "end": 219.7,
+      "speaker": "C",
+      "text": "Given this administration has put timelines out there before, what you just said about no negotiations happening with Iran, will this war be over by the time of the midterm elections?"
+    },
+    {
+      "start": 220.3,
+      "end": 229.3,
+      "speaker": "B",
+      "text": "Well, Caitlin, again, I don't— I wouldn't call it a war. Right now, there is no active shooting. I recognize there have been places where this has flared up."
+    },
+    {
+      "start": 229.9,
+      "end": 240.6,
+      "speaker": "A",
+      "text": "Those comments came a day after an intense exchange of fire in Iran. Look, this isn't the kind of reassurance people really want. What do you make of that, Ali?"
+    },
+    {
+      "start": 241.8,
+      "end": 297.5,
+      "speaker": "C",
+      "text": "I mean, I had been hearing since the spring from Republican operatives about how they were looking for when exactly the war or military operation, as the administration calls it, was going to end. There has been a sense of urgency playing out in the background about the optics of this in a very real and serious way for all of my GOP sources. So the fact that we are now officially, what, 45 days out from the midterms, Republicans are starting to settle into the fact that this is just something they're going to have to message on the campaign trail. In fact, we have colleagues on the White House team, Alex Ganditano and other colleagues, reporting about Republicans kind of reaching this fifth stage of grief, acceptance, that it's, you know, this is just what the political landscape is going to look like going into November. And they even quote one senior White House official that GOP Candidates know that this is just, quote, gonna be the thing that bubbles in the background."
+    },
+    {
+      "start": 298.7,
+      "end": 340.8,
+      "speaker": "A",
+      "text": "Yeah, I know the entire West Wing is just so ready for this to be over, and so is every single Republican operative that is working on a competitive race across the country. And the fact that there's even a debate about whether this is a war or a major military operation is pretty problematic for the president because every hour that West Wing officials and officials across the government are working on Iran, it's an hour that they cannot be working on other issues— drug prices, energy prices, all of the types of things that Americans can feel tangibly and vote on. And JD Vance in particular has been very ready for this thing to end."
+    },
+    {
+      "start": 341.9,
+      "end": 364.3,
+      "speaker": "C",
+      "text": "And those prices really play into more of what we heard from Vance at the press conference. He was talking about how Iran doesn't totally disrupt the normal lives of Americans. He said it's limited, the disruption. It's a little out of touch with some of what we've heard and seen on the ground. I mean, just yesterday, diesel prices hit their record high."
+    },
+    {
+      "start": 365.1,
+      "end": 365.4,
+      "speaker": "A",
+      "text": "Yeah."
+    },
+    {
+      "start": 365.4,
+      "end": 370.3,
+      "speaker": "C",
+      "text": "But you're on the ground in the White House. Like, what else are you hearing? How much are you hearing about gas prices from your sources?"
+    },
+    {
+      "start": 371.8,
+      "end": 407.8,
+      "speaker": "A",
+      "text": "Quite a bit. Right? I mean, it's kind of the thing that Trump only wants to talk about when it's good, but it's also the thing that if you're an American with a car, you see just about every single day, if not multiple times a day. Now, you know, the Republicans have a midterm convention coming up. I do want to play another clip from the briefing. Next week is the first-ever Republican midterm convention held in Dallas. But there's still been lots of questions about this convention. What will it look like? Who will be there? Here's the vice president in response to some attendance questions around the convention."
+    },
+    {
+      "start": 409.1,
+      "end": 444.4,
+      "speaker": "B",
+      "text": "Several Republican candidates in close congressional races have said they don't plan to attend the convention, or they're being noncommittal about attending. Why do you think some of them are making that decision? And do you have any concern about there being absences from some of the, uh, battleground midterm Republican candidates? No, that doesn't concern me. I mean, look, so when you're running a congressional race, especially in a very tight race, you have so many things that are local that you're focused on. You've got fundraising, you've got money you've got to raise, you've got staff that you've got to deal with and obviously give directives to. And then most importantly, you've got to go out there and meet voters and message to voters."
+    },
+    {
+      "start": 445.3,
+      "end": 459.4,
+      "speaker": "A",
+      "text": "Look, there are many reasons why candidates are not attending the convention. Some of them are real scheduling issues. But is there a larger question about whether it's hurtful or helpful to latch on to MAGA ahead of the midterms?"
+    },
+    {
+      "start": 460.1,
+      "end": 514.9,
+      "speaker": "C",
+      "text": "I mean, it just speaks to —this sort of quagmire that Republicans have been feeling for months about how much they want Trump involved in their races. We've seen some Republicans who've told our White House colleagues, including Alex, about how they might be screwed if they mention him too much, but they can't get out of his good graces. We've seen that with multiple primary races this season. But some at-risk Republicans say they just don't want Trump to visit at all. At least one senior Republican told Alex and our colleagues that they said Trump cannot come. They told his team that, which is quite striking for when you consider that Trump's PAC, MAGA Inc., their first ad that they went up with this week was all about Trump. It's all about messaging him and all of his victories over the last almost 2 years. So, so it's quite the startling contrast."
+    },
+    {
+      "start": 515.2,
+      "end": 539.6,
+      "speaker": "A",
+      "text": "It's kind of like a lose-lose situation and it's awkward either way. You know, it's like when you're a kid in school and you know you're going to be out because you're sneaking out or you're playing hooky or something, and you like don't want to have that conversation with your teacher. You just kind of want them to turn a blind eye and move on. That's how vulnerable Republicans are acting right now, and you can't really blame them. Totally."
+    },
+    {
+      "start": 543.4,
+      "end": 558.4,
+      "speaker": "C",
+      "text": "Thinking about things that are going to totally change the midterms and Trump, we need to unpack some of the exclusive reporting that you dropped yesterday, Sophia. Tell me about this private phone call between Trump and Meta CEO Mark Zuckerberg."
+    },
+    {
+      "start": 560,
+      "end": 630,
+      "speaker": "A",
+      "text": "Yeah, so this was a previously unreported phone call that happened the week of August 17th, where Mark Zuckerberg told Trump that his plans for a national AI regulator is flawed. And it came after White House officials pitched this idea to Trump. Trump was considering it, and White House officials were going to return and close the deal and get him to formally sign off on this. But before they were able to do that, Mark Zuckerberg and Trump had this conversation where, you know, Trump was somewhat moved. And now the White House is sort of regrouping. And I've been told that this idea is still on the table, but there's two options, right? So there's one idea of creating this regulator that looks like FINRA and the government is somewhat involved. And there's a second idea of creating another body that has less involvement from government that looks like the Motion Pictures Association. And this second idea is something that David Sachs and Elon Musk supports. So the White House still wants to find a path forward. But Mark Zuckerberg's chat with Trump certainly complicates things."
+    },
+    {
+      "start": 631.2,
+      "end": 642.6,
+      "speaker": "C",
+      "text": "So this is also particularly interesting when we consider that the vice president was just asked about this at his press briefing yesterday about the threat of possible cyberattacks."
+    },
+    {
+      "start": 643,
+      "end": 654,
+      "speaker": "B",
+      "text": "The American people should know that your government is obsessively focused on both anticipating any potential cyber threats, but also responding to them appropriately and ensuring they don't happen."
+    },
+    {
+      "start": 654.2,
+      "end": 656.1,
+      "speaker": "C",
+      "text": "I mean, what have you been hearing about that?"
+    },
+    {
+      "start": 657.1,
+      "end": 742.7,
+      "speaker": "A",
+      "text": "Yeah, this is a huge issue and it's pretty much been top of mind for the past 4 months for Suzy Wiles, for the officials that work for her. And it's because they really don't want a cyber attack on critical infrastructure happening on their watch because a lot of these advanced AI models are getting so good that they can start hacking into things. Essentially on their own with not a lot of human direction. So that is the problem that they're trying to address for, and it's one of the few policy places that the White House has no choice but to act. It's just a matter of what that will look like, what kind of body they'll create, what kind of regulation they'll put in place. And as they're working on their policy, whatever that idea it is, they're always vulnerable to having a tech executive like Mark Zuckerberg or like David Sachs, who, if we remember, he was the one who called Trump when they were about to release the first AI executive order, also governing these advanced models. And he was able to get Trump to delay that executive order and tweak it by a bit. So that's kind of what's happening again with the idea of creating an outside AI regulator. And so that dynamic is something that I'm gonna be watching very closely."
+    },
+    {
+      "start": 743.7,
+      "end": 765.2,
+      "speaker": "C",
+      "text": "And, you know, with the president, it's always about what voices is he hearing from, who is he talking to? It'll definitely be something to watch as he invites Chinese President Xi Jinping to the country at the end of this month, possibly even for a state dinner. I'm sure that will be one of the main topics kind of bubbling in the background as we start to think about the elections."
+    },
+    {
+      "start": 765.6,
+      "end": 773,
+      "speaker": "A",
+      "text": "Absolutely. No, you're absolutely right. And this question of how do we stay ahead of China, but also how do we stay safe?"
+    },
+    {
+      "start": 774,
+      "end": 826.6,
+      "speaker": "C",
+      "text": "It's such interesting timing, especially this week during this let AI reign moment for Trump. I mean, we've been hearing nonstop from the president about his support for data centers. We heard JD Vance also back data centers, albeit not as full throttle as the president. It also is inescapable from how big AI has become for the midterms. I've seen 3 or 4 stories this week alone about the millions being poured in from AI-affiliated super PACs into some of the biggest races this cycle. We saw this play out in the New York primaries. We could see this potentially being a big boost for someone like Ken Paxton in Texas. We could see Elon Musk coming in for Paxton in Texas. That's been reported recently. So there's really no escaping this issue when it comes to November."
+    },
+    {
+      "start": 827.7,
+      "end": 858.4,
+      "speaker": "A",
+      "text": "Yeah, I mean, Trump is sort of making a bet that talking about AI and talking about AI as the thing that will bring jobs and stimulate the economy is a winning bet. Trump is on a different side of the ledger than everybody else, for the most part, in his party. And he seems to, to be okay with that. You know, this is one place where he's okay that somebody like Byron Donald, somebody like DeSantis, is not exactly on the same page as he is. And he, and he gets that."
+    },
+    {
+      "start": 859.6,
+      "end": 864.6,
+      "speaker": "C",
+      "text": "But it's kind of unmistakably drawing some 2028 lines for the party as well."
+    },
+    {
+      "start": 865.8,
+      "end": 901.2,
+      "speaker": "A",
+      "text": "Yeah, no, I think you're absolutely right. So let's switch gears and talk about some big news we heard on the redistricting front. This week. There was a huge win for Democrats in Missouri, where the state Supreme Court ruled that a map redrawn to benefit Republicans could not be used in November. And in Maryland, the state Supreme Court also gave Democrats a victory by allowing a map that's more favorable for Dems on the November ballot. Ali, you've had your eyes on this. What does all of that signal for us?"
+    },
+    {
+      "start": 902.7,
+      "end": 996.3,
+      "speaker": "C",
+      "text": "Well, there's really no overstating how much of a shock moment this was with Missouri. As soon as the decision came down from the state Supreme Court, I started getting texts from Democratic sources really just celebrating. I mean, this was a battle that a lot of people had thought that they had lost. And it really— this referendum stems from something that came from the grassroots. Our colleague Aaron Pelisch has been reporting on this since the beginning, really how big of a deal this has been for Democrats Democratic grassroots activists to be able to try and preserve Congressman Emanuel Cleaver III's district right outside of Kansas City or surrounding Kansas City. You know, this was a district that the GOP redrew to be a Trump plus 18, I believe. Now with the new ruling from the state Supreme Court, they're going to have to use the old lines, meaning Cleaver could very well sail to victory in this district. And it may seem a little bit bizarre to harp on one single district when it comes to the 435 in the House. But when we think about Speaker Mike Johnson operating on a 2-seat majority right now, functionally, it's a huge deal. And it could determine the balance of the majority in the House come the fall. And over in Maryland, I mean, that's a huge implicator for 2028. Maryland voters are now going to have this on the ballot, it could make the difference between Maryland essentially being an 8-0 state for Democrats. That's a really good point."
+    },
+    {
+      "start": 996.4,
+      "end": 1005,
+      "speaker": "A",
+      "text": "You wonder if, depending on what happens, Republicans could in November be looking back and thinking about this decision in Missouri."
+    },
+    {
+      "start": 1006.3,
+      "end": 1043.1,
+      "speaker": "C",
+      "text": "And it's, it's absolutely fundamental as we've started to already see conversations within the GOP about how many redistricting pickups they're actually going to get. Our colleague Gary Fineout a couple days ago had a story out of Florida about how GOP operatives in Florida are really starting to question if they can get the 4-seat pickup that they redrew for. And actually, one operative told Gary in a pretty striking quote that any seat that Trump won by less than 10 points could be at play. This is Florida we're talking about. Double digits. Double digits. So the redistricting conversation really does look strikingly different today than it did even just 6 months ago."
+    },
+    {
+      "start": 1043.2,
+      "end": 1058.6,
+      "speaker": "A",
+      "text": "It's a much bigger issue to be paying attention about. Well, before we go, I got to ask you, Ali, you remember the replica of Trump's proposed arch during the Great American State Fair?"
+    },
+    {
+      "start": 1059.1,
+      "end": 1062.5,
+      "speaker": "C",
+      "text": "Who, who could forget the hollow arch at the state fair?"
+    },
+    {
+      "start": 1063.7,
+      "end": 1074.9,
+      "speaker": "A",
+      "text": "Well, Interior Secretary Doug Burgum said yesterday that excavation for that project could begin in the next 2 2 weeks, this thing will be 250 feet tall."
+    },
+    {
+      "start": 1075.9,
+      "end": 1090,
+      "speaker": "C",
+      "text": "Oh my gosh. Well, you gotta have some sympathy for your Virginia commuters. You really gotta hope that as this construction starts, it doesn't disrupt the traffic circle all that badly. Otherwise, it's gonna create a lot of traffic pileup."
+    },
+    {
+      "start": 1090.8,
+      "end": 1099.4,
+      "speaker": "A",
+      "text": "And a lot of feelings. Allie, that's all the time we have for today. Thanks so much for joining me today to talk about all of these stories."
+    },
+    {
+      "start": 1100.2,
+      "end": 1101.7,
+      "speaker": "C",
+      "text": "Happy to be here. Great to chat with you."
+    },
+    {
+      "start": 1103.1,
+      "end": 1135,
+      "speaker": "A",
+      "text": "And that's all for today's show. And as always, we have much more news and analysis in today's Playbook newsletter, which you can find at politico.com/playbook. If you're watching us on YouTube, subscribe so you never miss a day of Playbook. For our audio listeners, go ahead and leave us a review. We read all of your feedback, plus it helps others find the show. We will be off on Monday for Labor Day, but we will be back on Tuesday. Have a great weekend, everyone. Presented by Anthropic."
+    }
+  ]
+}

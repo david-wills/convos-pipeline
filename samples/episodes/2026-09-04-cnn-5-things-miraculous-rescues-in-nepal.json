@@ -1,0 +1,242 @@
+{
+  "episode": {
+    "id": "bee6900494276f02ec52371eab62f3ace20ef3f4a014bce048049f3b1e630280",
+    "podcastTitle": "CNN 5 Things",
+    "feedUrl": "https://feeds.megaphone.fm/WMHY2007701094",
+    "guid": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/2nzGkisFXQswLYT5s325/traffic.megaphone.fm/WMHY4453832013.mp3",
+    "title": "Miraculous Rescues in Nepal",
+    "description": "More, miraculous rescues in Nepal.  The judge to question a juror in the Clancy trial. New DC renovation plans. Plus, awards for strange science.\nLearn more about your ad choices. Visit podcastchoices.com/adchoices",
+    "pubDate": "2026-09-04T11:15:00.000Z",
+    "duration": 574,
+    "audioUrl": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/2nzGkisFXQswLYT5s325/traffic.megaphone.fm/WMHY4453832013.mp3",
+    "artworkUrl": null
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 575,
+    "utteranceCount": 29
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:47.161Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Nepal Tunnel Survivors Emerge",
+      "description": "Two men are pulled alive from a flooded tunnel over nine days after catastrophic floods hit Nepal, with roughly 900 workers still missing.",
+      "startTime": 0.176,
+      "endTime": 148.078,
+      "anchorPhrase": "cozy season is ahead, and you'll be spending way more time inside. is your home"
+    },
+    {
+      "index": 1,
+      "title": "The Clancy Jury Holdout",
+      "description": "A deadlocked 11-to-1 jury puts the Lindsay Clancy trial in jeopardy as the judge prepares to question the lone dissenting juror.",
+      "startTime": 148.078,
+      "endTime": 244.125,
+      "anchorPhrase": "holdout. a dramatic day in court over the deadlocked jury. the judge in the lindsay"
+    },
+    {
+      "index": 2,
+      "title": "DC's Controversial Renovation Deals",
+      "description": "The Trump administration pushes ahead on a triumphal arch despite legal and regulatory hurdles, while a convicted voter fraud CEO lands a Lincoln Memorial contract.",
+      "startTime": 244.125,
+      "endTime": 348.76,
+      "anchorPhrase": "weeks. that's despite a series of hurdles remaining, like the pending lawsuit to stop it."
+    },
+    {
+      "index": 3,
+      "title": "Fox Fires Trump's Biggest Fan",
+      "description": "Maria Bartiromo is quietly ousted from Fox News after reportedly leaking internal texts to the White House over blocked conspiracy coverage.",
+      "startTime": 348.76,
+      "endTime": 443.277,
+      "anchorPhrase": "all right, number the fox ouster. president trump weighing in overnight on the news that"
+    },
+    {
+      "index": 4,
+      "title": "Science's Weirdest Prize Winners",
+      "description": "The Ig Nobel Awards honor researchers studying splash-free urinals, snake bites, cockroach milk, and rich people stealing Halloween candy from kids.",
+      "startTime": 443.277,
+      "endTime": 575,
+      "anchorPhrase": "make them think.\" i think that's cool. the winner in physics, for example, went to"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.2,
+      "end": 23.3,
+      "speaker": "A",
+      "text": "Cozy season is ahead, and you'll be spending way more time inside. Is your home ready? Don't worry. With Wayfair, you can upgrade your space without breaking the bank. Score up to 70% off during their Labor Day clearance on furniture, area rugs, mattresses, and more. Plus, surprise flash deals you can't miss. Whether it's one room or the whole house, Wayfair has pieces for every style and budget."
+    },
+    {
+      "start": 23.4,
+      "end": 27.5,
+      "speaker": "B",
+      "text": "Shop Wayfair's Labor Day clearance now through September 7th at wayfair.com."
+    },
+    {
+      "start": 27.7,
+      "end": 29.8,
+      "speaker": "C",
+      "text": "Wayfair. Every style. Every home."
+    },
+    {
+      "start": 36.8,
+      "end": 37.3,
+      "speaker": "D",
+      "text": "Good morning to you."
+    },
+    {
+      "start": 37.4,
+      "end": 44.5,
+      "speaker": "E",
+      "text": "I'm Sarah Sider. It is Friday, September 4th. Here are your 5 things. Number 1, the tunnel rescues. An incredible moment."
+    },
+    {
+      "start": 44.7,
+      "end": 89.6,
+      "speaker": "D",
+      "text": "First responders in Nepal managed to pull 2 men out alive from deep underground more than 9 days after those cataclysmic floods in Nepal. Wow, you hear the rescue teams there shouting pull as they drag one of the men out on a stretcher. And then finally the survivors emerge, a 30-year-old man and a 45-year-old man who are both said to be in stable condition, although One is being treated in the ICU. The 30-year-old explained how he got stuck while trying to evacuate his coworkers."
+    },
+    {
+      "start": 92,
+      "end": 103.4,
+      "speaker": "F",
+      "text": "I told them that there was an accident in the big dam. I asked everyone to escape outside. Doing so, I wasted time and I could not get out. I got trapped."
+    },
+    {
+      "start": 103.9,
+      "end": 112.2,
+      "speaker": "D",
+      "text": "They're both employees of the hydro power company, which still has roughly 900 workers missing."
+    },
+    {
+      "start": 113.2,
+      "end": 121.1,
+      "speaker": "E",
+      "text": "To get to the men rescued today, teams had to first drain water from the tunnel and then blow up rocks the size of cars to clear a path."
+    },
+    {
+      "start": 121.8,
+      "end": 147.8,
+      "speaker": "D",
+      "text": "They are now at the hospital in Kathmandu, and CNN is on the scene as crews dig by hand to see if they can save anyone else. The morning rescues have given renewed hope to the army and first responders in the wake of this horrifying disaster. About 1,300 people are now confirmed dead. More than 5,000 are still missing. Number 2, the lone holdout."
+    },
+    {
+      "start": 148.1,
+      "end": 171.1,
+      "speaker": "E",
+      "text": "A dramatic day in court over the deadlocked jury. The judge in the Lindsay Clancy trial will question a single juror today as deliberations are so far deadlocked 11 to 1. In heated moments in court yesterday, Clancy's attorney accused the juror of disregarding the law after reading a note that was sent to the judge. Here's his exchange with the judge."
+    },
+    {
+      "start": 173.5,
+      "end": 178.4,
+      "speaker": "G",
+      "text": "My motion is to remove this juror that refuses to listen to your instruction on reasonable doubt."
+    },
+    {
+      "start": 178.9,
+      "end": 195.8,
+      "speaker": "H",
+      "text": "I've asked if they are able to follow my instructions according— they swore earlier that they could. They've said tonight at this point that they can. That was specifically addressed towards the specific question. And that's what I'm doing."
+    },
+    {
+      "start": 197.9,
+      "end": 312.3,
+      "speaker": "E",
+      "text": "Well, if the juror was removed, that essentially erases the more than 36 hours of deliberations they've done so far. The jury would have to start from scratch with an alternate juror. If the judge decides to declare a mistrial, however, prosecutors would likely seek to keep Lindsay Clancy in custody at the psychiatric facility where she is currently being held while they could consider whether they want to go forward with retrying her. After court, Clancy's attorney said he hadn't spoken to his client about the juror issue, but says he has faith in the process. Number 3, the D.C. renovations. The Trump administration says it plans to break ground on the president's triumphal arch in the next 2 weeks. That's despite a series of hurdles remaining, like the pending lawsuit to stop it. It also still hasn't gotten the okay from the D.C. Planning Commission, and the FAA hasn't finished its review. Critics also say it needs congressional approval. The Department of Interior did not immediately respond to CNN's questions. And the same agency that has an update on the never-ending saga of the Lincoln Memorial reflecting pool. They've awarded a $2.7 million contract to American AG Energy to repair and maintain the sewage and water purification systems. That contract could be extended for 5 more years, taking the cost to nearly $9 million. And in another twist, the company's CEO, Richard Rosen, was found guilty of voter fraud for casting ballots twice in the 2016 election in Massachusetts and in New Hampshire. The state Supreme Court overturned that conviction this year, but Rosen is still in mediation with the New Hampshire Attorney General's Office."
+    },
+    {
+      "start": 313.7,
+      "end": 314.6,
+      "speaker": "D",
+      "text": "And that's the story there."
+    },
+    {
+      "start": 315.5,
+      "end": 316.6,
+      "speaker": "E",
+      "text": "We'll be right back."
+    },
+    {
+      "start": 318.5,
+      "end": 345.5,
+      "speaker": "B",
+      "text": "Who says Halloween only lasts one day? With Wayfair, one night of Halloween becomes a whole season at home. From larger-than-life yard decor and moody lighting to festive accents for every room in the house. Wayfair has what you need to make Halloween feel like magic all in one place. Because the best Halloween memories aren't made in just one night. They're made all season long. Shop Halloween decor now at wayfair.com. That's W-A-Y-F-A-I-R dot com."
+    },
+    {
+      "start": 345.6,
+      "end": 347.9,
+      "speaker": "C",
+      "text": "Wayfair, every style, every home."
+    },
+    {
+      "start": 348.8,
+      "end": 462.9,
+      "speaker": "E",
+      "text": "All right, number 4, the Fox ouster. President Trump weighing in overnight on the news that his close ally Maria Bartiromo has been unceremoniously dismissed from Fox News. He posted to Truth Social saying he can't believe it and calling her a total professional and a true warrior. Bartiromo's close relationship with Trump and the White House actually led to her being let go, according to a source. Reports say she wanted to cover conspiratorial claims on her show pushed by President Trump. About China and the 2020 election. But when the network shot that down, she allegedly shared that text message with White House officials as if to say it wasn't her fault that the story wasn't getting airtime. Instead, it was Fox's fault. Bartiromo has not responded to CNN's request for comment. Her last day on air was August 9th, but the network said her departure was effective yesterday without any on-air sign-off. Formally, the network put a positive spin on it, thanking her for more than 12 years of work and wishing her all the best on her next chapter. And one last thing, the strangest awards in science. A very colorful group of academics gathered yesterday to hand out something called the Ig Nobel Awards. They're modeled after the Nobel Prize, but these are not the kinds of studies that are curing cancer, exactly. Instead, The organizers honor researchers who, quote, \"first make people laugh and then make them think.\" I think that's cool. The winner in physics, for example, went to a study that searched for a way to make a splash-free urinal design. For biology, a scientist was honored for being willing to step on different parts of a venomous snake to figure out exactly what would make it bite a human being."
+    },
+    {
+      "start": 465.1,
+      "end": 477.3,
+      "speaker": "I",
+      "text": "But who be brave and stupid enough to put their foot in front of venomous snakes? Well, me! Yes! Of course!"
+    },
+    {
+      "start": 477.6,
+      "end": 491.1,
+      "speaker": "E",
+      "text": "Of course! In economics, the winning study that found evidence that, quote, \"upper-class people are more likely to snatch from a children's supply of candy and engage in other kinds of unethical behavior."
+    },
+    {
+      "start": 491.2,
+      "end": 491.6,
+      "speaker": "D",
+      "text": "Naughty."
+    },
+    {
+      "start": 492.1,
+      "end": 500.5,
+      "speaker": "E",
+      "text": "And in chemistry, a team of researchers found cockroach milk contains 3 times as much energy as cow's milk."
+    },
+    {
+      "start": 501.2,
+      "end": 503.5,
+      "speaker": "D",
+      "text": "Okay, I wonder how they figured that one out."
+    },
+    {
+      "start": 503.7,
+      "end": 510.8,
+      "speaker": "E",
+      "text": "All right, good luck selling that one to the masses. I'm Sarah Siner. Those are the 5 things you need to know to get your day going. Now get going."
+    },
+    {
+      "start": 514.8,
+      "end": 537.6,
+      "speaker": "A",
+      "text": "Cozy season is ahead and you'll be spending way more time inside. Is your home ready? Don't worry, with Wayfair You can upgrade your space without breaking the bank. Score up to 70% off during their Labor Day clearance on furniture, area rugs, mattresses, and more. Plus, surprise flash deals you can't miss. Whether it's one room or the whole house, Wayfair has pieces for every style and budget."
+    },
+    {
+      "start": 537.7,
+      "end": 541.8,
+      "speaker": "B",
+      "text": "Shop Wayfair's Labor Day clearance now through September 7th at wayfair.com."
+    },
+    {
+      "start": 541.9,
+      "end": 544.1,
+      "speaker": "C",
+      "text": "Wayfair, every style, every home."
+    },
+    {
+      "start": 545.6,
+      "end": 574.2,
+      "speaker": "J",
+      "text": "At Energy Trust of Oregon, we know it isn't easy. The tremendous costs of maintaining a home, Living in a house with drafty windows, poorly insulated spaces, or equipment that's running well past its prime. But we also know how to help you upgrade your systems, insulate your spaces, and replace what is old with new energy-efficient solutions. Find cash incentives at energytrust.org. Energy Trust of Oregon. More power to you."
+    }
+  ]
+}

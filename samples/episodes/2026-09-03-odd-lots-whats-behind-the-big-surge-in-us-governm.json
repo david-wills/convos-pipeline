@@ -1,0 +1,1232 @@
+{
+  "episode": {
+    "id": "8092d29a817bc561de060bdeb5188b79b2409e5e70a5dee291400f8c239ffb2c",
+    "podcastTitle": "Odd Lots",
+    "feedUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/982f5071-765c-403d-969d-ae27003a8d83/podcast.rss",
+    "guid": "52b31e33-08b2-4ea7-a5d0-b4b9014b34d9",
+    "title": "What's Behind the Big Surge in US Government Bond Yields",
+    "description": "<p>Global bond yields are at their highest level since 2008, with the 30-year US Treasury touching 5% just before Treasury Secretary Scott Bessent announced a surprise increase of his department's bond buyback program and Fed Chairman Kevin Warsh made his hawkish speech at Jackson Hole. So what's driving yields higher? And what options do policymakers have to bring them down? In this episode we speak with Stanford Professor Darrell Duffie, who's been researching bonds for years, including presenting a paper at Jackson Hole in 2023 about how to fix the US Treasury market. A lot has changed since then, and at this year's Jackson Hole symposium, we caught up with Duffie to talk about everything going on in the bond market, as well as the challenge of shrinking the Fed's balance sheet.&nbsp;</p> <p>Get tickets to see&nbsp;<a href=\"https://events.bloombergevents.com/event/ODDLOTSLA/summary\">Odd Lots live</a> in LA!</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>",
+    "pubDate": "2026-09-03T08:00:00.000Z",
+    "duration": 2196,
+    "audioUrl": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/52b31e33-08b2-4ea7-a5d0-b4b9014b34d9/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+    "artworkUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/982f5071-765c-403d-969d-ae27003a8d83/image.jpg?t=1681322812&size=Large"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 2632,
+    "utteranceCount": 186
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:18.820Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Welcome to Jackson Hole",
+      "description": "Tracy and Joe set the scene at the Jackson Hole symposium, where rising long-end yields, a new Fed chair, and Treasury buybacks are the real topics behind the official payments theme.",
+      "startTime": 0.096,
+      "endTime": 246.43,
+      "anchorPhrase": "did you ever notice how you spend hours shopping online only to pause at checkout"
+    },
+    {
+      "index": 1,
+      "title": "Meet Darrell Duffie",
+      "description": "Stanford finance professor Darrell Duffie joins to discuss the intersection of bond market mechanics, macro forces, and Treasury market plumbing.",
+      "startTime": 246.43,
+      "endTime": 342.118,
+      "anchorPhrase": "that we're talking about. that's exactly what i was going to say. so the guest"
+    },
+    {
+      "index": 2,
+      "title": "Why Is the 30-Year at 5%?",
+      "description": "Duffie explains that soaring yields are driven by sheer supply — $31 trillion and rising — overwhelming discretionary investors who need higher compensation to absorb more debt.",
+      "startTime": 342.118,
+      "endTime": 520.779,
+      "anchorPhrase": "i definitely want to talk more about that. but just on a basic level, when"
+    },
+    {
+      "index": 3,
+      "title": "The Debt Reckoning Is Now",
+      "description": "Duffie addresses why the debt-to-GDP story that seemed harmless a decade ago is finally biting, pointing to raw volume growth rather than inflation fears as the culprit.",
+      "startTime": 520.779,
+      "endTime": 975.907,
+      "anchorPhrase": "bond market. debt-to-gdp ratios, no end in sight, etc. certainly that seems right. people could"
+    },
+    {
+      "index": 4,
+      "title": "Fiscal Dominance Nobody Speaks Of",
+      "description": "Duffie explains why the Fed is studiously avoiding any hint of yield curve control, drawing on the acrimonious 1950s Fed-Treasury Accord as a cautionary tale.",
+      "startTime": 975.907,
+      "endTime": 1056.951,
+      "anchorPhrase": "this is kind of a clichéd question, but that deluge of debt issuance, i guess,"
+    },
+    {
+      "index": 5,
+      "title": "Bessant's Bond Market Gamble",
+      "description": "Duffie dissects Treasury Secretary Scott Bessent's expanded buyback program, arguing the market saw through the signal quickly and that Treasury simply lacks the firepower to move yields meaningfully.",
+      "startTime": 1056.951,
+      "endTime": 1327.085,
+      "anchorPhrase": "we had— over the last two weeks. yeah, we had scott bessen announcing that he"
+    },
+    {
+      "index": 6,
+      "title": "What Buybacks Actually Do",
+      "description": "Duffie details his ongoing research into the original purpose of Treasury buybacks — sweeping up illiquid 'odd lot' bonds to smooth the yield curve — and why that differs from recent interventions.",
+      "startTime": 1327.085,
+      "endTime": 1787.13,
+      "anchorPhrase": "yeah. what does your research actually say about, i guess, the impact and duration of"
+    },
+    {
+      "index": 7,
+      "title": "Shrinking the Fed's Balance Sheet",
+      "description": "Duffie breaks down the fundamental challenge of reducing the Fed's balance sheet, explaining why reserves are now a 'Swiss Army knife' banks are addicted to and won't easily surrender.",
+      "startTime": 1787.13,
+      "endTime": 2046.319,
+      "anchorPhrase": "all right. so, you know, i talked in the beginning of all these different things"
+    },
+    {
+      "index": 8,
+      "title": "Warsh's Balance Sheet Task Force",
+      "description": "Duffie speculates on what the Stein-Rajan-Dynan task force will recommend, predicting a shift from long-term Treasuries to T-bills on the asset side to reduce interest expense volatility.",
+      "startTime": 2046.319,
+      "endTime": 2171.238,
+      "anchorPhrase": "you do? it's jeremy stein, raghuram rajan, the same economist that spoke here about the"
+    },
+    {
+      "index": 9,
+      "title": "Joe vs. the Term Premium",
+      "description": "At Tracy's request, Duffie attempts to convince a skeptical Joe that the term premium is real, measurable in concept, and driven by the very Treasury supply dynamics they've been discussing all episode.",
+      "startTime": 2171.238,
+      "endTime": 2303.392,
+      "anchorPhrase": "i have one more question, and it's not really a question. it's more of a"
+    },
+    {
+      "index": 10,
+      "title": "Bessant's Hedge Fund Instincts",
+      "description": "Tracy and Joe debrief, questioning whether Bessant's buyback expansion reflects genuine liquidity concerns or simply a former macro trader's instinct that yields are too high.",
+      "startTime": 2303.392,
+      "endTime": 2632,
+      "anchorPhrase": "so, joe, that was great. i know we've been meaning to talk about the treasury"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.1,
+      "end": 28.3,
+      "speaker": "A",
+      "text": "Did you ever notice how you spend hours shopping online only to pause at checkout because you wonder if you trust it enough to hit \"buy now\"? Agentic Commerce is testing that moment more than ever. That's where PayPal comes in. With 25 years of checkouts, 400 million consumer accounts globally, and the benefit of fraud protection. So no matter where a purchase starts, it ends with trust. Build for payments, growth, and Agentic. PayPal Open. Built for all business. Visit paypalopen.com."
+    },
+    {
+      "start": 29.1,
+      "end": 71.1,
+      "speaker": "B",
+      "text": "Some people treat ChatGPT like some kind of smart search engine, and some use it to get work done. ChatGPT Work is a new way of working in ChatGPT that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work. It's designed to help you move from a chaotic starting point to a reviewable first version. So all the source materials, briefs, and scattered information that you have to grind through to turn into something useful can just become something useful. Put ChatGPT to work on your most ambitious ideas and projects. Get started at chatgpt.com by selecting Work Mode, available on Plus and Pro plans."
+    },
+    {
+      "start": 71.4,
+      "end": 100.7,
+      "speaker": "C",
+      "text": "Healthcare doesn't always work great. If you've ever waited on a refill or couldn't schedule an appointment, You get it. That's the kind of stuff Optum is changing. They're using data and technology to integrate patient care, pharmacy, and everything else. So healthcare is connected, not complicated. What's that look like? Cheaper prescriptions that are easier to get and care that looks at the whole person, how you need it. Optum is helping make healthcare work as one for everyone. Learn more at business.optum.com."
+    },
+    {
+      "start": 103.7,
+      "end": 107.3,
+      "speaker": "D",
+      "text": "Hello, Odd Lots listeners. I'm Joe Weisenthal."
+    },
+    {
+      "start": 107.5,
+      "end": 108.4,
+      "speaker": "E",
+      "text": "And I'm Tracy Alloway."
+    },
+    {
+      "start": 108.6,
+      "end": 112.4,
+      "speaker": "D",
+      "text": "We're the hosts of the Odd Lots podcast, and we've got something exciting for you."
+    },
+    {
+      "start": 112.6,
+      "end": 121.8,
+      "speaker": "E",
+      "text": "That's right. So one of the best parts of hosting our podcast is we get to actually meet and interact with our listeners. And we know we have some listeners over in Los Angeles."
+    },
+    {
+      "start": 122.1,
+      "end": 130.8,
+      "speaker": "D",
+      "text": "That's right. So if you're in LA, we're going to be recording a live show, some live recordings at the Vermont Theater in Hollywood on September 17th."
+    },
+    {
+      "start": 131.2,
+      "end": 144.6,
+      "speaker": "E",
+      "text": "We have some really exciting guests lined up, have some really great conversations planned. So go ahead and get your tickets. You can find those over at bloomberg.com/oddlots or click the link below in the show notes and come and say hi when you're there."
+    },
+    {
+      "start": 150.3,
+      "end": 152,
+      "speaker": "F",
+      "text": "Bloomberg Audio Studios."
+    },
+    {
+      "start": 152.5,
+      "end": 153.2,
+      "speaker": "E",
+      "text": "Podcasts."
+    },
+    {
+      "start": 153.5,
+      "end": 154.1,
+      "speaker": "B",
+      "text": "Radio."
+    },
+    {
+      "start": 154.4,
+      "end": 154.9,
+      "speaker": "F",
+      "text": "News."
+    },
+    {
+      "start": 165.1,
+      "end": 169.6,
+      "speaker": "E",
+      "text": "Hello and welcome to another episode of the Odd Lots podcast. I'm Tracy Alloway."
+    },
+    {
+      "start": 169.7,
+      "end": 170.7,
+      "speaker": "D",
+      "text": "And I'm Joe Weisenthal."
+    },
+    {
+      "start": 171,
+      "end": 172.6,
+      "speaker": "E",
+      "text": "Well, Joe, we are still at Jackson Hole."
+    },
+    {
+      "start": 173,
+      "end": 173.3,
+      "speaker": "D",
+      "text": "Yeah."
+    },
+    {
+      "start": 173.4,
+      "end": 212.7,
+      "speaker": "E",
+      "text": "Where the official theme of this year's symposium is financial innovation in payments. However, the unofficial theme has to be what the heck is going on with bond yields and the Federal Reserve, because this whole meeting is coming against a backdrop of higher yields, particularly at the long end. A new Fed chair who seems to want to make a mark on the Fed and has started all these different task forces to look at things like comms and balance sheets. And then, of course, we also have a Fed that seems to kind of maybe be operating at crosscurrents to the US Treasury, given that the Treasury is now buying back longer-dated bonds and seemingly suppressing longer-dated yields."
+    },
+    {
+      "start": 212.9,
+      "end": 246.4,
+      "speaker": "D",
+      "text": "There's so many different dimensions to what you described, right? So there is the formal technical thing. There is the sort of relationship between the Fed and the Treasury. There is the new things going on inside the Fed. There's obviously the warmth in the economy. By the way, the sun just came out. We're recording outside. It's been rainy and cool all day. Now it suddenly got hot again. Maybe that's a sign. Anyway, that's why it's fun to be in Jackson Hole, though. There are all kinds of different people we can talk to, including people who sit perfectly at this intersection of all the things that we're talking about."
+    },
+    {
+      "start": 246.4,
+      "end": 268.2,
+      "speaker": "E",
+      "text": "That's exactly what I was going to say. So the guest for today, truly the perfect guest, someone who's able to sort of synthesize size, the macro, and what's going on in the bond market, as well as some of the operations of the actual Treasury market. So truly the perfect guest. We're going to be speaking with Darrell Duffy. He is, of course, professor of finance over at Stanford University. So, Darrell, thank you so much for coming back on Odd Lots."
+    },
+    {
+      "start": 268.5,
+      "end": 270.3,
+      "speaker": "G",
+      "text": "Tracy, Joe, great to be back. Thank you."
+    },
+    {
+      "start": 270.6,
+      "end": 276.1,
+      "speaker": "E",
+      "text": "Is there a connection between higher bond yields and the payment system? Basically, why are you here?"
+    },
+    {
+      "start": 277.1,
+      "end": 281.3,
+      "speaker": "G",
+      "text": "Well, there can be. In March of 2020, when the markets became dysfunctional."
+    },
+    {
+      "start": 282.1,
+      "end": 282.9,
+      "speaker": "E",
+      "text": "That's a good answer."
+    },
+    {
+      "start": 283.2,
+      "end": 291,
+      "speaker": "G",
+      "text": "The Fed had to step in and dig out the balance sheets of the largest dealers to keep the bond market moving. And bond yields jumped and were very volatile."
+    },
+    {
+      "start": 291.3,
+      "end": 320.2,
+      "speaker": "D",
+      "text": "The last time we talked was also at Jackson Hole, and we talked about this relationship between just the sheer volume of public debt that's traded these days and the sort of like scarce dealer balance sheet. And this is like, you know, often when people talk about the size of the debt, They talk about maybe like debt to GDP or something like that or whatever. This is like what you focus on then and some of your work takes it from a different angle. Yes, talk about the volume, but just sort of the pipes that we have to run it through."
+    },
+    {
+      "start": 320.7,
+      "end": 341.3,
+      "speaker": "G",
+      "text": "That's right. And, you know, after that event in 2020, I said it would happen again. Dealer balance sheets would get clogged again. But even with the massive amounts of trading we're seeing today, the dealers have more space yet. Could be capital regulations are not as strong. Could be the dealers have recapitalized, but they're definitely in force."
+    },
+    {
+      "start": 342.1,
+      "end": 357.9,
+      "speaker": "E",
+      "text": "I definitely want to talk more about that. But just on a basic level, when you look at yields on something like the 30-year above 5%, I know they've come in slightly today following the chairman's speech. But when you see a yield at that level, what do you think? What is it telling you?"
+    },
+    {
+      "start": 358.5,
+      "end": 400,
+      "speaker": "G",
+      "text": "Well, if I'm the Secretary of the Treasury, It's telling me that the United States is spending a heck of a lot on interest expense, and I need to do what I can to get those yields down. The question is, what can the Treasury Secretary do? As an economist, I run the following thought experiment. Suppose, Tracy, I were to convince you there's no inflation risk. Inflation is, as indicated in today's markets, is pretty stable going forward. The sovereign is not going to default. You are, let's say, a hedge fund, a macro hedge fund. You have $20 billion of the 10-years. And I wish—"
+    },
+    {
+      "start": 400.1,
+      "end": 400.4,
+      "speaker": "E",
+      "text": "but go on."
+    },
+    {
+      "start": 400.7,
+      "end": 453.5,
+      "speaker": "G",
+      "text": "And I'm calling from the Treasury Department and I'm suggesting that you could take another 10. There's space on your, on your own balance sheet to do that. Now, given the conditions that I described for the safe bonds. Why wouldn't you? The reason is you already have what you chose to have at 5.3%. And in order to get you to buy $10 billion more, you need a higher yield to compensate you. The foreign central banks, they have had what they need for a long time now. They didn't— they're not buying more. Foreign investors generally are not keeping up with the size of the bond market. So it's the discretionary investors, the mutual funds, hedge funds, banks, insurance companies, pension funds that are yield sensitive and are being asked to take more of a pretty safe asset. But they're not going to do it unless they get more yield compensation."
+    },
+    {
+      "start": 454,
+      "end": 469.1,
+      "speaker": "D",
+      "text": "It's an interesting way to think about it. So in Tracy's proverbial hedge fund, she has the $20 billion allocation to Treasuries, but no one's paying Tracy just to hold Treasuries, right? So she presumably has a lot of other assets, risky assets. Maybe she's been in Nvidia."
+    },
+    {
+      "start": 469.2,
+      "end": 470.8,
+      "speaker": "E",
+      "text": "I got the best asset, Joe, the best."
+    },
+    {
+      "start": 470.9,
+      "end": 493.3,
+      "speaker": "D",
+      "text": "Maybe she's been in Korean chip stocks or all the other of things. When we think about the pricing, though, to what extent does it make sense to think about a Treasury bond being— is in competition for other theoretically investable assets? And when all those are flying to the moon, or many of them like we've seen, does that have a sort of a reverberation onto the risk-free asset?"
+    },
+    {
+      "start": 493.6,
+      "end": 520.4,
+      "speaker": "G",
+      "text": "Sure it does. And it's other bonds included in that. The hyperscalers have famously been demanding a lot of investment by bond investors. And it's all piling on. But the biggest culprit is our governments generally, not just the US, but especially the US. And government deficits and debt-to-GDP are spectacularly high and there's no end in sight. So this piling-on effect, you know, I think it's mainly in the bond market."
+    },
+    {
+      "start": 520.8,
+      "end": 539.2,
+      "speaker": "D",
+      "text": "Debt-to-GDP ratios, no end in sight, etc. Certainly that seems right. People could have said that 5 or 6 years ago. Well, they could have said that 2018, 2019, and they said it for years about Japan, and just rates kept going lower. Now they're going higher, but they said they kept going lower. What is it?"
+    },
+    {
+      "start": 539.3,
+      "end": 539.9,
+      "speaker": "A",
+      "text": "What changed?"
+    },
+    {
+      "start": 540.1,
+      "end": 552.2,
+      "speaker": "D",
+      "text": "Like, you could have told this story 10 years ago, and you could have laid out the demographics, and you could have talked about the lack of political appetite to cut spending, et cetera. What changed fundamentally such that we got this reversal?"
+    },
+    {
+      "start": 553.1,
+      "end": 560.2,
+      "speaker": "G",
+      "text": "OK, so let's go back even further to when the IMF said 60% debt to GDP is the red line."
+    },
+    {
+      "start": 560.5,
+      "end": 560.8,
+      "speaker": "D",
+      "text": "Yeah."
+    },
+    {
+      "start": 560.9,
+      "end": 604.5,
+      "speaker": "G",
+      "text": "You should not want to go beyond that. And if you do, it's at your own risk. That number just kept getting higher and higher for all major governments. France now is also at 100% debt to GDP. So what's changed is the sheer volume of government debt relative to GDP. It marches on and on. 10 years ago, it wasn't anywhere near 100%. And the Treasury market was, let's see if I recall, about $18 trillion. Now it's $31 trillion. So it's just volume. It's not— I mean, we, as Ken Rogoff remarked at lunch, there's a lot of regression to the mean in terms of long-term yields. And things come and go. But what's been coming is more and more bond debt."
+    },
+    {
+      "start": 604.9,
+      "end": 605.1,
+      "speaker": "C",
+      "text": "Yeah."
+    },
+    {
+      "start": 605.1,
+      "end": 636.2,
+      "speaker": "E",
+      "text": "Can you say more about this idea of competition with hyperscalers? Because I see some people seem to take it as a given, like the hyperscalers are issuing so much debt into the market, particularly longer-term debt, that like it obviously has this crowding out effect. But then I see some other people and they'll be like, oh no, the buyers of US Treasuries are different to the buyers of investment-grade bonds and there's no way they're in competition with each other. But to me, it feels like the overall theme of the bond market right now is this additional duration that investors have to absorb."
+    },
+    {
+      "start": 636.7,
+      "end": 642.8,
+      "speaker": "G",
+      "text": "No, it's absolutely right. And I wouldn't describe it as the hyperscalers crowding out the Treasury Department, but rather the other way around."
+    },
+    {
+      "start": 643.3,
+      "end": 643.9,
+      "speaker": "H",
+      "text": "Volume."
+    },
+    {
+      "start": 644.1,
+      "end": 644.2,
+      "speaker": "A",
+      "text": "Yeah."
+    },
+    {
+      "start": 644.3,
+      "end": 681.7,
+      "speaker": "G",
+      "text": "I mean, $32 trillion and, and rising at $2 trillion a year. There's nothing— I mean, it is true hyperscalers are perhaps going to hit a trillion of debt in the next couple of years. That's small compared to the Treasury Department. So I, you know, I really think it's the Treasury and not just the US Treasury, finance ministries and legislatures around the world that are stuffing a lot of bonds into the hands of the same investors. Yeah, pension funds, insurance companies, they'll buy all of this and they make tradeoffs. And, you know, we see what's happening to yields."
+    },
+    {
+      "start": 682.5,
+      "end": 695,
+      "speaker": "D",
+      "text": "I just thought of a great idea for a sci-fi story in which essentially these giant government debt loads collapse governments and these, you know, these AI building companies become the new sovereign."
+    },
+    {
+      "start": 695,
+      "end": 707.3,
+      "speaker": "E",
+      "text": "That's what I've been saying. So that's in Margaret Atwood, one of Margaret Atwood's books. It's the companies basically replace the governments and you live in a corporate compound and everything is provided to you by the tech company rather than the government."
+    },
+    {
+      "start": 707.4,
+      "end": 747.6,
+      "speaker": "D",
+      "text": "And the Claude yield and the Gemini yield, and those will be our new risk-free. But wait, I want to get back to one more thing. So I get all of this, what you're saying. One word that hasn't come up, though, is inflation. And so when I think like a big difference between 7 or 8 years ago and now is that there's continued to be high inflation, years above target. And it turned out it was even a very aggressive rate hiking cycle didn't get it back to target. Why couldn't it simply be that the reason for higher rates is the series of higher short-term rates as expected because there are a lot of inflationary impulses. One among them may be spending."
+    },
+    {
+      "start": 749.2,
+      "end": 757.2,
+      "speaker": "G",
+      "text": "In the long run, inflation and bond prices go together. It's fiscal theory of the price level. Read John Cochrane's book, or maybe you have."
+    },
+    {
+      "start": 757.4,
+      "end": 759.8,
+      "speaker": "D",
+      "text": "We've never had John on the podcast. We really should do that."
+    },
+    {
+      "start": 760,
+      "end": 816.9,
+      "speaker": "G",
+      "text": "He would be perfect on this question. But today, if you look at forward implied inflation numbers coming from real and nominal bonds. Yeah, they're not showing alarm bells at all. It's true that we've had significantly more inflation than the Fed would like to see for the last 5 years. And as Kevin Warsh remarked this morning and others have spoken, the last part is a lot of work remaining to be done by the Fed. So, yeah, inflation is a concern, but I don't— my view, I don't think that's what bond investors that are thinking about the 10s, 20s, and 30 years, what's foremost on their mind? I think they're looking at the supply relative to the demand. Again, foreign central banks have had all that they need and they're not buying more. And it's mostly domestic discretionary investors that are being asked to take this additional supply and they just need more compensation."
+    },
+    {
+      "start": 833,
+      "end": 879.6,
+      "speaker": "A",
+      "text": "Did you ever notice how you spend hours shopping online only to pause right before you hit buy now? That tiny hesitation, the one where you wonder if it is trustworthy, can make or break the sale. Now, with AI changing the way consumers discover and compare things, that split-second trust question matters more than ever. That's where PayPal comes in. For more than 25 years, PayPal has been a leader in online payments, and now they're at the forefront of agentic commerce, making it work for businesses, letting them maintain control of their brand and their customer relationships. So even as the way people shop changes, the moment that matters most still feels familiar and deeply dependable. Build for payments, growth, and agentic. PayPal Open. Built for all business. Visit paypalopen.com to get started."
+    },
+    {
+      "start": 880.3,
+      "end": 913.8,
+      "speaker": "H",
+      "text": "Quick one before you jump back in. You're listening for ways to help teams move faster, make sharper decisions, and turn scattered context into work they can use. ChatGPT for Business can help. ChatGPT for Business gives teams a shared workspace with admin controls, permissions, and access to work and Codex in ChatGPT. This means your business can move from question to answer and code to rollout quicker. Join over 10 million business and enterprise users worldwide already using ChatGPT for Work. Download the ChatGPT desktop app or contact sales to learn more."
+    },
+    {
+      "start": 921,
+      "end": 974.3,
+      "speaker": "F",
+      "text": "Every sale comes down to a single second. The one between buy now and maybe later. PayPal is built to help your business win that moment with a checkout experience that feels certain, reliable, and familiar. With a global two-sided network and hundreds of millions of buyers who already know us, All to keep you in control however buying happens next. New markets, new AI-powered selling services, a whole new agentic era where you decide how your business will show up and stand out. PayPal is built to help your business come out ahead. We're built for payments, built for growth, built for agentic. PayPal Open. Built for all business. Visit PayPalOpen.com to get started. That's PayPalOpen.com."
+    },
+    {
+      "start": 975.9,
+      "end": 996.6,
+      "speaker": "E",
+      "text": "This is kind of a clichéd question, but that deluge of debt issuance, I guess, what does that actually mean for central bankers? Because when you come to a conference like this, it feels like that's the obvious thing in the mix. And you hear little whispers of words like fiscal dominance, but no one actually talks about it in any direct way."
+    },
+    {
+      "start": 997.6,
+      "end": 1032.3,
+      "speaker": "G",
+      "text": "Yeah, I think the Fed is studiously avoiding fiscal dominance. It wouldn't— it would not entertain a discussion with the Treasury regarding yield curve control. The last time that happened, it was a very acrimonious end in the 1950s with the Treasury— the Fed-Treasury Accord. People think the word accord means they had a good agreement. It actually means they had a really, really rough argument. Interesting. And the Fed supplied some support to the bond market kicking and screaming for a short period of time and then got out of the business of yield curve control. And it won't want to revisit that."
+    },
+    {
+      "start": 1034.4,
+      "end": 1034.7,
+      "speaker": "E",
+      "text": "The Fed—"
+    },
+    {
+      "start": 1034.9,
+      "end": 1043.4,
+      "speaker": "G",
+      "text": "the FOMC will do everything possible not to get into fiscal dominance. So I think that's, that's my reaction."
+    },
+    {
+      "start": 1044,
+      "end": 1056.9,
+      "speaker": "E",
+      "text": "So one of the reasons we wanted to speak to you is because you've done work on the impact of Treasury buyback programs in particular, and of course, I guess, was it a week or two ago? I've lost all sense of time. But recently we had—"
+    },
+    {
+      "start": 1057,
+      "end": 1057.7,
+      "speaker": "D",
+      "text": "over the last two weeks."
+    },
+    {
+      "start": 1057.8,
+      "end": 1073.8,
+      "speaker": "E",
+      "text": "Yeah, we had Scott Bessen announcing that he was increasing the size of the Treasury's buyback program. He cited liquidity concerns. But as far as I can tell, things looked pretty normal in the Treasury market at that moment in time. What do you think his thinking was?"
+    },
+    {
+      "start": 1075.5,
+      "end": 1123.1,
+      "speaker": "G",
+      "text": "Well, from, from his remarks, he seemed to think that yields were too high irrespective of liquidity concerns, and that in his view, market participants should have understood that a lower yield for the US Treasury securities would be appropriate. And he said that he was signaling— he used the word signal— signaling to the market his belief that Treasury yields were too high. Now, I think we subsequently can see that while the market reacted quickly to that news, it reversed itself pretty quickly afterwards. Part of that related to the firepower of the Treasury Department relative to the bond market. I'm sure you remember James Carville's famous comments about the power of the bond market."
+    },
+    {
+      "start": 1123.4,
+      "end": 1129.2,
+      "speaker": "E",
+      "text": "Anyone who has ever written about the bond market has used this quote as the lead for a column at some point, myself included."
+    },
+    {
+      "start": 1129.3,
+      "end": 1129.5,
+      "speaker": "G",
+      "text": "Yeah."
+    },
+    {
+      "start": 1129.6,
+      "end": 1130.8,
+      "speaker": "D",
+      "text": "Did you see what What Trump said?"
+    },
+    {
+      "start": 1131.1,
+      "end": 1133.4,
+      "speaker": "E",
+      "text": "Oh, yeah, about military intervention."
+    },
+    {
+      "start": 1133.4,
+      "end": 1148.6,
+      "speaker": "D",
+      "text": "Military intervention in the bond market. So I don't know, maybe James Carville wasn't thinking fully that the bond vigilante had not— James Carville had not considered that the bond vigilantes could be bombed into submission, potentially. I don't know if he thought about that one."
+    },
+    {
+      "start": 1148.8,
+      "end": 1154.7,
+      "speaker": "G",
+      "text": "Well, even the mighty US Treasury Department is not as powerful as bond markets when it comes to setting yields."
+    },
+    {
+      "start": 1154.8,
+      "end": 1155.2,
+      "speaker": "D",
+      "text": "Yeah."
+    },
+    {
+      "start": 1155.4,
+      "end": 1201.3,
+      "speaker": "G",
+      "text": "We also saw in the yen intervention. Some signals that perhaps first, we have a more activist Treasury Department than we've had in the past in terms of willingness to engage in financial market trades. And secondly, that there might be some concern that if things don't go well in Japan and the Japanese central bank needs to unload treasuries, that that would add on to this piling on that we just discussed. And cause problems for US Treasury markets and the interest expense of the US government. So my impression, maybe I'm reading too much between the lines, is that Secretary Bessant wanted the market to understand that the Treasury Department wasn't just going to sit there idly and take that. They wanted to be involved."
+    },
+    {
+      "start": 1202.1,
+      "end": 1249.3,
+      "speaker": "D",
+      "text": "I feel like classical discussions of interventions, they seem to work better when they are not volume-bound by but by level bound. And when it seems often the case when they're level bound, you don't even have to spend anything. So you say, okay, 5% is our line in the sand. And in theory, doesn't the Treasury have— it could just issue 2-year bills and just take out the 30s. Would that— I mean, if Bessett very strongly feels that it's like these prices just do not, on some fundamental level, do not make sense, could he just say, you know what, we're going to issue only 2 years or 5 years or whatever, we're going to buy 30 years anytime they get to 4.99%. And if you're a bond vigilante and you're thinking it's going to go— you're shorting debt, you're going to get badly burned."
+    },
+    {
+      "start": 1250.9,
+      "end": 1326.3,
+      "speaker": "G",
+      "text": "Well, that would be a formula for increasing the interest rate expense volatility for the US government, because your debt maturity is going to be shorter and shorter. And you're going to be rolling over that debt in auctions. That will reflect current market conditions and a larger and larger fraction of your interest expense is going to be realized on a day-to-day basis. So that's— the US is still in pretty good shape. It has an average debt maturity of about 6 years. I also, you know, have the view that governments are just not powerful enough to control these trends with their own resources. Let's go back to the attack on the British pound that in which Scott Bessant had a role in 1992 when he was working with the Soros hedge fund. The British government was simply unable to defend the pound and it should never have tried. It used up a lot of its firepower that way. And so even as I said, the US Treasury Department, if markets decide that yields are going to be at 6%, The US Treasury Department is not going to be able to have a strong say in that. Not, not without, you know, taking a lot of risk."
+    },
+    {
+      "start": 1326.6,
+      "end": 1326.8,
+      "speaker": "D",
+      "text": "Yeah."
+    },
+    {
+      "start": 1327.1,
+      "end": 1341.3,
+      "speaker": "E",
+      "text": "What does your research actually say about, I guess, the impact and duration of Treasury buybacks? Because this isn't the first time the Treasury is doing this. There's plenty of empirical instances that you can base your research on. What have you found previously?"
+    },
+    {
+      "start": 1342.1,
+      "end": 1372.6,
+      "speaker": "G",
+      "text": "Well, I'm working right now with two economists at the Federal Reserve Bank of New York. Michael Fleming and Or Shakhar, and with my PhD student at Stanford, Sam Wycherley. We are using the buyback data, as well as turnover data on dealer balance sheets to understand the benefit of the original purpose of the buyback program, which is to go out and clean up the leftover bits and pieces of old Treasury notes and bonds."
+    },
+    {
+      "start": 1373,
+      "end": 1373.4,
+      "speaker": "D",
+      "text": "Odd lots."
+    },
+    {
+      "start": 1373.7,
+      "end": 1374.4,
+      "speaker": "G",
+      "text": "Odd lots. Yeah."
+    },
+    {
+      "start": 1374.7,
+      "end": 1377.5,
+      "speaker": "E",
+      "text": "Stuff that actually wasn't really trading anymore, right?"
+    },
+    {
+      "start": 1377.5,
+      "end": 1412.9,
+      "speaker": "G",
+      "text": "Yeah. It was clogging up dealer balance sheets and trading at lower prices than would be suggested by a smooth yield curve. And so the idea was, as explained by then Assistant Treasury Secretary Josh Frost, let's be regular and predictable and clean up these bits and pieces, make the Treasury market more liquid by replacing those with new liquid Treasuries and implicitly make some money for the US taxpayer by buy low, sell high. And that's a good program. Our research shows— well, it's in progress. You'll see the paper eventually."
+    },
+    {
+      "start": 1413.4,
+      "end": 1416.8,
+      "speaker": "D",
+      "text": "It shows— yeah, you and your PhD student can come back on for that."
+    },
+    {
+      "start": 1417,
+      "end": 1430.3,
+      "speaker": "G",
+      "text": "It shows that that's effective. And by the way, I think it's totally legitimate that a Treasury Secretary or Treasury Department would step into the market and use the buyback program for unanticipated needs. So, for example, going back to March 2020."
+    },
+    {
+      "start": 1430.6,
+      "end": 1430.8,
+      "speaker": "D",
+      "text": "Yeah."
+    },
+    {
+      "start": 1431.8,
+      "end": 1446.9,
+      "speaker": "G",
+      "text": "It's totally legitimate that a finance ministry or a Treasury Department would say it's our bond market, it's dysfunctional, it benefits us to step into that market and not leave it entirely to the central bank. You may remember the Liz Truss budget."
+    },
+    {
+      "start": 1447.5,
+      "end": 1447.9,
+      "speaker": "I",
+      "text": "Vaguely."
+    },
+    {
+      "start": 1448,
+      "end": 1448.7,
+      "speaker": "D",
+      "text": "Vaguely, yeah."
+    },
+    {
+      "start": 1448.8,
+      "end": 1488,
+      "speaker": "G",
+      "text": "At that time, the Bank of England faced this dilemma. It was tightening its monetary policy. And at the same time, it had to buy gilts. And so it made a very clear distinction and soon afterwards sold those gilts. It's easier if the Treasury Department is involved. In the case of the UK, it indemnified the Bank of England for the losses that it might have incurred. And in the case of the United States, the Treasury Department could use its own buyback program to add firepower. And that could be done on the scale of hundreds of billions, not the mere 4 to 8 billion that the Treasury Department has been speaking about over the last couple of weeks."
+    },
+    {
+      "start": 1488.5,
+      "end": 1497.3,
+      "speaker": "D",
+      "text": "But from your perspective, in the last few weeks, there's nothing in the sort of classical, classical measures of liquidity that were out of whack?"
+    },
+    {
+      "start": 1497.7,
+      "end": 1501.4,
+      "speaker": "G",
+      "text": "No, nothing. Nothing. You know, dealer balance sheets seem to be in good shape."
+    },
+    {
+      "start": 1501.7,
+      "end": 1502,
+      "speaker": "D",
+      "text": "Okay."
+    },
+    {
+      "start": 1502.5,
+      "end": 1505.1,
+      "speaker": "G",
+      "text": "Bid-offer spreads, market depth are in normal range."
+    },
+    {
+      "start": 1520.9,
+      "end": 1554.4,
+      "speaker": "H",
+      "text": "Quick one before you jump back in. You're listening for ways to help teams move faster, make sharper decisions, and turn scattered context into work they can use. ChatGPT for Business can help. ChatGPT for Business gives teams a shared workspace with admin controls, permissions, and access to work and Codex in ChatGPT. This means your business can move from question to answer and code to rollout quicker. Join over 10 million business and enterprise users worldwide already using ChatGPT for work. Download the ChatGPT desktop app or contact sales to learn more."
+    },
+    {
+      "start": 1561.6,
+      "end": 1619.7,
+      "speaker": "F",
+      "text": "Every sale comes down to a single second, the one between buy now and maybe later. PayPal is built to help your business win that moment with a checkout experience that feels certain Reliable and familiar. With a global two-sided network and hundreds of millions of buyers who already know us. All to keep you in control however buying happens next. New markets. New AI-powered selling services. A whole new agentic era where you decide how your business will show up and stand out. PayPal is built to help your business come out ahead. We're built for payments, built for growth, built for agentic. PayPal Open. Built for all business. Visit PayPalOpen.com to get started. That's PayPalOpen.com. How to have fun anytime, anywhere. Step 1: Go to ChumbaCasino.com."
+    },
+    {
+      "start": 1620.3,
+      "end": 1621.6,
+      "speaker": "D",
+      "text": "ChumbaCasino.com."
+    },
+    {
+      "start": 1621.9,
+      "end": 1622.1,
+      "speaker": "A",
+      "text": "Got it."
+    },
+    {
+      "start": 1622.2,
+      "end": 1624.1,
+      "speaker": "F",
+      "text": "Step 2: Collect your welcome bonus."
+    },
+    {
+      "start": 1624.4,
+      "end": 1625.7,
+      "speaker": "D",
+      "text": "Come to Papa welcome bonus."
+    },
+    {
+      "start": 1625.9,
+      "end": 1628.7,
+      "speaker": "F",
+      "text": "Step 3: Play hundreds of casino-style games for free."
+    },
+    {
+      "start": 1628.8,
+      "end": 1629.5,
+      "speaker": "A",
+      "text": "That's a lot of games."
+    },
+    {
+      "start": 1629.8,
+      "end": 1630.4,
+      "speaker": "H",
+      "text": "All for free."
+    },
+    {
+      "start": 1630.5,
+      "end": 1632.3,
+      "speaker": "F",
+      "text": "Step 4, unleash your excitement."
+    },
+    {
+      "start": 1632.6,
+      "end": 1633.7,
+      "speaker": "D",
+      "text": "Woohoo!"
+    },
+    {
+      "start": 1633.9,
+      "end": 1634.4,
+      "speaker": "B",
+      "text": "Chumba!"
+    },
+    {
+      "start": 1634.5,
+      "end": 1636.8,
+      "speaker": "E",
+      "text": "Chumba Casino has been delivering thrills for over a decade."
+    },
+    {
+      "start": 1636.9,
+      "end": 1639.7,
+      "speaker": "G",
+      "text": "So claim your free welcome bonus now and live the Chumba life."
+    },
+    {
+      "start": 1640,
+      "end": 1641.4,
+      "speaker": "F",
+      "text": "Visit chumbacasino.com."
+    },
+    {
+      "start": 1641.6,
+      "end": 1644.3,
+      "speaker": "D",
+      "text": "No purchase necessary. VGW Group. Void where prohibited by law."
+    },
+    {
+      "start": 1644.4,
+      "end": 1644.7,
+      "speaker": "C",
+      "text": "21+."
+    },
+    {
+      "start": 1644.8,
+      "end": 1679.7,
+      "speaker": "D",
+      "text": "Terms and conditions apply. I mean, one way to think about it is it's not that different from QE or Operation Twist as some of these things that the central bank did in the 2010s. To sort of change the shape or the slope of the yield curve. But that was in a time of below-target inflation and the central bank trying to cause things to reaccelerate. But on some level, does this look like efforts that classically would— you might expect to see in an environment where the central bank is trying to goose inflation?"
+    },
+    {
+      "start": 1680.7,
+      "end": 1682.2,
+      "speaker": "G",
+      "text": "When you say this, meaning what?"
+    },
+    {
+      "start": 1682.7,
+      "end": 1695.9,
+      "speaker": "D",
+      "text": "The sort of the The expanded buybacks, the attempt to depress the long end. That sort of looks Operation Twisty. But that, you know, that was in an environment where we were sub-2% to the frustration of the central bank."
+    },
+    {
+      "start": 1696.2,
+      "end": 1699.7,
+      "speaker": "G",
+      "text": "Yeah. So, well, first of all, I don't think this is stepping on the toes of the Fed."
+    },
+    {
+      "start": 1700,
+      "end": 1700.1,
+      "speaker": "D",
+      "text": "Okay."
+    },
+    {
+      "start": 1700.5,
+      "end": 1706.8,
+      "speaker": "G",
+      "text": "And I do think that it feels like a twisty type of operation, but a micro twist."
+    },
+    {
+      "start": 1706.9,
+      "end": 1707.2,
+      "speaker": "D",
+      "text": "It's okay."
+    },
+    {
+      "start": 1707.4,
+      "end": 1713.5,
+      "speaker": "G",
+      "text": "The firepower that, you know, a few billion dollars other than the signaling. A few billion dollars is just not going to move the needle."
+    },
+    {
+      "start": 1714.2,
+      "end": 1720,
+      "speaker": "E",
+      "text": "Microtwist sounds like one of those terrible Alcopops of like the early 2000s, right? I was thinking maybe it sounds like a curse."
+    },
+    {
+      "start": 1720.1,
+      "end": 1721.4,
+      "speaker": "D",
+      "text": "I would try a Microtwist."
+    },
+    {
+      "start": 1722,
+      "end": 1722.4,
+      "speaker": "E",
+      "text": "Okay."
+    },
+    {
+      "start": 1722.7,
+      "end": 1723.2,
+      "speaker": "C",
+      "text": "Well, okay."
+    },
+    {
+      "start": 1723.3,
+      "end": 1735.2,
+      "speaker": "E",
+      "text": "But if the Treasury is issuing more short-term debt, which it is, does that solve the long-end yield problem or does that just end up shifting the issue into money markets?"
+    },
+    {
+      "start": 1736,
+      "end": 1786.4,
+      "speaker": "G",
+      "text": "Well, it does shift issuance into bills. And that's how buybacks are working with these particular buybacks, these particular operations. And yeah, so it means, as I mentioned, there's shorter and shorter debt maturity, but no alarm bells yet. The US is not out of historical norms. It's actually a little bit longer maturity, average maturity than normal. And, you know, I'm not that worried yet. I mean, if they were to continue And really, the real action is in new issuance, not in buybacks. If they were to continue to keep the issuance of long-term securities at current levels, as they have been and have forecasted that they will, if they were to keep doing that for years, then the piling up of short-term debt would eventually be notable and it would, it would cause concern."
+    },
+    {
+      "start": 1787.1,
+      "end": 1808.1,
+      "speaker": "E",
+      "text": "All right. So, you know, I talked in the beginning of all these different things that are happening at the moment, but one of them is the new Fed chair and the task forces that he's created, including including one that's looking at the Fed balance sheet. Can you maybe put your Kevin Warsh hat on for a second? When he says he wants to shrink the size of the Fed's balance sheet, why is that desirable?"
+    },
+    {
+      "start": 1810.7,
+      "end": 1852.3,
+      "speaker": "G",
+      "text": "Well, first, I'm not Kevin Warsh, so I'm not going to get inside his head. But judging from his speech around the G30 meeting last year, which— in which he was most clear on, on his views here. I think he worries that the Fed looks like it's too active in financial markets, that its footprint is too big, and that it has the image of possibly getting into fiscal policy. And so he wants to stay completely— my interpretation, he wants to stay clear of having created that impression and a smaller balance sheet would signal that."
+    },
+    {
+      "start": 1853.3,
+      "end": 1853.4,
+      "speaker": "E",
+      "text": "The—"
+    },
+    {
+      "start": 1853.6,
+      "end": 1867.1,
+      "speaker": "G",
+      "text": "I think the more interesting question is how could you do it? Yeah, because it's easy enough to sell bonds on the asset side, but it's not easy to extinguish the liabilities on the other side of the balance sheet."
+    },
+    {
+      "start": 1867.2,
+      "end": 1879.9,
+      "speaker": "E",
+      "text": "That's right. When we think about the Fed balance sheet, everyone always thinks about assets because we've gone through years and years and years of QE and no one ever thinks about liabilities. But how do you— those two things have to be in balance. You can't shrink the asset side without shrinking the liability side."
+    },
+    {
+      "start": 1880.4,
+      "end": 1883.4,
+      "speaker": "G",
+      "text": "You reach that conclusion, Tracy, faster than almost anyone that I talked to."
+    },
+    {
+      "start": 1883.5,
+      "end": 1884.1,
+      "speaker": "E",
+      "text": "Oh, dear. Okay."
+    },
+    {
+      "start": 1884.4,
+      "end": 1926.7,
+      "speaker": "G",
+      "text": "So if you just do adding up, you know, if you want to reduce the assets, you have to reduce the liabilities one for one. Let's take them in turn. You've got the Treasury General Account. I don't think the Fed's going to call the Treasury and say, would you take some money out of your account at the Fed? Then you've got paper money. I don't think the Fed is going to put out advertisements saying open your wallets and please, Americans and everybody else out there in the world that has paper money, would you mind turning it in so that we can reduce that liability? So the only significant possible reduction is in reserves, meaning the deposits that commercial banks have at the Fed. And there is scope for doing that, but not with the current tools that the Fed has."
+    },
+    {
+      "start": 1927.2,
+      "end": 1959.3,
+      "speaker": "D",
+      "text": "Would there be a regulatory change that would be necessary? Because we went years and years with basically no balance sheet, and then 2008 hit, and suddenly there's all these reserves. Why can't we go back to— what would be the challenge of going back to 2000? What would it take if for some reason we thought this is very important, we want to get back to the real good old days of Fed balance sheet side, what would it actually take? From a regulatory— regulation perspective to get to just a 2005-looking banking system?"
+    },
+    {
+      "start": 1959.7,
+      "end": 1966.1,
+      "speaker": "G",
+      "text": "It's not going to happen, Joe, because back in 2005, liquidity regulations were much different."
+    },
+    {
+      "start": 1966.3,
+      "end": 1966.6,
+      "speaker": "D",
+      "text": "Okay."
+    },
+    {
+      "start": 1967,
+      "end": 2035,
+      "speaker": "G",
+      "text": "And the Fed didn't pay interest on reserves. So the banks were not in the least interested in holding reserves because why would you hold reserves getting zero interest when you could invest the money in money markets and under a full market rate? Today, in order to control inflation, The Fed is forced to pay an interest rate to banks. That's roughly the market rate. And so, you know, if you ask a bank, why don't you give up some of those reserves, they might say, well, why? They're so useful for meeting liquidity regulations. They pay a full market interest rate. They're perfect for payment services. What's not to like? It's the Swiss Army knife of finance. We're not going to give those up easily. And right here in Jackson Hole in 2017, Viral Acharya and Raghuram Rajan presented a paper describing a ratchet effect by which every time the Fed increases its balance sheet and adds reserves, the banks get addicted to having more of that extremely useful asset reserves, and they're reluctant to give it up. And if you try to make them, markets get volatile. And the Fed has to back off. So a lot has changed."
+    },
+    {
+      "start": 2035.7,
+      "end": 2045.5,
+      "speaker": "E",
+      "text": "What would be your recommendation if you were on this task force? I think it's Stein who's heading it. But, you know, if Warsh says, I want to shrink the size of the balance sheet and we have this reserves problem, what would you do?"
+    },
+    {
+      "start": 2046.3,
+      "end": 2170.4,
+      "speaker": "G",
+      "text": "It's Jeremy Stein, Raghuram Rajan, the same economist that spoke here about the ratchet effect, and Karen Dynan, all very noted. Yeah, very credible, extremely wise and articulate economists. What they're going to do, what they're going to recommend, I don't know. But I think that they're going to take a very wide lens look at this. They're not going to look only at size. They're going to look at the composition of the assets. I predict that they will. And this is with no information from them. I predict that they will recommend reducing the quantity of long-term Treasury securities that the Fed holds and replacing those with Treasury bills in order to reduce the volatility of the Fed's interest expense. So, for example, if you back the reserves 1 to 1 with Treasury bills, then every time the Fed has to pay more interest to the banks to control inflation, it's getting more interest on their Treasury bills 1 for 1. Paper money, they could continue to hold long-term securities. And I don't think the Fed feels good about having mortgage-backed securities. I think they're just going to let those roll off. So I think that that could be in one area that they will get into is the composition of the assets. And on the liability side, it's hard to predict. In my own view, the Fed doesn't need to reduce the size of its balance sheet, but it should have the tools that would allow it to do that. Because if my hunch that this has politics around it is correct, the Fed never wants to be put into a corner by Congress over the size of its balance sheet without the tools that would allow the Fed to say, no, we're, we're not going to increase our balance sheet as you would like us to do and buy the assets that you would like us to buy, but rather we can control our own balance sheet by reducing it if we need to. And those tools exist in theory, but they haven't been developed been implemented in practice by the Fed yet. They have been for other central banks."
+    },
+    {
+      "start": 2171.2,
+      "end": 2186.1,
+      "speaker": "E",
+      "text": "I have one more question, and it's not really a question. It's more of a favor, really. But can you, can you convince Joe that the term premium is a useful concept? He doesn't believe in it. I think you believe it exists, but you don't believe that it's useful in any way."
+    },
+    {
+      "start": 2189.5,
+      "end": 2190.8,
+      "speaker": "G",
+      "text": "You're not going to defend yourself, Joe."
+    },
+    {
+      "start": 2191.9,
+      "end": 2210.6,
+      "speaker": "D",
+      "text": "I'm a simple man. I look at a 30-year yield. I think it looks like 30 years' worth of overnight rates. You just add them up. And I just— you know, that's how— that's what I assume. But then everyone's like, no, but the term premium. And then they say— and then I say, OK, but what is it? They're like, well, we can't really measure it. And all the models that we have to measure it don't work. But trust us, it exists."
+    },
+    {
+      "start": 2210.6,
+      "end": 2211.6,
+      "speaker": "E",
+      "text": "This is why they're useful."
+    },
+    {
+      "start": 2211.6,
+      "end": 2227.3,
+      "speaker": "D",
+      "text": "And then they say, well, they need— Treasury investors need compensation for risk, to which I say, just Treasury investors as if there's something special about they— like, I really struggle with it. So this is why we need a Stanford economist to straighten me out."
+    },
+    {
+      "start": 2227.6,
+      "end": 2275.6,
+      "speaker": "G",
+      "text": "Yeah, it's an easily measured concept. So it tells everyone the value of short-term versus long-term money and interest rates. But then decomposing it is the hard part. So you mentioned there's the path of expected short-term interest rates that's built in. That in and of itself reflects inflation. And then on top of that, there's a risk premium and how to decompose that. Economists like John Cochrane, who we mentioned earlier, with Monica Piazzesi have done some of the best work on that decomposition. And it changes over time depending on one of the things that we just discussed earlier, which is the volume of Treasury issuance that elevates the entire curve and it elevates deficit more in the future if you don't think that the fiscal deficits are going to go down."
+    },
+    {
+      "start": 2276.5,
+      "end": 2279,
+      "speaker": "E",
+      "text": "All right. Joe's going home from this podcast with homework."
+    },
+    {
+      "start": 2279.1,
+      "end": 2280,
+      "speaker": "D",
+      "text": "I'm going to do some reading."
+    },
+    {
+      "start": 2280.6,
+      "end": 2281.5,
+      "speaker": "E",
+      "text": "Assigned reading."
+    },
+    {
+      "start": 2281.8,
+      "end": 2282.3,
+      "speaker": "I",
+      "text": "All right."
+    },
+    {
+      "start": 2282.4,
+      "end": 2286.2,
+      "speaker": "E",
+      "text": "Darrell Duffy from Stanford, thank you so much for coming back on All Thoughts. Really appreciate it."
+    },
+    {
+      "start": 2286.4,
+      "end": 2288.4,
+      "speaker": "G",
+      "text": "Gracie, Joe, it's always a pleasure. Ask me back."
+    },
+    {
+      "start": 2288.6,
+      "end": 2290.8,
+      "speaker": "D",
+      "text": "We'll definitely do it again. Thank you so much."
+    },
+    {
+      "start": 2303.4,
+      "end": 2315.7,
+      "speaker": "E",
+      "text": "So, Joe, that was great. I know we've been meaning to talk about the Treasury buyback, so I'm glad we could get into that. I was thinking, you know, he mentioned the Treasury general account at the Fed, which is like the Treasury's checking account."
+    },
+    {
+      "start": 2315.9,
+      "end": 2316.1,
+      "speaker": "C",
+      "text": "Yeah."
+    },
+    {
+      "start": 2316.4,
+      "end": 2336.9,
+      "speaker": "E",
+      "text": "And you always hear this stat that it covers 5 days of government expenses or something like that. And I always think about the headlines saying, oh, ordinary Americans, you know, half of ordinary Americans only have enough money to cover 3 months expenses. And then I'm like, what about the What about the Treasury? I'm being somewhat facetious. Sorry. What about the Treasury? But it is kind of crazy. 5 days."
+    },
+    {
+      "start": 2337.2,
+      "end": 2341.3,
+      "speaker": "D",
+      "text": "Yeah, I guess it is kind of crazy. But, you know, just think of it as just issue more debt."
+    },
+    {
+      "start": 2341.3,
+      "end": 2345.9,
+      "speaker": "E",
+      "text": "What if Trump actually bombs the bond market? What happens to the Treasury account?"
+    },
+    {
+      "start": 2345.9,
+      "end": 2350.2,
+      "speaker": "D",
+      "text": "It is weird that we actually haven't talked about that very much. But such is life."
+    },
+    {
+      "start": 2350.2,
+      "end": 2351.8,
+      "speaker": "E",
+      "text": "We'll find the perfect guest to talk about it."
+    },
+    {
+      "start": 2351.8,
+      "end": 2386.8,
+      "speaker": "D",
+      "text": "Such is life in 2026. I thought that was really good. I actually did not fully understand previously why buybacks exist in the normal term. OK, setting aside why there's the deviation from the typical schedule, why they exist in the first place, and this idea that what is the point of having these sort of off-the-run, weird— is there some 27-year bond that's sitting out there that no one wants, whatever, that it just sort of makes sense to have a regular sweep of that? You know what they call it in crypto world? What? It's dust. So for example, like—"
+    },
+    {
+      "start": 2386.8,
+      "end": 2388.3,
+      "speaker": "E",
+      "text": "Like abandoned assets, kind of."
+    },
+    {
+      "start": 2388.3,
+      "end": 2407.6,
+      "speaker": "D",
+      "text": "It's kind of like if there will be little flecks of like 0.0002 Bitcoin on like some wallet or something. But because there's a transaction fee with all of them, you can accumulate this dust. And it's not economical to move it off of them. That creates all kinds of issues and stuff. It's sort of similar."
+    },
+    {
+      "start": 2407.6,
+      "end": 2413.7,
+      "speaker": "E",
+      "text": "I remember, weren't there some startups at one point who were trying to like collect all the dust and roll it up into something substantial?"
+    },
+    {
+      "start": 2413.7,
+      "end": 2413.7,
+      "speaker": "F",
+      "text": "Probably."
+    },
+    {
+      "start": 2413.7,
+      "end": 2451.6,
+      "speaker": "E",
+      "text": "Yeah. The other thing I was thinking just about the buyback program now is, I mean, you almost have an issue with the reaction function of the Treasury now. If, if it's citing market liquidity in order to increase the size of the buybacks, but the Treasury market seems to be operating pretty normally. And then everyone starts focusing on the yield, as Darrell was saying, like, oh, it seems like Bessant just doesn't think the yield is at the right level, well, then suddenly you have this target that investors are maybe going to be watching for signs that the Treasury is going to come back in."
+    },
+    {
+      "start": 2451.7,
+      "end": 2466.9,
+      "speaker": "D",
+      "text": "I think Bessant really just misses being a hedge fund. Like, it's like he's like, no, this is like, it's this, the yield is too high. It's like an opportunity to buy, right? And you're like intervening in the yen and stuff. I think this is like he's, he's in, he's in his comfort ground when he's making moves like this."
+    },
+    {
+      "start": 2466.9,
+      "end": 2471.6,
+      "speaker": "E",
+      "text": "Well, I will say, as of the moment we're recording, he's probably above water on his Treasury purchases."
+    },
+    {
+      "start": 2471.6,
+      "end": 2471.6,
+      "speaker": "H",
+      "text": "Right."
+    },
+    {
+      "start": 2471.6,
+      "end": 2471.7,
+      "speaker": "E",
+      "text": "So I thought so."
+    },
+    {
+      "start": 2473.4,
+      "end": 2483.3,
+      "speaker": "D",
+      "text": "I thought so too. Yeah. Except, so this is what I thought. I was like, oh, this is a good trade. Evidently the purchase, this is what someone on Twitter, two people on Twitter told me this, 'cause I thought that too."
+    },
+    {
+      "start": 2483.3,
+      "end": 2484,
+      "speaker": "E",
+      "text": "Oh, it must be true too."
+    },
+    {
+      "start": 2484,
+      "end": 2487.9,
+      "speaker": "D",
+      "text": "The purchases start September 9th. So there was the announcement that came."
+    },
+    {
+      "start": 2487.9,
+      "end": 2488.8,
+      "speaker": "E",
+      "text": "I see."
+    },
+    {
+      "start": 2488.8,
+      "end": 2493.2,
+      "speaker": "D",
+      "text": "So had he, anyway, but I had that same thought. Oh, it's looking like a pretty good trade now."
+    },
+    {
+      "start": 2493.2,
+      "end": 2497.8,
+      "speaker": "E",
+      "text": "All right, stay tuned for the Odd Lots episode tracking Bessant's trade. But shall we leave it there for now?"
+    },
+    {
+      "start": 2497.8,
+      "end": 2498.3,
+      "speaker": "D",
+      "text": "Let's leave it there."
+    },
+    {
+      "start": 2498.3,
+      "end": 2503,
+      "speaker": "E",
+      "text": "Okay, this has been another episode of the Odd Lots Podcast. I'm Tracy Alloway. You can follow me @TracyAlloway."
+    },
+    {
+      "start": 2503.6,
+      "end": 2514.9,
+      "speaker": "D",
+      "text": "And I'm Joe Weisenthal. You can follow me at The Stalwart. Follow our producers, Carmen Rodriguez at Carmen Armandashel Bennett at DashBot, Cale Brooks at Cale Brooks, and Kevin Lozano at Kevin Lloyd Lozano."
+    },
+    {
+      "start": 2515.2,
+      "end": 2520.6,
+      "speaker": "E",
+      "text": "And for more Odd Lots content, you should check out our daily newsletter. You can find that at Bloomberg.com/oddlots."
+    },
+    {
+      "start": 2520.9,
+      "end": 2526.7,
+      "speaker": "D",
+      "text": "You can chat about all of these things 24/7 in our Discord, discord.gg/oddlots."
+    },
+    {
+      "start": 2527,
+      "end": 2532.1,
+      "speaker": "E",
+      "text": "And if you enjoyed this conversation, then please leave a comment, or like the video, or better yet, subscribe."
+    },
+    {
+      "start": 2532.7,
+      "end": 2533.9,
+      "speaker": "D",
+      "text": "Thanks for watching and listening."
+    },
+    {
+      "start": 2559.5,
+      "end": 2560.1,
+      "speaker": "H",
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 2565.4,
+      "end": 2585.6,
+      "speaker": "I",
+      "text": "With Cricket Wireless, you can count on reliable nationwide 5G because Cricket Wireless is on the AT&T network, which means you can start listening to that new album that just dropped at home while running errands and at the gym without any hiccups. Find plans with unlimited data for every lifestyle and price point. Switch to Cricut today."
+    },
+    {
+      "start": 2586,
+      "end": 2616.2,
+      "speaker": "H",
+      "text": "Some people use ChatGPT to answer questions. Others use it to get real work done. With ChatGPT Work, you bring the goal, plus real inputs like briefs, notes, files, feedback, data, and project plans. It can help turn them into an analysis, tracker, deck outline, prototype, or workflow you can review and keep shaping. You stay in control, giving direction and choosing the final output. Put ChatGPT to work on your most ambitious ideas and projects. Get started at ChatGPT.com by selecting Work Mode. Available on Plus and Pro plans."
+    },
+    {
+      "start": 2617.1,
+      "end": 2627.8,
+      "speaker": "G",
+      "text": "Across America, money is being abandoned. By taking a few seconds to check Lyft before your next ride, you can give money a better home— inside your wallet."
+    },
+    {
+      "start": 2628.8,
+      "end": 2629.5,
+      "speaker": "I",
+      "text": "Save the money."
+    },
+    {
+      "start": 2630.4,
+      "end": 2631,
+      "speaker": "H",
+      "text": "Check Lyft."
+    }
+  ]
+}

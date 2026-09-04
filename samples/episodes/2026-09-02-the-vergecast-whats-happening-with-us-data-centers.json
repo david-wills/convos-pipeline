@@ -1,0 +1,486 @@
+{
+  "episode": {
+    "id": "b23a745128371db1e87d22a8cf71f7ccc4831c6540c7247718bd5a98901975ac",
+    "podcastTitle": "The Vergecast",
+    "feedUrl": "https://feeds.megaphone.fm/vergecast",
+    "guid": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP7644906745.mp3",
+    "title": "What’s happening with US data centers?",
+    "description": "Data centers have been a staple of Loudoun County since the early dot-com boom, but recent expansions have left some residents wondering how much more the county can take. In this episode, guest host David Imel talks to Lauren Feiner about her recent article detailing the buildout of “Data Center Alley,” what it means for residents, and what other counties reeling with similar buildouts can learn from it.\n\nFurther reading:\n\n\n  Is this the future of America?\n\n\nSubscribe to The Verge&nbsp;for unlimited access to&nbsp;theverge.com, subscriber-exclusive newsletters, and our&nbsp;ad-free podcast feed.\n\n\n\nWe love hearing from you! Email your questions and thoughts to&nbsp;vergecast@theverge.com&nbsp;or call us at 866-VERGE11.\nLearn more about your ad choices. Visit podcastchoices.com/adchoices",
+    "pubDate": "2026-09-02T18:51:00.000Z",
+    "duration": 1505,
+    "audioUrl": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP7644906745.mp3",
+    "artworkUrl": null
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1638,
+    "utteranceCount": 63
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:37:52.059Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Meet Data Center Alley",
+      "description": "David Imel introduces Lauren Feiner and her reporting on Loudoun County, Virginia — the world's largest concentration of data centers.",
+      "startTime": 2.423,
+      "endTime": 201.163,
+      "anchorPhrase": "welcome to the vergecast, the flagship podcast of data center reporting. i'm david mell. today"
+    },
+    {
+      "index": 1,
+      "title": "From AOL Hub to Server Farm",
+      "description": "Lauren explains how Loudoun County's proximity to DC and its dot-com roots turned it into the global capital of data centers.",
+      "startTime": 201.163,
+      "endTime": 344.134,
+      "anchorPhrase": "lauren feiner, welcome to the vergecast. thanks for having me. tell us a little about"
+    },
+    {
+      "index": 2,
+      "title": "AI Made Everything Bigger",
+      "description": "The shift from cloud storage to AI computing has supercharged demand, pushing data centers to unprecedented size and scale.",
+      "startTime": 344.134,
+      "endTime": 401.57,
+      "anchorPhrase": "did in the past. so i think what's different is just there's just more of"
+    },
+    {
+      "index": 3,
+      "title": "When Neighbors Finally Noticed",
+      "description": "Lauren describes the tipping point where residents who once ignored data centers began feeling their unavoidable second-order effects.",
+      "startTime": 401.57,
+      "endTime": 515.08,
+      "anchorPhrase": "what is changing so rapidly that's making the residents of this county upset with the"
+    },
+    {
+      "index": 4,
+      "title": "The Noise, the Turbines, the Diesel",
+      "description": "One facility cut off from the power grid turned to natural gas turbines, creating a noise and pollution problem neighbors can't escape.",
+      "startTime": 515.08,
+      "endTime": 633.802,
+      "anchorPhrase": "interesting. so you mentioned the noise. what exactly what kind of noise do these data"
+    },
+    {
+      "index": 5,
+      "title": "The By-Right Loophole",
+      "description": "A 2000 zoning decision let data centers build on office-park land without county approval — a rule that's now nearly impossible to undo.",
+      "startTime": 633.802,
+      "endTime": 977.935,
+      "anchorPhrase": "in your piece that you mentioned that there are some by-right pieces of land where"
+    },
+    {
+      "index": 6,
+      "title": "Pink Ribbons in the Backyard",
+      "description": "Long-time resident Vicki Hu faces Dominion Energy's eminent domain plans to clear her trees for a transmission line to feed the data centers.",
+      "startTime": 977.935,
+      "endTime": 1106.053,
+      "anchorPhrase": "so there's, there's a number of people in your piece that were very frustrated you"
+    },
+    {
+      "index": 7,
+      "title": "The Community Meeting Divide",
+      "description": "At a packed July meeting, Loudoun residents split sharply — data center workers in blue t-shirts face off against noise-weary neighbors.",
+      "startTime": 1106.053,
+      "endTime": 1353.086,
+      "anchorPhrase": "now, what i was really surprised about in your piece was that people in the"
+    },
+    {
+      "index": 8,
+      "title": "Other Counties Are Watching",
+      "description": "Officials across the US are calling Loudoun for advice, as communities scramble to avoid repeating its mistakes before it's too late.",
+      "startTime": 1353.086,
+      "endTime": 1475.68,
+      "anchorPhrase": "do you think these other counties are pretty well positioned now and have used loudoun"
+    },
+    {
+      "index": 9,
+      "title": "Moratoriums and What Comes Next",
+      "description": "As Loudoun nears capacity, Lauren explores whether any community has found a way to balance data center growth with residents' quality of life.",
+      "startTime": 1475.68,
+      "endTime": 1638,
+      "anchorPhrase": "yeah, i mean, they're definitely getting to the point where at some point they're not"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 2.4,
+      "end": 35.5,
+      "speaker": "A",
+      "text": "Welcome to The Vergecast, the flagship podcast of data center reporting. I'm David Mell. Today we're talking to Lauren Feiner, who's been spending the last few months reporting on the rapidly developing data center buildout in Loudoun County. Lauren's just published a massive piece detailing the community response to the fast-moving industry, which is especially notable in a county that's been home to data centers since the early dot-com era. Today I want to talk to Lauren about what she's learned from her reporting and what it might tell us about what we can expect in counties across the U.S. But first, here's what's happening on The Verge today."
+    },
+    {
+      "start": 36.2,
+      "end": 108.1,
+      "speaker": "B",
+      "text": "I'm Travis Larcek, and this is 90 Seconds on The Verge for Wednesday, September 2nd, 2026. Google avoided an attempt to break up its online advertising monopoly today. A federal judge declined the Justice Department's request to force Google to sell off parts of its ad tech business. Instead, the judge accepted milder changes proposed by Google and the Justice Department, but the exact details of those have not been made public yet. Next up, New York City banned generative AI use in public schools. This is for this school year so far. There are some exceptions to the policy, but for the most part, generative AI is prohibited for 2K through 8th grade students. High schoolers are going to be allowed AI use in some limited contexts and classes. Teachers can still use AI to plan lessons, but they cannot use it to grade assignments. This all comes on the heels of last year's statewide ban of smartphones in New York schools. Finally, it's John Ternus's second day as Apple CEO, and let's take a look back at his legacy so far. Yesterday, Apple Maps capitulated to the Trump administration and renamed Lake Ontario to Lake America, just like Google did."
+    },
+    {
+      "start": 109.4,
+      "end": 110.3,
+      "speaker": "A",
+      "text": "Ugh."
+    },
+    {
+      "start": 110.6,
+      "end": 121,
+      "speaker": "B",
+      "text": "Listen, we all know this is stupid. We all know why Google and Apple are really doing this. But come on, Apple, I know you can be brave. You're the company that was courageous enough to remove the headphone jack."
+    },
+    {
+      "start": 121.4,
+      "end": 123.8,
+      "speaker": "C",
+      "text": "It really comes down to one word, courage."
+    },
+    {
+      "start": 124.5,
+      "end": 131.5,
+      "speaker": "B",
+      "text": "You can read more about these stories at theverge.com. That's 90 Seconds on The Verge for Wednesday, September 2nd, 2026."
+    },
+    {
+      "start": 132.9,
+      "end": 138.3,
+      "speaker": "D",
+      "text": "You're listening to Deepgram Flux TTS. Different voices, same model, all ready to speak."
+    },
+    {
+      "start": 138.6,
+      "end": 142.4,
+      "speaker": "E",
+      "text": "Flux TTS is a streaming text-to-speech model built for voice agents."
+    },
+    {
+      "start": 142.7,
+      "end": 154.6,
+      "speaker": "D",
+      "text": "Flux reads the room. It holds context across the conversation, turn after turn. With consistent tone, interruption handling, and plenty of personality. So your agents keep it flowing and so customers can just keep talking."
+    },
+    {
+      "start": 155.1,
+      "end": 161.3,
+      "speaker": "F",
+      "text": "Try Deepgram Flux TTS free now until September 12th. Visit deepgram.com/keeptalking."
+    },
+    {
+      "start": 162.1,
+      "end": 163.9,
+      "speaker": "A",
+      "text": "Terms apply."
+    },
+    {
+      "start": 164,
+      "end": 199.1,
+      "speaker": "G",
+      "text": "Excuses are easy. An epic movie night? We don't have enough snacks. Dinner party with the girls? We'd have to decorate. Surprise date night? Nothing to wear. But Amazon's Prime Same Day Delivery lets you say yes before the moment slips away. Try that new popcorn maker, order those cheeky drink glasses, get that new perfume, and turn that \"I wish we could\" into an \"I'm so glad we did.\" Visit amazon.com/prime to find millions of items delivered fast. Same-day delivery. It's on Prime. Available in select areas. Terms apply."
+    },
+    {
+      "start": 201.2,
+      "end": 202.8,
+      "speaker": "A",
+      "text": "Lauren Feiner, welcome to The Vergecast."
+    },
+    {
+      "start": 203.2,
+      "end": 203.8,
+      "speaker": "D",
+      "text": "Thanks for having me."
+    },
+    {
+      "start": 204.6,
+      "end": 210.8,
+      "speaker": "A",
+      "text": "Tell us a little about Loudoun County, Virginia, and how it became Data Center Alley. Yeah."
+    },
+    {
+      "start": 210.9,
+      "end": 258.1,
+      "speaker": "D",
+      "text": "So Loudoun County is an area of Northern Virginia that's about 45 minutes, an hour outside of D.C. It's near Dulles Airport, which is the big international airport here. And it basically is, you know, a kind of normal suburban type of town or area in Virginia. Um, except that it has the world's largest concentration of data centers. Um, and that's something that's come about because it used to be home to the AOL headquarters. And because it's just so close to DC and has access to a lot of the things that are helpful for data centers, it's really become this kind of data center hometown."
+    },
+    {
+      "start": 258.6,
+      "end": 267.1,
+      "speaker": "A",
+      "text": "Just to give people a very basic primer, because I, I think they've heard the word the phrase data center being thrown around a lot. Can you explain exactly what a data center is?"
+    },
+    {
+      "start": 267.9,
+      "end": 268.1,
+      "speaker": "H",
+      "text": "Yeah."
+    },
+    {
+      "start": 268.1,
+      "end": 290.7,
+      "speaker": "D",
+      "text": "So data centers are— it's really pretty simple. They're kind of these big buildings that store racks and racks of servers, and those could be servers for one company or servers for many different companies. And maybe the data center company is renting out space to companies that need to store their servers somewhere."
+    },
+    {
+      "start": 291.1,
+      "end": 298.4,
+      "speaker": "A",
+      "text": "So you mentioned in the piece that a ton of internet traffic used to go through Loudoun County. What were those data centers like back then and how is it different now?"
+    },
+    {
+      "start": 298.9,
+      "end": 348.5,
+      "speaker": "D",
+      "text": "Yeah, so they're not entirely different, but I'll say what is different is just the size and scale of the data center. So, you know, when Loudoun County began courting data centers, a lot of them had to do with the cloud. You know, think about all of the information that you store on the cloud, all of that is being stored in a data center. When it comes down to it, the cloud basically is data centers. Um, so essentially now what's changed is that AI also needs data centers, and because they require so much compute, they need more and more capacity than cloud did in the past. So I think what's different is just there's just more of them and they're bigger."
+    },
+    {
+      "start": 348.6,
+      "end": 358.1,
+      "speaker": "A",
+      "text": "Mm-hmm. Can you explain how these early dot-com data centers were beneficial to Loudoun County? Because I read in your piece that a lot of people were actually happy with the early data center buildouts."
+    },
+    {
+      "start": 358.7,
+      "end": 401,
+      "speaker": "D",
+      "text": "Early days, the data centers brought in a lot of tax revenue for the county. They still bring in a lot of tax revenue for the county. And because of that, that means that the county has to rely less on residential tax income. So that means that Property taxes can go down. Real estate values have still gone up at the same time. So it's provided a lot of extra money for the county to use for building out schools, you know, paving nice roads. So it's really something that has allowed the county to do these public works that might be more of a strain for other communities."
+    },
+    {
+      "start": 401.6,
+      "end": 406,
+      "speaker": "A",
+      "text": "What is changing so rapidly that's making the residents of this county upset with the buildout?"
+    },
+    {
+      "start": 407.5,
+      "end": 463.5,
+      "speaker": "D",
+      "text": "Yeah, I think for some residents in Loudoun County who were aware that data centers were a big thing in the area, they, you know, might have had a positive or generally positive to neutral view of them. But I think really what happened for a lot of them was many people just didn't even realize that they were there or they had a vague understanding that, you know, all these big buildings that I drive by on the highway are data centers. But maybe didn't think about it too deeply because it wasn't really having that big of an impact on their day-to-day lives. I think what's changed now is that there's just so many. And what residents have told me is they kind of feel like they've reached this tipping point where it's becoming harder to ignore or just kind of view in the background of their daily lives because the kind of second-order effects of the data centers are becoming more impossible to ignore."
+    },
+    {
+      "start": 464.1,
+      "end": 466.9,
+      "speaker": "A",
+      "text": "Right. What exactly are those second-order effects?"
+    },
+    {
+      "start": 467.6,
+      "end": 514.3,
+      "speaker": "D",
+      "text": "As Loudoun has expanded, um, just the footprint of data centers, um, that require all of this energy, the local utilities have had to figure out how do we supply enough energy not only to the data centers but also to our residents who also need energy. So what you're seeing is things like energy companies coming in and proposing transmission lines going through people's backyards, or telling data centers that were approved for construction that we're actually not going to be able to hook you up to the main grid until maybe years later. And then those data centers have to go and figure out another solution, and it might be much noisier."
+    },
+    {
+      "start": 515.1,
+      "end": 523.6,
+      "speaker": "A",
+      "text": "Interesting. So you mentioned the noise. What exactly What kind of noise do these data centers create, and how far away from them do you have to be to hear it?"
+    },
+    {
+      "start": 525,
+      "end": 633,
+      "speaker": "D",
+      "text": "So it can really vary. I think for some of them, they are pretty quiet. You know, I drove by a bunch of them and found that some of them, it's really hard to hear, just kind of like ambient noise. I wouldn't really be able to tell, like, oh wow, I'm right next to a data center. But I do think it varies throughout the day or throughout the type of data center. Some people would complain that they're constantly hearing noise from their deck or from inside their home occasionally. Other people say actually it's pretty quiet. So I think it really can vary. Um, but then you have, um, some outliers. So one of those, um, really the main one that I found in Loudoun County, um, was site called the Vantage VA2 facility. And that's a site that, like I was kind of mentioning, was told after they'd already, you know, made these deals with customers of, like, we're gonna have you in our new data center, that they weren't gonna be able to hook up to the main energy grid. And so they decided that until they are able to hook up to the grid, they're going to self-generate, which meant using natural gas turbines to run the facility. And when they need to, backing up onto diesel generators, which a lot of them do. So that really creates a different noise and different kind of environmental considerations than most of the data centers in Loudoun County and elsewhere."
+    },
+    {
+      "start": 633.8,
+      "end": 647.9,
+      "speaker": "A",
+      "text": "In your piece that you mentioned that there are some by-right pieces of land where the, the companies can just build things out without approval from the county. Can you explain what that is? How are these companies able to just come in and do whatever they want?"
+    },
+    {
+      "start": 649.2,
+      "end": 649.4,
+      "speaker": "I",
+      "text": "Right."
+    },
+    {
+      "start": 649.4,
+      "end": 747.5,
+      "speaker": "D",
+      "text": "So that term by-right is something that is kind of specific to Loudoun and I think is, um, kind of leftover from the fact that Loudoun was the first to really do this huge data center buildout. You know, when they were starting to do this, it wasn't something that people were up in arms about. It was just like, okay, like, this seems fine. So it was in 2000 that a county administrator basically said, you know what, we have land that's zoned for office parks and data centers look pretty similar to office parks. So we're going to just let them, you know, if someone wants to come and develop a data center in an area that's zoned for an office park, they can do that by right. And that meant that they don't have to go through this extra, uh, set of steps to get approval to build on that land. They could basically just do it with kind of minimal, uh, process up to that point. So for a while, that didn't seem like that big of a deal because there were only so many data centers coming in. Um, and you know, they had a, they had a lot of space. It, it wasn't really impeding on people's lives. Um, but I think as we got, you know, further down the road and people were starting to notice the effects, that became more of a problem because sometimes the county might have actually wanted to stop a data center from moving into a particular location, but the data center was able to technically move there by right. And so that was something that was an issue, um, really only in the recent past."
+    },
+    {
+      "start": 747.9,
+      "end": 763.1,
+      "speaker": "A",
+      "text": "Right. Do you think that that's been super hyper-accelerated by generative AI, or was this like a progressive, we are building more data centers basically since the dot-com era, or is it like the last 3 to 5 years where it's just been super rapid expansion?"
+    },
+    {
+      "start": 763.8,
+      "end": 796.9,
+      "speaker": "D",
+      "text": "I think in Loudoun that it's really just that they've reached this level of concentration of data centers that at some point just became impossible to ignore. I think it's possible that the AI expansion played a role in that, but I think for Loudoun it might be different than other communities where it just they had so many already. And so just like the fact that they had to keep adding and adding, I think it was just reaching that tipping point that really did it."
+    },
+    {
+      "start": 797.4,
+      "end": 806.1,
+      "speaker": "A",
+      "text": "Yeah. How is it that these companies can just come in and build transmission lines in their backyard? Is that something that is just allowed for these companies to do?"
+    },
+    {
+      "start": 806.5,
+      "end": 820.8,
+      "speaker": "D",
+      "text": "It's basically eminent domain. So since these are, you know, public utilities, if they say this is a project that is necessary to do Um, then they can basically take land through eminent domain in order to do it."
+    },
+    {
+      "start": 823.2,
+      "end": 883.3,
+      "speaker": "F",
+      "text": "Support for this show comes from Whatnot. When you're selling, attention is everything. Whether you're an online business or selling from a physical store, you can end up hoping and praying that someone stumbles across your place of business. But Whatnot works differently. On Whatnot, anyone can sell through interactive livestreams. People selling on Whatnot sell 10 times more than on other major marketplaces. That's because you're not just listing products, you're building real connections with buyers. Across Whatnot, the number of sellers making over $1 million a year has doubled. And consistency pays off. It's a real path to building something that lasts. Whatnot buyers spend more than an hour a day in the app. They're not just browsing, they're engaged, buying, and coming back. You go live, show off products in real time, and turn what you love into real income. Search Whatnot, W-H-A-T-N-O-T, in the App Store. Download and you can start selling right away."
+    },
+    {
+      "start": 886.1,
+      "end": 907.2,
+      "speaker": "E",
+      "text": "College football is back, so Hilton called in me, the Superstition Concierge, to make your fan rituals a reality. Need a room to match your lucky number? We got you. Want to make sure our team doesn't wash your lucky jersey? Ooh, that smells lucky. Hilton's unmatched hospitality can keep up with any superstition, even a marching band wake-up call at 5:55 and 55 seconds."
+    },
+    {
+      "start": 907.5,
+      "end": 908.4,
+      "speaker": "D",
+      "text": "Hit it!"
+    },
+    {
+      "start": 908.8,
+      "end": 914,
+      "speaker": "E",
+      "text": "When you need a team that will do whatever it takes on game day, it matters where you stay. Hilton. For the Stay."
+    },
+    {
+      "start": 916.6,
+      "end": 945.1,
+      "speaker": "H",
+      "text": "When you need to build up your team to handle the growing chaos at work, use Indeed Sponsored Jobs. It gives your job post the boost it needs to be seen and helps reach people with the the right skills, certifications, and more. Spend less time searching and more time actually interviewing candidates who check all your boxes. Listeners of this show will get a $75 sponsored job credit at indeed.com/podcast. That's indeed.com/podcast. Terms and conditions apply. Need a hiring hero? This is a job for Indeed sponsored jobs."
+    },
+    {
+      "start": 946.1,
+      "end": 975.6,
+      "speaker": "D",
+      "text": "The best part of waking up? A full cup of Folgers coffee and music on full blast. Shop Folgers K-Cup pods and more at your nearest retailer."
+    },
+    {
+      "start": 977.9,
+      "end": 997.5,
+      "speaker": "A",
+      "text": "So there's, there's a number of people in your piece that were very frustrated You spoke to someone named Vicki Hu, who said that Dominion Energy was planning on just building a giant transmission line in her backyard. She's had the home for multiple generations. What was she trying to do to get them to stop that from happening?"
+    },
+    {
+      "start": 998.2,
+      "end": 1055,
+      "speaker": "D",
+      "text": "Vicki Hu was involved in the development of the community that she now lives in. So she's really been in this area for a long time. I got to visit her backyard. It's, you know, a big backyard. Beautiful backyard, and she had all of these trees that were tagged with these pink ribbons that were meant to indicate where she says Dominion Energy would have to cut down in order to build this transmission line. And the idea was that Dominion had to build this transmission line to connect these two substations in order to just have enough energy to power all of the needs that it has now. So I think that's what I'm saying when I say that it's really just becoming impossible to ignore, and the capacity is just nearing its limits."
+    },
+    {
+      "start": 1055.8,
+      "end": 1068.1,
+      "speaker": "A",
+      "text": "Right. You, you mentioned another resident in your piece who said he spent thousands of dollars trying to insulate his house from the noise. He can no longer go out in his backyard and just relax on his porch. Can you talk a little bit more about that?"
+    },
+    {
+      "start": 1068.6,
+      "end": 1105.4,
+      "speaker": "D",
+      "text": "Yeah, so Jason Mello told me that he already spent, you know, about $2,600 getting 2 new window inserts in his home and was quoted, you know, many thousand more for new siding that could further mitigate noise complaints that he had. And, you know, this is just something that is a constant for a lot of people's lives. And, you know, they tell me, you know, we live near Dulles Airport, we're used to some amount of noise, but planes take off and they land and the data center noise can be pretty consistent."
+    },
+    {
+      "start": 1106.1,
+      "end": 1139.2,
+      "speaker": "A",
+      "text": "Now, what I was really surprised about in your piece was that people in the community meetings seemed pretty divided about whether or not they wanted the data centers to continue to be built out. When I read about data centers online, and this could be, you know, the silos of social media, generally it is, we don't want any data centers built at all. But a lot of the residents in that town seem like they're still fairly pro because of all the benefits that they got from the dot-com data centers. What were the community meetings like that you attended there, and did it seem pretty split or was it fairly one-sided?"
+    },
+    {
+      "start": 1140.2,
+      "end": 1273.3,
+      "speaker": "D",
+      "text": "Yeah, so I attended one community meeting in July, and that was a meeting where the Board of Supervisors chair basically walked through a presentation of What are data centers? How did we get to this point? What was by-right zoning? Um, and also tried to remind residents what the benefits were, that their, uh, real property tax rates had gone down over time and that property values, even in places that were right up against data centers, which no one considers ideal, had actually gone up still. So. It was a really interesting meeting because we saw a lot of people on both sides of the spectrum. And you have to remember that this is a place that has more than 250 data centers in the county. So a lot of people work in data centers or they work in adjacent industries. So there are a lot of supporters of data centers there. And I actually heard a lot of complaints from some residents that they felt like the data center industry had been just well organized to get there early, get seats inside the room. Other residents had to go to the overflow room. It was first come, first serve. I was able to get in the room by the time I got there, but I did hear complaints about that. And you saw people who were supportive of the data center industry wearing these like light blue t-shirts that said like, I support data centers, but they had all these caveats of like, when they're environmentally sensitive and, you know, but I support them because they support, you know, lower taxes and schools and all things like this. So I think there definitely are people who recognize some of the benefits and who are supportive of them and feel like the, you know, noise concerns, other things can be mitigated. But then I also saw a lot of people who were complaining about some of the things we're talking about, about, um, just intrusion on, uh, their lives, intrusion on, um, you know, just beautiful bike and running paths, um, and just kind of changing the character of the community."
+    },
+    {
+      "start": 1274.1,
+      "end": 1294.5,
+      "speaker": "A",
+      "text": "Yeah, it's interesting to hear that there's more of a split inside this community. It's kind of been dealing with these data centers for a couple of decades now. Through your reporting, have you seen any other communities that are as split on this, or are they more one-sided in all the other developing communities that are putting these measures forward to develop data centers?"
+    },
+    {
+      "start": 1295.7,
+      "end": 1352.4,
+      "speaker": "D",
+      "text": "I think a lot of what we've seen is a lot of intense pushback in other communities, and maybe that's partially because they haven't had the kind of experiences that Loudoun County has had. I think they're kind of coming from a different position where Loudoun already has so many data centers. And at this point, some residents are kind of asking, do we really need more? Like, it's really kind of getting to be too much. And they're really starting to feel the effects. I think in other places they don't necessarily have the same experiences that residents in Loudoun do. So I think we're kind of starting from a different point there. And in some ways, they— these other communities might be in a better position to negotiate than Loudoun County was because residents, when, you know, a lot of these data centers got going, didn't really know what the effects would be or how they would eventually impact their lives."
+    },
+    {
+      "start": 1353.1,
+      "end": 1364.1,
+      "speaker": "A",
+      "text": "Do you think these other counties are pretty well positioned now and have used Loudoun County as a test bed, or are they just kind of still throwing things at the wall and just trying to do what's best for their constituents?"
+    },
+    {
+      "start": 1364.7,
+      "end": 1389.8,
+      "speaker": "D",
+      "text": "Well, officials I talked to in Loudoun County say that they get calls all the time from other communities asking them about their experience. So I think a lot of communities are trying to figure it out, and Loudoun County is the obvious place they turn to. For their experience with this, because there really aren't that many places in the US that have had as deep an experience with data centers as Loudoun County has."
+    },
+    {
+      "start": 1390.5,
+      "end": 1420,
+      "speaker": "A",
+      "text": "Yeah, it feels to me that a lot of people online at least are also frustrated because there's these products that are being developed that they're told that they are going to have to use if they're going to exist in the future. No, a lot of people just don't want to use these products. but it feels like they're impacting their communities significantly anyway, right? Would you say that that is the reason that most people seem anti-data center, or is it because more of the power usage, more of the water usage type things?"
+    },
+    {
+      "start": 1421.2,
+      "end": 1464.1,
+      "speaker": "D",
+      "text": "I think in Loudoun County, it's more about the water and energy usage. I think a lot of people there actually do understand that there is a need for data centers. That especially in Loudoun, a lot of the data centers are for the cloud, and that's been the case for a long time. And people understand, like, we all use our phones, we all, like, have our photos stored in cloud servers. So, you know, we understand the utility of these things. I think it's the fact that, you know, they're running up against just the total capacity that their county can handle, and it's just becoming you know, more of a nuisance than it has been in the past."
+    },
+    {
+      "start": 1465,
+      "end": 1474.7,
+      "speaker": "A",
+      "text": "Does it seem like this is gonna spread out to just nearby counties instead? Do you think that Loudoun has hit the capacity point where the, the county says, we've had enough and we want you to put these elsewhere?"
+    },
+    {
+      "start": 1475.7,
+      "end": 1496.1,
+      "speaker": "D",
+      "text": "Yeah, I mean, they're definitely getting to the point where at some point they're not going to be able to host any more data centers. And so these facilities will have to find another place to go. And I think other parts of Northern Virginia will still be attractive to these companies, but those communities are also going to have to decide how much they're going to put up with."
+    },
+    {
+      "start": 1496.7,
+      "end": 1508.1,
+      "speaker": "A",
+      "text": "And do you feel like most of these other communities have started to figure out these things and, like, a way to do it kind of where it pleases everybody and doesn't make everyone super pissed off?"
+    },
+    {
+      "start": 1508.9,
+      "end": 1546.4,
+      "speaker": "D",
+      "text": "I'm not sure if we've quite reached that point yet, but I think we are seeing communities stop and take a breath and say, like, what do we actually want here? Um, we've seen some moratoriums go in place, uh, across the country. And, you know, that's been a big push. So I think there is this sense that, um, residents, politicians are having of like, maybe we need to just like take a beat, figure out what are we doing here, do we have the capacity, are we going to be stuck with these things if suddenly space data centers become a thing, and just figure it out from there."
+    },
+    {
+      "start": 1547,
+      "end": 1553.1,
+      "speaker": "A",
+      "text": "Well, Lauren, thank you for joining us. Everyone go read her piece, it was really great. Thank you for writing it, really appreciate it."
+    },
+    {
+      "start": 1553.7,
+      "end": 1555,
+      "speaker": "D",
+      "text": "Thanks, David, thanks for having me."
+    },
+    {
+      "start": 1555.5,
+      "end": 1574.5,
+      "speaker": "A",
+      "text": "Well, that's it for The Vergecast. Let us know what you think. Call the hotline 866-VIRGE-11 or email vergecast@theverge.com. And to support everything we do here and to get ad-free podcasts, subscribe to The Verge. The Vergecast is produced by Josh Kahas, Eric Gomez, Brandon Kiefer, and Travis Larchuk. See you next time."
+    },
+    {
+      "start": 1577.5,
+      "end": 1607,
+      "speaker": "I",
+      "text": "You know those tiny back-to-school emergencies that somehow become your problem? That's why I love Uber Eats. You can order school supplies, snacks, and lunchbox essentials for $5 or less. So when your kid casually drops, \"I don't like peanut butter anymore,\" or, \"I need 5 green highlighters for a project due tomorrow,\" Uber Eats has you covered. Get everything you need for back-to-school today from your favorite brands like Aldi and Staples on Uber Eats. Order now. Ends 9/7. $5 or less before taxes and fees. Select items only. Availability varies. See app for details."
+    },
+    {
+      "start": 1607.5,
+      "end": 1637.3,
+      "speaker": "C",
+      "text": "Labor Day savings are happening now at The Home Depot with select appliances starting at $399. Plus, save up to an extra $1,000 and get free delivery on appliance purchases of $998 or more. Get a Whirlpool Laundry Tower featuring industry-first UV Clean technology designed to reduce bacteria in the wash without fading fabrics. Plus, Plus, with great prices at The Home Depot, you can save on select appliances designed to make laundry day easier. Shop Labor Day savings at The Home Depot today. Offer valid August 27th through September 16th. US only. See store online for details."
+    }
+  ]
+}

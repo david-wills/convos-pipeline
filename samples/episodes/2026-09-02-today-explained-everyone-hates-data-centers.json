@@ -1,0 +1,608 @@
+{
+  "episode": {
+    "id": "9f62d2cf8c0553b20b4f892ea78d5d1b11fd0595fb42131307d0d21e3c2973b1",
+    "podcastTitle": "Today, Explained",
+    "feedUrl": "https://feeds.megaphone.fm/VMP5705694065",
+    "guid": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8624305171.mp3",
+    "title": "Everyone hates data centers",
+    "description": "Data centers have become politically untenable, even in very Republican Texas.\n\nThis episode was produced by Ariana Aspuru, edited by Miranda Kennedy, fact checked by Gabriel Dunatov, engineered by David Tatasciore and Bridger Dunnagan, and hosted by Noel King.\n\nPeople gather at the Texas Capitol to protest data center expansion. Jay Janner/The Austin American-Statesman via Getty Images.\n\nListen to Today, Explained ad-free by becoming a Vox Member: vox.com/members. New Vox members get $20 off their membership right now. Transcript at ⁠⁠vox.com/today-explained-podcast⁠.⁠\nLearn more about your ad choices. Visit podcastchoices.com/adchoices",
+    "pubDate": "2026-09-02T19:36:00.000Z",
+    "duration": 1555,
+    "audioUrl": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8624305171.mp3",
+    "artworkUrl": "https://megaphone.imgix.net/podcasts/78e17b56-d05c-11f0-a63b-37c471f03d9e/image/2caa636916d315d5509ddeac4f58b256.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1708,
+    "utteranceCount": 86
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:37:39.048Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Trump's Pro-Data Center Rant",
+      "description": "President Trump lashes out at Americans opposing data centers, calling resistant communities 'backwards and poor.'",
+      "startTime": 0.817,
+      "endTime": 128.451,
+      "anchorPhrase": "on truth social, there is no shortage of president trump lashing out at things— at"
+    },
+    {
+      "index": 1,
+      "title": "Texas: Data Center Capital Gone Wrong",
+      "description": "Reporter Paul Kobler explains how Texas became the number one data center market — and why hundreds of facilities are sparking fierce local resistance.",
+      "startTime": 128.451,
+      "endTime": 415.849,
+      "anchorPhrase": "paul kobler is the texas tribune's economy and industry reporter. so, paul, even a year"
+    },
+    {
+      "index": 2,
+      "title": "Abbott's Awkward Reversal",
+      "description": "Governor Greg Abbott shifts from cheerleader to skeptic on data centers, ordering audits and new standards just months before his reelection.",
+      "startTime": 415.849,
+      "endTime": 567.997,
+      "anchorPhrase": "all right. so the reason we're talking today is that governor greg abbott has changed"
+    },
+    {
+      "index": 3,
+      "title": "The November Election Factor",
+      "description": "With polls showing over 60% of Texans oppose data centers in their communities, both parties are scrambling to reposition before November.",
+      "startTime": 567.997,
+      "endTime": 967.92,
+      "anchorPhrase": "governor abbott is up for reelection in november. how much of his updated, let's say,"
+    },
+    {
+      "index": 4,
+      "title": "Republicans Flip Overnight",
+      "description": "Washington Post data reporter Jeremy Merrill tracks how GOP messaging on data centers swung from enthusiasm to alarm starting in February 2025.",
+      "startTime": 967.92,
+      "endTime": 1264.785,
+      "anchorPhrase": "data centers didn't used to be a big deal. and now almost all of a"
+    },
+    {
+      "index": 5,
+      "title": "Democrats Abandon the Tech Dream",
+      "description": "Governors and congressmembers from Pennsylvania to Illinois — including a Silicon Valley rep — turn against the data center boom they once championed.",
+      "startTime": 1264.785,
+      "endTime": 1401.732,
+      "anchorPhrase": "minds? yeah, there are a lot of governors who used to be very positive on"
+    },
+    {
+      "index": 6,
+      "title": "The China Card",
+      "description": "A handful of politicians still argue that opposing data centers hands a strategic victory directly to China.",
+      "startTime": 1401.732,
+      "endTime": 1551.821,
+      "anchorPhrase": "my favorite example of this is representative eric burlison, who's a republican from missouri. he"
+    },
+    {
+      "index": 7,
+      "title": "Why This Crosses Party Lines",
+      "description": "Merrill explores why data centers have broken the usual left-right divide, pointing to grassroots anger and a broader political realignment.",
+      "startTime": 1551.821,
+      "endTime": 1708,
+      "anchorPhrase": "yeah, this is a real— this is really interesting. you know, one possibility is that"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.8,
+      "end": 17.9,
+      "speaker": "A",
+      "text": "On Truth Social, there is no shortage of President Trump lashing out at things— at Iran, at communism, at Hollywood, at Governor Kathy Hochul. That's all in the last day or so. Two days ago, the president did something he doesn't often do. He lashed out at Americans."
+    },
+    {
+      "start": 18.2,
+      "end": 42.1,
+      "speaker": "B",
+      "text": "The only reason that communities throughout the USA should not want data centers is if they want to end up being backwards and poor. If they want to be successful and rich, far lower taxes and jobs all over the place, Let data rain. The good news is that there are plenty of other places that want them. If we kill the golden goose, you will only have yourselves to blame."
+    },
+    {
+      "start": 42.3,
+      "end": 58.5,
+      "speaker": "A",
+      "text": "The thing is, Trump seems out of the loop on this one. Americans are leery of data centers, and increasingly so are the people that Americans elect. A growing number of politicians, both Republican and Democrat, are loudly pulling back on their support for data centers in their communities. That's coming up on Today Explained from Vox."
+    },
+    {
+      "start": 60,
+      "end": 86.3,
+      "speaker": "B",
+      "text": "Support for the program today comes from Fetch Pet Insurance. Fetch is the most complete pet insurance for dogs and cats according to Consumer Advocate. You get paid back up to 90% of vet bills at any vet in the United States and Canada, with claims paid back in as little as 2 days. Go to fetchpet.com/save right now for your free quote. That is FetchPet.com/save."
+    },
+    {
+      "start": 90.4,
+      "end": 114.6,
+      "speaker": "A",
+      "text": "Support for Today Explained comes from Anthropic, the team behind Claude. Anthropic is a public benefit corporation founded on a hard question. That question is, how do we make sure AI goes well for people? They're working on it, publishing what they find, even when it's uncomfortable. There's hope in hard questions. Ask your hard question at Claude.ai/todayexplained. That's Claude.ai/todayexplained."
+    },
+    {
+      "start": 119,
+      "end": 119.2,
+      "speaker": "C",
+      "text": "Blaint."
+    },
+    {
+      "start": 119.4,
+      "end": 120.7,
+      "speaker": "B",
+      "text": "This is a day."
+    },
+    {
+      "start": 120.9,
+      "end": 122.5,
+      "speaker": "C",
+      "text": "Today's Blaint."
+    },
+    {
+      "start": 122.7,
+      "end": 123.4,
+      "speaker": "A",
+      "text": "This is a day."
+    },
+    {
+      "start": 123.5,
+      "end": 125.3,
+      "speaker": "B",
+      "text": "You're listening to Today's Blaint."
+    },
+    {
+      "start": 125.3,
+      "end": 125.9,
+      "speaker": "A",
+      "text": "Today's Blaint."
+    },
+    {
+      "start": 126.4,
+      "end": 127.6,
+      "speaker": "C",
+      "text": "Today's Blaint."
+    },
+    {
+      "start": 128.5,
+      "end": 139.3,
+      "speaker": "A",
+      "text": "Paul Kobler is the Texas Tribune's economy and industry reporter. So, Paul, even a year ago, Governor Greg Abbott was very, very bullish on data centers in Texas. What was he saying at the time?"
+    },
+    {
+      "start": 139.6,
+      "end": 214.3,
+      "speaker": "B",
+      "text": "Governor Greg Abbott declared Texas the epicenter of the data center boom in the United States. More so than any other country in the entire world. Texas will be the centerpiece for AI data centers for Google in the entire world. You know, really, really was kind of full-throated in his support of this build-out of all this investment we were seeing. Texas was the number 2 market in the country for data centers at the time. I think we're now the number 1 market. We have more planned and more being constructed than any other state. It was kind of full bore, I'd say, and has been for much of this year. Your local McDonald's is going to be using it to better enable their business to function. Your local stores, your local grocery stores, your local H-E-B and things like that are all going to be operating better because of AI generated right here in Midlothian, Texas. There's also a lot of talk that this will create jobs. It certainly is creating construction and like electrician plumber jobs right now. But, you know, there's a lot of question on how permanent those jobs are. And then on the other side, just sort of being like a centerpiece of U.S. national security, that comes up a lot sort of from GOP and from the governor, from, from GOP sort of state officials. They, they see this as sort of we are, we are supporting the United the United States in this race against China as well."
+    },
+    {
+      "start": 214.6,
+      "end": 217.9,
+      "speaker": "C",
+      "text": "We need to do better. China is going to win this war, Cheryl."
+    },
+    {
+      "start": 218,
+      "end": 227.2,
+      "speaker": "B",
+      "text": "Now we're in a race with China on that AI race, and if they're able to leapfrog us in that race, it's a very dangerous thing for everybody around the country."
+    },
+    {
+      "start": 227.3,
+      "end": 233.2,
+      "speaker": "A",
+      "text": "So, all right, so the governor is in favor, and then some data centers are built. Yeah, where do you guys see them being built?"
+    },
+    {
+      "start": 233.8,
+      "end": 270.7,
+      "speaker": "B",
+      "text": "It really is everywhere. But sort of a newer trend with these really, really big ones that we're seeing being planned is that a lot of them are out west. They're out in unincorporated parts of counties that don't have any sort of city government jurisdiction over them because in the state of Texas, our counties, if it's in an unincorporated area, they have no zoning ability. So developers see that as like a very positive thing that they don't have to get any sort of approval to be able to build ahead of time like the way they would in a city. So we've done like an analysis of I think it's 240—"
+    },
+    {
+      "start": 271.1,
+      "end": 271.2,
+      "speaker": "A",
+      "text": "whoa—"
+    },
+    {
+      "start": 271.6,
+      "end": 277.5,
+      "speaker": "B",
+      "text": "data centers. Yeah. And those are planned for unincorporated areas of counties."
+    },
+    {
+      "start": 278.2,
+      "end": 302,
+      "speaker": "A",
+      "text": "Okay, so this is interesting. You're not talking about 1 or 2 or even 10. You're talking about dozens and hundreds. What goes on in Texas when somebody puts up a data center in a community? You said these are more rural areas. Are you seeing protests? Are you seeing pushback? What's— what's been going on so far?"
+    },
+    {
+      "start": 302.5,
+      "end": 313.5,
+      "speaker": "B",
+      "text": "Yeah, it's, it's been really fascinating to watch this kind of build over the course of, I'd say, about a year. I mean, this was, this was something we were sort of seeing minor grassroots resistance to about a year ago."
+    },
+    {
+      "start": 313.9,
+      "end": 331,
+      "speaker": "A",
+      "text": "They all packed the courtroom wearing their \"No Data Center\" stickers. We already have Samsung down the street, which is a huge undertaking. And I think the residents just want room for their kids to learn and play and grow safely. They only have interest in increasing their pockets."
+    },
+    {
+      "start": 331.6,
+      "end": 334,
+      "speaker": "B",
+      "text": "And in causing themselves to be elevated."
+    },
+    {
+      "start": 334.4,
+      "end": 338.9,
+      "speaker": "A",
+      "text": "But what it will do to the actual people of this community, I don't think they really care."
+    },
+    {
+      "start": 339.4,
+      "end": 363.4,
+      "speaker": "B",
+      "text": "And they've gotten a lot more organized. I mean, they talk to each other now. They go to protests at the state capitol together. Then you really see it at a lot of these, like, local city council and county commission meetings where we have just seen countless examples of meetings that are packed with, you know, hours and hours of testimony, hundreds of people there, you know, in counties that are not very populous at all and probably typically don't see county commission meetings that have that many people at them."
+    },
+    {
+      "start": 363.9,
+      "end": 370.9,
+      "speaker": "A",
+      "text": "All right. So Texas wanted to be in the data center business. Was it doing anything to incentivize the building of data centers there?"
+    },
+    {
+      "start": 371.4,
+      "end": 415.8,
+      "speaker": "B",
+      "text": "Yes, absolutely. I mean, this was, this was a really interesting thing that we, that I published a story on in April. And this is not, I think, uncommon to a lot of other states in the country, but we had a state sales tax exemption. I think the easiest way to explain what is exempt is like if you tip the data center upside down, it's sort of everything that falls out that contributes to the operation of the data center. So sort servers, server racks. But the big one, and this is really the sticking point, I think, for a lot of state officials and for the public too, is that electricity is exempt under this state sales tax. And I mean, I'm sure you've heard about these hyperscalers that are, you know, 1 gigawatt in capacity, which is, you know, the amount of electricity that 750,000 homes use on average. All right."
+    },
+    {
+      "start": 415.8,
+      "end": 424,
+      "speaker": "A",
+      "text": "So the reason we're talking today is that Governor Greg Abbott has changed his mind on data centers. What is Greg Abbott saying today?"
+    },
+    {
+      "start": 424.4,
+      "end": 474,
+      "speaker": "B",
+      "text": "You know, I wouldn't consider it a wholesale mind change. I mean, it certainly is like you're there— the governor and a lot of these Republican officials that are supportive of sort of the overall data center buildout for those reasons we mentioned, as far as job growth, economic development, you know, they are also very aware of the politics of this and are trying to take steps to show they are ordering responsible development. They've not been working in collaboration with local governments. And so they basically dug their own grave for the problem that's been caused for them. And that's why they got the backlash they deserve. They are requiring data centers to pay their own way in power so that, like, costs of those don't go on to residential ratepayers, that they provide their own water and aren't using water from, you know, the wells or the aquifers that might be running low in a state that's pretty stricken with drought a lot of the time."
+    },
+    {
+      "start": 474.8,
+      "end": 481.2,
+      "speaker": "C",
+      "text": "What we have to do right now is put standards and practices in for data centers, just like we did with oil rigs."
+    },
+    {
+      "start": 481.3,
+      "end": 487.3,
+      "speaker": "B",
+      "text": "He's saying all of these things, but also saying, you know, this is a very valuable industry for the state of Texas, and we do not want to leave it behind."
+    },
+    {
+      "start": 487.7,
+      "end": 497.3,
+      "speaker": "A",
+      "text": "How are the companies behind the data centers responding to the governor's, let's say, increased hesitance about their value to his state? Are they upset?"
+    },
+    {
+      "start": 500.1,
+      "end": 500.8,
+      "speaker": "C",
+      "text": "No."
+    },
+    {
+      "start": 501.2,
+      "end": 507.9,
+      "speaker": "B",
+      "text": "I think you might be surprised to hear that. They've been incredibly supportive, and the governor has been very happy to let us all know about that."
+    },
+    {
+      "start": 508,
+      "end": 508,
+      "speaker": "A",
+      "text": "I—"
+    },
+    {
+      "start": 508.7,
+      "end": 539.9,
+      "speaker": "B",
+      "text": "it was August 3rd that he issued this most recent letter ordering an audit of all of the data centers that are in this interconnection queue before any can be approved to be on the power grid. And basically that is just ensuring that they will pay their own way in power, that they have water supply, that we know who the operator is, that we have an accounting of all of the local and state tax incentives this data center might have. Ever since that August 3rd letter was sent out, we have just seen a wave after wave of data center companies, developers, coming out and saying they're supportive of it."
+    },
+    {
+      "start": 540.5,
+      "end": 557.1,
+      "speaker": "A",
+      "text": "Governor Greg Abbott today announced that Microsoft, Hut8, and Equinix, Stack Infrastructure, Anthropic, and Night Peak Energy, Amazon, Lancium, and Cipher Digital will comply with the standards and guidelines he established for data centers."
+    },
+    {
+      "start": 557.6,
+      "end": 565,
+      "speaker": "B",
+      "text": "It's really the governor and the industry are kind of in lockstep on this. They see this as a good and responsible path forward."
+    },
+    {
+      "start": 568,
+      "end": 582,
+      "speaker": "A",
+      "text": "Governor Abbott is up for reelection in November. How much of his updated, let's say, attitude on data centers comes down to politics, comes down to voters seem like maybe they're getting squeamish about this?"
+    },
+    {
+      "start": 582.5,
+      "end": 582.8,
+      "speaker": "C",
+      "text": "Well, yes."
+    },
+    {
+      "start": 582.9,
+      "end": 646.2,
+      "speaker": "B",
+      "text": "I mean, he hasn't said it explicitly, uh, that it is tied to the election, but I think you certainly can draw your own conclusions based on a lot of things here. I mean, the polling in the, uh, races in Texas, they're really the big ones are governor's race. Where Governor Abbott, like you said, is up for reelection against State Representative Gina Hinojosa. And then our U.S. Senate race where Attorney General Ken Paxton is facing off against State Representative James Talarico. In both of these races, the polling for a state where a Democrat has not won statewide in more than 30 years is incredibly close. Polling in the state has shown the data center buildout to be very unpopular. More than 60% of people against having a data center built in their own community. You know, the rural conservative is the Republican base. Base in the state of Texas. I mean, it's a, it's a group that Republicans typically win with more than 75% of the vote. And we have seen polling that shows that those folks are dissatisfied. So all of that to say, the governor has not said, I am doing this because of the election. But what I will say is the pause on data center approvals is expected to last through November."
+    },
+    {
+      "start": 646.8,
+      "end": 649.7,
+      "speaker": "A",
+      "text": "Has this risen to be one of the top issues in this election, do you think?"
+    },
+    {
+      "start": 650.5,
+      "end": 668,
+      "speaker": "B",
+      "text": "I would say it is. The candidates are kind of making that own case on their own. In the, in the U.S. Senate race, both State Representative Tallarico and Attorney General Paxton have recently released their own plans and, you know, what they'll do about the data center buildout. I mean, obviously they're running for federal office, so kind of from their, their perch in the U.S. Senate, if they're able to win that seat."
+    },
+    {
+      "start": 668.2,
+      "end": 685.2,
+      "speaker": "A",
+      "text": "Texas Attorney General Ken Paxton released his data center plan just yesterday, and in a news release, the AG says he would ban Chinese technology from U.S. data centers and hold companies criminally liable if their data centers power AI chatbots that endanger children."
+    },
+    {
+      "start": 686,
+      "end": 703.6,
+      "speaker": "C",
+      "text": "We need a senator who's going to fight for all Texans, not just billionaire mega donors, and it's why I'm here listening to the folks in Abilene. It's why we're traveling the state listening to Texans, and it's why we've rolled out a comprehensive plan to rein in these data center companies."
+    },
+    {
+      "start": 703.9,
+      "end": 731.3,
+      "speaker": "B",
+      "text": "But then same with State Representative Hinojosa, the Democrat running for governor, and then obviously Abbott and his recent actions being taken. Because I think there are dual pressures going on here. And so we're seeing, you know, candidates talk about it. We're seeing We're hearing advertisements pop up about it. We're hearing voters on the street talk about it. I mean, I think it's getting— yeah, it's up there. I think maybe the easiest way to say that it's near the top."
+    },
+    {
+      "start": 740.5,
+      "end": 866.4,
+      "speaker": "A",
+      "text": "Paul Kobler is the Texas Tribune's economy and industry reporter. Coming up, the data center backlash goes national. Support for Take/Explain comes from Indeed. Work is the best when it stays inside the office, but if you feel like you're bringing a lot of it home with you, it might be time to get some help. And Indeed Sponsored Jobs is looking to provide some help. People are finding quality hires on Indeed right now, and in the minute this ad runs, companies like yours have made 27 hires on Indeed, according to Indeed. You can join the 3.3 million employers worldwide that use Indeed to connect with quality talent that fits their needs. Spend less time searching and more time actually interviewing candidates who check all your boxes. Less stress, less time, more results. When you need the right person to cut through the chaos, this is a job for Indeed Sponsored Jobs. Listeners of this show will get a $75 sponsored job credit to get your job the premium status it deserves at indeed.com/podcast. Just go to indeed.com/podcast right now and support our show by saying you heard about Indeed on this podcast. Indeed.com/podcast. Terms and conditions apply. Need to hire? This is a job for Indeed Sponsored Jobs. Support for Today Explained comes from Anthropic, the team behind Claude. Every big AI headline is a lot of important questions like, what does this mean for my job? Should I even be using it? Anthropic is a public benefit corporation founded on asking those kinds of questions. More specifically, they say, how do we make sure AI goes well for people? So Anthropic sat down with some people. They did more than 120,000 interviews. They asked those people for their hopes and fears, and they don't gloss over what they heard. Anthropic publishes that data even when it's uncomfortable. What came back, they say, wasn't just fear. It was curiosity with questions like, could this cure diseases? Or could my kids have a better future? Perhaps there is hope in asking hard questions. Ask yours at Claude.ai/todayexplained and keep thinking."
+    },
+    {
+      "start": 867.8,
+      "end": 904.7,
+      "speaker": "B",
+      "text": "Support for the show comes from Bombas. We're talking socks, people. High-quality, well-made socks, to be specific. Are you looking for socks? Bombas wants to talk to you about socks. They've got a whole line of pro-level sports socks made for specific activities like golf, yoga, the gym, and socks for every kind of runner. I don't know if I've ever done yoga while wearing socks, but But you know, follow your bliss. On top of their sports socks, Bombas is known for their soft and supportive compression socks, perfect for all your summer travel. Has Nisha Chetal worn Bombas socks on her summer travel? Let's ask her."
+    },
+    {
+      "start": 905.1,
+      "end": 919,
+      "speaker": "A",
+      "text": "Yeah, I've been wearing Bombas for several years now. I have several pairs. My whole family loves to wear Bombas. Probably said that in a previous ad, but we do all wear Bombas. And they have really held up over the years."
+    },
+    {
+      "start": 919.4,
+      "end": 939.3,
+      "speaker": "B",
+      "text": "Bombas also has t-shirts, underwear, footwear. You can go to bombas.com/explained and use the code EXPLAINED for 20% off your first purchase. That's bombas.com/explained, code EXPLAINED at checkout. Data, look at this."
+    },
+    {
+      "start": 940.1,
+      "end": 940.4,
+      "speaker": "C",
+      "text": "Data."
+    },
+    {
+      "start": 941.1,
+      "end": 941.4,
+      "speaker": "A",
+      "text": "What?"
+    },
+    {
+      "start": 942.8,
+      "end": 943.1,
+      "speaker": "B",
+      "text": "My name."
+    },
+    {
+      "start": 943.8,
+      "end": 945.9,
+      "speaker": "C",
+      "text": "It is pronounced Today Explained."
+    },
+    {
+      "start": 949,
+      "end": 965.4,
+      "speaker": "A",
+      "text": "I'm Noelle King. Jeremy Merrill is a data reporter at The Washington Post. Jeremy analyzed thousands of social media posts and newsletters to see what elected officials on both sides of the aisle are saying about data centers. And he found that earlier this year, a lot of them started changing their minds on the issue."
+    },
+    {
+      "start": 967.9,
+      "end": 991.9,
+      "speaker": "C",
+      "text": "Data centers didn't used to be a big deal. And now almost all of a sudden they're a big issue. Candidates are sort of falling over themselves to sound tough about data centers, and data centers are kind of overwhelmingly portrayed as a problem rather than an opportunity or a benefit. A great example is Senator Jon Husted, who's a Republican senator from Ohio who's up for election this November."
+    },
+    {
+      "start": 992.3,
+      "end": 996.8,
+      "speaker": "B",
+      "text": "I am an Ohio guy with Ohio values, and I will fight for those values when in Washington, D.C."
+    },
+    {
+      "start": 997.2,
+      "end": 1011.2,
+      "speaker": "C",
+      "text": "He used to praise data center projects that were coming to Ohio when he was lieutenant governor because it would help establish Ohio as, quote, an important tech hub in America. And he said that data centers are essential to our digital lives."
+    },
+    {
+      "start": 1011.5,
+      "end": 1023.6,
+      "speaker": "B",
+      "text": "If we want to have economic dominance and national security dominance, we need to have technological dominance. And, and AI and data centers are a big piece of that. And I know that the American people want to win."
+    },
+    {
+      "start": 1024.2,
+      "end": 1030.1,
+      "speaker": "C",
+      "text": "And now he's saying he's trying to, quote, protect Americans from having to foot the bill for data centers."
+    },
+    {
+      "start": 1030.3,
+      "end": 1041.3,
+      "speaker": "B",
+      "text": "What I have taken the position of is that any data center that's built should be first a local decision. If the local community wants it, then, then they can negotiate with the data center on the terms."
+    },
+    {
+      "start": 1041.8,
+      "end": 1097.3,
+      "speaker": "C",
+      "text": "He's really emblematic of a shift that happened all across the Republican Party in about February of this year. That's when the bulk of messages from Republicans about data centers flipped from focusing on them as bringing benefits benefits to their states and communities to talking about their downsides. This is really a case of the, the anger and unhappiness bubbling up from sort of everyday people up to political elites. And that grassroots anger was all across the political spectrum over a whole range of issues: power bills, claims about how much water data centers may use, air pollution, eminent domain, taxes, subsidies, And, you know, according to some people, sort of generalized anxiety, sort of physical manifestation of general anxiety that people feel about what AI is going to do to our society, to our brains, to our kids, and to our jobs."
+    },
+    {
+      "start": 1101.3,
+      "end": 1127.6,
+      "speaker": "A",
+      "text": "Okay. So we know that it's not just one single candidate, maybe even not just a handful, because you reported that the National Republican Senatorial Committee warned that, quote, data centers are the anchor hanging around Husted's neck. That is pretty, that is pretty strong language. Is the National Republican Senatorial Committee admitting that the wrong position on data centers is enough to lose a candidate or race at this point?"
+    },
+    {
+      "start": 1128.3,
+      "end": 1141,
+      "speaker": "C",
+      "text": "I think it's something that they're certainly worried about. He's in a tough race. It's a toss-up. And presumably you're looking for any kind of an edge or to prevent your opponent from getting an edge over you."
+    },
+    {
+      "start": 1141.8,
+      "end": 1160.6,
+      "speaker": "A",
+      "text": "Okay. So Republicans running for Senate, for governor, they're telling a different story. What about President Trump's messaging on data centers? He initially, at least, was very, very bullish on AI investment in the US. Let's get these AI companies out here. What has Trump been saying?"
+    },
+    {
+      "start": 1161.5,
+      "end": 1233.8,
+      "speaker": "C",
+      "text": "This is sort of a story in, in 2 or 3 parts. As President Trump took office again last year, he was overall trying to portray his second term as president as, quote, a golden age for American manufacturing and technological dominance. And as part of that, he issued an executive order trying to make it easier to build data centers in the United States. And I think that's probably why last year most Republicans across the board were talking about data centers as a benefit to the country and to the communities where they were being built, talking about jobs, talking about investment. But, you know, like I said, the tide turned. And so on the one hand, you have President Trump promoting this bill that would protect people from having data centers cause their power bills to go up. We're insisting that AI data centers and big tech companies pay their own way, and that's what they're doing. And they're happy to do it because this way they're going to be able to function and function brilliantly. They're going to have a lot of electricity left over and they'll put that into the grid."
+    },
+    {
+      "start": 1234.2,
+      "end": 1253,
+      "speaker": "B",
+      "text": "But on the other hand, he just wrote earlier this week on Truth Social, the only reason that communities throughout the USA should not want data centers is if they want to end up being backwards and poor. They want to be successful and rich with far lower taxes and jobs all over the place. Let data rain."
+    },
+    {
+      "start": 1253.6,
+      "end": 1257.9,
+      "speaker": "C",
+      "text": "So he's still very pro-data center, which is kind of fascinating."
+    },
+    {
+      "start": 1259,
+      "end": 1264.2,
+      "speaker": "A",
+      "text": "Let's talk about the Democrats. Which Democrats in particular are we seeing change their minds?"
+    },
+    {
+      "start": 1264.8,
+      "end": 1285.7,
+      "speaker": "C",
+      "text": "Yeah, there are a lot of governors who used to be very positive on data centers, you know, in their states, because these bring jobs, these bring construction investments, some amount of permanent jobs, some amount of construction jobs. Some examples of folks who are now limiting data centers in their states include Governor Josh Shapiro of Pennsylvania."
+    },
+    {
+      "start": 1285.9,
+      "end": 1298.7,
+      "speaker": "A",
+      "text": "Oh, Governor, I confess I was surprised because previously you've been very bullish on data center development. You said it would ensure the future of AI runs right through Pennsylvania. So what prompted that, that 180?"
+    },
+    {
+      "start": 1300.2,
+      "end": 1387.2,
+      "speaker": "C",
+      "text": "You know, I listened and I'm here to say today that we We will not be bullied by these developers. We will not be bulldozed by the lawyers for these big tech companies. That will not happen here in the Commonwealth. JB Pritzker of Illinois. Folks, these days data centers are asking just too much for too little in return. Whether it's electricity or clean water, we can't let them cause our utility bills to go The most striking case of a Democrat whose rhetoric has shifted so much is Representative Ro Khanna of California, whose district actually includes Silicon Valley. In 2025, he was calling for building more data centers in the United States versus overseas. When the Trump administration did an AI deal with the United Arab Emirates, he said, why are we putting data centers and research hubs in Dubai? Why aren't we putting the biggest research and technology AI hub in a place like Western Pennsylvania that wants those data centers? Why aren't we putting it in Ohio? But now he's more critical, calling for, quote, an end to data center extraction, taking communities' water and jacking up their bills, sucking all the money into the hands of a few tech billionaires. You can't shove a data center down the throats of a local community without without any say that that community has. You can't be jacking up electricity prices."
+    },
+    {
+      "start": 1387.4,
+      "end": 1387.5,
+      "speaker": "B",
+      "text": "I—"
+    },
+    {
+      "start": 1387.6,
+      "end": 1393.1,
+      "speaker": "C",
+      "text": "even the technology leaders understand that there needs to be a pause so that we can get this right."
+    },
+    {
+      "start": 1393.9,
+      "end": 1400.4,
+      "speaker": "A",
+      "text": "Is anyone in either party still coming out hard, strong for data centers?"
+    },
+    {
+      "start": 1401.7,
+      "end": 1418.6,
+      "speaker": "C",
+      "text": "My favorite example of this is Representative Eric Burlison, who's a Republican from Missouri. He is really focused on the need to build data centers in order to compete with China. In June, he wrote, ask yourself who benefits when Americans turn against data centers? China does."
+    },
+    {
+      "start": 1419.2,
+      "end": 1447.1,
+      "speaker": "A",
+      "text": "He's making the point that I think a lot of people in tech are making, which is this is coming whether you like it or not. And part of politics is dealing with reality. In this day and age, it seems constituents don't want to deal with that reality. But clearly there are people who hold office or who hope to hold office who are going to maintain the line that this is something we just got to do."
+    },
+    {
+      "start": 1447.6,
+      "end": 1481.2,
+      "speaker": "C",
+      "text": "Right, exactly. This is a classic sort of political science dispute about what a politician's job is supposed to be. If you accept the premise that we need data centers to build a wonderful technological future or keep pace with China or whatever the argument is, is the job of a politician to just do what their constituents want, to sort of be their Tribune in Washington, or is it to sort of be the wise, thoughtful leader who's willing to push back when the constituents are missing something important?"
+    },
+    {
+      "start": 1481.5,
+      "end": 1481.6,
+      "speaker": "A",
+      "text": "Hmm."
+    },
+    {
+      "start": 1482.6,
+      "end": 1513.7,
+      "speaker": "C",
+      "text": "This is one thing I keep in mind when analyzing particularly what some of these governors who shifted more recently is— they're talking about the downsides of data centers. They're talking about mitigating those downsides. They're saying, oh, we need to get data centers to pay their fair share. We need to make sure that data centers don't screw up our water. We need to make sure they don't raise your power bills. We need to make sure they give back. But then it's so that we can build them and still reap the benefits while mitigating the costs."
+    },
+    {
+      "start": 1518.3,
+      "end": 1550.9,
+      "speaker": "A",
+      "text": "Jeremy, you will be aware, working for The Washington Post, that we live in deeply polarized times. And so what often happens is that if Republicans Republicans are in favor of something Democrats are not. If Democrats are in favor of something Republicans are not. That's just sort of the way this has played out for years now. The thing that makes data centers so interesting is that you find candidates within each party that are pro and against. What is it about this issue, do you think, that has got us to this place? We're polarized, but we're not polarized in the same way that we're often polarized."
+    },
+    {
+      "start": 1551.8,
+      "end": 1619.9,
+      "speaker": "C",
+      "text": "Yeah, this is a real— this is really interesting. You know, one possibility is that this is coming from the grassroots so much and bubbling up to politicians and political elites. Turn the plug and flip the switch! That everybody kind of got the signal at the same time that this was something that they ought to oppose. The other possibility is people have for a while been saying, are we living through a sort of generational political realignment? Moment in the United States where a lot of things are up for grabs. You don't see a lot of the sort of libertarian-adjacent, pro-business, free markets, free trade Republican Party. And so when all these issues are up for grabs, politicians see opportunity in being innovative rather than sort of sticking with the same traditional views of their party for a long Jeremy Merrill."
+    },
+    {
+      "start": 1620,
+      "end": 1631,
+      "speaker": "A",
+      "text": "He's a data reporter with The Washington Post. Ariana Espudu produced today's show and Miranda Kennedy edited. David Tatashore and Bridger Dunnigan engineered and Gabriel Donatov checked the facts. I'm Noel King. It's Today Explained."
+    },
+    {
+      "start": 1639.7,
+      "end": 1668.5,
+      "speaker": "C",
+      "text": "Fall is the perfect time to refresh and reorganize your space. At The Home Depot, find power tools and tool sets starting at $50 to help tackle DIY projects, home updates, and more. Whether you're drilling brackets to support new shelving or sharpening your hedge trimmer blade with an angle grinder, The Home Depot has the tools you need to check projects off your list. Shop Labor Day savings at The Home Depot. And gear up for fall projects with the right tools to keep your projects moving."
+    },
+    {
+      "start": 1669.4,
+      "end": 1698.6,
+      "speaker": "B",
+      "text": "With summer coming to an end, you're going to be spending more time indoors. Get your home ready and save up to 50% off custom window treatments during the Labor Day Mega Sale at Blinds.com. From room darkening to light filtering shades, finding the perfect fit is easy. Get free samples, expert design help, and professional measure and install services, or DIY with confidence and support every step of the way. Shop up to 50% off sitewide plus huge savings on doorbusters right now during the Labor Day Mega Sale at Blinds.com."
+    }
+  ]
+}

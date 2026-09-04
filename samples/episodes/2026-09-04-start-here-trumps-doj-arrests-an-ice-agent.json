@@ -1,0 +1,602 @@
+{
+  "episode": {
+    "id": "12bfea5678bdfdf08a6b7df223ad7139c60e3b042b27df0a61e5d0fc6abc473e",
+    "podcastTitle": "Start Here",
+    "feedUrl": "https://feeds.megaphone.fm/ESP8447327256",
+    "guid": "https://www.podtrac.com/pts/redirect.mp3/pscrb.fm/rss/p/traffic.megaphone.fm/ESP5342827101.mp3",
+    "title": "Trump’s DOJ Arrests an ICE Agent",
+    "description": "An ICE agent who allegedly shot a Venezuelan migrant in the leg and then lied about it surrenders to federal authorities. Defense attorneys for Lindsay Clancy ask a judge to dismiss the juror reportedly holding up an acquittal. And feminist icon Gloria Steinem dies at 92.&nbsp;\n\n\nLearn more about your ad choices. Visit podcastchoices.com/adchoices",
+    "pubDate": "2026-09-04T09:30:00.000Z",
+    "duration": 1624,
+    "audioUrl": "https://www.podtrac.com/pts/redirect.mp3/pscrb.fm/rss/p/traffic.megaphone.fm/ESP5342827101.mp3",
+    "artworkUrl": "https://megaphone.imgix.net/podcasts/33354c1e-b053-11f0-8986-af0fdd9da4cc/image/692fb8d34237ef1633c853e7176052da.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1719,
+    "utteranceCount": 89
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:18.257Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "ICE Agent Charged for Shooting Lies",
+      "description": "Federal prosecutors take the rare step of charging an ICE agent who allegedly shot a Venezuelan migrant and fabricated the story of being attacked.",
+      "startTime": 1.718,
+      "endTime": 277.223,
+      "anchorPhrase": "late night bites with friends? already hard to beat. that first too-hot bite of fries"
+    },
+    {
+      "index": 1,
+      "title": "The Fired Prosecutor Behind the Case",
+      "description": "The DOJ prosecutor who pushed for stronger civil rights charges against the ICE agent was fired, revealing internal conflict over how far to take the case.",
+      "startTime": 277.223,
+      "endTime": 625.047,
+      "anchorPhrase": "minnesota lost. well, now he's apparently self-surrendered, right? so i guess now i'd assume he"
+    },
+    {
+      "index": 2,
+      "title": "One Juror Blocking Lindsay Clancy Verdict",
+      "description": "Defense attorneys claim 11 jurors favor acquittal by reason of insanity, and move to remove the lone holdout they say refuses to follow the judge's instructions.",
+      "startTime": 625.047,
+      "endTime": 909.75,
+      "anchorPhrase": "you will ever sleep on. that's abcsecretsavings.com/starthere. all week we've been waiting for a verdict"
+    },
+    {
+      "index": 3,
+      "title": "Gloria Steinem's Life-Long Fight",
+      "description": "Feminist historian Deborah Michaels reflects on Steinem's journey from undercover Playboy Bunny to the face of second-wave feminism and why her fight never felt finished.",
+      "startTime": 909.75,
+      "endTime": 1419.531,
+      "anchorPhrase": "yesterday, you probably heard that gloria steinem had died at the age of she's often"
+    },
+    {
+      "index": 4,
+      "title": "NFL Players Defecting to College Football",
+      "description": "A rule change is letting pro players return to college football for big NIL money, sparking a lawsuit between the SEC and LSU over who controls the sport's future.",
+      "startTime": 1419.531,
+      "endTime": 1719,
+      "anchorPhrase": "and one last thing. college football gets underway in earnest this weekend. the nfl season"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 1.7,
+      "end": 25.2,
+      "speaker": "A",
+      "text": "Late night bites with friends? Already hard to beat. That first too-hot bite of fries you couldn't wait for, followed by ice cold Pepsi. Now that hits different. Suddenly, the energy kicks back in, the night goes longer, and the laughs don't stop. Because Pepsi brings out more flavor, more fun, and more of the moment. Food deserves Pepsi. Grab a Pepsi Zero Sugar today."
+    },
+    {
+      "start": 27.5,
+      "end": 39.8,
+      "speaker": "B",
+      "text": "It's Friday, September 4th. He told the world an immigrant attacked him. Now he's under arrest. We start here. Federal prosecutors charge an ICE agent with lying about a shooting."
+    },
+    {
+      "start": 40,
+      "end": 44.3,
+      "speaker": "C",
+      "text": "We got this rare, extremely rare backpedaling from ICE at the time."
+    },
+    {
+      "start": 44.4,
+      "end": 55.3,
+      "speaker": "B",
+      "text": "But the prosecutor who fought to crack down on cases like this has just been fired. Lindsay Clancy's lawyer says 11 jurors are on their side and one has a vendetta. One juror who refuses to listen to the law."
+    },
+    {
+      "start": 57.5,
+      "end": 58.7,
+      "speaker": "D",
+      "text": "Unreasonable doubt."
+    },
+    {
+      "start": 58.8,
+      "end": 65.8,
+      "speaker": "B",
+      "text": "Dramatic scenes in court with murder charges hanging in the balance. And a feminist icon passes the baton."
+    },
+    {
+      "start": 66,
+      "end": 71.1,
+      "speaker": "E",
+      "text": "She really had to fight hard to be taken seriously as a political journalist."
+    },
+    {
+      "start": 71.3,
+      "end": 156.2,
+      "speaker": "B",
+      "text": "The life and times of Gloria Steinem and where her movement goes from here. From ABC News, this is Start Here. I'm Brad Milkey. In each of the last 2 months, Immigration and Customs Enforcement has arrested 50,000 people. Either of those months by themselves would be a record. Taken together, this is a huge surge. The last time we saw such a surge under the Trump administration was this past winter. ICE, ICE, ICE, ICE, ICE! Remember in January, the killings of Renee Good and Alex Preddy by immigration officers in Minnesota? Well, in between those shootings, there was another one. An ICE agent named Christian Castro shot a Venezuelan immigrant in the leg. Immediately, we were told by government officials this shooting was justified. Our ICE agents are following the law and running their operations according to training. They said the agent reported being attacked, ambushed by men wielding a shovel and a broom handle. Eventually, though, video came out showing Castro had not been attacked. In fact, he had fired through a door at a man he couldn't see. Well, yesterday, In a very rare instance during this immigration crackdown, the Trump Justice Department brought federal charges against one of its own. And now this case is spiraling in all sorts of ways. ABC's Alex Mallin covers the Justice Department. Alex, first off, what are these charges against this ICE officer?"
+    },
+    {
+      "start": 156.5,
+      "end": 217.9,
+      "speaker": "C",
+      "text": "Yeah, so these charges against Christian Castro, Brad, are so extraordinary because it's the first time that we've seen the Justice Department, the federal government, uh, get involved and actually prosecute one of the federal agents that were dispatched in these immigration surges that we saw earlier this year. And these charges against Castro come after federal officials say that he lied about that account of his interactions with two of these undocumented immigrants in Minneapolis, who later, when video footage came out, uh, fully disproved his statements. And we got this rare, extremely rare backpedaling from ICE at the time that essentially accused Castro and another agent of making false statements in their interviews with officials. So These charges presumably would have been seen as a long time coming, given we've heard ICE publicly acknowledge that they made these false statements. And so that is what makes this more extraordinary. And the fact that the federal government is bringing these charges, we already have seen state charges leveled at various ICE officials, including actually this officer who was charged yesterday."
+    },
+    {
+      "start": 217.9,
+      "end": 226.5,
+      "speaker": "B",
+      "text": "Well, that's what I was thinking. It was state officials in Minnesota had been trying to get their hands on this guy for a while. Right. So this federal case is kind of the same but different?"
+    },
+    {
+      "start": 226.7,
+      "end": 255.7,
+      "speaker": "C",
+      "text": "Yeah, so Castro was charged in May by state officials, the Hennepin County DA, uh, in Minneapolis with assault and false statements charges related to this shooting incident. Now, since those charges were released, officials in Minnesota have been battling with, uh, state officials in Texas trying to get Castro extradited. We had to file this lawsuit in order to compel Governor Abbott to do his basic function as a governor of a state."
+    },
+    {
+      "start": 255.9,
+      "end": 267.1,
+      "speaker": "B",
+      "text": "Well, listen, while they're making demands, I got a demand of my own, and that is it's time for Minnesota to step up and repay the United States of America and Americans for all the fraud that they've committed in their state."
+    },
+    {
+      "start": 267.2,
+      "end": 277.2,
+      "speaker": "C",
+      "text": "This actually came to a head last week in federal court. Minnesota had sued to try and force Castro's extradition, which had been resisted by Governor Greg Abbott, and actually Minnesota lost."
+    },
+    {
+      "start": 277.2,
+      "end": 294.4,
+      "speaker": "B",
+      "text": "Well, now he's apparently self-surrendered, right? So I guess Now I'd assume he goes wherever the feds want him to go, Alex, because we're talking about how extraordinary it is that the federal government is bringing charges against one of their own immigration agents. But you've reported that this prosecutor leading the investigation was fired yesterday. How does that play into this?"
+    },
+    {
+      "start": 294.7,
+      "end": 342.9,
+      "speaker": "C",
+      "text": "Yeah, this is actually another extraordinary element of this because we know that there's already been a lot of friction between the U.S. Attorney's Office in Minnesota, those career line prosecutors who have been tasked by the federal government officials here at main justice in Washington, D.C., with mounting this extraordinary crackdown not just on immigration, uh, but also people who have been protesting the immigration actions of this administration. And yesterday what we learned is this prosecutor Matthew Evans was fired because a letter that was reported on by ProPublica that he had sent to the Venezuelan victim in this case who was shot by Castro, uh, he disclosed in this letter to the lawyer that, that he was actually seeking to bring a more harsh a criminal charge that's a civil rights violation known as deprivation under color of law."
+    },
+    {
+      "start": 343.2,
+      "end": 346.7,
+      "speaker": "B",
+      "text": "Oh, not just lying to— not just lying to investigators, but like civil rights laws."
+    },
+    {
+      "start": 346.8,
+      "end": 388.8,
+      "speaker": "C",
+      "text": "Yes, exactly. This, this charge, which would be specifically with respect to what he did to this Venezuelan immigrant in this shooting, that that would make him eligible for a much stricter sentence should he be convicted of that. And this prosecutor, Matthew Evans, disclosed that he was being blocked by officials at Main Justice and the U.S. Attorney in Minnesota. Now, we understand from sources for familiar with the matter. They dispute Evans's characterization in this letter. They say that this is still an open civil rights investigation into Castro. But we know Evans was fired as a result of this letter. And so this just shows another way that the Justice Department, uh, is really cracking down on prosecutors who seek to separate themselves from the actions of this administration."
+    },
+    {
+      "start": 388.9,
+      "end": 406.6,
+      "speaker": "B",
+      "text": "That's what I was going to ask, Alex, was what does all this mean for the DOJ? Because like you said, on one hand, huge deal that they are prosecuting a federal agent, But does this also mean there are people at the DOJ who don't want these types of cases to go forward, who don't want prosecutors taking the extra step of saying like, hey, maybe we should think about how we're doing these crackdowns?"
+    },
+    {
+      "start": 406.8,
+      "end": 413.4,
+      "speaker": "C",
+      "text": "Yeah, I think it just speaks more to the overall approach of this administration with regards to police and federal law enforcement."
+    },
+    {
+      "start": 414.2,
+      "end": 418.3,
+      "speaker": "B",
+      "text": "ICE is vital to the well-being of our country."
+    },
+    {
+      "start": 418.7,
+      "end": 422.9,
+      "speaker": "D",
+      "text": "There's not one thing that they can say that they're doing that is outside the law."
+    },
+    {
+      "start": 423.4,
+      "end": 468.6,
+      "speaker": "C",
+      "text": "We've heard from President Trump, other top officials across the government that they will always, quote unquote, back the blue. And that would seemingly, you know, not involve federal law enforcement prosecuting the actions of law enforcement. And we've seen the Civil Rights Division at DOJ vastly slimmed down. The parts of DOJ that would typically investigate police have been reoriented and shifted over towards investigating things like immigration. And so it would be, you know, a really extraordinary development if you saw civil rights charges on the federal level be brought against a federal law enforcement official. It's not something that I think that we would expect to see and would really reflect the concerns that were leveled by this prosecutor in Minnesota who says that he was specifically blocked from bringing any."
+    },
+    {
+      "start": 468.8,
+      "end": 468.9,
+      "speaker": "D",
+      "text": "Wow."
+    },
+    {
+      "start": 469.1,
+      "end": 485,
+      "speaker": "B",
+      "text": "And so now Castro is making an appearance today in Texas. And remember, there are state charges hanging over his head if he's extradited back to Minnesota. No plea yet, although Castro's lawyer has said for the record he did not flee Minnesota. He said he was obligated to be back in Texas for work. Alex Mallin, thank you so much."
+    },
+    {
+      "start": 485.4,
+      "end": 485.8,
+      "speaker": "C",
+      "text": "Thanks, Brad."
+    },
+    {
+      "start": 487.2,
+      "end": 673.3,
+      "speaker": "B",
+      "text": "Next up on Start Here, jurors say they're deadlocked and Lindsay Clancy's lawyers say they know what's taking them so long. We're back in a bit. This show is sponsored by ZipRecruiter. Can you think of the last time someone went above and beyond for you? Like the barista at your local coffee shop who mysteriously remembered your birthday, or that concierge you met on your last trip who saw you had a bird keychain and made a point to tell you about the local bird sanctuary? Those fleeting moments may be small, but they really make a difference. It's the kind of positive impression you want to see from everyone in your life, and especially from the candidates that you're hiring. When you're hiring, ZipRecruiter gives great candidates the tools they need to go the extra step and tell you why they're interested in that job. It gives those standout candidates a way to stand out from the others. And ZipRecruiter also has this new feature that shows you the most interested qualified candidates first, so you get to meet the right people faster. Try ZipRecruiter and meet great candidates who will go the extra step for your job. 4 out of 5 employers who post on ZipRecruiter get a quality candidate within the first day. Try it for free today at ZipRecruiter.com/starthere. That's ZipRecruiter.com/starthere. ZipRecruiter. Meet your match on ZipRecruiter. Today I want to tell you about an exciting new deal from our friends at Cozy Earth. Take a moment and think back to the best night of sleep you ever had. Did it feel like you might never sleep that well again? Well, good news, you can give yourself an amazing night of sleep every night by upgrading your bedding to Cozy Earth. Cozy Earth offers luxury bedding at an incredible price. Their ultra-soft temperature-regulating sheets sheets, coverlets, and duvet covers are the perfect companion for a night of uninterrupted relaxation. The sheets come in all different colors and stripes, so there's something for everyone, whether you're doing a big fall refresh for your master bedroom or updating a guest room in time for the holidays. And as comfy as they are on day one, they actually only get better from there because they are designed to get softer with every wash. Best of all, with our limited time deal, the already great prices are even better. You can get 50% off a wide assortment of bedding options by going to our unique link. That's right. 50% off, but hurry, this deal is only for a very limited time. Get yourself the bedding of your dreams right now. Go to abcsecretsavings.com/starthere for 50% off the best bedding you will ever sleep on. That's abcsecretsavings.com/starthere. All week we've been waiting for a verdict in the trial of Lindsay Clancy, the Massachusetts mother admitted to strangling her 3 children, Cora, Dawson, and Callan. But while prosecutors call this a case of cold cold-blooded murder, she claims she wasn't in her right mind. Jurors have been tasked with deciding whether this all in fact stemmed from a case of postpartum psychosis. All week jurors have deliberated, and all week they've been unable to reach a unanimous decision. Twice now they've told the judge they're deadlocked. Well, yesterday, as many of us were expecting the judge to finally declare a hung jury and declare a mistrial, the defense came in with an unexpected argument, saying one of these jurors can't be trusted to deliver a just decision."
+    },
+    {
+      "start": 673.7,
+      "end": 678.8,
+      "speaker": "D",
+      "text": "My motion is to remove this juror that refuses to listen to your instruction on reasonable doubt."
+    },
+    {
+      "start": 679.3,
+      "end": 686.4,
+      "speaker": "B",
+      "text": "ABC's chief investigative correspondent Aaron Katersky is outside the courthouse in Plymouth, Massachusetts right now. Aaron, this sounded dramatic. What happened?"
+    },
+    {
+      "start": 686.8,
+      "end": 735.6,
+      "speaker": "D",
+      "text": "It was dramatic, Brad. In fact, everybody filed in expecting, as you say, that the case was going to come to some kind of conclusion, but instead there was a note from the jury foreperson indicating One of the 12 could not follow the judge's instructions, and the defense began to get heated at a sidebar. Defense attorney Kevin Reddington was up at the bench. We couldn't hear what he said, but he was animated, waving his hands, throwing papers on the desk, pointing at Lindsay Clancy, whose life hangs in the balance of this gut-wrenching case. And the defense that says all that stands between Lindsay Clancy and a verdict of not guilty by reason of insanity is one juror who cannot follow the law."
+    },
+    {
+      "start": 735.9,
+      "end": 749,
+      "speaker": "B",
+      "text": "There's one juror who refuses to listen to the law that you've given him or her on reasonable doubt. What do you mean by cannot follow the law? Because everyone's entitled to their own, you know, opinion about the case, I suppose."
+    },
+    {
+      "start": 749.6,
+      "end": 790.8,
+      "speaker": "D",
+      "text": "Everyone's entitled to their opinion, Brad, but the judge instructed them that a defendant must be proved guilty beyond a reasonable doubt. Probably guilty isn't enough. If you evaluate all the evidence and you still have a reasonable doubt remaining, the defendant is entitled to the benefit of that doubt and must be acquitted. And the implication by the defense is that this holdout juror is hell-bent on convicting Lindsay Clancy of murdering her children when all the other 11 jurors are willing to say she's not criminally responsible because of postpartum psychosis."
+    },
+    {
+      "start": 791.3,
+      "end": 792.6,
+      "speaker": "B",
+      "text": "How did the judge end up handling that?"
+    },
+    {
+      "start": 793.4,
+      "end": 835.8,
+      "speaker": "D",
+      "text": "The defense wanted this one juror dismissed from the panel, and the judge said he wouldn't do it. He said he didn't want to take a side. I don't feel it's appropriate for me to say I agree with one juror or the 11. The judge did not want to put his thumb on the scale, so he simply polled the jury one by one, asked them if they could follow his instructions, reminded them of, of the law about reasonable doubt and what it means to find someone guilty beyond a reasonable doubt, and then sent them back to deliberate. No sooner had they been sent back to the deliberation room, they came back out. They were sent home for the night. Lindsay Clancy eyed them closely."
+    },
+    {
+      "start": 836.2,
+      "end": 852.1,
+      "speaker": "B",
+      "text": "So where does that put us? Because I'm wondering what could happen today. I guess what would the outcomes be? They could somehow convince that 12th juror, they could have a mistrial, or do they just keep telling the judge like, I'm sorry, this one person is not sort of working off the same guidelines as the rest of us?"
+    },
+    {
+      "start": 852.5,
+      "end": 890,
+      "speaker": "D",
+      "text": "Well, the judge before deliberations even begin for what is a 7th day, Brad, is expected to question the holdout juror. And it may happen in open court and really get a sense perhaps of what's going on. The concern, Brad, is that this one holdout could cause a mistrial. This jury, remember, has been deadlocked for days. And if they can't break open the logjam, them, then the judge would be forced to accept a hung jury and declare a mistrial. And if the DA decides, replay this whole case again. Right."
+    },
+    {
+      "start": 890.3,
+      "end": 903.6,
+      "speaker": "B",
+      "text": "And so much emotion swept up around this case. I mean, this jury has already been approached by like a member of the public who clearly had thoughts about the case. I mean, really just sort of charged, especially because of the mental health component and the motherhood component to it all. Aaron Katersky, thank you so much."
+    },
+    {
+      "start": 904.1,
+      "end": 904.6,
+      "speaker": "D",
+      "text": "Thank you, Brett."
+    },
+    {
+      "start": 909.8,
+      "end": 964.6,
+      "speaker": "B",
+      "text": "Yesterday, you probably heard that Gloria Steinem had died at the age of 92. She's often listed as an activist and journalist. She helped found New York Magazine, then the popular magazine Ms., devoted to women's issues. But those achievements barely begin to cover it. In many ways, she was the face of feminism in this country for decades, at one of the most formative times for women since the right to vote was enshrined. Which is why, as sad as her death has been, it's also prompted a lot of Americans to reexamine exactly what she means to this moment, to this wave of feminism. Let's talk more about this with Deborah Michaels. She chairs the Humanities Department at Merrimack College, where she's an expert in feminist history, particularly post-World War II women's history and women's entrepreneurship. In fact, when the National Women's History Museum needed someone to write their material about Gloria Steinem, they turned to her. Professor Michaels, if you were to give the Cliff Notes about Gloria Steinem's life, where would you start? Like, where do you begin to sort of think about her in the big picture here?"
+    },
+    {
+      "start": 965,
+      "end": 965.1,
+      "speaker": "G",
+      "text": "Wow."
+    },
+    {
+      "start": 965.9,
+      "end": 985.4,
+      "speaker": "E",
+      "text": "I think Gloria Steinem is really a woman of her time. If we think about all of the decades in which she first comes of age and then, of course, really begins to blossom as a feminist, we can really see a woman who's a product first of graduating from college in the 1950s into a world that didn't have as many opportunities for women."
+    },
+    {
+      "start": 985.6,
+      "end": 990.4,
+      "speaker": "G",
+      "text": "It's the kind of blue-collar working woman who, who needs these reforms the most, I think."
+    },
+    {
+      "start": 991.1,
+      "end": 1003,
+      "speaker": "E",
+      "text": "And then really kind of coming into her own as the women's movement is beginning to gather steam in the 1960s and '70s and ultimately becoming the spokesperson, really the face of that movement."
+    },
+    {
+      "start": 1003.1,
+      "end": 1018.6,
+      "speaker": "G",
+      "text": "Women marching in the streets for themselves. We've marched for every other movement that exists. We've worked for the Red Cross. We've worked for, you know, everything else except ourselves. And now to see women supporting other women and standing up for their own rights is really very, very moving and gratifying."
+    },
+    {
+      "start": 1018.9,
+      "end": 1045.1,
+      "speaker": "E",
+      "text": "It's really all about giving women the right to choose their own destinies, whatever those destinies may be. When she's coming of age in the 1950s and graduating from Smith College in the mid-'50s, women are being told to now find a husband and get married. And that's just not what she wanted for herself. She wanted to have a career. And she didn't have a problem if other women wanted that, but she personally wanted to have the choice to choose her own path."
+    },
+    {
+      "start": 1045.2,
+      "end": 1048.2,
+      "speaker": "B",
+      "text": "Like, being defined by a man, you're linked to a man, is not the thing."
+    },
+    {
+      "start": 1048.8,
+      "end": 1062.6,
+      "speaker": "E",
+      "text": "Absolutely. It's not an accident the name of the magazine she found is Ms. Miz, right? Because \"Ms.\" is the salutation that tells you, \"I don't know if you're married or not.\" So your connection to a man becomes erased, right? \"Miss\" and \"Mrs.\"— we know who you are connected to."
+    },
+    {
+      "start": 1062.9,
+      "end": 1074,
+      "speaker": "G",
+      "text": "We associate female power with childhood. And some people, especially men, feel regressed when they— the last time they saw a powerful woman, they were 8."
+    },
+    {
+      "start": 1074.4,
+      "end": 1086.3,
+      "speaker": "E",
+      "text": "I think it was really important for her to let women stand for themselves in their own rights, their own achievements, and become everything that they wanted to be. And I think that was her life's mission, really."
+    },
+    {
+      "start": 1086.7,
+      "end": 1098.7,
+      "speaker": "B",
+      "text": "How did her— how did journalism play into this? Maybe this is a selfish question from a journalist, but I'm curious in how she viewed that mission and what stories she would be researching that might not have occurred to, you know, a male journalist or somebody else."
+    },
+    {
+      "start": 1099.5,
+      "end": 1116.6,
+      "speaker": "E",
+      "text": "When Gloria Steinem started out in journalism, there weren't a lot of opportunities for women. And they certainly weren't giving women the hard-hitting kinds of articles that men were getting. And you probably know that up until the early 1970s, a lot of magazines didn't even give women bylines."
+    },
+    {
+      "start": 1116.8,
+      "end": 1117,
+      "speaker": "F",
+      "text": "Really?"
+    },
+    {
+      "start": 1117.1,
+      "end": 1158,
+      "speaker": "E",
+      "text": "Newsweek, for example, did not let women have their own bylines. They were the researchers. Men were the reporters, even if women wrote that article themselves. So the kinds of articles that Gloria Steinem got to write were the kinds of articles women got assigned. They were the women's pages stuff. You know, what kind of pantyhose you should wear, and what was new in lipstick colors, and all of that kind of stuff. And when Playboy is also becoming big, it's interesting that Gloria Steinem is coming of age at the same time, you know, that Hefner is founding Playboy. He's claiming this is a great opportunity for women to work, but she has her doubts. So she goes undercover as a Playboy Bunny."
+    },
+    {
+      "start": 1158.4,
+      "end": 1166.3,
+      "speaker": "G",
+      "text": "I thought I would get through, you know, a few auditions and write about the auditions. But they were so desperate for people that it kept going on and on, and I ended up working."
+    },
+    {
+      "start": 1166.6,
+      "end": 1173.3,
+      "speaker": "E",
+      "text": "And writes an exposé about what actually happens, the kinds of sexism, the kinds of sexual harassment that occur."
+    },
+    {
+      "start": 1173.8,
+      "end": 1178.3,
+      "speaker": "G",
+      "text": "Had to have an internal exam and a venereal disease test to be a waitress? Excuse me?"
+    },
+    {
+      "start": 1178.8,
+      "end": 1193.6,
+      "speaker": "E",
+      "text": "It's pretty hard-hitting. It also really dinks her career. Because after that, a lot of people looked at her as the bunny, and she really had to fight hard. To be taken seriously as a political journalist, as a serious journalist."
+    },
+    {
+      "start": 1193.9,
+      "end": 1200,
+      "speaker": "G",
+      "text": "I was just beginning to be taken seriously. And once you're seen as a bunny, you're finished."
+    },
+    {
+      "start": 1200.3,
+      "end": 1210.1,
+      "speaker": "E",
+      "text": "And she does eventually get to do that, and she helps found New York Magazine. She begins to move into political journalism. And as she does, she also begins to cover the women's movement."
+    },
+    {
+      "start": 1210.2,
+      "end": 1223.1,
+      "speaker": "G",
+      "text": "The point is to be able to choose, to have the power to make a choice. Choice, right? And the reason that, that social justice movements win is because they support choice, not one point of view."
+    },
+    {
+      "start": 1223.5,
+      "end": 1236.6,
+      "speaker": "E",
+      "text": "And so in addition to her speak out in 1969, you see in her own professional career her beginning to write more and more about women's issues and about the movement itself and becoming more connected to it as a result."
+    },
+    {
+      "start": 1237,
+      "end": 1254.4,
+      "speaker": "B",
+      "text": "Now, you're a college professor now, and so you're— you were telling me how, like, your teaching 18 and 19 and 20-year-olds about, about sort of the women's rights movements, both of the past and of the present. I'm kind of curious how feminism has evolved from her era and where her legacy kind of lands in the middle of all that."
+    },
+    {
+      "start": 1254.9,
+      "end": 1278.9,
+      "speaker": "E",
+      "text": "One of the things my students wanted to talk about is how do you think she felt seeing some of that work undone in the last few years at the end of her life? And, you know, I've read a few things about that. I've seen a few interviews that she's given about that. She said that it made no difference, that the fight is still the fight, and that everything women have had and everything women have earned, they've had to continuously fight for."
+    },
+    {
+      "start": 1279.1,
+      "end": 1287.1,
+      "speaker": "G",
+      "text": "One of the good things about being old— I'm old— is that I remember when it was worse. Okay. Yeah. But I do realize how far we have to go."
+    },
+    {
+      "start": 1287.3,
+      "end": 1294.1,
+      "speaker": "E",
+      "text": "You don't just earn your rights once. You earn them by continuing to fight for them over and over and over again."
+    },
+    {
+      "start": 1294.2,
+      "end": 1298.5,
+      "speaker": "B",
+      "text": "And like, the prejudices don't change either, then, probably. So you're always fighting over them."
+    },
+    {
+      "start": 1298.5,
+      "end": 1328.7,
+      "speaker": "E",
+      "text": "You're always fighting over them, but you don't get to keep your rights. Like, the The job isn't done once you get a right. Now the job is making sure you get to continue to have that right. And I think Gloria Steinem was infinitely aware of that. I mean, you know, sometimes reporters say to me, \"What are you most proud of?\" And I always say, \"I haven't done it yet.\" She didn't think about her life in terms of, \"Well, we got this far and now there's efforts to push us back in time.\" She understood that we got this far, but the fight was never over, and she never expected it to be over."
+    },
+    {
+      "start": 1328.8,
+      "end": 1328.9,
+      "speaker": "G",
+      "text": "Yeah."
+    },
+    {
+      "start": 1329.2,
+      "end": 1349.7,
+      "speaker": "B",
+      "text": "And I did not realize this, but she basically created the whole concept of, of Bring Your Daughter to Work Day. Like, that was a Gloria Steinem project. Just one more example of her kind of defining what this movement could look like. Really helpful stuff. Deborah Michaels from Merrimack College and author, by the way, of She's the Boss: The Rise of Women's Entrepreneurship Since World War II. Thanks for being with us."
+    },
+    {
+      "start": 1349.9,
+      "end": 1350.6,
+      "speaker": "E",
+      "text": "Thank you for having me."
+    },
+    {
+      "start": 1355,
+      "end": 1362.5,
+      "speaker": "B",
+      "text": "Okay, one more quick break. When we come back, talk about running a reverse. This one could reshape college sports as we know them. One Last Thing is next."
+    },
+    {
+      "start": 1365.6,
+      "end": 1386.8,
+      "speaker": "A",
+      "text": "The perfect lunch combo: that first bite of your favorite sub followed by ice-cold Pepsi. Add a couple of friends and now that's next level. Suddenly the laughs get louder, the stories keep flowing, and the food tastes better. Because Pepsi brings out more flavor, more fun, and more of the moment. Food deserves Pepsi. Grab a Pepsi Zero Sugar today."
+    },
+    {
+      "start": 1389.2,
+      "end": 1390.4,
+      "speaker": "F",
+      "text": "Honey, what are you listening to?"
+    },
+    {
+      "start": 1390.5,
+      "end": 1391.6,
+      "speaker": "C",
+      "text": "Mom!"
+    },
+    {
+      "start": 1392.5,
+      "end": 1404.1,
+      "speaker": "F",
+      "text": "Your teen might not share everything with you, but teens share everything with each other. And certain everyday behaviors like sharing food, drinks, or kisses could mean sharing bacteria that can cause meningococcal disease known as meningitis."
+    },
+    {
+      "start": 1404.2,
+      "end": 1404.6,
+      "speaker": "B",
+      "text": "Meningitis."
+    },
+    {
+      "start": 1404.9,
+      "end": 1417.2,
+      "speaker": "F",
+      "text": "Although meningitis is uncommon, about 1 in 10 who develop it will die. Ask your teen's doctor about missing meningitis vaccinations. Learn more at meningitis.com. Vaccination may not protect all recipients. Sponsored by GSK."
+    },
+    {
+      "start": 1419.5,
+      "end": 1431.9,
+      "speaker": "B",
+      "text": "And one last thing. College football gets underway in earnest this weekend. The NFL season kicks off just next week. Although at this point, it might be a legitimate question to ask, what's the difference between college and the pros anyway?"
+    },
+    {
+      "start": 1432.1,
+      "end": 1432.5,
+      "speaker": "D",
+      "text": "Go Blue!"
+    },
+    {
+      "start": 1434.5,
+      "end": 1528,
+      "speaker": "B",
+      "text": "The Southeastern Conference, the SEC, the most powerful college football conference in the land, sued one of its own schools, Louisiana State University. See, LSU wants to try something radical. They are recruiting current NFL players to play college football. Yes, you heard me right. Now, in the old days, that would have been ludicrous, right? College players have to be amateurs. The moment you turn pro, you give up your amateur status. But those days have changed, and recently the NCAA passed a new rule effectively allowing student athletes to play for 5 seasons instead of 4. Take some more classes, start grad school, and make some tackles. The thing is, hundreds of players had already finished their 4th season last year and did what you'd normally do. They tried to go out and play pro ball. If they weren't good enough to get drafted, they would show up to tryouts, they'd try to get on practice squads. What other opportunities do you have? This rule change meant theoretically some of them could be eligible again, which has led to this summer dozens of guys on NFL rosters quitting, saying, Actually, I'm going back to play college football. Question I had was, why would you do that though? Like, even NFL practice squad players make $13,000 a week. That's not bad. Why would you go back to amateur sports? Well, think about what's happened in college football over just the last few years. This is no longer a world where they're scrimping for scholarship dollars. College football players are making tens or even hundreds of thousands in so-called name, image, and likeness deals, often paid for by the schools themselves. Plus, there's a chance if you go back, you might get more playing time, you get drafted next year."
+    },
+    {
+      "start": 1528.4,
+      "end": 1535.3,
+      "speaker": "C",
+      "text": "At the end of the day, you know, because of these rulings, they're either going to play for you or they're going to play somewhere else around the country."
+    },
+    {
+      "start": 1535.5,
+      "end": 1545.3,
+      "speaker": "B",
+      "text": "Coaches like Lane Kiffin at LSU have been actively recruiting players from the Cleveland Browns and the New Orleans Saints on the notion that college football this year can make them rich."
+    },
+    {
+      "start": 1545.5,
+      "end": 1555.9,
+      "speaker": "C",
+      "text": "You know, the guys that are in discussions that are in court cases and getting eligibility are players that maybe went to a minicamp or got cut in a training camp on a 90-man roster."
+    },
+    {
+      "start": 1556.3,
+      "end": 1557.7,
+      "speaker": "D",
+      "text": "You know, they didn't make final rosters."
+    },
+    {
+      "start": 1559.6,
+      "end": 1568.2,
+      "speaker": "B",
+      "text": "And yet this is where the legal battle comes in. College conferences like the SEC, like the Big Ten, are determined not to allow athletes to hop back and forth like this."
+    },
+    {
+      "start": 1568.4,
+      "end": 1574.7,
+      "speaker": "C",
+      "text": "We don't want to see professionals using college as an alternative. We want to see kids have an opportunity to play in college."
+    },
+    {
+      "start": 1574.8,
+      "end": 1649.4,
+      "speaker": "B",
+      "text": "The SEC issued a rule last week saying they would punish schools who tried this. A state judge in Louisiana issued a restraining order on that, though, and said the SEC cannot do anything to stop this. Not yet, at least. Yesterday, the SEC upped the ante by filing suit in federal court. Part of this case is about how much control football leagues have. Part of it is about legal language and contracts. But at its heart, this is a story about work. When are you working? When are you just playing? And can you ever do what we've all thought about? And just go back to school. I have an idea. I feel like they should let them do this, but with conditions. Like, if you're gonna go back to college to get rich playing football, you should have to do the whole college thing. You should have to live in the dorms. You should get paired with, like, a random math major or something. You have to be part of the school. Maybe you gotta join a club. Then we will figure out who really wants to go back to college football. Start Here is produced by Jen Newman, Anthony Ali, Aaron Ferrer, Emily Schutz, and Vika Aronson. Ariel Chester is our social media producer. Josh Cohan is director of podcast programming. I'm our managing editor. Thanks to John Newman, Tara Gimbel, Eamon McNiff, and Katie Dendoss. Special thanks this week to Trevor Hastings, Brian Hartman, and Devin Dwyer. I'm Brad Milkey. I'll see you next week."
+    },
+    {
+      "start": 1649.4,
+      "end": 1662.5,
+      "speaker": "F",
+      "text": "Cozy season is ahead, and you'll be spending way more time inside. Is your home ready?"
+    },
+    {
+      "start": 1662.5,
+      "end": 1662.6,
+      "speaker": "E",
+      "text": "Don't worry."
+    },
+    {
+      "start": 1664.8,
+      "end": 1718.3,
+      "speaker": "F",
+      "text": "With Wayfair, you can upgrade your space without breaking the bank. Score up to 70% off during their Labor Day clearance on furniture, area rugs, mattresses, and more. Plus, surprise flash deals you can't miss. Whether it's one room or the whole house, Wayfair has pieces for every style and budget. Shop Wayfair's Labor Day clearance now through September 7th at wayfair.com. Wayfair, every style, every home. The most memorable gifts aren't found, they're made. Zazzle is a custom marketplace where you pick any product, a mug, a card, a tote, a phone case, and make it personal. A photo, a name, an inside joke. The kind of gift that actually fits the person. That's what 30 million customers have been coming back to Zazzle for over 20 years to find. Right now, save 25% on your first order at Zazzle.com. That's Zazzle.com. Make it Z-amazing."
+    }
+  ]
+}

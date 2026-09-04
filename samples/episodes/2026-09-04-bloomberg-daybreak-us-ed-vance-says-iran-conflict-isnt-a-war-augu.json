@@ -1,0 +1,458 @@
+{
+  "episode": {
+    "id": "322c02ccefa6424d21f82f8fd8142e018a4f96740c113a848217aae822567852",
+    "podcastTitle": "Bloomberg Daybreak: US Edition",
+    "feedUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/d15648c4-cee0-4e99-a5ca-af80014d921d/65ce2954-d8a8-4c66-9f42-af80014d923e/podcast.rss",
+    "guid": "90905927-560b-4520-9394-b4bb00a04538",
+    "title": "Vance Says Iran Conflict Isn’t a ‘War’; August Jobs in Focus",
+    "description": "<p>Today's top stories, with context, in just 15 minutes.<br>On today's podcast:<br>1) US Vice President JD Vance downplayed the scope of the conflict in Iran, saying he would not describe it as &ldquo;a war&rdquo; given major combat operations ended months ago &mdash; even after a brief resumption of military strikes earlier in the week.<br>2) Bloomberg Economics expects the unemployment rate to rise in August, and payroll gains to increase at a subpar pace. We see risks to our forecast tilted toward a higher unemployment rate and even lower payrolls.<br>3) Anthropic PBC is set to finalize an expansion of its revolving credit facility to $15 billion, according to people familiar with the matter, clearing a hurdle before the artificial intelligence firm&rsquo;s public filing for its highly anticipated IPO.</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>",
+    "pubDate": "2026-09-04T09:47:32.000Z",
+    "duration": 968,
+    "audioUrl": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/d15648c4-cee0-4e99-a5ca-af80014d921d/90905927-560b-4520-9394-b4bb00a04538/audio.mp3?utm_source=Podcast&in_playlist=65ce2954-d8a8-4c66-9f42-af80014d923e",
+    "artworkUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/d15648c4-cee0-4e99-a5ca-af80014d921d/65ce2954-d8a8-4c66-9f42-af80014d923e/image.jpg?t=1673278228&size=Large"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1220,
+    "utteranceCount": 61
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:47.965Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Vance Rejects 'War' Label",
+      "description": "VP JD Vance downplays the Iran conflict at a White House briefing, even as casualties mount and military strikes resume.",
+      "startTime": 0.128,
+      "endTime": 220.839,
+      "anchorPhrase": "some people treat chatgpt like some kind of smart search engine, and some use it"
+    },
+    {
+      "index": 1,
+      "title": "August Jobs Report Preview",
+      "description": "Stocks and Treasuries hold steady ahead of the August employment numbers, with September rate hike odds running roughly even.",
+      "startTime": 220.839,
+      "endTime": 291.079,
+      "anchorPhrase": "and also on the economic front, karen, stocks and treasuries are steady ahead of the"
+    },
+    {
+      "index": 2,
+      "title": "Yen Surges on BOJ Bets",
+      "description": "The yen hits a one-month high as carry trade unwinding signals growing expectations for consecutive Bank of Japan rate hikes.",
+      "startTime": 291.079,
+      "endTime": 314.564,
+      "anchorPhrase": "on youtube. well, overseas, nathan, the yen advanced to a 1-month high as a rush"
+    },
+    {
+      "index": 3,
+      "title": "Trump's China Trade Optimism",
+      "description": "US Trade Representative Jameson Greer strikes an upbeat tone ahead of the Trump-Xi summit, citing a shrinking trade deficit and possible tariff exclusions.",
+      "startTime": 314.564,
+      "endTime": 356.538,
+      "anchorPhrase": "let's get the latest on us-china relations now, karen. us trade representative jameson greer is"
+    },
+    {
+      "index": 4,
+      "title": "Anthropic's $15B IPO Runway",
+      "description": "Anthropic is finalizing a massive credit facility expansion led by Morgan Stanley as it clears the runway for its highly anticipated public offering.",
+      "startTime": 356.538,
+      "endTime": 435.412,
+      "anchorPhrase": "nathan, we turn to ai now, and sources tell bloomberg that anthropic is set to"
+    },
+    {
+      "index": 5,
+      "title": "Ballot Battle Hits Supreme Court",
+      "description": "The Trump administration asks the Supreme Court to allow new Postal Service mail-in ballot rules ahead of the November midterms.",
+      "startTime": 435.412,
+      "endTime": 553.058,
+      "anchorPhrase": "boom. well, in washington, nathan, the trump administration asked the supreme court to let the"
+    },
+    {
+      "index": 6,
+      "title": "Labor Day Weekend Forecast",
+      "description": "Bloomberg meteorologist Craig Allen breaks down what 100 million Americans can expect weather-wise over the holiday weekend.",
+      "startTime": 553.058,
+      "endTime": 907.428,
+      "anchorPhrase": "not be happy. well, karen, we're coming up to the unofficial final weekend of summer"
+    },
+    {
+      "index": 7,
+      "title": "Iran's Breaking Point",
+      "description": "Bloomberg's Abir Abu Omar reports from Dubai on whether economic and military pressure can force Iran to blink before the US midterm elections.",
+      "startTime": 907.428,
+      "endTime": 1220,
+      "anchorPhrase": "bloomberg daybreak. good morning, i'm nathan hager. more than months now into the war with"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.1,
+      "end": 42.1,
+      "speaker": "A",
+      "text": "Some people treat ChatGPT like some kind of smart search engine, and some use it to get work done. ChatGPT Work is a new way of working in ChatGPT that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work. It's designed to help you move from a chaotic starting point to a reviewable first version. So all the source materials, briefs, and scattered information that you have to grind through to turn into something useful can just become something useful. Put ChatGPT to work on your most ambitious ideas and projects. Get started at chatgpt.com by selecting Work Mode, available on Plus and Pro plans."
+    },
+    {
+      "start": 43.1,
+      "end": 44,
+      "speaker": "B",
+      "text": "Coffee Genius here."
+    },
+    {
+      "start": 44.5,
+      "end": 63.8,
+      "speaker": "C",
+      "text": "Most people see a busy café, but I see precision at every step, thanks to Genius from Global Payments. Transactions? Instant. Inventory? Precise. Operations in sync. Absolutely genius. From sold-out crowds worldwide to managing the morning rush, Genius keeps operations running smoothly."
+    },
+    {
+      "start": 63.9,
+      "end": 64.8,
+      "speaker": "E",
+      "text": "One portado."
+    },
+    {
+      "start": 65.1,
+      "end": 72,
+      "speaker": "C",
+      "text": "Flawless pour, perfectly timed. Just beautiful. Big league reliability for any business. That's Genius."
+    },
+    {
+      "start": 73,
+      "end": 100.8,
+      "speaker": "D",
+      "text": "At Venture Global, we think about what can be done, not what's usually done. Through innovation, Venture Global is not only building some of the largest energy facilities in the world right here in the United States, states, but delivering American energy at a fraction of the cost in a fraction of the time. So while others are busy talking, we're busy building. That's Venture Global. That's unstoppable energy."
+    },
+    {
+      "start": 105.1,
+      "end": 109.6,
+      "speaker": "F",
+      "text": "Bloomberg Audio Studios. Podcasts, radio, news."
+    },
+    {
+      "start": 111.6,
+      "end": 113.8,
+      "speaker": "B",
+      "text": "Good morning. I'm Nathan Hager."
+    },
+    {
+      "start": 114.2,
+      "end": 116.3,
+      "speaker": "G",
+      "text": "And I'm Karen Moscow. Here are the stories we're following today."
+    },
+    {
+      "start": 118.4,
+      "end": 130.6,
+      "speaker": "B",
+      "text": "Karen, we begin with the latest from the Middle East. The war with Iran is now into its 6th month. Military strikes on both sides have intensified in recent days, but Vice President J.D. Vance is downplaying the scope of the conflict."
+    },
+    {
+      "start": 131.1,
+      "end": 142.9,
+      "speaker": "H",
+      "text": "I wouldn't call it a war right now. There is no active shooting. I recognize there is— there have been places where this has flared up. Major combat operations— again, major combat operations lasted for about 6 weeks."
+    },
+    {
+      "start": 143.1,
+      "end": 149.3,
+      "speaker": "B",
+      "text": "Vice President J.D. Vance spoke at a White House press briefing. We get more from Bloomberg Middle East correspondent Abir Abu Omar."
+    },
+    {
+      "start": 149.9,
+      "end": 184.6,
+      "speaker": "E",
+      "text": "The big question here really is how will the American public take these comments? Because you're left with 18 service members that were killed from the United States side. Of course, hundreds of others are injured. And then you've got 3,500 casualties on the Iranian side. But then the attempts or the remarks by J.D. Vance, of course, were seen as an effort to, to, to mild down the situation of this war in the Middle East effectively, because President Trump has been calling it a war. And this, of Of course, comes ahead of those midterm elections."
+    },
+    {
+      "start": 184.7,
+      "end": 198.3,
+      "speaker": "B",
+      "text": "In the meantime, Bloomberg's Zabeer Abu Omar says South Korea is reportedly preparing to send troops and a naval support ship to the Strait of Hormuz. That's according to local media reports that say President Trump is ramping up pressure on its Asian ally for not supporting the war."
+    },
+    {
+      "start": 198.5,
+      "end": 220.4,
+      "speaker": "G",
+      "text": "Well, Nathan, the economic pressure is ramping up on the White House in the form of climbing gas prices. U.S. retail diesel rose to a record, threatening to further spike energy-driven inflation as wars in Iran and Russia roiled the market. The fuel climbed to a nationwide average of $5.85 a gallon above the former peak that was set in June 2022."
+    },
+    {
+      "start": 220.8,
+      "end": 234.4,
+      "speaker": "B",
+      "text": "And also on the economic front, Karen, stocks and treasuries are steady ahead of the August jobs report that could signal the path for interest rates, with odds of a September rate hike roughly even ahead of the numbers. Bloomberg's Michael McKee has a preview."
+    },
+    {
+      "start": 234.9,
+      "end": 275.7,
+      "speaker": "I",
+      "text": "Absent any major surprise, the August employment report will be a predicate for next week's inflation numbers. Fed officials are fairly confident the labor market is at worst steady. Jobless claims are little changed, and surveys of manufacturing and service industries report companies are still hiring. While job growth is forecast to remain slow, the drop in the labor force driven by immigration policy has lowered the number of jobs that must be created to hold unemployment steady. And unemployment is forecast to have been unchanged last month. Average hourly earnings gains have slowed, and central bankers say that suggests there's no wage pressures on inflation. Michael McKee, Bloomberg Radio."
+    },
+    {
+      "start": 275.8,
+      "end": 290.7,
+      "speaker": "B",
+      "text": "All right, Mike, thanks. We get those August jobs numbers this morning and we will bring you those numbers live with the context behind the data on Bloomberg Surveillance commercial-free starting at 8:30 a.m. Wall Street time on Bloomberg Radio and the Bloomberg podcast page on YouTube."
+    },
+    {
+      "start": 291.1,
+      "end": 314.2,
+      "speaker": "G",
+      "text": "Well, overseas, Nathan, the yen advanced to a 1-month high as a rush to unwind the yen-funded carry trade signals ramped up bets on further Bank of Japan rate hikes. The move follows hawkish comments from BOJ Governor Kazuo Ueda. The BOJ could raise rates at 3 consecutive meetings through December in an extreme scenario where yen weakness persists, according to Nomura Securities."
+    },
+    {
+      "start": 314.6,
+      "end": 331.6,
+      "speaker": "B",
+      "text": "Let's get the latest on US-China relations now, Karen. US Trade Representative Jameson Greer is striking an optimistic tone ahead of President Trump's meeting with China's Xi Jinping later this month. On Fox News, Greer pointed to a shrinking trade deficit and suggested some Chinese goods could be excluded from tariffs."
+    },
+    {
+      "start": 331.9,
+      "end": 344.2,
+      "speaker": "D",
+      "text": "We're not looking for a giant comprehensive trade agreement with China. We're looking to manage this relationship. Part of this is continuing to get the deficit down. The deficit hasn't been this low with China for many years."
+    },
+    {
+      "start": 344.3,
+      "end": 344.8,
+      "speaker": "F",
+      "text": "They're no—"
+    },
+    {
+      "start": 344.8,
+      "end": 346.6,
+      "speaker": "H",
+      "text": "they're no longer our largest deficit."
+    },
+    {
+      "start": 346.8,
+      "end": 355.7,
+      "speaker": "B",
+      "text": "And U.S. Trade Rep. Jameson Grier also says he expects progress on agricultural barriers during the president's meeting with Xi, while playing down prospects for a broad new trade agreement."
+    },
+    {
+      "start": 356.5,
+      "end": 378.8,
+      "speaker": "G",
+      "text": "Nathan, we turn to AI now, and sources tell Bloomberg that Anthropic is set to finalize expanding its revolving credit facility to $15 $10 billion ahead of the firm's public filing for its highly anticipated IPO. Morgan Stanley is leading the process, with Goldman Sachs, JPMorgan, and Citi also having prominent roles in the offering. And the credit facility would exceed the company's roughly $10 billion target."
+    },
+    {
+      "start": 379,
+      "end": 394.7,
+      "speaker": "B",
+      "text": "And the CEO of Anthropic's biggest rival, OpenAI, Sam Altman, says the industry has done a poor job communicating the benefits of artificial intelligence. Altman tells Bloomberg companies need to show how AI can give people more power and enable greater creativity."
+    },
+    {
+      "start": 395.1,
+      "end": 417.5,
+      "speaker": "H",
+      "text": "I think the industry has done a terrible job of this on the whole. I think we have done a bad job ourselves, uh, you know, maybe better than some others, worse than some others. It is difficult, of course, to explain that this is, uh— the world should, in my opinion, should want us to worry a lot about this technology. The world should want us to think about all the ways that could go wrong, to talk about what we see coming, but not to sort of like stir up doom."
+    },
+    {
+      "start": 418.8,
+      "end": 434.9,
+      "speaker": "B",
+      "text": "OpenAI CEO Sam Altman's comments come as research from Bloomberg Economics finds the benefits may already be showing up. It estimates U.S. labor productivity grew 3.1% in the year through the second quarter, compared with the official 2.5%. And that would be comparable to the late '90s tech boom."
+    },
+    {
+      "start": 435.4,
+      "end": 463.7,
+      "speaker": "G",
+      "text": "Well, in Washington, Nathan, the Trump administration asked the Supreme Court to let the Postal Service enforce new rules for mail-in ballots ahead of the November midterm elections. The Justice Department filed an emergency request to lift a Boston federal judge's order blocking the Postal Service from mandating changes to how it handles election mail for the midterms. The Supreme Court announced a deadline of September 8th, Tuesday, for the Democratic state officials and voter advocacy groups that sued to file a response to the government's request."
+    },
+    {
+      "start": 463.8,
+      "end": 477.2,
+      "speaker": "B",
+      "text": "And on Capitol Hill, Karen, two Democratic congressmen are calling on the Department of Homeland Security to release millions of dollars in federal funding for a program aimed at protecting elections from cyberattacks. And we get that story from Bloomberg's Amy Morris in Washington."
+    },
+    {
+      "start": 477.6,
+      "end": 512,
+      "speaker": "J",
+      "text": "Senator Alex Padilla of California and Representative Joe Morell of New York called on DHS to immediately release $39.6 million for the Election Infrastructure Information Sharing and Analysis Center and and other election security efforts included in the most recently enacted Homeland Security funding bill, which was signed into law in April. But the department has yet to spend that money. The congressman gave DHS until September 9th to give an update on the funding and its plans to hire staff to oversee election security. In Washington, Amy Morris, Bloomberg Radio."
+    },
+    {
+      "start": 512.2,
+      "end": 552.8,
+      "speaker": "G",
+      "text": "All right, Amy, thanks. A note from the media world as it relates to elections: Fox News has fired anchor Maria Bartiromo effective immediately in what a company spokesperson called a quote, business decision. The newsletter Status reported that her dismissal was tied to a dispute at the news outlet over coverage of President Trump's speech in July, in which he shared claims about election interference. The newsletter says Fox asked correspondents not to report the claims. Bartiromo reportedly shared that information with the White House. Fox and Bartiromo did not respond to requests for comment. The president meanwhile wrote on social media, Maria is a, quote, total professional, and her fans will not be happy."
+    },
+    {
+      "start": 553.1,
+      "end": 564.7,
+      "speaker": "B",
+      "text": "Well, Karen, we're coming up to the unofficial final weekend of summer for many. Labor Day weekend weather is top of mind. So let's check in with Bloomberg meteorologist Craig Allen for what to expect. Good morning, Craig."
+    },
+    {
+      "start": 565.2,
+      "end": 601.3,
+      "speaker": "D",
+      "text": "Good morning. The top weather news on the national picture for this upcoming holiday weekend is the extreme late-season heat that will continue in the central and southern portions of the U.S. There will also be repeating thunderstorms in the upper Midwest down to the mid-Atlantic. And there are 3 hurricanes in the Pacific. Western Hawaii is on alert. Closer to home, New York City and suburbs likely have the best weather of the three major hubs along our 95 corridor. A shower or thunderstorm can't be ruled out anywhere for today or Saturday, but Sunday and Monday for all areas, it's looking pretty nice."
+    },
+    {
+      "start": 601.5,
+      "end": 614.8,
+      "speaker": "B",
+      "text": "Well, that's nice. Thanks for that. Bloomberg meteorologist Craig Allen, who notes as well that 100 million people across the Northeast and Midwest are expected to see cooler than average temperatures. Just in time for the long holiday weekend."
+    },
+    {
+      "start": 616.2,
+      "end": 624.7,
+      "speaker": "G",
+      "text": "Time now for a look at some of the other stories making news in New York and around the world. And for that, we're joined by Bloomberg's Michael Barr. Michael, good morning."
+    },
+    {
+      "start": 625.1,
+      "end": 647.2,
+      "speaker": "K",
+      "text": "Good morning, Karen. The jury in the trial of Lindsay Clancy, the Massachusetts mother facing murder charges in the deaths of her 3 young children, is expected back for a 7th day of deliberations today. There were some contentious moments in court yesterday. Clancy's lawyer is demanding that one juror be replaced. The The issue appears to be over the judge's instructions about reasonable doubt."
+    },
+    {
+      "start": 647.5,
+      "end": 659,
+      "speaker": "B",
+      "text": "Judge William Sullivan: If you evaluate all the evidence and you still have a reasonable doubt remaining, the defendant is entitled to the benefit of that doubt and must be acquitted."
+    },
+    {
+      "start": 659.4,
+      "end": 704.6,
+      "speaker": "K",
+      "text": "Judge Sullivan is expected to speak with the holdout juror today. The jury has told the judge twice that it cannot reach a verdict. Rescuers in Nepal have pulled two workers alive from a hydropower tunnel trapped 9 days after catastrophic floods devastated towns and swept away villages. The 2 men were found this morning after rescuers heard their voices. An Army spokesperson said one of the survivors told rescuers that more people were still alive inside the tunnel. Vice President J.D. Vance held a White House press briefing Thursday. The vice president answered a question about why he is going to New York City for the commemoration of the September 11th attacks instead of President Trump. The vice president says it wasn't due to a security issue."
+    },
+    {
+      "start": 705.3,
+      "end": 716.3,
+      "speaker": "H",
+      "text": "You know, you have a vice president, you have a president, and there are two very— frankly, we'd like to be three or four places on 9/11, but you can't have one person be in multiple locations at the exact same time."
+    },
+    {
+      "start": 716.5,
+      "end": 726.8,
+      "speaker": "K",
+      "text": "President Trump will be at the 9/11 ceremony in the Pentagon. Global news 24 hours a day and whenever you want it with Bloomberg News Now. I'm Michael Barr and this is Bloomberg. Karen."
+    },
+    {
+      "start": 727.7,
+      "end": 732.9,
+      "speaker": "G",
+      "text": "Thanks, Michael. Time now for our Bloomberg Sports update. And for that, we bring in John Stashauer."
+    },
+    {
+      "start": 733.2,
+      "end": 762.3,
+      "speaker": "L",
+      "text": "Thanks, John. It's a busy day at the U.S. Open. They finished the second round. Round 27. Seeded players saw action. Couple upsets on the men's side. Felix Auger-Aliassime, the 3rd seed, lost in 4 sets to Karen Khachanov. And Alex de Minaur, seeded 6th, lost in straight sets. 3rd round begins today. Carlos Alcaraz and Aryna Sabalenka, the defending champs, are in action. Shohei Ohtani struck out 4 times Wednesday. The Dodgers gave him last night off. L.A. scored 2 in the 9th, beat the Cardinals 6-5. That's your Bloomberg Sports update."
+    },
+    {
+      "start": 763.9,
+      "end": 767.5,
+      "speaker": "G",
+      "text": "Stay with us. More from Bloomberg Daybreak coming up. After this."
+    },
+    {
+      "start": 769.1,
+      "end": 802.6,
+      "speaker": "C",
+      "text": "Quick one before you jump back in. You're listening for ways to help teams move faster, make sharper decisions, and turn scattered context into work they can use. ChatGPT for Business can help. ChatGPT for Business gives teams a shared workspace with admin controls, permissions, and access to work and Codex in ChatGPT. This means your business can move from question to answer and code to rollout quicker. Join over 10 million business and enterprise users worldwide already using ChatGPT for work. Download the ChatGPT desktop app or contact sales to learn more."
+    },
+    {
+      "start": 809.8,
+      "end": 863.3,
+      "speaker": "F",
+      "text": "Every sale comes down to a single second. The one between buy now and maybe later. PayPal is built to help your business win that moment with a checkout experience that feels certain, reliable, and familiar. With a global two-sided network and hundreds of millions of buyers who already know us. All to keep you in control however buying happens next. New markets, new AI-powered selling services, a whole new agentic era where you decide how your business will show up and stand out. PayPal is built to help your business come out ahead. We're built for payments, built for growth, built for agentic. PayPal Open. Built for all business. Visit PayPalOpen.com to get started. That's PayPalOpen.com."
+    },
+    {
+      "start": 864.7,
+      "end": 892.8,
+      "speaker": "J",
+      "text": "Join Bloomberg for the Canadian Finance Conference, proudly sponsored by National Bank of Canada Capital Markets, on September 29th in New York. Hear from influential corporate and government leaders as they discuss the strategies shaping Canada's economic future. Connect with senior decision makers, gain actionable insights, and be part of the conversations driving business forward. Register at BloombergLive.com/CanadianFinance. That's BloombergLive.com/CanadianFinance."
+    },
+    {
+      "start": 895.5,
+      "end": 907.3,
+      "speaker": "A",
+      "text": "Coast to coast on Bloomberg Radio, nationwide on SiriusXM, and around the world on Bloomberg.com and the Bloomberg Business app. This is Bloomberg Daybreak."
+    },
+    {
+      "start": 907.4,
+      "end": 920.3,
+      "speaker": "B",
+      "text": "Good morning, I'm Nathan Hager. More than 6 months now into the war with Iran, Vice President JD Vance is saying he wouldn't call it a war now with major combat operations mostly at an end. That does not mean, he says though, that the U.S. isn't keeping the pressure on."
+    },
+    {
+      "start": 921.1,
+      "end": 928.4,
+      "speaker": "H",
+      "text": "Economic pressure, military pressure, diplomatic pressure, covert pressure— of course these are things, these are tools in the president's toolkit."
+    },
+    {
+      "start": 928.5,
+      "end": 939.8,
+      "speaker": "B",
+      "text": "Well, that was Vice President JD Vance at a White House press briefing. And joining us this morning from Dubai is Bloomberg Middle East correspondent Abir Abu Omar. Abir, how does the pressure look in the region this morning. Good morning."
+    },
+    {
+      "start": 940.4,
+      "end": 1031.5,
+      "speaker": "E",
+      "text": "Good morning, Nathan. Well, I mean, if you're referring to the pressure on Iran, then it's real. It's, it's very much there, especially the economic pressure, right? The situation domestically in Iran when it comes to inflation levels, for example, we reported they were 80% higher year on year. Food inflation is also much higher than that. So the economic pressure is there. But the big question here is just how How much is it going to take for Iran to capitulate? Now, a lot of analysts do not think that the economic pressure campaign is going to be enough to do it, especially with the timelines that we're working with, Nathan, right? Because President Trump has until November, essentially, those looming midterm elections. Iran has said multiple times that it could withstand the economic pressure, the military pressure for months, if not years to come. And so it really comes back to the question of who's going to blink first. And at this point, our Bloomberg, Bloomberg Omic's team puts it best, probably. They say that, look, the entire Middle East right now is an arena for war and no one is really winning. There's no clear winner in sight, especially with what you're seeing happening in the Strait of Hormuz, because yes, it is right that a trickle of movement is there. We report that around 6 to 8 million barrels of oil on average are making their way through the Strait of Hormuz, so better than estimates before, but still nowhere near where it was pre-war. And of course, you're looking at the impact on all energy products, not just Brent crude and NY crude, but also diesel. US diesel in the United States is now at a record high, if I'm not mistaken."
+    },
+    {
+      "start": 1031.8,
+      "end": 1049.5,
+      "speaker": "B",
+      "text": "Yeah, that's true. Just crossed according to AAA, saying that it's about $5.85 a gallon heading into the final travel weekend here in the US for the Labor Day holiday. It makes you wonder whether economic and political pressure being felt on both sides at this point."
+    },
+    {
+      "start": 1050.3,
+      "end": 1130.7,
+      "speaker": "E",
+      "text": "Yeah, absolutely. I mean, it's, it's that, that is probably what is going to come back to, right? Scott Bessant had laid out this economic pressure campaign against Iran weeks ago. And then we're starting to see a trickle of just how exactly it would look like. But then the big question is, is it going to really stop big oil buyers like China or India from purchasing Iranian oil? Now, we have to also understand that in the Strait of Hormuz, the US naval blockade, according to a lot of analysts that we speak to and ship owners, they say that it's quite successful at preventing Iranian crude products from coming out. But then again, the question here is how sustainable is that? How much money does it cost the United States to maintain this naval blockade and then eventually Iran is going to sell its oil, right, to China, to India. Just in a meeting at the beginning of this week in Kyrgyzstan, the Iranian president was meeting with some of his counterparts, and then we heard from some countries, including India, including China, their commitment to enhance trade ties with Iran. And so this is all still happening. And then, of course, the military pressure that started, or the military re-escalation in the region that started this week with President Trump saying that the initial strikes are against Iran for attempting to put mines in the Strait of Hormuz. And then Iran, of course, hitting countries in the region yet again, still contained compared to March. But this is a situation where no one really wins, neither economically nor physically."
+    },
+    {
+      "start": 1130.7,
+      "end": 1139.6,
+      "speaker": "G",
+      "text": "Nathan, this is Bloomberg Daybreak, your morning podcast on the stories making news from Wall Street to Washington and beyond."
+    },
+    {
+      "start": 1139.9,
+      "end": 1145.7,
+      "speaker": "B",
+      "text": "Look for us on your podcast feed by 6:00 a.m. Eastern each morning on Apple, Spotify, or anywhere else you listen."
+    },
+    {
+      "start": 1145.9,
+      "end": 1160.1,
+      "speaker": "G",
+      "text": "You can also listen live each morning starting at 5:00 a.m. Wall Street time on Bloomberg 1130 in New York, Bloomberg 991 in Washington, Bloomberg 929 in Boston, and nationwide on SiriusXM Channel 121."
+    },
+    {
+      "start": 1160.6,
+      "end": 1166.1,
+      "speaker": "B",
+      "text": "Plus, listen coast to coast on the Bloomberg Business app now with Apple CarPlay and Android Auto interfaces."
+    },
+    {
+      "start": 1166.4,
+      "end": 1179,
+      "speaker": "G",
+      "text": "And don't forget to subscribe to Bloomberg News Now. It's the latest news whenever you want it in 5 minutes or less. Search Bloomberg News Now on your favorite podcast platform to stay informed all day long. I'm Karen Moscow."
+    },
+    {
+      "start": 1179.4,
+      "end": 1185.6,
+      "speaker": "B",
+      "text": "And I'm Nathan Hager. Join us again tomorrow morning for all the news you need to start your day, right here on Bloomberg Daybreak."
+    },
+    {
+      "start": 1196.6,
+      "end": 1219.2,
+      "speaker": "E",
+      "text": "Each morning, it's a new opportunity, a chance to start fresh. Up First from NPR makes each morning an opportunity to learn, to learn and to understand. Choose to join the world every morning with Up First, a podcast that hands you everything going on across the globe and down the street, all in 15 minutes or less. Start your day informed and anew with Up First by subscribing wherever you get your podcasts."
+    }
+  ]
+}

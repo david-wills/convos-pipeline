@@ -1,0 +1,24 @@
+{
+  "name": "convos-pipeline",
+  "version": "0.1.0",
+  "description": "Find the moments where different podcasts discuss the same news story: transcribe, segment with Claude, cluster headlines, match segments to stories.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "pipeline": "node src/cli.ts",
+    "run": "node src/cli.ts run",
+    "report": "node src/cli.ts report",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.123.0",
+    "fast-xml-parser": "^5.11.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}

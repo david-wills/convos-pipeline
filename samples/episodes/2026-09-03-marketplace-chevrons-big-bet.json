@@ -1,0 +1,714 @@
+{
+  "episode": {
+    "id": "a81ec1bf65eeefc196ba0d8ef0df9ffc5ce66705e09a2cb4222e71eb6fa66762",
+    "podcastTitle": "Marketplace",
+    "feedUrl": "https://feeds.publicradio.org/public_feeds/marketplace",
+    "guid": "01M1MBR9VE8QXG50HCR1TY1NBC",
+    "title": "Chevron's big bet",
+    "description": "<p>American oil giant Chevron plans to funnel $7 billion into its Venezuela operations over the next five years, with a goal of more than doubling its production in the country. In this episode, we explain what Chevron has to gain from the deal and why other oil companies are hesitant to follow. After that: Can zero job growth be part of a healthy labor market? Are diesel prices affecting railroad freighting demand? And, will better-fitted windows turn into energy savings?</p><br/><p><em>Every story has an economic angle. Want some in your inbox? </em><em><a href=\"https://www.marketplace.org/newsletters\">Subscribe</a></em><em> to our daily or weekly newsletter.</em></p><br/><p><em>Marketplace is more than a radio show. Check out our original reporting and financial literacy content at </em><em><a href=\"https://www.marketplace.org/\">marketplace.org</a></em><em> — and consider </em><em><a href=\"https://www.marketplace.org/make-a-smart-investment\">making an investment</a></em><em> in our future.</em></p><br/><p><em>Read the stories in today’s episode:</em></p><br/><ul><li><a href=\"https://www.marketplace.org/story/2026/09/03/chevron-invests-7-billion-in-venezuelan-oil\" class=\"default\">Chevron's $7 billion bet on Venezuelan oil</a></li><li><a href=\"https://www.marketplace.org/story/2026/09/03/can-zero-job-growth-really-be-a-sign-of-a-healthy-labor-market\" class=\"default\">Can zero job growth really be a sign of a healthy labor market?</a></li><li><a href=\"https://www.marketplace.org/story/2026/09/03/childcare-costs-pushed-this-mom-of-3-out-of-the-workforce\" class=\"default\">How the cost of childcare pushed this twin mom out of the labor force</a></li><li><a href=\"https://www.marketplace.org/story/2026/09/03/why-trains-are-in-demand-for-moving-cargo-right-now\" class=\"default\">Why more companies are choosing trains over trucks for shipping</a></li><li><a href=\"https://www.marketplace.org/story/2026/09/03/consumers-use-buy-now-pay-later-loans-for-essentials\" class=\"default\">",
+    "pubDate": "2026-09-03T22:25:00.000Z",
+    "duration": 1575,
+    "audioUrl": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/pm/2026/09/03/pm_20260903_PM_Podcast_64.mp3?awCollectionId=mkp-MKP-PM&awEpisodeId=01M1MBR9VE8QXG50HCR1TY1NBC",
+    "artworkUrl": "https://img.apmcdn.org/dca7ed75b4d99b0bd9ea6dbfe499bd53d658d62d/square/edc3ca-20260903-a-man-and-woman-lean-over-a-table-on-the-table-is-a-small-american-flag-and-venezuelan-flag-2000.jpg"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1796,
+    "utteranceCount": 105
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:37:49.227Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Chevron's $7 Billion Venezuela Gamble",
+      "description": "U.S. oil giant Chevron bets big on Venezuela with a $7 billion investment to double production, while other supermajors stay on the sidelines.",
+      "startTime": 0.272,
+      "endTime": 237.822,
+      "anchorPhrase": "at sentry, understanding starts with taking a seat, talking face-to-face, getting to know your business"
+    },
+    {
+      "index": 1,
+      "title": "Zero Jobs, Zero Problem?",
+      "description": "With immigration down and boomers retiring, economists explain why flat job growth might actually signal a healthy labor market.",
+      "startTime": 237.822,
+      "endTime": 517.03,
+      "anchorPhrase": "the big job news, though, comes tomorrow with the august jobs report. the fed is"
+    },
+    {
+      "index": 2,
+      "title": "The Twin Mom Who Quit Her Career",
+      "description": "A sustainability director in Buffalo does the childcare math on twins and realizes the only answer is leaving her job.",
+      "startTime": 517.03,
+      "endTime": 737.411,
+      "anchorPhrase": "another number to look for in tomorrow's jobs report is the labor force participation rate."
+    },
+    {
+      "index": 3,
+      "title": "Why Freight Is Ditching Trucks",
+      "description": "Sky-high diesel prices are pushing companies toward rail shipping, sending intermodal freight volumes to record highs.",
+      "startTime": 737.411,
+      "endTime": 1090.61,
+      "anchorPhrase": "what is new news, though, is that these prices have been high long enough to"
+    },
+    {
+      "index": 4,
+      "title": "Buy Now, Suffer Later",
+      "description": "Buy now, pay later loans have crept into rent, utilities, and groceries, raising alarms about phantom debt and brittle household finances.",
+      "startTime": 1090.61,
+      "endTime": 1442.499,
+      "anchorPhrase": "this is marketplace. i'm kristen schwab. buy now, pay later. seems innocent enough. maybe it's"
+    },
+    {
+      "index": 5,
+      "title": "The Window That Pays for Itself",
+      "description": "Energy-efficient windows can slash a building's utility bills dramatically, but the upfront installation cost keeps millions of homeowners from making the switch.",
+      "startTime": 1442.499,
+      "endTime": 1692.858,
+      "anchorPhrase": "of money. but something that doesn't usually cost at least tens of thousands of dollars"
+    },
+    {
+      "index": 6,
+      "title": "The World Is Getting Old Fast",
+      "description": "For the first time ever, people 65 and older outnumber children under 5 globally, raising urgent questions about workforces, Social Security, and aging populations.",
+      "startTime": 1692.858,
+      "endTime": 1796,
+      "anchorPhrase": "this final note on the way out today— saw this in axios— it's official: people"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.3,
+      "end": 29.8,
+      "speaker": "A",
+      "text": "At Sentry, understanding starts with taking a seat, talking face-to-face, getting to know your business firsthand, diving into details, seeing risk from every angle, becoming experts in your business, and crafting coverage that really makes a difference. So save us a seat, we've got work to do. Property and Casualty coverages are underwritten by a member of the Sentry Insurance Group, Stevens Point, Wisconsin. For a complete listing of companies, visit sentry.com. Policies, coverages, benefits, and discounts are not available in all states. See policy for complete coverage details."
+    },
+    {
+      "start": 32.1,
+      "end": 91.7,
+      "speaker": "B",
+      "text": "Today on the show, we'll talk oil and gas. We'll talk jobs. We'll talk about how American consumers are getting by. Think of it as an economic sampler platter of sorts. From American Public Media, this is Marketplace. In New York, I'm Kristen Schwab in for Kyra Zdol. It's Thursday, September 3rd, and it's good to be here with you. As the war in Iran revs up again and a small number of ships barely eke their way through the Strait of Hormuz, we turn our focus today on another source of oil: Venezuela. U.S. oil giant Chevron says it'll expand operations there. The company announced a $7 billion investment in Venezuela over the next 5 years. The goal for Chevron is to double its oil production in the country to 600,000 barrels a day. Marketplace's Elizabeth Troval has more."
+    },
+    {
+      "start": 92.5,
+      "end": 96.9,
+      "speaker": "C",
+      "text": "In its announcement, Chevron called this a turning point for energy in Venezuela."
+    },
+    {
+      "start": 97.4,
+      "end": 110.9,
+      "speaker": "D",
+      "text": "Bob Frickland with S&P Global Energy put it this way: So it's a pretty significant investment for Chevron, but also, more importantly, it's the largest investment so far by an individual company in Venezuela."
+    },
+    {
+      "start": 111.5,
+      "end": 115.5,
+      "speaker": "C",
+      "text": "He says Chevron will build on the company's existing operations in the country."
+    },
+    {
+      "start": 116,
+      "end": 122.5,
+      "speaker": "D",
+      "text": "This makes a lot of sense for them to continue to grow an asset that they already had and have had, uh, for decades."
+    },
+    {
+      "start": 123.1,
+      "end": 127.7,
+      "speaker": "C",
+      "text": "But other supermajors like ExxonMobil may be hesitant to follow."
+    },
+    {
+      "start": 128.3,
+      "end": 133.9,
+      "speaker": "D",
+      "text": "It makes less sense for some of the other companies because they would be starting from scratch almost."
+    },
+    {
+      "start": 134.5,
+      "end": 141.1,
+      "speaker": "C",
+      "text": "Chevron has more security than a new entrant into the country, says David Goldwyn with Goldwyn Global Strategies."
+    },
+    {
+      "start": 141.6,
+      "end": 151.6,
+      "speaker": "D",
+      "text": "My guess is that we will see a lot of those companies look at potential opportunities in Venezuela, maybe identify fields that they might in the future be interested in operating."
+    },
+    {
+      "start": 152.4,
+      "end": 162.7,
+      "speaker": "C",
+      "text": "But they will slow roll those decisions. Venezuela remains politically risky. On the other hand, he says the world is going to need oil for decades."
+    },
+    {
+      "start": 163.2,
+      "end": 176.3,
+      "speaker": "D",
+      "text": "In a market where we are looking at long-term risk to the Strait of Hormuz, you know, probably never returning to the flows that we saw before the president started this war. We may need to replace that supply from other countries."
+    },
+    {
+      "start": 177,
+      "end": 188.7,
+      "speaker": "C",
+      "text": "Having more of that oil come from the Western Hemisphere is a good thing, he says. It could come from Venezuela, but it doesn't have to. I'm Elizabeth Troval for Marketplace."
+    },
+    {
+      "start": 189.9,
+      "end": 259.2,
+      "speaker": "B",
+      "text": "Fed Governor Christopher Waller gave an interview today saying he could see an interest rate hold in the Fed's future, and Wall Street clung to it. We'll have the details when we do the numbers. This morning we got the weekly numbers on how many people filed for unemployment benefits last week. Jobless claims rose a little bit to 206,000. That's 2,000 more claims than the week before. The big job news, though, comes tomorrow with the August jobs report. The Fed is hoping for some healthy numbers to make up for the previous month's 23,000 job decline. Thing is, if the numbers come in flat or even a bit down, the economy could be just fine. Question mark? Marketplace's Mitchell Hartmann explains."
+    },
+    {
+      "start": 260,
+      "end": 271.7,
+      "speaker": "E",
+      "text": "After the last dismal jobs report came out showing negative job creation in July, Treasury Secretary Scott Bessant had this to say on CNBC: The jobs that we're seeing are going to Americans."
+    },
+    {
+      "start": 272.5,
+      "end": 284.2,
+      "speaker": "D",
+      "text": "After the deportations that we've seen during President Trump's administration and the closing of the border, that, like, this unfettered migration Uh, we, we don't need to produce as many jobs."
+    },
+    {
+      "start": 284.7,
+      "end": 299.4,
+      "speaker": "E",
+      "text": "Is he right? Can we actually have lost jobs in July and added only 20,000 jobs a month on average over the last 3 months and still call this a healthy labor market? Here's economist Joe Brusuelas at consulting firm RSM."
+    },
+    {
+      "start": 300,
+      "end": 310.6,
+      "speaker": "D",
+      "text": "We're likely to have months where we see negative job growth, but the unemployment rate will not increase, which is sure to confuse the American public."
+    },
+    {
+      "start": 311.2,
+      "end": 316.7,
+      "speaker": "E",
+      "text": "As well it might, says Justin Blasch at the Cornell School of Industrial and Labor Relations."
+    },
+    {
+      "start": 317.4,
+      "end": 329,
+      "speaker": "D",
+      "text": "If you tuned into reports in the past, you'd be used to, you know, 100,000 jobs, 200,000 jobs being a good number. Now, if you're used to seeing big numbers and think zero jobs is bad news, that's just no longer the case."
+    },
+    {
+      "start": 329.6,
+      "end": 330.3,
+      "speaker": "E",
+      "text": "And here's why."
+    },
+    {
+      "start": 331,
+      "end": 339.9,
+      "speaker": "D",
+      "text": "Immigration has gone into decline. The baby boomers are retiring. And so you would expect the economy on average actually will not add jobs because the labor force is not growing."
+    },
+    {
+      "start": 340.5,
+      "end": 350.9,
+      "speaker": "A",
+      "text": "So there's this concept in economics of break-even job growth, how many jobs you need to actually just keep the unemployment rate steady."
+    },
+    {
+      "start": 351.5,
+      "end": 366.5,
+      "speaker": "E",
+      "text": "Heidi Schierholz is former chief economist at the Labor Department. She says after immigration surged during the Biden years, it virtually ground to a halt starting in 2025, and deportations ramped up. And break-even monthly job growth?"
+    },
+    {
+      "start": 367,
+      "end": 384,
+      "speaker": "A",
+      "text": "When Trump took office, it was likely around 120,000. Now, highest estimates are around 50,000, and many are much lower, like zero. However you slice it, we now need way fewer jobs."
+    },
+    {
+      "start": 384.6,
+      "end": 386.6,
+      "speaker": "E",
+      "text": "And that's exactly what we've seen, she says."
+    },
+    {
+      "start": 387.3,
+      "end": 404.2,
+      "speaker": "A",
+      "text": "Jobs added each month has really tanked, and we haven't seen too much of an increase in unemployment. So that's positive. The drawback is Reduced job growth really reduces labor market dynamism."
+    },
+    {
+      "start": 405,
+      "end": 415.4,
+      "speaker": "E",
+      "text": "Dynamism is when workers are changing jobs a lot and getting raises, but with no new jobs to get or move to, says labor economist Nicole Bachaud at ZipRecruiter."
+    },
+    {
+      "start": 416,
+      "end": 424.4,
+      "speaker": "B",
+      "text": "Somebody who doesn't have as much work experience, especially new entrants, new grads starting out their career, that's who's really facing the most challenges."
+    },
+    {
+      "start": 425,
+      "end": 430.5,
+      "speaker": "E",
+      "text": "Plus, she says, even if the unemployment rate isn't getting worse, people are still being laid off."
+    },
+    {
+      "start": 430.6,
+      "end": 431.6,
+      "speaker": "A",
+      "text": "Businesses close."
+    },
+    {
+      "start": 431.9,
+      "end": 438.9,
+      "speaker": "B",
+      "text": "It's very difficult right now to get back into full-time employment because opportunities are so limited."
+    },
+    {
+      "start": 439.5,
+      "end": 444.9,
+      "speaker": "E",
+      "text": "There's also an economic cost to removing immigrant workers, says Cornell's Justin Blasch."
+    },
+    {
+      "start": 445.5,
+      "end": 453.1,
+      "speaker": "D",
+      "text": "Immigrants in the U.S. form a lot of businesses and are often involved in sort of frontier industries, high-tech stuff. Fewer immigrants definitely hurts."
+    },
+    {
+      "start": 453.6,
+      "end": 467.1,
+      "speaker": "E",
+      "text": "Now, remember, Treasury Secretary Bessant said it also helps by opening up more jobs for U.S.-born workers, but that doesn't appear to be happening, says Jed Kolko at the Peterson Institute for International Economics."
+    },
+    {
+      "start": 467.7,
+      "end": 482.1,
+      "speaker": "D",
+      "text": "Often, native and foreign-born workers are working together but in different jobs, and if that business can't find the foreign-born workers it traditionally had, they might need to cut back and therefore not hire as many native-born workers."
+    },
+    {
+      "start": 482.9,
+      "end": 494.2,
+      "speaker": "E",
+      "text": "And Culko points out unemployment has actually declined for foreign-born workers in Trump's second term, but risen significantly for native-born workers. I'm Mitchell Hartmann for Marketplace."
+    },
+    {
+      "start": 517,
+      "end": 539.7,
+      "speaker": "B",
+      "text": "Another number to look for in tomorrow's jobs report is the labor force participation rate. That's the share of people who could be working, people who have jobs or are looking for them. That number has been dropping gradually over the last two decades and more sharply over the past few months. It's a reason why we're launching a new series today about people who've left the labor force."
+    },
+    {
+      "start": 540.1,
+      "end": 672.9,
+      "speaker": "F",
+      "text": "The series is called \"Clock'd Out.\" My name is Sarah Berger, and I live in Buffalo, New York. Before 2024, I was a director of sustainability at a local nonprofit, and then we found out that we were pregnant with twins, so everything changed. I went to the doctor and everything was going normally like it did with my my first kid. And then at the very end of the appointment, she was like, \"Oh, oh, there's a second one in there.\" And so I cursed at her. And then as I got in the car, I started thinking about that, like, what it looks like for our life. I was doing the math on how much we paid for my son's daycare. And I was just like, \"Well, we don't make that much money.\" I was like, \"Oh my gosh, I'm gonna have to quit my job.\" It was hard being the woman and saying, \"I will step out,\" and saying it so easily. But I know our budget really well. My husband's— he works for a for-profit company who does regular pay increases. There was really only one answer, and that the answer is that I would stay home and my husband would continue to work. I feel really split about being the one. Having a job is really ingrained in our culture. When you're making small talk with people, the first question is, \"What do you do?\" And I say, \"I'm a stay-at-home parent,\" and they're like, \"Oh.\" And there's not really a lot of follow-up. This whole thing has been a really interesting exercise in figuring out my identity without a job. But in some ways, I feel like I interact with the economy more because I do all of the household administration and I make all of the money decisions."
+    },
+    {
+      "start": 674.8,
+      "end": 675.7,
+      "speaker": "A",
+      "text": "It's so weird."
+    },
+    {
+      "start": 676.3,
+      "end": 676.7,
+      "speaker": "H",
+      "text": "I don't know."
+    },
+    {
+      "start": 676.8,
+      "end": 685.3,
+      "speaker": "F",
+      "text": "It's just still so weird not collecting a paycheck while feeling like I'm participating more intentionally than I ever had before."
+    },
+    {
+      "start": 689.6,
+      "end": 762.9,
+      "speaker": "B",
+      "text": "That was Sarah Berger in Buffalo, New York. You can hear more stories from this series across our shows next week, including on the Marketplace Morning Report and Marketplace Tech. And you can tell us about your own leaving the labor force story at marketplace.org/clockedout. It isn't new news that fuel is expensive these days. $4.14 a gallon for regular gas today, $5.78 a gallon for diesel, according to AAA. What is new news, though, is that these prices have been high long enough to change how businesses get things from point A to point B. In the latest version of the Beige Book that came out this week, that's the Fed's compilation of anecdotes from businesses across the country, The latest version said high fuel costs are encouraging some companies to ship by rail instead of by freight. Marketplace's Stephanie Hughes has more."
+    },
+    {
+      "start": 763.6,
+      "end": 767.1,
+      "speaker": "H",
+      "text": "If you can fit your freight into a 40-foot-long shipping container—"
+    },
+    {
+      "start": 767.6,
+      "end": 772.5,
+      "speaker": "I",
+      "text": "You can put it on a ship, you can easily set it on a truck, you can easily set it on the rails."
+    },
+    {
+      "start": 773,
+      "end": 781.7,
+      "speaker": "H",
+      "text": "Philip Evers teaches supply chain management at the University of Maryland. This is called intermodal transportation. And while both trucks and trains require fuel—"
+    },
+    {
+      "start": 782.3,
+      "end": 789.2,
+      "speaker": "I",
+      "text": "The amount of freight that a train can pull on a gallon of diesel is just phenomenal relative to a truck."
+    },
+    {
+      "start": 789.6,
+      "end": 807.7,
+      "speaker": "H",
+      "text": "Shippers and receivers of goods have noticed. According to the Association of American Railroads, a trade group, the volume of goods shipped over intermodal rail so far this year has reached a record high. Shipping by rail is generally slower, but Suzanne Holland of the Richmond Fed says she's heard from companies who are okay with that."
+    },
+    {
+      "start": 808.4,
+      "end": 818.4,
+      "speaker": "B",
+      "text": "I don't need this within X period of time. I am willing to wait a little bit longer and save a lot of money by shipping by rail."
+    },
+    {
+      "start": 819.1,
+      "end": 836.9,
+      "speaker": "H",
+      "text": "Another force pushing companies away from trucks is a shortage of qualified drivers. Chris Barkin, a professor emeritus of railway engineering at the University of Illinois, says while each truck needs its own driver to move a container, a train can move 400 containers and typically only has 2 workers."
+    },
+    {
+      "start": 837.6,
+      "end": 842.9,
+      "speaker": "D",
+      "text": "A locomotive engineer who operates the train and the conductor who is responsible for all the paperwork."
+    },
+    {
+      "start": 843.5,
+      "end": 854.7,
+      "speaker": "H",
+      "text": "These efficiencies mean more companies are willing to try intermodal rail, and supply chain professor Phil Evers says once they get a taste of it, they're more likely to use it again. I'm Stephanie Hughes for Marketplace."
+    },
+    {
+      "start": 874.4,
+      "end": 931.9,
+      "speaker": "B",
+      "text": "Coming up. Aside from getting hit with a baseball, a window doesn't just break. Footballs, basketballs, volleyballs. I could think of some other ways. But first, let's do the numbers. The Dow Jones Industrial Average rose 624 points, 1.2%. To finish at 53,686. The Nasdaq added 366 points, 1.4%, to close at 26,584. And the S&P 500 found 81 points, just shy of 1.1%, to end at 7,747. Campbell's reported that its sales and profits for the year are going to fall short of Wall Street's expectations. The packaged food maker's salty snacks business is taking some of the blame. Campbell's cooled 7%. Tyson Foods says its profit margin in the beef market is getting squeezed. Tyson dropped 7.25%. Bonds rose. The yield on the 10-year T-note fell to 4.77%. You're listening to Marketplace."
+    },
+    {
+      "start": 932.7,
+      "end": 962.1,
+      "speaker": "I",
+      "text": "Running a business is hard enough, so why make it harder with a dozen different apps that don't talk to each other? Introducing Odoo, the only business software you'll ever need. It's an all-in-one, fully integrated platform that makes your work easier. From CRM, accounting, inventory, e-commerce, and more. And the best part, Odoo replaces multiple expensive platforms for a fraction of the cost. This is why over thousands of businesses have made the switch. So why not you? Try Odoo for free at Odoo.com. That's O-D-O-O dot com."
+    },
+    {
+      "start": 962.7,
+      "end": 1014.4,
+      "speaker": "J",
+      "text": "Support comes from Wise, the smart way to move the currencies you need around the globe. Fed up with losing out when you send money abroad with your everyday bank? With every transfer, marked-up exchange fees can add up, eating into your money before it's even gotten to the other side. You want the right currency at the right rate right away. That's why 15 million people choose the smart way: the Wise account. Whether you're sending money back home or moving money between your accounts in different countries, count on the exchange rate you'd usually find on Google. No unwelcome surprises. With Wise, say goodbye to that \"where's my money\" feeling. Most transfers arrive before you can hit refresh, in under 20 seconds. Join millions saving billions on hidden fees. Be smart, get Wise. Download the Wise app today. T's and C's apply."
+    },
+    {
+      "start": 1015.5,
+      "end": 1026.7,
+      "speaker": "B",
+      "text": "The deadlines, the pressure, the tension. You may just brush it off as stress, but is your hair? I gotta tell you, it's eating us alive, weakening our very roots, breaking us apart."
+    },
+    {
+      "start": 1026.8,
+      "end": 1027.1,
+      "speaker": "D",
+      "text": "Apart."
+    },
+    {
+      "start": 1027.7,
+      "end": 1047.6,
+      "speaker": "B",
+      "text": "And the more you stress, the more we slip away. Now please take a deep breath. There's something you can do. Pantene Abundant and Strong System strengthens your hair against stress, reducing hair loss by 85%. Only the strongest will survive the shedding. Pantene Abundant and Strong. There's a fire inside you you can't ignore."
+    },
+    {
+      "start": 1047.9,
+      "end": 1049.8,
+      "speaker": "G",
+      "text": "Stand still? Not a chance."
+    },
+    {
+      "start": 1050.2,
+      "end": 1052.5,
+      "speaker": "B",
+      "text": "You're a lifelong learner who's come this far."
+    },
+    {
+      "start": 1052.9,
+      "end": 1055.3,
+      "speaker": "G",
+      "text": "Now we are here to help you keep going further."
+    },
+    {
+      "start": 1055.6,
+      "end": 1060.1,
+      "speaker": "B",
+      "text": "Capella University. What can't you do? Visit capella.edu to learn more."
+    },
+    {
+      "start": 1060.5,
+      "end": 1089.1,
+      "speaker": "H",
+      "text": "Parents, have you heard your kids say, \"I'm not a math kid\"? Well, with Mathnasium, every kid can be a math kid. They customize their math instruction so kids who are struggling are able to catch up and get ahead, and advanced kids are challenged to reach higher. Mathnasium makes math fun so kids learn to love it. Parents say that Mathnasium has not only improved their kids' grades, it's given them a new level of confidence in math and in school overall. Visit mathnasium.com to find a location near you."
+    },
+    {
+      "start": 1090.6,
+      "end": 1123.3,
+      "speaker": "B",
+      "text": "This is Marketplace. I'm Kristen Schwab. Buy now, pay later. Seems innocent enough. Maybe it's a way to spread out the pain of paying for a concert ticket or a Christmas gift. But increasingly, how people are using pay later services is changing, and maybe not for the good. Nearly half of BNPL users say they've made late payments in the last year, according to LendingTree. And more people are using these loans to cover rent and utilities. Stacy Cowley wrote about this for The New York Times. Stacy, it's good to have you on."
+    },
+    {
+      "start": 1124.1,
+      "end": 1124.9,
+      "speaker": "G",
+      "text": "Thanks for having me."
+    },
+    {
+      "start": 1125.5,
+      "end": 1136.4,
+      "speaker": "B",
+      "text": "So buy now, pay later, I think, started as this thing people used to pay for a new pair of shoes or something. It seems like it's come a long way. Catch me up on what it's being used for now."
+    },
+    {
+      "start": 1137.4,
+      "end": 1158.8,
+      "speaker": "G",
+      "text": "Yeah, it really has. And these models have been out there in the market for a decade or more in the United States. And what's really started to change in the last year or two is we're seeing a lot of the vendors move into the more essential spend area of things to help people pay rent, utilities, electric bills, things like that. And that is sort of a shift in the model, seeing it go after that more everyday daily needs."
+    },
+    {
+      "start": 1160.1,
+      "end": 1166.9,
+      "speaker": "B",
+      "text": "How fast is usage in general in this space growing? And then how much is it growing in those essential service spaces?"
+    },
+    {
+      "start": 1167.5,
+      "end": 1203.8,
+      "speaker": "G",
+      "text": "Definitely continuing to grow very fast. Right now, Americans are spending about $160 billion. That's what they spent last year through pay later loans, which is about twice what they spent 2 years earlier. So this does really continue to grow quite fast. The essential spend area is harder to model because there isn't a lot of broken out data around that. But in talking anecdotally to the vendors, they are saying they're seeing pickup. For example, Cash App just recently integrated Afterpay into its debit card, and people can use Afterpay on pretty much any purchase now. And they said they are in particular seeing utilities, gas, and groceries being pretty heavy usage areas there."
+    },
+    {
+      "start": 1204.1,
+      "end": 1204.4,
+      "speaker": "D",
+      "text": "Hmm."
+    },
+    {
+      "start": 1205.2,
+      "end": 1210.8,
+      "speaker": "B",
+      "text": "And do we know how much of this spending is happening out of preference or necessity?"
+    },
+    {
+      "start": 1211.6,
+      "end": 1240,
+      "speaker": "G",
+      "text": "That is one of the big chicken and egg questions that everyone in the space is trying to understand. There is certainly some segment of consumers that find that they prefer these loans to credit cards. Some people say that they appreciate the clarity and the transparency on the fees. About half the people who use pay later loans say that they could not purchase the other way. These are often people who have maxed out their credit cards or can't get credit cards. So this is particularly prevalent among households with some of the most brittle finances."
+    },
+    {
+      "start": 1241.2,
+      "end": 1248.1,
+      "speaker": "B",
+      "text": "Even if you do have access to a credit card, why might someone pick Klarna or Affirm or one of these other services?"
+    },
+    {
+      "start": 1249,
+      "end": 1271.9,
+      "speaker": "G",
+      "text": "It goes across all demographics, but I have heard particular interest in these among some of the younger folks who are understandably leery of credit cards. There's a certain opaqueness to them. And with these loans, it's often quite transparent. Those can also, though, translate into much higher APRs than you would be paying through a credit card. So sometimes that's a trade-off between, you know, price versus transparency for some people."
+    },
+    {
+      "start": 1272.7,
+      "end": 1280.4,
+      "speaker": "B",
+      "text": "I mean, it seems like these services are starting to mimic credit cards a little bit more. I mean, some of them do impact your credit score now, no?"
+    },
+    {
+      "start": 1281,
+      "end": 1301.3,
+      "speaker": "G",
+      "text": "It's a little nebulous. Most do not report to credit bureaus, and the credit bureaus have really been unable to sort of get modeling and scoring going in this area because there is so little reporting. That can also be one of the attractive things is you're not going to— if you default on one of these loans, the consequences are rarely as punitive as they are with credit cards, but they do exist."
+    },
+    {
+      "start": 1303,
+      "end": 1313.5,
+      "speaker": "B",
+      "text": "In your story, you refer to buy now, pay later as phantom debt, which is sort of a scary-sounding term to me. What does that mean and what kind of trouble are people getting themselves into?"
+    },
+    {
+      "start": 1314,
+      "end": 1334.7,
+      "speaker": "G",
+      "text": "Yeah, in particular, a lot of these loans are being backed by private credit money, not by banks. With this, it's a lot more opaque, both how much is out there, and that is an area where economists have some concern about this concept of phantom debt that can be really hard to track in the official metrics that we tend to keep an eye on to indicate how indebted households are."
+    },
+    {
+      "start": 1335.7,
+      "end": 1342.3,
+      "speaker": "B",
+      "text": "Do you think there's a point where the federal government steps in and creates more rules in this industry to protect consumers?"
+    },
+    {
+      "start": 1344.2,
+      "end": 1369.5,
+      "speaker": "G",
+      "text": "That probably depends a lot on which, which party is in charge. There was certainly a movement in that direction during the Biden administration. The Consumer Financial Protection Bureau is starting to really push to get more regulation, or at least data and oversight in here, along with a lot of regulation in the financial industry that's really gone the other direction right now. So we are starting to see some states try to more aggressively regulate it because of that, because they see that there isn't a lot of federal oversight right now."
+    },
+    {
+      "start": 1370.9,
+      "end": 1373,
+      "speaker": "B",
+      "text": "I'm curious, have you ever used one of these programs?"
+    },
+    {
+      "start": 1373.6,
+      "end": 1395.1,
+      "speaker": "G",
+      "text": "I'm about to start experimenting with it just to kind of see how it works. I did go as I was reporting the story and apply for a couple of them. I mean, I set up an account with a firm and it was like 5 minutes start to finish, and suddenly I had a $6,000 credit line. So this is a much quicker to access credit product than like a credit card would be, which certainly has its pros and has its cons."
+    },
+    {
+      "start": 1396.1,
+      "end": 1457.9,
+      "speaker": "B",
+      "text": "Stacey Cowley is a reporter at The New York Times writing about consumer finance. Thanks, Stacey. Thank you. This summer has been hot. In fact, July was the hottest month ever recorded across the lower 48. And maybe I don't have to tell you that. Maybe your electricity bill already rudely let you know. Well, homeowners are looking for solutions to rising utility bills. Solar panels, insulation, they cost a lot of money. But something that doesn't usually cost at least tens of thousands of dollars are new windows. The EPA estimates energy-efficient windows alone can trim a building's energy bill by up to 13%. Marketplace's Kaylie Wells has more."
+    },
+    {
+      "start": 1458.7,
+      "end": 1464,
+      "speaker": "A",
+      "text": "Anthony Russell moved into his new apartment in Queens earlier this year. So far, he's a big fan."
+    },
+    {
+      "start": 1464.3,
+      "end": 1466.6,
+      "speaker": "I",
+      "text": "I mean, I never had peace like this in my life."
+    },
+    {
+      "start": 1467.1,
+      "end": 1469.9,
+      "speaker": "A",
+      "text": "Literal peace. This apartment is really quiet."
+    },
+    {
+      "start": 1470.3,
+      "end": 1476.1,
+      "speaker": "I",
+      "text": "I never slept so much in my life. You know, sometimes I have to open my window Because sometimes I be like, it's too quiet sometimes."
+    },
+    {
+      "start": 1478.3,
+      "end": 1510.1,
+      "speaker": "A",
+      "text": "Russell lives in a supportive housing building. He moved here from a shelter in Brooklyn where he shared a room with 7 people. Now it's just him, so of course it's quieter. But as soon as you shut the window— I mean, especially in New York City, it's a noticeable difference. The supportive housing company that owns this building, Breaking Ground, cares about Russell's peace and quiet. But it also cares about cutting its energy costs. If Russell turns on the heat in January, it foots the bill. So the designers went for these super airtight windows."
+    },
+    {
+      "start": 1510.7,
+      "end": 1523,
+      "speaker": "D",
+      "text": "Which serves really at the end of the day, all of us, the tenants, the local community, the, the city, and ultimately the planet if enough people engage in, in green building practices."
+    },
+    {
+      "start": 1523.5,
+      "end": 1546,
+      "speaker": "A",
+      "text": "Mark Harari is the director of design and construction for Breaking Ground. He says the high efficiency stuff, the windows, the insulation, the extra fancy ventilation a ventilation system that recovers heat, might have tacked on 3 to 5% to the total build price. This building's so new that Harari doesn't know how much energy it's saving yet, but if it's anything like the other one the organization built to a similar standard—"
+    },
+    {
+      "start": 1546.5,
+      "end": 1563.9,
+      "speaker": "D",
+      "text": "The site EUI, which is the Energy Usage Index number, was 61.7% lower than the average of the rest of all of our other breaking ground buildings, which is like kind of mind-blowing."
+    },
+    {
+      "start": 1564.3,
+      "end": 1576.1,
+      "speaker": "A",
+      "text": "And the windows are a big part of that. The Department of Energy says windows make up about 8% of the outside surface of the average home, but nearly half of the heat that's lost from that average home goes out through those windows."
+    },
+    {
+      "start": 1576.5,
+      "end": 1581.2,
+      "speaker": "D",
+      "text": "If you were to look at a standard American window, they slide up and down or they crank out."
+    },
+    {
+      "start": 1581.5,
+      "end": 1583.1,
+      "speaker": "I",
+      "text": "They're inefficient by design."
+    },
+    {
+      "start": 1583.5,
+      "end": 1588,
+      "speaker": "A",
+      "text": "Darren Macri is co-CEO of Wythe Windows. That's the company that worked on this building."
+    },
+    {
+      "start": 1588.5,
+      "end": 1596.9,
+      "speaker": "B",
+      "text": "Our windows have multiple locking points, so you have an even compressive seal against the frame and sash to make it airtight."
+    },
+    {
+      "start": 1597.3,
+      "end": 1615.1,
+      "speaker": "A",
+      "text": "McRee estimates one of their 3-by-5-foot windows costs roughly $600. It's more than most of the options at my local Home Depot, but not by much. Michelle Shisham works for the independent organization that rates the energy efficiency of windows and doors, the National Fenestration Rating Council."
+    },
+    {
+      "start": 1615.5,
+      "end": 1624.4,
+      "speaker": "B",
+      "text": "If you buy a very pretty window that's a pretty decent performer and you buy a, a more basic window that is a great performer, you might pay the same price."
+    },
+    {
+      "start": 1624.9,
+      "end": 1648.1,
+      "speaker": "A",
+      "text": "Problem is the window alone isn't the whole cost. Darren Macri of Wythe Windows estimates labor will run you several hundred dollars per window, give or take, depending on where you are in the country. And it's about the same even if you buy a cheaper window. Meanwhile, the one that's already in your house costs nothing up front, which is why roughly 93 million homes have inefficient windows, according to the Department of Energy."
+    },
+    {
+      "start": 1648.5,
+      "end": 1654.9,
+      "speaker": "B",
+      "text": "People sometimes are like, I can just keep living with it, and they put it off and they don't see the advantage."
+    },
+    {
+      "start": 1655.5,
+      "end": 1666.2,
+      "speaker": "A",
+      "text": "Shisham says a typical window has about a 15 to 25-year lifespan. Many of us have windows 2 or 3 or 4 times that old."
+    },
+    {
+      "start": 1666.6,
+      "end": 1671.7,
+      "speaker": "B",
+      "text": "Aside from getting hit with a baseball, a window doesn't just break. You know, your refrigerator breaks, you must buy a new one."
+    },
+    {
+      "start": 1672,
+      "end": 1685.9,
+      "speaker": "A",
+      "text": "So more efficient windows get put off in existing homes. In new buildings, they're an easier sell. Darren Macri of Wythe Window says he's put the same model in luxury homes and affordable housing projects. I'm Kaylie Wells for Marketplace."
+    },
+    {
+      "start": 1692.9,
+      "end": 1763,
+      "speaker": "B",
+      "text": "This final note on the way out today— saw this in Axios— it's official: people 65 and older outnumber children ages 5 and younger worldwide for the first time ever. That's according to a new report by the U.S. Census. Of course, this kind of imbalance comes with lots of questions about the economy. How will the workforce change? How will we maintain programs like Social Security? How will we take care of an aging population? And it's not just happening here in the US or in places with notoriously low birth rates like South Korea and Japan. It's becoming more common across the globe in India, Bangladesh, and Mexico. Our daily production team includes Andy Corbin, Mika Ellison, Maria Hollenhorst, Sarah Leeson, Sean McHenry, and Sophia Terenzio. Will Storey is the supervising senior producer, and I'm Kristin Schwab. We'll see you next time. See you back here tomorrow. This is APM."
+    },
+    {
+      "start": 1764.3,
+      "end": 1795.1,
+      "speaker": "I",
+      "text": "I'm Lee Hawkins, host of Must Be the Money, a podcast from Marketplace. Each week I speak with inspiring entrepreneurs and business business leaders about their lived experiences, and they share tangible insights to help guide your path to success. Hear from icons like Angelica Nwosu, Van Lathan, Angela Yee, Matt Barnes, and more about how to seize opportunity, manage money, and meet challenges with resilience. Listen to Must Be the Money wherever you get your podcasts."
+    }
+  ]
+}

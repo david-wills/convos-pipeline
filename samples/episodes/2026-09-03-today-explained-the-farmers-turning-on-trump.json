@@ -1,0 +1,734 @@
+{
+  "episode": {
+    "id": "be2ebe5751f67f3910ad7f928f9b267d61113a0e4217d4d30008054bb5fa65c3",
+    "podcastTitle": "Today, Explained",
+    "feedUrl": "https://feeds.megaphone.fm/VMP5705694065",
+    "guid": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP7429106328.mp3",
+    "title": "The farmers turning on Trump",
+    "description": "As farmers and rural voters reel from moves made by the Trump administration, Democrats see an opening.\n\nThis episode was produced by Peter Balonon-Rosen, edited by Jolie Myers, fact-checked by Gabriel Dunatov, engineered by David Tatasciore and Bridger Dunnagan, and hosted by Noel King.\n\nGuests attend a campaign event hosted by Democratic U.S. Senate candidate Josh Turek in Westside, Iowa. Photo by Scott Olson/Getty Images.\n\nListen to Today, Explained ad-free by becoming a Vox Member: vox.com/members. New Vox members get $20 off their membership right now. Transcript at ⁠⁠vox.com/today-explained-podcast⁠.⁠\nLearn more about your ad choices. Visit podcastchoices.com/adchoices",
+    "pubDate": "2026-09-03T18:00:00.000Z",
+    "duration": 1572,
+    "audioUrl": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP7429106328.mp3",
+    "artworkUrl": "https://megaphone.imgix.net/podcasts/78f563dc-d05c-11f0-a63b-db6f0fe0618c/image/c10767a4bcaedd09156d72c62aa4b344.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1741,
+    "utteranceCount": 107
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:37:39.201Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Trump's War on Farmers",
+      "description": "Host Noel King sets up how Trump's tariffs and Iran war are hitting American farmers hard, opening a potential political opportunity for Democrats ahead of the midterms.",
+      "startTime": 2.478,
+      "endTime": 124.78,
+      "anchorPhrase": "a few months back, a reporter asked president trump if he was feeling pressure to"
+    },
+    {
+      "index": 1,
+      "title": "The Cost Crunch Squeezing Agriculture",
+      "description": "Guardian reporter Chris Stein breaks down how rising diesel, fertilizer prices, and lost soybean markets in China are hammering farm country across the US.",
+      "startTime": 124.78,
+      "endTime": 315.192,
+      "anchorPhrase": "i'm chris stein. i'm a senior politics reporter for the guardian us. you recently wrote"
+    },
+    {
+      "index": 2,
+      "title": "The Beef Import Backfire",
+      "description": "Trump's executive order allowing foreign beef imports to lower grocery prices has enraged the very ranchers and farmers who voted for him three times.",
+      "startTime": 315.192,
+      "endTime": 472.536,
+      "anchorPhrase": "products. president trump is in a tough position these midterms because in particular of the"
+    },
+    {
+      "index": 3,
+      "title": "Democrats Smell Blood in Farm Country",
+      "description": "With farmers souring on Republicans, Democrats are targeting razor-thin congressional races using tariffs and the Iran war as their sharpest attack lines.",
+      "startTime": 472.536,
+      "endTime": 919.506,
+      "anchorPhrase": "even effective. what are farmers doing about this? they're angry at president trump, and that's"
+    },
+    {
+      "index": 4,
+      "title": "Why Iowa Could Flip Congress",
+      "description": "Iowa political reporter Laura Belin explains why three competitive House seats and an open Senate race make Iowa a potential kingmaker for congressional control.",
+      "startTime": 919.506,
+      "endTime": 1126.681,
+      "anchorPhrase": "i'm laura belin. i am the publisher and primary reporter of the iowa political website"
+    },
+    {
+      "index": 5,
+      "title": "Running With Trump, Not Against Him",
+      "description": "Iowa Democrats are strategically avoiding direct attacks on Trump, instead framing Republican incumbents as rubber stamps for policies hurting everyday Iowans.",
+      "startTime": 1126.681,
+      "endTime": 1171.522,
+      "anchorPhrase": "most of the democrats are not running directly against trump. rob sand, the candidate for"
+    },
+    {
+      "index": 6,
+      "title": "Rob Sand's Unity Playbook",
+      "description": "Iowa's Democratic governor candidate skips the culture war fights, sings America the Beautiful with Republicans and independents, and pitches himself as the antidote to political division.",
+      "startTime": 1171.522,
+      "endTime": 1540.947,
+      "anchorPhrase": "let's talk about that governor's race and rob sand. this guy has gotten a fair"
+    },
+    {
+      "index": 7,
+      "title": "A Template for Red-State Democrats?",
+      "description": "Belin weighs whether Rob Sand's small-town roots, cross-partisan appeal, and anti-division message could offer a replicable blueprint for Democrats losing ground in working-class America.",
+      "startTime": 1540.947,
+      "endTime": 1741,
+      "anchorPhrase": "the democrats need a candidate, a type of candidate who can win in red states."
+    }
+  ],
+  "utterances": [
+    {
+      "start": 2.5,
+      "end": 17.6,
+      "speaker": "A",
+      "text": "A few months back, a reporter asked President Trump if he was feeling pressure to make a deal with Iran because the war has made life more expensive for Americans. And Trump said, quote, \"Not even a little bit.\" I don't think about Americans' financial situation."
+    },
+    {
+      "start": 17.9,
+      "end": 18.9,
+      "speaker": "B",
+      "text": "I don't think about anybody."
+    },
+    {
+      "start": 19,
+      "end": 49.1,
+      "speaker": "A",
+      "text": "It was one of those moments— if you don't like Trump, it confirms some things. If you do like Trump, maybe you could let it slide. But reporting and polling tell us one group of Trump supporters is having an especially hard time letting this slide, and that is farmers. Farmers. Trump's war and Trump's tariffs are walloping American farmers. For a decade, they've tended to vote Trump and vote Republican. But this year, with razor-thin margins determining who's going to win Congress, farm country is up for grabs, and the Democrats would like to grab it. That's coming up on Today Explained from Vox."
+    },
+    {
+      "start": 60.3,
+      "end": 88.5,
+      "speaker": "C",
+      "text": "This episode is brought to you by Facebook. So you were scrolling on Marketplace and there it was, the bike you'd been searching for. You sent a message and it turned out the seller was super chatty, kind of funny, and an avid cyclist. The next thing you know, you're in a cycling crew. Well, a community cycling group. The thing about Facebook, you might find more than what you're looking for. From a browse to a bike ride, This summer, find more on Facebook."
+    },
+    {
+      "start": 91,
+      "end": 120.9,
+      "speaker": "D",
+      "text": "Want smoother, brighter skin without adding another complicated step to your routine? Try Daily Microfoliant from Dermalogica. This exfoliating powder activates with water to gently polish away dull, flaky skin, leaving it feeling smoother and looking brighter. It's gentle enough to use every day, so keeping your skin looking healthy and fresh is easy. Ready to see the difference? Visit Dermalogica.com and use code SMOOTH at cart for an exclusive gift with your $65 purchase."
+    },
+    {
+      "start": 120.9,
+      "end": 122.8,
+      "speaker": "F",
+      "text": "We are Today Explained."
+    },
+    {
+      "start": 124.8,
+      "end": 128.3,
+      "speaker": "G",
+      "text": "I'm Chris Stein. I'm a senior politics reporter for The Guardian US."
+    },
+    {
+      "start": 129.3,
+      "end": 136.9,
+      "speaker": "A",
+      "text": "You recently wrote an article that was headlined \"Small farmers say Trump is turning his back on them.\" What's going on in farm country?"
+    },
+    {
+      "start": 137.8,
+      "end": 184.9,
+      "speaker": "G",
+      "text": "Farmers across the country, generally speaking, are dealing with whiplash and negative economic impacts from the war with Iran and from tariffs and from other policies that the Trump administration has adopted, which are having a potentially significant effect on the politics ahead of the midterms in November. The obvious one is the war with Iran and how it's impacted oil prices and, you know, all the different products that we use that are made from oil. And agriculture is an industry that is particularly exposed to that because not only do farmers drive themselves, they also use a lot of diesel on the farm, and the whole agriculture supply chain relies on diesel and prices for that. Have really increased."
+    },
+    {
+      "start": 185.2,
+      "end": 190.7,
+      "speaker": "E",
+      "text": "Anything that's coming onto the farm or leaving the farm is now more expensive. It couldn't have come at a worse time."
+    },
+    {
+      "start": 191,
+      "end": 200.7,
+      "speaker": "G",
+      "text": "So too have prices for fertilizer, which is of course essential to agriculture. You can't lose money and keep the business going. That's the scary part right now."
+    },
+    {
+      "start": 200.9,
+      "end": 209.7,
+      "speaker": "E",
+      "text": "We're used to dealing with markets going up and down, but when we see such a large increase in such a short span of time is what really, what really makes it harder, harder to deal with."
+    },
+    {
+      "start": 209.8,
+      "end": 250.7,
+      "speaker": "G",
+      "text": "So it's just an upward cost driver that I've heard people in a lot of different industries, but obviously agriculture is a big one, complain about. And then, of course, tariffs, which have driven up costs for various inputs and have caused issues for farmers selling, getting their crops to market. So, for instance, China was a major buyer or is major buyer of U.S. soybeans. But after Trump began the trade war with China, the imposition of tariffs, China stopped buying as many American soybeans and started buying more from Brazil, which is basically the U.S.'s top competitor. And that hits farm country in the Midwest, where soy is one of the most grown crops."
+    },
+    {
+      "start": 250.9,
+      "end": 258,
+      "speaker": "B",
+      "text": "They've painted us in a corner with this China deal and China buying no soybeans. I mean, they've tore our market in half."
+    },
+    {
+      "start": 258.1,
+      "end": 270.6,
+      "speaker": "H",
+      "text": "It's a huge hit to just have that market wiped out. Prices have gone up 40, 50, 60% or more. Equipment's gone up and then our prices have gone down. So it's just kind of a bad, a bad recipe."
+    },
+    {
+      "start": 275.6,
+      "end": 280.5,
+      "speaker": "A",
+      "text": "What about the recent reignition of the trade war with Canada?"
+    },
+    {
+      "start": 280.7,
+      "end": 281.9,
+      "speaker": "I",
+      "text": "Lake America."
+    },
+    {
+      "start": 282.1,
+      "end": 283.7,
+      "speaker": "A",
+      "text": "Has that meant anything for American farmers?"
+    },
+    {
+      "start": 284.8,
+      "end": 314.6,
+      "speaker": "G",
+      "text": "Yes, it exacerbates the trend. You know, the US and Canada, their economies are intertwined. And so, you know, Canada is a major importer of US dairy. It's involved in the supply chain for, agricultural implements, you know, farming equipment that's used on farms. So, and now they're in a trade war with retaliatory tariffs and American, you know, producers of those are gonna have just one more barrier to finding markets for their products."
+    },
+    {
+      "start": 315.2,
+      "end": 336.5,
+      "speaker": "A",
+      "text": "President Trump is in a tough position these midterms because in particular of the question of affordability. Things in the US, a lot of people feel are too expensive, including grocery prices. He recently issued an executive order about beef that is intended to bring the price down and instead has made farmers and ranchers quite angry. Can you tell us what happened there?"
+    },
+    {
+      "start": 337.9,
+      "end": 349.1,
+      "speaker": "G",
+      "text": "So the president is trying to address something that's certainly a concern for Americans, which is grocery prices and the price of beef. And so he's allowed some imports of beef to try to lower prices."
+    },
+    {
+      "start": 350.4,
+      "end": 352.8,
+      "speaker": "J",
+      "text": "Truth Social."
+    },
+    {
+      "start": 353.2,
+      "end": 368.5,
+      "speaker": "K",
+      "text": "The United States will allow up to 300,000 metric tons of product for ground beef to be imported with no out-of-quota tariff. We have a commitment that this beef will be sold at 25% below current market prices."
+    },
+    {
+      "start": 371.4,
+      "end": 382,
+      "speaker": "G",
+      "text": "We started seeing inflation rise, you know, including in grocery stores, which is extremely politically perilous and, you know, caused Joe Biden and then Kamala Harris a ton of problems."
+    },
+    {
+      "start": 382.1,
+      "end": 386,
+      "speaker": "A",
+      "text": "You exist in the context of all in which you live and what came before you."
+    },
+    {
+      "start": 386.1,
+      "end": 386.9,
+      "speaker": "L",
+      "text": "Bidenflation."
+    },
+    {
+      "start": 387,
+      "end": 389.6,
+      "speaker": "A",
+      "text": "Bidenflation. Feel the pain of Bidenflation."
+    },
+    {
+      "start": 390.1,
+      "end": 390.8,
+      "speaker": "E",
+      "text": "Come on, man."
+    },
+    {
+      "start": 391,
+      "end": 394.3,
+      "speaker": "G",
+      "text": "So Importing beef would seem like a good idea, except the U.S."
+    },
+    {
+      "start": 394.4,
+      "end": 419.6,
+      "speaker": "B",
+      "text": "has a domestic beef industry, and this causes a ton of uncertainty for ranchers, for beef producers, who are basically saying, \"Now we have more foreign competition.\" Our president, who I have voted for 3 times, he's my guy, but for the last year and a half, he's done about everything he can to beat this cattle market down to try to get beef cheaper for the consumer. Okay, I'm all for that, but not when all of that comes from our pocket."
+    },
+    {
+      "start": 419.8,
+      "end": 422.1,
+      "speaker": "J",
+      "text": "We kind of are finally making some money."
+    },
+    {
+      "start": 422.6,
+      "end": 427.5,
+      "speaker": "M",
+      "text": "And now the government wants to bring in some of this foreign beef and make beef cheaper."
+    },
+    {
+      "start": 427.8,
+      "end": 429.8,
+      "speaker": "G",
+      "text": "And there's been pushback from Republicans to this."
+    },
+    {
+      "start": 430.7,
+      "end": 444.4,
+      "speaker": "A",
+      "text": "I'm extremely disappointed by this decision from the White House. We all want lower grocery prices, but as I've said for months, we cannot do it at the expense of American producers. I want to lower prices, but this is a bad idea."
+    },
+    {
+      "start": 444.9,
+      "end": 472.1,
+      "speaker": "G",
+      "text": "While not directly criticizing Trump, because that can be actually fairly perilous, they're saying this isn't a wise policy. And I stand with my ranchers. And, you know, American-produced beef. But it just underscores how when prices rise because of supply shocks or other inflationary factors, it's really, really hard for a president to offset them in a way that doesn't have drawbacks or is even, you know, in a way that is even effective."
+    },
+    {
+      "start": 472.5,
+      "end": 479.1,
+      "speaker": "A",
+      "text": "What are farmers doing about this? They're angry at President Trump, and that's leading them to What?"
+    },
+    {
+      "start": 480.3,
+      "end": 537,
+      "speaker": "G",
+      "text": "Well, it's unclear quite what it will all amount to. It's important to note that this comes at the same time as Democrats have seen their political fortunes really decline in, in rural areas. The party has struggled to win House seats, Senate elections in states where rural voters predominate. And so farmers are of course rural voters. They generally speaking, and this is a huge generalization, but in general they tend to lean right. So there is some hope now among Democrats that with all these policies kind of cutting against farmers' interests, it can help them win key seats this year in the midterms, simply because farmers are either not going to vote for Republicans, you know, stay home perhaps, or potentially even vote for Democrats. That they're going to see their pitch of, we're better able to to manage the agricultural economy as, you know, worth supporting this time."
+    },
+    {
+      "start": 538.2,
+      "end": 549.4,
+      "speaker": "A",
+      "text": "Okay, so there is an opportunity here for Democrats certainly, and there's a real risk here for Republicans. How are we seeing the party's messaging to farmers this midterm season?"
+    },
+    {
+      "start": 550.5,
+      "end": 597.3,
+      "speaker": "G",
+      "text": "It focuses quite a lot on tariffs. That's the best way I can put it, as well as the impact of the Iran war. Adam Hamilton, who is the Democratic Senate candidate in Kansas, a state that hasn't sent a Democrat to the Senate since 1912, 32, longer than any other state. Uh, his— one of his first, um, advertisements on TV or on streaming accuses his Republican opponent Roger Marshall of voting for tariffs and war. While farmers and families in Kansas get cooked by high prices, tariffs and war, uh, war that's driven up the cost of your gasoline, of your diesel, of your fertilizer, tariffs that have made it harder to sell your soybeans, uh, that are causing things that you normally expected to be at one price to be at a higher price. And so that's That's basically how they're prosecuting the case."
+    },
+    {
+      "start": 597.9,
+      "end": 607,
+      "speaker": "A",
+      "text": "What are the farmers that you've spoken to want? We've had bailouts for farmers in this country before. Do they want a bailout? Do they want something bigger? What are you hearing?"
+    },
+    {
+      "start": 608.1,
+      "end": 630.4,
+      "speaker": "G",
+      "text": "I think they want the federal government to be a more reliable partner and to be predictable. You know, farming is a high-risk sort of business, you know, and farmers might go, you know, year back-to-back harvests breaking even or maybe making, you know, a small loss. It can be very stressful. Um, and so they want someone who's, you know, there for them. They want that security."
+    },
+    {
+      "start": 631.8,
+      "end": 641.9,
+      "speaker": "A",
+      "text": "Is this then one of those midterm seasons in which you imagine many, many American farmers will shift from voting for the Republican to voting for the Democrat?"
+    },
+    {
+      "start": 642.4,
+      "end": 670,
+      "speaker": "G",
+      "text": "You know, there was a time under Obama where, um, you know, predominantly agricultural rural states, uh, were electing Democrats to the Senate. They were electing, uh, you know, those types of districts were electing Democrats to the House. And, um, That seems to be behind us. But, you know, they need to— the Democrats need to in the future find a way to reengage with these voters who swung away from, from them. It's really important for their ability to continue winning the Senate and the presidency."
+    },
+    {
+      "start": 679.9,
+      "end": 778.8,
+      "speaker": "A",
+      "text": "Chris Stein is a senior politics reporter at Guardian US. Coming up next, we're going to have it. No, it's Iowa. In the governor's race there, the Maha-backed Republican candidate is mounting attacks on big agriculture and big chemical companies, blaming them for the state's high cancer rates. The Democrat has made those same issues part of his campaign while also offering a message of unity that voters seem to like. Support for Takes Laine comes from ShipStation. When shipping is a key part of your business, every order counts. That's why you need fulfillment that's fast, efficient, cost-effective. ShipStation gives you the tools to manage orders with ease, streamline your shipping process, and keep customers coming back. ShipStation is an end-to-end order fulfillment platform built for e-commerce businesses. Powered by AI trained on decades of data from billions of shipments worldwide, it adapts to the way your business operates, flagging low inventory, recommending carriers and rates, and automating routine tasks to save time. Plus, with inventory syncing across sales channels, automatic rate shopping, a branded returns portal, and integrations with accounting and CRM software, ShipStation brings more of your fulfillment workflow together in one place. That's why more than 1 million businesses have trusted ShipStation to optimize and scale their shipping. The sooner you switch, the sooner you start. Saving time and money. Get started with ShipStation today and get 60 days free at ShipStation.com with code TODAY. That's ShipStation.com, code TODAY. ShipStation.com, code TODAY. Taxes and fees do apply."
+    },
+    {
+      "start": 784.4,
+      "end": 846.4,
+      "speaker": "N",
+      "text": "Support for the show today comes from Found. For all those of you feeling lost, Found gives business owners one place for banking, bookkeeping, and contractor payments. With Found, all your business's moving parts can finally work together. It auto-categorizes your expenses, captures receipts. Come here, receipts! And lets you see what you're earning, spending, and saving. You get visibility into your profit and loss so you can make calls about your business with confidence. You can take back control of your business today. Don't wait. You can open a Found account at found.com. That's found.com. Found is a financial technology company, not a bank. Banking services provided by Lead Bank, member FDIC. F-O-U-N-D.com. Found does not provide tax, legal, or accounting advice. Optional subscriptions to Found+ for $35 per month, $315 per year, or Found Pro for $80 per month or $720 per year. There are no monthly account maintenance fees, but other fees such as transactional fees for wires, instant transfers, and ATM apply. Read Found fee schedule."
+    },
+    {
+      "start": 851.9,
+      "end": 891.6,
+      "speaker": "O",
+      "text": "Support for the show comes from Quo. Fall is the season everyone gets busier. More calls, more customers, more chances for something to slip through the cracks, and staying Getting ahead means working with the right system, not just working harder. That's why today's episode is brought to you by QWO, spelled Q-U-O, the business phone system built so you never miss a call. With QWO, all your calls, texts, and voicemails live in one place, so anyone on your team can pick up a conversation, see the full history, and respond fast. Oh, and here comes AI. QWO's AI can automatically log calls, generate summaries, and flag next steps so nothing falls through the cracks. Money is on the line."
+    },
+    {
+      "start": 892.3,
+      "end": 892.5,
+      "speaker": "P",
+      "text": "Hello."
+    },
+    {
+      "start": 892.7,
+      "end": 910.5,
+      "speaker": "O",
+      "text": "Always say hello with Quo. Try Quo for free, plus get 20% off your first 6 months when you go to quo.com/explained. That one more time for the road is q-u-o.com/explained. Quo. Money is on the line."
+    },
+    {
+      "start": 917.2,
+      "end": 918.7,
+      "speaker": "C",
+      "text": "This is Today Explained."
+    },
+    {
+      "start": 919.5,
+      "end": 930.2,
+      "speaker": "M",
+      "text": "I'm Laura Belin. I am the publisher and primary reporter of the Iowa political website Bleeding Heartland, and I'm also the part-time political reporter for KHOI Community Radio in Ames."
+    },
+    {
+      "start": 930.8,
+      "end": 939.8,
+      "speaker": "A",
+      "text": "This midterm season, all eyes, a lot of eyes, millions of eyes seem to be on Iowa. What is going on? Why is Iowa so crucial?"
+    },
+    {
+      "start": 940.4,
+      "end": 1010,
+      "speaker": "M",
+      "text": "For one thing, Iowans could determine control of Congress in the next 2 years. 3 of our 4 congressional districts are highly competitive, so the U.S. House majority could literally hinge on what happens in Iowa. And we also have an open U.S. Senate seat. So if Democrats are to have any chance of gaining control of the Senate, it would be very helpful to pick up the Senate seat in Iowa. But more broadly, what has happened in Iowa, where we used to be a swing state and we've moved into the red column, is not unique to Iowa. Every part of the country that looks like Iowa has seen the same trend of voters moving away from Democrats. It's happened especially in these working-class communities where the electorate is predominantly white people without a college degree. So Iowa as a whole voted for Barack Obama twice and then voted for Donald Trump 3 times. So if Democrats can figure out how to start winning again, or at least losing by less in that kind of area, it could have implications not only for the future of Iowa, but for other states that have similar areas, places like Ohio, Michigan, Wisconsin, and Pennsylvania."
+    },
+    {
+      "start": 1013.6,
+      "end": 1020.3,
+      "speaker": "A",
+      "text": "What are the main issues that people there are voting on and campaigns are campaigning on?"
+    },
+    {
+      "start": 1021,
+      "end": 1036.3,
+      "speaker": "M",
+      "text": "Well, the high cost of everything is definitely the top issue. So for Republicans, they're saying these— what they call now the Working Families Tax Cut, that's their rebrand from the what used to be called the One Big Beautiful Bill, talking about that as a way to lower costs."
+    },
+    {
+      "start": 1036.4,
+      "end": 1046,
+      "speaker": "Q",
+      "text": "Taxpayers across Iowa are seeing real relief relief through bigger refunds and higher take-home pay delivered by the historic Working Family Tax Cuts bill."
+    },
+    {
+      "start": 1046.2,
+      "end": 1052.4,
+      "speaker": "M",
+      "text": "But Democrats have really been hammering on the tariffs and the war in Iran driving up the cost of everything."
+    },
+    {
+      "start": 1052.9,
+      "end": 1062.5,
+      "speaker": "I",
+      "text": "Iowans are struggling just to keep food on the table, a roof above their head, pay their electric bill, and now with this war in Iran, be able to put gas in their tank."
+    },
+    {
+      "start": 1062.9,
+      "end": 1066.2,
+      "speaker": "M",
+      "text": "Also, healthcare— the healthcare costs have skyrocketed."
+    },
+    {
+      "start": 1066.4,
+      "end": 1074.4,
+      "speaker": "R",
+      "text": "There are some initial steps that we can take legislatively with policy that will actually help relieve the costs of health care."
+    },
+    {
+      "start": 1074.8,
+      "end": 1109.5,
+      "speaker": "M",
+      "text": "So all of the Medicaid cuts in Iowa, it's going to be so, so hard for our rural hospitals here to stay afloat. We've seen health care access be an issue because we've already seen some clinics close. And the companies that control those hospitals or clinics have talked about how it's partly a reaction to the big Medicaid cuts that were passed in that budget reconciliation bill. According to many polls that I've seen, Trump is underwater in Iowa. His policies are not popular. The tariffs are not popular in Iowa."
+    },
+    {
+      "start": 1109.6,
+      "end": 1110,
+      "speaker": "B",
+      "text": "They've—"
+    },
+    {
+      "start": 1110,
+      "end": 1115.7,
+      "speaker": "M",
+      "text": "they're widely understood to be hurting the Iowa economy. Anyone can see that the cost of everything has gone up."
+    },
+    {
+      "start": 1116.5,
+      "end": 1126,
+      "speaker": "A",
+      "text": "Okay, so Trump is less popular this year. Makes me wonder, what are the Democrats doing to campaign on that? Are they running on Trump?"
+    },
+    {
+      "start": 1126.7,
+      "end": 1144.6,
+      "speaker": "M",
+      "text": "Most of the Democrats are not running directly against Trump. Rob Sand, the candidate for governor, hardly talks about Donald Trump at all. He really focuses on statewide issues. And Josh Churak, the candidate for Senate, it's not that he's running against Trump. He actually has a TV ad up now that says, I'm Josh Churak, and in the U.S."
+    },
+    {
+      "start": 1144.7,
+      "end": 1151.5,
+      "speaker": "I",
+      "text": "Senate, I'll work with anyone to fix it, including President Trump, to secure the border, stop the flow of drugs into Iowa."
+    },
+    {
+      "start": 1151.9,
+      "end": 1170.6,
+      "speaker": "M",
+      "text": "But he is running against the idea that Ashley Hinson has just been a rubber stamp for policies that have hurt Iowa. So whether that be the war in Iran, the tariffs. And so it's more of a running against the Republicans who have been a puppet rather than running against Donald Trump himself."
+    },
+    {
+      "start": 1171.5,
+      "end": 1180.8,
+      "speaker": "A",
+      "text": "Let's talk about that governor's race and Rob Sand. This guy has gotten a fair bit of national interest. What do you know about him?"
+    },
+    {
+      "start": 1180.8,
+      "end": 1181.5,
+      "speaker": "I",
+      "text": "I followed his career for a long time."
+    },
+    {
+      "start": 1183.8,
+      "end": 1194.4,
+      "speaker": "M",
+      "text": "Since he was running for State Auditor the first time in 2018. He has been very visible. He has gone out every year, done 100 town halls a year, done them in every county."
+    },
+    {
+      "start": 1194.7,
+      "end": 1205.6,
+      "speaker": "J",
+      "text": "This is not going to be an event that's just for people in my party. I want everybody to be there. We're advertising all of them all at the same time because we want people to show up no matter who they are, as long as they're Iowans."
+    },
+    {
+      "start": 1205.9,
+      "end": 1218.1,
+      "speaker": "M",
+      "text": "He is reaching out to independents because Iowa Republicans have a pretty large voter registration advantage. So he's talked a lot about trying to empower independence more in our political spaces."
+    },
+    {
+      "start": 1218.1,
+      "end": 1234.5,
+      "speaker": "J",
+      "text": "Can anybody give me a good reason that we have to be Democrats and Republicans? There aren't any. The truth is that these two private clubs have written special legal privileges into the law for themselves because it makes it easier for them to have power. We should change that. We should end that."
+    },
+    {
+      "start": 1235.6,
+      "end": 1238.3,
+      "speaker": "M",
+      "text": "He's talked about getting Iowa back to divided government."
+    },
+    {
+      "start": 1238.6,
+      "end": 1265.8,
+      "speaker": "J",
+      "text": "If I'm elected governor, almost everyone agrees that I'm aware of that we're going to have a Republican legislature. Legislature. That means we're going to have to work together. I actually think that that's a good thing. As my dad would say, even a blind hog finds an acorn every now and then, right? Even a broken clock is right twice a day. So let's start acknowledging that every once in a while someone that we think is dead wrong 90% of the time actually has a point on something that they said."
+    },
+    {
+      "start": 1266.1,
+      "end": 1275.1,
+      "speaker": "M",
+      "text": "He's talked about how with the large Republican majorities we have in the legislature, he would be a check on what they've done with 10 years of one-party rule."
+    },
+    {
+      "start": 1276.6,
+      "end": 1277.4,
+      "speaker": "A",
+      "text": "He used to be a model."
+    },
+    {
+      "start": 1278.2,
+      "end": 1281.2,
+      "speaker": "J",
+      "text": "Uh, it helped me pay rent for a couple years, so it was good."
+    },
+    {
+      "start": 1281.4,
+      "end": 1296.1,
+      "speaker": "M",
+      "text": "A long time ago. He doesn't like to talk about that much. Oh, I'm sure he doesn't. Yeah, to earn some extra money. Well, it's funny, Republicans post these old modeling photos of Rob Sand from the '90s, and even Chuck Grassley's campaign account posted some of those over the weekend."
+    },
+    {
+      "start": 1296.3,
+      "end": 1313,
+      "speaker": "F",
+      "text": "Once upon a time, Rob Sand was a fashion model in Europe. Today, Rob Sand is modeling as a moderate. Don't be fooled by his campaign fairy tale. If elected, Rob Sand will push his liberal agenda across Iowa. Vote Zach Lane for governor."
+    },
+    {
+      "start": 1313.1,
+      "end": 1337.7,
+      "speaker": "M",
+      "text": "And I always wonder, I mean, Republicans seem to think that they're going to get traction out of that, but I don't really see that as something that Iowans care about at all. I think a more common criticism that I hear is Rob Sand has a very strong social media presence, has for years. And in addition to making videos talking about political issues and what needs to be done in state government. He does a lot of things like reviewing pizza."
+    },
+    {
+      "start": 1337.7,
+      "end": 1340.6,
+      "speaker": "J",
+      "text": "The mac and cheese pizza, so good."
+    },
+    {
+      "start": 1341,
+      "end": 1341.7,
+      "speaker": "M",
+      "text": "And donuts."
+    },
+    {
+      "start": 1341.8,
+      "end": 1345.5,
+      "speaker": "J",
+      "text": "So it's like a mac and cheese donut, and it's great."
+    },
+    {
+      "start": 1345.7,
+      "end": 1360.9,
+      "speaker": "M",
+      "text": "And so they try to portray him as someone who's not serious about his job, but I think that that's just more— he has this goofy online persona, and I don't really think it's a detriment to his campaign. But yeah, they do try to bring out those modeling photos."
+    },
+    {
+      "start": 1361.3,
+      "end": 1364.4,
+      "speaker": "A",
+      "text": "When they try to use this against him, he needs to play it up."
+    },
+    {
+      "start": 1365.1,
+      "end": 1366.4,
+      "speaker": "M",
+      "text": "Serve blue steel."
+    },
+    {
+      "start": 1367,
+      "end": 1377.2,
+      "speaker": "P",
+      "text": "Getting a modeling contract is like birthright for white boys who look like stretched-out Culkins. And he did it while graduating from Brown and then came back to Iowa. Can't really fault him for that."
+    },
+    {
+      "start": 1378.6,
+      "end": 1378.8,
+      "speaker": "I",
+      "text": "Lol."
+    },
+    {
+      "start": 1379,
+      "end": 1396.4,
+      "speaker": "A",
+      "text": "Tell me, tell me more about the town halls. We've seen a certain type of Democrat emerge in the last few years and become very visible this campaign cycle. And this is the kind of the Abdullaziz, Democrat, which is to say angry at the Democratic Party, angry at the direction of the country."
+    },
+    {
+      "start": 1396.7,
+      "end": 1399,
+      "speaker": "M",
+      "text": "Democratic Party brand is so bullshit."
+    },
+    {
+      "start": 1399.1,
+      "end": 1408,
+      "speaker": "A",
+      "text": "Rob Sand, from what I've seen of him, does not seem like anger is what he wants to tap into. But, but tell me what you've seen when he's out in public."
+    },
+    {
+      "start": 1408.1,
+      "end": 1446.9,
+      "speaker": "M",
+      "text": "No, he does not strike an angry note. And he's not really part of this whole debate between progressives and moderates or centrists in the party. He's really He tried to chart, I would say, a completely different course of saying that he wants to get back to common sense government, focusing on the issues that people can agree on. He's talked about how if he's governor and the legislature sends him culture war bills, we're going to have veto ceremonies instead of bill signing ceremonies, that he doesn't want to do any of this culture war thing. He talks about people being exhausted. And one thing that he does at the beginning of every town hall is he asks—"
+    },
+    {
+      "start": 1446.9,
+      "end": 1452.4,
+      "speaker": "J",
+      "text": "raise your hand, please, if you're a registered Republican voter here tonight. Please raise Raise your hand if you're a registered independent voter."
+    },
+    {
+      "start": 1452.8,
+      "end": 1455.5,
+      "speaker": "M",
+      "text": "Then he asked everybody to applaud for those people."
+    },
+    {
+      "start": 1455.7,
+      "end": 1466.2,
+      "speaker": "J",
+      "text": "Thank you. And then just to prove that Democrats and Republicans can work together with independents too, I'd like us to sing."
+    },
+    {
+      "start": 1466.8,
+      "end": 1471.1,
+      "speaker": "M",
+      "text": "He has everybody in the room sing the first verse of America the Beautiful together."
+    },
+    {
+      "start": 1471.8,
+      "end": 1476.4,
+      "speaker": "A",
+      "text": "Oh, beautiful for spacious skies."
+    },
+    {
+      "start": 1476.6,
+      "end": 1487.4,
+      "speaker": "M",
+      "text": "And he talks about how about how our politics has become so divisive. And it's because the way he frames it is that two private clubs, as he frames the major parties—"
+    },
+    {
+      "start": 1487.5,
+      "end": 1501.8,
+      "speaker": "J",
+      "text": "People who run these private clubs, they want us to be mad at each other because it makes us easier to control. I don't want you to be mad at your neighbor. I want you to love your neighbor. And so I want us to take a minute here just to sort of rediscover what that might feel like, okay?"
+    },
+    {
+      "start": 1504.7,
+      "end": 1532,
+      "speaker": "M",
+      "text": "He says they're trying to make us hate people we used to love, and I'm sick of it. I'm sick of the division. And he doesn't want us to hate our neighbors. And when he's criticizing his Republican opponent, Zach Lane, and one of his main talking points is that Zach Lane doesn't live full-time in Iowa, that he's a part-time Iowan and spends a lot of time in Kansas. But before he even gets to that, he leads into it by saying, there's one thing that I want you to remember about my opponent that's the most important thing: he's a human being."
+    },
+    {
+      "start": 1532.5,
+      "end": 1534.6,
+      "speaker": "J",
+      "text": "Right wing, left wing, one bird."
+    },
+    {
+      "start": 1538.3,
+      "end": 1538.9,
+      "speaker": "C",
+      "text": "It's you!"
+    },
+    {
+      "start": 1540.9,
+      "end": 1555.2,
+      "speaker": "A",
+      "text": "The Democrats need a candidate, a type of candidate who can win in red states. Rob Sand is interesting because it seems people have identified him as possibly that thing, possibly that template. What do you think?"
+    },
+    {
+      "start": 1555.2,
+      "end": 1605.6,
+      "speaker": "M",
+      "text": "I don't know how easy it would be to replicate Rob Sand. He grew up in a small town. He grew up hunting and fishing. He talks about his faith. I don't know that everybody would be able to pull that off so naturally. But sometimes when people ask me, well, what happened to Iowa? Iowa. It's not anything specific to Iowa. It's every part of the country that looks like Iowa has seen the same trend of Democrats losing ground. It's the same reason Trump was able to win the states that used to be called the Big Blue Wall— the Michigan, Wisconsin, and Pennsylvania. It's the same reason Ohio has moved into the red state category. So I think people are watching Iowa, especially Rob Sand and Josh Turek, the candidate for Senate, because if Democrats can find a way to turn things around in those types of areas, the working-class community, that are predominantly white, there could be lessons that apply to other states."
+    },
+    {
+      "start": 1610.6,
+      "end": 1656.9,
+      "speaker": "A",
+      "text": "Laura Belin is publisher of the Iowa political website Bleeding Heartland and a political reporter for KHOI Community Radio in Ames. Today's show was produced by Peter Ballenon-Rosen and edited by Julie Myers. Our engineers are David Tadashore and Bridger Dunnigan. Gabriel Dunisov checked the facts. The rest of the team includes Hadi Muagdi, Miles Bryan, Patrick Boyd, Danielle Hewitt, Kelly Wessinger, Ariana Espuru, Dustin DeSoto, Janice Guerra, and Sean Ramisfirm. Our supervising management: Avishai Arzi, Amina El-Sadi, Miranda Kennedy. We use music by Breakmaster Cylinder. Today Explained is distributed by WNYC, and the show is part of the Vox Media Podcast Network. For more podcasts, you can visit podcast.voxmedia.com, and you can listen ad-free by signing signing up to become a member. Vox.com/members."
+    },
+    {
+      "start": 1680.4,
+      "end": 1709.3,
+      "speaker": "Q",
+      "text": "Fall is the perfect time to refresh and reorganize your space. At The Home Depot, find power tools and tool sets starting at $50 to help tackle DIY projects, home updates, and more. Whether you're drilling brackets to support new shelving or sharpening your hedge trimmer blade with an angle grinder, The Home Depot has the tools you need to check projects off your list. Shop Labor Day savings at The Home Depot. And gear up for fall projects with the right tools to keep your projects moving."
+    },
+    {
+      "start": 1710.1,
+      "end": 1739.3,
+      "speaker": "L",
+      "text": "With summer coming to an end, you're going to be spending more time indoors. Get your home ready and save up to 50% off custom window treatments during the Labor Day Mega Sale at Blinds.com. From room darkening to light filtering shades, finding the perfect fit is easy. Get free samples, expert design help, and professional measure and install services, or DIY with confidence in support every step of the way. Shop up to 50% off sitewide plus huge savings on doorbusters right now during the Labor Day Mega Sale at blinds.com."
+    }
+  ]
+}

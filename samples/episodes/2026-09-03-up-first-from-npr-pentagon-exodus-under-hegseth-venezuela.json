@@ -1,0 +1,450 @@
+{
+  "episode": {
+    "id": "a0898776c080b0458e3dfcf24c5dfee02b378c0920c7a916806c2e1a9d435a37",
+    "podcastTitle": "Up First from NPR",
+    "feedUrl": "https://feeds.npr.org/510318/podcast.xml",
+    "guid": "d82b88e6-7512-45d7-8145-6b61a2d51872",
+    "title": "Pentagon Exodus Under Hegseth, Venezuela Oil and Democracy, Clancy Trial Deadlocked",
+    "description": "The Pentagon is losing experienced leaders under Defense Secretary Pete Hegseth, raising concerns about depleted weapons stockpiles and the military’s ability to manage a prolonged war with Iran.<br>President Trump says Venezuela isn't ready for elections, while his Energy Secretary signs new oil deals in Caracas with the unelected government.<br>In Massachusetts, jurors in the Lindsay Clancy trial told the judge they are deadlocked after five days of deliberations, raising the possibility of a mistrial in the case of a mother accused of killing her three children.<br/><br/><em>Want more analysis of the most important news of the day, plus a little fun? </em><a href=\"https://www.npr.org/newsletter/news\"target=\"_blank\"   >Subscribe</a><em> to the Up First newsletter.<br></em><br>Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at <a href=\"http://plus.npr.org/\"target=\"_blank\"   >plus.npr.org</a>.<br/><br/>Today’s episode of Up First was edited by Andrew Sussman, Tara Neill, Carmel Wroth, Mohamad ElBardicy, and Alice Woelfle.<br/><br/>It was produced by Ziad Buchh and Nia Dumas. <br/><br/>Our director is Christopher Thomas.<br/><br/>We get engineering support from Neisha Heinis and Patrick Murray. Our technical director is Carleigh Strange.<br/><br/>And our deputy Executive Producer is Kelley Dickens.<br/><br/>(0:00) Introduction<br>(01:57) Pentagon Exodus Under Hegseth<br>(05:41) Venezuela Oil and Democracy<br>(09:23) Clancy Trial Deadlocked<br/><br/>See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for sponsorship and to manage your podcast sponsorship preferences.<br/><br/><a href=\"https://www.npr.org/about-npr/179878450/privacy-policy\">NPR Privacy Policy</a>",
+    "pubDate": "2026-09-03T10:20:12.000Z",
+    "duration": 820,
+    "audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/ebf6c5e2-b488-4f35-a9e5-b14fda5cc7ce/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=ebf6c5e2-b488-4f35-a9e5-b14fda5cc7ce&feed=HMwRVgVt&t=podcast&e=nx-s1-5955302&p=510318&d=820&size=13130649",
+    "artworkUrl": null
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 943,
+    "utteranceCount": 65
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:37:19.670Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Today's Headlines Previewed",
+      "description": "Steve and Michele tease the three major stories: Pentagon leadership chaos, Venezuela oil deals, and the deadlocked Clancy jury.",
+      "startTime": 2.442,
+      "endTime": 116.557,
+      "anchorPhrase": "how much brainpower and experience is leaving the u.s. military? defense secretary pete hegseth dismissed"
+    },
+    {
+      "index": 1,
+      "title": "Hegseth's Purge Hollows Military",
+      "description": "NPR's Quil Lawrence breaks down the wave of general officer firings, the Army secretary's resignation, and what it means for ongoing operations in Iran.",
+      "startTime": 116.557,
+      "endTime": 340.6,
+      "anchorPhrase": "the u.s. military has been taking fire from within. defense secretary pete hegseth has dismissed"
+    },
+    {
+      "index": 2,
+      "title": "Oil Deals Over Democracy",
+      "description": "Reporter John Otis explains how the Trump administration is signing major energy agreements with Venezuela's authoritarian acting government while casting doubt on new elections.",
+      "startTime": 340.6,
+      "endTime": 562.814,
+      "anchorPhrase": "the trump administration is celebrating more agreements to give the u.s. access to venezuelan oil."
+    },
+    {
+      "index": 3,
+      "title": "Clancy Jury on the Brink",
+      "description": "WBUR's Deborah Becker reports on five days of deadlocked deliberations, the judge's last-ditch instructions, and the looming possibility of a mistrial in the postpartum psychosis case.",
+      "startTime": 562.814,
+      "endTime": 943,
+      "anchorPhrase": "in massachusetts, a jury is deadlocked in the murder trial of lindsay clancy. clancy is"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 2.4,
+      "end": 6.1,
+      "speaker": "A",
+      "text": "How much brainpower and experience is leaving the U.S. military?"
+    },
+    {
+      "start": 6.2,
+      "end": 15.8,
+      "speaker": "B",
+      "text": "Defense Secretary Pete Hegseth dismissed many officers. The Army secretary who defended some also resigned. We have an assessment of the military taking fire from within."
+    },
+    {
+      "start": 15.9,
+      "end": 25.4,
+      "speaker": "A",
+      "text": "I'm Michele Martin. That's Steve Inskeep. And this is Up First from NPR News. President Trump casts doubt on elections in Venezuela."
+    },
+    {
+      "start": 25.6,
+      "end": 30.5,
+      "speaker": "C",
+      "text": "I just don't think they're ready yet. You know, it's very— New. We took them out of a dictatorship."
+    },
+    {
+      "start": 30.7,
+      "end": 37.2,
+      "speaker": "A",
+      "text": "His Energy Secretary Chris Wright was in Caracas signing oil deals with that same regime. Is Trump choosing oil over democracy?"
+    },
+    {
+      "start": 37.5,
+      "end": 50.6,
+      "speaker": "B",
+      "text": "Also, the judge told a deadlocked jury to keep trying to decide the fate of Lindsay Clancy. Her lawyers contend that postpartum psychosis was behind the killing of her 3 children. Stay with us, we've got the news you need to start your day."
+    },
+    {
+      "start": 57.2,
+      "end": 71.5,
+      "speaker": "D",
+      "text": "This message comes from Saatva. Big days require deep, restorative sleep the night before, the kind of sleep Saatva mattresses are designed for. And now save up to $625 on $1,000 or more at saatva.com/NPR."
+    },
+    {
+      "start": 72.4,
+      "end": 87,
+      "speaker": "E",
+      "text": "This message comes from NPR sponsor Carvana. Carvana makes car buying easy, 100% online, prices down to the penny, delivered to your door. Why make car buying hard when it could be easy? Visit carvana.com today. Terms may apply."
+    },
+    {
+      "start": 87.9,
+      "end": 115.6,
+      "speaker": "D",
+      "text": "Support for NPR and the following message come from Rippling. Your sales team is at risk of missing quota. Don't panic. Just ask Rippling AI. Built on your real-time people and business data, Rippling AI instantly pulls metrics from Rippling and your CRM into a meeting-ready dashboard so you can see what's behind your quota risk and fix it before it's missed. Head to rippling.ai/first to get an AI built to give you full visibility and take complex actions across your business."
+    },
+    {
+      "start": 116.6,
+      "end": 119.3,
+      "speaker": "B",
+      "text": "The U.S. military has been taking fire from within."
+    },
+    {
+      "start": 119.7,
+      "end": 143,
+      "speaker": "A",
+      "text": "Defense Secretary Pete Hegseth has dismissed a stream of senior officers since the early days of the Trump administration. The dismissals began with the president's top military adviser, the chairman of the Joint Chiefs of Staff. They include many officers who are women or Black and people of all backgrounds with deep combat experience. This week, the secretary of the Army resigned, an official appointed by President Trump who had defended many of the officers."
+    },
+    {
+      "start": 143.1,
+      "end": 146.9,
+      "speaker": "B",
+      "text": "NPR's Quil Lawrence has been following all of this and has an assessment. Quil, good morning."
+    },
+    {
+      "start": 147.3,
+      "end": 147.6,
+      "speaker": "F",
+      "text": "Good morning."
+    },
+    {
+      "start": 147.7,
+      "end": 149,
+      "speaker": "B",
+      "text": "What's driving all the departures?"
+    },
+    {
+      "start": 149.8,
+      "end": 187.9,
+      "speaker": "F",
+      "text": "Hegseth hasn't offered explanations publicly for any of these firings. He has said separately that he's ridding the military of DEI hires and woke. The Army's top civilian leader, Dan Driscoll, also appointed by President Trump, resigned this week. And this has been a long time coming. Driscoll's close with Vice President JD Vance. Both are Iraq vets. They met at Yale Law School. And that may be part of why he was so prominent in the first months of this administration. But when Defense Secretary Pete Hegseth accidentally leaked US battle details to a journalist— SignalGate— there was speculation that Driscoll might replace him, and the tension has been building really ever since."
+    },
+    {
+      "start": 188.1,
+      "end": 195.6,
+      "speaker": "B",
+      "text": "Okay, so there might have been this sort of personal tension, but was Driscoll also defending the uniformed services against Hegseth?"
+    },
+    {
+      "start": 196.2,
+      "end": 253.8,
+      "speaker": "F",
+      "text": "We know of a couple of cases where that went public. It may have been in many more cases, but Hegseth has sacked more than 10 generals. He's also been quite unusually reaching down into the promotion lists to effectively end the careers of people who had already been carefully vetted. Many of those people have been Black or female officers or generals who were just— seemed to be tainted merely by serving with distinction under the Biden administration. I've reached out to Driscoll. I haven't heard back from him, but at least in one congressional hearing, he went to bat for a general who'd been removed. And we know from a person close to Driscoll who wasn't authorized to speak publicly that Driscoll did have a final meeting with President Trump where he told him that Hegseth's arbitrary firings are making it harder to modernize the military because really good people are getting fired and it's hollowing out the senior ranks. And he also told Trump that the US is losing the Iran war, that the war is draining the US stockpiles of missiles, and then Driscoll handed in his resignation."
+    },
+    {
+      "start": 254,
+      "end": 258.8,
+      "speaker": "B",
+      "text": "I'm glad you mentioned the war with Iran. What do all these personnel changes mean for ongoing operations?"
+    },
+    {
+      "start": 259.4,
+      "end": 329.1,
+      "speaker": "F",
+      "text": "Yeah, like you say, this is happening while the country is at war. And besides Iran, the administration is marking a year now since it started simply simply blowing up boats that are coming from South America on the suspicion that they're carrying drugs, killing the sometimes unarmed people on board with no trial, no warning. Admiral Alvin Halsey was the head of SOUTHCOM, Southern Command, a year ago when these boat strikes began, and he resigned about 2 years before his term was up. Halsey was among a tiny number of black flag officers. He's never spoken publicly about why he resigned, but now the administration was saying that this year of boat strikes has reduced the amount of drugs entering the U.S. They haven't offered evidence to support that, but it's worth noting that these strikes started as part of a buildup that toppled Venezuelan leader Nicolás Maduro. That operation was almost too quick to even call it a war, but a number of senior former military officials have said they think that President Trump came away from that thinking that everything always goes to plan and wars and regime changes, uh, can be easy. And now the war in Iran is into its 7th month, and there's a lot of turmoil within the ranks of the U.S. military."
+    },
+    {
+      "start": 329.5,
+      "end": 331.5,
+      "speaker": "B",
+      "text": "NPR's Quill Lawrence, thanks so much. Really appreciate it."
+    },
+    {
+      "start": 331.8,
+      "end": 332.1,
+      "speaker": "F",
+      "text": "Thank you."
+    },
+    {
+      "start": 340.6,
+      "end": 345.8,
+      "speaker": "B",
+      "text": "The Trump administration is celebrating more agreements to give the U.S. access to Venezuelan oil."
+    },
+    {
+      "start": 346.1,
+      "end": 354.4,
+      "speaker": "A",
+      "text": "Energy Secretary Chris Wright was in Venezuela's capital, Caracas, on Wednesday. He appeared with Acting President Delcy Rodríguez to announce new energy deals."
+    },
+    {
+      "start": 354.7,
+      "end": 365,
+      "speaker": "G",
+      "text": "Today is a historic day in the transformation of Venezuela and the expansion of the possibilities for the Venezuelan people."
+    },
+    {
+      "start": 365.5,
+      "end": 376.7,
+      "speaker": "A",
+      "text": "The agreements come with the same authoritarian government that the U.S. once opposed. American troops captured Rodríguez's predecessor, Nicolás Maduro, but if the new boss is the same as the old boss, what does that mean for democracy?"
+    },
+    {
+      "start": 377.1,
+      "end": 380.4,
+      "speaker": "B",
+      "text": "Reporter John Onis is following this from neighboring Colombia. John, good morning."
+    },
+    {
+      "start": 380.7,
+      "end": 381.3,
+      "speaker": "G",
+      "text": "Good morning, Steve."
+    },
+    {
+      "start": 381.5,
+      "end": 382.8,
+      "speaker": "B",
+      "text": "How do these energy agreements work?"
+    },
+    {
+      "start": 383.4,
+      "end": 399.5,
+      "speaker": "G",
+      "text": "Well, under the first agreement that was announced by Trump last Friday, the US government will partner with Venezuela's second-largest private oil company. The White House says this will give the US majority control of more than 65 billion barrels of Venezuelan oil."
+    },
+    {
+      "start": 399.7,
+      "end": 399.8,
+      "speaker": "A",
+      "text": "Hmm."
+    },
+    {
+      "start": 400.2,
+      "end": 438.2,
+      "speaker": "G",
+      "text": "Now, this is unusual because the US government itself hasn't been directly involved in oil production since World War II. However, private companies had been wary of Venezuela, so this was widely seen as the Trump administration trying trying to get the investment ball rolling. The one big U.S. firm that answered Trump's call is Chevron. So in a separate agreement, Chevron CEO, who was also in Caracas yesterday, pledged along with partners to invest $7 billion over the next 5 years. He said that would double the company's output in Venezuela to about 500,000 barrels per day."
+    },
+    {
+      "start": 438.4,
+      "end": 442.6,
+      "speaker": "B",
+      "text": "What are Venezuelans saying about the United States going more fully into the oil business?"
+    },
+    {
+      "start": 443.6,
+      "end": 498.2,
+      "speaker": "G",
+      "text": "Well, oil is a very emotional issue in Venezuela because it makes up more than 90% of its export income. And during its socialist revolution, the government forced out some foreign oil companies. In fact, I was in Venezuela back in 2007 when then-President Hugo Chávez nationalized US-operated oil fields. There were these huge crowds dressed in revolutionary red t-shirts and they were cheering him on. And so that's why for a lot of people now, it's really quite jarring to see to see their current president cozying up to Trump and to Chevron. Now, critics claim that new oil deals are the result of Trump's gunboat diplomacy after removing Maduro and are therefore unconstitutional. But others say Venezuela needs the foreign investment. The oil industry is in terrible shape and is pumping just one-third of what was produced back in the 1990s."
+    },
+    {
+      "start": 498.3,
+      "end": 502.1,
+      "speaker": "B",
+      "text": "What does all of this mean for the effort to promote democracy in Venezuela?"
+    },
+    {
+      "start": 503.2,
+      "end": 529.9,
+      "speaker": "G",
+      "text": "Well, the Trump administration is sponsoring talks between the Rodriguez government and the political opposition, which is pushing for free elections. Remember, Rodriguez was Nicolás Maduro's vice president, and she was fully supportive of his repressive regime. In fact, her government still holds more than 300 political prisoners. But when he was asked at the White House on Wednesday about new elections for Venezuela, Trump was skeptical."
+    },
+    {
+      "start": 530.3,
+      "end": 541.2,
+      "speaker": "C",
+      "text": "I just don't think they're ready yet. You know, it's very new. We took them out of a dictatorship and we're getting along great with the government. Delsi, as you know, is doing a very, very good job, very highly respected."
+    },
+    {
+      "start": 541.9,
+      "end": 554.3,
+      "speaker": "G",
+      "text": "Now, for democracy activists, such statements show that Trump doesn't really care about a democratic transition, that he'd vastly prefer dealing with the compliant Rodriguez rather than a more independent president."
+    },
+    {
+      "start": 554.4,
+      "end": 555.9,
+      "speaker": "B",
+      "text": "John Otis in Colombia, thanks so much."
+    },
+    {
+      "start": 556.3,
+      "end": 558.9,
+      "speaker": "F",
+      "text": "Thank you."
+    },
+    {
+      "start": 562.8,
+      "end": 566.9,
+      "speaker": "B",
+      "text": "In Massachusetts, a jury is deadlocked in the murder trial of Lindsay Clancy."
+    },
+    {
+      "start": 567.2,
+      "end": 585.4,
+      "speaker": "A",
+      "text": "Clancy is standing trial for killing her 3 children in 2023. Her defense has never denied that but says her actions were caused by serious postpartum psychosis. Jurors told the judge twice they could not reach a unanimous decision, but the judge told them to keep going. This raises the possibility that this high-profile case could end in a mistrial."
+    },
+    {
+      "start": 585.5,
+      "end": 591.8,
+      "speaker": "B",
+      "text": "Deborah Becker from member station WBUr has been covering this trial and joins us to talk about this. Good morning."
+    },
+    {
+      "start": 592.4,
+      "end": 592.8,
+      "speaker": "H",
+      "text": "Good morning."
+    },
+    {
+      "start": 593.1,
+      "end": 598.5,
+      "speaker": "B",
+      "text": "Uh, what is happening to try to move the jury along in this rather complicated case?"
+    },
+    {
+      "start": 599.4,
+      "end": 623.4,
+      "speaker": "H",
+      "text": "Well, yesterday was the 5th day of deliberation, still no verdict, so the judge took the step of issuing formal instructions telling the jurors to keep trying. This is a legal procedure called Tui Rodriguez instructions in Massachusetts, and it's designed basically to break an impasse. Judge William Sullivan told the jurors that they know the case best and should try to reach consensus."
+    },
+    {
+      "start": 623.8,
+      "end": 634.8,
+      "speaker": "C",
+      "text": "There is no reason to suppose that the case will ever be submitted to 12 persons more intelligent, more impartial, or more competent to decide it."
+    },
+    {
+      "start": 635.5,
+      "end": 644.1,
+      "speaker": "H",
+      "text": "These are sort of a final step before a mistrial might be declared, and that's according to John Thompson, a criminal defense attorney who's not involved in this case."
+    },
+    {
+      "start": 644.6,
+      "end": 648.5,
+      "speaker": "C",
+      "text": "It's the last-ditch effort to salvage a verdict out of the trial."
+    },
+    {
+      "start": 648.7,
+      "end": 652.8,
+      "speaker": "B",
+      "text": "So the judge is reassuring them, you are the people who can do this. But what if they still can't agree?"
+    },
+    {
+      "start": 653.6,
+      "end": 669.8,
+      "speaker": "H",
+      "text": "Well, they've deliberated almost 30 hours so far. If they remain deadlocked today, the judge could then declare a mistrial. Attorney Thompson has dealt with cases like this and says it's a toss-up really as to whether jurors do come back with a verdict or remain divided."
+    },
+    {
+      "start": 670.1,
+      "end": 678.6,
+      "speaker": "C",
+      "text": "As a group, they have to be unanimously persuaded to come to the same decision. So that's a hard thing to do, especially in a case like this."
+    },
+    {
+      "start": 679,
+      "end": 707.4,
+      "speaker": "H",
+      "text": "Clancy's attorneys argued the insanity defense, saying that she acted in the grips of postpartum psychosis. So this whole trial essentially has been a debate about her mental state. The jury's heard complex and sometimes bewildering testimony. Prosecutors say Clancy rationally planned to kill her children. They reminded the jury of many of the horrific details of the children's violent deaths and they worked to convince them that she was sane."
+    },
+    {
+      "start": 707.6,
+      "end": 710.1,
+      "speaker": "B",
+      "text": "What if we do get to the point of a mistrial? What happens then?"
+    },
+    {
+      "start": 711,
+      "end": 725.5,
+      "speaker": "H",
+      "text": "Then it's up to the district attorney to decide whether to retry the case. The DA isn't commenting on that at the moment, but Clancy's attorney, Kevin Reddington, told reporters outside court yesterday that he's prepared to defend her again if need be."
+    },
+    {
+      "start": 725.7,
+      "end": 733.8,
+      "speaker": "C",
+      "text": "Yeah, I'm going to ask the judge. I have some motions to file. If they come back with a verdict, we'll see what it is. If they don't I'm ready to try it next week."
+    },
+    {
+      "start": 734,
+      "end": 736.9,
+      "speaker": "B",
+      "text": "What's it like to be around the courthouse as everybody waits and waits?"
+    },
+    {
+      "start": 737.7,
+      "end": 759.1,
+      "speaker": "H",
+      "text": "Yeah, it's very tense. Several jury members appeared to be really tired. Clancy's family members have been here throughout the trial. They also look wiped out. And after the judge read those instructions, Clancy's attorney put his hand on her shoulder and she leaned against him. Legal experts expect that we will likely know the outcome of this case later today."
+    },
+    {
+      "start": 759.4,
+      "end": 771.3,
+      "speaker": "B",
+      "text": "It seems to me, Deborah, that the jury members are not the only people in the world who are really struggling with this idea of postpartum psychosis and a defendant who doesn't deny on some level that she did it."
+    },
+    {
+      "start": 771.8,
+      "end": 819,
+      "speaker": "H",
+      "text": "Right. Yeah, it— there's a really divided atmosphere in court and certainly online. There are dozens of media outlets here from around the world, and sometimes court is almost circus-like. At times. There are so many spectators here as well. This case really has resonated with a lot of people. I've spoken with several who shared their own postpartum experiences and frustrations with being heard and properly diagnosed by mental health providers. During this trial, we heard about Clancy's repeated attempts to get help. She went to several clinicians, she was prescribed multiple medications, and many say this case really spotlights the difficulties in getting good mental health care, especially for new moms."
+    },
+    {
+      "start": 819.3,
+      "end": 822.1,
+      "speaker": "B",
+      "text": "OK, Deb Becker from WBUR, thanks for the insights."
+    },
+    {
+      "start": 822.7,
+      "end": 823,
+      "speaker": "H",
+      "text": "You're welcome."
+    },
+    {
+      "start": 823.4,
+      "end": 839.5,
+      "speaker": "B",
+      "text": "And if you or someone you know is in crisis or you're thinking about hurting yourself, you can call or text the Suicide and Crisis Lifeline, 988. And that's Up First for this Thursday, September 3rd. I'm Steve Inskeep."
+    },
+    {
+      "start": 839.6,
+      "end": 859.9,
+      "speaker": "A",
+      "text": "And I'm Michele Martin. Today's episode of Up First was edited by Andrew Sussman, Tara Neal, Carmel Roth, Mohammed Elbardisi, and Alice Wolfley. It was produced by Ziad Butch Ania Dumas. Our director is Christopher Thomas. We get engineering support from Nisha Hynes and Patrick Murray. Our technical director is Carly Strange, and our deputy executive producer is Kelly Dickens. We hope you'll join us again tomorrow."
+    },
+    {
+      "start": 880.4,
+      "end": 908.2,
+      "speaker": "E",
+      "text": "This message comes from Designer Shoe Warehouse. You know that feeling when you find shoes you love at a great price and want to tell everyone about it? Find something to brag about at Designer Shoe Warehouse. Like the latest styles from brands you love, the trends everyone's obsessing over, and shoes that make you feel like you. Head to a DSW store or DSW.com today for shoes that get you at prices that get your budget. DSW, let us surprise you."
+    },
+    {
+      "start": 909.4,
+      "end": 941.2,
+      "speaker": "D",
+      "text": "This message comes from Kachava. When adulting gets hard, it's easy to long for simpler times, like enjoying Saturday morning cartoons and savoring every last drop of sugary milk at the bottom of your cereal bowl. Well, Kachava's new Cinnamon French Toast All-in-One Nutrition Shake gives you all the nostalgic feels and benefits. Treat yourself to a childhood favorite. Go to kachava.com and use code NPR for 15% off your first order. That's K-A-C-H-A-V-A dot com, code NPR."
+    }
+  ]
+}

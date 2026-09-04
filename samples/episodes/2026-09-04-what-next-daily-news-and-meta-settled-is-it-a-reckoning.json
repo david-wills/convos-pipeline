@@ -1,0 +1,452 @@
+{
+  "episode": {
+    "id": "17659ef64c81fabfc480b286ad9529eb834969e122c34acc82a4c40514aaf2a8",
+    "podcastTitle": "What Next | Daily News and Analysis",
+    "feedUrl": "https://my.slate.com/podcasts/feeds/what-next/",
+    "guid": "1000787697092",
+    "title": "Meta Settled. Is it a \"Reckoning?\"",
+    "description": "<p>Does Meta’s $17 billion (give or take) settlement address people’s concerns about social media and its impact on teenagers… or is it already too late?</p><br><p>Guest: <a href=\"https://www.wired.com/author/paresh-dave/\" rel=\"noopener noreferrer\" target=\"_blank\">Paresh Dave</a>, senior writer for WIRED.</p><br><p>Want more What Next TBD? Subscribe to Slate Plus to access ad-free listening to the whole What Next family and across all your favorite Slate podcasts. Subscribe today on Apple Podcasts by clicking “Try Free” at the top of our show page. Sign up now at<a href=\"http://slate.com/whatnextplus\" rel=\"noopener noreferrer\" target=\"_blank\"> slate.com/whatnextplus</a> to get access wherever you listen.</p><br><p>Podcast production by Evan Campbell, Madeline Thames-Ducharme and Patrick Fort.</p><br><p>Paige Osburn is the senior supervising producer of What Next and What Next TBD.</p><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>",
+    "pubDate": "2026-09-04T07:00:00.000Z",
+    "duration": 1654,
+    "audioUrl": "https://sphinx.acast.com/p/open/s/69612d9223ce58f14619a8f6/a/whatnext-podcasts/e/6a99b5a1d54ec94380e2809b/media.mp3",
+    "artworkUrl": "https://assets.pippa.io/shows/69612d9223ce58f14619a8f6/1788458265846-12e96c4e-3adc-4b8d-ac84-e341f1d419e0.jpeg"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 2124,
+    "utteranceCount": 60
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:16.325Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Meta's $17 Billion Settlement Explained",
+      "description": "Journalist Paresh Dave breaks down what Meta agreed to pay and why they're now pressuring TikTok and YouTube to follow suit.",
+      "startTime": 0.352,
+      "endTime": 427.863,
+      "anchorPhrase": "this episode is brought to you by capital one. capital one's tech team isn't just"
+    },
+    {
+      "index": 1,
+      "title": "New Rules for Teen Accounts",
+      "description": "The settlement mandates time limits, content filters, and parental controls — but many protections are optional and easy to ignore.",
+      "startTime": 427.863,
+      "endTime": 627.22,
+      "anchorPhrase": "let's take a step back a bit. so there is this settlement. it's a pretty"
+    },
+    {
+      "index": 2,
+      "title": "Will Any of This Actually Work?",
+      "description": "Low adoption rates for existing safety features raise serious doubts about whether these new protections will change teen behavior.",
+      "startTime": 627.22,
+      "endTime": 806.703,
+      "anchorPhrase": "paresh, one of the reasons i wanted to talk to you was that, you know,"
+    },
+    {
+      "index": 3,
+      "title": "The Age Verification Problem",
+      "description": "Verifying that teens are actually teens requires layers of surveillance that privacy advocates warn will enshrine harmful data collection into law.",
+      "startTime": 806.703,
+      "endTime": 1155.846,
+      "anchorPhrase": "it's layers. so the first thing is they're hoping people sign up with their real"
+    },
+    {
+      "index": 4,
+      "title": "Is $17 Billion Enough?",
+      "description": "The settlement sounds massive, but Meta earns that much in a quarter — and Florida is refusing to settle, betting it can squeeze more.",
+      "startTime": 1155.846,
+      "endTime": 1463.505,
+      "anchorPhrase": "let's talk about the money here. so the number seems to kind of slide around,"
+    },
+    {
+      "index": 5,
+      "title": "Why TikTok and YouTube Should Settle",
+      "description": "Billions of the settlement are conditional on competitors joining, and there are real business incentives for them to agree.",
+      "startTime": 1463.505,
+      "endTime": 1598.36,
+      "anchorPhrase": "part of this settlement deal is that meta will only pay like billion over years."
+    },
+    {
+      "index": 6,
+      "title": "Fighting the Last War",
+      "description": "The settlement ignores the rise of AI chatbots, which are already posing new mental health risks to teens that no one is regulating.",
+      "startTime": 1598.36,
+      "endTime": 1706.599,
+      "anchorPhrase": "well, one thing that this settlement doesn't really contemplate is the world of ai chatbots"
+    },
+    {
+      "index": 7,
+      "title": "The Big Tobacco Comparison",
+      "description": "Australia's social media ban already shows teens find workarounds, and Meta's core incentives remain unchanged even after the settlement.",
+      "startTime": 1706.599,
+      "endTime": 2124,
+      "anchorPhrase": "last year, australia tried to ban social media for kids under did ban it. but"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.4,
+      "end": 29.2,
+      "speaker": "A",
+      "text": "This episode is brought to you by Capital One. Capital One's tech team isn't just talking about multi-agentic AI, they already deployed one. It's called Chat Concierge, and it's simplifying car shopping using self-reflection and layered reasoning with live API checks. It doesn't just help buyers find a car they love, it helps schedule a test drive, get pre-approved for financing, and estimate trade-in value. Advanced, intuitive, and deployed. That's how they stack. That's technology at Capital One."
+    },
+    {
+      "start": 31.8,
+      "end": 100.8,
+      "speaker": "B",
+      "text": "This episode is brought to you by Abord. Abord doesn't put AI in charge, it puts it to work. Abord is a solution engineering firm. It doesn't just deploy agents or vibe code prototypes. It builds platforms with a veteran team of engineers using its proprietary project management system, Cadence. Then it builds and ships custom enterprise-grade software. Often in weeks rather than months. It's how they've delivered production platforms across insurance, B2B data, and mission-driven healthcare for organizations like SageSherp, Outsell, and Make an Impact. They've been building software for decades, and while this world is changing fast, they know that even if code keeps getting easier, building good products is still hard. That's why you need a team that knows the right software to build and how to move your business stack into the future with wisdom and forethought. Find out how Aboard can put AI to work for you. Get in touch at aboard.com and see what you can build together. Have you seen Meta's ads that they've been putting out in big newspapers across the country?"
+    },
+    {
+      "start": 101,
+      "end": 107.4,
+      "speaker": "C",
+      "text": "Correct. Uh, urging, uh, TikTok and YouTube to agree to some of the same conditions that they have."
+    },
+    {
+      "start": 108,
+      "end": 132.3,
+      "speaker": "B",
+      "text": "Presh Dhiveh covered Meta's big social media addiction trial for Wired. That case just settled for roughly $17 billion. Meta agreed to pay a consortium of some 47 states over the next decade. Now Meta's ads are urging its competitors to, quote, \"Join us in supporting teens,\" which is company speak for please also settle."
+    },
+    {
+      "start": 133.3,
+      "end": 155.3,
+      "speaker": "C",
+      "text": "And the idea is that if everyone's on board, then teenagers don't have the option to go say jump from Instagram to TikTok when they hit their daily time limit on Instagram. If there's a sort of equal conditions everywhere, teens may actually go back to doing their homework, perhaps. God forbid."
+    },
+    {
+      "start": 156.6,
+      "end": 162.9,
+      "speaker": "B",
+      "text": "In the settlement, which did not admit liability, Meta agreed to some conditions like time limits on its apps."
+    },
+    {
+      "start": 163.8,
+      "end": 212.5,
+      "speaker": "C",
+      "text": "Meta's argument is that it does not want to be at a competitive disadvantage to TikTok, to YouTube, to Snapchat. If teens are, you know, spending 2 hours on Instagram, then hitting their daily time limit and then unable to use Instagram, well, then they're going to probably try to seek out another social media app. Perhaps they might go to TikTok and spend hours endlessly scrolling TikTok. In the end, that's bad for Meta's business because teens might just turn off Instagram use altogether if they feel like it's too restrictive and spend more and more time on TikTok. And so having these baseline protections, Meta argues, would sort of maintain competition in the social media industry, which is something that these regulators, attorneys general, have to balance."
+    },
+    {
+      "start": 213.2,
+      "end": 216.7,
+      "speaker": "B",
+      "text": "Not entirely unlike a parent trying to figure out screen time."
+    },
+    {
+      "start": 217.4,
+      "end": 229.9,
+      "speaker": "C",
+      "text": "They're balancing privacy, they're balancing free expression, they're balancing competition. And also trying to protect teens from the harmful effects of social media."
+    },
+    {
+      "start": 230.9,
+      "end": 390.8,
+      "speaker": "B",
+      "text": "Today on the show, Meta settled, but is this really a social media reckoning? I'm Lizzie O'Leary, and this is What Next TBD, a show about technology, power, and how the future will be determined. Stick around. Starting your own business is never easy. Starting your own podcast, that seems easy, but actually there are a ton of landmines to step on along the way. Finding producers, selling ads, and connecting to Wi-Fi. Oh, does that sound straightforward? It's not. I'm talking about sitting in coffee houses for hours after buying one scone. I'm talking about sitting in hotel lobbies and pretending your backpack is luggage. It's torture. I spent so much time making my home office look professional, but my connection didn't get the memo. The last thing you want during a major interview is for your guest's voice to turn into a stutter. When your bandwidth can't keep up with your ambition, your home office starts feeling like an amateur operation pretty fast. And for a podcast, the internet is key because the internet is how we talk to almost everyone. And no matter the guest, a laggy connection can ruin an exclusive interview. Great connectivity isn't a bonus. It's the whole game. And AT&T Business is here to help. They've got the tools, team, and expertise you need for a stable network you can rely on. And when you can rely on the network, you can get back to thinking about the more important stuff, like nabbing that great guest and getting back to work. AT&T Business. Built to work. Get AT&T Business at business.att.com. This episode is sponsored by HeyGen. HeyGen turns a script, photo, or presentation into a polished video of you in minutes, no camera or crew required. It's how real estate agents, financial advisors, attorneys, and creators show up consistently on every feed and build a brand that brings in clients without spending their whole week making content. Rated the number 1 AI video platform for small businesses on G2 with the most realistic AI avatars in the industry. Over 30 million people use use HeyGen, including 85% of the Fortune 100. It's built to work in over 175 languages so you can reach your audience wherever they are. Here's the wild part. Record yourself for just 15 seconds and HeyGen builds an AI avatar that makes professional videos for you on demand. So you can post everywhere your audience is as yourself without filming every time. Your first 3 videos are free at heygen.com/pod. That's heygen.com/pod."
+    },
+    {
+      "start": 393.7,
+      "end": 422.5,
+      "speaker": "A",
+      "text": "This episode is brought to you by Capital One. Capital One's tech team isn't just talking about multi-agentic AI, they already deployed one. It's called Chat Concierge, and it's simplifying car shopping using self-reflection and layered reasoning with live API checks. It doesn't just help buyers find a car they love, it helps schedule a test drive, Get pre-approved for financing and estimate trade-in value. Advanced, intuitive, and deployed. That's how they stack. That's technology at Capital One."
+    },
+    {
+      "start": 427.9,
+      "end": 438.6,
+      "speaker": "B",
+      "text": "Let's take a step back a bit. So there is this settlement. It's a pretty historic deal. It required new safety features on Instagram and Facebook. Can you walk me through them?"
+    },
+    {
+      "start": 439.5,
+      "end": 522.6,
+      "speaker": "C",
+      "text": "Yeah, so that main one is a 2-hour daily time limit across Instagram and Facebook, mandatory breaks if you're using Instagram or Facebook in one particular session for too long, content filters, you know, extreme makeover filters will no longer be allowed for teens. There are, several parental supervision controls that will now be mandatory. So if you have a Finsta or kind of like a surreptitious backup Instagram account and you link it to your main Instagram account as a teenager, your parents will now be aware of that. Parents will also get periodic reports about how their children are using Instagram or Facebook. But in reality, we know teens are mostly using Instagram, not so much Facebook. And so those are some of the mandatory things. And there are also some optional features like teens will be able to have autoplay turned off on videos so that they don't automatically turn on. And they'll have the option of a non-algorithmic feed to, you know, perhaps not be hooked as soon as they open the app. They might see a more boring piece of content and therefore not want to engage in that moment with Instagram."
+    },
+    {
+      "start": 524,
+      "end": 546.1,
+      "speaker": "B",
+      "text": "You know, some of these things are forced and some of them are opt-in, the non-algorithmic feed, the autoplay stuff. It strikes me that opt-in and turn off, like, you know, you have to do that. Teens are pretty good at ignoring that kind of stuff. Is there any penalty for Meta if teens just don't opt in?"
+    },
+    {
+      "start": 547.5,
+      "end": 624.9,
+      "speaker": "C",
+      "text": "There is not. And that is the challenge here. So in the few days of court testimony that we had, before Meta settled, one of the big things that came up is has these features, which many of these already existed for, you know, a long time. The adoption rate was like 1%, 2%, very, very minuscule. Even the awareness was super low. At one point, some of these features, just a third of teenagers in the US were even aware that the features existed, which seems like I don't know, mind-bogglingly low. And yeah, I mean, nothing about this necessarily means that teens can't also get around these features by, one, just asking for their parents' permission. Some of these features can be toggled off even if they're on by default. Two, to turn some of these, you know, ones that are not on by default on, you know, parents need to get involved. Will the parents get involved? At one point, just 1% of parents had taken supervision power over their teenager's Instagram, according to some of the data that was revealed at trial. So yeah, there is a long way to go with some of this, and it is unclear whether that adoption, you know, will take up as expected."
+    },
+    {
+      "start": 627.2,
+      "end": 657.1,
+      "speaker": "B",
+      "text": "Paresh, one of the reasons I wanted to talk to you was that, you know, you were in the courtroom for this trial, but then this trial also seems to kind of be a vehicle for so many conversations about teens, social media, like not just the settlement itself, but these kind of larger, more existential questions about how we use social media. Are there any of these features that were agreed to in the settlement that you or your reporting deem as like likely to actually be effective?"
+    },
+    {
+      "start": 658.3,
+      "end": 737.4,
+      "speaker": "C",
+      "text": "Yeah, in reality it's a mixed bag, right? The time limits are huge because there was evidence presented at trial from, you know, an academic psychologist psychologist, that the studies over the last 15 or so years have pointed to the fact that higher time spent on social media is associated with, you know, an increased likelihood among adolescents of being depressed, having suicidal thoughts, you know, these anxieties, these psychological issues. And so limiting the amount of time that adolescents, teens spend on social media, it could be huge, right? We'll have to see what the studies bear out over the coming years, but keeping them off social media at night, you know, during the school day, potentially positive. But at the same time, nothing in this settlement necessarily or sort of radically changes what the experience is like and what content these teenagers may encounter. So as part of this suite of features that Meta calls teen accounts, there are restrictions on the types of content that teenagers encounter. But we know that AI is only so good at content moderation. Things are likely to slip through still."
+    },
+    {
+      "start": 737.7,
+      "end": 741.7,
+      "speaker": "B",
+      "text": "And these companies have kind of severely cut their content moderation teams."
+    },
+    {
+      "start": 742.1,
+      "end": 778,
+      "speaker": "C",
+      "text": "Exactly. And either way, you know, most of this, you know, being driven by AI, what teens experience and how those filters work, there should be less situations now where teens receive direct messages from creepy people, which is sort of a net positive. But, you know, again, this, this isn't foolproof. There could be things that slip through. So there's still a broader question of like, is Instagram usage among most teens still a good idea? Should they be banned altogether? And those questions still, still kind of linger."
+    },
+    {
+      "start": 779.2,
+      "end": 805.5,
+      "speaker": "B",
+      "text": "One of the aspects of this that I think bears examining is how Meta tends to age-gate teens, right? Like verify that teens are teens. And this isn't just a Meta issue. We have covered companies doing this kind of across the tech landscape. Could you walk me through how they plan to do that and the questions that are being brought about, you know, using these systems for age verification?"
+    },
+    {
+      "start": 806.7,
+      "end": 815.1,
+      "speaker": "C",
+      "text": "It's layers. So the first thing is they're hoping people sign up with their real birthdays. We know that doesn't always happen. And so the next thing—"
+    },
+    {
+      "start": 815.1,
+      "end": 818.3,
+      "speaker": "B",
+      "text": "Like, has anyone ever met a teenager or an adult?"
+    },
+    {
+      "start": 818.4,
+      "end": 890.3,
+      "speaker": "C",
+      "text": "I mean, you know, I don't put in my real age sometimes too on some of these websites unless I believe there's some benefit to it. And so Meta's sort of layer of defense is that they use AI algorithms to try to guesstimate someone's age by looking at, well, if they're talking to all these other people who seem to be teenagers and they're not really using it that much during traditional school hours, well, you know, maybe they are probably a teenager. And if they want to prove that they are actually an adult and they shouldn't have all these restrictions on their account, well, then they can upload copy of their ID, or they can take a video selfie that, you know, uses, again, algorithms to guesstimate their age based off of that video. And again, this is not the— this is not a perfect science. Things are expected to fall through the cracks. What is maybe positive is that there are some actual metrics that are built into the settlement that Meta has to hit. In terms of accuracy for some of the tools that it uses for age assurance."
+    },
+    {
+      "start": 891,
+      "end": 891.4,
+      "speaker": "B",
+      "text": "Like what?"
+    },
+    {
+      "start": 892.2,
+      "end": 898.5,
+      "speaker": "C",
+      "text": "Around 90% accuracy, 85% accuracy in different circumstances."
+    },
+    {
+      "start": 899.9,
+      "end": 916.6,
+      "speaker": "B",
+      "text": "One of the pieces of pushback around this and actually age verification more broadly is the idea that, you know, it is a privacy concern. And then I think the Electronic Frontier Foundation said this will enshrine Meta's harmful surveillance into law. What do they mean there?"
+    },
+    {
+      "start": 917.6,
+      "end": 1006.5,
+      "speaker": "C",
+      "text": "Well, there's this idea that in the early internet days, it was so easy to browse anonymously. You could, you had sort of this freedom to be yourself online without being worried that you were suddenly gonna be swamped with all kinds of personalized targeted advertising that that information about what you're looking at could be used against you for law enforcement purposes. And now you kind of have to enter your name or your email address or your age everywhere you go. And this is in effect institutionalizing that. We know that some adults are going to get caught up in the age gating and will have to upload their IDs if they want a normal experience or traditional experience on Instagram. And we also know that Sometimes teens do need anonymity if they are in a situation where their parents don't support their sexuality, for example, they might wanna find community online and they may want to do that in an anonymous way. And how can they do that and still have a good experience in this situation where they have to share more and more information about themselves? That could be a challenge and they may not feel comfortable doing that and they may face the same psychological issues that these laws are intended to prevent because they can't get on social media."
+    },
+    {
+      "start": 1008,
+      "end": 1009.5,
+      "speaker": "B",
+      "text": "Where does all this information go?"
+    },
+    {
+      "start": 1011.4,
+      "end": 1050.5,
+      "speaker": "C",
+      "text": "The idea is that a lot of this information isn't stored. It's, you know, briefly tokenized. And all that Meta knows is that you're in this age range or you're not in this age range. And that is the intention. But we know from data breaches in the past that implementation of these tools is not always ideal. And sometimes information is stored that wasn't intended to be stored or it's stored incorrectly. Encryption fails in some, you know, unfortunate way and data can get out there, which is why you see these activist organizations really concerned."
+    },
+    {
+      "start": 1050.9,
+      "end": 1067.1,
+      "speaker": "B",
+      "text": "Yeah. There's also this aspect that I don't totally understand. I was wondering if you could explain to me why Meta is pushing app stores to also get involved in the sort of facial ID part of this."
+    },
+    {
+      "start": 1068.1,
+      "end": 1081,
+      "speaker": "C",
+      "text": "This has been a long-running dispute, especially between Meta and Apple, which are, you know, effective frenemies. Mark Zuckerberg has never been fond of the way Apple runs its App Store in addition to other issues."
+    },
+    {
+      "start": 1081.1,
+      "end": 1081.6,
+      "speaker": "B",
+      "text": "Walled garden."
+    },
+    {
+      "start": 1082.1,
+      "end": 1154.3,
+      "speaker": "C",
+      "text": "Exactly. So what Meta wants to happen is more regulations on Apple and Google because it sort of sees, well, if we can get one regulation, maybe we can get more regulations. We can bring down App Store taxes and fees and, you know, a whole host of other things. But this would be a crack, you know, a crack in the door. And what Meta wants to see happen is right now app stores, you know, collect some data to verify age. Can we require app stores to be more stringent in their collection of age data? And then they, the app stores, can just pass that on to apps in some sort of safe and privacy-preserving manner, ideally. And therefore there wouldn't be the onus on users to upload their age data to thousands of apps or hundreds of apps or dozens of apps or couple of apps, whatever they're using. Instead, they just upload their age maybe once to Windows, maybe once to macOS, once to the App Store, once to the Google Play Store. And that is a safer, better experience for users."
+    },
+    {
+      "start": 1155.8,
+      "end": 1175.7,
+      "speaker": "B",
+      "text": "Let's talk about the money here. So the number seems to kind of slide around, right? Somewhere in the $16.7 to $18 billion range. On the one hand, that is real money. On the other, that's what, like a third of what Meta makes in a quarter?"
+    },
+    {
+      "start": 1176.6,
+      "end": 1183.4,
+      "speaker": "C",
+      "text": "It sounds about right. It is not an insignificant amount of money for the state."
+    },
+    {
+      "start": 1183.7,
+      "end": 1185,
+      "speaker": "B",
+      "text": "And it's over 10 years, we should say."
+    },
+    {
+      "start": 1185.3,
+      "end": 1229,
+      "speaker": "C",
+      "text": "Correct. And the states will be able to put it towards mental health counseling for teenagers, towards, you know, public service announcements to teach people about the dangers of social media. You know, a lot of beneficial uses potentially for the money for states. For Meta, I mean, it's not ideal to have this money go out the door at a time that they are trying to invest every little bit of cash that they have into building AI data centers. So, you know, it's not the greatest for Meta. For Meta, but it is not something that is going to be painful for them. And that is why you see a state like Florida refusing to settle so far, because they say they really want to put the screws to Meta and make it financially hurt."
+    },
+    {
+      "start": 1230.2,
+      "end": 1258,
+      "speaker": "B",
+      "text": "So this is an interesting question. I listened to an interview with Colorado's attorney general where he was basically saying like, no, if we had gone to trial, we might be caught up in appeal after appeal after appeal, and none of this might ever happen. We are willing to just take the money and do what we can now. But if you are a Florida, right, what's, what's your hope here that some big decision really hurts Meta financially or kneecaps their business? What's the strategy there?"
+    },
+    {
+      "start": 1258.9,
+      "end": 1316.2,
+      "speaker": "C",
+      "text": "Yeah, well, it's kind of the best of both worlds because, you know, Meta is going to roll out these upgraded features or, you know, these revised features across the US. It's not like Meta is going to deny teens in Florida some of the things that are discussed in the settlement. And so if you're Florida, you have a, you know, you're not delaying teenagers getting access to these potentially vital features. And at the same time, you can continue to pressure Meta to do even more. And it's worth noting, it's not just them. There are school districts that have brought similar allegations against Meta. Those cases are ongoing. There's families and individuals who have brought lawsuits against Meta. Those cases are ongoing. So there's a potential to squeeze even more out of Meta, though the company, I'm sure, is going to try to stick to the terms of this settlement in any future settlement as much as possible."
+    },
+    {
+      "start": 1319.7,
+      "end": 1428.4,
+      "speaker": "B",
+      "text": "Ever notice how the second you Google something, suddenly every ad you see is about it? Or you try to watch something while you're traveling and it is blocked. The internet is not as open as we think, which is why I use ProtonVPN. Whether you're traveling or just at home, your online activity shouldn't be up for grabs. ProtonVPN adds a layer of protection that keeps your browsing habits private and your data out of the wrong hands. ProtonVPN is a secure VPN service designed for people who want to prioritize their digital privacy and security. Keeps what you do online private, and lets you access the internet like it should work: open, secure, and on your terms. Unlike most VPNs, Proton is backed by strong European privacy laws and years of expertise creating a safer, faster, and more open internet for everyone. They have a strict no-logs policy that's independently verified. It's open source, so anyone can inspect how it works, and it's backed by a foundation focused on protecting user rights. Not selling your data behind the scenes. It all works seamlessly, so you can be confident you're getting an extensive server network, high-speed connections, integrated ad blockers, and compatibility services without restrictions in over 145 countries. So whether you want to watch content from anywhere, get around blocked sites, or just keep your activity private on public Wi-Fi, ProtonVPN has you covered. It's easy to get started. Right now, ProtonVPN is offering our listeners 70% off a 2-year plan when you go to protonvpn.com/tbd. That's protonvpn.com/tbd for 70% off your 2-year plan. That's protonvpn.com/tbd."
+    },
+    {
+      "start": 1431.6,
+      "end": 1460.4,
+      "speaker": "A",
+      "text": "This episode is brought to you by Capital One. Capital One's tech team isn't just talking about multi-agentic AI. They already deployed one. It's called Chat Concierge, and it's simplifying car shopping using self-reflection and layered reasoning with live API checks. It doesn't just help buyers find a car they love, it helps schedule a test drive, get pre-approved for financing, and estimate trade-in value. Advanced, intuitive, and deployed. That's how they stack. That's technology at Capital One."
+    },
+    {
+      "start": 1463.5,
+      "end": 1478.5,
+      "speaker": "B",
+      "text": "Part of this settlement deal is that Meta will only pay like $12.7 billion over 10 years. And the rest, to go back to where we started, is conditional on TikTok and YouTube also doing this. Like, why would they do that?"
+    },
+    {
+      "start": 1479.2,
+      "end": 1562.5,
+      "speaker": "C",
+      "text": "And Snap. Yeah, I— why the other platforms would do this is pretty simple. The same reason Meta settled is do you want to be stuck in years of litigation, years of uncertainty, Do you want to deal with years of Meta running? I don't know, maybe Mac versus PC style ads where they're saying Instagram has all these wonderful protections for teens. Did you know TikTok refuses to do these same things? Like, imagine dealing with that for the next few years. It wouldn't be great for TikTok's brand and reputation, especially at a time that it's trying to say that it's a wholesome American company now. You know, same case for Snapchat and YouTube. There are arguments to be made that each of those experiences is vastly different than Instagram and that, you know, therefore they should not be subject to some of these same limitations. You know, we know that teenagers often use YouTube to help with their homework, to understand like lessons that they're learning in school. or they might be even mandated to use YouTube in certain respects for their schoolwork. So how to negotiate around some of that, um, is to be seen, but you can see why they would be quick maybe to agree to these same terms."
+    },
+    {
+      "start": 1564.2,
+      "end": 1597.2,
+      "speaker": "B",
+      "text": "So I guess I wonder, like, let's say, okay, they agree, right? They, they put some money into this. Uh, we are in this huge moment where I think there's a reckoning with the harms of social media, but also just technology and, and trying to figure out what to do. Like, nobody seems to have a great idea, right? Some school districts have banned phones. You have school districts making similar AI bans. What do you think social media might look like for kids and teens in a decade? Like, is it going to be noticeably different?"
+    },
+    {
+      "start": 1598.4,
+      "end": 1613.9,
+      "speaker": "C",
+      "text": "Well, one thing that this settlement doesn't really contemplate is the world of AI chatbots that we are swiftly moving into right now. And that is often the criticism of lawsuits in courts and sort of the judicial system."
+    },
+    {
+      "start": 1614,
+      "end": 1614.9,
+      "speaker": "B",
+      "text": "We're fighting the last war."
+    },
+    {
+      "start": 1615.3,
+      "end": 1653.5,
+      "speaker": "C",
+      "text": "Exactly. That social media was so yesterday's problem. The problem now is all the time that teenagers are spending on chatbots asking for health advice, asking for homework advice, asking for relationship advice, is that the best source for them? You can argue that it is, you know, a resource that is available to all. And, you know, for people that may not have other options, it's a great, you know, tool of kind of last resort. But we know that people are relying more on those tools, and those tools could get more social over time."
+    },
+    {
+      "start": 1653.9,
+      "end": 1658.5,
+      "speaker": "B",
+      "text": "I have interviewed parents whose children have killed themselves after spending time on chatbots."
+    },
+    {
+      "start": 1659.1,
+      "end": 1705.6,
+      "speaker": "C",
+      "text": "Exactly. Which is why, you know, it's noticeable, or at least, you know, very glaring that nothing in this settlement addresses Meta's AI tool called Meta AI. So I do wonder if social media somehow looks more like our current AI world that we're entering into and how awful that could potentially be for teenagers if they're spending a significant time talking to these synthetic personas, if they're talking to computers, basically, what that will mean for their interpersonal skills, what that'll mean for their mental health, and are we doing enough right now to get ahead of that problem?"
+    },
+    {
+      "start": 1706.6,
+      "end": 1727.8,
+      "speaker": "B",
+      "text": "Last year, Australia tried to ban social media for kids under 16, did ban it. But there's a new study from their internet regulator that showed that more than 8 in 10 young Australians still use social media. So like, I wonder what that tells you when we look at this world of like, how do we figure this out? Which tools are effective?"
+    },
+    {
+      "start": 1728.8,
+      "end": 1823.7,
+      "speaker": "C",
+      "text": "Well, it's a couple things. We know that in Australia that they were not as stringent perhaps as this settlement. In specifying that the age assurance technologies or the age verification technologies have to work really well. And you see now that Australia's regulator is asking for more enforcement powers, more fining powers to go after platforms that are not doing enough in terms of age verification. So the settlement here in the US suggests that maybe things will come out a little bit better. Because of that. But then there are two other things. We know that teens are determined. They will find a way to get around some of these restrictions. And that's what we're seeing in Australia. You know, teens doing these video selfies, but kind of covering their face and obscuring their face or doing funny things. And they're able to get through the age verification technologies. So there's that. And then I would say the third thing that maybe is, is different about the Australian experience is that there's exemptions for content that is public and teens can continue to access that. And again, that goes to maybe like the YouTube homework problem and how do we deal with that where there are certain content that maybe kids do need to see or experience. You know, if Trump posts something important to, Facebook. Should teens be able to see that? You know, perhaps there should be a way, way around that, even if they've hit their 2-hour time limit."
+    },
+    {
+      "start": 1825.9,
+      "end": 1883.9,
+      "speaker": "B",
+      "text": "In thinking through this settlement and what it portends to the future, a lot of people have made the comparison between social media and the big tobacco settlement from 1998. That was the master settlement agreement between the big companies in several states. And I was really interested in this New York Times piece that interviewed a woman who'd written a book all about the political history of the cigarettes. And she said the meta of 2026 is better off than the big tobacco of 1998. And that, like, by '98, the anti-smoking campaigns had really done a lot. And it does make me wonder, like, oh, are we going to be back here in 10 years? With some multibillion-dollar settlement about AI, you know, or we've just, like, reached the point where there isn't enough of a groundswell yet to make a big difference. I don't know."
+    },
+    {
+      "start": 1885.6,
+      "end": 1910,
+      "speaker": "C",
+      "text": "There are certainly a lot of parents out there who are concerned, and an increasing number of activist organizations who are trying to tackle this issue, by putting pressure on companies, by putting pressure on schools, by putting pressure on parents, you know, fellow parents to supervise their teenagers' social media use. At the same time, except for Facebook, which teenagers aren't using kind of because it's boring."
+    },
+    {
+      "start": 1910.2,
+      "end": 1911,
+      "speaker": "B",
+      "text": "It's for old people."
+    },
+    {
+      "start": 1911.3,
+      "end": 2019.5,
+      "speaker": "C",
+      "text": "Yeah. There continues to be high numbers of, you know, users in that adolescent demographic for these social media platforms. And there's always, it seems every year, there's some cool new platform that all the high schoolers are using, whether it was the anonymous apps of a few years ago to these like homework helping AI agents that you've seen pop up in the last couple of years. There's always something new. They're always engaging with it. They are on their phones. It does seem like we will end up in a situation where if it's not Meta, there will be another company that we're talking about in 5 to 10 years in the same situation because a lot of people from, from Facebook and Meta and Instagram who are responsible for overseeing some of these features that we're now addressing in this settlement, well, they've gone on to work at places like OpenAI and Anthropic. They're going to repeat the same thinking unless something changes about our culture and how we design these features. And as I spoke to activists last week, including some that testified during the trial, like one thing that was evident is that nothing because of this settlement changes Meta's culture. You know, Meta's culture is going to stay the same. Their incentives are still the same. They are still a advertising company that is driven by trying to sell more ads and sell them at higher prices by engaging people and making people immersed in that experience. And even if teenagers are restricted, the goal is still to make money off teenagers and keep teenagers in this meta universe for as long as possible."
+    },
+    {
+      "start": 2020.9,
+      "end": 2022.9,
+      "speaker": "B",
+      "text": "Paresh Dave, thank you so much for talking with me."
+    },
+    {
+      "start": 2023.4,
+      "end": 2024,
+      "speaker": "C",
+      "text": "Of course."
+    },
+    {
+      "start": 2025.4,
+      "end": 2054.9,
+      "speaker": "B",
+      "text": "Paresh Dave is a senior writer for Wired, where he covers the big tech companies. And that's our show for today. What Next? TVD is produced by Evan Campbell, Madeleine Temps Ducharme, and Patrick Forte. Paige Osburn is the senior supervising producer for What Next and What Next? TVD. Mia Lobel is the executive producer of podcasts here at Slate, and Ben Richmond is the senior director of podcast operations. I am Lizzie O'Leary. You can go yell at me on Blue Sky. I'm @lizzieoreilly. Thank you so much for joining. Talk to you soon."
+    },
+    {
+      "start": 2063.5,
+      "end": 2092.5,
+      "speaker": "A",
+      "text": "This episode is brought to you by Capital One. Capital One's tech team isn't just talking about multi-agentic AI. They already deployed one. It's called Chat Concierge, and it's simplifying car shopping using self-reflection and layered reasoning with live API checks. It doesn't just help buyers find a car they love. It helps schedule a test drive, get pre-approved for financing, and estimate trade-in value. Advanced, intuitive, and deployed. That's how they stack. That's technology at Capital One."
+    },
+    {
+      "start": 2092.6,
+      "end": 2122.5,
+      "speaker": "C",
+      "text": "When you're running a growing business, the right systems can unlock your full sales potential and make fulfilling every order effortless. Switch to ShipStation before peak season so you're prepped and ready before the rush hits. ShipStation connects Shopify, Amazon, TikTok Shop, and over 200 more marketplaces with one platform that does it all. You can manage orders, sync inventory, track returns, all automatically. Everything your operation needs, all in one place. Upgrade your shipping operations to stress-proof your biggest sales days and capture every bit of potential revenue. Go to shipstation.com and use code AUDIO and get 30 days free."
+    }
+  ]
+}

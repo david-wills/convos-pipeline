@@ -1,0 +1,934 @@
+{
+  "episode": {
+    "id": "24445888bbfed7ff6519d8938aec1148d18524bb12a1d2d982710f16de64de51",
+    "podcastTitle": "The Daily",
+    "feedUrl": "https://feeds.simplecast.com/Sl5CSM3S",
+    "guid": "4e16892d-3e2a-423c-bd8d-f3e26194a309",
+    "title": "The Intertwined Legacies of Gloria Steinem and Dolly Parton",
+    "description": "Our writer discusses why, to her, the two icons are inescapably connected.",
+    "pubDate": "2026-09-04T09:48:04.000Z",
+    "duration": 1856,
+    "audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/b8210c31-2bec-4011-833a-0c49089cad77/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=b8210c31-2bec-4011-833a-0c49089cad77&feed=Sl5CSM3S",
+    "artworkUrl": "https://image.simplecastcdn.com/images/34e5431c-f7f7-4edd-9b5d-0277e197a71b/fb3fbacf-8a3b-45bd-bf83-082ada3282af/3000x3000/cropped_1788509902879.jpg?aid=rss_feed"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 2086,
+    "utteranceCount": 139
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:37:37.442Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Two Icons, One Week",
+      "description": "Michael Barbaro sets up the episode by framing the back-to-back deaths of Gloria Steinem and Dolly Parton as an unexpected cultural moment.",
+      "startTime": 0.048,
+      "endTime": 60.622,
+      "anchorPhrase": "if you like youtube, you'll love youtube premium. it's destroying athlete, creator, and youtube maxer."
+    },
+    {
+      "index": 1,
+      "title": "Steinem Was My Family",
+      "description": "Longtime friend and colleague Lettie Cotton Pogrebin reflects on learning of Gloria Steinem's death and what a 55-year friendship meant to her.",
+      "startTime": 60.622,
+      "endTime": 193.945,
+      "anchorPhrase": "how did you first hear about the news of gloria's passing? robin called me at"
+    },
+    {
+      "index": 2,
+      "title": "Feminism Needed Both Women",
+      "description": "Times Magazine writer Susan Dominus explains why Steinem and Parton functioned as a duo — one the explicit organizer, one the joyful embodiment of feminist ideals.",
+      "startTime": 193.945,
+      "endTime": 359.1,
+      "anchorPhrase": "hey, sue. hi, michael. i think it's fair to say it's been a tough week"
+    },
+    {
+      "index": 3,
+      "title": "Growing Up With Gloria Steinem",
+      "description": "Dominus traces how Steinem's rise — from undercover Playboy Bunny reporting to co-founding Ms. Magazine — shaped the cultural landscape of her entire childhood.",
+      "startTime": 359.1,
+      "endTime": 620.684,
+      "anchorPhrase": "so, i've only recently thought a little bit about the fact that i was born"
+    },
+    {
+      "index": 4,
+      "title": "Why Feminism Felt Scary",
+      "description": "Dominus honestly recounts how the feminist movement's image felt harsh and even threatening to her as a young girl, from shamed camp counselors to the angry-woman stereotype.",
+      "startTime": 620.684,
+      "endTime": 954.943,
+      "anchorPhrase": "well, as steinem and those around her are coming at this question of women's equality"
+    },
+    {
+      "index": 5,
+      "title": "9 to 5 Changed Everything",
+      "description": "A 10-year-old Dominus and her sister see Nine to Five in theaters and fall completely in love with Dolly Parton, sparking a lightning-bolt feminist awakening.",
+      "startTime": 954.943,
+      "endTime": 1249.544,
+      "anchorPhrase": "dolly parton. it's and i'm years old, my sister is years old. somebody drops us"
+    },
+    {
+      "index": 6,
+      "title": "The Feminist Who Refused the Label",
+      "description": "Dominus explores the paradox of Parton — a woman who avoided the word 'feminist' yet built a business empire and modeled exactly what feminists fought for women to achieve.",
+      "startTime": 1249.544,
+      "endTime": 1522.497,
+      "anchorPhrase": "blonde package. mm-hmm. it's striking to me that you called this a kind of, like,"
+    },
+    {
+      "index": 7,
+      "title": "When Steinem Claimed Parton",
+      "description": "In 1987, Gloria Steinem personally wrote Ms. Magazine's tribute naming Dolly Parton a Woman of the Year, formally recognizing her as a feminist force on her own terms.",
+      "startTime": 1522.497,
+      "endTime": 1726.492,
+      "anchorPhrase": "well, that makes me wonder, what, if anything, did gloria steinem have to say about"
+    },
+    {
+      "index": 8,
+      "title": "Dolly on Gloria's Jukebox",
+      "description": "Dominus closes with a wistful image — Steinem once dreamed of running a roadside diner, and it's impossible not to imagine Dolly Parton playing on the jukebox inside.",
+      "startTime": 1726.492,
+      "endTime": 2086,
+      "anchorPhrase": "this episode is about the way you've experienced these two women, but the way i've"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0,
+      "end": 29.9,
+      "speaker": "A",
+      "text": "If you like YouTube, you'll love YouTube Premium. It's destroying athlete, creator, and YouTube maxer. YouTube Premium enhances how I use YouTube with awesome features like offline downloads so I can download my favorite training videos before I hit the gym. So no Wi-Fi doesn't turn leg day into loading day. Plus, I get ad-free videos, background play, and so much more. YouTube Premium, it's like YouTube got some extra gains. Try YouTube Premium for 2 months free at youtube.com/premium. Trial eligibility varies. Terms apply. Cancel anytime."
+    },
+    {
+      "start": 31.5,
+      "end": 35.8,
+      "speaker": "B",
+      "text": "From The New York Times, I'm Michael Barbaro. This is The Daily."
+    },
+    {
+      "start": 36.4,
+      "end": 38.7,
+      "speaker": "C",
+      "text": "Hi, this is Rachel Abrams from The New York Times."
+    },
+    {
+      "start": 39.4,
+      "end": 40.1,
+      "speaker": "D",
+      "text": "Hi, Rachel."
+    },
+    {
+      "start": 41,
+      "end": 43.6,
+      "speaker": "C",
+      "text": "Thank you for making time to speak with us. I'm sorry for your loss."
+    },
+    {
+      "start": 44.6,
+      "end": 46.9,
+      "speaker": "D",
+      "text": "Thank you. Big one. Big, big one."
+    },
+    {
+      "start": 48.2,
+      "end": 60,
+      "speaker": "B",
+      "text": "On Thursday morning, hours after the death of the feminist icon Gloria Steinem, We reached out to one of her longtime friends and colleagues, Lettie Cotton Pogrebin."
+    },
+    {
+      "start": 60.6,
+      "end": 63.5,
+      "speaker": "C",
+      "text": "How did you first hear about the news of Gloria's passing?"
+    },
+    {
+      "start": 64.9,
+      "end": 77.7,
+      "speaker": "D",
+      "text": "Robin called me at 6:44 AM, and I was scared to take the call. And then it was Gloria. And, you know, I thought it might be, God forbid, someone in my family. Then I realized she was my family."
+    },
+    {
+      "start": 78.5,
+      "end": 79.4,
+      "speaker": "C",
+      "text": "She was your family."
+    },
+    {
+      "start": 80.9,
+      "end": 121.1,
+      "speaker": "D",
+      "text": "Yeah, she was. Gloria has been in my life for 55 years. So I met her in 1971 at the founding conference of the National Women's Political Caucus, and we ended up talking until 3 in the morning. She was interested in everyone. She thought every woman's life was a novel, a story. You know, she saw women's lives in all the complexity of women's lives. She didn't see us as any one thing. And she knew somewhere in every woman there was the tragedy, comedy, and meaning."
+    },
+    {
+      "start": 128.1,
+      "end": 137.1,
+      "speaker": "B",
+      "text": "Word of Steinem's death came as many Americans were still grieving the loss of another iconic woman. Dolly Parton."
+    },
+    {
+      "start": 137.4,
+      "end": 138.6,
+      "speaker": "E",
+      "text": "Dolly Parton passed away today."
+    },
+    {
+      "start": 138.7,
+      "end": 140.2,
+      "speaker": "C",
+      "text": "She's such an exceptional singer."
+    },
+    {
+      "start": 140.4,
+      "end": 159.4,
+      "speaker": "E",
+      "text": "Beautiful voice. To me, she was kind of like a guiding light. She's kind of like our matriarch, our country's queen in a sense. And she just has always been good and just embodies good, reflects good back to people. And I think that that's so important. And, um—"
+    },
+    {
+      "start": 160.3,
+      "end": 183.6,
+      "speaker": "B",
+      "text": "On paper, the connections between these two women seem faint and superficial. But for my colleague, Times Magazine writer Susan Dominus, the relationship between their lives and their impact was inescapable. It's Friday, September 4th."
+    },
+    {
+      "start": 193.9,
+      "end": 194.3,
+      "speaker": "F",
+      "text": "Hey, Sue."
+    },
+    {
+      "start": 194.7,
+      "end": 195.2,
+      "speaker": "C",
+      "text": "Hi, Michael."
+    },
+    {
+      "start": 196.2,
+      "end": 198.6,
+      "speaker": "F",
+      "text": "I think it's fair to say it's been a tough week and a half."
+    },
+    {
+      "start": 199.1,
+      "end": 201.7,
+      "speaker": "C",
+      "text": "I think it's fair to say it's been pretty emotional for a lot of people."
+    },
+    {
+      "start": 202.2,
+      "end": 202.3,
+      "speaker": "A",
+      "text": "Yeah."
+    },
+    {
+      "start": 203.5,
+      "end": 216.2,
+      "speaker": "F",
+      "text": "Well, tell me how you have been thinking about these back-to-back deaths of these two hugely important women, Dolly Parton and Gloria Steinem?"
+    },
+    {
+      "start": 216.9,
+      "end": 261.6,
+      "speaker": "C",
+      "text": "Well, to start, I have to say that the timing of their deaths so close together has really been, I think, something that's made me reflect on the way they were influential almost as a duo in my life, and for probably a lot of other women around my age, or maybe a little bit older, or a little bit younger. But, you know, I came of age in the '70s, and in a way, I almost can't remember a time when I didn't know who Gloria Steinem was. You know, she represented feminism with a capital F. With a capital F, and she was fighting for a world in which women could fully express themselves and be their most powerful selves, but was also advocating for the world to change too. She was fighting for structural change, for political change, for legal change."
+    },
+    {
+      "start": 262.2,
+      "end": 263.5,
+      "speaker": "F",
+      "text": "And in a lot of cases, achieving it."
+    },
+    {
+      "start": 263.9,
+      "end": 270.1,
+      "speaker": "C",
+      "text": "Yeah, and that is definitely, I think, the side of feminism that we deflect to most often when we think about it."
+    },
+    {
+      "start": 270.2,
+      "end": 270.5,
+      "speaker": "E",
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 270.9,
+      "end": 309.8,
+      "speaker": "C",
+      "text": "But the other side of feminism is the women who weren't claiming that label of feminism, but were nonetheless out there enacting and living the promise of what feminism was trying to offer to women, which is to say, financial independence, total control of your life, an unapologetic inhabiting of who it was that you wanted to be, and insisting on that kind of woman's right to be strong and to be fearless. And that was Dolly Parton, who, by the way, often danced around the word feminism, and even often tried to avoid it. And frankly, I don't think she's necessarily the first person people think of when they think of feminism."
+    },
+    {
+      "start": 309.9,
+      "end": 310.1,
+      "speaker": "G",
+      "text": "Right."
+    },
+    {
+      "start": 310.8,
+      "end": 337.3,
+      "speaker": "C",
+      "text": "But the fact of their dying so close to each other has really made me realize that feminism needed both of those representations of what women could do. It needed the person who was the explicit organizer, and the rallier, and the articulator of what these specific values were. But it also needed that person who was just embodying it, and embodying it with so much joy, and so much— power."
+    },
+    {
+      "start": 337.8,
+      "end": 358.5,
+      "speaker": "F",
+      "text": "Well, talk, Sue, about the two very different lives and two very different approaches of these women and how you yourself experience them in your own life. And because she died just within the past 24 hours or so, let's start with Gloria Steinem and how she comes into your consciousness."
+    },
+    {
+      "start": 359.1,
+      "end": 379.1,
+      "speaker": "C",
+      "text": "So, I've only recently thought a little bit about the fact that I was born on September 1st, 1970, which was just a few days after one of these big inflection points in the feminist movement. Join us now! Sisterhood is powerful! Join us now! When there was this huge women's strike and 50,000 women marched on Fifth Avenue and closed it down."
+    },
+    {
+      "start": 379.2,
+      "end": 386,
+      "speaker": "G",
+      "text": "Well, the main demand, of course, is equal rights. Equal rights to have a job, to have respect, to not be viewed as a piece of meat."
+    },
+    {
+      "start": 386.6,
+      "end": 394.6,
+      "speaker": "C",
+      "text": "And I grew up with the rise of feminism, which is to say the omnipresence of Gloria Steinem."
+    },
+    {
+      "start": 395,
+      "end": 402.5,
+      "speaker": "G",
+      "text": "I would not have admitted my own inequality even though I had been refused apartments by landlords who would not rent to women."
+    },
+    {
+      "start": 402.9,
+      "end": 404.5,
+      "speaker": "C",
+      "text": "You know, she was everywhere."
+    },
+    {
+      "start": 404.9,
+      "end": 409.9,
+      "speaker": "G",
+      "text": "I no longer accept society's judgment that my group is second class."
+    },
+    {
+      "start": 410.8,
+      "end": 421.3,
+      "speaker": "C",
+      "text": "And she was somebody who I remember kind of in the background of my entire experience of growing up in the '70s as a kid in a household with tons of magazines lying around."
+    },
+    {
+      "start": 421.8,
+      "end": 428.4,
+      "speaker": "F",
+      "text": "And what exactly was she saying? And in particular, what was she saying about feminism and women."
+    },
+    {
+      "start": 429,
+      "end": 500.1,
+      "speaker": "C",
+      "text": "So, she really entered feminism through journalism. Her big first breakout piece of journalism was famously, she went undercover as a Playboy Bunny and revealed that this job that people from the outside thought was maybe kind of glamorous and fun was actually grueling. It was humiliating. The women there were exposed to all kinds of harassment. They were required to take these invasive gynecological exams. You know, they were under oath. Were paid, they worked long hours, and it was a piece of stunt journalism in a way, and it got her a lot of attention. But she didn't really become active as a feminist per se until the late '60s, when she was reporting on a group of women who were openly discussing their abortions. And she ended up writing a piece for New York Magazine about the women's liberation movement. From there, I think public speaking invitations started flowing in, and all of this ultimately leads to her co-founding co-founding what became Ms. Magazine, which was an incredible manifesto for women of the time and was immediately a huge hit."
+    },
+    {
+      "start": 500.1,
+      "end": 516.6,
+      "speaker": "E",
+      "text": "It started because there were just a great many women writers and editors who didn't feel that they were working on magazines that they read, and that they had the opportunity to really be honest about their own experiences. Experiences in a magazine."
+    },
+    {
+      "start": 517.1,
+      "end": 524.8,
+      "speaker": "C",
+      "text": "It was the first magazine run entirely by women, and unlike other women's magazines, it was leaning into controversial subjects."
+    },
+    {
+      "start": 525,
+      "end": 545.7,
+      "speaker": "E",
+      "text": "You know, how to get equal pay legally speaking or extra-legally, how to take the license away from the television station that's discriminating against women, how to start a childcare center, how to get into medical school. You know, it's very strong on how to Articles with the simple assumption that this is possible."
+    },
+    {
+      "start": 546,
+      "end": 556.7,
+      "speaker": "C",
+      "text": "It also, I think, really encouraged other women's magazines ultimately to cover those topics too. So it, it was a juggernaut that changed the face of pop cultural media consumption for women."
+    },
+    {
+      "start": 557.2,
+      "end": 564.8,
+      "speaker": "F",
+      "text": "Eventually, of course, though, she leaps from journalism into this much more formal advocacy and organizing and into politics."
+    },
+    {
+      "start": 565.6,
+      "end": 572.7,
+      "speaker": "C",
+      "text": "Very quickly. Yeah. I mean, obviously, she was really an important messenger through the media, but she was also an organizer."
+    },
+    {
+      "start": 573,
+      "end": 580,
+      "speaker": "G",
+      "text": "We are the women that our parents warned us about. We have got here a revolution."
+    },
+    {
+      "start": 581.1,
+      "end": 582.5,
+      "speaker": "C",
+      "text": "She was fighting for the ERA."
+    },
+    {
+      "start": 582.9,
+      "end": 592.6,
+      "speaker": "G",
+      "text": "I stand here not only for the Equal Rights Amendment, but in the names of all the women in this country who struggle with two jobs when men have one."
+    },
+    {
+      "start": 592.7,
+      "end": 598.4,
+      "speaker": "C",
+      "text": "She was helping to found the National Women's Political Caucus. She was very active in union organizing."
+    },
+    {
+      "start": 598.8,
+      "end": 604.4,
+      "speaker": "G",
+      "text": "This inhuman system of exploitation will change. But only if we force it to change."
+    },
+    {
+      "start": 605.1,
+      "end": 619.8,
+      "speaker": "C",
+      "text": "And she was basically someone who stood for equality in the workplace, women's control of their reproductive rights, an end to all kinds of double standards, and a real shift in what home life ideally would look like."
+    },
+    {
+      "start": 620.7,
+      "end": 633.8,
+      "speaker": "F",
+      "text": "Well, as Steinem and those around her are coming at this question of women's equality and liberation from all these different angles, what were you and those around you making of the message?"
+    },
+    {
+      "start": 634.6,
+      "end": 696.5,
+      "speaker": "C",
+      "text": "If I'm really honest, I think in some ways it was an uncomfortable time for many people, maybe even including a little suburban kid. You know, I think feminism in general, the feminism I associated with Steinem, had this image that was a little bit harsh, maybe. You know, the songs, even if you just think about the anthems, it was like, \"I am woman, hear me roar.\" You know, or it was Aretha Franklin, God bless her, demanding respect. Or it was later, like, \"I will survive.\" All these things that are really important, but were a little bit maybe intimidating for a kid. And I kind of associated feminism, maybe because of more conservative messages that were also being filtered through, I associated it with why that mom around the corner, you know, walked out on her family. Or I associated it with why my favorite summer camp counselor made fun of me for reading Seventeen magazine because it was all about how to look cute for boys, or, you know, how to sew things for myself. Leftover dishrags. They just thought it was the silliest thing in the world. And for me, that—"
+    },
+    {
+      "start": 696.5,
+      "end": 701.8,
+      "speaker": "F",
+      "text": "Basically, your counselor would've said, \"Sue, that is not feminist enough. You should be ashamed of yourself.\" Yeah, and pretty much did."
+    },
+    {
+      "start": 702.2,
+      "end": 709.1,
+      "speaker": "C",
+      "text": "It's just that I was growing up one way and the world was quickly changing. And I think a lot of people were grappling with that."
+    },
+    {
+      "start": 709.6,
+      "end": 714.2,
+      "speaker": "F",
+      "text": "Well, how does your view of this all and of Gloria Steinem change over time?"
+    },
+    {
+      "start": 715.1,
+      "end": 840.2,
+      "speaker": "C",
+      "text": "Certainly with time, I came to have a huge appreciation for the work that she did and the possibilities that she made available for women like me. You know, my first job in the workforce was in 1992. I was working at Glamour magazine. And that magazine at the time was aggressively covering reproductive rights and women's health and sexual harassment. None of that would have been possible without the success of Ms. Magazine. And I had a female boss's boss there, Ruth Whitney, a woman who had tremendous authority. I mean, I remember women running down the hallway applying lipstick if they got caught called to her office. That was the kind of command that she had. And it left a huge impression on me. And again, I think those kinds of responsibilities and jobs are something that the feminist movement, which Gloria Steinem was hugely influential in leading, made possible. And just a few years later, I would end up working at New York Magazine, where Gloria Steinem got her start. And I had the tremendous opportunity to interview her for an oral history. And not only did I thank her, but— It's the only time in my life I've ever asked anybody I've interviewed for a signature. And she actually inscribed, for my then 4-month-old niece, a copy of Free to Be... You and Me, which was this tremendous feminist anthem book that we all loved at the time. And her inscription to my niece read, \"To Emily, who will continue the revolution for all of us!\" Exclamation point. KELLY CERVANTES] So, my gratitude for Gloria Steinem, I would say, was kind of an ongoing process, you know, that took a little bit of time for me to mature and really embrace. But when I think about the real lightning bolt feminist moment that I had, it was actually in 1980. And the person at the center of it was not Gloria Steinem. It was Dolly Parton."
+    },
+    {
+      "start": 847.4,
+      "end": 848.7,
+      "speaker": "B",
+      "text": "We'll be right back."
+    },
+    {
+      "start": 850.9,
+      "end": 880.7,
+      "speaker": "A",
+      "text": "If you like YouTube, you'll love YouTube Premium. It's destroying athlete, creator, and YouTube maxer. YouTube Premium enhances how I use YouTube with awesome features like offline downloads so I can download my favorite training videos before I hit the gym. So no Wi-Fi doesn't turn leg day into loading day. Plus, I get ad-free videos, background play, and so much more. YouTube Premium is like YouTube got some extra gains. Try YouTube Premium for 2 months free at youtube.com/premium. Trial eligibility varies. Terms apply. Cancel anytime."
+    },
+    {
+      "start": 881.1,
+      "end": 913.5,
+      "speaker": "H",
+      "text": "Investing with Schwab is like spending a Saturday at a great farmers market. You can fill your reusable tote with a bit of everything. Maybe you go for some free-range, self-directed investing, or perhaps you pick up a few Farm-fresh trades will you peruse. You can even get help from a dedicated advisor. That's full-service wealth management. Mix, match, and change your mind whenever you want. Because at Schwab, you can invest your way. No matter your goals or appetite for investing, Schwab has everything you need all in one place. Visit schwab.com to learn more."
+    },
+    {
+      "start": 914.8,
+      "end": 921.1,
+      "speaker": "C",
+      "text": "The New York Times app has all this stuff that you may not have seen. The way the tabs are at the top with all of the different sections."
+    },
+    {
+      "start": 921.4,
+      "end": 924.7,
+      "speaker": "A",
+      "text": "I can immediately navigate to something that matches what I'm feeling."
+    },
+    {
+      "start": 924.9,
+      "end": 926,
+      "speaker": "D",
+      "text": "I go to games always."
+    },
+    {
+      "start": 926.1,
+      "end": 927.6,
+      "speaker": "I",
+      "text": "Doing the mini, doing the Wordle."
+    },
+    {
+      "start": 927.9,
+      "end": 942.2,
+      "speaker": "C",
+      "text": "I loved how much content it exposed me to, things that I never would've thought to turn to a news app for. This app is essential. The New York Times app. All of the Times, all in one place. Download it now at nytimes.com/app."
+    },
+    {
+      "start": 946.7,
+      "end": 954.9,
+      "speaker": "F",
+      "text": "So, Sue, tell us about this moment, which you mentioned just before the break, of feminist discovery for you. That involves Dolly Parton."
+    },
+    {
+      "start": 954.9,
+      "end": 978.9,
+      "speaker": "C",
+      "text": "It's 1980, and I'm 10 years old, my sister is 11 years old. Somebody drops us off at the movie theater, and we sat down to watch the movie 9 to 5, which starred Dolly Parton, Jane Fonda, and Lily Tomlin. We laughed for 2 straight hours. It might be one of my happiest memories with my sister, even."
+    },
+    {
+      "start": 979.6,
+      "end": 979.8,
+      "speaker": "G",
+      "text": "And—"
+    },
+    {
+      "start": 980.4,
+      "end": 1013.6,
+      "speaker": "C",
+      "text": "we absolutely fell in love with Dolly Parton. <LYRICS>Working 9 to 5.</LYRICS> I think it's possible that we had a vague idea of who she was, but, you know, we were New York kids. We didn't listen to country music. So it was our first real encounter with her. And she was this absolutely beautiful, beaming, uncomplaining, action-oriented woman who wouldn't take anything. And we were just riveted."
+    },
+    {
+      "start": 1014.1,
+      "end": 1018.3,
+      "speaker": "F",
+      "text": "Do you remember any of the scenes that stuck with you?"
+    },
+    {
+      "start": 1019.1,
+      "end": 1024,
+      "speaker": "C",
+      "text": "Yeah, actually, you know Dolly Parton? She's a secretary who's been harassed by her boss."
+    },
+    {
+      "start": 1024.4,
+      "end": 1029.7,
+      "speaker": "I",
+      "text": "Dora Lee, I'm serious. Don't you understand? I am crazy about you. You're all I ever think about."
+    },
+    {
+      "start": 1029.9,
+      "end": 1032.8,
+      "speaker": "J",
+      "text": "Mr. Hart, I've told you before, I'm a married woman."
+    },
+    {
+      "start": 1033.2,
+      "end": 1035.5,
+      "speaker": "I",
+      "text": "And I'm a married man. That's what makes it so perfect."
+    },
+    {
+      "start": 1035.8,
+      "end": 1047.9,
+      "speaker": "C",
+      "text": "But I also remember being struck by the injustices, which is his kind of pathetic objectification of her, and his pathetic protestations of being in love."
+    },
+    {
+      "start": 1048.1,
+      "end": 1049.9,
+      "speaker": "J",
+      "text": "Just what exactly are you driving at?"
+    },
+    {
+      "start": 1050.5,
+      "end": 1054.5,
+      "speaker": "I",
+      "text": "Well, it's very simple. You come over to my house tonight, and I'll just forget the whole thing."
+    },
+    {
+      "start": 1054.7,
+      "end": 1056.2,
+      "speaker": "J",
+      "text": "You are disgusting."
+    },
+    {
+      "start": 1056.9,
+      "end": 1057.4,
+      "speaker": "I",
+      "text": "Is that a no?"
+    },
+    {
+      "start": 1058.3,
+      "end": 1079.7,
+      "speaker": "C",
+      "text": "Those kind of, you know, classic sexual harassment moments that so many women that I continue, frankly, to be subject to, and turned out to be something that was part of the work lives of so many of my friends and me. And actually, the movie has these crazy fantasy sequences that now seem completely cuckoo pants."
+    },
+    {
+      "start": 1080.6,
+      "end": 1080.8,
+      "speaker": "I",
+      "text": "Morning."
+    },
+    {
+      "start": 1081.8,
+      "end": 1083.7,
+      "speaker": "J",
+      "text": "Hold it. Just hold it right there."
+    },
+    {
+      "start": 1084.7,
+      "end": 1085.1,
+      "speaker": "I",
+      "text": "Something wrong?"
+    },
+    {
+      "start": 1085.7,
+      "end": 1101.6,
+      "speaker": "J",
+      "text": "No, no, nothing's wrong. I just want to check your bod. Turn around for a second. Boy, you got a nice ass frame. But you know, you ought to get your pants cut a little tighter. You need to bring 'em up just a little in the crotch. I mean, you got a nice package, you might as well show it off."
+    },
+    {
+      "start": 1102.1,
+      "end": 1133.8,
+      "speaker": "C",
+      "text": "She's a secretary who's been harassed by her boss, and she kind of turns the tables on him and objectifies him and comments on his body and has him twirl around for her. And it's a very funny scene. She's very charming in it. And it just made us laugh and laugh. But at the time, it was just seeing these really smart, funny, chic women who are not taking it anymore. If we could only find something on him, maybe we could trade off."
+    },
+    {
+      "start": 1134.7,
+      "end": 1135.4,
+      "speaker": "G",
+      "text": "Blackmail."
+    },
+    {
+      "start": 1135.5,
+      "end": 1142.8,
+      "speaker": "C",
+      "text": "Oh, that sounds good. What could we get on him? A sex scandal. Take a picture of him in bed with a prostitute."
+    },
+    {
+      "start": 1143.4,
+      "end": 1144.9,
+      "speaker": "J",
+      "text": "Oh, who'd care?"
+    },
+    {
+      "start": 1145.8,
+      "end": 1155.9,
+      "speaker": "C",
+      "text": "Yeah, Hart would just buy up the copies and send them out as Christmas cards. And there is no tenet of feminism in the workplace that they don't touch on in that movie."
+    },
+    {
+      "start": 1156.5,
+      "end": 1156.7,
+      "speaker": "E",
+      "text": "Hmm."
+    },
+    {
+      "start": 1156.9,
+      "end": 1193.1,
+      "speaker": "C",
+      "text": "It's equal pay, it's childcare, it's the right to work free of sexual harassment, it's the right to be expected to get promotions and not have to bring somebody coffee, and to be rewarded for the work that you've done and not see a man get credit for it. It's very explicit. I mean, you know, I now know that it was actually based on an actual feminist organizing group for clerical workers called Nine to Five. And it had a real mission to it, but it was cloaked in this joyful, comedic masterpiece of its time that was extremely well done and turned out to be an enormous hit."
+    },
+    {
+      "start": 1194,
+      "end": 1201.6,
+      "speaker": "F",
+      "text": "And when you think back to watching Nine to Five, what do you think it was in particular about Parton that gripped you?"
+    },
+    {
+      "start": 1202.6,
+      "end": 1250.3,
+      "speaker": "C",
+      "text": "Well, I think feminism generally was unfairly portrayed as sort of \"dour,\" you know? And even though Gloria Steinem, of course, herself was quite conventionally beautiful, there was still this stereotype of, like, the angry feminist. And Dolly Parton in this movie was angry. She was mad as hell. But she was also kind of delightful and charming and had a lightness and even a sparkliness to her. And obviously was hilarious. Was hyperfeminine. And so, that juxtaposition of her values with a look and an aura and a sort of Southern charm that we didn't associate with feminism, there was just something very enticing about all of those things wrapped up in this tiny blonde package. Mm-hmm."
+    },
+    {
+      "start": 1250.8,
+      "end": 1264.8,
+      "speaker": "F",
+      "text": "It's striking to me that you called this a kind of, like, lightning bolt feminist moment. For yourself because it's sparked by a woman who, as you said at the beginning of our conversation, doesn't call herself a feminist."
+    },
+    {
+      "start": 1266.1,
+      "end": 1321,
+      "speaker": "C",
+      "text": "You know, I think— Yes, that's true. And I think that that was part of the power of the movie, not just for me as a dumb 10-year-old, but for so many women who, you know, if you ask them, \"Do you believe in equality?\" they would say, \"Yes, I do.\" And if you ask them, \"Do you believe in fairness? And do you believe you should get credit for your work?\" they would all say yes, but for complicated cultural reasons, felt alienated from from the capital F Feminist, capital M Movement, or from the women's liberation movement. And kind of for some of the reasons that even I, as a little kid, felt sort of threatened by it, you know? And so, the movie was able to bring into the fold a lot of people who just wanted to see women get treated the way they deserved to be treated. And of course, that's all that feminism ever wanted. But there was something just really enveloping about the message that everybody could get behind in that movie."
+    },
+    {
+      "start": 1322,
+      "end": 1326.9,
+      "speaker": "F",
+      "text": "Did you think of this performance and of the movie itself as feminist at the time?"
+    },
+    {
+      "start": 1327.4,
+      "end": 1344,
+      "speaker": "C",
+      "text": "I don't know if I would've even stopped to reflect on that, but it certainly aligned with, you know, what I knew to be feminist ideals. As for Dolly herself, I think it really was only with time that I understood the feminist person behind that feminist role, you know?"
+    },
+    {
+      "start": 1344,
+      "end": 1344.4,
+      "speaker": "J",
+      "text": "Hmm."
+    },
+    {
+      "start": 1344.5,
+      "end": 1344.7,
+      "speaker": "F",
+      "text": "What do you mean?"
+    },
+    {
+      "start": 1345.1,
+      "end": 1371.6,
+      "speaker": "C",
+      "text": "Well, she did record songs that were ahead of their time in speaking about things, for example, like unwed pregnancy and assault. A song called \"Down from Dover\" that many radio stations refused to play. <LYRICS>I know this dress I'm wearing doesn't hide the secret I have tried concealing.</LYRICS> And, you know, she would go on, for example, to start something called Dollywood."
+    },
+    {
+      "start": 1371.6,
+      "end": 1375.5,
+      "speaker": "J",
+      "text": "There are places that hold a special meaning in your life."
+    },
+    {
+      "start": 1376.1,
+      "end": 1376.9,
+      "speaker": "E",
+      "text": "A place—"
+    },
+    {
+      "start": 1376.9,
+      "end": 1434.3,
+      "speaker": "C",
+      "text": "Which was a really bold move. A woman to take that kind of ownership of her brand and name something after herself like that. You know, we know that women are perceived as less likable than men are when they ask for raises, right? Like, women aren't supposed to be patting themselves on the back or drawing attention to themselves and their glory. Of course, she was doing that to bring business and job opportunities to the community in which she was raised. That was the motivation. It wasn't about self-glorification. But I think it was a model for women a marshaling of power that is very, very rare in female business history. And she was a tremendous businesswoman who really kept control and fought for control of her own creative output in a way that no doubt paved the way for people like Taylor Swift, who, you know, have inspired so many young women with her fierceness and the way that she conducts herself as a businesswoman."
+    },
+    {
+      "start": 1434.9,
+      "end": 1457.6,
+      "speaker": "F",
+      "text": "So, what you came to understand is that the woman who played that character in Nine to Five battling a chauvinist boss and a toxic male culture, was a woman who through song and through her business modeled what a woman could be in practice. And what that could be was a bona fide business mogul."
+    },
+    {
+      "start": 1458.4,
+      "end": 1463.8,
+      "speaker": "C",
+      "text": "Yeah, think about it. In many ways, she was executing the vision of what feminists wanted women to be able to do."
+    },
+    {
+      "start": 1464.2,
+      "end": 1471.4,
+      "speaker": "J",
+      "text": "And on behalf of myself and the Internal Revenue Service, I'd like to thank Whitney for making my song such an enormous hit."
+    },
+    {
+      "start": 1471.6,
+      "end": 1475.9,
+      "speaker": "C",
+      "text": "She had control over her finances and over her business."
+    },
+    {
+      "start": 1476.3,
+      "end": 1486.6,
+      "speaker": "J",
+      "text": "You know, I look like a woman, but I think like a man. And in this world of business, that has helped me a lot, because by the time they think that I don't know what's going on, I done got the money and gone."
+    },
+    {
+      "start": 1487,
+      "end": 1489.9,
+      "speaker": "C",
+      "text": "She dressed the way she wanted to dress."
+    },
+    {
+      "start": 1490.1,
+      "end": 1498.5,
+      "speaker": "J",
+      "text": "I love being flashy. I love kind of showing the parts of me that I've become famous for. And try to do it in as good a taste as I can."
+    },
+    {
+      "start": 1498.7,
+      "end": 1516.8,
+      "speaker": "C",
+      "text": "She wasn't gonna let anybody tell her what she had to look like. And, you know, even the fact that she was child-free and was not being questioned as being, you know, less than a woman, that too was something that Gloria Steinem wanted for women, that they could make that choice and not be judged for it."
+    },
+    {
+      "start": 1517,
+      "end": 1517.2,
+      "speaker": "I",
+      "text": "Mm-hmm."
+    },
+    {
+      "start": 1517.5,
+      "end": 1521.7,
+      "speaker": "C",
+      "text": "All of these things made her somebody who was living the feminist ideals in practice."
+    },
+    {
+      "start": 1522.5,
+      "end": 1538.9,
+      "speaker": "F",
+      "text": "Well, that makes me wonder, what, if anything, did Gloria Steinem have to say about Dolly Parton? Or I guess the other way around. Did they see themselves as peers and in the fight together?"
+    },
+    {
+      "start": 1540,
+      "end": 1622.4,
+      "speaker": "C",
+      "text": "You know, that's a great question. You know, Dolly Parton went really far out of her way in interviews leading up to 9 to 5 to say that this was, which was absolutely not a movie about structural sexism or workplace injustice. This was not a feminist movie. It was just a funny movie about this one guy and his three wacky secretaries. And I think what was happening there, you know, you could look at it cynically and say, \"Oh, this is a woman who was terrified of losing her audience in the South.\" But I think that you have to interpret this decision through the lens of who we know her to be, which was this unbelievable philanthropist and visionary and champion of literacy. And she was, by then, a very unifying figure, which, you know, just look at how the country has come together to grieve her loss, just as we have Gloria Steinem's loss. But I think she recognized that there were other people who could claim the mantle of feminism and do that work, but that only Dolly Parton could champion women women's rights and their right to be equals in every way without labeling herself, and that she could rally people around the cause and be more effective in it if she didn't take on any kind of a label."
+    },
+    {
+      "start": 1623.2,
+      "end": 1623.6,
+      "speaker": "G",
+      "text": "Hmm."
+    },
+    {
+      "start": 1623.8,
+      "end": 1629.1,
+      "speaker": "F",
+      "text": "Did Gloria Steinem ever say anything about that? What did she think about that subtler approach?"
+    },
+    {
+      "start": 1630,
+      "end": 1662.7,
+      "speaker": "C",
+      "text": "Well, in 1987, Ms. Magazine includes Dolly Parton as one of its Women of the Year. No one other than Gloria Steinem herself actually writes this tribute to Dolly Parton. And you have to remember, back in '90s, '87, Dolly Parton was, you know, in some circles, as much a punchline as she was an icon. And here's Gloria Steinem recognizing the work that she undoubtedly did do for the cause, whether she would own it in that language of feminism or not."
+    },
+    {
+      "start": 1663.5,
+      "end": 1666.7,
+      "speaker": "F",
+      "text": "What does Steinem write in this tribute to Parton?"
+    },
+    {
+      "start": 1667.6,
+      "end": 1692,
+      "speaker": "C",
+      "text": "She starts like this: \"People who haven't listened to Dolly Parton or feminism may be surprised to learn that they go together.\" Hmm. And she goes on to say that if you don't understand that, you're missing something. Here's what she says: \"If feminism means each of us finding our unique power and helping other women do the same, Dolly Parton certainly has done both."
+    },
+    {
+      "start": 1693.2,
+      "end": 1717.5,
+      "speaker": "F",
+      "text": "So Steinem is saying quite formally that, yes, Dolly Parton may reject the label feminist, and you might not think of her as a feminist, but I am here to say, as the embodiment of feminism, as its patron saint, that she is a feminist figure and she's done the work and she's walked the walk."
+    },
+    {
+      "start": 1718.5,
+      "end": 1724.7,
+      "speaker": "C",
+      "text": "Yeah. That she's— She has that power. That's the word that I think really sticks out for me."
+    },
+    {
+      "start": 1726.5,
+      "end": 1745,
+      "speaker": "F",
+      "text": "This episode is about the way you've experienced these two women, but the way I've experienced their death is that I don't think anyone could have ever imagined that they would both die so close to each other. And I don't think any of us really understood that either was even close to death."
+    },
+    {
+      "start": 1746.9,
+      "end": 1793.2,
+      "speaker": "C",
+      "text": "You know, it's funny because when I did interview Gloria Steinem, she actually spoke a little bit about what she imagined for the end of her life. Here's what she said: In my old age, really old age, since I'm going to live past 100, I hope, I would love to have a diner, a little diner with blue gingham curtains by the side of the road, because diners are the most democratic places. And she goes on to talk about how everybody goes to diners— truck drivers, people from the neighborhood. They're cheerful, they're cozy. She says they're truly populist places. And when I think about that diner, I can just imagine who's playing on the jukebox. It's Dolly."
+    },
+    {
+      "start": 1799.7,
+      "end": 1803.3,
+      "speaker": "B",
+      "text": "Well, Sue, thank you so much. Appreciate it."
+    },
+    {
+      "start": 1803.4,
+      "end": 1805.3,
+      "speaker": "C",
+      "text": "It's really been my pleasure. Thank you for having me."
+    },
+    {
+      "start": 1821,
+      "end": 1837.5,
+      "speaker": "B",
+      "text": "You can hear and read more from reporters like Sue Dominus in the New York Times app. If you don't already have the app, you can get access to everything on it free for 1 month by downloading the app right now."
+    },
+    {
+      "start": 1842.4,
+      "end": 1845.3,
+      "speaker": "C",
+      "text": "We'll be right back."
+    },
+    {
+      "start": 1851.3,
+      "end": 1881,
+      "speaker": "A",
+      "text": "If you like YouTube, you'll love YouTube Premium. It's destroying athlete, creator, and YouTube maxer. YouTube Premium enhances how I use YouTube with awesome features like offline downloads so I can download my favorite training videos before I hit the gym. So no Wi-Fi doesn't turn leg day into loading day. Plus, I get ad-free videos, background play, and so much more. YouTube Premium is like YouTube got some extra game. Try YouTube Premium for 2 months free at youtube.com/premium. Trial eligibility varies. Terms apply. Cancel anytime."
+    },
+    {
+      "start": 1881.9,
+      "end": 1933.4,
+      "speaker": "K",
+      "text": "I'm Jonathan Knight, and I'm the general manager of New York Times Games. If you play our games, you probably know there's something a bit different about them. Just like there are writers behind the articles you read in the Times, there are creators behind our daily puzzles. Tracy Bennett curates the day's Wordle solution to keep it lively and varied. Winnalou creates each Connections board, including all those categories that try to stump you. Sam Azersky combs through every last letter, word, and pangram in Spelling Bee so that loyal players of all skill levels enjoy it. Our puzzles are human-made, every day, with the standards you'd expect from The New York Times. And this matters because when you choose to spend time with our games, it should be time well spent solving puzzles that are challenging, surprising, and joyful. Puzzles handcrafted for you. We think that's something worth investing in and something worth paying for."
+    },
+    {
+      "start": 1934.6,
+      "end": 1940.4,
+      "speaker": "C",
+      "text": "Subscribe now for a special offer on all of our games at nytimes.com/join games."
+    },
+    {
+      "start": 1944.8,
+      "end": 2065.7,
+      "speaker": "B",
+      "text": "Here's what else you need to know today. In his latest circumvention of norms and rules, President Trump is breaking ground on his controversial 250-foot-tall arch in downtown Washington, D.C. before a federal panel has approved the project. On Thursday, the administration said that construction work would begin on the arch over the next 2 weeks. The project has provoked opposition from preservationists and local residents because it would disrupt the views of multiple historical sites around the Capitol, including Arlington National Cemetery. And in the closely watched trial of Lindsay Clancy, the Massachusetts mother who strangled her 3 children, a single holdout appears to be preventing the jury from reaching a unanimous verdict. On Thursday, a lawyer for Clancy sought to have the holdout removed from the jury, arguing that the juror was not listening to the law, a request that the judge in the case has so far refused. Today's episode was produced by Stella Tam, Diana Wynn, Lindsay Garrison, Eric Krupke, Carlos Prieto, and Anna Foley. It was edited by MJ Davis-Lynn, Devin Taylor, and Lisa Chow. It was fact-checked by Andrea López Cruzado, contains music by Dan Powell, Marian Lozano, and Chelsea Daniel, and was engineered by Alyssa Moxley. Our theme music is by Wonderland. That's it for The Daily. I'm Michael Barbaro. See you on Sunday."
+    },
+    {
+      "start": 2070.5,
+      "end": 2074.6,
+      "speaker": "C",
+      "text": "His friends call him the omakase authority. 17 counters ranked."
+    },
+    {
+      "start": 2074.9,
+      "end": 2075.4,
+      "speaker": "H",
+      "text": "The evenings?"
+    },
+    {
+      "start": 2075.9,
+      "end": 2078.7,
+      "speaker": "C",
+      "text": "2023, the year the laundry started leaving without him."
+    },
+    {
+      "start": 2079.2,
+      "end": 2079.9,
+      "speaker": "B",
+      "text": "We'll take the laundry."
+    },
+    {
+      "start": 2080.2,
+      "end": 2082.3,
+      "speaker": "C",
+      "text": "You take the time. Rinse.com/omakase."
+    },
+    {
+      "start": 2082.3,
+      "end": 2082.5,
+      "speaker": "G",
+      "text": "Rinse."
+    },
+    {
+      "start": 2082.7,
+      "end": 2083.2,
+      "speaker": "F",
+      "text": "It's time to be great."
+    }
+  ]
+}

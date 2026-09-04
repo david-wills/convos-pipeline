@@ -1,0 +1,686 @@
+{
+  "episode": {
+    "id": "39c639d60f559b18f2826fd550a9401ace0d888b8219a1ff207f4b8317093a09",
+    "podcastTitle": "The Journal.",
+    "feedUrl": "https://video-api.shdsvc.dowjones.io/api/podcasts/feed/the%20journal",
+    "guid": "https://pdst.fm/e/traffic.megaphone.fm/WSJ1937622189.mp3",
+    "title": "The Cardboard Box Economy Is Breaking Down",
+    "description": "America is using less cardboard, which is bad news for the farmers who grow the pulpwood trees that get turned into paper products. WSJ’s Ryan Dezember explains how the cheapest, smallest trees in the forest hold up a much larger timber industry. Ryan Knutson hosts.\n\nFurther Listening: \n\n\n\n- The Bean at the Center of the Trade War\n\n- Is Jane Goodall Fighting a Losing Battle?\n\nSign up for WSJ’s free What’s News newsletter.\n\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+    "pubDate": "2026-09-03T19:42:00.000Z",
+    "duration": 1100,
+    "audioUrl": "https://pdst.fm/e/traffic.megaphone.fm/WSJ1937622189.mp3",
+    "artworkUrl": null
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1190,
+    "utteranceCount": 99
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:09.379Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Peak Cardboard Was 1999",
+      "description": "The hosts introduce the surprising truth that America uses far less cardboard per person today than it did 25 years ago, despite the e-commerce boom.",
+      "startTime": 5.543,
+      "endTime": 127.416,
+      "anchorPhrase": "okay, i'm ryan dezember. i am a reporter for the wall street journal. that's a"
+    },
+    {
+      "index": 1,
+      "title": "When Pulpwood Hits Zero",
+      "description": "Ryan Dezember explains how falling cardboard demand has caused pulpwood prices to collapse, with some tree farmers now getting paid nothing — or less — for their timber.",
+      "startTime": 127.416,
+      "endTime": 295.259,
+      "anchorPhrase": "we wouldn't be talking. yes. the downside is if you were selling trees. specifically pulpwood."
+    },
+    {
+      "index": 2,
+      "title": "How Southern Tree Farms Work",
+      "description": "Dezember breaks down the economics of loblolly pine plantations, where pulpwood from thinned trees was historically a profitable first step toward the big lumber payday.",
+      "startTime": 295.259,
+      "endTime": 465.28,
+      "anchorPhrase": "in many parts of the american south, a forest isn't just a place where towering"
+    },
+    {
+      "index": 3,
+      "title": "Mill Closures Rock the South",
+      "description": "Foreign eucalyptus competition and mass paper mill shutdowns across Georgia are gutting the market that Southern timber farmers have depended on for generations.",
+      "startTime": 465.28,
+      "endTime": 704.621,
+      "anchorPhrase": "for almost a century, that was how it worked. but now, as we mentioned earlier,"
+    },
+    {
+      "index": 4,
+      "title": "Sawdust in His Veins",
+      "description": "Fourth-generation sawmill owner Bill Howard of Statesboro, Georgia, explains how his family's 130-year timber legacy is now threatened by a market he never saw coming.",
+      "startTime": 704.621,
+      "endTime": 865.383,
+      "anchorPhrase": "not long ago, my colleague ryan dezember went down to georgia he wanted to see"
+    },
+    {
+      "index": 5,
+      "title": "Blueberries Over Pine Trees",
+      "description": "Facing uncertain pulpwood markets, some Southern farmers are already switching to agriculture, solar leases, and development rather than replanting forests.",
+      "startTime": 865.383,
+      "endTime": 940.478,
+      "anchorPhrase": "you know, they have alternatives. they could turn it into ag land. they could turn"
+    },
+    {
+      "index": 6,
+      "title": "Betting on Jet Fuel and Fabric",
+      "description": "New uses for wood pulp — from sustainable aviation fuel to silky clothing — offer potential lifelines, but farmers must make planting decisions that lock them in for decades.",
+      "startTime": 940.478,
+      "endTime": 969.397,
+      "anchorPhrase": "new things. if you're a timber farmer, though, these are a lot of really interesting"
+    },
+    {
+      "index": 7,
+      "title": "The Emotional Cost of the Forest",
+      "description": "Bill Howard reflects on the deep personal and generational attachment timber farmers have to their land, making these economic decisions far harder than selling stocks or bonds.",
+      "startTime": 969.397,
+      "endTime": 1190,
+      "anchorPhrase": "at all? i mean, i was thinking about that and like, you know, i live"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 5.5,
+      "end": 9.3,
+      "speaker": "A",
+      "text": "Okay, I'm Ryan Dezember. I am a reporter for The Wall Street Journal."
+    },
+    {
+      "start": 9.3,
+      "end": 11.3,
+      "speaker": "B",
+      "text": "That's a great name you have there, Ryan."
+    },
+    {
+      "start": 11.7,
+      "end": 13.6,
+      "speaker": "A",
+      "text": "Yeah, it is. Good one for you too."
+    },
+    {
+      "start": 16.2,
+      "end": 25,
+      "speaker": "C",
+      "text": "Two Ryans in two different studios here to talk about one cardboard box. You're holding one in your hand right now."
+    },
+    {
+      "start": 25.5,
+      "end": 27.8,
+      "speaker": "A",
+      "text": "Yeah, I grabbed one because they're everywhere. These days."
+    },
+    {
+      "start": 28.9,
+      "end": 29.3,
+      "speaker": "D",
+      "text": "Uh-huh."
+    },
+    {
+      "start": 29.8,
+      "end": 36.8,
+      "speaker": "A",
+      "text": "The technical term is a corrugated packaging. Cardboard is actually board, like your paper cup, but we don't have to quibble about that."
+    },
+    {
+      "start": 37.5,
+      "end": 61.3,
+      "speaker": "C",
+      "text": "We won't. Cardboard, container board, you know what I'm talking about. The brown shipping box is maybe the least exotic object in the world. The stuff is everywhere, crammed in recycling bins, on doorsteps, stacked inside e-commerce warehouses. Yet if you thought we were living in the era of peak cardboard, you'd actually be wrong."
+    },
+    {
+      "start": 65.1,
+      "end": 72.1,
+      "speaker": "A",
+      "text": "So you probably wouldn't guess it, but we're actually on a per capita basis, America's using a lot less cardboard than we used to."
+    },
+    {
+      "start": 72.4,
+      "end": 72.7,
+      "speaker": "E",
+      "text": "Really?"
+    },
+    {
+      "start": 72.9,
+      "end": 73.3,
+      "speaker": "B",
+      "text": "Yeah."
+    },
+    {
+      "start": 73.8,
+      "end": 80,
+      "speaker": "A",
+      "text": "When you break it down of boxes per person, we peaked in 1999, which is sort of hard to believe."
+    },
+    {
+      "start": 80.7,
+      "end": 87.6,
+      "speaker": "B",
+      "text": "Hmm. I'm surprised that there's less containerboard being used now in an era of like online shopping than there was 20 years ago."
+    },
+    {
+      "start": 88.2,
+      "end": 102.2,
+      "speaker": "A",
+      "text": "Think about, like, when you used to get a delivery from Amazon and you'd open it, it'd be like a box inside another box with another little box with the small thing you ordered. Technology and, like, a lot of sort of work on their end has gotten rid of that, right?"
+    },
+    {
+      "start": 103,
+      "end": 119.6,
+      "speaker": "C",
+      "text": "Not only did the box inside the box inside the box start disappearing, but boxes themselves have also gotten smaller and lighter. More stuff started showing up in plastic mailers. And more boxes are getting made from old recycled ones. So I mean, like, overall, like, this sounds good."
+    },
+    {
+      "start": 119.6,
+      "end": 127.4,
+      "speaker": "B",
+      "text": "There's less waste, there's more recycling, but there obviously must be a downside here to somebody, otherwise we wouldn't be talking."
+    },
+    {
+      "start": 127.4,
+      "end": 132.5,
+      "speaker": "A",
+      "text": "Yes. The downside is if you were selling trees."
+    },
+    {
+      "start": 132.5,
+      "end": 146,
+      "speaker": "C",
+      "text": "Specifically pulpwood. That's a type of wood used to make cardboard. And recently, in the pulpwood market, And when the price hit, like a poorly taped box, the bottom fell out."
+    },
+    {
+      "start": 147.4,
+      "end": 155.5,
+      "speaker": "A",
+      "text": "It varies highly, you know, by market, but some markets you might have gotten $16 a ton, $15 a ton, and now you might get zero."
+    },
+    {
+      "start": 155.8,
+      "end": 157,
+      "speaker": "C",
+      "text": "Zero dollars a ton?"
+    },
+    {
+      "start": 157.3,
+      "end": 157.6,
+      "speaker": "A",
+      "text": "Yeah."
+    },
+    {
+      "start": 158,
+      "end": 159.5,
+      "speaker": "B",
+      "text": "So basically you're saying this stuff is worthless?"
+    },
+    {
+      "start": 161.2,
+      "end": 161.4,
+      "speaker": "E",
+      "text": "Yes."
+    },
+    {
+      "start": 162.1,
+      "end": 166.3,
+      "speaker": "C",
+      "text": "What does this mean for the tree growers, the people whose livelihoods depend on selling these trees?"
+    },
+    {
+      "start": 167.3,
+      "end": 169,
+      "speaker": "A",
+      "text": "It's an existential crisis."
+    },
+    {
+      "start": 174.5,
+      "end": 190.4,
+      "speaker": "C",
+      "text": "Our show about money, business, and power. I'm Ryan Knudsen. It's Thursday, September 3rd. Coming up on the show, little trees, big problems."
+    },
+    {
+      "start": 199.9,
+      "end": 228.4,
+      "speaker": "G",
+      "text": "This episode is presented by Intuit Credit Karma. Relaxation doesn't always look like spa days or fluffy pillows. Sometimes it's simpler than that. It's when those pesky tasks you don't have time for, like hunting down your credit card perks, are handled for you. Like how Card Optimizer from Intuit Credit Karma brings your card details together in one simple place, so tracking rewards and redeeming benefits is actually easy. You deserve less ugh and more ah. Intuit Credit Karma. Download the app to get started."
+    },
+    {
+      "start": 229.7,
+      "end": 287.3,
+      "speaker": "F",
+      "text": "For adults with Crohn's disease or ulcerative colitis symptoms, every choice matters. Tremfya offers self-injection or intravenous infusion from the start. Tremfya is administered as injections under the skin or infusions through a vein every 4 weeks, followed by injections under the skin every 4 or 8 weeks. If your doctor decides that you can self-inject Tremfya, proper training is required. Tremfya is a prescription medicine used to treat adults with moderately to severely active Crohn's disease and adults with moderately to severely active ulcerative colitis, Serious allergic reactions, increased risk of infections or lower ability to fight them, and liver problems may occur. Before treatment, get checked for infections and tuberculosis. Tell your doctor if you have an infection, flu-like symptoms, or need a vaccine. Explore what's possible. Ask your doctor about Tremfya today. Call 1-800-526-7736 to learn more or visit tremfyaradio.com."
+    },
+    {
+      "start": 295.3,
+      "end": 306.3,
+      "speaker": "C",
+      "text": "In many parts of the American South, a forest isn't just a place where towering pine trees grow wild. Trees are a crop. Ryan Dezember has a way of visualizing this."
+    },
+    {
+      "start": 306.3,
+      "end": 329.7,
+      "speaker": "A",
+      "text": "Go to your Google Earth or your, your online map, set it into satellite mode, zero in on the South, Find something that's green, not like a wildlife refuge or a national park, but any other stretch that's green. And as you zoom in, more likely than not, you're going to find that the trees are all planted in neat rows."
+    },
+    {
+      "start": 331.4,
+      "end": 358.8,
+      "speaker": "C",
+      "text": "Neat rows of carefully planted loblolly pines. Tree farms. In the timber industry, the big money isn't lumber. That's the processed wood that comes from mature 20 or 30-year-old trunks. That eventually turn into 2x4s and telephone poles. And like any crop, there's a tried and true way to get the best harvest. They say, \"Plant 'em thick and cut 'em quick.\" The goal is to get tall pines with few branches."
+    },
+    {
+      "start": 359.5,
+      "end": 365.5,
+      "speaker": "A",
+      "text": "So, you plant the trees really close together, and that forces them to sort of compete and race up to the sky, to the sun."
+    },
+    {
+      "start": 366.4,
+      "end": 380.5,
+      "speaker": "C",
+      "text": "The idea is that the trees chasing sunlight will shoot straight up and shed their lower branches in the process. Which means fewer knots in the wood and taller trunks. The problem is that eventually the trees get overcrowded, and tree farmers have to do some thinning."
+    },
+    {
+      "start": 380.5,
+      "end": 422.6,
+      "speaker": "A",
+      "text": "After a while, the soil will only support so many mature trees, so you have to go in and kind of select the ones that are the worst specimens or misshapen trees, or maybe just every other one, or whatever your plan is, and you have to take those out to make room for the best specimens to keep growing into lumber. So if you were to go to one of these pine plantations and look around, you might see trees that are pretty unremarkable. Maybe they're crooked or, you know, otherwise not the best specimens, and you can't really envision them becoming a big utility pole, but they're very important to the whole system."
+    },
+    {
+      "start": 422.6,
+      "end": 431.9,
+      "speaker": "C",
+      "text": "Important to the system because those dinky, crooked trees can still be sold as pulpwood. And turned into paper and cardboard boxes."
+    },
+    {
+      "start": 432.7,
+      "end": 441.8,
+      "speaker": "A",
+      "text": "And they basically make it into a mashed, almost like an oatmeal, and that becomes pulp. And then they roll it out in flat sheets and basically dry it and it becomes paper."
+    },
+    {
+      "start": 442.7,
+      "end": 457,
+      "speaker": "C",
+      "text": "In other words, if the farmer's main goal was lumber, pulpwood was basically a profitable byproduct. In a business where farmers had to wait decades for big trees to mature, pulpwood provided the first financial return. And a steady trickle of income."
+    },
+    {
+      "start": 457.7,
+      "end": 464.3,
+      "speaker": "A",
+      "text": "And then you let the trees remaining grow for, you know, another 25, 30 years and they become lumber. And that's your big payday."
+    },
+    {
+      "start": 465.3,
+      "end": 482.8,
+      "speaker": "C",
+      "text": "For almost a century, that was how it worked. But now, as we mentioned earlier, the system is breaking down. Americans are using less paper. Cardboard demand is falling, and tree farmers are getting hit from another direction: cheap foreign competition."
+    },
+    {
+      "start": 483.7,
+      "end": 486.8,
+      "speaker": "A",
+      "text": "A flood of cheap eucalyptus pulp from South America."
+    },
+    {
+      "start": 486.9,
+      "end": 487.2,
+      "speaker": "B",
+      "text": "Hmm."
+    },
+    {
+      "start": 487.5,
+      "end": 490.3,
+      "speaker": "A",
+      "text": "The eucalyptus tree grows faster, the labor's cheaper."
+    },
+    {
+      "start": 491.7,
+      "end": 495,
+      "speaker": "C",
+      "text": "And then the paper mills that buy pulpwood started shutting down."
+    },
+    {
+      "start": 495.5,
+      "end": 514.2,
+      "speaker": "A",
+      "text": "International Paper is closing its facilities. Very recently, just last year, we had a big rash of pulp mill closings across the South. Georgia's kind of ground zero. The big mill in Savannah, another one in a crossroads out in the country called Riceboro. These mills started closing."
+    },
+    {
+      "start": 514.4,
+      "end": 528.3,
+      "speaker": "H",
+      "text": "Well, communities are rocked after learning International Paper facilities in Savannah and Riceboro will soon shut down permanently. The impact is cutting even deeper on businesses that depend on the timber industry."
+    },
+    {
+      "start": 528.4,
+      "end": 533.3,
+      "speaker": "E",
+      "text": "WSCB's Sakaya Harris is joining us now with how—"
+    },
+    {
+      "start": 533.5,
+      "end": 543,
+      "speaker": "C",
+      "text": "All of these forces have helped drive down the value of pulpwood. The price for those little trees is now so low that instead of selling them, Some farmers are now paying to have them hauled away."
+    },
+    {
+      "start": 543.8,
+      "end": 548.1,
+      "speaker": "A",
+      "text": "You still need to make room, so you go and take out every third tree, right? And those go to the pulp mill."
+    },
+    {
+      "start": 548.7,
+      "end": 550,
+      "speaker": "B",
+      "text": "And you used to be able to make money off of that."
+    },
+    {
+      "start": 550.4,
+      "end": 553.2,
+      "speaker": "A",
+      "text": "Yeah, that used to be a big payday. Now for some, it's a big bill."
+    },
+    {
+      "start": 554.3,
+      "end": 569.2,
+      "speaker": "C",
+      "text": "That changes the economics for a lot of Southern pine farmers, because if pulpwood no longer pays, what are you supposed to do? That's the question confronting Bill Howard. He's a fourth-generation sawmill owner in Statesboro, Georgia."
+    },
+    {
+      "start": 569.9,
+      "end": 571.5,
+      "speaker": "I",
+      "text": "Yes, sir. It's a way of living down here."
+    },
+    {
+      "start": 573.6,
+      "end": 580.5,
+      "speaker": "C",
+      "text": "Bill's family has been in timber for more than 130 years. Now, he worries that his way of life is in jeopardy."
+    },
+    {
+      "start": 581.3,
+      "end": 594.5,
+      "speaker": "I",
+      "text": "It's scary. It's a scary moment. Something we've depended on all of our life, something we just thought would always be here. Without a market, people won't be planting trees."
+    },
+    {
+      "start": 596.5,
+      "end": 605.6,
+      "speaker": "C",
+      "text": "But if growing trees stops making sense, what happens to the farmers and the forests that they depend on? That's next."
+    },
+    {
+      "start": 611.2,
+      "end": 667.8,
+      "speaker": "J",
+      "text": "This episode is brought to you by Indeed. The right hire can make or break your company, especially if you're a small business. And relying on luck to find that person isn't really the best strategy. But you know what is? Using Indeed Sponsored Jobs. You can use it to boost your job post to make sure it reaches more people with the right talents, certification, location, and more. Sponsored jobs posted directly on Indeed are 95% more likely to report a hire than non-sponsored jobs. Spend less time searching and more time actually interviewing candidates who check all your boxes. Less stress, less time, more results. When you need the right person to cut through the chaos, this is a job for Indeed sponsored jobs. And listeners of this show will get a $75 sponsored job credit to help get your job the premium status it deserves at indeed.com/branding. Podcast. Just go to indeed.com/podcast right now and support the show by saying you heard about Indeed here. Indeed.com/podcast. Terms and conditions apply. Hiring now? Then this is a job for Indeed Sponsored Jobs."
+    },
+    {
+      "start": 669.7,
+      "end": 695.4,
+      "speaker": "K",
+      "text": "This episode is supported by Anthropic, the public benefit corporation behind Claude. People have hard questions about AI. What happens to jobs? Whether their kids end up better off. Anthropic asked over 100,000 people their thoughts on AI and is tracking in public what it does about them and where they might not have the answer just yet. There's hope in hard questions. Ask yours at Claude.ai/thejournal."
+    },
+    {
+      "start": 704.6,
+      "end": 714.9,
+      "speaker": "C",
+      "text": "Not long ago, my colleague Ryan Dezember went down to Georgia He wanted to see what the collapse of the pulpwood market looks like for people growing the trees. That's where he met Bill."
+    },
+    {
+      "start": 715.8,
+      "end": 720.2,
+      "speaker": "A",
+      "text": "Bill Howard. Bill Howard's family is very indicative of this whole crisis."
+    },
+    {
+      "start": 720.6,
+      "end": 720.7,
+      "speaker": "B",
+      "text": "Yeah."
+    },
+    {
+      "start": 720.9,
+      "end": 727.4,
+      "speaker": "I",
+      "text": "Bill Howard, Statesboro, Georgia. Fourth-generation sawmiller. As I say, we turn round things into square things."
+    },
+    {
+      "start": 728.1,
+      "end": 730.2,
+      "speaker": "C",
+      "text": "Bill can't imagine doing anything else."
+    },
+    {
+      "start": 730.9,
+      "end": 734.5,
+      "speaker": "I",
+      "text": "The old saying is, if you get sawdust in your veins, you can't ever get out of it."
+    },
+    {
+      "start": 738.9,
+      "end": 745.7,
+      "speaker": "A",
+      "text": "His great-grandfather turned up around Statesboro, Georgia, in 1898 with 7 brothers."
+    },
+    {
+      "start": 746,
+      "end": 754,
+      "speaker": "I",
+      "text": "In 1898, my great-granddad moved into Statesboro, had a portable sawmill, and—"
+    },
+    {
+      "start": 754.4,
+      "end": 759.7,
+      "speaker": "A",
+      "text": "and they showed up and started sawing. And eventually the next generation built a permanent mill in town."
+    },
+    {
+      "start": 760.5,
+      "end": 763.8,
+      "speaker": "I",
+      "text": "'45, we moved where we're at now, and we have bought—"
+    },
+    {
+      "start": 763.8,
+      "end": 773.9,
+      "speaker": "A",
+      "text": "And, you know, and they've expanded into sort of like a contractor yard, sort of builder supply business. You know, all of a sudden they've got, you know, 300-some employees."
+    },
+    {
+      "start": 775,
+      "end": 797,
+      "speaker": "C",
+      "text": "For years, the Howards could count on the first thinning of the forest as a payday. Now it's a burden. The mills that make newsprint and boxes are buying less and less of Bill's pulpwood. And then those paper mills started closing. When he saw that happening, Bill started worrying about what it meant for his business, both as a farmer and the owner of a local sawmill."
+    },
+    {
+      "start": 797.9,
+      "end": 804.4,
+      "speaker": "I",
+      "text": "Well, we still have paper mills in our area, so what keeps me up at night is that we lose another one."
+    },
+    {
+      "start": 805.8,
+      "end": 809.2,
+      "speaker": "C",
+      "text": "That fear is already changing the way Bill is planting his forests."
+    },
+    {
+      "start": 810.2,
+      "end": 825.4,
+      "speaker": "I",
+      "text": "So we used to plant 600 trees per acre. We've gone to 550, and then here recently we've gone to 450, just trying to avoid having more pulpwood to take out."
+    },
+    {
+      "start": 827,
+      "end": 839.9,
+      "speaker": "C",
+      "text": "Across the South, farmers may already be planting fewer trees. One of the region's biggest suppliers of pine seedlings reported that over its last two fiscal years, sales of loblolly seedlings have fallen 20%."
+    },
+    {
+      "start": 841.5,
+      "end": 845.4,
+      "speaker": "B",
+      "text": "So it's bad for him as a tree grower, and I'm guessing it's also not great for his sawmill business."
+    },
+    {
+      "start": 845.9,
+      "end": 853,
+      "speaker": "A",
+      "text": "You know, when I talked to him, he said, \"Look, if people don't plant trees, I won't have anything to cut.\" Pulpwood is the first step."
+    },
+    {
+      "start": 854,
+      "end": 858.8,
+      "speaker": "I",
+      "text": "If we don't have a manufacturing base to sell our trees into, we won't have a forest."
+    },
+    {
+      "start": 860.3,
+      "end": 864.6,
+      "speaker": "C",
+      "text": "Some farmers are considering a much bigger change: not planting trees at all."
+    },
+    {
+      "start": 865.4,
+      "end": 878.9,
+      "speaker": "I",
+      "text": "You know, they have alternatives. They could turn it into ag land. They could Turn it into solar farms. They could develop it. They're gonna— they're gonna do something with that land for best use. We want it to be growing trees."
+    },
+    {
+      "start": 880.3,
+      "end": 897.2,
+      "speaker": "C",
+      "text": "One grower in the region told Ryan that instead of replanting pine trees on part of his land, he planted blueberries instead. Others are leasing their land for solar or considering selling off parcels as little ranches. Is there a chance that there could be a new market for the pulpwood?"
+    },
+    {
+      "start": 897.5,
+      "end": 898.7,
+      "speaker": "B",
+      "text": "Like, could they use it for something else?"
+    },
+    {
+      "start": 899.2,
+      "end": 940.3,
+      "speaker": "A",
+      "text": "Yes, there's a lot of things happening and a lot of efforts like OSB. It's called oriented strand board. It's basically like the floor or the roof of your house, manufactured panels. And then there's like more sort of interesting new things people are trying to develop, like sustainable aviation fuel, jet fuel made from cellulose. There's fabrics. If you go through your shirts, If you have a silky one, it might be made out of something called lyocell, which is made from cellulose, or modal is a— is basically a member of the rayon family, which is made from pulp. You know, smokeless gunpowder for the military is made at a plant down in Georgia out of wood pulp. So there's all sorts of new things."
+    },
+    {
+      "start": 940.5,
+      "end": 940.7,
+      "speaker": "F",
+      "text": "Hmm."
+    },
+    {
+      "start": 941.2,
+      "end": 950.3,
+      "speaker": "B",
+      "text": "If you're a timber farmer, though, these are a lot of really interesting ideas that, you know, it's hard to say at this point if they're going to pay off, but you need to make a decision. You're going to be beholden to for decades."
+    },
+    {
+      "start": 950.7,
+      "end": 955.6,
+      "speaker": "A",
+      "text": "Exactly. And that's sort of the conundrum. It's like, do you bet on that or something like that happening?"
+    },
+    {
+      "start": 955.8,
+      "end": 968.9,
+      "speaker": "B",
+      "text": "Mm-hmm. Or do you do something else emotionally, sort of on a human level for these farmers? Like, what do you think is going through their mind as they're trying to make a decision about whether or not to plant a tree or even stay in this business at all?"
+    },
+    {
+      "start": 969.4,
+      "end": 991.4,
+      "speaker": "A",
+      "text": "I mean, I was thinking about that and like, you know, I live in the city, so like my assets are in stocks and bonds. I have zero emotional attachment to those. I don't wake up and go look at them out my window. I don't take a walk through them. I don't hear the birds chirping in them. I don't have my family over for, like, you know, a turkey hunt or whatever. And that's what these people do."
+    },
+    {
+      "start": 991.9,
+      "end": 1002.1,
+      "speaker": "I",
+      "text": "We hunt and fish and camp out and we manage it to grow saw timber. But along the ways, you know, it You see it at every age."
+    },
+    {
+      "start": 1002.5,
+      "end": 1008.1,
+      "speaker": "A",
+      "text": "So there's like an aesthetic attachment to the land and to the trees and the forest itself."
+    },
+    {
+      "start": 1008.4,
+      "end": 1010.1,
+      "speaker": "I",
+      "text": "It is. It is beautiful."
+    },
+    {
+      "start": 1011,
+      "end": 1027,
+      "speaker": "A",
+      "text": "I think that makes it a lot harder than if, say, you or I had some need for money and we said, \"Oh, well, we'll just sell those bonds or sell those stocks.\" But if you take my 1,000 acres of pine trees, that's gonna materially probably change my life. And how I live it."
+    },
+    {
+      "start": 1031,
+      "end": 1051.8,
+      "speaker": "C",
+      "text": "Bill isn't ready to pull the plug on the family business yet. He now has two sons that have joined the company, a fifth generation of tree farmers, and they have kids too, meaning there's already a sixth generation running around the family timberlands. Bill hopes they'll join the family business too when they grow up and one day harvest the trees he planted this year."
+    },
+    {
+      "start": 1053.5,
+      "end": 1061,
+      "speaker": "A",
+      "text": "He, like a lot of other people down there, these are very hardworking people. They have a lot of faith. They tend to be optimistic."
+    },
+    {
+      "start": 1061,
+      "end": 1068.4,
+      "speaker": "I",
+      "text": "Right now feels like the sky's falling a little bit, but in the end, I think we'll prevail."
+    },
+    {
+      "start": 1068.4,
+      "end": 1081.6,
+      "speaker": "A",
+      "text": "And so he, like a lot of other people I talked to, were kind of like, \"Something's gonna turn around here for us if we can just kind of wait it out.\" We've been in this going on 130 years sawmilling."
+    },
+    {
+      "start": 1081.7,
+      "end": 1087.6,
+      "speaker": "I",
+      "text": "So, you know, it's not going to end on my watch. We're going to— we're going to figure it out and keep going."
+    },
+    {
+      "start": 1103.3,
+      "end": 1124.5,
+      "speaker": "C",
+      "text": "That's all for today. Thursday, September 3rd. The Journal is a co-production of Spotify and The Wall Street Journal. If you like our show, buy The Wall Street Journal newspaper made from pulpwood and follow us on Spotify. We're out every weekday afternoon. Thanks for listening."
+    },
+    {
+      "start": 1124.9,
+      "end": 1125.5,
+      "speaker": "B",
+      "text": "See you tomorrow."
+    },
+    {
+      "start": 1129.5,
+      "end": 1159,
+      "speaker": "L",
+      "text": "You know those tiny back-to-school emergencies that somehow become your problem? That's why I love Uber Eats. You can order school supplies, snacks, and lunchbox essentials for $5 or less. So when your kid casually drops, \"I don't like peanut butter anymore,\" or, \"I need 5 green highlighters for a project due tomorrow,\" Uber Eats has you covered. Get everything you need for back to school today from your favorite brands like Albee and Staples on Uber Eats. Order now. Ends 9/7. $5 or less before taxes and fees. Select items only. Availability varies. See app for details."
+    },
+    {
+      "start": 1159.8,
+      "end": 1188.8,
+      "speaker": "D",
+      "text": "Fall is the perfect time to refresh and reorganize your space. At The Home Depot, find power tools and tool sets starting at $50 to help tackle DIY projects, home updates, and more. Whether you're drilling brackets to support new shelving or sharpening your hedge trimmer blade with an angle grinder, The Home Depot has the tools you need to check projects off your list. Shop Labor Day savings at The Home Depot and gear up for fall projects with the right tools to keep your projects moving."
+    }
+  ]
+}

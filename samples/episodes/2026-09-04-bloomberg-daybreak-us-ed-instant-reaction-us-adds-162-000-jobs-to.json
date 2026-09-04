@@ -1,0 +1,638 @@
+{
+  "episode": {
+    "id": "e3eea0f630409437ee897d728442ff6df289db204e4d7dc47856e2121c80d260",
+    "podcastTitle": "Bloomberg Daybreak: US Edition",
+    "feedUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/d15648c4-cee0-4e99-a5ca-af80014d921d/65ce2954-d8a8-4c66-9f42-af80014d923e/podcast.rss",
+    "guid": "5574e8eb-534e-4ec7-93b3-b4bb00dad64a",
+    "title": "Instant Reaction: US Adds 162,000 Jobs, Topping All Estimates",
+    "description": "<p>US job growth surged in August and the unemployment rate held steady, suggesting the labor market has more momentum than previously thought. Nonfarm payrolls increased 162,000 last month and July&rsquo;s job losses were revised away, according to Bureau of Labor Statistics data out Friday. The August increase topped all estimates in a Bloomberg survey. The unemployment rate remained at 4.1%.</p> <p>Bloomberg's Tom Keene and Damian Sassower get reaction from:</p> <ul> <li>Claudia Sahm, Chief Economist at New Century Advisors, brings us into the jobs report</li> <li>Amy Wu Silverman, Head: Derivatives Strategy at RBC, reacts to today's jobs report</li> <li>Kristina Campmany, Senior Portfolio Manager at Invesco, talks about the bond market's reaction to jobs&nbsp;</li> </ul><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>",
+    "pubDate": "2026-09-04T13:16:14.000Z",
+    "duration": 1293,
+    "audioUrl": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8e704079-ca57-4eac-9741-ae27003e2b7f/a59b1d75-c8dd-4721-b398-b4bb00d96664/audio.mp3?utm_source=Podcast&in_playlist=65ce2954-d8a8-4c66-9f42-af80014d923e",
+    "artworkUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/d15648c4-cee0-4e99-a5ca-af80014d921d/65ce2954-d8a8-4c66-9f42-af80014d923e/image.jpg?t=1673278228&size=Large"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1587,
+    "utteranceCount": 91
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:46.968Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Breaking: 162K Jobs Tops Every Estimate",
+      "description": "Caroline Hepker delivers the August nonfarm payrolls surprise live, with S&P futures turning negative and Treasury yields spiking on the stronger-than-expected print.",
+      "startTime": 0.353,
+      "endTime": 251.602,
+      "anchorPhrase": "if you invest, lead a business, or allocate capital, one-sided views aren't enough. join me,"
+    },
+    {
+      "index": 1,
+      "title": "Claudia Sahm Reads the Labor Market",
+      "description": "Chief Economist Claudia Sahm unpacks the K-12 seasonal noise behind the monthly swing and explains why the stable 4.1% unemployment rate matters more to the Fed than the payrolls headline.",
+      "startTime": 251.602,
+      "endTime": 379.587,
+      "anchorPhrase": "that right now. dr. sam with us as she digests some of the early data"
+    },
+    {
+      "index": 2,
+      "title": "September Hike: Coin Flip or Done Deal?",
+      "description": "Sahm walks through why today's report tilts toward officials favoring a hike but stops short of calling it decisive, with inflation data remaining the true swing factor.",
+      "startTime": 379.587,
+      "endTime": 513.13,
+      "anchorPhrase": "noise. dr. sam, the u.s. treasury yield curve is flattening pretty aggressively here. i guess"
+    },
+    {
+      "index": 3,
+      "title": "Amy Wu Silverman on Volatility Complacency",
+      "description": "RBC's head of derivatives strategy explains why the options market priced a 'nothing burger' for NFP, why VIX is staying pinned near 15, and how cross-asset vol is already quietly bleeding higher.",
+      "startTime": 513.13,
+      "endTime": 715.793,
+      "anchorPhrase": "that's— why don't you bring in our next guest, amy wu silverman, managing director, head"
+    },
+    {
+      "index": 4,
+      "title": "Momentum's Multi-Sigma Meltdown",
+      "description": "Silverman breaks down the dramatic rotation out of momentum winners into overlooked sectors like software, and why equal-weight S&P hitting all-time highs signals broad market participation.",
+      "startTime": 715.793,
+      "endTime": 943.272,
+      "anchorPhrase": "during this time of the month. well, then, amy, let's shift back to the equity"
+    },
+    {
+      "index": 5,
+      "title": "FOMC, Israeli Elections, and Tail Risk",
+      "description": "Silverman flags the three macro events — Fed decision, Israeli elections, and midterms — most likely to jolt term structure and correlation levels in the next two months.",
+      "startTime": 943.272,
+      "endTime": 1142.205,
+      "anchorPhrase": "is giving you— conditionality for the greek leverage that you just talked about here. how"
+    },
+    {
+      "index": 6,
+      "title": "Kristina Campmany: Shorter Duration, Full Stop",
+      "description": "Invesco's senior portfolio manager argues for staying short duration globally, warning that a flood of long-end supply and unaddressed fiscal concerns spell indigestion ahead for bond markets.",
+      "startTime": 1142.205,
+      "endTime": 1413.1,
+      "anchorPhrase": "christina campmany going, why am i doing this? joining us now with invesco, she always"
+    },
+    {
+      "index": 7,
+      "title": "EM Local Debt Still Has Value",
+      "description": "Campmany makes the case for local currency emerging market debt, highlighting EM carry opportunities and why Brazilian bonds at 14.5% yields offer a compelling reprice regardless of election outcome.",
+      "startTime": 1413.1,
+      "endTime": 1587,
+      "anchorPhrase": "and takes its bite. crowding out. christine, i couldn't agree with you more. it is"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.4,
+      "end": 27.8,
+      "speaker": "A",
+      "text": "If you invest, lead a business, or allocate capital, one-sided views aren't enough. Join me, Brad Rogoff, the Global Head of Research at Barclays, on The Flipside Podcast. Each month I go head-to-head with one of our expert analysts on my global team to debate the economic and market issues that matter most. From inflation and AI to equity and credit trends, each debate helps you see what headlines might miss. Find The Flipside wherever you get your podcasts."
+    },
+    {
+      "start": 29.4,
+      "end": 101,
+      "speaker": "B",
+      "text": "Some people treat ChatGPT like some kind of smart search engine, and some use it to get work done. ChatGPT Work is a new way of working in ChatGPT that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work. It's designed to help you move from a chaotic starting point to a reviewable first version. So all the source materials, briefs, and scattered information that you have to grind through to turn into something useful can just become something useful. Put ChatGPT to work on your most ambitious ideas and projects. Get started at chatgpt.com by selecting work mode, available on Plus and Pro plans. Healthcare doesn't always work great. If you've ever waited on a refill or couldn't schedule an appointment, you get it. That's the kind of stuff Optum is changing. They're using data and technology to integrate patient care, pharmacy, and everything else. So healthcare is connected, not complicated. What's that look like? Cheaper prescriptions that are easier to get and care that looks at the whole person, how you need it. Optum is helping make healthcare work as one for everyone. Learn more at business.optum.com."
+    },
+    {
+      "start": 102,
+      "end": 108.3,
+      "speaker": "C",
+      "text": "Bloomberg Audio Studios. Podcasts, radio, news."
+    },
+    {
+      "start": 108.7,
+      "end": 120.5,
+      "speaker": "D",
+      "text": "This is a breaking news update from Bloomberg. Instant reaction and analysis. From our 3,000 journalists and analysts around the world."
+    },
+    {
+      "start": 121.4,
+      "end": 179.9,
+      "speaker": "E",
+      "text": "And with your breaking news on the payrolls numbers for August, the 2-month payroll net revision data adds 55,000 jobs to the United States. Nonfarm payrolls rising, therefore, month on month by 162,000. That is a, well, 3 times the estimate, 55,000. The unemployment rate, though, stays the same, 4.1%. The estimate had been for for that to stay on hold. And indeed, that's where we are. So S&P 500 E-mini futures this morning turn negative. They're down by 2/10 of 1%. So this in breaking news. Treasuries tumbling after August job creation tops estimates. Remember, no markets will be trading on Monday. So important to understand the ramifications. That is your breaking news. The US August nonfarm payrolls data. Tom and Damian, what do you make of it?"
+    },
+    {
+      "start": 180.2,
+      "end": 184.2,
+      "speaker": "F",
+      "text": "What I make of it is you did a very good job. You've never done the U.S. jobs report before."
+    },
+    {
+      "start": 184.5,
+      "end": 187.3,
+      "speaker": "E",
+      "text": "Yeah, not live and not out of New York."
+    },
+    {
+      "start": 187.5,
+      "end": 209.9,
+      "speaker": "F",
+      "text": "Let me do that. Let me do the market. Thank you, Caroline Hipker, so much. This is a wow report with wow market move. Equities move south as well. We don't have a VIX number yet, but in the yield space, we have a seismic move. Damian, I looked at the 10-year out to 4.80%. Yeah, and it's just simply priced price down and yield up."
+    },
+    {
+      "start": 209.9,
+      "end": 231,
+      "speaker": "D",
+      "text": "Well, I mean, it's the revision, right? I mean, we went from down 23,000 last month to up 21,000, and now we're up 162. Tom, you asked for it, you get it. 100,000-plus in nonfarm payroll adds this. I mean, and like, look, you have some average hourly earnings data, the month-over-month acceleration of 0.3%. So, you know, I— and the labor force participation rate, as we point out, higher, still coming off the lows."
+    },
+    {
+      "start": 231,
+      "end": 243,
+      "speaker": "F",
+      "text": "So sensitive to the flu, I'm not using my HP-12C, but my quick math is 217,000 positive. Yeah, on non-farm payroll plus a 2-month payroll revision as well."
+    },
+    {
+      "start": 243.3,
+      "end": 251.5,
+      "speaker": "D",
+      "text": "Shortened duration here. I mean, you don't want to be long the long end, I guess. I mean, the steepener should be working, one would think. I mean, we're going to ask Amy Woo Silverman all about that right now."
+    },
+    {
+      "start": 251.6,
+      "end": 266.4,
+      "speaker": "F",
+      "text": "Dr. Sam with us as she digests some of the early data as well. Uh, Claudia, a fascinating report. Is there any value here to 3-month moving averages now, or is it such a cacophony that's not valuable?"
+    },
+    {
+      "start": 266.7,
+      "end": 325,
+      "speaker": "G",
+      "text": "There's always value to the 3-month moving average. I mean, I think, you know, that going to this, trying to smooth this out, not get too hung up on a month to month. And honestly, you know, we have seen for many months a lot of like kind of bouncing around. Yeah. Negative print to a positive print. And again, that's because our— the breakeven is not that far from zero. So like we're going to keep having this above and below zero. I think this is where we're at to stay. But I will also say that, you know, this having the upside surprise this month after a downside surprise last month, this isn't just random noise. There was a really important piece of, you know, the K-12 teachers and staff that shows up in state and local government education. That was a big decline last month. It also was part of the revisions and it reversed this month. And it is just an area that has a very strong seasonal— you know, so I think there's some— there is a story to the noise. I don't want to just look at this data and be like, wow, this is our Fed presidents and governors, Dr."
+    },
+    {
+      "start": 325.2,
+      "end": 328,
+      "speaker": "F",
+      "text": "Sam. Are they as confused as Puffy the Cat?"
+    },
+    {
+      "start": 329.3,
+      "end": 379.3,
+      "speaker": "G",
+      "text": "He's pretty sharp. No, I think what the— what I think the Fed will, you know, is kind of a headline pull out of this. I mean, payrolls have been difficult to read for some time because we've got so many shifts in the labor supply that they've really kind of downweighted that in terms of a strong cyclical signal. The one that they still look a lot to, the unemployment rate. And wow, I mean, that thing is, is really stable, has been low and stable. And that is, for them at least, a really important signal of like, do they need to, you know, or is there something here for them to step in and a problem? And it's very, very low and stable. So I think that's— and that's probably where their attention will continue to focus. And the payrolls are going to just be something to dig into the details, understand it and look at the trends. I mean, maybe even more than a 3-month smooth on that, like really just kind of smooth out this bouncy noise."
+    },
+    {
+      "start": 379.6,
+      "end": 388,
+      "speaker": "D",
+      "text": "Dr. Sam, the U.S. Treasury yield curve is flattening pretty aggressively here. I guess that means that, you know, markets starting to price in a high probability of a hike here in September now."
+    },
+    {
+      "start": 388.4,
+      "end": 426.9,
+      "speaker": "G",
+      "text": "So I think we are going to go into the September meeting with really a coin flip. And I think that comes down to— for the Fed, they have some really tough decisions to make. In the messaging from Fed officials, I really haven't heard anybody pointing to the labor market as something that is decisive. And what do they do next? It's really trying to interpret where inflation is and where it's headed. I think the labor market in today's report showing the strength in payrolls, this is just not The downside risks just aren't there in the kind of the Fed sense of like what they should do, you know, in a couple of weeks. So, but, but, you know, it's, it's going to be a tough call for them. It really is."
+    },
+    {
+      "start": 427.2,
+      "end": 437.1,
+      "speaker": "F",
+      "text": "You get 2-year yields 7 basis points higher, yield of 4.41% on the 2-year yield. Is this report Waller friendly?"
+    },
+    {
+      "start": 437.5,
+      "end": 449.8,
+      "speaker": "G",
+      "text": "Again, Waller yesterday was not you know, paying much attention to the labor market. I mean, again, this is— it's consistent with Waller. It's consistent with what Warsh said about the labor market. The labor market is stable."
+    },
+    {
+      "start": 450.2,
+      "end": 459.5,
+      "speaker": "F",
+      "text": "What do you think this is, Labor Day? And am I my third Jenny Cremille? It can't be consistent for both of them. Who's this report more phyllic for, Waller or Warsh?"
+    },
+    {
+      "start": 463.1,
+      "end": 493.5,
+      "speaker": "G",
+      "text": "This, I think, you know, the report we got from Labor Market Day, I think the market is pricing this right. This goes in the favor of the Fed officials who think it's time to start hiking, because, you know, a risk of doing the rate hikes to bring inflation down is you take away jobs that you didn't have to take away because inflation was going to get better. If the labor market looks pretty solid, then okay, like, maybe, maybe we'll, you know, work on the inflation piece. So I think this does— today's report probably does fit more on those who are looking to potentially hike in a couple."
+    },
+    {
+      "start": 493.6,
+      "end": 503.4,
+      "speaker": "F",
+      "text": "One final question. We got to go. Amy Silverman's people are upset we're not getting to her. Claudia Puffy the Cat. Does Puffy like cold lobster roll or hot lobster roll?"
+    },
+    {
+      "start": 503.6,
+      "end": 508.2,
+      "speaker": "G",
+      "text": "We do not let her have lobster. That is not a habit we want to start."
+    },
+    {
+      "start": 508.2,
+      "end": 510.8,
+      "speaker": "D",
+      "text": "It's hot lobster. It's Connecticut style."
+    },
+    {
+      "start": 510.8,
+      "end": 512,
+      "speaker": "F",
+      "text": "Connecticut."
+    },
+    {
+      "start": 512.7,
+      "end": 513.1,
+      "speaker": "G",
+      "text": "That's—"
+    },
+    {
+      "start": 513.1,
+      "end": 529.1,
+      "speaker": "D",
+      "text": "why don't you bring in our next guest, Amy Wu Silverman, managing director, head of derivatives strategy at RBC Capital Markets. Thank you for joining us in studio here today. The VIX is at 13. I mean, I don't know where the VIX is now. I got to check last. But I mean, it was pretty— it was— I mean, look, it's pretty low coming into this Labor Day weekend."
+    },
+    {
+      "start": 529.1,
+      "end": 529.3,
+      "speaker": "H",
+      "text": "What are your thoughts on volatility levels?"
+    },
+    {
+      "start": 529.3,
+      "end": 532.9,
+      "speaker": "D",
+      "text": "I mean, What should investors be thinking at— thinking about here?"
+    },
+    {
+      "start": 533.3,
+      "end": 575.2,
+      "speaker": "I",
+      "text": "Yeah, it's interesting because I'll take this off. Well, echo here. You know, what's interesting is coming into this, obviously a lot of complacency and volatility, and especially with the report that we just had, it was interesting that at-the-money breakevens on NFP were basically average. So, you know, you kind of look historically at these breakevens and it was sort of pricing a nothing burger, which to some degree a little complacent, right? But the options market was pricing a little bit more for CPI, which is ahead. And I'm interested to see how this reprises. But VIX has been very resilient. I wouldn't be surprised even with how things move in terms of rates pricing, your VIX still floating around that 15, 16 handle."
+    },
+    {
+      "start": 575.5,
+      "end": 595.2,
+      "speaker": "D",
+      "text": "So when you look at the volatility market, obviously equities are a big part of that. But, you know, I'd like to call your attention to the FX market and what we're seeing in dollar-yen here, because I'm looking at that smile, I'm looking at that— you guys are hammering the calls. You guys seem a little bit more, at least via options, you know, a little bit more comfortable getting long the yen at these levels. Are you seeing the same thing? You see demand for the Japanese yen here?"
+    },
+    {
+      "start": 595.8,
+      "end": 635.3,
+      "speaker": "I",
+      "text": "So here's what I'll say when we look across assets. So I primarily focus on equity volatility, but when you look across asset currency vol, at rates vol, so MOVE versus VIX or CVIX versus VIX, what I'll tell you is all these cross-asset vol levels have already started to bleed up. So just think about either of these cross-assets versus VIX vol. We're like talking 99th percentile. Why hasn't one seen a bleed in equity? Well, one, because the trades heavy and strong earnings were great. And then two, you've got really high dispersion, right? Like people have not left the equity market. They've just rotated within it. And that's keeping us pretty solid, pretty low VIX levels."
+    },
+    {
+      "start": 635.4,
+      "end": 665.7,
+      "speaker": "F",
+      "text": "Amy Silverman with us here. Thrilled to have her with RBC this morning. Coming up, Christina Capmany of Invesco. Is, well, it's Labor Day. It's a point where people set up for Q4 to get to the February boni. Is Wall Street participating in this enthusiasm in the market? I get IB's good, I guess obtaining private credit's good, etc. But is Wall Street in the markets right now or are they just getting whipsawed so much they can't get— you know, they can't get the week started?"
+    },
+    {
+      "start": 666.1,
+      "end": 715.7,
+      "speaker": "I",
+      "text": "I'd say when— if you kind of think back at this point 6 weeks ago during that big momentum drawdown, Tom, people had kind of gotten cleaned out and were re-leveraging. So, so sort of like clean positioning going into earnings. People really came back in with really good earnings numbers, I would say. Yes. And the second thing I would say is, you know, you're kind of getting to this seasonal time where it's a little like, wah-wah, we had great earnings, but now all we have are like macro catalysts. Seasonally, this is a time when VIX does rise, but But I think we're going to get a surprise this time in the sense that you, you have had heavy rotation, but no one's really taken money off and no one's hedging either. So people are very involved. And when you have that and perhaps you get a surprise on something like, you know, September FOMC, I think that's something that could pick up volatility a little bit more than usual during this time of the month."
+    },
+    {
+      "start": 715.8,
+      "end": 731.1,
+      "speaker": "D",
+      "text": "Well, then, Amy, let's shift back to the equity market. I mean, taking a factor-based approach, you know, one factor we look at a lot here is momentum. I look at it in EMFX. It's performed really, really well if you put it in the context of a larger portfolio, it becomes a volatility dampener. Talk to us about what you're seeing in momentum. A big shift there on the equity side now."
+    },
+    {
+      "start": 731.4,
+      "end": 762.4,
+      "speaker": "I",
+      "text": "Huge shift. I mean, multi-standard deviation shift in what momentum has done. You know, momentum is the thing that has been working. Winners have been winning. And we really had a drawdown in that. We had a reshifting. You know, I can tell you when we just look at our trading desk level, a lot more interest in something like the software sector. So it's almost anti-momentum, right? Like February, February this year, you know, we couldn't stop talking about SaaSpocalypse and pencils down. No one wants to talk about anything with existential terminal value. Now people are like, hey, that software is looking pretty good."
+    },
+    {
+      "start": 762.4,
+      "end": 764.5,
+      "speaker": "D",
+      "text": "You know, let's look at that."
+    },
+    {
+      "start": 764.5,
+      "end": 777,
+      "speaker": "F",
+      "text": "So I'm talking to both of you. The Damian says, are naming Silverman. The bottom line is, if it's south, buy it. Fear of missing out. You know, if software is down, you load the boat because it's going to come back, right, Damian?"
+    },
+    {
+      "start": 777,
+      "end": 810.9,
+      "speaker": "D",
+      "text": "Well, I mean, there's a difference between winners keep winning and losers keep losing, right? If you take your 4 lookback windows, call it 1 month, 3 months, 6 months, 1 year, and you kind of take your equal weight and you vol adjust and do all the things that portfolio managers do, you're supposed to get this nice smooth upward sloping return. Turn. But in times like this when things kind of go pear-shaped, we saw in March, right, where the markets got surprised and you saw that trying to reversal sort of kick in, momentum got crushed. And it can get— I mean, so this is the thing, like, you have to be mindful of these kind of pockets. And you're right, this is September, guys. I mean, like, historically speaking, seasonally speaking, not a great month for, uh, for just owning and holding and, you know, kind of putting it behind yourself."
+    },
+    {
+      "start": 811,
+      "end": 818.7,
+      "speaker": "F",
+      "text": "Enthusiasm— I mean, you go out with Laurie Calvacina, talk about a frightening tandem. Out there. What's the mood out there, Amy?"
+    },
+    {
+      "start": 819,
+      "end": 838.4,
+      "speaker": "I",
+      "text": "I'd still say it's pretty positive. And if you want to make your brain hurt even more, when you look at the definition of momentum, which is winners win right over some window, at some point if the losers start winning, they're going to be your new momentum basket. It's just going to be a new basket of momentum that picks up again, kind of makes your brain hurt. But that's why we're watching these subsectors really close."
+    },
+    {
+      "start": 838.4,
+      "end": 840.7,
+      "speaker": "D",
+      "text": "That's why the S&P Equal Weight is at almost an all-time high."
+    },
+    {
+      "start": 840.9,
+      "end": 847.8,
+      "speaker": "I",
+      "text": "Exactly. And so sentiment out there is still not too bad. Not that much hedging and not interest in talking about the US."
+    },
+    {
+      "start": 849.3,
+      "end": 858.4,
+      "speaker": "F",
+      "text": "Does yields impinge on equity performance if yields get high enough? I mean, so old school, it's boring to— yields compete here."
+    },
+    {
+      "start": 859.1,
+      "end": 883.8,
+      "speaker": "I",
+      "text": "I think, you know, I think everyone has it like a psychological threshold they're looking at. It doesn't really make logical sense. But yeah, if we start getting, you know, those percentages going higher and higher, then I think some people get nervous. I'll tell you one big theme in our market, retail cohort. I don't think they're looking at these yields as much. I don't think they have this kind of old school— when, when 30-year gets to X, then I got to pull. I don't hear that from them. No."
+    },
+    {
+      "start": 884,
+      "end": 903.8,
+      "speaker": "D",
+      "text": "So let's talk a bit. Let's put our options hat here on. And I mean, where do you see the most compelling parts of the market? I mean, is it in playing, I don't know, skew? Is it in playing, you know, the peakedness of the— I mean, like, what do you really like if you have investors? Is it cross-asset, you know, taking on spread risk with the asymmetry there relative to equity risk or vice versa? What do you— what are your clients? What's really interesting to you right now, Amy?"
+    },
+    {
+      "start": 904.1,
+      "end": 943.3,
+      "speaker": "I",
+      "text": "So a few things. The first is my mantra these last few years has really been give what the market takes you, you know, in the sense that like if you get really, really bid call skew, use call spreads, you know, take advantage of that payout. If you're getting really, really inexpensive downside, think about those puts. It's about optionality at this point. So if you've made a decent amount of money and hedges are inexpensive, it's about that optionality of owning it. Yes, it hasn't worked in the sense that, you know, you've had a market that's continued to rip. But it's about where those payouts are really relatively juicy. You know, that's almost a credit lens when you think about it. But give what the market is giving you—"
+    },
+    {
+      "start": 943.3,
+      "end": 954.8,
+      "speaker": "F",
+      "text": "conditionality for the Greek leverage that you just talked about here. How far out do you make those bets? Are you making a 1-month bet, 3-month bet? Are you like Taleb? We are 10 years."
+    },
+    {
+      "start": 956.1,
+      "end": 976.5,
+      "speaker": "I",
+      "text": "These are the events I'm watching for right now. FOMC, obviously. There's actually Israeli elections coming up and then midterms. I think that the middle one kind of gets forgotten. But those three things, when you think about the macro events in the next 1 to 2 months, can really shift your term structure and it can shift your correlation levels, which again has been something that really hasn't moved."
+    },
+    {
+      "start": 976.5,
+      "end": 985.2,
+      "speaker": "F",
+      "text": "What an honor at Jackson Hole to speak briefly with Jacob Frenkel, the former governor of the Bank of Israel. Brazil. And he said America way underestimates the impact."
+    },
+    {
+      "start": 985.2,
+      "end": 987.2,
+      "speaker": "D",
+      "text": "Oh, the impact of the Israeli elections. I agree with you."
+    },
+    {
+      "start": 987.2,
+      "end": 987.5,
+      "speaker": "F",
+      "text": "That's not—"
+    },
+    {
+      "start": 987.5,
+      "end": 987.9,
+      "speaker": "D",
+      "text": "he was—"
+    },
+    {
+      "start": 987.9,
+      "end": 991.4,
+      "speaker": "F",
+      "text": "no, not me. He was heated. No, Dr. Frenkel was heated."
+    },
+    {
+      "start": 991.4,
+      "end": 1001.7,
+      "speaker": "D",
+      "text": "And I bet you— I mean, Amy, you're the first guest that I've interviewed really in the last few months that's even brought it up. So kudos to you. But there's also an election in Brazil coming up too. So in emerging markets, I mean, do you see people trying to—"
+    },
+    {
+      "start": 1001.7,
+      "end": 1003.2,
+      "speaker": "F",
+      "text": "you know, we gotta go."
+    },
+    {
+      "start": 1003.2,
+      "end": 1004,
+      "speaker": "D",
+      "text": "We gotta go."
+    },
+    {
+      "start": 1004,
+      "end": 1005.4,
+      "speaker": "F",
+      "text": "There's always—"
+    },
+    {
+      "start": 1005.4,
+      "end": 1006.4,
+      "speaker": "D",
+      "text": "Damian, she just—"
+    },
+    {
+      "start": 1006.4,
+      "end": 1019.6,
+      "speaker": "F",
+      "text": "I know she just got here. We should interview for an hour. Okay, can Can I just state that in your world there's always another election? I mean, come on. I mean, does Thailand have an election?"
+    },
+    {
+      "start": 1019.6,
+      "end": 1020.5,
+      "speaker": "D",
+      "text": "We'll discuss this sometime."
+    },
+    {
+      "start": 1020.5,
+      "end": 1031.9,
+      "speaker": "F",
+      "text": "Amy, go away. Amy Wu Silverman, take the long weekend. I know Calvasina's off all of September getting the kids back to school, but you know, nice to see you. Amy Wu Silverman, RBC Capital."
+    },
+    {
+      "start": 1031.9,
+      "end": 1044.3,
+      "speaker": "A",
+      "text": "If you invest or lead a business, one-sided views aren't enough. Join me, Brad Bergoff, and my team at Barclays Research as we debate what's driving markets on the Flipside Podcast. Find The Flip Side wherever you get your podcasts."
+    },
+    {
+      "start": 1047.1,
+      "end": 1080.3,
+      "speaker": "J",
+      "text": "Quick one before you jump back in. You're listening for ways to help teams move faster, make sharper decisions, and turn scattered context into work they can use. ChatGPT for Business can help. ChatGPT for Business gives teams a shared workspace with admin controls, permissions, and access to work and codex in ChatGPT. This means your business can move from question to answer and code to rollout quicker. Join over 10 million business and enterprise users worldwide already using ChatGPT for work. Download the ChatGPT desktop app or contact sales to learn more."
+    },
+    {
+      "start": 1087.6,
+      "end": 1141,
+      "speaker": "C",
+      "text": "Every sale comes down to a single second. The one between buy now and maybe later. PayPal is built to help your business win that moment with a checkout experience that feels certain We're open, reliable, and familiar. With a global two-sided network and hundreds of millions of buyers who already know us. All to keep you in control however buying happens next. New markets. New AI-powered selling services. A whole new agentic era where you decide how your business will show up and stand out. PayPal is built to help your business come out ahead. We're built for payments, built for growth, built for agentic. PayPal Open. Built for all business. Visit PayPalOpen.com to get started. That's PayPalOpen.com."
+    },
+    {
+      "start": 1142.2,
+      "end": 1158.4,
+      "speaker": "F",
+      "text": "Christina Campmany going, why am I doing this? Joining us now with Invesco, she always does, on Jobs Day. How's your summer been at the desk in front of the Bloomberg terminal? Is it like like you're making coupon and things are good, or has it just been nuts?"
+    },
+    {
+      "start": 1158.8,
+      "end": 1160.9,
+      "speaker": "H",
+      "text": "Nuts. Very non-summer-like for sure."
+    },
+    {
+      "start": 1161.5,
+      "end": 1164.3,
+      "speaker": "F",
+      "text": "Okay. In what way has it been just like you've never seen?"
+    },
+    {
+      "start": 1165,
+      "end": 1188,
+      "speaker": "H",
+      "text": "Well, I think we have a new Fed chair, new leadership there. The whole market's trying to kind of grasp like, what is communication? How do we interpret this? We've had pending elections, midterms coming up. I think you obviously brought up the Brazil election. Emerging markets have been choppy. On again, off again, on again, off again situation in the Middle East. I mean, it's just been nonstop."
+    },
+    {
+      "start": 1188.2,
+      "end": 1202.1,
+      "speaker": "D",
+      "text": "All right. Well, let's talk about the intervention. Right. And all the things we saw with Bessant in the backup to that. You know, my mind goes to a different place, right? Japan has been the currency that investors writ large, risk managers have used to fund their exposure in other places. Now you see a lot of that being taken off the books."
+    },
+    {
+      "start": 1202.5,
+      "end": 1204.7,
+      "speaker": "H",
+      "text": "Where do you go as a funder?"
+    },
+    {
+      "start": 1204.9,
+      "end": 1228.1,
+      "speaker": "D",
+      "text": "As a funder for a funding currency? Okay. Swiss franc. I mean, like, because my concern is many a time in the past, if we've seen the S&P really, really surprise the market markets. And if you start to see, especially in Europe— I mean, Christine, you can speak to this— I mean, look, the potential for some of these low yielders to surprise the market to me seems pretty rich. And so I'm just curious to hear your thoughts there. Do you get kind of nervous when you hear about some of these other central banks like the ECB ahead next week?"
+    },
+    {
+      "start": 1228.7,
+      "end": 1265.6,
+      "speaker": "H",
+      "text": "Um, look, so I think from a funder perspective, we've talked about this for a long time, that I think the Asian currencies are the most just out of whack from a valuation perspective. So this I think we sit here with knowing that the yen is priced at the wrong level. And I think some of the follow-on from the initial intervention, coordinated intervention from the MOF and the Treasury, then the follow-on was a little disappointing. But there, there is going to be movement. I think it's hard to kind of pinpoint what the timing is. The BOJ should be going in September, but still, even sitting at 155, the yen is wildly at the wrong level."
+    },
+    {
+      "start": 1265.6,
+      "end": 1291.4,
+      "speaker": "F",
+      "text": "I want to explain to our folks across the country and worldwide the way you choose to Listen to us. This is magic what you're hearing. You're hearing two adults in the international bond market talking. Christina Capmany and Damian Sass are just grizzled pros at this. I understood about half of it. Caroline Hapker understood the other half. But the answer is this is like magic. Can give one more question because I got to go back to the US."
+    },
+    {
+      "start": 1291.5,
+      "end": 1298.7,
+      "speaker": "D",
+      "text": "Just added 162,000 jobs. I mean, does this give the Fed leeway to hike in September? I mean, I think it does, right?"
+    },
+    {
+      "start": 1299,
+      "end": 1340.5,
+      "speaker": "H",
+      "text": "I think so. And I think, again, we, we started talking about the Fed in this communication flip-flopping back and forth. And it feels like the messaging was very different from June to July to Jackson Hole. And I think coming out of Jackson Hole, that was a very hawkish message. And I think it left it on the data to hold them back. Obviously, Waller's comments yesterday said everything lies on CPI print next week. It's hard to be— it's frustrating to be back in a point that we're hinged on one data point. But I think the market has a very hard time if they don't follow through and deliver a hike. And you go back to what we talked about, about Bessens' comments and the long end, which is a Japan situation in the US. But I think the long end of the bond market has a real issue if they don't."
+    },
+    {
+      "start": 1340.6,
+      "end": 1365.8,
+      "speaker": "F",
+      "text": "How do you at Invesco deal with the odd boom economy nominal GDP? We have inflation loaded, let's say, but also a real GDP loaded 162,000 jobs. How do you structure a bond portfolio knowing Nominal has to come down, but you don't know how nominal yields have to come down."
+    },
+    {
+      "start": 1365.9,
+      "end": 1412.8,
+      "speaker": "H",
+      "text": "No, no, no. John, GDP has come down. Look, so I think you look at this is still, if we look at global bond markets generally, a market that we want to be shorter duration, shorter duration versus benchmarks. I don't really want to own duration out the curve even at these levels. And I know people have gotten excited about all-in yields and the level of yield or like coupons of hyperscalers. There is a flood of supply, especially out the curve, that is coming to global bond markets. And there is indigestion happening. And we have fiscal concerns and we don't have kind of a lot of— certainly in the US, the US being the US market that it is, kind of has this pass that people aren't concerned about the level of kind of debt outstanding, I think. I think at some point that comes and takes its bite."
+    },
+    {
+      "start": 1413.1,
+      "end": 1434.7,
+      "speaker": "D",
+      "text": "Crowding out. Christine, I couldn't agree with you more. It is certainly a risk. I mean, we know that this is all about finding a clearing price for bonds, especially those at the long end. But, you know, for me, I love the fact that you're still long and strong in local currency debt. Talk to us a little bit about the buy, about your basis for that, for that position. I mean, obviously we've seen the dollar off, you know what, round about 1.5% this year. Is this more of a currency play or do you see something deeper going on?"
+    },
+    {
+      "start": 1435.4,
+      "end": 1436.2,
+      "speaker": "H",
+      "text": "I think it's both."
+    },
+    {
+      "start": 1436.8,
+      "end": 1437.6,
+      "speaker": "I",
+      "text": "I think the—"
+    },
+    {
+      "start": 1438.2,
+      "end": 1485.5,
+      "speaker": "H",
+      "text": "again, 2025 felt like a clear weaker dollar story. This year has been, has been a bit more challenged with the crosscurrents. But it still, I think, is a place where there's value in EM carry and some of the high yielders from an FX perspective. And then if you look at some of kind of the country-specific, like Brazil with the election coming up, you've— it's traded poorly this year. We do think that there's value of just like the overall level of high yield and a reprice. And you've started to see some movement in the polls there with expectations around Bolsonaro. But 3 weeks ago, you were pricing a very consensus that Lula takes it away. So the question is, this would be Lula for how much worse can the bond market really price when you're already sitting with yields at 14.5%?"
+    },
+    {
+      "start": 1485.8,
+      "end": 1492.8,
+      "speaker": "F",
+      "text": "That's Caroline. It's just so good. Brazilian election, and next year, next week, it'll be the Peruvian."
+    },
+    {
+      "start": 1492.9,
+      "end": 1498.3,
+      "speaker": "D",
+      "text": "Only 225 big cuts priced into the DI curve in Brazil right now. I mean, you know, go figure."
+    },
+    {
+      "start": 1498.7,
+      "end": 1500.5,
+      "speaker": "F",
+      "text": "Christina Cameron, thank you so much."
+    },
+    {
+      "start": 1505.3,
+      "end": 1525.4,
+      "speaker": "K",
+      "text": "With Cricket Wireless, you can count on reliable nationwide 5G because Cricket Wireless is on the AT&T network, which means you can start listening to that new album that just dropped at home while running errands and at the gym without any hiccups. Find plans with unlimited data for every lifestyle and price point. Switch to Cricket today."
+    },
+    {
+      "start": 1525.7,
+      "end": 1556,
+      "speaker": "J",
+      "text": "Some people use ChatGPT to answer questions. Others use it to get real work done. With ChatGPT Work, you bring the goal, plus real inputs like briefs, notes, files, feedback, data, and project plans. It can help turn them into an analysis, tracker, deck outline, prototype, or workflow you can review and keep shaping. You stay in control, giving direction and choosing the final output. Put ChatGPT to work on your most ambitious ideas and projects. Get started at chatgpt.com by selecting work mode. Available on Plus and Pro plans."
+    },
+    {
+      "start": 1556.5,
+      "end": 1563.1,
+      "speaker": "D",
+      "text": "Wait, I came in for 2 things. How is this $47? All right, we're gonna need a plan here."
+    },
+    {
+      "start": 1563.4,
+      "end": 1575.6,
+      "speaker": "K",
+      "text": "Just start simple with Bank of America Advantage Safe Balance Banking. No overdraft item fees, no monthly maintenance fee if you're under 25. Plus, as a new checking customer, you can earn $100 when you open account and make qualifying Zelle or debit transactions."
+    },
+    {
+      "start": 1576,
+      "end": 1578.3,
+      "speaker": "D",
+      "text": "Oh, that's actually really simple."
+    },
+    {
+      "start": 1578.6,
+      "end": 1586.2,
+      "speaker": "K",
+      "text": "Safe Balance Banking. One less thing to figure out. Learn more at bova.com/earn100. Terms and conditions apply. Bank of America, an A member FDIC."
+    }
+  ]
+}

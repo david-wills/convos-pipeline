@@ -1,0 +1,214 @@
+{
+  "episode": {
+    "id": "f72303367c147cc9a28e98f2a6dd5f3291704ddd48d520affe3f09b3b5e104f9",
+    "podcastTitle": "Marketplace Tech",
+    "feedUrl": "https://feeds.publicradio.org/public_feeds/marketplace-tech",
+    "guid": "01M1M3JSASAKB8NPDRNZ3MY41P",
+    "title": "NYC public schools ban AI through middle school",
+    "description": "<p>Google survives yet another antitrust case without having to break up its business. Plus, New York City public schools announced a new policy this week banning the use of AI among elementary and middle school students. </p><br/><p>But first, John Ternus took over as CEO of Apple after a 15-year run by Tim Cook. Joanna Stern, founder of the media company New Things, joins Marketplace’s Meghan McCarty Carino to explain more about what this means for the iPhone maker on this week’s “<a href=\"https://www.marketplace.org/bytes\" class=\"default\">Tech Bytes: Week in Review</a>.”</p><br/><h3 id=\"h3_everything_we_talked_about\">Everything we talked about</h3><br/><p>“<a href=\"https://www.nytimes.com/2026/09/01/technology/apple-tim-cook-john-ternus.html\" class=\"default\">Apple Begins Its Next Balancing Act as New C.E.O. Takes Over</a>” from The New York Times</p><br/><p>“<a href=\"https://www.macworld.com/article/3225557/why-apples-folding-iphone-will-be-ultra-in-name-only.html\" class=\"default\">Why Apple’s folding iPhone will be ‘Ultra’ in name only</a>” from Macworld</p><br/><p>“<a href=\"https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html\" class=\"default\">In a Big Win, Google Avoids a Breakup of Its Ad Tech Business</a>” from The New York Times</p><br/><p>“<a href=\"https://www.cnn.com/2026/09/02/tech/new-york-city-classroom-ai-ban\" class=\"default\">Nation’s largest school district bans AI in the classroom through 8th grade</a>” from CNN</p><br/><p>“<a href=\"https://thenewthings.com/p/three-ai-agents-one-school-shopping-list\" class=\"default\">Three AI agents. One school shopping list.</a>” from New Things</p>",
+    "pubDate": "2026-09-04T10:00:00.000Z",
+    "duration": 890,
+    "audioUrl": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/tech_report/2026/09/04/tech_20260904_0904_MP_TECH_pod_128.mp3?awCollectionId=mkp-MKPtech&awEpisodeId=01M1M3JSASAKB8NPDRNZ3MY41P",
+    "artworkUrl": "https://img.apmcdn.org/f6936e36c81a65b9458e00aafff921e9fe550960/square/cbfebd-20260903-mamdani-2000.jpg"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1076,
+    "utteranceCount": 23
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:37:57.959Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Apple's New Era Begins",
+      "description": "Joanna Stern joins to break down what John Ternus taking over as Apple CEO means for the company's product direction after Tim Cook's 15-year operations-focused run.",
+      "startTime": 0.192,
+      "endTime": 160.398,
+      "anchorPhrase": "running a business is hard enough, so why make it harder with a dozen different"
+    },
+    {
+      "index": 1,
+      "title": "The Foldable iPhone Moment",
+      "description": "With a major iPhone event days away, Stern previews the rumored foldable iPhone, expected price hikes, and why this could be one of the most consequential launches in Apple history.",
+      "startTime": 160.398,
+      "endTime": 220.693,
+      "anchorPhrase": "and he is taking the helm right before this big iphone unveil coming next week."
+    },
+    {
+      "index": 2,
+      "title": "Apple's Awkward AI Comeback",
+      "description": "After years of Siri stumbles and broken promises, Apple is finally ready to say it doesn't suck at AI — and Stern explains why the timing couldn't be better for the new CEO.",
+      "startTime": 220.693,
+      "endTime": 344.523,
+      "anchorPhrase": "this is a very interesting moment for apple. obviously, i think the iphone has been"
+    },
+    {
+      "index": 3,
+      "title": "Google Dodges the Breakup",
+      "description": "A federal judge rules Google doesn't have to sell its ad tech business, marking the second major antitrust case Google has walked away from essentially intact.",
+      "startTime": 344.523,
+      "endTime": 614.43,
+      "anchorPhrase": "all right. well, now on to news of another big tech titan, google. this week,"
+    },
+    {
+      "index": 4,
+      "title": "NYC Schools Draw the AI Line",
+      "description": "New York City bans AI use in public schools through 8th grade, including a prohibition on teachers using AI to grade — Stern weighs what the policy will and won't actually accomplish.",
+      "startTime": 614.43,
+      "endTime": 843.604,
+      "anchorPhrase": "you're listening to marketplace tech. i'm megan mccarty-kerrino. we're back with joanna stern, founder of"
+    },
+    {
+      "index": 5,
+      "title": "AI Does the School Shopping",
+      "description": "Stern put Gemini, Claude, and ChatGPT head-to-head on a real back-to-school shopping list, and the results reveal just how much AI agents have improved in a single year.",
+      "startTime": 843.604,
+      "endTime": 1076,
+      "anchorPhrase": "all right, well, ai, may be banned from new york city schools, but joanna, it"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.2,
+      "end": 29.7,
+      "speaker": "A",
+      "text": "Running a business is hard enough, so why make it harder with a dozen different apps that don't talk to each other? Introducing Odoo, the only business software you'll ever need. It's an all-in-one, fully integrated platform that makes your work easier. From CRM, accounting, inventory, e-commerce, and more. And the best part, Odoo replaces multiple expensive platforms for a fraction of the cost. This is why over thousands of businesses have made the switch. So why not you? Try Odoo for free at odoo.com. That's O-D-O-O dot com."
+    },
+    {
+      "start": 31.6,
+      "end": 81.6,
+      "speaker": "B",
+      "text": "Back to school, but not for AI. From American Public Media, this is Marketplace Tech. I'm Megan McCarty-Carrino. New York City Public Schools announced a new policy this week banning the use of AI among elementary and middle school students. We'll get into it on today's Marketplace Tech Bytes Week in Review. Plus, Google survives yet another antitrust case without having to break up its business. But first, the changing of the guard at Apple. This week, John Ternus took over as CEO after a 15-year run by Tim Cook. Here with more about what this means for the iPhone maker is Joanna Stern at New Things."
+    },
+    {
+      "start": 82.5,
+      "end": 159,
+      "speaker": "C",
+      "text": "To really look at the, the history of Apple leadership, we had a very strong founding leader who is of course Steve Jobs, who was very close to the products. We have all heard how obsessive Steve Jobs was about little things on the products, how involved he was in the design and the engineering, how he wanted it to look and feel to the consumer. Then Tim Cook takes over, and Tim Cook is not that type of leader. Tim Cook is an operations guy. He is fully in on the sourcing. I mean, he came to Apple to help work on the Mac, to help source and work on operations to make sure the supply chain could be more efficient, worked closely in China, and then works his way up the ranks to lead the company and be fully focused on how to grow Apple from a company that had just released the iPhone to becoming this global technology superpower, really, that now is in all types of devices that are really threaded through the iPhone. So That's what Tim Cook's history and legacy seems to be. And now we are now back to a leader who again is less of an operations guy and more of a product guy. And I think that's a really interesting thing for people who watch this company, who use these products to understand, is that the CEO is now going to be very invested, very focused on these products, how they look and feel to you, the consumer."
+    },
+    {
+      "start": 160.4,
+      "end": 167.5,
+      "speaker": "B",
+      "text": "And he is taking the helm right before this big iPhone unveil coming next week. So what are you going to be watching there?"
+    },
+    {
+      "start": 168.9,
+      "end": 219.2,
+      "speaker": "C",
+      "text": "I will be watching there from there. So that, that's exciting. I have said this is one of the most exciting iPhone launches in history, and I've been at, I think, every single iPhone launch. And I think this is because we are really looking at a different type of iPhone, right? This is the foldable iPhone that has been rumored. Lots of other foldable phones already on the market on Android side, Samsung, Huawei, Google, but not on the iPhone. And so this is— we're looking at Apple to explain why they have entered this foldable phone market at this time. We're also looking, of course, at what the price increases are going to be. We have heard that the prices will go up because of the Ramageddon and the prices of AI driving up storage and memory. And so that is, that is just to be expected. In fact, the name of the event is Surprise and Shine, and I think it will not be a surprise if these prices go up."
+    },
+    {
+      "start": 220.7,
+      "end": 247,
+      "speaker": "B",
+      "text": "This is a very interesting moment for Apple. Obviously, I think the iPhone has been doing incredibly well for Apple, but we have these price increases, new lease program coming on. And all over this is kind of the big question about where Apple will end up in the AI economy. How are you sort of thinking about where Apple is in this moment?"
+    },
+    {
+      "start": 248.1,
+      "end": 343.3,
+      "speaker": "C",
+      "text": "Well, it's also really good timing for Jon Ternus because the tide and the message is about to shift for Apple on AI. They had this blunder. They had said that they were going to have this new Siri almost 2 years ago. There's been lawsuits about it. They never delivered it. And now this fall with iOS 27, which we expect in September, this new Siri arrives. And it is quite good. I've been using it. I've been testing it. I've been working on my review of iOS 27. And so Apple can finally now say, we don't suck at AI. We don't suck at Siri. And that's a big thing. It gives them the underpinning now to design other products, which I believe we're going to start to hear about next week, which may be this Home display, a device that you can talk to Siri and it can control things in the home if you've used HomeKit, which is from Apple's sort of smart home platform. We're going to eventually see some ways that AirPods are going to work better with Siri. We're going to see a big integration, I'm sure, with this new Siri and the new iPhones that are coming out. So what Apple's message can be versus some of the other companies is like, we control everything. We control the hardware, we control the software, and now we control this AI layer. And hey, you guys all hate AI, right? I think that's a big thing that they have to address is like they're now coming at a point where the backlash to AI is huge. You guys hate AI, that's okay. We have a really good privacy protecting way of using AI, and if you don't like that, you don't have to use it. And so I think that they stand to be positioned in a really good spot given what's happening with other companies going full in on AI and they've pivoted their entire company to it."
+    },
+    {
+      "start": 344.5,
+      "end": 379.4,
+      "speaker": "B",
+      "text": "All right. Well, now on to news of another big tech titan, Google. This week, a federal judge ruled that Google does not have to sell its ad tech business in this antitrust case that did find Google had a monopoly in digital advertising. And this is the second time in as many years that Google has sort of come out basically unscathed from an antitrust case that, you know, threatened to break up its business. Last year, we were talking about Google search business, the potential, you know, Chrome spinoff, which did not happen. Joanna, what do you make of this decision?"
+    },
+    {
+      "start": 381,
+      "end": 418.7,
+      "speaker": "C",
+      "text": "I think, look, if we look back to, you know, 3, 4 years ago during the Biden administration, maybe a little bit longer, where there really was this focus on antitrust and breaking up these big companies, it hasn't been successful. Even then, you can't, you could say there have been financial penalties, but even then that hasn't taken a big hit at these massive, massive trillion-dollar companies at this point. So, you know, was it all done for nothing? There were some small changes here and there, but when you think about the big landscape and who dominates in ad tech or who dominates in search and who dominates in web browser market share, it's still Google."
+    },
+    {
+      "start": 420.6,
+      "end": 438.7,
+      "speaker": "B",
+      "text": "In the search case, uh, the judge brought up, you know, this new competition from AI for Google search as one of the reasons that he sort of took a more conservative approach on the remedies. And I would imagine that AI could also potentially be a disruptor for Google's ad business too."
+    },
+    {
+      "start": 439.6,
+      "end": 486,
+      "speaker": "C",
+      "text": "And I think that was a fair argument. And I think interesting too, to see that this is kind of caught up with the times, right? And tells you that a ruling that's made 2, 3 years ago is not necessarily going to persist in the world of tech. And that's certainly true. I mean, if you look at the market share of Google or Gemini versus ChatGPT, It, there was a, uh, there was a player that came up from behind with, with no market share and now has become one of the most popular consumer tech companies. And so there is absolutely an argument to be made that the company wasn't big enough. That said, when you look at the dollars and you look at the advertising that flows through Google, and then you look at then what the advertising that flows through OpenAI or another newer AI company. It doesn't compare. Google's still the behemoth there."
+    },
+    {
+      "start": 486.8,
+      "end": 488.3,
+      "speaker": "B",
+      "text": "We'll be right back."
+    },
+    {
+      "start": 490.7,
+      "end": 611.3,
+      "speaker": "A",
+      "text": "This Marketplace podcast is presented by Tomorrow's Cure. If our episodes on the intersection of AI and healthcare left you wanting to learn more about how technology is transforming medicine, Tomorrow's Cure is for you. It's the chart-topping 2025 Ambie Award finalist podcast from Mayo Clinic. Back for a brand new season with new host, award-winning journalist Lindsay Sievert, Tomorrow's Cure explores the innovations changing the healthcare landscape. Featuring conversations with leading physicians, researchers, and medical experts, the new season examines everything from AI-powered diagnostics and cutting-edge cancer therapies to surgical technologies improving patient care today. Not sure where to start? Listen to the season premiere featuring MD Anderson radiation physicist Dr. Paige Taylor and Mayo Clinic radiation oncologist Dr. Adam Holtzman. They discuss why carbon ion therapy is generating excitement in the medical community and what it could mean for the future of precision cancer treatment. So go ahead, follow Tomorrow's Cure on Apple Podcasts, Spotify, or wherever you get your podcasts. Seems everyone is trying to run leaner these days. Tighter budgets, smaller teams, higher expectations. Who has time to waste on manual payroll or chasing down an HR form? Gusto is how small business owners get time back when every hour counts. Gusto is online payroll and benefits software built for small businesses. It's all-in-one, remote-friendly, and incredibly easy to use. So you can pay, hire, onboard, and support your team from anywhere. Save time with built-in automated tools, offer letters, onboarding docs, direct deposit, and more. With direct access to certified HR experts when you want support. Try Gusto today at gusto.com/marketplace-tech and get 3 months free when you run your first payroll. That's 3 months of free payroll at gusto.com/marketplace-tech. One more time, gusto.com/marketplace-tech."
+    },
+    {
+      "start": 614.4,
+      "end": 649.8,
+      "speaker": "B",
+      "text": "You're listening to Marketplace Tech. I'm Megan McCarty-Kerrino. We're back with Joanna Stern, founder of the media company New Things. All right, well, uh, finally we want to talk about this New York City public school ban on AI and in some cases other technology. Through middle school. So classes start next week, and, uh, this new policy is going to prohibit the use of AI. It limits the use of like individual screens for younger students, and it even prohibits the use of AI by teachers to grade assignments. What did you think of this?"
+    },
+    {
+      "start": 650.6,
+      "end": 718.1,
+      "speaker": "C",
+      "text": "I thought this was really important, a really kind of landmark statement coming from New York City. I think what what this does is limit what tech companies can try to do in terms of the distributed Chromebooks or laptops that come into the classroom. That's good. But what it doesn't limit, obviously, is that what students and kids can do outside of the classroom, right? And so this is nice that there's the protection within the walls of the school, but what we still don't have is a federal or even statewide real regulation on kids and AI. That's really where I see one of the biggest problems emerging. This, this, one of the things that I like about the New York City ban is that it says that companionship chatbots are not allowed, right? The idea that you would have a chatbot for a child that you would be talking about something that you talk about more with a friend than say, hey, help me with my math homework. And so I like that they put that in there, But I think that that sort of behavior emerges more at home, whether they're on smartphones or tablets, not in school. Yeah."
+    },
+    {
+      "start": 718.2,
+      "end": 732.5,
+      "speaker": "B",
+      "text": "I also wondered if this is sort of targeting these sort of untested edtech AI things that are kind of being rolled out. You know, that also seems to be kind of one of the targets of this. Don't test out this AI edtech on our kids."
+    },
+    {
+      "start": 733,
+      "end": 797,
+      "speaker": "C",
+      "text": "100%. And I think when you look at the market share, especially of, of kind of laptops and devices in the classrooms that are distributed. Google has a big chunk of that with Chromebooks. Google has started to push the Gemini integration, has started to push the AI integration in many digital tools that are very helpful to kids, right? Google Docs being one of them, Google Search being another, right? When you're doing research, this is, this is sort of table stakes for now education in, in at least in middle school years. And so to draw that line to say, look, we're gonna be okay with some digital tools, but we're not okay with tools that are going to do the work for kids. I mean, there was a lot of mention in this too, even by Mayor Mondame in the press conference, about how he did not want to lose the struggle for kids to learn, that things shouldn't be easy, that we should be encouraging kids to struggle to learn, to do certain things. I think that's, that's just a huge part of what the worry has been about AI and edtech."
+    },
+    {
+      "start": 798.1,
+      "end": 813.8,
+      "speaker": "B",
+      "text": "I have seen some commentary from sort of tech-forward types on, on social media that this is terrible. You know, this is like banning math and science from school, that kids will be ill-prepared for, for the most important technical change in our lifetimes. What do you think about that reaction?"
+    },
+    {
+      "start": 814.6,
+      "end": 842.6,
+      "speaker": "C",
+      "text": "I think there's some fairness to that. I don't know if it does allow for some, artificial intelligence-specific education, which I do think is really important, right? Learning how to use these tools and also the digital literacy that comes with using the tools. So I don't know how they're going to address that. What I take away from this is we are not going to have AI tools in our math classes, in our writing or our literature classes, and we're gonna draw the line there."
+    },
+    {
+      "start": 843.6,
+      "end": 856.6,
+      "speaker": "B",
+      "text": "All right, well, AI, uh, may be banned from New York City schools, but Joanna, it has not been banned from your back-to-school shopping, right? You wrote this week in your newsletter about using AI agents to do back-to-school shopping. So how'd that go?"
+    },
+    {
+      "start": 857.8,
+      "end": 1005.8,
+      "speaker": "C",
+      "text": "So I decided to make this a little bit of a yearly benchmark because in my book that I wrote last year, well, I, I was my 2025 year takeover and towards the end of the year I tested some AI agents at the time to do school shopping for my son who was then going to third grade. So these were tools like ChatGPT Atlas, which was their browser at the time, rest in peace, doesn't exist anymore. These were Perplexity's browser, the Comet browser, which is not as popular anymore. And so it really showed to me there's been such rapid change in just a year in terms of what products we have, but now also the capabilities of these products. So what I did was I tested 3 products for this specific experiment. I tested Google's Gemini Spark, which is their AI agent. I tested Cloud Cowork and ChatGPT, which is— they have a work product that's sort of built in now, but it, you don't really, it's not really branded. And I gave them all the same prompt. I gave them the same PDF, which is the PDF I got from my, my son's 4th grade teacher with a list of all the things you need for school, uh, sharpened pencils, dividers, binders, all the things, you know, we, we know and love from school shopping. And I just asked it like, go and find these things. I want you to keep the budget under $100. You pick the retailer that's best. Gave it a deadline for when I needed the shipping. And it was really interesting watching all of them, right? They go and navigate the web browser by themselves. You watch them put the items in the cart. Where I was really judging, though, was how many hiccups happened along the way and who could really finish the task. And ultimately, Claude Cowork finished the task the best. Asked some good questions at the top, which I really liked, and then went ahead and did all the shopping versus ChatGPT, very confident at the beginning, goes into it, doesn't ask any questions, then hits a lot of guardrails, starts doing the same thing that Claude actually did, but made some mistakes along the way. It was kind of a close second. And then Gemini Spark was pretty far behind. It just kept telling me, you know, it was adding things to the Walmart shopping cart, but I didn't see them being added. Missed a few items, kept kind of asking me, do you want me to add this to the cart? And I was like, the whole— that's your whole job. Your whole job is to add the things to the cart. That was the assignment. But again, really using this as a benchmark to see how far we've come in a year and how much quicker they work. Last year when I did this test, took about 30 minutes for this to happen. Now it's more about 15 minutes for this to happen. And that includes the questioning and the back and forth."
+    },
+    {
+      "start": 1006.5,
+      "end": 1043.5,
+      "speaker": "B",
+      "text": "That's Joanna Stern. She has a newsletter and video series series called New Things. And if you want to see the full video of this episode of Marketplace Tech Bytes Week in Review, it's on our YouTube channel, Marketplace APM. Subscribe if you haven't already to watch us every Friday. Jesus Alvarado produced this episode. Erica Soderstrom also produces our show. Gary O'Keefe is our engineer. Daisy Palacios is the supervising producer. Nancy Farghali is the executive producer. I'm Megan McCarthy. I'm Kari Carino, and that's Marketplace Tech. This is APM."
+    },
+    {
+      "start": 1044.6,
+      "end": 1075.4,
+      "speaker": "A",
+      "text": "I'm Lee Hawkins, host of Must Be the Money, a podcast from Marketplace. Each week, I speak with inspiring entrepreneurs and business leaders about their lived experiences, and they share tangible insights to help guide your path to success. Hear from my icons like Angelica Nwandu, Van Lathan, Angela Yee, Matt Barnes, and more about how to seize opportunity, manage money, and meet challenges with resilience. Listen to Must Be the Money wherever you get your podcasts."
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "episode": {
+    "id": "8c474d5d17aab5c04c5acab18d5550077e90e4742eec686af94204e16f2b3255",
+    "podcastTitle": "The Playbook Podcast",
+    "feedUrl": "https://feeds.megaphone.fm/ASD6963560714",
+    "guid": "https://traffic.megaphone.fm/POLL8682482906.mp3",
+    "title": "Harris’ red state blues",
+    "description": "Democrats campaigning in red states are divided on Kamala Harris – some&nbsp;going as far as to&nbsp;reject&nbsp;a Harris endorsement. So,what is the Harris strategy barreling ahead towards the midterms?&nbsp;Then polling and campaigns reporter Erin Doherty joins&nbsp;Playbook co-authors Dasha Burns and Adam Wren to discuss the other stories animating Washington: the potential&nbsp;political ambitions of ESPN host Stephen A.&nbsp;Smith&nbsp;and what a POLITICO poll reveals about voters both parties are missing.&nbsp;Plus,&nbsp;a&nbsp;first in Playbook ad&nbsp;for a GOP congressional candidate in&nbsp;Michigan.&nbsp;&nbsp;\n\nFor more news and analysis, subscribe to the Playbook newsletter:&nbsp;politico.com/playbook&nbsp;",
+    "pubDate": "2026-09-03T09:00:00.000Z",
+    "duration": 1678,
+    "audioUrl": "https://traffic.megaphone.fm/POLL8682482906.mp3",
+    "artworkUrl": null
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1666,
+    "utteranceCount": 64
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:55.978Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Harris' Red State Rejection Problem",
+      "description": "Four Democratic candidates are distancing themselves from Kamala Harris, and her camp says that's perfectly fine.",
+      "startTime": 0.432,
+      "endTime": 234.539,
+      "anchorPhrase": "support for the show comes from anthropic, the team behind claude. a kidney disease diagnosis"
+    },
+    {
+      "index": 1,
+      "title": "Harris' 2028 Shadow Campaign",
+      "description": "Democrats in red states are already signaling who they'd rather campaign with, offering early clues about the next presidential race.",
+      "startTime": 234.539,
+      "endTime": 422.002,
+      "anchorPhrase": "what do you think are the implications here, looking at who does and who doesn't"
+    },
+    {
+      "index": 2,
+      "title": "Stephen A. Smith's Presidential Tease",
+      "description": "The ESPN host tells Dasha Burns he'd run for president in a heartbeat — if only FCC rules didn't threaten his paycheck.",
+      "startTime": 422.002,
+      "endTime": 885.163,
+      "anchorPhrase": "all right, now let's get into talk of the town, where we talk about the"
+    },
+    {
+      "index": 3,
+      "title": "Purge the DSA, Says Stephen A.",
+      "description": "Stephen A. Smith argues the Democratic Socialist wing is dragging the party toward unelectability and needs to sit down.",
+      "startTime": 885.163,
+      "endTime": 1327.898,
+      "anchorPhrase": "party. you said that the democratic party needs to be purged. purged of whom? is"
+    },
+    {
+      "index": 4,
+      "title": "Neither Party Owns the Working Class",
+      "description": "A new Politico poll reveals widespread cynicism about politicians who invoke the working class, with neither party holding a meaningful edge.",
+      "startTime": 1327.898,
+      "endTime": 1532.919,
+      "anchorPhrase": "aaron, while we have you, i want to talk about the most recent political poll"
+    },
+    {
+      "index": 5,
+      "title": "Paratrooper Jumps Into Michigan Race",
+      "description": "GOP congressional candidate Mike Bouchard launches a seven-figure ad buy featuring a literal skydive and an anti-socialism pitch.",
+      "startTime": 1532.919,
+      "endTime": 1666,
+      "anchorPhrase": "and to close us out, we have a first in playbook ad that we want"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.4,
+      "end": 29.4,
+      "speaker": "A",
+      "text": "Support for the show comes from Anthropic, the team behind Claude. A kidney disease diagnosis is hard enough without a long wait for answers. At Arcana Labs, growing caseloads threaten their promise to give patients next-day biopsy results. Using Claude to help process referral paperwork with 97 to 98% accuracy, Arcana is able to keep that promise as they grow. Read Arcana's story at Claude.com/arcana. Arcana labs."
+    },
+    {
+      "start": 34.1,
+      "end": 50.6,
+      "speaker": "B",
+      "text": "Today on the Playbook Podcast, Kamala Harris has a red state problem. Dems on the campaign trail are divided on her, some rejecting a Harris endorsement. So what is the Harris strategy barreling towards the midterms? That is the story driving the day."
+    },
+    {
+      "start": 51.7,
+      "end": 62.8,
+      "speaker": "C",
+      "text": "Then in Talk of the Town, we unpack the political ambitions of ESPN host Stephen A. Smith. And what a Politico poll reveals feels about the voters both parties are missing."
+    },
+    {
+      "start": 63.7,
+      "end": 74.8,
+      "speaker": "B",
+      "text": "Plus, we'll share a first-in-playbook ad in a tough Michigan race. Spoiler alert: somebody jumps out of a plane. Good morning, Playbookers. I'm Dasha Burns."
+    },
+    {
+      "start": 75.6,
+      "end": 78.9,
+      "speaker": "C",
+      "text": "And I'm Adam Wren. And it's Thursday, September 3rd."
+    },
+    {
+      "start": 79.8,
+      "end": 108.2,
+      "speaker": "B",
+      "text": "All right, Adam, let's talk about Kamala Harris. Some Democrats want us to be talking about her, some do not. There is this narrative that she's toxic in red, reddish states. So far we've seen at least 4 candidates distanced themselves from the former VP: Senate candidates Mary Peltola in Alaska, Josh Turek in Iowa, Adam Hamilton in Kansas. There's also Rob Sand, who's running for Iowa governor. You talked to the Harris spokesperson about all of this. What'd you learn?"
+    },
+    {
+      "start": 109.3,
+      "end": 171.9,
+      "speaker": "C",
+      "text": "Yeah, so essentially, Dasha, the case here for Harris, as people close to her would put it, is essentially that, look, like, Red state Democrats should do what they need to do to win. It's a rare year where things are looking great for Democrats, even in places like Iowa, even in places like Ohio, Kansas. And what they need to do to win is what they should do. And it's in the purple states, competitive states, where we're likely to see the former vice president sort of really put her thumb on the scale in her travel schedule in the coming days and weeks. Eduardo Negron, her spokesperson, told us, \"It's all good.\" Vice President Harris will continue to raise money and travel on behalf of candidates in races where she can help make a difference. With Trump so unpopular and our deep bench of strong candidates, we are now seeing deeply red states in play this cycle. The vice president believes we should be ruthless about competing everywhere, and that means giving candidates in tough races the space to do whatever it takes to win."
+    },
+    {
+      "start": 172,
+      "end": 184.4,
+      "speaker": "B",
+      "text": "It's all good. Okay, but she is though, as you report this morning, planning to campaign in some purples states. What can you tell us about that, and just how open-armed are purple state candidates?"
+    },
+    {
+      "start": 184.7,
+      "end": 232.9,
+      "speaker": "C",
+      "text": "Yeah, Harris folks are saying that she is going to be announcing travel soon. They're a little bit cryptic about which states, but she has done some events for people like Jon Ossoff in Georgia, some Zoom events, and we've seen her endorse candidates like James Talarico in Texas. And so it's not everywhere that she is persona non grata. And Dasha, we should say, you know, that she has a significant favorable rating among Black voters across the map, particularly in the South. And, you know, and some people view her as the front runner. And, you know, she's done a lot of work across the South this year, a lot of travel with her book release. And so, you know, she is still formidable presence in a lot of places."
+    },
+    {
+      "start": 234.5,
+      "end": 244.7,
+      "speaker": "B",
+      "text": "What do you think are the 2028 implications here, looking at who does and who doesn't want to share a stage with Kamala Harris?"
+    },
+    {
+      "start": 245.6,
+      "end": 305.1,
+      "speaker": "C",
+      "text": "Well, I mean, you start to look at a state like Iowa, which we've talked a lot about on this podcast. And even in July when I was talking with them, people like Senate candidate Josh Turek, people like Rob Sand, the Democrat running for governor as kind of a Democrat name only, we're already sort of forecasting and telegraphing that they wanted to campaign with people like Arizona Senator Mark Kelly or former Transportation Secretary Pete Buttigieg. And so, Those are people with sort of a more moderate presentation. And they're being ruthless, as Harris suggested they should be, in who they're letting into the state of Iowa. And we're seeing that in places like Kansas now, potentially Ohio. But really, a lot of candidates in this environment are trying to run their own campaigns. They're trying to localize their campaigns in a lot of places. And they're trying to run against the national Democratic brand. And Harris— you know, for whatever."
+    },
+    {
+      "start": 305.2,
+      "end": 305.8,
+      "speaker": "B",
+      "text": "Represents that."
+    },
+    {
+      "start": 306.3,
+      "end": 307.3,
+      "speaker": "C",
+      "text": "Yeah, she represents that."
+    },
+    {
+      "start": 308.1,
+      "end": 370.7,
+      "speaker": "B",
+      "text": "Yeah, it's so interesting because that's one thing I've been talking about and thinking about is the rejection that we're seeing from a lot of Democratic candidates of the national party. The candidates that are finding some success in surprising places are hyperfocused on what the voters in their specific states, the voters in their specific districts want to hear about. And they're really trying to distance themselves from really most national Democratic characters. Meanwhile, for Republicans, I mean, the Republicans I talked to are very happy to see Kamala Harris out on the campaign trail. They think it gives them an advantage. The more Biden-era characters come out of the woodwork in the midterms, the more they can point to that administration for some of the problems that voters are feeling. So Republicans are chomping at the bit for Harris, not just for midterm terms, but they, they also do want to see her in, in 2028 as well."
+    },
+    {
+      "start": 370.8,
+      "end": 410.5,
+      "speaker": "C",
+      "text": "Yeah, I, I think, you know, they think they can run it back to their 2024 campaign against her. And, you know, we should acknowledge that she is sort of reclaiming, you know, parts of her own narrative through her book. Uh, you know, in some ways she's sort of tacking, uh, back to the left on issues like Gaza. Axios and others have reported on her calls to Zoran Mamdani, the mayor of New York City. And so, you know, I think we should expect kind kind of an evolving Harris. And you got to remember, you know, former President Joe Biden, before her debate after the ticket switch, you know, told her essentially, no daylight, kid. And now she's kind of, you know, pursuing, you know, that daylight."
+    },
+    {
+      "start": 411.9,
+      "end": 418.1,
+      "speaker": "B",
+      "text": "And you got to remember, Joe Biden also ran for president several times before he ended up in that Oval Office."
+    },
+    {
+      "start": 418.2,
+      "end": 420.5,
+      "speaker": "C",
+      "text": "That's right."
+    },
+    {
+      "start": 422,
+      "end": 432.9,
+      "speaker": "B",
+      "text": "All right, now let's get into Talk of the Town, where we talk about the other stories animating Washington this morning. To help us out, we Politico polling and campaigns reporter Erin Doherty. Erin, welcome back to the Playbook Pod."
+    },
+    {
+      "start": 433.5,
+      "end": 434.2,
+      "speaker": "A",
+      "text": "Thank you for having me."
+    },
+    {
+      "start": 435.3,
+      "end": 486.7,
+      "speaker": "B",
+      "text": "I'm so glad to have you for this because there are a number of, of stories I wanna get your take on. One of them is my conversation with Stephen A. Smith. I had him on my podcast, The Conversation with Dasha Burns. He, of course, is quite a well-known and a loud character on the airwaves, both in the world of sports. Sports and more recently in the world of politics. He has potentially political ambitions of his own, and he's got a lot to say about both Democrats and Republicans. There's a lot of speculation about what he is potentially going to do in 2028, and I do want to start with, with that piece of it. Take a listen to what he said when I asked him about whether or not he is in fact leaning towards running for president. Are you leaning towards going for it?"
+    },
+    {
+      "start": 487.3,
+      "end": 534.1,
+      "speaker": "D",
+      "text": "No, I'm not. And the only reason is this. I was informed that by virtue of what I do for a living, that the minute I announce that I'm running, I would be taken off the air. I would not be able to work. By virtue of what I do for a living, I would have to come off the air because of FCC equal time rules, even though it's primarily applicable to network television. Not so much as cable, but they all follow the same rules basically. I would be taken off the air. And because I would be taken off the air, I wouldn't be able to work and I would lose a contract that I've worked my entire career for, you know, and I'm not giving that up. If I could return to work the next day, I would do it in a heartbeat. But that's not how this works."
+    },
+    {
+      "start": 534.3,
+      "end": 538.2,
+      "speaker": "B",
+      "text": "And it's not. It's not. So do you have a deadline for making that decision?"
+    },
+    {
+      "start": 538.9,
+      "end": 553.7,
+      "speaker": "D",
+      "text": "No, I've just, I've just made it very plain that as long as the rules are what they are and they can't be circumvented, that It's not something that I'm going to think about. But if there was a way that I could continue my career while still campaigning, I wouldn't hesitate to campaign."
+    },
+    {
+      "start": 554.4,
+      "end": 558.5,
+      "speaker": "B",
+      "text": "So as things stand now, are you saying you're, you're not running?"
+    },
+    {
+      "start": 559.3,
+      "end": 575.7,
+      "speaker": "D",
+      "text": "I'm saying— I've said that numerous occasions. I said I'm not because of what I just told you. I'm not allowed to while keeping my job. I'm not giving up my job for it. I would give up my job if I won the presidency. But I'm not giving up my job to campaign for it. I'm not doing that. Those are two different things."
+    },
+    {
+      "start": 575.8,
+      "end": 577,
+      "speaker": "B",
+      "text": "But you said you think you can win."
+    },
+    {
+      "start": 577.3,
+      "end": 584,
+      "speaker": "D",
+      "text": "So I do think I could win, but it ain't a guarantee. And I stand to lose a whole lot of money based on a maybe. I'm not doing that."
+    },
+    {
+      "start": 585.2,
+      "end": 647.6,
+      "speaker": "B",
+      "text": "Okay. So he's saying he's not running, basically, like he wants to get up on the debate stage, but he is not willing to give up his, his media role right now to, to, to do that. There's— There's a caveat here though, which is it's this era of politics and anything could happen. And one thing that was interesting in that conversation is when I asked him what it says that somebody like him, even if it's not Stephen A. Smith, but like a Stephen A. Smith thinks that they should run for office. And he has said if he would run, he thinks that he would win. I asked him if that was actually kind of an indictment of our current politics. And he says, yes, absolutely. It's an indictment of our politics because he feels like the bench on both sides of the aisle and both parties have really failed Americans. Erin, what's your take on the Stephen A. Smith of 2028?"
+    },
+    {
+      "start": 648.6,
+      "end": 703.9,
+      "speaker": "A",
+      "text": "Yeah, I mean, the fact that we're talking about him and he's a name that does come up in conversations with Democrats when you ask, you know, would you want to see him run? And I think whether he ultimately decides to run or not, the fact that we're talking about him here, it kind of speaks to this idea that there is a real chance that there is sort of a quote-unquote sleeper candidate that emerges ahead of 2028. And the fact that, you know, he is this outsider, he already has this built-in social media presence. He is very well known and he's not afraid to, you know, as he showed in your interview, speak harshly about the parties. And I think the fact that, you know, he keeps kind of coming up in conversations speaks to this idea that either he or someone like him could still emerge as we look ahead to November or to 2028. And I think that there is, you know, still this appetite for that as Democrats try to find their candidate in this crowded field."
+    },
+    {
+      "start": 704.9,
+      "end": 762.9,
+      "speaker": "B",
+      "text": "I mean, there's so much to unpack here, Adam. And I think there's the the piece about a candidate in the shape of a Stephen A. Smith potentially coming out of the woodwork. And there's also the influence of people like Stephen A. Smith. I mean, we talk in our conversation about potential candidates that he would stump for. He's made it very clear that he wants to be involved in the election regardless of what that looks like. So there's the potential for an influencer or celebrity type to both run and for influencer and celebrity types to have an outsized impact? I mean, we've already seen that with some characters during the midterms. We're still talking about Hasan Piker, of course, very different types of people and different views. But what do you think it says about our politics? And what do you think is the likelihood that 2028 is heavily influenced by personality politics in this way?"
+    },
+    {
+      "start": 763.8,
+      "end": 780,
+      "speaker": "C",
+      "text": "Yeah, I mean, two big thoughts here, Dasha. I think Erin is absolutely right. But I think what this says, even this conversation that we're having, says that President Donald Trump has forever changed the kind of person who can run and garner interest. And I also think it says something about—"
+    },
+    {
+      "start": 780.1,
+      "end": 781.1,
+      "speaker": "B",
+      "text": "And be taken seriously."
+    },
+    {
+      "start": 781.5,
+      "end": 834.1,
+      "speaker": "C",
+      "text": "That's right. And it also says something about the attention economy. Basically, any candidate who is going to run for office has to be able to reach through your smartphone, grab your interest, and pull you into the story that they're telling. And those are the candidates that are going to win forever. You look back to 1968 and the way that Roger Ailes was helping Nixon with television, he essentially said, \"Forever after this election, they're all going to be performers.\" And he was right about presidential candidates. And so I think we are going to have an extended flirtation with candidates like Stephen A. Smith over the next year or so, right up until the moment when it gets to be filing deadlines and various Democratic primaries and maybe even Republican primaries."
+    },
+    {
+      "start": 834.6,
+      "end": 897.8,
+      "speaker": "B",
+      "text": "There's also the importance of the reach of people like Stephen A. Smith, right, who can talk to young men, who can talk to Latino men, to Black men, these demographics that every, you know, Democratic operative right now is trying to figure out how to reach. And so regardless of whether he runs or not, to be able to leverage the ability of someone like Stephen A. Smith for any candidate is going to be really important. And who he decides to support, if he decides to support anybody, is going to be really interesting. And this is why I think hearing from him on the current state of the Democratic Party, which he's been incredibly critical of, is really fascinating. And I want you to take a listen to what he says about wanting to purge the Democratic Party. You said that the Democratic Party needs to be purged. Purged of whom? Is it the DSA? Purge of the establishment? Purge of consultants? Purge of, like, certain people?"
+    },
+    {
+      "start": 898.1,
+      "end": 929.3,
+      "speaker": "D",
+      "text": "Who are you talking about? I would say if you ask me that question today, which you are doing, I would tell you it's the DSA. I would tell you that I am not a socialist and I am not a supporter of socialism in the United States of America. I'm quite sure in places like Finland and Denmark and other places where it may exist, it works for them. Some people would say. But in the United States of America that has been accustomed to being a capitalist society, I don't think socialism is ever going to work here. So because of that, I think that that's problematic."
+    },
+    {
+      "start": 929.4,
+      "end": 929.6,
+      "speaker": "B",
+      "text": "Why?"
+    },
+    {
+      "start": 930.2,
+      "end": 979.9,
+      "speaker": "D",
+      "text": "Because I think what the DSA has been able to adroitly go about doing is pull the moderate left even more so towards their side, which is serving to misrepresent what true Democrats in this country purportedly have been about, the identification with the working class of America. One could argue that the Democratic Party is no longer that compared to what they used to be. The DSA will tell you they're trying to get back to that. You got Mom Donny, the mayor in New York, preaching about free buses, free childcare, free this, free that, instead of saying nothing is free in the United States of America. Somebody's going to pay. You're not getting it for free. So it's things like that that I've seen that have made me ask myself, what the hell is going on with the Democratic Party? There are two of them. Almost, and they're divided, and a house divided will never beat the GOP. They're going to have to come together somehow, some way."
+    },
+    {
+      "start": 980.2,
+      "end": 991.1,
+      "speaker": "B",
+      "text": "What should the Democratic Party do about that, that progressive, the insurgent left faction of the party? Do they disavow them? Like, how does the Democratic Party handle it?"
+    },
+    {
+      "start": 991.2,
+      "end": 995,
+      "speaker": "D",
+      "text": "Tell them to sit down and get with the program. You're not running."
+    },
+    {
+      "start": 995.3,
+      "end": 997.1,
+      "speaker": "B",
+      "text": "What does that look like? What does it look like?"
+    },
+    {
+      "start": 997.3,
+      "end": 1024.4,
+      "speaker": "D",
+      "text": "It ain't happening. In other words, That's not gonna win us general elections. That's not gonna get it done for us. We are not gonna be able to pull that off. How is that gonna sit up there and assist the American voters or the American people when it comes to actually running our country? You gotta do business with both sides. It can't be all or nothing on either side of the aisle. They're both wrong. The only reason I don't bring up the Republicans is because the Republicans won and they clearly are more together."
+    },
+    {
+      "start": 1024.7,
+      "end": 1043.2,
+      "speaker": "B",
+      "text": "All right, Aaron, there, there's been a lot of criticism from like establishment Democrats of, of the DSA, but to hear someone like Stephen A. Smith basically tell them to, like, sit their butts down. What do you think this says about the divisions and the tensions within the Democratic Party?"
+    },
+    {
+      "start": 1044.1,
+      "end": 1107,
+      "speaker": "A",
+      "text": "Yeah, I mean, it's really what we've all been hearing and writing about. It really speaks to these divisions that have been percolating within the party and have been evident in primaries across— throughout the spring where we've seen, you know, the establishment-backed candidate or the more moderate candidate go against progressives. And progressives had had a string of victories throughout the primary season this spring. But the fact that he's saying this is, you know, not really the quiet part out loud. It's what we've all been seeing. But it really speaks to the fact that these divisions within the party that are really going to be put to the test in November, as Adam has reported on so well throughout the primary season, it's really just coming down to, you know, as we look ahead to November, we will get a better sense of, you know, our voters, for instance, in Michigan, the voters who backed Haley Stevens in the primary going to back Abdul El-Sayed in Michigan in November. And so I think ultimately Stephen A. Smith saying this to you really sort of puts words to these divisions that we have been seeing play out in the primaries throughout the spring."
+    },
+    {
+      "start": 1107.1,
+      "end": 1201.7,
+      "speaker": "B",
+      "text": "You know, it's funny, Adam, that the two people that he really stands in this interview are Josh Shapiro and Marco Rubio, which just kind of blows my mind. And you would think, oh man, like, yeah, this guy's all over the place. But at the same time, he's kind of reflective of what I hear from a lot of voters on the campaign trail. Like, there's a lot of confusion right now among people who are feeling like they don't feel like they're at home in either the Democratic or the Republican Party. And I think Josh Shapiro is like number one in his heart right now. But I asked him if he would ever consider voting for Marco Rubio, and he said, yeah, depending on the candidate. He said, yes, I would consider it, especially depending on who the candidate is on the left, which I think is an early kind of big warning sign or potentially some tea leaves for Democrats that like if a Marco Rubio is the nominee on the Republican side, there are going to be voters like Stephen A. Smith who are very turned off by the progressive left that would consider going to the right. And he's— he said he's only voted for a Republican one other time in his life. But I mean, what do you— what do you make of of how Stephen A. is working through this himself and how some of his followers and people that are like-minded who would traditionally be Democratic voters might handle this next phase of American politics."
+    },
+    {
+      "start": 1202.4,
+      "end": 1287.2,
+      "speaker": "C",
+      "text": "You know, it's fascinating, Dasha. Really, I think Stephen A. Smith is a really good bellwether for a question that was asked sort of during the George W. Bush campaign, which is like, which candidate do I want to have a beer with? Stephen A. Smith is kind of of speaking here, not so much to ideology, as you point out, but more so who's a good hang, who do I want to hang out with. And, you know, Marco Rubio, in some ways, uh, you know, ideology and politics aside, uh, scans like that. And in some ways, Josh Shapiro on the other side of the aisle does, does too. You know, they both like to talk about sports. Marco Rubio has said that his, like, ideal weekend would be, uh, you know, watching football all weekend, college and NFL. Josh Shapiro, uh, is a big basketball basketball sports guy, Eagles guy, and calls into sports talk radio. I think that that scans for a lot of people like Stephen A. Smith who are not maybe following the ins and outs of every single policy demarcation or following the divides in each party, but who generally want somebody who seems thoughtful, serious, maybe matches their politics, but more importantly, can talk ball. The other part of this interview that I was fascinated by is when you asked him about who he thought knew ball better, uh, Pennsylvania Governor Josh Shapiro or Maryland Governor, uh, Wes Moore."
+    },
+    {
+      "start": 1288.1,
+      "end": 1299,
+      "speaker": "B",
+      "text": "And he said Wes Moore. He said Shapiro knows his stuff, but Wes Moore is like a real, real obsessive. He also refused to give Shapiro credit for bringing LeBron to Philly, Adam."
+    },
+    {
+      "start": 1299.7,
+      "end": 1317.2,
+      "speaker": "C",
+      "text": "Yeah, I, I think that's fascinating. We'll see what Josh Shapiro says, uh, in response. Josh Shapiro in our interview sort of you know, said that he didn't want to take credit for it. And so he would probably say that same thing, although, you know, wink wink, he did meet with LeBron's agent."
+    },
+    {
+      "start": 1317.7,
+      "end": 1324.3,
+      "speaker": "B",
+      "text": "Yeah, I don't— I don't know that we're going to get a Stephen A. Smith versus Josh Shapiro beef in Playbook. But you know what? Crazier things—"
+    },
+    {
+      "start": 1324.5,
+      "end": 1326.1,
+      "speaker": "A",
+      "text": "crazier things have happened."
+    },
+    {
+      "start": 1327.9,
+      "end": 1337.5,
+      "speaker": "B",
+      "text": "Aaron, while we have you, I want to talk about the most recent political poll on working-class voters. Why don't you break down what it says and what the implications are?"
+    },
+    {
+      "start": 1338.7,
+      "end": 1363.9,
+      "speaker": "A",
+      "text": "Yeah, so the results were really, really interesting, and it kind of speaks to just how important working-class voters have been in past elections, but are going to continue to be looking ahead to November and ultimately 2028. One of the most striking data points in this poll was that over half of all Americans say that when politicians talk about the working class, they're just saying it to win votes. And so this really speaks to this, like, overwhelming skepticism and just weariness."
+    },
+    {
+      "start": 1364,
+      "end": 1364.6,
+      "speaker": "B",
+      "text": "Cynicism."
+    },
+    {
+      "start": 1364.8,
+      "end": 1412.8,
+      "speaker": "A",
+      "text": "Yeah, and cynicism that Americans really really trust and believe that politicians actually care about helping the working class. And then sort of diving in a little bit more, we also saw in the results that neither party really has a clear edge with working-class voters. There's a really, I think it's a 6-point difference between, you know, when asking, asking working-class voters whether they prefer Democrats or Republicans, it's Democrats have a slight advantage, but it's not substantial at all. And so looking ahead to November and then again 2028, this really just speaks to how kind of up for grabs these voters are. And they've obviously played pivotal roles in past elections. They were key to President Trump's winning coalition. But right now, both parties have significant work to do to bring these voters into the fold, but then also keep them there going forward."
+    },
+    {
+      "start": 1413.2,
+      "end": 1448.1,
+      "speaker": "B",
+      "text": "That's so fascinating. I mean, I think for Democrats, they've been trying to figure out for a while now how to win back those voters, because for a long time it was sort of the blue dog Democrats, the blue-collar voters, were squarely in the Democratic camp. That's not the case anymore. As you're watching sort of the insurgent left, the sort of Democratic populist, Democratic socialist wing of the party versus the moderates, I mean, which direction of the party do you think is going to be most successful getting those voters back?"
+    },
+    {
+      "start": 1449,
+      "end": 1519.8,
+      "speaker": "C",
+      "text": "Yeah, it's a great question, Dasha, and it's really essential to understanding 2028. I mean, both Both factions come November are going to be looking at places like Michigan, looking at places like Texas, and they're going to be holding up these candidates and comparing them and contrasting them and asking, \"What kinds of campaigns did they run? How did they speak to people and voters tonally?\" They're going to figure out which would win. I was talking to somebody about this yesterday who was saying that they're from the more centrist part of the party, and they were saying, said, look, if Abdul El-Sayed wins Michigan, which is a purple state, the left can't say that he's the kind of candidate who they should nominate in 2028 because he's only defending a democratically held Senate seat and not flipping one. They were pointing to people like Turek in Iowa or even Tallarico in Texas. It's going to be a debate that we're going to be having for the next months. In a lot of ways, November is not going to settle as much as we hope it is. And the kinds of voters that you're asking about are exactly the kinds of voters that people are going to point to in exit polls and see, you know, which kind of candidates on the Democratic side won them over."
+    },
+    {
+      "start": 1523.3,
+      "end": 1526.4,
+      "speaker": "B",
+      "text": "All right, Erin, thank you so much for coming on and joining the pod."
+    },
+    {
+      "start": 1526.8,
+      "end": 1527.9,
+      "speaker": "A",
+      "text": "Thank you so much for having me."
+    },
+    {
+      "start": 1532.9,
+      "end": 1545.3,
+      "speaker": "B",
+      "text": "And to close us out, we have a First in Playbook ad that we want to share. This is a 7-figure buy for Mike Bouchard, who is the GOP nominee running to replace Congressman John James in Michigan's 10th District. Here it is."
+    },
+    {
+      "start": 1546.5,
+      "end": 1576,
+      "speaker": "C",
+      "text": "Washington politicians like to talk tough, but take on radical socialism and rising costs, that makes their knees weak. They might be scared, but I'm not. I'm Mike Bouchard. I fought extremists in the Army and led America's best. Captain Mike Bouchard, Army paratrooper combat veteran, Bronze Star recipient. Socialism, it's never going to win on my watch. I'm ready to lead the fight. Join me, let's fight back. I'm Mike Bouchard. I definitely approve that message."
+    },
+    {
+      "start": 1577.4,
+      "end": 1594,
+      "speaker": "B",
+      "text": "Okay, Adam, literally jumping out of a plane, and we're back in Michigan. I feel like we just cannot go a single day without talking about Michigan anymore. But you've been following this race, Adam. What does it say that this candidate is willing to jump out of a plane for America."
+    },
+    {
+      "start": 1594.7,
+      "end": 1626.3,
+      "speaker": "C",
+      "text": "So my take on the stasha is, you know, he's rejecting socialism, which, you know, is sort of underwater in a place like Michigan. And he's, you know, leaning into patriotism. He's telling, you know, his own personal story and not really aligning himself with the larger party brand. And look, the midterms are a referendum on the president and the party in power. And You know, even though he scans kind of more on the right side here, you don't really see him kind of aligning him specifically with MAGA."
+    },
+    {
+      "start": 1627.1,
+      "end": 1636.2,
+      "speaker": "B",
+      "text": "Again, candidates running away from national party brands seems to be a trend this cycle. All right, Adam Wren, thank you so much for joining."
+    },
+    {
+      "start": 1636.7,
+      "end": 1637.4,
+      "speaker": "C",
+      "text": "Good to be with you."
+    },
+    {
+      "start": 1638.1,
+      "end": 1664.8,
+      "speaker": "B",
+      "text": "And that's all for today's show. As always, we have much more news and analysis in today's Playbook newsletter, which you can find at politico.com/newsletter. Playbook. If you're watching on YouTube, go ahead and subscribe so you never miss a day of Playbook. For our audio listeners, please leave us a review. We read all your feedback and it helps other people find the show. We'll be back tomorrow. Have a great day. Presented by Anthropic."
+    }
+  ]
+}

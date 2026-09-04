@@ -1,0 +1,480 @@
+{
+  "episode": {
+    "id": "ee2bcd6fa1a23b84d378060c732b382642201e304a3111d7e29c12fadf5a1fc6",
+    "podcastTitle": "Up First from NPR",
+    "feedUrl": "https://feeds.npr.org/510318/podcast.xml",
+    "guid": "e57fb6fe-69cc-4524-b55e-4e04a49854d6",
+    "title": "Midterm Mail-In Voting Starts, IRS Targets DEI In Schools, ICE Officer Charged",
+    "description": "The Trump administration is asking the Supreme Court to allow new Postal Service requirements for mail ballots just as midterm voting begins, despite warnings from election officials that the plan could disrupt voting.<br>The I.R.S. is proposing to revoke the tax-exempt status of private schools and universities with programs designed to benefit students based on race, potentially affecting thousands of institutions.<br>An ICE officer is facing federal charges for allegedly lying about a shooting in Minneapolis after video evidence contradicted his account, in a rare prosecution of a federal immigration officer under the Trump administration.<br/><br/><em>Want more analysis of the most important news of the day, plus a little fun? </em><a href=\"https://www.npr.org/newsletter/news\"target=\"_blank\"   >Subscribe</a><em> to the Up First newsletter.</em><br/><br/>Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at <a href=\"http://plus.npr.org/\"target=\"_blank\"   >plus.npr.org</a>.<br/><br/>Today’s episode of Up First was edited by Megan Pratz, Jennifer Portman, Anna Yukhananov, Mohamad ElBardicy, and Alice Woelfle.<br/><br/>It was produced by Ziad Buchh and Nia Dumas. <br/><br/>Our director is Christopher Thomas.<br/><br/>We get engineering support from Neisha Heinis and Patrick Murray. Our technical director is Carleigh Strange.<br/><br/>And our Executive Producer is Jay Shaylor.<br/><br/>(0:00) Introduction<br>(01:59) Midterm Mail-In Voting Starts<br>(06:16) IRS Targets DEI In Schools<br>(10:07) ICE Officer Charged<br/><br/>See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for sponsorship and to manage your podcast sponsorship preferences.<br/><br/><a href=\"https://www.npr.org/about-npr/179878450/privacy-policy\">NPR Privacy Policy</a>",
+    "pubDate": "2026-09-04T09:46:31.000Z",
+    "duration": 795,
+    "audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/74bd81aa-712d-4391-a5da-786a2be4dd83/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=74bd81aa-712d-4391-a5da-786a2be4dd83&feed=HMwRVgVt&t=podcast&e=nx-s1-5957363&p=510318&d=795&size=12734843",
+    "artworkUrl": null
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 931,
+    "utteranceCount": 66
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:37:22.551Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Today's Big Three Stories",
+      "description": "Steve Inskeep and Michelle Martin preview the Supreme Court mail ballot fight, IRS DEI crackdown, and the charged ICE officer.",
+      "startTime": 2.481,
+      "endTime": 130.191,
+      "anchorPhrase": "the trump administration wants the supreme court to let it limit mail-in balloting for an"
+    },
+    {
+      "index": 1,
+      "title": "Supreme Court's Mail Ballot Showdown",
+      "description": "The Trump administration asks the Supreme Court to lift a block on new Postal Service mail ballot requirements just as midterm voting begins today.",
+      "startTime": 130.191,
+      "endTime": 298.131,
+      "anchorPhrase": "the trump administration is back at the supreme court to push for restrictions to mail-in"
+    },
+    {
+      "index": 2,
+      "title": "A Portal That Isn't Ready",
+      "description": "USPS still has no launch date for the online portal states need to comply with the new ballot requirements, raising fears of widespread voting disruptions.",
+      "startTime": 298.131,
+      "endTime": 386.828,
+      "anchorPhrase": "they need to do that. and at this point, can this postal service plan at"
+    },
+    {
+      "index": 3,
+      "title": "IRS Targets DEI School Programs",
+      "description": "The IRS proposes revoking tax-exempt status from up to 18,000 private schools and universities with race-based diversity programs.",
+      "startTime": 386.828,
+      "endTime": 518.187,
+      "anchorPhrase": "the irs says it wants to revoke the tax-exempt status of private schools and universities"
+    },
+    {
+      "index": 4,
+      "title": "Can the IRS Actually Do This?",
+      "description": "Legal experts say the IRS's attempt to unilaterally redefine racial discrimination faces serious challenges that could block or delay the rule from ever taking effect.",
+      "startTime": 518.187,
+      "endTime": 617.902,
+      "anchorPhrase": "this rule change. can they really do this, though? well, they're no doubt going to"
+    },
+    {
+      "index": 5,
+      "title": "ICE Officer Charged With Lying",
+      "description": "ICE officer Christian Castro faces six counts of making false statements after video evidence contradicted his account of a January shooting in Minneapolis.",
+      "startTime": 617.902,
+      "endTime": 769.634,
+      "anchorPhrase": "an ice officer is facing federal charges in connection with the shooting of a venezuelan"
+    },
+    {
+      "index": 6,
+      "title": "A Rare — But Contested — Accountability Moment",
+      "description": "Critics say the charges against Castro don't go far enough, while other ICE shootings from the same enforcement operation remain unprosecuted.",
+      "startTime": 769.634,
+      "endTime": 931,
+      "anchorPhrase": "well, it is certainly rare. i will say though that the attorney for the venezuelan"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 2.5,
+      "end": 8.2,
+      "speaker": "A",
+      "text": "The Trump administration wants the Supreme Court to let it limit mail-in balloting for an election that starts today."
+    },
+    {
+      "start": 8.4,
+      "end": 15.3,
+      "speaker": "B",
+      "text": "Election officials say a new Postal Service system the administration wants is not ready or legal. Could eligible voters end up without a ballot?"
+    },
+    {
+      "start": 15.4,
+      "end": 40.1,
+      "speaker": "A",
+      "text": "I'm Steve Inskeep, with Michelle Martin, and this is Up First from NPR News. University professors are promising to fight an IRS plan to revoke Tax-exempt status for schools with diversity programs. A-A-U-P is not going to stand by and watch President Trump once again attempt to destroy the greatest system of higher education in the world."
+    },
+    {
+      "start": 40.3,
+      "end": 52.8,
+      "speaker": "B",
+      "text": "And an ICE officer is charged with lying about a Minneapolis shooting earlier this year after video contradicted his account. It's a rare prosecution of an immigration officer under President Trump. Stay with us. We'll give you news you need to start your day."
+    },
+    {
+      "start": 60.1,
+      "end": 87.8,
+      "speaker": "C",
+      "text": "This message comes from Saatva. Back to school takes a lot of energy, focus, and stamina, not just for the kids, but for the teachers and parents too. And that requires deep, restorative sleep, the kind that every Saatva mattress is designed to provide. Because every tomorrow starts the night before. And now save up to $625 on $1,000 or more at saatva.com/NPR. That's S-A-A-T-V-A dot com slash NPR."
+    },
+    {
+      "start": 88.6,
+      "end": 100.7,
+      "speaker": "D",
+      "text": "Support for this NPR podcast and the following message come from Carvana. Selling your car? Carvana has offers so good, they're almost inexplicable. Sell your car 100% online in minutes."
+    },
+    {
+      "start": 101,
+      "end": 102.9,
+      "speaker": "B",
+      "text": "Visit carvana.com today."
+    },
+    {
+      "start": 103.8,
+      "end": 129.4,
+      "speaker": "C",
+      "text": "Support for NPR and the following message come from GoodRx. With GoodRx Companion, members get over 250 medications for free. Plus discounts on dental, vision, labs, and more through the GoodRx Companion network. Free medications are subject to change. Terms apply. Savings vary based on provider, service, and geographical area. GoodRx is not insurance. Cut costs, not care. Go to goodrx.com/companion."
+    },
+    {
+      "start": 130.2,
+      "end": 134.5,
+      "speaker": "B",
+      "text": "The Trump administration is back at the Supreme Court to push for restrictions to mail-in voting."
+    },
+    {
+      "start": 134.6,
+      "end": 148.1,
+      "speaker": "A",
+      "text": "The administration wants the Postal Service to check mail-in ballots instead of just delivering them. Lower courts so far have blocked this effort, but the administration is still trying to apply it to the midterm election for which mail-in voting begins today."
+    },
+    {
+      "start": 148.4,
+      "end": 151.3,
+      "speaker": "B",
+      "text": "NPR's Hansi Lo Wang is back to break this all down. Good morning, Hansi."
+    },
+    {
+      "start": 151.7,
+      "end": 152.2,
+      "speaker": "D",
+      "text": "Good morning, Michelle."
+    },
+    {
+      "start": 152.3,
+      "end": 159.5,
+      "speaker": "B",
+      "text": "So this all goes back to an executive order that President Trump signed in March, but didn't the Supreme Court already rule on that order?"
+    },
+    {
+      "start": 160.2,
+      "end": 195.7,
+      "speaker": "D",
+      "text": "Yes, they did just last week, but that ruling was on a procedural question about one of the lawsuits over Trump's order, and now the administration is back to ask the Supreme Court to weigh in on the legality of the Postal Service's plan to follow that order. And I should note, USPS is a financial supporter of NPR. And basically, the question before the court this time is, does USPS have the legal authority to refuse to deliver ballots to voters if state election officials don't turn over to USPS lists of mail-in voters' names and addresses, and if officials don't have certain barcodes on the ballot envelopes?"
+    },
+    {
+      "start": 195.9,
+      "end": 204.8,
+      "speaker": "B",
+      "text": "OK, so those are the requirements that the Postal Service under the direction of the Trump administration want states to follow. Are any states doing all of that right now?"
+    },
+    {
+      "start": 205.7,
+      "end": 221.3,
+      "speaker": "D",
+      "text": "No. And a federal judge in Boston has found those requirements for mail ballots are likely illegal because USPS has no authority to control voting by mail. So the judge blocked USPS from imposing those requirements, and that's the block the Trump administration wants the Supreme Court to lift right now."
+    },
+    {
+      "start": 221.7,
+      "end": 223.8,
+      "speaker": "B",
+      "text": "And what's the Trump administration's argument for that?"
+    },
+    {
+      "start": 224.7,
+      "end": 250.6,
+      "speaker": "D",
+      "text": "The Justice Department is arguing that these new mail ballot requirements the Postal Service wants to impose on states is just a way for USPS to regulate mail and that this is not regulating federal elections, which the Constitution says are controlled by states and Congress. But the fact is, Congress has passed laws that require USPS to deliver the mail, and the exceptions to that mandate do not include mail ballots that are addressed to real voters and have the right postage."
+    },
+    {
+      "start": 250.9,
+      "end": 259.3,
+      "speaker": "B",
+      "text": "So that's the legal debate playing out in the courts. But, you know, the election is playing out, too. What is the state of mail-in voting for the midterms today?"
+    },
+    {
+      "start": 260.2,
+      "end": 297.9,
+      "speaker": "D",
+      "text": "Well, for now, there's still a block on key parts of the Postal Service plan. So mail-in voting is still available to all voters who are eligible for it in their states, and USPS is expected to deliver ballots as usual. In fact, North Carolina state law requires election officials there to begin mailing out absentee ballots today, which means today is the first official day of voting for the general election. And other states are gearing up to get their mail-in ballots out later this month. So— and I should note, some states are trying to comply with these new ballot requirements, but they can't follow all of them because USPS has not finished setting up the online portal system they need to do that."
+    },
+    {
+      "start": 298.1,
+      "end": 303.6,
+      "speaker": "B",
+      "text": "And at this point, can this Postal Service plan at the direction of President Trump even be carried out?"
+    },
+    {
+      "start": 304.5,
+      "end": 328.6,
+      "speaker": "D",
+      "text": "Yeah, that's a key question. And many election officials say no, that it's too late. Remember, we had a whistleblower report earlier this week claiming that the online portal system has not been properly tested and it's set up in a way, this whistleblower claims, that could lead to many eligible voters not getting their ballots in time or at all. And just yesterday, USPS confirmed in a court filing the agency still does not have a firm launch date for that online portal."
+    },
+    {
+      "start": 328.6,
+      "end": 335.9,
+      "speaker": "B",
+      "text": "It said it would be ready, quote, \"sometime next week.\" Before we let you go, how are mail-in voters and elections officials dealing with this uncertainty?"
+    },
+    {
+      "start": 336.3,
+      "end": 376.9,
+      "speaker": "D",
+      "text": "Yeah, there's a lot of concern that if the Supreme Court allows this plan to move ahead, it could cause major disruptions in the midterms. You know, there are some places in the country that vote only by mail, and many election officials in those places are trying to come up with backup plans. And for voters who do have other ways of casting their ballot besides mailing it in, you know, there are certainly voters who are thinking through alternative plans. I talked to an overseas voter and a military spouse voting out of state who have considered booking a flight so they can vote at the polls in person. But again, right now, key parts of the USPS plan are blocked, and it's possible it will remain blocked. We'll just have to see what the Supreme Court decides and when."
+    },
+    {
+      "start": 377.4,
+      "end": 379.6,
+      "speaker": "B",
+      "text": "That is NPR's Hansi Loong. Hansi, thank you."
+    },
+    {
+      "start": 380,
+      "end": 380.6,
+      "speaker": "D",
+      "text": "You're welcome, Michelle."
+    },
+    {
+      "start": 386.8,
+      "end": 394.2,
+      "speaker": "B",
+      "text": "The IRS says it wants to revoke the tax-exempt status of private schools and universities with programs designed to help racial minority students."
+    },
+    {
+      "start": 394.3,
+      "end": 402.6,
+      "speaker": "A",
+      "text": "The Trump administration defines helping minorities as racial discrimination, and the move by tax authorities is their latest strike on diversity initiatives."
+    },
+    {
+      "start": 403.2,
+      "end": 406.8,
+      "speaker": "B",
+      "text": "NPR's Adrian Florido covers race, and he's covering this story. Good morning."
+    },
+    {
+      "start": 407.2,
+      "end": 407.8,
+      "speaker": "E",
+      "text": "Good morning, Michelle."
+    },
+    {
+      "start": 408.1,
+      "end": 409.7,
+      "speaker": "B",
+      "text": "What kinds of schools would be affected by this?"
+    },
+    {
+      "start": 410.5,
+      "end": 441.5,
+      "speaker": "E",
+      "text": "Well, any private school— elementary, high schools, universities, trade schools— with any kind of program designed to benefit students on the basis of their race. A lot of schools have programs to support Black or Latino students, for example, who may be the first in their families to go to college. Some schools have scholarships or other initiatives that are aimed at promoting a more diverse student body. And the IRS is saying it's going to penalize schools for these types of programs by revoking their tax-exempt status starting next spring."
+    },
+    {
+      "start": 441.9,
+      "end": 444.4,
+      "speaker": "B",
+      "text": "And why is the administration saying it wants to do this?"
+    },
+    {
+      "start": 445.5,
+      "end": 482.5,
+      "speaker": "E",
+      "text": "Well, the administration is arguing that these sorts of programs are racially discriminatory. Treasury Secretary Scott Bessett, who oversees the IRS, said in a statement that, quote, racial discrimination has no place in American education. This is a huge shift, Michelle. Historically, the IRS has not penalized tax-exempt institutions for race-based programs or considered them discriminatory as long as these programs are trying to advance racial equity or address the effects of societal discrimination. But now the government is saying that programs that consider race even for that purpose are themselves discriminating."
+    },
+    {
+      "start": 482.8,
+      "end": 484.6,
+      "speaker": "B",
+      "text": "And what kind of impact would this have?"
+    },
+    {
+      "start": 485.4,
+      "end": 517.9,
+      "speaker": "E",
+      "text": "Well, it would be a huge impact on schools. The administration is trying to pressure them to end these programs by squeezing them financially. Having nonprofit tax-exempt status frees these schools from paying federal income taxes, but it's also a very important fundraising tool because people who donate to schools, like alumni, get a tax deduction. I should say, Michelle, it's not clear exactly how the IRS will identify schools that have race-based programs it does not like, but the agency says that up to 18,000 private schools could be affected by this rule change."
+    },
+    {
+      "start": 518.2,
+      "end": 520.2,
+      "speaker": "B",
+      "text": "Can they really do this, though?"
+    },
+    {
+      "start": 521.2,
+      "end": 534,
+      "speaker": "E",
+      "text": "Well, they're no doubt going to face legal challenges. I spoke with Todd Wolfson, president of the American Association of University Professors, the AAUP, which has been fighting a lot of President Trump's recent attacks on higher education."
+    },
+    {
+      "start": 534.4,
+      "end": 551.5,
+      "speaker": "A",
+      "text": "AAUP is not going to stand by and watch President Trump once again attempt to destroy the greatest system of higher education in the world that gives opportunity to a diverse set of students for a diverse country. So yes, emphatically yes, we are going to fight this."
+    },
+    {
+      "start": 552.2,
+      "end": 568.2,
+      "speaker": "E",
+      "text": "There's legal gray area here, Michelle, as to whether the IRS can do this, unilaterally redefine racial discrimination and revoke tax-exempt status because of that. The fight over this, experts think, could delay this change from taking effect next May, as the administration wants, or possibly ever."
+    },
+    {
+      "start": 568.6,
+      "end": 580.4,
+      "speaker": "B",
+      "text": "So Adrian, before we let you go, what does the administration think should be done about patterns of racial discrimination which have historically benefited white people, which have been intended to benefit white people at the expense of other groups?"
+    },
+    {
+      "start": 581.3,
+      "end": 605.9,
+      "speaker": "E",
+      "text": "Well, the administration does not believe that the government or private institutions should play any role in addressing the effects of historic discrimination. It said so, in fact, in the guidelines it published on this rule change yesterday. Um, the administration is trying through policy changes like this at many agencies to enshrine what it says is a colorblind approach to government, uh, something that conservatives have said for a long time that they want to see."
+    },
+    {
+      "start": 606.4,
+      "end": 608.7,
+      "speaker": "B",
+      "text": "That is NPR's Adrian Florido. Adrian, thank you."
+    },
+    {
+      "start": 609.1,
+      "end": 609.6,
+      "speaker": "E",
+      "text": "Thank you, Michelle."
+    },
+    {
+      "start": 617.9,
+      "end": 623.6,
+      "speaker": "B",
+      "text": "An ICE officer is facing federal charges in connection with the shooting of a Venezuelan man in Minneapolis."
+    },
+    {
+      "start": 623.6,
+      "end": 631.7,
+      "speaker": "A",
+      "text": "This incident took place in January during Operation Metro Surge. That was the Trump administration's immigration enforcement crackdown in Minnesota."
+    },
+    {
+      "start": 632.2,
+      "end": 640,
+      "speaker": "B",
+      "text": "NPR justice correspondent Ryan Lucas is covering this, and he's with us now to tell us more about— Good morning, Ryan. Good morning. So who is this officer and what is he charged with?"
+    },
+    {
+      "start": 640.6,
+      "end": 699.3,
+      "speaker": "F",
+      "text": "Well, the defendant here is Christian Castro. He was, uh, as you said, an officer with ICE. He's facing 6 counts of making false statements, so in other words, of lying to investigators about a shooting in January in Minnesota and the circumstances that led up to that shooting. That is according to a person familiar with the matter who spoke with me on condition of anonymity in order to discuss an ongoing investigation. I am also told that Castro turned himself himself in to federal authorities yesterday in Texas, so he is now in custody. Now, Castro's name may ring a bell for you, and that's because he has been in the news. We've talked about him on this program. He's the same ICE officer who's been at the center of a legal fight between Minnesota and Texas. That legal battle revolved around a separate set of criminal charges that local prosecutors in Minnesota had brought against him connected to the same shooting. Castro was in Texas. Minnesota wanted Texas to extradite him. Texas's governor refused to do so, and Castro in the end was released from a Texas jail last week. Now, though, of course, he's facing these new separate federal charges brought by the Justice Department."
+    },
+    {
+      "start": 699.6,
+      "end": 702.3,
+      "speaker": "B",
+      "text": "What is it that he allegedly lied about?"
+    },
+    {
+      "start": 703.1,
+      "end": 754.2,
+      "speaker": "F",
+      "text": "Well, the charges are still under seal, so we don't have all the details yet, but back in January when the shooting happened, DHS said two Venezuelan men had ambushed and attacked Castro with a snow shovel and a broomstick, after a targeted traffic stop, and it said that Castro had opened fire in self-defense. Federal prosecutors even brought assault charges against the two Venezuelan men, including the one who was shot in the leg in the incident. But soon after that, prosecutors dropped those charges because video evidence had emerged that contradicted Castro's claims about the shooting. DHS then had to climb down from its perch. It said Castro and another ICE officer appeared to have made untruthful statements in sworn testimony about the shooting. The two ICE officers were put on administrative leave, and since then, Minnesota authorities have said that Castro actually fired his gun through a closed door."
+    },
+    {
+      "start": 754.5,
+      "end": 757.5,
+      "speaker": "B",
+      "text": "And then let me point out that the person who was shot did survive."
+    },
+    {
+      "start": 757.7,
+      "end": 757.9,
+      "speaker": "D",
+      "text": "He did."
+    },
+    {
+      "start": 758,
+      "end": 768.4,
+      "speaker": "B",
+      "text": "Correct. Okay. So this seems like a rare instance in the Trump administration in which a federal immigration officer is potentially being held accountable for alleged misconduct. How significant is this?"
+    },
+    {
+      "start": 769.6,
+      "end": 814.5,
+      "speaker": "F",
+      "text": "Well, it is certainly rare. Uh, I will say though that the attorney for the Venezuelan man who was shot by Castro says this doesn't go far enough. She says the Justice Department has grossly undercharged this case and that Castro should be facing more severe civil rights charges. It's also worth noting that no one has been charged for the killings of two American citizens, Rene Good and Alex Preddy, who were shot and killed by federal immigration officers during the same major enforcement operation in Minneapolis earlier this year by the Trump administration. And shootings involving immigration officers are not uncommon. They do keep happening. There have been more than 20 such shootings under this administration, the second Trump administration, including two fatal ones in July, one in Texas and the other in Maine."
+    },
+    {
+      "start": 814.8,
+      "end": 817,
+      "speaker": "B",
+      "text": "That is NPR's Ryan Lucas. Ryan, thank you."
+    },
+    {
+      "start": 817.1,
+      "end": 817.6,
+      "speaker": "D",
+      "text": "Thank you."
+    },
+    {
+      "start": 822.1,
+      "end": 825.3,
+      "speaker": "B",
+      "text": "And that's Up First for Friday, September 4th. I'm Michelle Martin."
+    },
+    {
+      "start": 825.5,
+      "end": 851,
+      "speaker": "A",
+      "text": "And I'm Steve Inskeep. Today's Up First was edited by Megan Pratz, Jennifer Portman, Anna Yukonanov, Mohamed El Bardisi, and Alice Wolfley. It was produced by Ziad Batch and Nia Dumas. Our director is Christopher Thomas. We get engineering support from Nisha Hynes and Patrick Murray. He doesn't say his name that way. Our technical director is Carly Strange, Carly Strange, who also She doesn't say her name that way. Our executive producer is Jay Shaler. Join us again Monday."
+    },
+    {
+      "start": 866.6,
+      "end": 883,
+      "speaker": "D",
+      "text": "Want to hear this podcast without sponsor breaks? Amazon Prime members can listen to Up First sponsor-free through Amazon Music. Or you can also support NPR's vital journalism and get NPR+ at plus.npr.org. That's plus.npr.org."
+    },
+    {
+      "start": 884.2,
+      "end": 887.1,
+      "speaker": "B",
+      "text": "This week on Newsmakers, after more than a decade in comedy—"
+    },
+    {
+      "start": 887.5,
+      "end": 895.5,
+      "speaker": "E",
+      "text": "I wasn't sure that we would get here. —Robbie Hoffman is fearless. I had a small feeling I wasn't— oh. And fully herself."
+    },
+    {
+      "start": 895.8,
+      "end": 897.5,
+      "speaker": "B",
+      "text": "My landlord. Hello?"
+    },
+    {
+      "start": 898.2,
+      "end": 899.4,
+      "speaker": "D",
+      "text": "You can go ahead and flash."
+    },
+    {
+      "start": 899.8,
+      "end": 900.7,
+      "speaker": "F",
+      "text": "Well, I'm not home now."
+    },
+    {
+      "start": 901,
+      "end": 902,
+      "speaker": "E",
+      "text": "I'm doing something."
+    },
+    {
+      "start": 902.9,
+      "end": 928.2,
+      "speaker": "B",
+      "text": "We plunge into comedy and success with Robbi Hoffman on NPR's Newsmakers. Hi there, I'm Brittany Luce. And not to brag, but I host a really fabulous podcast. It's called It's Been a Minute. I love making it, and I think you'll love listening to it. Over the last year, hundreds of thousands of listeners have been tuning in. And I got to say, if you haven't yet, you're missing out. Listen to the It's Been a Minute podcast from NPR today."
+    }
+  ]
+}

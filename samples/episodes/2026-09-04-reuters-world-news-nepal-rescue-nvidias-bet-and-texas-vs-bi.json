@@ -1,0 +1,230 @@
+{
+  "episode": {
+    "id": "92c810ab7e2c2e6c2e56091ff7eae17f0d61ee0ab9a71bcdeb4e4ddd4fbdd3f8",
+    "podcastTitle": "Reuters World News",
+    "feedUrl": "https://feeds.megaphone.fm/reutersworldnews",
+    "guid": "https://pdst.fm/e/traffic.megaphone.fm/THRH2724832867.mp3",
+    "title": "Nepal rescue, Nvidia's bet and Texas vs big tech",
+    "description": "Two men are pulled out alive from a flooded tunnel in Nepal, nine days after a deadly flood. The U.S. investigates an airstrike Iranian officials say hit a wedding party, as Reuters analysis points to an American munition. Nvidia makes one of its biggest moves ever, buying AI platform Hugging Face for nearly $13 billion. And in Texas, Republican leaders are turning against the AI data centers they once championed. \n\n*This podcast was corrected. An earlier version incorrectly referred to U.S. Vice President JD Vance as president.\n\n\n📲 Podcasts, breaking news, and video analysis from the source. ⁠⁠⁠⁠⁠Download the Reuters app here.⁠⁠⁠⁠⁠\n\nListen to the Morning Bid podcast ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠.\n\nSign up for the Reuters Econ World newsletter ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠. \n\nListen to the Reuters Econ World podcast ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠.\n\nVisit the ⁠⁠Thomson Reuters Privacy Statement⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ for information on our privacy and data protection practices. \n\nYou may also visit megaphone.fm/adchoices to opt out of targeted advertising.\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+    "pubDate": "2026-09-04T10:06:00.000Z",
+    "duration": 737,
+    "audioUrl": "https://pdst.fm/e/traffic.megaphone.fm/THRH2724832867.mp3",
+    "artworkUrl": "https://megaphone.imgix.net/podcasts/306d7796-a83b-11f1-a738-6bb4c97acf6b/image/361d23014287d7e7c25a1a3ff1f21897.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 678,
+    "utteranceCount": 23
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:29.628Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Nine Days Alive Underground",
+      "description": "Two workers are pulled from a flooded Nepal hydropower tunnel nine days after a catastrophic glacier collapse killed over 1,200 people.",
+      "startTime": 0.224,
+      "endTime": 105.02,
+      "anchorPhrase": "hi, i'm carmel crimmins in dublin. it's friday, september 4th. today: a stunning rescue in"
+    },
+    {
+      "index": 1,
+      "title": "Wedding Strike Evidence Mounts",
+      "description": "Reuters' weapons experts confirm a U.S. munition likely struck a wedding party in Iran, even as VP JD Vance says the government has no information either way.",
+      "startTime": 105.02,
+      "endTime": 167.734,
+      "anchorPhrase": "dozens. the united states never targets civilians in combat. we never will do that. we"
+    },
+    {
+      "index": 2,
+      "title": "Texas Republicans Flip on AI",
+      "description": "Governor Greg Abbott and AG Ken Paxton abandon their pro-data center stance as constituents push back over rising power costs, water use, and community impact.",
+      "startTime": 167.734,
+      "endTime": 316.636,
+      "anchorPhrase": "directive. and the move pulls the justices back into the high-stakes election fight as early"
+    },
+    {
+      "index": 3,
+      "title": "Nvidia's $13 Billion AI Gamble",
+      "description": "Nvidia acquires Hugging Face to lock in a massive open-source developer community as its biggest customers increasingly build their own chips.",
+      "startTime": 316.636,
+      "endTime": 405.299,
+      "anchorPhrase": "wayfair, every style, every home. the explosive growth of data centers has certainly been good"
+    },
+    {
+      "index": 4,
+      "title": "Open Source vs. China's AI Push",
+      "description": "The Hugging Face deal positions Nvidia at the center of a geopolitical race between U.S. open-source AI and China's freely released models.",
+      "startTime": 405.299,
+      "endTime": 447.134,
+      "anchorPhrase": "stephen says the deal also has geopolitical implications for the us and china. china has"
+    },
+    {
+      "index": 5,
+      "title": "ICE Agent Indicted in Shooting",
+      "description": "Federal prosecutors charge immigration officer Christian Castro for shooting a Venezuelan migrant in Minnesota and lying to investigators about being attacked.",
+      "startTime": 447.134,
+      "endTime": 497.585,
+      "anchorPhrase": "a federal grand jury has indicted ice agent christian castro, and he's back in custody"
+    },
+    {
+      "index": 6,
+      "title": "RFK Jr.'s Measles Cover-Up Claim",
+      "description": "Reuters reports Kennedy pressured the CDC director to remove two measles-linked deaths from the national count, sparking a clash with Pennsylvania's governor.",
+      "startTime": 497.585,
+      "endTime": 580.572,
+      "anchorPhrase": "defense asked to have the juror removed, but the judge refused. clancy has admitted she"
+    },
+    {
+      "index": 7,
+      "title": "Ottawa Ditches Trump's Name",
+      "description": "Canadian residents and city officials move to rename Trump Avenue as anti-U.S. sentiment grows amid tariffs, trade tensions, and a 10% drop in Canadian visits to America.",
+      "startTime": 580.572,
+      "endTime": 678,
+      "anchorPhrase": "the tally. it's also embarrassing when people hear that you live on trump. john germano,"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.2,
+      "end": 24,
+      "speaker": "A",
+      "text": "Hi, I'm Carmel Crimmins in Dublin. It's Friday, September 4th. Today: a stunning rescue in Nepal, NVIDIA makes a $13 billion bet on OpenAI models, and Texas Republicans revolt against data centers. This is Reuters World News, bringing you everything you need to know from the front lines in 10 minutes, 7 days a week."
+    },
+    {
+      "start": 27.9,
+      "end": 55.3,
+      "speaker": "B",
+      "text": "Cozy season is ahead, and you'll be spending way more time inside. Is your home ready? Don't worry. With Wayfair, you can upgrade your space without breaking the bank. Score up to 70% off during their Labor Day clearance on furniture, area rugs, mattresses, and more. Plus, surprise flash deals you can't miss. Whether it's one room or the whole house, Wayfair has pieces for every style and budget. Shop Wayfair's Labor Day clearance now through September 7th at wayfair.com."
+    },
+    {
+      "start": 55.4,
+      "end": 56.2,
+      "speaker": "C",
+      "text": "Wayfair."
+    },
+    {
+      "start": 56.3,
+      "end": 56.9,
+      "speaker": "A",
+      "text": "Every style."
+    },
+    {
+      "start": 57,
+      "end": 57.5,
+      "speaker": "C",
+      "text": "Every home."
+    },
+    {
+      "start": 65,
+      "end": 104.7,
+      "speaker": "A",
+      "text": "9 days underground and still alive. A man is rescued from a flooded hydropower tunnel in Nepal, one of 2 workers pulled out. The first survivors rescued from the hydropower projects since a catastrophic glacier collapse swept through the valley, killing more than 1,200 people. Sanjay Shah and Kabir Maharajan are among 900 workers believed to be trapped in the hydropower tunnels. Both men have been airlifted to hospital in Kathmandu. US Vice President JD Vance says the government is investigating an airstrike that Iranian officials say hit a wedding party in Iran, killing 4 people and wounding dozens."
+    },
+    {
+      "start": 105,
+      "end": 119.5,
+      "speaker": "C",
+      "text": "The United States never targets civilians in combat. We never will do that. We never have done that. And unfortunately, obviously, Sometimes things happen, but in this particular case, I don't think that we have any information one way or the other."
+    },
+    {
+      "start": 120,
+      "end": 218.2,
+      "speaker": "A",
+      "text": "A Reuters investigation finds the strike was likely a direct hit by a US munition based on analysis by 4 independent weapons experts. On Thursday, a funeral was held in Iran for victims of the attack. The Trump administration is asking the Supreme Court to let the US Postal Service enforce new rules for mail-in ballots ahead of the November midterm elections. The emergency request asks the justices to lift a federal judge's order blocking a new USPS rule, which was adopted following an executive order by Trump to restrict mail-in ballots. Under that rule, states must supply the Postal Service with lists of mail ballot recipients, and all ballot envelopes must have unique barcodes. It's the second time the administration has turned to the Supreme Court to defend Trump's directive. And the move pulls the justices back into the high-stakes election fight as early voting gets underway this month in states across the US. A backlash against AI data centers is creating an unexpected political split in the Republican Party, especially in Texas. Governor Greg Abbott once touted the state as the epicenter of AI development. Now he's calling for new restrictions. Attorney General Ken Paxton has also sharpened his criticism as key elections approach. The shift away from President Trump's pro-AI agenda comes as more residents raise concerns about rising power costs, water use, and the impact these massive facilities can have on local communities. That pressure is putting some of the world's biggest tech companies on the defensive, despite spending hundreds of millions of dollars to build political support. Reuters reporter Dawn Kopecky has more."
+    },
+    {
+      "start": 218.8,
+      "end": 285.6,
+      "speaker": "D",
+      "text": "This is a sea change for data centers. It's a sea change for big tech. It's a wake-up call. To that industry. And you're seeing not just socialist Democrats. I mean, you're seeing Greg Abbott in Texas, the Texas Republican governor, very conservative governor, and his views on data centers are more in line with Bernie Sanders and AOC than they are with Trump in the White House. And so they're going to have to pause. They're going to have to take a look. They're going to have to spend more resources, not just in lobbying politicians, but in actually giving money back to communities. So you, you are seeing that with Google and Meta and some other companies that have rolled out development programs, jobs training programs, and, and other things to benefit local communities, but a A lot of Republican strategists we spoke with said it's 2 years too late."
+    },
+    {
+      "start": 289.3,
+      "end": 316.5,
+      "speaker": "B",
+      "text": "Cozy season is ahead and you'll be spending way more time inside. Is your home ready? Don't worry. With Wayfair, you can upgrade your space without breaking the bank. Score up to 70% off during their Labor Day clearance on furniture, area rugs, mattresses, and more. Plus, surprise flash deals you can't miss. Whether it's one room or the whole house, Wayfair has pieces for every style and budget. Shop Wayfair's Labor Day clearance now through September 7th at wayfair.com."
+    },
+    {
+      "start": 316.6,
+      "end": 356.3,
+      "speaker": "A",
+      "text": "Wayfair, every style, every home. The explosive growth of data centers has certainly been good news for Nvidia, and now the chipmaker is making one of the biggest deals in its history. Nvidia will buy AI developer platform Hugging Face for nearly $13 billion. The acquisition gives the company something it increasingly wants: direct access to a huge community of AI developers. That's particularly important as some of its biggest customers, including Meta, OpenAI, and Microsoft, develop their own chips. CEO Jason Wang says Hugging Face will remain an open platform. Tech reporter Stephen Nelles has more."
+    },
+    {
+      "start": 357,
+      "end": 404.6,
+      "speaker": "E",
+      "text": "Hugging Face is one of the central places that AI development has taken place over the past few years, and that's because it's the central place where people go to share the code for their open-source software, tweak it, share it back with other developers, and push the entire field forward as a community. Now, you might be wondering, how does Hugging Face make money? Well, it charges a subscription to host that code securely, uh, and for other features and things like that. Now, why would NVIDIA want it? Well, NVIDIA is best known for making AI chips, but it's actually also a huge player in AI software. It gives away a ton of AI software for free for the pretty simple reason that if you have great software sitting there for free, you're more likely to want to buy Nvidia's chips versus competing chips from another company like Intel or AMD."
+    },
+    {
+      "start": 405.3,
+      "end": 409.4,
+      "speaker": "A",
+      "text": "Stephen says the deal also has geopolitical implications for the US and China."
+    },
+    {
+      "start": 409.7,
+      "end": 446,
+      "speaker": "E",
+      "text": "China has been making big waves in recent years by releasing some of its best and most compelling AI as free open-source models. Most of the leading AI technology from the US comes from companies like OpenAI and Anthropic that are closed source. NVIDIA is trying to make a big bet on US-based open source, and this will be pushing that forward. Now, the big question is whether the two countries, the US and China, will continue to pursue those strategies and how. But either way, NVIDIA is going to be a big player by becoming both a huge provider of the chips and hardware and now a huge repository of open source AI software."
+    },
+    {
+      "start": 447.1,
+      "end": 546.8,
+      "speaker": "A",
+      "text": "A federal grand jury has indicted Ice agent Christian Castro, and he's back in custody after being released from jail a week ago. Prosecutors say Castro shot and wounded Venezuelan migrant Julio Cesar Sosa Salas in Minnesota, then lied to investigators, claiming he was attacked with a snow shovel and a broom. The charges are an extraordinary step by the Justice Department, the first known prosecution of a federal immigration officer involved in the Minneapolis operation. Castro has been suspended by the Department of Homeland Security. He already faces state charges and a separate civil rights investigation is underway. Jurors in the Lindsay Clancy murder trial head into a 7th day of deliberations, the deadlock deepening after Clancy's attorney, Kevin Reddington, said one holdout juror is standing in the way of a unanimous verdict. Defense asked to have the juror removed, but the judge refused. Clancy has admitted she killed her 3 young children in 2023, but says she was in the grip of a psychotic episode at the time. A dispute over 2 measles-linked deaths in Pennsylvania is raising new questions about political influence inside the US's top public health agencies. Reuters has learned that Health Secretary Robert F. Kennedy Jr. asked the CDC's new director to remove the deaths from the agency's national measles count. That request came after staff at the Centers for Disease Control and Prevention had already accepted Pennsylvania's determination that the fatalities were linked to the outbreak. Despite that, CDC Director Erica Schwarz implemented Kennedy's directive. The disagreement has become part of a larger clash between Kennedy and Pennsylvania Governor Josh Shapiro."
+    },
+    {
+      "start": 547.2,
+      "end": 559.2,
+      "speaker": "C",
+      "text": "His actions and the rhetoric that's coming from this administration are having a negative impact on communities across America."
+    },
+    {
+      "start": 559.6,
+      "end": 580,
+      "speaker": "A",
+      "text": "And it comes at a moment when measles cases are rising while vaccination rates continue to fall in parts of the United States. A spokesperson for the Department of Health and Human Services says the CDC requested the information necessary to determine whether measles had caused or contributed to the death, but did not comment on Kennedy or Schwartz's roles in removing them from the tally."
+    },
+    {
+      "start": 580.6,
+      "end": 583.8,
+      "speaker": "C",
+      "text": "It's also embarrassing when people hear that you live on Trump."
+    },
+    {
+      "start": 584.8,
+      "end": 610.6,
+      "speaker": "A",
+      "text": "John Germano, a resident on Trump Avenue in the Ottawa neighbourhood of Central Park. The street name was chosen when Donald Trump was best known as a New York City real estate developer. But now he's US president, he's hitting Canada with tariffs and just signed an executive order renaming Lake Ontario as Lake America. The message from some Canadians: anything you can do, We can do too, according to Ottawa City Councillor Riley Brockington."
+    },
+    {
+      "start": 611.3,
+      "end": 617.4,
+      "speaker": "C",
+      "text": "And he does not deserve to have his name associated with any street in Ottawa, let alone anywhere in Canada."
+    },
+    {
+      "start": 617.9,
+      "end": 624,
+      "speaker": "A",
+      "text": "Renaming Trump Avenue could take up to a year, but residents say they're taking immediate steps to protest the US."
+    },
+    {
+      "start": 624.8,
+      "end": 636.4,
+      "speaker": "C",
+      "text": "I haven't traveled there since, uh, uh, this last, uh, administration came in. I don't feel inclined to go down there so much anymore. I've found a lot of you know, fun places in Canada to visit and, you know, overseas and whatnot."
+    },
+    {
+      "start": 637,
+      "end": 670.3,
+      "speaker": "A",
+      "text": "That's Dave Semodlenko, and he's not the only one. Visits from Canada to the US declined by over 10% in the first 3 months of the year compared to a year earlier. For more on any of the stories from today, as well as more analysis and news shaping our world, check out reuters.com or the Reuters app. There's a link in the description to download it and start getting pure news straight from the source. Don't forget to follow us on your favorite podcast player. And if you're listening on a smart speaker, just ask for the latest news from Reuters 7 days a week. We'll be back later with our daily headline show."
+    }
+  ]
+}

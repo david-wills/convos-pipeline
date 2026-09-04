@@ -1,0 +1,47 @@
+{
+  "podcasts": [
+    { "url": "https://feeds.npr.org/510318/podcast.xml" },
+    { "url": "https://feeds.npr.org/510325/podcast.xml" },
+    { "url": "https://feeds.npr.org/510355/podcast.xml" },
+    { "url": "https://feeds.simplecast.com/Sl5CSM3S" },
+    { "url": "https://feeds.megaphone.fm/VMP5705694065" },
+    { "url": "https://feeds.megaphone.fm/vergecast" },
+    { "url": "https://feeds.publicradio.org/public_feeds/marketplace" },
+    { "url": "https://feeds.publicradio.org/public_feeds/marketplace-tech" },
+    { "url": "https://feeds.megaphone.fm/ridehome" },
+    { "url": "https://video-api.shdsvc.dowjones.io/api/podcasts/feed/the%20journal" },
+    { "url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/982f5071-765c-403d-969d-ae27003a8d83/podcast.rss" },
+    { "url": "https://my.slate.com/podcasts/feeds/what-next/" },
+    { "url": "https://feeds.megaphone.fm/ESP8447327256" },
+    { "url": "https://feeds.megaphone.fm/reutersworldnews" },
+    { "url": "https://access.acast.com/rss/d556eb54-6160-4c85-95f4-47d9f5216c49" },
+    { "url": "https://feeds.acast.com/public/shows/73fe3ede-5c5c-4850-96a8-30db8dbae8bf" },
+    { "url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/d15648c4-cee0-4e99-a5ca-af80014d921d/65ce2954-d8a8-4c66-9f42-af80014d923e/podcast.rss" },
+    { "url": "https://feeds.megaphone.fm/WMHY2007701094" },
+    { "url": "https://feeds.megaphone.fm/ASD6963560714" },
+    { "url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/825d4e29-b616-46f4-afd7-ae2b0013005c/8b1dd624-a026-43e9-8b57-ae2b00130066/podcast.rss" }
+  ],
+  "news": [
+    { "url": "https://feeds.bbci.co.uk/news/technology/rss.xml", "sourceName": "BBC Technology", "category": "technology" },
+    { "url": "https://feeds.bbci.co.uk/news/business/rss.xml", "sourceName": "BBC Business", "category": "business" },
+    { "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "sourceName": "BBC Science", "category": "science_health" },
+    { "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", "sourceName": "BBC Entertainment", "category": "culture" },
+    { "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "sourceName": "BBC World", "category": "politics" },
+    { "url": "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en", "sourceName": "Google News", "category": "general" },
+    { "url": "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB?hl=en-US", "sourceName": "Google News Tech", "category": "technology" },
+    { "url": "https://feeds.arstechnica.com/arstechnica/index", "sourceName": "Ars Technica", "category": "technology" },
+    { "url": "https://feeds.npr.org/1001/rss.xml", "sourceName": "NPR News", "category": "general" }
+  ],
+  "selection": {
+    "sinceDays": 3,
+    "maxPerFeed": 2,
+    "maxDurationSec": 2700
+  },
+  "clustering": {
+    "maxHeadlines": 75
+  },
+  "matching": {
+    "minScore": 7,
+    "maxCandidates": 200
+  }
+}

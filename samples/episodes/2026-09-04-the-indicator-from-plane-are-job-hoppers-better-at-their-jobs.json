@@ -1,0 +1,406 @@
+{
+  "episode": {
+    "id": "9543a99a349230551c039a67f906caa9366577bc15898250da3c245b5f48b317",
+    "podcastTitle": "The Indicator from Planet Money",
+    "feedUrl": "https://feeds.npr.org/510325/podcast.xml",
+    "guid": "53bd5082-7ad4-424b-ba63-9390181aa86f",
+    "title": "Are job hoppers better at their jobs?",
+    "description": "People with jobs are not always eager to leave them … but there are exceptions. Call them job hoppers. While many employers look down on this sort of professional promiscuity, new research suggests there are benefits to switching jobs frequently.  <br/><br/>Fact checking by <a href=\"https://www.npr.org/people/1268825622/sierra-juarez\"target=\"_blank\"   >Sierra Juarez</a>.<br/><br/><strong>Your Next Listen </strong><br>— <a href=\"https://lnk.to/U3BkkSWE\"target=\"_blank\"   >I'm just here for the health benefits</a><br/><br/><strong>Connect with The Indicator </strong><br>— Sign up for <a href=\"https://npr.org/indicatornewsletter\"target=\"_blank\"   >The Indicator’s weekly newsletter</a>! <br>— Buy the <a href=\"https://lnk.to/i3AukBdDWE\"target=\"_blank\"   >Planet Money book</a> <br>— Find our <a href=\"https://linktr.ee/indicator_npr\"target=\"_blank\"   >socials, YouTube and more</a>! <br>— For sponsor-free episodes, <a href=\"https://plus.npr.org/\"target=\"_blank\"   >subscribe to NPR+</a> <br/><br/>Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at <a href=\"http://plus.npr.org/\"target=\"_blank\"   >plus.npr.org</a>.<br/><br/>See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for sponsorship and to manage your podcast sponsorship preferences.<br/><br/><a href=\"https://www.npr.org/about-npr/179878450/privacy-policy\">NPR Privacy Policy</a>",
+    "pubDate": "2026-09-04T14:30:29.000Z",
+    "duration": 568,
+    "audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510325/npr.simplecastaudio.com/0a4e8d3b-fe23-4948-9e39-20fcf16f9331/episodes/43ce211c-a8fe-4c63-a85c-98885b798cc0/audio/128/default.mp3?awCollectionId=0a4e8d3b-fe23-4948-9e39-20fcf16f9331&awEpisodeId=43ce211c-a8fe-4c63-a85c-98885b798cc0&feed=IFy3imsg&t=podcast&e=nx-s1-5957370&p=510325&d=568&size=9088610",
+    "artworkUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3f%2Fa8%2F6ac9e2054b4fa3b2c572cccddf7b%2Fbf494e24-c68c-463a-b70a-442d7ba0396d.png"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 665,
+    "utteranceCount": 55
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:37:22.060Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "July Jobs Report Surprise",
+      "description": "The hosts break down the latest employment numbers, including a steady 4.1% unemployment rate and unexpected job growth driven by restaurants and bars.",
+      "startTime": 6.533,
+      "endTime": 76.926,
+      "anchorPhrase": "npr. this is the indicator from planet money. i'm adrian ma. and i'm weilin wong."
+    },
+    {
+      "index": 1,
+      "title": "The Case for Job Hopping",
+      "description": "With hiring flat and quit rates low, the hosts introduce a surprising new study suggesting frequent job changers may actually have an edge over loyal employees.",
+      "startTime": 76.926,
+      "endTime": 167.536,
+      "anchorPhrase": "leave them. but there are exceptions. call them job hoppers, people who decide to change"
+    },
+    {
+      "index": 2,
+      "title": "Aaron's Wild Resume",
+      "description": "Twenty-five-year-old Aaron Brodsky walks through a jaw-dropping string of jobs — from halfway house worker to bakery manager — and explains why pay, not passion, drives him to keep moving.",
+      "startTime": 167.536,
+      "endTime": 280.302,
+      "anchorPhrase": "aaron brodsky is years old from rochester, new york. and aaron is a self-described job"
+    },
+    {
+      "index": 3,
+      "title": "The Adaptability Advantage",
+      "description": "Cornell professor Rebecca Quijo shares findings from a 27-year study of nearly 9,000 hedge fund managers showing that job hoppers bounce back from the new-job learning curve far faster than their peers.",
+      "startTime": 280.302,
+      "endTime": 497.857,
+      "anchorPhrase": "well, good news, aaron. a recent study suggests job hoppers possess a very special and"
+    },
+    {
+      "index": 4,
+      "title": "When Job Hopping Backfires",
+      "description": "Rebecca warns that switching jobs too rapidly — before fully settling in — can actually prevent workers from building the adaptability skills that make job hopping valuable in the first place.",
+      "startTime": 497.857,
+      "endTime": 561.501,
+      "anchorPhrase": "now, there is a caveat here. rebecca says there may be a limit to this"
+    },
+    {
+      "index": 5,
+      "title": "Aaron's Reluctant Optimism",
+      "description": "Aaron reflects on what all those jobs have taught him about communication, while admitting he wishes the job market didn't make hopping a necessity.",
+      "startTime": 561.501,
+      "endTime": 665,
+      "anchorPhrase": "of people. if you are able to communicate efficiently, then you're going to be able"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 6.5,
+      "end": 6.6,
+      "speaker": "A",
+      "text": "NPR."
+    },
+    {
+      "start": 6.6,
+      "end": 8.5,
+      "speaker": "B",
+      "text": "This is The Indicator from Planet Money. I'm Adrian Ma."
+    },
+    {
+      "start": 9,
+      "end": 19.3,
+      "speaker": "A",
+      "text": "And I'm Weilin Wong. And we have arrived at yet another Jobs Friday, the day each month where we check in on the latest jobs numbers and spotlight trends in the labor market."
+    },
+    {
+      "start": 19.6,
+      "end": 37.9,
+      "speaker": "B",
+      "text": "That's right. And according to the Bureau of Labor Statistics, the unemployment rate remained steady around 4.1% last month. And the economy added 162,000 jobs. Much of that growth came from a surge in hiring at food services and drinking places, which is BLS speak for restaurants and bars."
+    },
+    {
+      "start": 38.4,
+      "end": 47.1,
+      "speaker": "A",
+      "text": "I am feeling a little whiplash here because a month ago the jobs report came in a lot weaker than expected. And so this month's numbers are like a welcome surprise."
+    },
+    {
+      "start": 47.4,
+      "end": 49.3,
+      "speaker": "B",
+      "text": "Yeah, I mean, we're down, we're up."
+    },
+    {
+      "start": 49.7,
+      "end": 52.9,
+      "speaker": "A",
+      "text": "What is one to do? We should go to a drinking place and discuss."
+    },
+    {
+      "start": 54,
+      "end": 63.2,
+      "speaker": "B",
+      "text": "Right after we record this. That's right. With all the noise in the month-to-month numbers, you know, it can be helpful to step back and consider the longer-term trends."
+    },
+    {
+      "start": 63.6,
+      "end": 76.5,
+      "speaker": "A",
+      "text": "According to the BLS, the rate at which companies are hiring new employees has remained pretty flat the past couple of years. And one measurement called the quits rate shows that people with jobs are not eager to leave them."
+    },
+    {
+      "start": 76.9,
+      "end": 96,
+      "speaker": "B",
+      "text": "But there are exceptions. Call them job hoppers, people who decide to change jobs every few years or even every few months. And while many employers look down on this sort of professional promiscuity, new research suggests there are real benefits for job hoppers and the companies they work for. We'll explain after the break."
+    },
+    {
+      "start": 99.6,
+      "end": 112.7,
+      "speaker": "C",
+      "text": "This message comes from Saatva. Big days require deep, restorative sleep the night before. The kind of sleep Saatva mattresses are designed for. And now save up to $625 on $1,000 or more at saatva.com/NPR."
+    },
+    {
+      "start": 114.8,
+      "end": 163,
+      "speaker": "D",
+      "text": "This message comes from Superhuman. Superhuman brings together connected tools like Grammarly, Docs, and Mail into one productivity suite. Built on the idea that low-value tasks crowd out meaningful focus, Superhuman meets teams where they already work. It operates proactively alongside writing and email workflows to help clear what is in the way. Superhuman, from the makers of Grammarly. Start streamlining your workflows with Superhuman today at superhuman.com. This message comes from Dell Technologies. Interruptions happen at work, but with the Dell Pro laptop powered by Intel Core Ultra with vPro, built with optimized battery and built-in intelligence, your tech won't slow you down. Dell.com/Dell-Pro. Built for you."
+    },
+    {
+      "start": 167.5,
+      "end": 177.2,
+      "speaker": "B",
+      "text": "Aaron Brodsky is 25 years old from Rochester, New York. And Aaron is a self-described job hopper. Let's go through the job hopping era and just like chronologically walk us through."
+    },
+    {
+      "start": 177.5,
+      "end": 216.3,
+      "speaker": "E",
+      "text": "Oh God, let me, yeah, let me pull up my resume. I'll have to, I'm sure that, I think there's jobs on there that I've completely forgotten about. In 2022, I worked at a halfway house for individuals who were previously incarcerated. While I was getting my master's degree, I was the editor-in-chief for the school's in-house magazine. That was a paid job. After I graduated, I was a robotics instructor at a YMCA. After that, I worked at a bakery. After that, I was a manager at a different bakery."
+    },
+    {
+      "start": 218.2,
+      "end": 220.2,
+      "speaker": "A",
+      "text": "Aaron has lived so many lives."
+    },
+    {
+      "start": 220.6,
+      "end": 223.1,
+      "speaker": "B",
+      "text": "Aaron is the Forrest Gump of Rochester."
+    },
+    {
+      "start": 223.5,
+      "end": 231.6,
+      "speaker": "A",
+      "text": "Oh my gosh. Amazing. Currently, Aaron works as an assistant resident supervisor at a home for people with intellectual and developmental disabilities."
+    },
+    {
+      "start": 232.2,
+      "end": 237.5,
+      "speaker": "E",
+      "text": "I feel like I'm actually making people's lives better, like I'm actually helping people."
+    },
+    {
+      "start": 237.9,
+      "end": 247.2,
+      "speaker": "B",
+      "text": "And while Aaron likes the job, they say they've always got their radar up for better opportunities. When we asked what's driven them to switch jobs in the past, they said it's pretty basic."
+    },
+    {
+      "start": 247.7,
+      "end": 261.3,
+      "speaker": "E",
+      "text": "It's worker appreciation. It's pay. I've said it at a couple of my jobs. I take my praises and raises. You can say all the words you want, but if my check remains the same, then how much do you really appreciate me?"
+    },
+    {
+      "start": 261.8,
+      "end": 264.4,
+      "speaker": "A",
+      "text": "I take my praises in raises is so catchy."
+    },
+    {
+      "start": 264.7,
+      "end": 265.9,
+      "speaker": "B",
+      "text": "I was gonna say, that is catchy."
+    },
+    {
+      "start": 266.3,
+      "end": 279.9,
+      "speaker": "A",
+      "text": "I know. Now, BLS research shows job hopping is common among people in their 20s and 30s, but people of all ages do it. Still, Erin, who's still in their 20s, does worry their long resume might look bad to potential employers."
+    },
+    {
+      "start": 280.3,
+      "end": 299.6,
+      "speaker": "B",
+      "text": "Well, good news, Aaron. A recent study suggests job hoppers possess a very special and undervalued skill, and that is adaptability. Rebecca Quijo is co-author on that study. She's a professor at Cornell University where she studies human resources, and she says whenever you start a new job, there's always a learning curve."
+    },
+    {
+      "start": 299.9,
+      "end": 321,
+      "speaker": "F",
+      "text": "So even if you're familiar with kind of the tasks of the job, I mean, physically you're in a new building, a new space, but you're still trying to figure out Where's the bathroom? Yeah, exactly. There's the basic things like that, and then there's the more nuanced things like, who do I need to know? How do things work around here? What are kind of the expectations for how I interact with people, how we do things?"
+    },
+    {
+      "start": 321.6,
+      "end": 333.1,
+      "speaker": "A",
+      "text": "Rebecca says this disorientation can last for months. Even if you are doing the same type of job just at a different company, you're not going to be quite as productive as you usually are. Have you had this experience, Adrian?"
+    },
+    {
+      "start": 333.5,
+      "end": 335.5,
+      "speaker": "B",
+      "text": "It's hard to be productive when you're still looking for the bathroom."
+    },
+    {
+      "start": 336.5,
+      "end": 342,
+      "speaker": "A",
+      "text": "Yeah, or trying to figure out, like, how do people take lunch? You know, like, do people go out? Do they eat at their desk?"
+    },
+    {
+      "start": 342.2,
+      "end": 342.4,
+      "speaker": "F",
+      "text": "Oh, man."
+    },
+    {
+      "start": 342.4,
+      "end": 343.4,
+      "speaker": "A",
+      "text": "I'll peek into my brain."
+    },
+    {
+      "start": 343.5,
+      "end": 344.4,
+      "speaker": "B",
+      "text": "It's like the first day of school."
+    },
+    {
+      "start": 344.4,
+      "end": 356.5,
+      "speaker": "A",
+      "text": "I know. It's too much. It's too much. But Rebecca wondered whether people who change jobs more often have an easier time with this adjustment period. To test that hypothesis, they looked at hedge fund managers."
+    },
+    {
+      "start": 356.9,
+      "end": 376.7,
+      "speaker": "B",
+      "text": "And why hedge fund managers? Well, a hedge fund manager's job is to invest other people's money and ideally grow it into more money. So the companies that employ them closely track how much money they make for their clients. And conveniently for research purposes, that gave Rebecca concrete data to measure how their job performance changed over time."
+    },
+    {
+      "start": 377.2,
+      "end": 384.7,
+      "speaker": "A",
+      "text": "So she and her co-author obtained 27 years of data on almost 9,000 hedge fund managers. And when they crunched the numbers, what did they find?"
+    },
+    {
+      "start": 385.1,
+      "end": 397.3,
+      "speaker": "F",
+      "text": "Hedge fund managers who had moved more frequently experienced a smaller drop in performance when they changed firms, and they recovered to their prior performance levels more quickly."
+    },
+    {
+      "start": 397.8,
+      "end": 409.9,
+      "speaker": "B",
+      "text": "So, for example, a hedge fund manager who only changed jobs once in their whole career might take about 5 months to get up to speed at a new job, while someone who changed jobs several times might only take 2 months."
+    },
+    {
+      "start": 410.3,
+      "end": 421.1,
+      "speaker": "A",
+      "text": "So in other words, job hoppers had a way shorter adjustment period than non-job hoppers. Rebecca thinks the reason is the soft skills they develop in learning to navigate a new workplace."
+    },
+    {
+      "start": 421.5,
+      "end": 439.7,
+      "speaker": "F",
+      "text": "Part of it is the formal processes, sure, but a lot of it is the culture. A lot of it is the shared history between employees that are working and have been working together for a long time. A lot of it is the expectations of leaders in the organization. These are all kind of social dynamics that you've gotta figure out when you join a new context."
+    },
+    {
+      "start": 440.3,
+      "end": 447.6,
+      "speaker": "B",
+      "text": "Now, even though Rebecca's study looked at hedge fund managers, she thinks the basic principle could apply to job hoppers in lots of different fields."
+    },
+    {
+      "start": 448,
+      "end": 465.6,
+      "speaker": "F",
+      "text": "Any job where you are experiencing this learning curve of not just learning the job, but the learning the dynamics, learning the culture, the expectations of how things work, That's what people are carrying with them from one experience to the next."
+    },
+    {
+      "start": 466.2,
+      "end": 482.7,
+      "speaker": "A",
+      "text": "Now, I can imagine some employers being a little skeptical of this, right? If I were a boss, I probably wouldn't want to sink a bunch of time into training a new hire just to have them leave. Rebecca says that's fair, but employers shouldn't rule out potential hires just because they've hopped around."
+    },
+    {
+      "start": 483,
+      "end": 497.3,
+      "speaker": "F",
+      "text": "They come up to speed more quickly. They might adapt more quickly to new collaborative environments. So if that's a priority, if you're in a high-stakes context, you're hiring for a role where you really need someone to come in and hit the ground running, this might be a strength."
+    },
+    {
+      "start": 497.9,
+      "end": 507.7,
+      "speaker": "B",
+      "text": "Now, there is a caveat here. Rebecca says there may be a limit to this effect. If someone changes jobs, say, several times a year, that might be a different story."
+    },
+    {
+      "start": 508.3,
+      "end": 523.1,
+      "speaker": "F",
+      "text": "If you are spending so little time in an organization that you're never actually fully figuring out how things work, you might not develop that adaptability benefit because you're sort of avoiding adapting by just leaving before you need to."
+    },
+    {
+      "start": 523.7,
+      "end": 531.2,
+      "speaker": "A",
+      "text": "I cannot stomach the thought of sending out my resume, doing that many interviews that many times in a year. No, thank you."
+    },
+    {
+      "start": 531.6,
+      "end": 535.7,
+      "speaker": "B",
+      "text": "Yeah, it's like the opposite of quiet quitting. It just, I don't know, quick quitting."
+    },
+    {
+      "start": 536.1,
+      "end": 537,
+      "speaker": "A",
+      "text": "Loud applying."
+    },
+    {
+      "start": 537.2,
+      "end": 561.2,
+      "speaker": "B",
+      "text": "Yes. So this brings us back to Aaron, our job hopper from Rochester, who worked at a halfway house, a magazine, a YMCA, two bakeries, and a home for people with disabilities. Now, Erin hasn't worked for a hedge fund yet, but they say they have benefited from working at different jobs. And one of the biggest benefits being learning to work with all kinds of people."
+    },
+    {
+      "start": 561.5,
+      "end": 567.7,
+      "speaker": "E",
+      "text": "If you are able to communicate efficiently, then you're going to be able to solve 90% of the problems."
+    },
+    {
+      "start": 568.3,
+      "end": 580.4,
+      "speaker": "A",
+      "text": "So what's next for Erin? Well, they have a master's degree in criminal justice and might try to pursue a job in that field. Ultimately, Erin wants to find stability, something that will help them climb the financial ladder."
+    },
+    {
+      "start": 580.8,
+      "end": 582.5,
+      "speaker": "B",
+      "text": "Or at the very least, not fall behind."
+    },
+    {
+      "start": 583.2,
+      "end": 597.5,
+      "speaker": "E",
+      "text": "As much as I am an advocate for job hopping, and I think it has done me a lot of good, I wish it wasn't what I have to do. But that's not what the market has decided. And so I'm just going to try to play it to the best of my ability."
+    },
+    {
+      "start": 598.8,
+      "end": 622.5,
+      "speaker": "A",
+      "text": "Maybe Aaron should become a hedge fund manager. They're very well compensated. After more than a year, the Planet Money game is out. Now, sell me a Sasquatch. If you've purchased it, consider inviting over some friends who don't know about Planet Money and playing it with them and let us know how it goes. Maybe you'll pique their interest in market failures or podcasts."
+    },
+    {
+      "start": 622.9,
+      "end": 632.1,
+      "speaker": "B",
+      "text": "This episode was produced by Angel Carreras and engineered by Travis Hagen. It was fact-checked by Sierra Juárez, edited by Julia Ricci. Caken Cannon is our show's editor, and The Indicator is a production of NPR."
+    },
+    {
+      "start": 633.1,
+      "end": 663.3,
+      "speaker": "C",
+      "text": "This message comes from NPR sponsor Charles Schwab with its original podcast On Investing. Each week you'll get thoughtful, in-depth analysis of both the stock and the bond markets. Listen today and subscribe at schwab.com/oninvesting or wherever you get your podcasts. This message comes from Bombas. Comfy footwear is the last thing you want to worry about this summer. Bombas sandals and slides are perfect for beach days, barbecues, and everything in between. Go to bombas.com/npr."
+    }
+  ]
+}

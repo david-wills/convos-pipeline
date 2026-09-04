@@ -1,0 +1,874 @@
+{
+  "episode": {
+    "id": "57f9caeab8ab02fe0c3af4ca9b0b1e71f8426b3b72d38e74848c538c79df58e3",
+    "podcastTitle": "Marketplace",
+    "feedUrl": "https://feeds.publicradio.org/public_feeds/marketplace",
+    "guid": "01M1HKPXW33DVRHVZQE4436SC5",
+    "title": "Even higher diesel prices are coming",
+    "description": "<p>The average cost of a gallon of diesel was $5.68 on Wednesday — just 13 cents shy of a record high. Tariffs and ongoing wars are both to blame. But so is a seasonal upswing that happens every fall. In this episode, why diesel prices are likely going to get even steeper before they cool off. Plus: A computer model helps make the case for fewer mandated parking spots in city construction projects, Uber wants to shrink its middle management, and Alaska families celebrate dipnetting season. </p><br/><p><em>Every story has an economic angle. Want some in your inbox? </em><em><a href=\"https://www.marketplace.org/newsletters\">Subscribe</a></em><em> to our daily or weekly newsletter.</em></p><br/><p><em>Marketplace is more than a radio show. Check out our original reporting and financial literacy content at </em><em><a href=\"https://www.marketplace.org/\">marketplace.org</a></em><em> — and consider </em><em><a href=\"https://www.marketplace.org/make-a-smart-investment\">making an investment</a></em><em> in our future.</em></p><br/><p><em>Read the stories in today’s episode:</em></p><br/><ul><li><a href=\"https://www.marketplace.org/story/2026/09/02/high-diesel-prices-come-just-before-peak-season\" class=\"default\">Why high diesel prices are coming at a particularly bad time</a></li><li><a href=\"https://www.marketplace.org/story/2026/09/02/a-california-hardware-store-reopens-19-months-postwildfire\" class=\"default\">What it takes to reopen 19 months after a wildfire</a></li><li><a href=\"https://www.marketplace.org/story/2026/09/02/uber-layoffs-aim-to-shrink-middle-management\" class=\"default\">Uber lays off 10% of their workforce to make the company \"simpler and faster\"</a></li><li><a href=\"https://www.marketplace.org/story/2026/09/02/denver-changed-parking-rule-to-spur-more-housing\" class=\"default\">To spur more housing construction, Denver changed its parking rules</a></li><li><a href=\"https://www.marketplace.org/story/2026/09/02/why-socioeconomic-status-is-a-good-predictor-of-lon",
+    "pubDate": "2026-09-02T22:30:00.000Z",
+    "duration": 1573,
+    "audioUrl": "https://pscrb.fm/rss/p/mgln.ai/e/5/dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/VnCzW2iO9G8z4eDWfXCd/play.publicradio.org/podcast/o/marketplace/pm/2026/09/02/pm_20260902_PM_Podcast_64.mp3?awCollectionId=mkp-MKP-PM&awEpisodeId=01M1HKPXW33DVRHVZQE4436SC5",
+    "artworkUrl": "https://img.apmcdn.org/67edb86f1ae7db11849547027a617db7507e6a9a/square/939beb-20260902-a-fed-ex-truck-parks-at-a-diesel-pump-2000.jpg"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1666,
+    "utteranceCount": 133
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:37:48.698Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Diesel's Record-Breaking Price Surge",
+      "description": "At $5.68 a gallon and climbing, diesel prices are hitting historic highs — and seasonal demand means they're not done yet.",
+      "startTime": 0.272,
+      "endTime": 257.12,
+      "anchorPhrase": "at sentry, understanding starts with taking a seat, talking face-to-face, getting to know your business"
+    },
+    {
+      "index": 1,
+      "title": "Rebuilding After the Eaton Fire",
+      "description": "Hardware store owner Jimmy Orlandini reopens 19 months after losing his Altadena shop to wildfire — by buying a retiring competitor's store.",
+      "startTime": 257.12,
+      "endTime": 530.056,
+      "anchorPhrase": "a beard? i always had a beard. you always had a beard? always had a"
+    },
+    {
+      "index": 2,
+      "title": "Uber Cuts Its Middle Layer",
+      "description": "Uber's 10% workforce reduction targets management bloat, raising questions about what middle managers actually do — and who suffers when they're gone.",
+      "startTime": 530.056,
+      "endTime": 679.677,
+      "anchorPhrase": "uber announced today it's cutting of its workforce—comes to about jobs. ceo dara khosrowshahi said"
+    },
+    {
+      "index": 3,
+      "title": "Parking Rules Kill Housing",
+      "description": "Denver ditched mandatory parking minimums to spur apartment construction, and a computer model helped make the case.",
+      "startTime": 679.677,
+      "endTime": 1046.081,
+      "anchorPhrase": "we are short, depending on who you talk to, give or take million housing units"
+    },
+    {
+      "index": 4,
+      "title": "It's Not Male Loneliness — It's Economic",
+      "description": "New data shows income predicts loneliness far better than gender, with low-wage workers spending twice as many hours alone each day.",
+      "startTime": 1046.081,
+      "endTime": 1376.352,
+      "anchorPhrase": "i'm kai ryssdal. there is, as you might have heard, a loneliness epidemic in this"
+    },
+    {
+      "index": 5,
+      "title": "Alaska's Dipnetting Economy",
+      "description": "An economist who studies dipnetting's value to Alaskan households heads into the Kenai River to catch fish — and memories — with his sons.",
+      "startTime": 1376.352,
+      "endTime": 1666,
+      "anchorPhrase": "media. kevin barry is chest-high in the kenai river when a salmon jerks his dip"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.3,
+      "end": 29.8,
+      "speaker": "A",
+      "text": "At Sentry, understanding starts with taking a seat, talking face-to-face, getting to know your business firsthand, diving into details, seeing risk from every angle, becoming experts in your business, and crafting coverage that really makes a difference. So save us a seat, we've got work to do. Property and Casualty coverages are underwritten by a member of the Sentry Insurance Group, Stevens Point, Wisconsin. For a complete listing of companies, visit sentry.com. Policies, coverages, benefits, and discounts are not available in all states. See policy for complete coverage details."
+    },
+    {
+      "start": 32.4,
+      "end": 121.8,
+      "speaker": "B",
+      "text": "On the program today, not the debt market, not the labor market. Let's see, what else is out there? Oh yeah, inflation. From American Public Media, this is Marketplace. In Los Angeles, I'm Kai Ryssdal. It is Wednesday today. Second day of September. Good as it always is to have you along, everybody. There's a concept in economics known as the velocity of money, literally how quickly money changes hands out there. It's a useful indicator of how lively, I guess, any given economy is. We today here on this program are going to introduce a related but not officially recognized corollary the velocity of prices, the vessel of choice being diesel fuel. Yesterday, $5.63 a gallon. Today, at a nickel, $5.68, the highest national average since President Trump started his war with Iran, just 13 cents off the highest recorded price ever. And if we all needed yet another lesson that timing is everything, tariffs and wars aside, Diesel prices usually do have a seasonal upswing in the fall. Marketplace's Kaitlyn Tan gets us going."
+    },
+    {
+      "start": 122.4,
+      "end": 154.4,
+      "speaker": "C",
+      "text": "I took the family Dodge diesel pickup to the gas station in Pinedale, Wyoming this morning. I'm seeing diesel prices here today, $5.75. Yikes. Okay, let's see what it costs. Okay, grand total. $191.11. Almost $200. And even if you drive a gas vehicle, GasBuddy analyst Patrick DeHaan says diesel was still involved."
+    },
+    {
+      "start": 154.9,
+      "end": 159.3,
+      "speaker": "D",
+      "text": "And the cars we're driving don't get to the car dealerships without a semi-truck using diesel."
+    },
+    {
+      "start": 159.8,
+      "end": 177.4,
+      "speaker": "C",
+      "text": "Same for your apples and carrots and bread. A diesel tractor tills up the crops, a truck brings them to a processing center, you know, then a distribution center and then the grocery store. And University of Tennessee's Thomas Goldsby says companies often pass down those high diesel prices to consumers."
+    },
+    {
+      "start": 178.3,
+      "end": 184.1,
+      "speaker": "B",
+      "text": "Ultimately, they're looking to make sure that they cover their cost and can maybe make a dime here and there."
+    },
+    {
+      "start": 184.8,
+      "end": 213.3,
+      "speaker": "C",
+      "text": "And diesel prices likely haven't topped out. Fall brings surging demand for harvesting crops, plus cooler weather means heating homes. And as Alan Schaefer with the nonprofit Engine Technology Forum points out, Home heating oil comes out of the same distillate fuel pool that diesel does. Combine those seasonal demands with current global politics. Well, you guessed it, even higher diesel prices. I'm Kaitlyn Tan for Marketplace."
+    },
+    {
+      "start": 214.1,
+      "end": 256.7,
+      "speaker": "B",
+      "text": "How about that fill-up? Wall Street today, a little bounce back in equities. And hey, look, I made it 3 minutes into the program without saying the word bonds. We'll have the details when we do the numbers. You know how when you've only met somebody a couple or three times over like a year and a half You kind of forget some of the details. Wait, you grew a beard. Did you always have a beard?"
+    },
+    {
+      "start": 257.1,
+      "end": 257.9,
+      "speaker": "E",
+      "text": "I always had a beard."
+    },
+    {
+      "start": 257.9,
+      "end": 258.6,
+      "speaker": "B",
+      "text": "You always had a beard?"
+    },
+    {
+      "start": 258.7,
+      "end": 259,
+      "speaker": "E",
+      "text": "Always had a beard."
+    },
+    {
+      "start": 259,
+      "end": 260.8,
+      "speaker": "B",
+      "text": "Well, it's been a while since I've seen you. How are you?"
+    },
+    {
+      "start": 260.9,
+      "end": 261.7,
+      "speaker": "E",
+      "text": "Good. How are you?"
+    },
+    {
+      "start": 261.7,
+      "end": 265.9,
+      "speaker": "B",
+      "text": "Good. Maybe it's a little bushier. Is that the deal? Uh, maybe a little bit bushier. A little bit bushier."
+    },
+    {
+      "start": 265.9,
+      "end": 266.1,
+      "speaker": "G",
+      "text": "All right."
+    },
+    {
+      "start": 266.1,
+      "end": 267,
+      "speaker": "E",
+      "text": "Yeah."
+    },
+    {
+      "start": 267,
+      "end": 284.6,
+      "speaker": "B",
+      "text": "That's Jimmy Orlandini. He's the owner of Altadena Hardware. We've been talking to him since his business burned down in the Eaton fire back in January of 2025. Today, we're about a 15-minute drive. From where his old store used to be. We're in a hardware store. Yes, come on, man."
+    },
+    {
+      "start": 284.9,
+      "end": 286.4,
+      "speaker": "E",
+      "text": "We are in Arnold's Hardware Store."
+    },
+    {
+      "start": 286.8,
+      "end": 289.3,
+      "speaker": "B",
+      "text": "How did this come to pass? It's been a long haul."
+    },
+    {
+      "start": 289.8,
+      "end": 313,
+      "speaker": "E",
+      "text": "It has been a long haul. Uh, back in the end of the year last year, uh, one of my— well, one of our mutual salesmen's, mine and Arnold's, the guy that owned Arnold's at the time, he said, you You know, I know you're having a hard time finding somewhere, but you might want to talk to Basil that owns Arnold's Frontier Hardware. I think he wants to retire."
+    },
+    {
+      "start": 314.1,
+      "end": 315.2,
+      "speaker": "B",
+      "text": "Music to your ears, right?"
+    },
+    {
+      "start": 315.3,
+      "end": 328.2,
+      "speaker": "E",
+      "text": "Well, I was very reluctant because I knew Basil, I knew of Basil, and I was like, I don't think he's ready to retire. He's a little bit younger. But I made the phone call and he's like, let me think about it, but I've been kind of leaning that way."
+    },
+    {
+      "start": 329.3,
+      "end": 335.6,
+      "speaker": "B",
+      "text": "And here we are, and it worked out. You bought the business. But the property it's on, yes, right?"
+    },
+    {
+      "start": 335.6,
+      "end": 337.4,
+      "speaker": "E",
+      "text": "Yes, I just keep digging."
+    },
+    {
+      "start": 337.4,
+      "end": 343.7,
+      "speaker": "B",
+      "text": "Yeah, that's right. Basically, well, we'll get to the financing in a minute. Basically turnkey, right? I mean, you haven't closed a day since you took over."
+    },
+    {
+      "start": 343.9,
+      "end": 344.6,
+      "speaker": "D",
+      "text": "No, nope."
+    },
+    {
+      "start": 344.6,
+      "end": 350.1,
+      "speaker": "B",
+      "text": "That's great. Yeah, that's really great. Um, about that, you put your house on the line to buy this place, didn't you?"
+    },
+    {
+      "start": 350.1,
+      "end": 351,
+      "speaker": "E",
+      "text": "Yeah."
+    },
+    {
+      "start": 351,
+      "end": 352.3,
+      "speaker": "B",
+      "text": "Are you not terrified?"
+    },
+    {
+      "start": 352.7,
+      "end": 357.4,
+      "speaker": "E",
+      "text": "Absolutely. Yeah, but it's hardware and it's what we know."
+    },
+    {
+      "start": 357.4,
+      "end": 358.3,
+      "speaker": "B",
+      "text": "Everybody needs hardware, right?"
+    },
+    {
+      "start": 358.3,
+      "end": 366.7,
+      "speaker": "E",
+      "text": "And This is a great store. It's a great community store, just like Altadena was to Altadena. I mean, Altadena Hardware was to Altadena."
+    },
+    {
+      "start": 367,
+      "end": 367.2,
+      "speaker": "H",
+      "text": "Right."
+    },
+    {
+      "start": 367.8,
+      "end": 376.4,
+      "speaker": "E",
+      "text": "Arnold's is an institution in Sierra Madre, and the people of Sierra Madre are ecstatic to see it keep going."
+    },
+    {
+      "start": 376.5,
+      "end": 376.8,
+      "speaker": "B",
+      "text": "Right."
+    },
+    {
+      "start": 376.9,
+      "end": 377.2,
+      "speaker": "F",
+      "text": "Yeah."
+    },
+    {
+      "start": 377.3,
+      "end": 377.9,
+      "speaker": "E",
+      "text": "Under the same name."
+    },
+    {
+      "start": 378,
+      "end": 384.7,
+      "speaker": "B",
+      "text": "It's a family business. It's a thing, right? Yeah. You're 15 minutes-ish from the old place?"
+    },
+    {
+      "start": 384.8,
+      "end": 385,
+      "speaker": "I",
+      "text": "Yeah."
+    },
+    {
+      "start": 385.4,
+      "end": 388.1,
+      "speaker": "B",
+      "text": "You're gonna open up back up there when you get there."
+    },
+    {
+      "start": 388.2,
+      "end": 392.9,
+      "speaker": "E",
+      "text": "Yep, when we get back. And you're gonna keep this place and— Keep this place and reopen in Altadena."
+    },
+    {
+      "start": 393,
+      "end": 394,
+      "speaker": "B",
+      "text": "And you're just gonna run back and forth?"
+    },
+    {
+      "start": 394.3,
+      "end": 394.4,
+      "speaker": "I",
+      "text": "Yep."
+    },
+    {
+      "start": 394.8,
+      "end": 394.9,
+      "speaker": "C",
+      "text": "Wow."
+    },
+    {
+      "start": 395.3,
+      "end": 395.5,
+      "speaker": "I",
+      "text": "Yep."
+    },
+    {
+      "start": 395.8,
+      "end": 402.9,
+      "speaker": "B",
+      "text": "Wow. Employees, your old employees and then the employees of this place. I mean, you have a slight dilemma there, right?"
+    },
+    {
+      "start": 403.3,
+      "end": 426,
+      "speaker": "E",
+      "text": "It was a little bit. Part of the agreement with Basil was to retain most of his employees, which I ended up retaining all of his employees. And as well bringing back a few of the Altadena employees. I have some still waiting in the wind. As we get busier and we get into the remodel of the store, we will need more help. Yeah."
+    },
+    {
+      "start": 426.7,
+      "end": 432,
+      "speaker": "B",
+      "text": "We are not far from Altadena. You've seen people come and say, \"Jimmy, here we are.\" Absolutely."
+    },
+    {
+      "start": 432.5,
+      "end": 450.8,
+      "speaker": "E",
+      "text": "Yeah. For the first couple of weeks, it was people walking in and doing the double take, like, \"What are you doing here?\" That's cool. Now that it's out on social media and we've done— we did kind of a hello goodbye party for Basil's retirement and it's coming in now. More and more Altadena people are coming in."
+    },
+    {
+      "start": 450.9,
+      "end": 459.3,
+      "speaker": "B",
+      "text": "Yeah. Are you surprised it took you this long to find a place? Because Arnold's has been here for decades and decades and decades."
+    },
+    {
+      "start": 460.6,
+      "end": 466.7,
+      "speaker": "E",
+      "text": "It's still kind of hard for me to think that I didn't find a temporary spot in Altadena, which I really thought."
+    },
+    {
+      "start": 466.8,
+      "end": 472,
+      "speaker": "B",
+      "text": "Oh yeah, but we talked about that, right? It was so expensive, right? I mean, the rates were just— Through the roof."
+    },
+    {
+      "start": 472.1,
+      "end": 472.6,
+      "speaker": "E",
+      "text": "Through the roof."
+    },
+    {
+      "start": 472.9,
+      "end": 473.1,
+      "speaker": "F",
+      "text": "Yeah."
+    },
+    {
+      "start": 474.9,
+      "end": 483.7,
+      "speaker": "E",
+      "text": "But I, you know, all good things happen to people that wait, right? This, I mean, this was, it felt just, this was the right thing."
+    },
+    {
+      "start": 484,
+      "end": 485.3,
+      "speaker": "B",
+      "text": "Well, karma, look, kismet, right?"
+    },
+    {
+      "start": 485.4,
+      "end": 490.2,
+      "speaker": "E",
+      "text": "Yeah. It was just, this was the right thing. Yeah."
+    },
+    {
+      "start": 490.5,
+      "end": 492.1,
+      "speaker": "B",
+      "text": "Thanks so much. I really appreciate it."
+    },
+    {
+      "start": 492.2,
+      "end": 492.6,
+      "speaker": "E",
+      "text": "Of course."
+    },
+    {
+      "start": 494.4,
+      "end": 498.9,
+      "speaker": "B",
+      "text": "That thing Jimmy said about this being a local hardware store, It's true."
+    },
+    {
+      "start": 499.8,
+      "end": 500.1,
+      "speaker": "G",
+      "text": "Jimmy."
+    },
+    {
+      "start": 500.3,
+      "end": 500.7,
+      "speaker": "E",
+      "text": "Yes, sir."
+    },
+    {
+      "start": 500.9,
+      "end": 501.4,
+      "speaker": "G",
+      "text": "Paul Costa."
+    },
+    {
+      "start": 501.4,
+      "end": 503.4,
+      "speaker": "B",
+      "text": "I've been coming here since I was 30."
+    },
+    {
+      "start": 503.6,
+      "end": 504.5,
+      "speaker": "E",
+      "text": "All right. I'm glad to see."
+    },
+    {
+      "start": 504.6,
+      "end": 505.7,
+      "speaker": "B",
+      "text": "So you're the current owner?"
+    },
+    {
+      "start": 505.9,
+      "end": 506.3,
+      "speaker": "E",
+      "text": "Yes, sir."
+    },
+    {
+      "start": 506.4,
+      "end": 507.8,
+      "speaker": "B",
+      "text": "I know Basil and the whole gang."
+    },
+    {
+      "start": 507.9,
+      "end": 508.8,
+      "speaker": "E",
+      "text": "Yes, very good."
+    },
+    {
+      "start": 530.1,
+      "end": 551.9,
+      "speaker": "B",
+      "text": "Uber announced today it's cutting 10% of its workforce—comes to about 3,300 jobs. CEO Dara Khosrowshahi said he wants to create a simpler, leaner organization with, in particular, fewer layers of management. So we decided today is the day to let all those middle managers out there shine. Marketplace's Stephanie Hughes got the assignment."
+    },
+    {
+      "start": 552.4,
+      "end": 559.1,
+      "speaker": "H",
+      "text": "In a workplace, you've got what organizational psychologist Bob Sutton calls grease people and gunk people."
+    },
+    {
+      "start": 559.6,
+      "end": 564.3,
+      "speaker": "D",
+      "text": "When you've got the wrong middle managers in the wrong places, they can gum up the works."
+    },
+    {
+      "start": 564.7,
+      "end": 579.6,
+      "speaker": "H",
+      "text": "Sutton, who's a professor emeritus at Stanford, says the idea with cutting management layers is you get rid of the people who slow things down and battle with others for power. But sometimes it can be hard to know the unappreciated, invisible work that middle managers do."
+    },
+    {
+      "start": 580.1,
+      "end": 586.9,
+      "speaker": "D",
+      "text": "Like making sure the handoffs work, actually knowing who to go to to gossip, to get things done."
+    },
+    {
+      "start": 587.2,
+      "end": 604.2,
+      "speaker": "H",
+      "text": "Sutton says this is part of a larger trend—let go of some managers, give others bigger teams. According to a Gallup review of US workplaces, the average team has 12 people. That's about 50% larger than back in 2013. But Sutton says you can end up with teams that are too big."
+    },
+    {
+      "start": 604.6,
+      "end": 610.1,
+      "speaker": "D",
+      "text": "What happens is that the boss gets overloaded. They become a bottleneck. It becomes frustrating."
+    },
+    {
+      "start": 610.6,
+      "end": 615.9,
+      "speaker": "H",
+      "text": "And more decisions can end up with the big boss, says Julia Dahr with Boston Consulting Group."
+    },
+    {
+      "start": 616.3,
+      "end": 623,
+      "speaker": "K",
+      "text": "Instead of decision-making moving down closer to the front line, things move up towards the CEO."
+    },
+    {
+      "start": 623.5,
+      "end": 636,
+      "speaker": "H",
+      "text": "Dahr says that shrinking an organization's size doesn't necessarily save money long term. In order for it to make sense, companies have to figure out exactly how all the work, visible and invisible, is going to get done."
+    },
+    {
+      "start": 636.5,
+      "end": 646.9,
+      "speaker": "K",
+      "text": "If you don't, you will make a temporary shift in the cost base, but you might equally add that back in terms of contractors, new hires in the subsequent years."
+    },
+    {
+      "start": 647.4,
+      "end": 662.3,
+      "speaker": "H",
+      "text": "Darr says fewer workers aspire to be middle managers now, and that's a problem because today's middle managers are tomorrow's leaders. But as one of my bosses said to me today, it can be lonely in the middle. I'm Stephanie Hughes for Marketplace."
+    },
+    {
+      "start": 679.7,
+      "end": 716.3,
+      "speaker": "B",
+      "text": "We are short, depending on who you talk to, give or take 4 million housing units in this economy. To fix that, a lot of cities are looking at zoning and building codes and the often well-intentioned restrictions that can slow or prevent a whole lot of building. Among those restrictions, parking. Rules dating back to the '50s and '60s in some cities, when cars were very much more king, dictate that new apartment buildings provide a certain number of parking spaces. But times and cities change, and those rules might not really be needed anymore. Marketplace's Amy Scott has that one."
+    },
+    {
+      "start": 716.8,
+      "end": 735.9,
+      "speaker": "K",
+      "text": "I'm driving through Denver's River North Art District with Stefan Chavez-Norgaard. He's an assistant professor of public policy at the University of Denver. RINO, as it's called, is a former industrial area now filled with art galleries, craft breweries, and bougie shops and restaurants."
+    },
+    {
+      "start": 736.2,
+      "end": 740.6,
+      "speaker": "D",
+      "text": "When you see a Shake Shack, that's when you know, uh, there's some gentrification for sure."
+    },
+    {
+      "start": 741.5,
+      "end": 752.3,
+      "speaker": "K",
+      "text": "Oh, there's a Rivian dealer. There you go. There's also a lot of new apartment buildings with amenities like rooftop decks, fitness centers, and private parking."
+    },
+    {
+      "start": 752.9,
+      "end": 760.9,
+      "speaker": "D",
+      "text": "And a lot of these projects are the exact kinds of projects that can benefit from changes to the parking rules."
+    },
+    {
+      "start": 761.7,
+      "end": 796,
+      "speaker": "K",
+      "text": "Until a year ago, Denver required that most apartment buildings provide at least one parking spot per unit. But last August, the city council voted to eliminate those requirements in an effort to spur more housing. A single parking spot can add as much as $50,000 to the cost of construction. It also leaves less space space for housing. In a study published before the vote, Chavez-Norgaard and a colleague estimated the change could add up to 460 more housing units per year, almost 13%."
+    },
+    {
+      "start": 797,
+      "end": 806,
+      "speaker": "D",
+      "text": "We like to think we provided a sort of data-driven, uh, resource for city council as they made that decision. It's not a total game changer, but that adds up over time."
+    },
+    {
+      "start": 806.6,
+      "end": 822.2,
+      "speaker": "K",
+      "text": "To make that case, Chavez-Norgaard used a tool called the Housing Policy Simulator. Developed by Turner Labs. That's a nonprofit that promotes housing affordability. On a Zoom call, Turner's Alex Casey shows me how it works."
+    },
+    {
+      "start": 822.4,
+      "end": 827,
+      "speaker": "D",
+      "text": "Let's see, share screen here. All right, are you seeing this large map?"
+    },
+    {
+      "start": 827.8,
+      "end": 842.1,
+      "speaker": "K",
+      "text": "The map shows all the parcels in Denver with a bunch of different variables users can tweak: height restrictions, setbacks from the street, permitting fees, local economic conditions, and yes, parking requirements."
+    },
+    {
+      "start": 842.5,
+      "end": 853.1,
+      "speaker": "D",
+      "text": "What we built with our tool here is essentially kind of a sandbox for policymakers to get a sense about how these changing policy conditions impact the likelihood of new housing being built."
+    },
+    {
+      "start": 853.6,
+      "end": 895.5,
+      "speaker": "K",
+      "text": "So far, the simulator covers more than 20 cities in California, Arizona, and Virginia, with more in the works. In Denver, it's too soon to know how the parking change will play out in the real world. Chavez-Norgaard says he's heard from developers who still plan to build parking, because residents and often the investors backing a project want it. But as an example of the potential impact, he takes me to a housing project built a few years ago in the nearby Five Points neighborhood. Before Denver abolished parking minimums for all buildings, the city had relaxed requirements for affordable housing projects like this one."
+    },
+    {
+      "start": 896,
+      "end": 903.4,
+      "speaker": "D",
+      "text": "You know, one thing you'll notice about this The problem with this parcel is that it's sort of this oddly shaped, small triangular lot."
+    },
+    {
+      "start": 904.1,
+      "end": 931.3,
+      "speaker": "K",
+      "text": "Which made it difficult and expensive to provide parking. There's a light rail stop just steps away, but as we're talking, a resident of the building comes home after a day of work and points out that the city suspended light rail service for maintenance until next year. And that's something the simulator can't really predict. Quentin Thornton, who has an injured leg, says he now has to catch the bus a block and a half away."
+    },
+    {
+      "start": 931.7,
+      "end": 935.9,
+      "speaker": "B",
+      "text": "Because I have a car, but I don't park it over here because it's not really enough sometimes."
+    },
+    {
+      "start": 936.8,
+      "end": 944.9,
+      "speaker": "K",
+      "text": "He's hoping they turn the small vacant lot next door into parking. In Denver, I'm Amy Scott for Marketplace."
+    },
+    {
+      "start": 961.8,
+      "end": 1009.7,
+      "speaker": "B",
+      "text": "Coming up, he likes fishing and I like fishing and you like fishing and you like fishing. First though, let's do the numbers. Dow Industrials up 295 today, just shy of 0.6%, 53,061. The Nasdaq added 118 points, just over 0.4%. Closed at 26,217. The S&P 500 up 35 points, just shy of 0.5%, 7,666. Those layoffs at Uber, the middle management jobs Stephanie Hughes was telling us about, they helped that ride-hailing service ascend 1.6% today. Rival Lyft accelerated almost 3.5%. Bonds rose. Yield on the 10-year T-note down 4.78%. For the record, that is 1/100th of a percentage point from yesterday. You're listening to Marketplace."
+    },
+    {
+      "start": 1013.3,
+      "end": 1045.7,
+      "speaker": "I",
+      "text": "Running a business is hard enough, so why make it harder with a dozen different apps that don't talk to each other? Introducing Odoo, the only business software you'll ever need. It's an all-in-one, fully integrated platform that makes your work easier from CRM, accounting, inventory, e-commerce, and more. And the best part, Odoo replaces multiple expensive platforms for a fraction of the cost. This is why over thousands of businesses have made the switch. So why not you? Try Odoo for free at odoo.com. That's O-D-O-O dot com. This is Marketplace."
+    },
+    {
+      "start": 1046.1,
+      "end": 1073.2,
+      "speaker": "B",
+      "text": "I'm Kai Ryssdal. There is, as you might have heard, a loneliness epidemic in this country. Male loneliness specifically. There have been articles and op-eds and podcasts and academic studies all about the idea that men have trouble maintaining relationships. I saw an article in Slate the other day, though, suggesting the loneliness gender divide might not be as relevant as the loneliness economic divide. Nick Keppler had the byline on that piece. Nick, thanks for coming on the program."
+    },
+    {
+      "start": 1073.7,
+      "end": 1074.5,
+      "speaker": "F",
+      "text": "Oh, thank you for having me."
+    },
+    {
+      "start": 1075,
+      "end": 1086.7,
+      "speaker": "B",
+      "text": "Just to be really clear here, the common perception is that the loneliness thing is a male thing, but in reality, you're the guy who crunched the data. It's not gender so much as it is socioeconomic status, right?"
+    },
+    {
+      "start": 1087.7,
+      "end": 1138.2,
+      "speaker": "F",
+      "text": "That's correct. And all the big signifiers of loneliness, men and women are about equal. If you go down into some of the data, There are some signs that men are a bit more pessimistic about being lonely, but in the really big measurements— do you feel lonely? How many close friends do you have? How much time do you spend alone?— there's not much of a gender difference. But socioeconomic status is a good predictor of loneliness. In fact, you can even keep track of how much income will buy you a few extra hours with other people per day. In a really big survey, people making less than $25,000 a year spent about 6.5 hours alone, and people who are earning $100,000 or more spent about 3 hours alone."
+    },
+    {
+      "start": 1139.3,
+      "end": 1154.4,
+      "speaker": "B",
+      "text": "That socioeconomic status is, you know, we all sort of know empirically what that means, but it literally drives the choices that people make to be alone. I want you to tell me about this guy Dan that you talk about in this piece."
+    },
+    {
+      "start": 1155.1,
+      "end": 1199.8,
+      "speaker": "F",
+      "text": "Sure. Dan is a guy from Massachusetts who I talked to. Uh, he was in his early 20s when the pandemic started, and then his friend group sort of tapered off. He's going to community college. He's still doing some online courses, but most of his income comes from being a home health aide. It's a growing profession for people who don't have a college degree. And it's one of many low-income professions that are now very solitary. You don't really have any coworkers. That's the same for people who do Uber or Lyft or DoorDash. A lot of people like Dan are finding themselves in jobs that just don't allow coworkers like you might have had if you worked the assembly line a few decades ago."
+    },
+    {
+      "start": 1199.8,
+      "end": 1211.9,
+      "speaker": "B",
+      "text": "Right. Right. You mentioned college. College also is a supercharger of relationships. And those who in this economy who cannot or don't go to college age, they then suffer accordingly. Yeah."
+    },
+    {
+      "start": 1212.2,
+      "end": 1244.5,
+      "speaker": "F",
+      "text": "One researcher did describe it as a supercharger. You go there and you meet friends who last for a very long time. Also, the kind of jobs that do require a college degree, um, accountants, journalists, researchers, just those kind of white-collar jobs. And those you're expected to network, you're expected to form relationships with other people in the profession. I know most of my good friends are journalists or former journalists, and that's just not as true for people working lower-income jobs."
+    },
+    {
+      "start": 1245.1,
+      "end": 1259.1,
+      "speaker": "B",
+      "text": "You know, you mentioned this in the piece, we are 20, what, 5, 6 years out now from Robert Putnam and that book he wrote, Bowling Alone, which it doesn't seem like it's gotten any better."
+    },
+    {
+      "start": 1259.8,
+      "end": 1280.8,
+      "speaker": "F",
+      "text": "Yeah, by every measurement of loneliness, things have gotten worse since that book came out in 2000. The total population who said they do not have a single close friend in one of the larger studies quadrupled, and those who counted 10 or more close friends shrank from 33% to 13%. And this is just in the last few decades."
+    },
+    {
+      "start": 1282.6,
+      "end": 1299.9,
+      "speaker": "B",
+      "text": "Is economic mobility the only answer here, right? That, that the, those at the top end of the income spectrum are, are okay. Those at the lower end aren't, and, and we have to, we have to get them up somehow to make this social challenge get better."
+    },
+    {
+      "start": 1300.5,
+      "end": 1339.9,
+      "speaker": "F",
+      "text": "So some of the researchers I spoke to talked about reinvesting in those social connectors that don't cost anything, you know, civic groups, volunteer organizations. I'm always hesitant to recommend a change in personal behavior, but something that people who are feeling lonely should know is that ironically, they're part of a very large group. A lot of people feel lonely and there's social reasons for that. So the people who are thinking about reaching out, who are thinking it must be them, it might not be. It's just the way society is structured. So don't think you're weird or there's something about you that's keeping people away."
+    },
+    {
+      "start": 1341.3,
+      "end": 1375.8,
+      "speaker": "B",
+      "text": "Nick Keppler, his piece in Slate, um, it's a good one. It's depressing, but it's a good one. It's called America's Loneliness Trap. Nick, thanks a lot. I appreciate your time. Thank you, Kai. Hey, did you hear the one about the economist who went fishing? Dipnetting, technically. Big nets on the end of long handles. Here's Ava White from Alaska Public Media."
+    },
+    {
+      "start": 1376.4,
+      "end": 1382.2,
+      "speaker": "J",
+      "text": "Kevin Barry is chest-high in the Kenai River when a salmon jerks his dip net. There we go."
+    },
+    {
+      "start": 1384.4,
+      "end": 1385.1,
+      "speaker": "K",
+      "text": "On the beach, boys."
+    },
+    {
+      "start": 1385.8,
+      "end": 1392.5,
+      "speaker": "J",
+      "text": "As Barry drags a hoop-shaped net connected to a long pole, his sons, August and Milton, grab a thick piece of driftwood."
+    },
+    {
+      "start": 1394,
+      "end": 1396.2,
+      "speaker": "E",
+      "text": "Give it a bop right on the head, hard."
+    },
+    {
+      "start": 1397.6,
+      "end": 1397.7,
+      "speaker": "G",
+      "text": "See?"
+    },
+    {
+      "start": 1398.4,
+      "end": 1399.4,
+      "speaker": "E",
+      "text": "Then you put your finger in the gills."
+    },
+    {
+      "start": 1400.9,
+      "end": 1404.3,
+      "speaker": "J",
+      "text": "You rip them out. It's the first fish of the day."
+    },
+    {
+      "start": 1404.9,
+      "end": 1406.8,
+      "speaker": "B",
+      "text": "You guys stay with that. I'll be back with another one."
+    },
+    {
+      "start": 1407.6,
+      "end": 1428.7,
+      "speaker": "J",
+      "text": "In addition to being a dipnetter, Barry is chair of the economics department at the University of Alaska Anchorage. He's currently working to understand how much a dipnetting trip is worth to Alaskans. But how do you calculate that? Barry says you can look at the cost of travel along with what people gave up to make it happen, like taking time off of work or forgoing another summer activity."
+    },
+    {
+      "start": 1429.4,
+      "end": 1445.7,
+      "speaker": "G",
+      "text": "I think every Alaskan out there has the same experience of panicking because summer is getting close to over, and we all have like 4 different things on any given day we'd like to do. And so all of those things are real costs, and we can think about them as an opportunity cost of going to dipnet."
+    },
+    {
+      "start": 1446.2,
+      "end": 1479.4,
+      "speaker": "J",
+      "text": "Dipnetting in Alaska typically wraps up in early August. It's only open to residents, so it sort of feels like a holiday only Alaskans can celebrate. Berry's research is a work in progress, and he's not ready to share exact numbers yet, but he estimates that dipnetting on the Kenai River is worth a lot to Alaskans, several hundred dollars more to a household than what they actually spend on it each summer. With gear, time, and travel costs factored in, Berry says buying salmon would be about the same cost as catching it yourself. The real value, he says, is in the experience."
+    },
+    {
+      "start": 1480.1,
+      "end": 1493.5,
+      "speaker": "G",
+      "text": "There's all sorts of action of people pulling them in, processing them, watching their kids, trying to take care of their camp. And everything else. It's just such a chaotic scene that for me it's like a very Alaskan experience. I tie it very much to the place here."
+    },
+    {
+      "start": 1496.6,
+      "end": 1507.9,
+      "speaker": "J",
+      "text": "Richard Lesko feels the same. He drove more than 150 miles to fish today and says being surrounded by other Alaskans makes the trek worthwhile. Plus, he says doing it yourself has added benefits."
+    },
+    {
+      "start": 1508.8,
+      "end": 1516.1,
+      "speaker": "B",
+      "text": "I know how it's processed. I know when it's caught. I know it's bled right after it's I know how it's cleaned and everything, you know."
+    },
+    {
+      "start": 1516.9,
+      "end": 1531.9,
+      "speaker": "J",
+      "text": "Lusko has caught 10 salmon so far. It's a fraction of the 25 each permit holder can catch, plus an extra 10 for each household member. Meanwhile, Barry only caught 2 fish during our 3-hour trip. Still, his sons say they're having a blast."
+    },
+    {
+      "start": 1532.6,
+      "end": 1536.5,
+      "speaker": "K",
+      "text": "He's the funnest dad ever. He likes fishing and I like fishing."
+    },
+    {
+      "start": 1537.3,
+      "end": 1539.5,
+      "speaker": "J",
+      "text": "But Barry says it's not about the fish."
+    },
+    {
+      "start": 1541,
+      "end": 1555.7,
+      "speaker": "G",
+      "text": "It was my middle son's first time. Get to show him how we catch fish and how you start to process them is incredibly valuable. So when we talk about this surplus, it's baking in all those memories, that entire experience together, right? It's not just the fish you walk away with."
+    },
+    {
+      "start": 1556.4,
+      "end": 1566,
+      "speaker": "J",
+      "text": "Dipnetting the Kenai River is a uniquely Alaskan experience, and Barry says it's one he hopes his boys remember. In Kenai, Alaska, I'm Ava White for Marketplace."
+    },
+    {
+      "start": 1580.8,
+      "end": 1632,
+      "speaker": "B",
+      "text": "This final note on the way out today, in which capitalism sometimes provides things we maybe don't need. I saw this in Bloomberg that Cauchy, the not uncontroversial betting platform, is going to ask regulators for permission to offer oil futures contracts, specifically Futures contracts that never expire and that trade 24/7. Think for just a second about all the oil volatility we've seen since the president's war started, and you can see how this might turn out, you know, poorly. Our media production team includes Brian Allison, John Fokey, Montana Johnson, Drew Jostad, Gary O'Keefe, and Charlton Thorpe. Alex Simpson is the manager of media production, and I'm Kai Ryssdal. We will see you next week. See you tomorrow, everybody. This is APM."
+    },
+    {
+      "start": 1634.6,
+      "end": 1665.4,
+      "speaker": "I",
+      "text": "I'm Lee Hawkins, host of Must Be the Money, a podcast from Marketplace. Each week I speak with inspiring entrepreneurs and business leaders about their lived experiences, and they share tangible insights to help guide your path to success. Hear from icons like Angelica Nwandu, Van Lathan, Angela Yee, Matt Barnes, and more about how to seize opportunity, manage money, and meet challenges with resilience. Listen to Must Be the Money wherever you get your podcasts."
+    }
+  ]
+}

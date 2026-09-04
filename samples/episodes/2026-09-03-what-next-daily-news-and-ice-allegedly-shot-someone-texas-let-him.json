@@ -1,0 +1,520 @@
+{
+  "episode": {
+    "id": "88e9f36ab850c1054a88104ceb8cbd48bedb913871df88ab5bf400c5c82363a7",
+    "podcastTitle": "What Next | Daily News and Analysis",
+    "feedUrl": "https://my.slate.com/podcasts/feeds/what-next/",
+    "guid": "1000787512168",
+    "title": "ICE Allegedly Shot Someone. Texas Let Him Go",
+    "description": "<p>Extraditing someone who was arrested in one state for a crime committed in another state is an extremely routine process—or at least it was. But an ICE officer charged in a shooting in Minnesota was arrested in Texas and, rather than being sent to Minnesota for trial, he was simply released 90 days later.</p><br><p>Guest: <a href=\"https://www.theatlantic.com/author/quinta-jurecic/\" rel=\"noopener noreferrer\" target=\"_blank\">Quinta Jurecic</a>, staff writer at The Atlantic.</p><br><p>Want more What Next? Subscribe to Slate Plus to access ad-free listening to the whole What Next family and across all your favorite Slate podcasts. Subscribe today on Apple Podcasts by clicking “Try Free” at the top of our show page. Sign up now at<a href=\"http://slate.com/whatnextplus\" rel=\"noopener noreferrer\" target=\"_blank\"> slate.com/whatnextplus</a> to get access wherever you listen.</p><br><p>Podcast production by Evan Campbell, Madeline Thames-Ducharme and Patrick Fort.</p><br><p>Paige Osburn is the senior supervising producer of What Next and What Next TBD.</p><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>",
+    "pubDate": "2026-09-03T20:34:24.000Z",
+    "duration": 1817,
+    "audioUrl": "https://sphinx.acast.com/p/open/s/6961268923ce58f14615840d/a/whatnext-podcasts/e/6a989049809ae7c2f4f744c0/media.mp3",
+    "artworkUrl": "https://assets.pippa.io/shows/6961268923ce58f14615840d/1788383275947-3fd861d8-8116-4ed0-8cab-1c440f115de1.jpeg"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 2220,
+    "utteranceCount": 70
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:24.795Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "The ICE Shooting Nobody Stopped",
+      "description": "Host Mary Harris sets up the case of ICE agent Christian Castro, who allegedly shot a fleeing immigrant in Minnesota and has since evaded accountability.",
+      "startTime": 0.192,
+      "endTime": 146.358,
+      "anchorPhrase": "every next move starts with being prepared. because tomorrow brings opportunity, and opportunity brings new"
+    },
+    {
+      "index": 1,
+      "title": "What the Security Footage Revealed",
+      "description": "City surveillance video directly contradicted the federal government's claim that Castro was attacked with a snow shovel, showing a very different and much quicker encounter.",
+      "startTime": 146.358,
+      "endTime": 529.729,
+      "anchorPhrase": "quinta juresic from over at the atlantic, she's been thinking about all this too. so"
+    },
+    {
+      "index": 2,
+      "title": "A License Plate, a Chase, a Bullet",
+      "description": "Quinta Jurecic reconstructs the night of the shooting, from ICE running a license plate to Castro firing a shot that hit a man in the leg and lodged near a child's playpen.",
+      "startTime": 529.729,
+      "endTime": 811.252,
+      "anchorPhrase": "thing. so what happens? so this guy alfredo aljorna he's just driving around minneapolis city"
+    },
+    {
+      "index": 3,
+      "title": "Texas Rangers, Then Nothing",
+      "description": "Castro is arrested in Texas and extradition paperwork lands on Greg Abbott's desk — but instead of signing, Abbott simply runs out the clock.",
+      "startTime": 811.252,
+      "endTime": 1147.094,
+      "anchorPhrase": "so what happens is that, as you say, castro is apprehended in texas by texas"
+    },
+    {
+      "index": 4,
+      "title": "Ten Miles From the Border",
+      "description": "Jail recordings reveal Castro discussing a possible move to Mexico, raising serious flight risk concerns as the 90-day Texas detention limit expires.",
+      "startTime": 1147.094,
+      "endTime": 1590.398,
+      "anchorPhrase": "be a fugitive again. he might be interested in that. right. right. as you say,"
+    },
+    {
+      "index": 5,
+      "title": "Vertical vs. Horizontal Federalism",
+      "description": "The refusal to extradite Castro represents a new and dangerous kind of state resistance — not just defying the federal government, but breaking the handshake agreements between states.",
+      "startTime": 1590.398,
+      "endTime": 1759.815,
+      "anchorPhrase": "let's talk about the legal implications of what just happened here, because as you said,"
+    },
+    {
+      "index": 6,
+      "title": "The Slow Unraveling of State Trust",
+      "description": "From abortion doctors to ICE agents, red and blue states are increasingly refusing to cooperate, threatening the basic mechanics of American governance.",
+      "startTime": 1759.815,
+      "endTime": 1907.266,
+      "anchorPhrase": "directions. and, like, both sides are pushing and pulling. and i look at what's happening"
+    },
+    {
+      "index": 7,
+      "title": "What Happens If He Flees?",
+      "description": "If Castro crosses into Mexico, finding him would require Trump's Justice Department and DHS to act — a deeply uncertain political proposition.",
+      "startTime": 1907.266,
+      "endTime": 2088.52,
+      "anchorPhrase": "what happens? so i will say that abbott's press office told me in their statement"
+    },
+    {
+      "index": 8,
+      "title": "A Federal Indictment Changes Things",
+      "description": "One day after the interview was recorded, a federal grand jury indicted Castro for lying about the shooting, potentially allowing him to be detained once again.",
+      "startTime": 2088.52,
+      "endTime": 2220,
+      "anchorPhrase": "quinta jurecic is a staff writer over at the atlantic. one last update for you:"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.2,
+      "end": 25.5,
+      "speaker": "A",
+      "text": "Every next move starts with being prepared. Because tomorrow brings opportunity, and opportunity brings new risks. Meet your next project prepared, with experienced professionals who know your industry. Meet new markets prepared, with one of the industry's largest global networks. Meet change prepared, with a dedicated team helping businesses move forward with confidence. Meet tomorrow prepared, with Zurich Insurance."
+    },
+    {
+      "start": 28.3,
+      "end": 78.1,
+      "speaker": "B",
+      "text": "This episode is sponsored by HeyGen. HeyGen turns a script, photo, or presentation into a polished video of you in minutes, no camera or crew required. It's how real estate agents, financial advisors, attorneys, and creators show up consistently on every feed and build a brand that brings in clients without spending their whole week making content. Rated the number 1 AI video platform for small businesses on G2 with the most realistic AI avatars in the industry. Trusted by a community of over 30 million people and 85% of the Fortune 100, and built to work in over 175 languages, so you can reach your audience in theirs. Here's the wild part: record yourself for just 15 seconds, and HeyGen builds an AI avatar that makes professional videos for you on demand, so you can post everywhere your audience is, as yourself, without filming every time. Your first 3 videos are free at heygen.com/pod. That's H-E-Y-G-E-N.com/pod."
+    },
+    {
+      "start": 85.8,
+      "end": 134,
+      "speaker": "C",
+      "text": "Heads up here at the top, the story you're about to hear is moving quickly. By the time you listen, things may have changed. I've been thinking a lot recently about what it means to be caught dead to rights. Like, when does evidence become irrefutable? And how much does irrefutable evidence matter? Matter at the moment. I've been thinking about all this especially when it comes to a case playing out in Texas and Minnesota. It's the case of Christian Castro. So Quinta, how sure are we that back in January, an ICE agent named Christian Castro shot a fleeing immigrant in the leg?"
+    },
+    {
+      "start": 134,
+      "end": 139.2,
+      "speaker": "D",
+      "text": "We are pretty sure. I think it's fair to say."
+    },
+    {
+      "start": 140.1,
+      "end": 142.1,
+      "speaker": "C",
+      "text": "Yeah, how sure are we that anything's gonna be done about it?"
+    },
+    {
+      "start": 142.8,
+      "end": 145.1,
+      "speaker": "D",
+      "text": "That is a much bigger question mark."
+    },
+    {
+      "start": 146.4,
+      "end": 173.8,
+      "speaker": "C",
+      "text": "Quinta Juresic from over at The Atlantic, she's been thinking about all this too. So we're gonna take a moment and tell you Christian Castro's story. In January, Castro was stationed in Minnesota, part of Operation Metro Surge. He was helping to pull over a car. He suspected the driver was in the country illegally. And then the man inside tried to flee. Initially, there was some dispute about what happened next."
+    },
+    {
+      "start": 174.8,
+      "end": 182.3,
+      "speaker": "D",
+      "text": "Federal agents under attack overnight. Protests did turn violent in Minneapolis. New video shows all the chaos."
+    },
+    {
+      "start": 182.3,
+      "end": 187,
+      "speaker": "C",
+      "text": "At first, the government claimed Christian Castro had been attacked."
+    },
+    {
+      "start": 187.2,
+      "end": 196.4,
+      "speaker": "D",
+      "text": "This has come after officials say an agent was forced to shoot and defend himself when he was ambushed Trying to arrest an illegal alien. Thank you for joining."
+    },
+    {
+      "start": 196.4,
+      "end": 225.2,
+      "speaker": "C",
+      "text": "Officers detained two men, Julio Sosa Celis and Alfredo Aljorna. Alfredo was the man in the car that night. Julio was his roommate, the guy who'd been shot. The Department of Homeland Security said Christian Castro had been attacked with a snow shovel and a broom for 3 minutes. They said he fired because he was defending himself. Later, city security video came out, and it showed something pretty different."
+    },
+    {
+      "start": 226.2,
+      "end": 245.9,
+      "speaker": "D",
+      "text": "So what the, the video footage showed is, you know, these two cars pull up in front of Aljona Sosa Celis's house. The two men run out of the car. Um, there's some kind of interaction with a third person chasing them who seems to be Castro, but there's definitely no attack with a shov— with a snow shovel."
+    },
+    {
+      "start": 246.3,
+      "end": 249.8,
+      "speaker": "C",
+      "text": "Someone was shoveling, and then he seems to drop the shovel and, like, book it."
+    },
+    {
+      "start": 250.3,
+      "end": 252.2,
+      "speaker": "D",
+      "text": "Nobody gets hit with a shovel in the video."
+    },
+    {
+      "start": 252.5,
+      "end": 252.9,
+      "speaker": "C",
+      "text": "Yeah."
+    },
+    {
+      "start": 253.1,
+      "end": 279.4,
+      "speaker": "D",
+      "text": "There is this some kind of long object that gets thrown at some point. I believe Ahorna's lawyers have said it was a broom. And then the men run into the house, and Castro fires. So the version of this—the events that we see from that video is very, very different, especially because that scuffle takes place very, very quickly. It's really, like, a couple of seconds before they run into the house."
+    },
+    {
+      "start": 279.4,
+      "end": 299.1,
+      "speaker": "C",
+      "text": "I feel like this is such a familiar story now from the federal government. And the fact that video came out that seemed to disprove the government's initial story, it just raises this question of accountability, right? Like, will there be accountability for the officers involved here?"
+    },
+    {
+      "start": 299.8,
+      "end": 300.9,
+      "speaker": "D",
+      "text": "It's a really tough question."
+    },
+    {
+      "start": 302,
+      "end": 328.3,
+      "speaker": "C",
+      "text": "The state of Minnesota wants there to be accountability in this case. They filed charges against Christian Castro back in May. But Castro's bosses, they'd already sent him back to Texas. And so far, Texas has refused to send him back. 8 months after this confrontation, does anyone know where Christian Castro even is at the moment?"
+    },
+    {
+      "start": 328.5,
+      "end": 350.9,
+      "speaker": "D",
+      "text": "Right now, I don't think anybody We don't know where he is. He's evaded us. Until last week, he had been in a jail in Texas, in South Texas. But he walked free, and I have not been able to find anything that indicates that anyone is keeping tabs on him. So he may be in Texas, but we don't know."
+    },
+    {
+      "start": 353,
+      "end": 371.4,
+      "speaker": "C",
+      "text": "Today on the show: why the decision to shield this ICE agent from accountability is so troubling for the victims here and for the rest of us. I'm Mary Harris. You're listening to What Next. Stick around."
+    },
+    {
+      "start": 378.3,
+      "end": 403.5,
+      "speaker": "A",
+      "text": "Every next move starts with being prepared because tomorrow brings opportunity and opportunity brings new risks. Meet your next project prepared with experienced professionals Who know your industry. Meet new markets prepared with one of the industry's largest global networks. Meet change prepared with a dedicated team helping businesses move forward with confidence. Meet tomorrow prepared with Zurich Insurance."
+    },
+    {
+      "start": 406.5,
+      "end": 474,
+      "speaker": "E",
+      "text": "Hey, it's Paige DeSorbo from Giggly Squad. Everyone is always looking for a new way to make some extra cash, but sometimes the easiest place to start is your own closet with a little help from Depop. Think about how many clothes you have that you love but you just don't wear anymore. On Depop, it's quick easy to list those pieces. There's no selling fees, and suddenly those clothes have a chance to find someone who actually wants them. And the best part? You're making room for whatever you're into next. Make money on Depop with no selling fees and find what you want for less. This message is brought to you by Depop. Think of a toilet as just an everyday object. Your entire perspective shifts the moment you experience a Kohler Smart Toilet. Design changes everything, transforming a basic routine into something extraordinary. With standout aesthetics and intuitive intuitive controls, these are functional works of art. Stunning design that never sacrifices performance. Enjoy customizable features for elevated comfort and convenience. It's more than a fixture, it's a cleaner routine and a more refined space. Experience the difference of Kohler Smart Toilets. Find more at Kohler.com."
+    },
+    {
+      "start": 479.7,
+      "end": 535.3,
+      "speaker": "C",
+      "text": "I wanna go back to January 2026, Operation Metro Surge, because the story of what happened the night that Christian Castro allegedly fired this shot, which both hit a man in the leg and lodged in a child's playpen, which is, like, super alarming when you just say it out loud, it's a story that I think my listeners will be familiar with, right? Minneapolis, officers are driving around running license plates, run a license plate of someone and say, \"Ah, that pings as someone who maybe we should be pursuing,\" and begin pursuing. What happens then? Because it's sort of—it takes this very familiar path of, like, they're tracking a license plate and then they—eventually they realize the person—like, that's not the person driving the car, but they're still pursuing kind of thing. So what happens? So this guy Alfredo Aljorna He's just driving around Minneapolis city streets?"
+    },
+    {
+      "start": 535.3,
+      "end": 603.3,
+      "speaker": "D",
+      "text": "He is driving in Minneapolis. The ICE runs the plate on his car and discovers the car is registered to somebody who they believe is— should not be in the United States. So they start chasing Ahorna. He drives home. You can see on the surveillance footage that was later released what happens is that the car pulls up in front of Ahorna's house. One of his housemates, Julio Sosa Celis, is standing there. Ahorna tries to run into the house. Castro follows him. What Castro says happened is that Castro was attacked with a broom and with a snow shovel. Hmm. What the video footage seems to show is there's no snow shovel. There may be a broom, but it doesn't seem like he— Castro was attacked with it. Ahorna and Sosa Celis run into the house, close the door, and Castro fires the shot, which then hits Sosa Celis in the leg. And lodges in a wall inside the house near a playpen where a child living in the house would usually play."
+    },
+    {
+      "start": 603.3,
+      "end": 628.1,
+      "speaker": "C",
+      "text": "Yikes. So what follows is, like, this weeks-long process of figuring out exactly what actually did happen, partially using video footage. In that time that it took to kind of figure out who was saying what and what was true, What happened to Christian Castro, the alleged shooter here, the ICE agent? Castro leaves the state."
+    },
+    {
+      "start": 629.2,
+      "end": 650.7,
+      "speaker": "D",
+      "text": "We have documents now that were released as part of a lawsuit that shortly after the shooting, Castro's boss at ICE says, \"Hey, we know that you've been assigned to Minnesota for this immigration surge, Operation Metro Surge. We want you to go back to your home office in South Texas.\" any reasoning for that?"
+    },
+    {
+      "start": 650.8,
+      "end": 654.6,
+      "speaker": "C",
+      "text": "Like, you fired your weapon while on duty or anything?"
+    },
+    {
+      "start": 655.8,
+      "end": 686.9,
+      "speaker": "D",
+      "text": "So what the government has said in this court filing is that Castro was directed to return to Texas because of—and I'm quoting here—\"concerns for Dio Castro's\"—that's his title—\"Dio Castro's personal safety and the safety of other ICE officers in Minnesota.\" Huh. Essentially, they're saying, \"Well, we were worried that, you know, he was gonna be targeted, he was gonna be doxxed, people were gonna start following him around.\" protesting, and so we decided that he should return to his home ICE office in Texas."
+    },
+    {
+      "start": 687.7,
+      "end": 708.6,
+      "speaker": "C",
+      "text": "Huh. Okay, so he returns to Texas. Meanwhile, like, I remember from this time, Minneapolis prosecutors were basically asking anyone with information to come forward to them, like, \"We will investigate.\" So are they beginning to put together their own case here? Like, are they thinking about this as something they would like to prosecute?"
+    },
+    {
+      "start": 709.3,
+      "end": 747.9,
+      "speaker": "D",
+      "text": "Yeah, so what happens is that, you know, there, there's a sort of prolonged period of investigation by prosecutors in Hennepin County, where Minneapolis is located, and by the Minnesota Bureau of Criminal Apprehension, which is sort of their state investigative agency. That is a process that takes a few months, in part because the federal government has been refusing to hand over information in these cases. So both the Christian Castro case and then also in the shootings of Renee Good and Alex Petty by officers from the Department of Homeland Security. Usually the federal government is happy to share information. This time they're not."
+    },
+    {
+      "start": 748.7,
+      "end": 754.7,
+      "speaker": "C",
+      "text": "What made this case something they could prosecute versus, say, what happened with Alex Petty and Renee Good? I—"
+    },
+    {
+      "start": 754.8,
+      "end": 785,
+      "speaker": "D",
+      "text": "so I spoke to Hennepin County Attorney Mary Moriarty about this, and what she said is basically it's a question of how much information was immediately available to the state of Minnesota. In the Renee Good and Alex Petty cases, the government— the federal government, the federal government kind of swept in and blocked off state investigators from accessing the evidence that they would need. And that didn't happen really in the Christian Castro case. There was just— there was more available to them that they could use to build a case."
+    },
+    {
+      "start": 785,
+      "end": 810.5,
+      "speaker": "C",
+      "text": "Okay, so in May, Minneapolis prosecutors file charges against Castro. He's in Texas. And my understanding is that at first, things seem to be kind of normal. Like, Texas Rangers arrest Castro. So it seems like, okay, maybe this guy's gonna head back to Minneapolis and sort of face some sort of process for what happened there. But then when did things get weird?"
+    },
+    {
+      "start": 810.5,
+      "end": 869.7,
+      "speaker": "D",
+      "text": "So what happens is that, as you say, Castro is apprehended in Texas by Texas Rangers. Everything's working smoothly, right? This is a sort of the normal way that things work if, you know, You commit a crime in State A and then go to State B, and Governor A is sort of asking for help to get you back to State A. Texas Rangers are cooperating. Texas and Minnesota cooperate on this kind of thing all the time, right? Castro is apprehended. He is held in a jail in the Rio Grande Valley, close to the US-Mexico border. And the process is moving forward. I spoke to Moriarty in June, And she said, \"You know, look, like, we don't have Castro yet, but the paperwork is on, you know, Texas Governor Greg Abbott's desk.\" So literally all it would take to have him be extradited is for the governor to just be like, \"Yeah, sure.\" Yep."
+    },
+    {
+      "start": 869.8,
+      "end": 884.9,
+      "speaker": "C",
+      "text": "That's right. Huh. And is it usual at all for there to be problems with an extradition? Like, if a state comes to another state and says, \"Hey, we want to accuse this person of whatever. We have evidence,\" how often is it that those asks are being rejected?"
+    },
+    {
+      "start": 885.9,
+      "end": 927.8,
+      "speaker": "D",
+      "text": "It's extremely unusual for it to be rejected. States handle these kinds of interstate extraditions constantly, all the time, right? I mean, if you imagine, like, it's a big country, people cross state borders, you know, there's— sometimes you end up in one state if you did something wrong in another state. It is extremely regular for this to happen. It happens between red and blue states. It's basically just a kind of of normal, boring, super ministerial action that takes place. And I don't think that, you know, if you subtract the kind of political valence from all of this, I don't think there's any reason to think that Castro's case would have been anything different."
+    },
+    {
+      "start": 928.5,
+      "end": 934.8,
+      "speaker": "C",
+      "text": "Yeah. I mean, why are you so confident in that? I know that it's like, it all goes through Greg Abbott. Was he explaining his thinking here?"
+    },
+    {
+      "start": 936,
+      "end": 1000.1,
+      "speaker": "D",
+      "text": "So the reason is that Abbott actually legally has basically no leeway. There is a provision of the Constitution, the extradition clause, that requires that states honor these extradition requests for fugitives, essentially. If I rob a bank in State A, go to State B, State Governor B has a legal obligation under the Constitution and under some statutes passed by Congress to hand me back to Governor A. There is just very, very little wiggle room here, particularly after a Supreme Court precedent in the 1980s that basically said you don't get to make a choice here, right? This is like, you do need the governor's signature to move forward, but it's not a choice that the governor is making. It's something that he has to do. And so for that reason, I think people were relatively confident that Abbott was gonna sign this paperwork because he didn't have an option to not sign the paperwork. But instead what happened is that he stalled."
+    },
+    {
+      "start": 1000.6,
+      "end": 1015.5,
+      "speaker": "C",
+      "text": "Yeah, he did this very lawyerly trick, which he was like, \"Well, he's not a fugitive, I don't think, because he didn't flee. He was told to leave by his job, and that's not fugitive behavior.\" Right."
+    },
+    {
+      "start": 1015.5,
+      "end": 1038.3,
+      "speaker": "D",
+      "text": "And that sort of sounds like it might be convincing, but there's actually very little to it. And technically, Abbott isn't even saying, \"Oh, he isn't a fugitive.\" he's saying, \"Oh, he might not be a fugitive, and I need more time to look into this legal question and determine whether he meets the criteria, so I can't weigh in yet.\" But there's also, like, a 90-day clock in Texas, right?"
+    },
+    {
+      "start": 1038.4,
+      "end": 1044.9,
+      "speaker": "C",
+      "text": "Exactly. It's like you can only hold people for 3 months. So you can ponder something, but only for so long."
+    },
+    {
+      "start": 1045.4,
+      "end": 1077.8,
+      "speaker": "D",
+      "text": "So, right. So the problem is that Abbott ran out the clock. So Texas, my understanding is, is actually— it's somewhat unusual for a state to have such a hard cutoff. In these kinds of extradition detention laws. But Texas does say you can be detained while an extradition— interstate extradition request is pending for 90 days, and then they're gonna let you go. And so Abbott essentially ran out those 90 days twiddling his fingers with no explanation really. And then at the very end of that 90 days, Minnesota sued saying, you know—"
+    },
+    {
+      "start": 1078,
+      "end": 1078.7,
+      "speaker": "C",
+      "text": "Yeah, we want our guy."
+    },
+    {
+      "start": 1079.3,
+      "end": 1128,
+      "speaker": "D",
+      "text": "Yeah. And then at that point, Abbott files this court filing saying, as you say, well, I don't know, Oh, he might not be a fugitive. I need to think about it. The problem with that argument is that there is actually no ambiguity about what fugitive means in this context. And it doesn't have anything to do with why you left. The point is that you left, you crossed the border. And there is just nothing in the case law. One expert I spoke to, Ethan Lowens, who has studied this, said that there's just very little ambiguity here. And so Abbott is really, I think what you're seeing is that the governor's office was really just trying to come up with anything that they could to, you know, have an excuse for why they couldn't yet hand Castro over."
+    },
+    {
+      "start": 1128.7,
+      "end": 1147,
+      "speaker": "C",
+      "text": "Well, and meanwhile, it seems like Castro is talking to a girlfriend in Mexico about, like, \"Hey, I'd love to come move there.\" And we know this because, of course, phone calls in jail are recorded. So it's like you have evidence that this guy, it's not just— he might want to to be a fugitive again."
+    },
+    {
+      "start": 1147.1,
+      "end": 1190.4,
+      "speaker": "D",
+      "text": "He might be interested in that. Right. Right. As you say, you know, there are filings from Minnesota in this case from Wellsy Abbott where they say, look, like, he's talking to this woman in Mexico. He's saying that he wants to go to Mexico. He is— the jail that he's in, if you look it up, it is 10 miles from the US-Mexico border. It's on the outskirts of Brownsville. So I think the legal term would be that he's a flight risk. And that there is very good reason to keep detaining him. The problem is that Abbott won't hand him over, and Texas can't detain him further. The sheriff of the jail where he's being held says, like, \"Look, like, I, you know, 90 days is up, right?"
+    },
+    {
+      "start": 1190.5,
+      "end": 1240.7,
+      "speaker": "C",
+      "text": "Like, I cannot legally keep holding him.\" Here's what I don't get. All of this had to legally go to a judge, right? And it's like, I can see a few things happening here. Like, first you have Greg Abbott, who's Texas governor, and I don't agree with what he's doing here, but it fits a pattern of behavior to me. Like, Greg Abbott, same person who under Biden was like, I'm gonna send my own National Guard to the border. And, you know, that was weird. And also the same guy who sent buses of migrants up to blue cities, you know, to kind of prove a point. So it's like, this like fits a pattern of behavior. ICE, I can understand why you would want to maybe not have a case against one of your agents. You know, that makes sense to me here. The person whose behavior doesn't make sense is the judge. Like, couldn't the judge have just said, like, \"No, sorry, we gotta send this person up north."
+    },
+    {
+      "start": 1241.2,
+      "end": 1282.5,
+      "speaker": "D",
+      "text": "Too bad, y'all.\" I think that your reaction is a reaction that a lot of people had. I saw a lot of frustration at the judge. I will say, so the— what the judge basically says, and this is Judge Fernando Rodriguez Jr., he says, look, there is just not very much I can do here. The Texas law says 90 days, it's 90 days. I can't make Texas keep holding him. I also can't force Abbott to do anything yet because he hasn't made a decision. If Abbott had said no, then maybe the judge could have said, well, you're denying this, but you don't, you can't actually do that, so I'm going to force you. Maybe that could have happened, right? We don't know."
+    },
+    {
+      "start": 1283.1,
+      "end": 1285.4,
+      "speaker": "C",
+      "text": "But not making a decision is a decision."
+    },
+    {
+      "start": 1286.2,
+      "end": 1337.9,
+      "speaker": "D",
+      "text": "Right. The problem— the problem is that I agree, like, that is clearly what happened here. But the judge is somewhat more constrained. And when I talked to Ethan Lowens, who's the fellow at the University of Pennsylvania who's looked into a lot of these extradition laws, what he said is, you know, the judge is just kind of constrained here because there's not a lot of case law. About this because governors usually work with one another in these instances. There's actually not any case where a court has had to decide, \"Do I have the power to force a governor to hand somebody over if he's stalling?\" And so if you're a district judge, that kind of puts you in a box because judges never want to be the first one to say, you know, \"I'm breaking new ground here.\" You know who's not afraid of, like, setting precedent?"
+    },
+    {
+      "start": 1338.3,
+      "end": 1349.8,
+      "speaker": "C",
+      "text": "Greg Abbott. Do you know what I mean? Like, that's the problem. When you have one person who's, like, you know, kind of bringing a knife to a gunfight, you're in trouble because Greg Abbott doesn't care."
+    },
+    {
+      "start": 1350.5,
+      "end": 1421.2,
+      "speaker": "D",
+      "text": "I think that's right. And I think what we see is that Abbott basically found a loophole that was created by this 90-day clock and augmented by the fact that, you know, Texas is a border state and Castro was being held right by the border and has these connections to somebody in Mexico who he— Minnesota thinks might be interested in crossing the border to live with. And so all of that kind of combines to create a situation where Abbott's refusal to hand Castro over is a much more dangerous situation than it might have been if, you know, he was being held in Oklahoma, right? Or somewhere else that didn't have that 90-day clock, that wasn't right on the border, but that Abbott is able to kind of create this— find this loophole because of all of these different factors, and then take advantage of the fact that governors have historically not tried to kind of push the limits here. And that if it turns out, if you at all, you can get a lot done."
+    },
+    {
+      "start": 1424.2,
+      "end": 1530.3,
+      "speaker": "C",
+      "text": "We'll be right back after a quick break. This episode is brought to you by Omaha Steaks. I'm gonna tell you the story of what happened the night Omaha Steaks arrived at my house. This was a few weeks back. It was a Thursday. My kids were like, \"What's for dinner?\" And I was like, \"Just wait.\" Then the Omaha Steaks guy arrived. Not just with steaks. There was chicken in there, pork, some burgers, all of it vacuum sealed and on dry ice. All of a sudden, we had options. My older kid invited some friends over. He was about to leave for college. It felt like the best way to celebrate was with a steak. The rest of us had burgers, and it all got on the table in a snap. In one box, we had something for a special occasion and something for everyone else. If you've never tried them, you might want to start out with the Burger Perfection Flight. It is a good introduction to everything Omaha Steaks has to offer. For $79.99, you get 20 premium steak burgers crafted from 5 distinct cuts of steak, each with its unique flavor profile and texture. The Burger Perfection Flight includes 4 pure ground filet mignon burgers, New York strip burgers, ribeye burgers, brisket burgers, sirloin burgers. Yeah, all the burgers. Try the Burger Perfection Flight at omahasteaks.com today. That is 20 premium steak burgers for just $79.99. Plus you get $35 off with promo code NEXT. That's omahasteaks.com promocode NEXT for $35 off at checkout. Terms apply, see the site for details."
+    },
+    {
+      "start": 1533.1,
+      "end": 1585.9,
+      "speaker": "B",
+      "text": "This episode is sponsored by HeyGen. HeyGen turns a script, photo, or presentation into a polished video of you in minutes, no camera or crew required. It's how real estate agents, financial advisors, attorneys, and creators show up consistently on every feed and build a brand that brings in clients without spending their whole week making content. Rated the #1 AI video platform for small businesses on G2 with the most realistic AI avatars in the industry. Trusted by a community of over 30 million people and 85% of the Fortune 100. And built to work in over 175 languages so you can reach your audience in theirs. Here's the wild part. Record yourself for just 15 seconds and HeyGen builds an AI avatar that makes professional videos for you on demand so you can post everywhere your audience is as yourself without filming every time. Your first 3 videos are free at heygen.com/pod. That's H-E-Y-G-E-N.com/pod."
+    },
+    {
+      "start": 1590.4,
+      "end": 1662.9,
+      "speaker": "C",
+      "text": "Let's talk about the legal implications of what just happened here, because as you said, it doesn't seem to be a good thing when states are just refusing extradition requests, whether they're doing that by sitting on their hands or flat out saying no. You did this helpful thing in your reporting for me where you distinguished between vertical and horizontal federalism. And this sounds, like, so wonky, but I do want to explain it because Texas in particular is resisting both, but in different circumstances. So when Joe Biden was running the country, Greg Abbott did this thing where he would resist the federal government's authority over Texas. And that is the vertical, top-down federalism. He'd basically be like, Texas doesn't have have to abide by, you know, what you're telling me to do. Texas can do its own thing with its National Guard, et cetera, et cetera. What's happening here is a resistance to horizontal federalism, which is the agreements, the handshake agreements between the states that, like, we will respect each other's authority and say, \"Send someone back when there's an extradition request.\" Why is this distinction important? Why did you want to make sure to make it?"
+    },
+    {
+      "start": 1664.2,
+      "end": 1711.6,
+      "speaker": "D",
+      "text": "I think that's useful as a way of conceptualizing sort of the different ways that governing structures in the United States have been placed under strain right now because of the sort of increasing politicization of what were previously very normal government functions, right? So as you say, you know, Abbott was kind of freelancing under the Biden administration in terms of Texas's border enforcement policy. There was a whole big fight, not only about the National Guard, but about barring off parts of the Rio Grande for people who were trying to cross when the federal government didn't want them to. And that pulls apart at the structure of the nation in terms of, you know, we have these state governments and then on top we have a federal government that unifies everything."
+    },
+    {
+      "start": 1712.7,
+      "end": 1777.5,
+      "speaker": "C",
+      "text": "I mean, I see this push and pull over horizontal control other places too. Like, take abortion law. Mm-hmm. You know, some states want to have a say over what other states do when it comes to abortion care. And this is a blue and red thing where, you know, Texas doesn't want people to go other places to seek their abortion care or get abortion pills brought into the state of Texas. Then you have states like Connecticut that are passing laws that are saying, \"Hey, we're not gonna share information with you about reproductive care across borders because we believe here that reproductive care is something we want to support.\" And to me, it, it just I like your fabric way of talking about it, where it's like, it's like this tearing and fraying that's happening in two different directions. And, like, both sides are pushing and pulling. And I look at what's happening in Texas, and to me, it really seems like this legalistic way to half-secede from them. And I just don't know what to do with it in that regard."
+    },
+    {
+      "start": 1780.2,
+      "end": 1867.4,
+      "speaker": "D",
+      "text": "You know? It's definitely scary. I mean, I don't— I don't want to say, you know, this is the end of the union right here, but I do think it is part of a larger process of sort of atomization between red and blue states that is potentially really concerning. I do think that, you know, you point into abortion. I think that's a great example because there's actually a fight right now where Texas has criminally charged a doctor who's dispensing abortion medication for from New York to Texas, and New York is refusing to hand her over. Now, that's a different situation than Castro because this doctor in New York is actually not legally a fugitive, right? She never went to Texas in the first place. She's never left. Yeah. Exactly. And now she probably won't go. So legally, New York actually doesn't have to hand her over in the same way that Texas legally has to hand Castro over. But it does put that strain there. And I think it is concerning insofar as, you know, we see red and blue states really going different directions in a way that just makes it difficult to carry out, you know, very normal functions of governing. You know, if you take this all the way, you can imagine, you know, you rob a bank in a blue state and go to a red state and then get away with robbing the bank because the governor of the red state doesn't like the governor of the blue state. Right. So we're in this funny moment."
+    },
+    {
+      "start": 1868.6,
+      "end": 1907.3,
+      "speaker": "C",
+      "text": "The reason why Castro was released was that theoretically Greg Abbott is doing an investigation into whether he was truly a fugitive, and there will theoretically be some sort of finding from that investigation, and then I guess an extradition can proceed or not. Let's say Greg Abbott's investigation finds, \"Okay, this guy was a fugitive,\" because that's what all the legal precedent says. What will Minnesota do then? Will Minnesota be having to, like, track this guy down, like, wherever he is? Be, like, sending investigators into Mexico potentially to find him? Like, what happens?"
+    },
+    {
+      "start": 1907.3,
+      "end": 1929.2,
+      "speaker": "D",
+      "text": "So I will say that Abbott's press office told me in their statement that, and I quote, \"If at any time the governor determines that Castro is a fugitive, a governor's warrant will be executed immediately, and law enforcement at the local, state, and federal levels will track him down and arrest him.\" So that's Abbott saying, you know, if I reach the conclusion that he's a fugitive, we will find him."
+    },
+    {
+      "start": 1929.7,
+      "end": 1931.8,
+      "speaker": "C",
+      "text": "If he went to Mexico, he'd be a real fugitive then, right?"
+    },
+    {
+      "start": 1932,
+      "end": 1963.6,
+      "speaker": "D",
+      "text": "Right. Right. At that point, I believe you would need the assistance of the federal government to help track him down and ask Mexico to return him. And then you end up in all of the additional political complications of, you know, is this something that Trump's Justice Department, Trump's Department of Homeland Security, would be willing to do. So I think it is, you know, theoretically we know how that would play out, you know, but what that looks like in practical terms is much more of an open question."
+    },
+    {
+      "start": 1964.9,
+      "end": 1969.1,
+      "speaker": "C",
+      "text": "Do you think a blue state governor has the cojones to do what Greg Abbott did here?"
+    },
+    {
+      "start": 1970.2,
+      "end": 2077.2,
+      "speaker": "D",
+      "text": "Well, I think it's— the politics are different, right? I mean, you would need to imagine, okay, what's a kind of a comparable instance where a blue state governor would face pressure to not hand somebody over. I do think that the abortion care cases are kind of comparable here. You could also imagine maybe, you know, if a doctor provided gender-affirming care or something like that. Now, again, it's different because usually, and in all of the cases we've seen so far, like the New York case, these are red states trying to charge people in blue states who never actually went to the red state in the first place to carry out the alleged crime. And so the blue state governor is on much firmer footing. In declining to participate. So I can't— it's a little hard for me to politically just to come up with, like, what's the case that fits, you know, where someone would flee. But I mean, I think if that were to happen, you know, I think it would be a really tough situation because you can imagine how on the one hand, of course, there— you can imagine how there might be political pressure to resist a kind of a red-state extradition effort. And I can understand where some of that anger might come from. But on the other hand, having these systems fall apart is really, really dangerous. And, you know, it's not the end of the union, but it's not not a step toward a kind of chaos that makes the sort of the splintering of what we understand as the United States much, much more likely. And so I guess my bottom line is that I will simply hope That a blue state governor will never find themselves in that situation because that's a very dangerous place to be."
+    },
+    {
+      "start": 2082.6,
+      "end": 2085.1,
+      "speaker": "C",
+      "text": "Quinta, I'm really grateful for your time. Thanks for coming on the show."
+    },
+    {
+      "start": 2085.5,
+      "end": 2086.1,
+      "speaker": "D",
+      "text": "Thanks for having me."
+    },
+    {
+      "start": 2088.5,
+      "end": 2138.4,
+      "speaker": "C",
+      "text": "Quinta Jurecic is a staff writer over at The Atlantic. One last update for you: we recorded this interview on Wednesday, September 2nd. The next day, The New York Times reported that a federal grand jury indicted ICE officer Christian Castro for lying about this shooting. And that could allow Christian Castro to be detained once again. And that's our show. What Next is produced by Evan Campbell, Madeleine Tems Ducharme, and Patrick Forte. Paige Osborn is the senior supervising producer. Producer of What Next and What Next TBD. Mia Lobel is the executive producer of podcasts here at Slate. Ben Richmond is the senior director of podcast operations. And I'm Mary Harris. Go track me down on Blue Sky. I'm @maryharris. Thanks for listening. Catch you back here next time."
+    },
+    {
+      "start": 2154.9,
+      "end": 2180.1,
+      "speaker": "A",
+      "text": "Every next move starts with being prepared. Because tomorrow brings opportunity, and opportunity brings new risks. Meet your next project prepared, with experienced professionals who know your industry. Meet new markets prepared, with one of the industry's largest global networks. Meet change prepared, with a dedicated team helping businesses move forward with confidence. Meet tomorrow prepared with Zurich Insurance."
+    },
+    {
+      "start": 2183.2,
+      "end": 2217.8,
+      "speaker": "D",
+      "text": "Hello, I'm Monica Reinagel, host of the Nutrition Diva podcast. Summer is here, and with it, the hot and sticky weather. A morning working in the garden, or maybe on the golf course, can leave you more depleted than you realize, and plain water isn't always the most efficient way to restore the balance. That's where Liquid IV comes in. Its science-backed formula is clinically proven to hydrate faster than water alone. Whether you're exercising, playing outside, or simply surviving a summer heat wave, it's an easy way to stay hydrated. Shop now at liquidiv.com. Liquid IV, hydration that goes wherever life takes you."
+    }
+  ]
+}

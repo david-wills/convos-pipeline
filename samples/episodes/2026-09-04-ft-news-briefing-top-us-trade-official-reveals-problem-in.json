@@ -1,0 +1,368 @@
+{
+  "episode": {
+    "id": "62c55843699c77a8524552d1e709212c1cc1d4a70927b009c5b5a51951f4cef2",
+    "podcastTitle": "FT News Briefing",
+    "feedUrl": "https://feeds.acast.com/public/shows/73fe3ede-5c5c-4850-96a8-30db8dbae8bf",
+    "guid": "6a9a066b809ae7c2f47df7c9",
+    "title": "Top US trade official reveals ‘problem’ in UK negotiations",
+    "description": "<p>The US trade representative says the UK is choosing the EU over America and Deutsche Bank organised almost $1bn of loans to a Hollywood studio landlord now in default. Plus, Nvidia has agreed to buy AI model platform Hugging Face for $13bn, and a look at how chicken became the world’s favourite protein.</p><br><p><strong>Mentioned in this podcast:</strong></p><p><a href=\"https://www.ft.com/content/0d2beac3-ef62-4cbf-959e-b5c6b9703081?accessToken=zwAAAaEDOrx0kc8NK-rD72JMv9OVnrXGuXAwgQE.MEQCIAWLKS5XjYn-cFHlGbl0dYe9uR1mFDahTN-l07fDQ3b7AiAvSaJSBPm3d-u2ST5gtE3A-fn8RPlTRiYBMAOLWNdj0w&amp;segmentId=7d4bcc2e-e664-92ba-62e3-5590579f1902\" rel=\"noopener noreferrer\" target=\"_blank\">UK-EU alignment is ‘problem’ for US trade deal, says top Trump official</a></p><p><a href=\"https://www.ft.com/content/dd3bc3fe-bda9-40b0-82c2-dcb54e1439f4?accessToken=zwAAAaEDCaxLkdPdO8P-valAsNOCwty1ThQ59AE.MEUCIQDdojGTtgQNgBXgN36WMXyHXzvdO0lpkS1R-fyi0jB-zgIgfBRf4xMRiGtWu9dlQLEJYRLS3T-J5-8j4RITo_udxO8&amp;segmentId=7d4bcc2e-e664-92ba-62e3-5590579f1902\" rel=\"noopener noreferrer\" target=\"_blank\">Deutsche Bank led $1bn of troubled lending to Hollywood studio landlord</a></p><p><a href=\"https://www.ft.com/content/776dcb01-75cd-44df-bc52-63ca76d5718d?accessToken=zwAAAaEDDINIkc93bcsBdc1E39O8UmPKdtVxjQE.MEUCIDn7byHxYh6j--O-TjtZ2q81Wwjg3PP0qGTVjMb4nRCYAiEA8JYKM3BooikmThWZc3lVMsapCe3IeoHrawYNERJpqGM&amp;segmentId=7d4bcc2e-e664-92ba-62e3-5590579f1902\" rel=\"noopener noreferrer\" target=\"_blank\">Nvidia to buy open-source AI platform Hugging Face for $13bn</a></p><p><a href=\"https://www.ft.com/content/1a1f6c54-8dbc-4446-a6dc-45a060b7cdc8?accessToken=zwAAAaEDC8DSkc8aH2xUjbxERtOm3EWgYLfNyAE.MEYCIQD4e492u47-LcIBwOMiIFSrxBg4yLTccljuxj0A0t4AlQIhAKCbUIXre1VUjdSLSWPyDSDopYGw6Mm75gSxuNipFFlG&amp;segmentId=7d4bcc2e-e664-92ba-62e3-5590579f1902\" rel=\"noopener noreferrer\" target=\"_blank\">Hugging Face attack is a wake-up call about the risks of AI</a></p><p><a href=\"https://www.ft.com/content/f43ca249-ad8a-427f-8884-a49070b",
+    "pubDate": "2026-09-04T04:00:00.000Z",
+    "duration": 759,
+    "audioUrl": "https://sphinx.acast.com/p/acast/s/ftnewsbriefing/e/6a9a066b809ae7c2f47df7c9/media.mp3",
+    "artworkUrl": "https://assets.pippa.io/shows/621e1a5bf5df83377cc948b8/1771582499067-6d97f00e-76d7-4cba-88d5-a1a9d37b4494.jpeg"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 850,
+    "utteranceCount": 50
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:37.322Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "UK Caught Between Brussels and Washington",
+      "description": "US Trade Representative Jameson Greer tells the FT that Britain's dynamic alignment with the EU is a serious obstacle to a deeper US-UK trade deal.",
+      "startTime": 0.272,
+      "endTime": 212.003,
+      "anchorPhrase": "this episode is brought to you by hard lessons, a morgan stanley podcast. iconic investors"
+    },
+    {
+      "index": 1,
+      "title": "Agriculture, Tariffs, and 'Iconic' UK Goods",
+      "description": "Greer flags the US-UK agricultural trade deficit and expresses skepticism about some of Britain's requests for better market access.",
+      "startTime": 212.003,
+      "endTime": 350.434,
+      "anchorPhrase": "now, amy, the uk was able to negotiate a somewhat limited trade agreement with the"
+    },
+    {
+      "index": 2,
+      "title": "Deutsche Bank's Hollywood Nightmare",
+      "description": "The German lender organized nearly $1 billion in loans to a private equity studio landlord whose three properties are now in default or foreclosure.",
+      "startTime": 350.434,
+      "endTime": 456.092,
+      "anchorPhrase": "you, sonia. if you wanna hear more from amy's interview with us trade representative jameson"
+    },
+    {
+      "index": 3,
+      "title": "Nvidia Swallows the AI Ecosystem",
+      "description": "The chip giant's $13 billion acquisition of Hugging Face puts it at the center of open-source AI development, alarming millions of independent developers.",
+      "startTime": 456.092,
+      "endTime": 689.706,
+      "anchorPhrase": "waters. hi, richard. hi, great to talk to you. great to have you on the"
+    },
+    {
+      "index": 4,
+      "title": "How Chicken Conquered the World",
+      "description": "The FT's Judith Evans explains how the once-expensive bird became the planet's dominant protein — and the environmental and cultural consequences that followed.",
+      "startTime": 689.706,
+      "endTime": 850,
+      "anchorPhrase": "before we go, how did chicken conquer the world? for decades, the humble bird was"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.3,
+      "end": 14.3,
+      "speaker": "A",
+      "text": "This episode is brought to you by Hard Lessons, a Morgan Stanley podcast. Iconic investors like Stan Druckenmiller, John Gray, and Rick Rieder break down calls that worked. I knew that this stock would go up for at least 2 or 3 years and go up a lot. Ones that didn't."
+    },
+    {
+      "start": 14.6,
+      "end": 17.6,
+      "speaker": "B",
+      "text": "I quite frankly thought the company could have reversed course."
+    },
+    {
+      "start": 18,
+      "end": 18.4,
+      "speaker": "C",
+      "text": "They didn't."
+    },
+    {
+      "start": 18.9,
+      "end": 20.1,
+      "speaker": "A",
+      "text": "And what they learned in between."
+    },
+    {
+      "start": 20.4,
+      "end": 26.3,
+      "speaker": "C",
+      "text": "When you buy everything and it goes up, it doesn't train you to be a great investor. It's these hard lessons that make all the difference."
+    },
+    {
+      "start": 26.6,
+      "end": 28.9,
+      "speaker": "A",
+      "text": "Listen to Hard Lessons wherever you get your podcasts."
+    },
+    {
+      "start": 33.1,
+      "end": 90.9,
+      "speaker": "B",
+      "text": "Good morning from the Financial Times. Today is Friday, September 4th, and this is your FT News Briefing. Donald Trump's top trade official says the UK is choosing the EU over America, and Deutsche Bank is tangled up in some Hollywood loan drama. Plus, Nvidia is expanding its reach in the AI industry. I'm Sonia Hudson in for Mark Filipino, and here's the news you need to start your day. Washington and London struck an initial trade agreement last year, but US Trade Representative Jameson Greer told the FT's Amy Williams that alignment with Brussels has been a sticking point in further negotiations. Amy joins me now to discuss her interview with him. Hi, Amy."
+    },
+    {
+      "start": 91.5,
+      "end": 92,
+      "speaker": "D",
+      "text": "Hello."
+    },
+    {
+      "start": 92.6,
+      "end": 97.3,
+      "speaker": "B",
+      "text": "So give me some more details about what the UK's been doing to rub Greer the wrong way."
+    },
+    {
+      "start": 97.8,
+      "end": 121,
+      "speaker": "E",
+      "text": "So I went to interview James Greer at his office to learn some more about how Washington is thinking about Donald Trump's trade war, and obviously I had to ask him about the UK. Something interesting that came up when we talked about that was that he feels the UK is choosing Brussels over Washington economically?"
+    },
+    {
+      "start": 121.1,
+      "end": 129,
+      "speaker": "D",
+      "text": "Yes, they are. Within a few days of signing our deal last year, they signed a dynamic alignment agreement with the EU, essentially saying—"
+    },
+    {
+      "start": 129.1,
+      "end": 136.9,
+      "speaker": "E",
+      "text": "essentially saying whatever Brussels decides on rules and regulations, the UK is going to make effort to follow that."
+    },
+    {
+      "start": 137.5,
+      "end": 164.6,
+      "speaker": "D",
+      "text": "And really, that's designed to help the UK keep trading with the EU, but From Jameson Greer's point of view, and we interpreted on that based on my conversations with the UK, where I say, hey, you're free of the EU, why don't you liberalize a little bit, accept goods made to American standards, accept agricultural goods made to American standards? Uh, and, and when they say, well, we have to wait and see what the EU says about it, you know, that, that is a problem for us and that's challenging."
+    },
+    {
+      "start": 164.9,
+      "end": 169.6,
+      "speaker": "E",
+      "text": "He told me that that was challenging for him when he was trying to develop the trade deal with the UK."
+    },
+    {
+      "start": 170.2,
+      "end": 176.9,
+      "speaker": "B",
+      "text": "Which is interesting given that, you know, the UK very pointedly decided to leave the EU."
+    },
+    {
+      "start": 177.3,
+      "end": 181.5,
+      "speaker": "E",
+      "text": "Yeah, of course. And I asked him about that. So they're not using their Brexit freedom?"
+    },
+    {
+      "start": 182.1,
+      "end": 183.4,
+      "speaker": "D",
+      "text": "No, no, they're not."
+    },
+    {
+      "start": 184,
+      "end": 211.3,
+      "speaker": "E",
+      "text": "I think really this is a reminder that Britain does actually do quite a bit more trade with the European Union than it does with America. And although the UK has always said it wants to trade with America, At the end of the day, it has more benefit from being economically aligned with the European Union, and some of the rules that are made in Brussels just do not jive with the way Washington does things. So the UK is really caught between the two here."
+    },
+    {
+      "start": 212,
+      "end": 232.5,
+      "speaker": "B",
+      "text": "Now, Amy, the UK was able to negotiate a somewhat limited trade agreement with the US last year in order to lower tariffs, but we haven't seen a follow-up deal materialize. Besides the Brussels relationship causing some friction, what are some of the other obstacles in the talks between London and Washington?"
+    },
+    {
+      "start": 233,
+      "end": 238.7,
+      "speaker": "E",
+      "text": "I think Grier was broadly quite positive about his trade talks with the UK."
+    },
+    {
+      "start": 239.3,
+      "end": 247.2,
+      "speaker": "D",
+      "text": "We're very happy with where the UK deal and that early harvest has landed. It's been really beneficial for both of us. So there, there, there is more to do. Uh, you know, I've had—"
+    },
+    {
+      "start": 247.4,
+      "end": 260,
+      "speaker": "E",
+      "text": "I think that to some extent the UK is just not a big deal to, to Jameson-Creea. We're just a small economy. I mean, he did raise agriculture as a sticking point."
+    },
+    {
+      "start": 260.3,
+      "end": 271.8,
+      "speaker": "D",
+      "text": "First and foremost, we're America first. And, and in our view, we have lost so much of our industry over the years. We have a trade deficit in agricultural goods with the UK, which a lot of people don't realize."
+    },
+    {
+      "start": 272.3,
+      "end": 292.2,
+      "speaker": "E",
+      "text": "Uh, and so, and he said that he would like to see that fixed. But he also said the UK was pushing to have better access to the US market for some iconic UK goods, and he would not expand or give us more details on what those are, but he sounded a little skeptical about exactly how iconic some of these goods are."
+    },
+    {
+      "start": 292.6,
+      "end": 298,
+      "speaker": "D",
+      "text": "They'll say, oh, well, about this, this iconic UK good. And I say, I didn't, I didn't know that was iconic. I've never heard of that being iconic."
+    },
+    {
+      "start": 298.1,
+      "end": 298.7,
+      "speaker": "E",
+      "text": "Scotch whiskey."
+    },
+    {
+      "start": 299,
+      "end": 300.9,
+      "speaker": "D",
+      "text": "Well, that is iconic, right?"
+    },
+    {
+      "start": 301.9,
+      "end": 308.9,
+      "speaker": "B",
+      "text": "What did you learn overall from your interview with Greer about how the US is approaching trade policy and tariffs?"
+    },
+    {
+      "start": 309.2,
+      "end": 345.1,
+      "speaker": "E",
+      "text": "I think Greer is still really set on the idea that using tariffs will help reindustrialize America and bring all these manufacturing jobs back to its Rust Belt states and elsewhere. That seems to be his driving force. I think they're really trying to rebalance trade with China. That is something that Greer talks a lot about, but ultimately he sees things through a relatively political lens. And he is going to stay the course on this. I think he really thinks that duties and tariffs are going to make an economic difference to the US."
+    },
+    {
+      "start": 345.9,
+      "end": 348.9,
+      "speaker": "B",
+      "text": "Amy Williams covers US trade for the FT. Thanks, Amy."
+    },
+    {
+      "start": 349.2,
+      "end": 349.8,
+      "speaker": "E",
+      "text": "Thank you, Sonia."
+    },
+    {
+      "start": 350.4,
+      "end": 456.6,
+      "speaker": "B",
+      "text": "If you wanna hear more from Amy's interview with US Trade Representative Jameson Grier, we will be publishing an extended version tomorrow. Deutsche Bank is dealing with some troubled loans. The German lender organized almost $1 billion worth of financing to a Hollywood studio landlord that's now defaulting. That's according to public court records and people familiar with the matter. The landlord is a private equity group called Hackmann Capital Partners, and it used the loans to buy 3 movie studios, 2 in Los Angeles and 1 in New York. But now all 3 of them are in default or foreclosure proceedings. Hackman was betting that the growth of Netflix, Amazon, and other streaming platforms would permanently boost demand for film and TV production space, but that bet did not pay off. Higher interest rates have made it harder to refinance the loans, plus film and TV production in LA has fallen sharply since actors' and writers' strikes a few years ago. Hackmann did not respond to a request for comment, and Deutsche declined to comment. NVIDIA is gaining more control over the AI industry. Yesterday, the chip giant agreed to buy the open-source AI model platform Hugging Face for $13 billion. It's NVIDIA's latest step to use its multi-trillion-dollar market cap to accelerate the AI boom, but it's also a wake-up call about the risks that come with it. Joining me now from San Francisco to discuss is the FT's Richard Waters. Hi, Richard."
+    },
+    {
+      "start": 457.1,
+      "end": 458.2,
+      "speaker": "F",
+      "text": "Hi, great to talk to you."
+    },
+    {
+      "start": 458.7,
+      "end": 468.7,
+      "speaker": "B",
+      "text": "Great to have you on the show. So NVIDIA has had its eye on Hugging Face for a while. What does acquiring this company mean for NVIDIA's business going forward?"
+    },
+    {
+      "start": 469,
+      "end": 504.2,
+      "speaker": "F",
+      "text": "Well, Hugging Face is this extremely interesting community, if you like, community of developers in the center of the AI industry. All of these developers post their code there. They go there to find code that they can develop. It spans lots of different companies, lots of different people, and it's not the kind of thing that a big company normally owns. So NVIDIA is thinking, we want to become ourselves a bigger developer of AI models. We want them all to use our technologies. So let's try and own this community. Let's bring these developers into our orbit."
+    },
+    {
+      "start": 504.8,
+      "end": 517.4,
+      "speaker": "B",
+      "text": "Okay, NVIDIA's main business is chips, so AI hardware. Now it's buying this company that involves the software side of things. What concerns are people raising with this?"
+    },
+    {
+      "start": 518.2,
+      "end": 570.9,
+      "speaker": "F",
+      "text": "You've actually hit on what is a really central question here. There are 18 million developers who use Hugging Face. They use all kinds of technologies. They use different tools from different companies to develop their work. NVIDIA has a really difficult balancing act because on the one hand, it would love for all of these people to adopt NVIDIA technologies. They can become part of its ecosystem. They can develop on its chips. However, if it were to try to do that, it would cause a storm in the industry. It's exactly what happened nearly 10 years ago. When Microsoft bought GitHub. Back then, GitHub was the biggest online code repository, something very similar. And the entire world of developers said, hang on a minute, we don't want Microsoft stampeding in and squeezing us all into its technology ecosystem. And that's exactly where we are with NVIDIA."
+    },
+    {
+      "start": 571.5,
+      "end": 592.6,
+      "speaker": "B",
+      "text": "Seems like developers are feeling a little nervous about this. Hugging Face's CEO, though, said the deal would, quote, allow AI to be more distributed all over the world and avoid too much concentration concentration of power. What does it mean for the AI sector if NVIDIA continues to take more control of the industry?"
+    },
+    {
+      "start": 593.1,
+      "end": 640.9,
+      "speaker": "F",
+      "text": "Well, I think, you know, that touches on whether there will be antitrust questions here. To have a very large player that dominates one part of the AI world try to take over what is essentially a utility across the entire industry, um, is gonna raise some concerns. There are echoes here of a few years ago when Nvidia tried to buy Arm, the chip design company, and that caused a real storm in the chip industry. Antitrust regulators ended up blocking that. But I think this time around it shouldn't be a problem from a regulatory point of view. This is a vertical deal. It's Nvidia moving into a different part of the AI system. So I think from a regulatory point of view, it should slip through, but that doesn't mean it's not going to face some really tough questions."
+    },
+    {
+      "start": 642,
+      "end": 643.3,
+      "speaker": "B",
+      "text": "Yeah. What are some of those questions?"
+    },
+    {
+      "start": 644,
+      "end": 678.9,
+      "speaker": "F",
+      "text": "I think the question for NVIDIA is how it uses its current very strong position to build a broader footprint across the AI world in the future. Because NVIDIA knows eventually its chip position is going to erode. It needs to be a broader full-service AI company. So the question, as always with a successful tech company at the moment, is how do they translate their current tech dominance, their current amazing cash flow into a good, strong competitive position in the next iteration of the industry. And that's what we're seeing NVIDIA try to do."
+    },
+    {
+      "start": 679.6,
+      "end": 682.6,
+      "speaker": "B",
+      "text": "Richard Waters is the FT's West Coast editor. Thanks, Richard."
+    },
+    {
+      "start": 682.8,
+      "end": 683.7,
+      "speaker": "F",
+      "text": "Yeah, pleasure to talk."
+    },
+    {
+      "start": 689.7,
+      "end": 706.2,
+      "speaker": "B",
+      "text": "Before we go, how did chicken conquer the world? For decades, the humble bird was expensive and unpopular, but now it's the international protein of choice. The FT's Judith Evans put together a 5-part series about chicken."
+    },
+    {
+      "start": 706.6,
+      "end": 725.4,
+      "speaker": "G",
+      "text": "Chicken is really at the center of the modern food system, and it really didn't used to be. That is something that has changed dramatically in recent decades. The birds themselves are 4 times the size they used to be, and there's all sorts of interesting knock-on effects, whether it's to our own diets, to the landscape being dotted with poultry farms, to pollution, to chicken shop culture."
+    },
+    {
+      "start": 726.1,
+      "end": 731,
+      "speaker": "B",
+      "text": "Chicken has become cheap, but the way that animals are raised is controversial."
+    },
+    {
+      "start": 731.4,
+      "end": 739.2,
+      "speaker": "G",
+      "text": "You know, it's almost a bit like data centers. It's one of those things that is really burgeoning, but also causing a lot of anxiety and a lot of pushback among communities."
+    },
+    {
+      "start": 739.9,
+      "end": 775.1,
+      "speaker": "B",
+      "text": "Judith Evans is the FT's deputy world news editor. We've got a link to the series in our show notes, along with all the other stories mentioned in this episode. This has been your daily FT News Briefing. Check back next week for the latest business news. The FT News Briefing is produced by Produced by Safiya Ahmed, Josh Gabbard-Dwyer, and me, Sonya Hutson. Our show is mixed by Kelly Gary and Sam Giavenco. We get help from Peter Barber, Michael Lello, David DeSilva, and Gavin Coleman. Our executive producer is Topher Forhays. Flo Phillips is the FT's global head of audio, and our theme song is by Metaphor Music."
+    },
+    {
+      "start": 792,
+      "end": 823.6,
+      "speaker": "H",
+      "text": "Capital raising is being redefined in real time, from macro disruptions and shifting investor expectations to AI-driven demand and the rise of private credit. When headlines can tilt markets overnight, how can companies stay on course? Strategic Alternatives, the RBC Capital Markets podcast. Explores how corporates and investors are navigating new pathways to raise capital, create value, and drive growth. When conditions change, alternatives matter. Listen to Strategic Alternatives, available wherever you get your podcasts."
+    },
+    {
+      "start": 824.2,
+      "end": 848.7,
+      "speaker": "I",
+      "text": "With the Spark Cash Plus card from Capital One, you earn unlimited 2% cash back on every purchase, and you get big purchasing power so your business can spend more and earn more. Steven, Brandon, and Bruno, the business owners of SandCloud, reinvested their 2% cash back to help build the company's retail presence. Capital One, what's in your wallet? Find out more at capitalone.com/sparkcashplus. Terms apply."
+    }
+  ]
+}

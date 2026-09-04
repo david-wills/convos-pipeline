@@ -1,0 +1,820 @@
+{
+  "episode": {
+    "id": "b6d1931207c1bc97df2265647d4d8e8adb99b041fc58291b68a63fcf1763035e",
+    "podcastTitle": "The Vergecast",
+    "feedUrl": "https://feeds.megaphone.fm/vergecast",
+    "guid": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP5022758406.mp3",
+    "title": "Apple Home rumors, ranked",
+    "description": "Apple's big hardware event is coming next week. iPhones are the main draw, but senior reviewer Jennifer Pattison Tuohy has her eyes on the rumors around — what else? — smart home gadgets. Andrew O'Hara from the Smart Home Insider podcast joins Jen to fire up the Rank-o-Matic and speculate on which rumored gadgets are most likely to see the light of day.\n\n\n\nFurther reading:\n\n\n  OpenAI’s next big AI model has ‘entered the AGI era’\n\n  Nvidia is buying Hugging Face for almost $13 billion\n\n  Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers\n\n  Microsoft opens up Xbox Cloud Gaming with new pay-as-you-go option\n\n\n\n\nSubscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.\n\n\n\nWe love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11.\nLearn more about your ad choices. Visit podcastchoices.com/adchoices",
+    "pubDate": "2026-09-03T19:57:00.000Z",
+    "duration": 2196,
+    "audioUrl": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP5022758406.mp3",
+    "artworkUrl": null
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 2371,
+    "utteranceCount": 124
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:37:47.910Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Apple Home's Missing Piece",
+      "description": "Jen and Andrew set the stage by explaining what Apple Home is and why it's been lacking a smart display for years.",
+      "startTime": 2.389,
+      "endTime": 505.2,
+      "anchorPhrase": "hello and welcome to vergecast, the flagship podcast of the apple homepad, hopefully. i'm jennifer"
+    },
+    {
+      "index": 1,
+      "title": "The HomePad Rumors, Ranked",
+      "description": "The Rank-O-Matic fires up as the hosts break down what Apple's long-rumored smart display might actually look like — 7-inch screen, dome base, widget-powered apps, and Face ID.",
+      "startTime": 505.2,
+      "endTime": 991.373,
+      "anchorPhrase": "ruined the ranking. i know, i ruined the ranking, sorry. but in terms of likelihood,"
+    },
+    {
+      "index": 2,
+      "title": "HomePod Mini and Apple TV Overdue",
+      "description": "Both hosts agree new HomePod and Apple TV hardware are near-certainties, with upgraded chips, better Siri AI, and possibly a new remote on the way.",
+      "startTime": 991.373,
+      "endTime": 1482.69,
+      "anchorPhrase": "really. yeah, and what, so here's, okay, switching to conspiracy hat a little bit. part"
+    },
+    {
+      "index": 3,
+      "title": "The Final Rankings Revealed",
+      "description": "Apple TV takes the top spot as the surest bet, followed by HomePod Mini and a smarter home Siri, with the smart display slotting in at number four.",
+      "startTime": 1482.69,
+      "endTime": 1623.205,
+      "anchorPhrase": "let's rank these that we just went over. which do you think is a shoo-in"
+    },
+    {
+      "index": 4,
+      "title": "Apple's First Security Camera",
+      "description": "The hosts debate whether Apple will finally launch its own indoor camera and video doorbell, and how privacy could be Apple's killer advantage over Amazon and Google.",
+      "startTime": 1623.205,
+      "endTime": 2019.216,
+      "anchorPhrase": "cameras. so maybe an indoor camera, and a doorbell camera, but they've never made an"
+    },
+    {
+      "index": 5,
+      "title": "The Pixar Lamp Is Real?",
+      "description": "Andrew makes the case that Apple's rumored robotic tabletop display — codenamed Charismatic — is more likely than Jen thinks, and could use existing DotKit tracking tech to follow you around the room.",
+      "startTime": 2019.216,
+      "endTime": 2371,
+      "anchorPhrase": "sounds good. and then the last one, the most exciting one. okay. least likely to"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 2.4,
+      "end": 44.1,
+      "speaker": "A",
+      "text": "Hello and welcome to Vergecast, the flagship podcast of the Apple HomePad, hopefully. I'm Jennifer Pattison-Touhey, and on today's show I'm joined by Andrew O'Hara, a writer and video producer for Apple Insider and host of the Smart Home Insider podcast. With Apple's fall hardware event right around the corner, we're gonna talk about the Apple Home hardware rumors and whether the long-awaited, hotly anticipated Apple HomePad/hub, Smart Display will finally make Apple Home great again. We'll rank the top rumors that we think are likely to become reality and talk about the ones we are most excited to get into our homes. But first, here's a look at everything that's happening on The Verge today."
+    },
+    {
+      "start": 45,
+      "end": 128.3,
+      "speaker": "B",
+      "text": "I'm David Amell, and this is 90 Seconds on The Verge for Thursday, September 3rd, 2026. Today, OpenAI released GPT-6 Astra, which it says is a generational leap in capability with state-of-the-art performance in computer use, browser use, software engineering, cybersecurity, science, and professional work. The model was released today to enterprise customers with Daybreak access, but it'll roll out to Plus, Pro, Business, and Enterprise users over the coming days. Hopefully this model doesn't break containment. NVIDIA has announced it's acquiring AI repository platform Hugging Face for nearly $13 billion. NVIDIA says it will keep Hugging Face an open platform for the entire ecosystem, and that NVIDIA compute will not be required to build or deploy through the platform. The last official valuation of the company valued it at $4.5 billion, and the company previously rejected a $500 million investment from Nvidia last year that would have valued it at $7 billion. Microsoft is slashing cloud gaming access to just 15 hours a month on Game Pass Ultimate plans. It previously included unlimited hours, but Microsoft says the change should only impact 4% of users. It also announced it's releasing a new pay-as-you-go option for cloud gaming. Pricing for that has not been announced yet. You can read more at theverge.com. That's 90 Seconds on The Verge for Thursday, September 3rd, 2026."
+    },
+    {
+      "start": 128.3,
+      "end": 160,
+      "speaker": "C",
+      "text": "Excuses are easy. An epic movie night? We don't have enough snacks. Dinner party with the girls? We'd have to decorate. Surprise date night? Nothing to wear. But Amazon's Prime Same Day Delivery lets you say yes before the moment slips away. Try that new popcorn maker, order those cheeky drink glasses, get that new perfume, and turn that \"I wish we could\" into an \"I'm so glad we did.\" Visit amazon.com/prime to find millions of items delivered fast. Same-day delivery."
+    },
+    {
+      "start": 160.4,
+      "end": 161.1,
+      "speaker": "B",
+      "text": "It's on Prime."
+    },
+    {
+      "start": 161.4,
+      "end": 194.8,
+      "speaker": "C",
+      "text": "Available in select areas. Terms apply. When you need to build up your team to handle the growing chaos at work, use Indeed Sponsored Jobs. It gives your job posts the boost it needs to be seen and helps reach people with the right skills, certifications, and more. Spend less time searching and more time actually interviewing candidates who check all your boxes. Listeners of this show will get a $75 sponsored job credit at indeed.com/podcast. That's indeed.com/podcast. Terms and conditions apply. Need a hiring hero? This is a job for Indeed Sponsored Jobs."
+    },
+    {
+      "start": 195.6,
+      "end": 203.2,
+      "speaker": "A",
+      "text": "Welcome, Andrew. Thanks for joining me. Really excited to dive into this topic, one near and dear to both of our hearts, one we've talked about a lot in the past."
+    },
+    {
+      "start": 204,
+      "end": 208.8,
+      "speaker": "D",
+      "text": "I know, but this time it feels more real, like We're— it's like things are happening now."
+    },
+    {
+      "start": 209.6,
+      "end": 226.6,
+      "speaker": "A",
+      "text": "It is, it is. Things are happening. Apple Home is happening, hopefully, fingers crossed. But just to kind of set the stage for listeners who are not clued in on the smart home, Andrew, can you just give me a brief rundown of what Apple Home is?"
+    },
+    {
+      "start": 227.2,
+      "end": 248.5,
+      "speaker": "D",
+      "text": "I mean, Apple really jumped in the smart home space. It's been, you know, more than 10 years now when they first launched HomeKit, and it was, you know, kind of pitched as a very secure version of like the smart home because in the early days you had a ton of Amazon devices that were just kind of getting rubber-stamped certifications that were fraught with security issues and things like that. And after—"
+    },
+    {
+      "start": 248.5,
+      "end": 250,
+      "speaker": "A",
+      "text": "Devices that connected to Amazon."
+    },
+    {
+      "start": 250.4,
+      "end": 250.5,
+      "speaker": "D",
+      "text": "Yes."
+    },
+    {
+      "start": 250.6,
+      "end": 251.5,
+      "speaker": "A",
+      "text": "Not necessarily Amazon devices."
+    },
+    {
+      "start": 251.6,
+      "end": 254.1,
+      "speaker": "D",
+      "text": "And the A word assistant that we won't say."
+    },
+    {
+      "start": 254.3,
+      "end": 254.4,
+      "speaker": "B",
+      "text": "Yes."
+    },
+    {
+      "start": 254.5,
+      "end": 343.5,
+      "speaker": "D",
+      "text": "Um, but there were so many, you know, concerns around stuff like that. And Apple came out with its own version of the smart home stuff called HomeKit. And they even had like at the beginning you needed a specific hardware chip that you had to buy from Apple, which not only slowed things down in acquiring these chips but then also made things more expensive because you had to buy hardware components from Apple as part of their MFi program. And, uh, you know, it was very secure, it made all that really nice, and it has since, uh, got a little bit more lenient with that as Apple figured out how to do much of the same stuff through just software. But it has grown up so much. Then, uh, HomeKit became a large part of the framework for Matter, you know, the open standard now, including like the pairing process and onboarding process and all of that. And in kind of today's version of the smart home, it does support Matter alongside the other major ecosystems, at least to some degree. You know, there's little bits of, uh, you know, inconsistencies there, like with cameras. But, uh, for the most part, Apple still kind of sticks with where they were. It's a lot— there's many more accessories now. It works similar to the other smart home ecosystems, but privacy, security, all of that is still very front and center with Apple Home. I mean, even cameras, like until iOS 27 and all these launch, all the AI processing is done locally on your Apple TV or your HomePod, anything like that. So they've really put that as kind of their big push in the smart home space. And as we talk about stuff in, you know, today's episode, I think that's going to be a kind of a common topic."
+    },
+    {
+      "start": 343.6,
+      "end": 354.2,
+      "speaker": "A",
+      "text": "Big, big differentiator really from the other major platforms at least. Um, but what is the one thing that Apple Home has really been lacking over the years?"
+    },
+    {
+      "start": 355.9,
+      "end": 358.3,
+      "speaker": "D",
+      "text": "I mean, there's been many things."
+    },
+    {
+      "start": 358.4,
+      "end": 403.3,
+      "speaker": "A",
+      "text": "Okay. But the one thing that is very relevant to today that I know you've been excited for for a long time is a way to control your smart home without using your phone and without using your voice, right? So they have been behind in this. They have not had a smart display. And this is the thing that has been rumored for like 3 years now at least. And we're honestly surprised they didn't, this didn't come to the fore sooner because Apple has been really lagging behind Amazon and Google here who have had smart displays for years at this point. And I know that from your perspective as being a solely Apple Home user, you've been quite jealous of like the Nest Hubs and the Echo Shows, right?"
+    },
+    {
+      "start": 404.2,
+      "end": 404.9,
+      "speaker": "D",
+      "text": "Oh, absolutely."
+    },
+    {
+      "start": 405,
+      "end": 411.3,
+      "speaker": "A",
+      "text": "Yeah. What kind of help, what would make it, useful to you to have a smart display, do you think?"
+    },
+    {
+      "start": 411.8,
+      "end": 496.3,
+      "speaker": "D",
+      "text": "I mean, there's a lot of them and obviously, so I broadened out. I'm obviously now that Matter is, is much nicer to play with, with multiple ecosystems. I do have a Samsung SmartThings setup. I do have, I have like one Amazon thing, but I don't even leave that plugged in, but it exists here in the house. Uh, and I do have like the, I can't even think of what it's called, but the Nest Max, the, the Google smart display. I have one of those as well. And I really like the displays. I even have like the Eufy E10, which is kind of like, you know, their version of a smart display. But I, I like that kind of just central home point for all of your devices, an easy way to control things, see your cameras without having, like you said, to pull out a phone or a tablet. If you walk into something, I just want to be able to control something, just make it really easy to gain access to all of those things as well as other relevant information. I think it makes obviously perfect sense because we've seen it with other products. To include your smart home controls along with your daily necessities like weather, calendar, things like that. So to combine those things into a similar or a complete form factor is what I've been wanting. I want what all of these other ecosystems have had for years, but with Apple's magic touch on it. And I think as we talk about some of the rumors, like Apple has some really cool little tricks that it does that is going to make this extra compelling to me. Compared to some of the other ones that have been out there for a while."
+    },
+    {
+      "start": 497,
+      "end": 503.7,
+      "speaker": "A",
+      "text": "Yeah, yeah, excellent. Yeah, well, this is, as you can probably tell, this is the one that we are both most excited about, I think."
+    },
+    {
+      "start": 503.8,
+      "end": 505.1,
+      "speaker": "D",
+      "text": "We've already ruined the ranking."
+    },
+    {
+      "start": 505.2,
+      "end": 567.6,
+      "speaker": "A",
+      "text": "I know, I ruined the ranking, sorry. But in terms of likelihood, I'm on the fence a little bit on this one. But yes, okay, so we have a Vergecast Rank-O-Matic that's gonna help us rank the 7 Apple Home hardware rumors in terms of the most likely to be in our homes next week, And also, and then in terms of which ones maybe just be vaporware if they end up in number 7. So, okay, so we, I think, let's start with the smart display 'cause that really is, as we said, the one that we're most excited about. Honestly, this is a really big lift, I think, for Apple. I think they have to do something really new here. And the rumors have been kind of all over the place. I mean, there's, there's been a little consistency, but there's also just sort of been like, oh, it's going to have MagSafe. Oh, it's going to be removable. Oh, it's going to be a HomePod with a screen attached to it. Blah, blah, blah. What do you think? What do you think we're going to get? And what do you actually want this device to look like?"
+    },
+    {
+      "start": 568.1,
+      "end": 624.7,
+      "speaker": "D",
+      "text": "Basically what I'm expecting is a 7-inch display based on the latest like Bloomberg leaks. It sounds like it's going to be like that 7-inch size tablet on top of a half dome size. So kind of like half a HomePod or it's going to look like, you know, the iMac G4 back in the day. But essentially, you know, a little 7-inch tablet on top of a dome. I think that is very, very likely. Um, there seems like there's gonna be two versions of this. I could see that happening of it being wall-mountable versus the other one. And when they've said rumors about like MagSafe, that could just be essentially just means magnetic. I could see them doing some sort of like wall-mount version that you screw on and then it just kind of snaps onto your wall that you could still pull off and charge or something like that to make it happen. Yeah, that's a whole other thing, but I'm very curious at how Apple makes a wall-mount mount work, because I cannot imagine Apple asking people to do any sort of wiring installation. It's not gonna—"
+    },
+    {
+      "start": 624.7,
+      "end": 624.9,
+      "speaker": "A",
+      "text": "thing."
+    },
+    {
+      "start": 625.1,
+      "end": 658.8,
+      "speaker": "D",
+      "text": "Yeah, yeah, it's not gonna do that. So I'm guessing it's going to be probably battery powered or with a cable that drags down, and then we're gonna get third-party options from like Belkin or something that will allow you to do like an in-wall wiring kit for those who are like extra ambitious to pull it off. But I do think it'll be roughly 7-inch size. There'll be a tabletop version and some sort of wall version of it. Um, I don't think that we're going to get any sort of App Store at the beginning. My guess is we're going to get a bunch of the Apple apps like Safari, News, Home, Calendar, Reminders, all of those."
+    },
+    {
+      "start": 659,
+      "end": 659.6,
+      "speaker": "A",
+      "text": "FaceTime."
+    },
+    {
+      "start": 659.9,
+      "end": 661.9,
+      "speaker": "D",
+      "text": "Yeah, of course. All of that kind of stuff."
+    },
+    {
+      "start": 661.9,
+      "end": 665.4,
+      "speaker": "A",
+      "text": "Like an iPad, basically, but with a different interface."
+    },
+    {
+      "start": 666.4,
+      "end": 721.6,
+      "speaker": "D",
+      "text": "Yeah. It's going to be some sort of kind of like amalgamation of like Standby Mode and Apple TV is what I'm going to imagine. Kind of like a combination of those interfaces because we see things like the screensaver interface for Apple TV. That looks like it's destined for this device, uh, with a swipe up and changing them. Similar with Control Center, how it just slides over or slides down. It looks like it would be perfect on something like this. And it's also— this new operating system is supposedly based on tvOS, so would make sense there. Um, but I don't think we're going to get a full-fledged App Store, but I think that is part of the brilliance of this. I had been saying this, and now this, like, latest leak in the macOS 26.7 RC has seemingly confirmed what I've been saying for, like, a year now, which is that Apple is going to take its widget and live activities interfaces that they brought to the Mac and put it on this."
+    },
+    {
+      "start": 722.3,
+      "end": 723.5,
+      "speaker": "A",
+      "text": "Uh, that makes sense."
+    },
+    {
+      "start": 723.7,
+      "end": 790,
+      "speaker": "D",
+      "text": "Like you can already put any of your iOS widgets and live activities from your phone on your Mac and it's not running anything, you know, on your, your Mac. I think it can do the same thing here. And with that combined with all of the app intents and interactive widgets that it's been able to do. You're essentially going to get apps, but developers would have to do nothing on day one to, to more or less make their things work. And I was looking through all of my stuff recently. Sonos just launched live activity with complete playback control that could show up on your smart display without— you get a full Sonos control on this day one. Um, all of the major smart home brands already have very robust, like, control widgets that you could use. Eufy, SwitchBot, Aqara, Amazon has one, Google Home has one, of course, Apple Home. So all of those to control all of your third-party ecosystem things would be on this. Um, calendars, every calendar company has their own, like Fantastical, Google, Amazon, whatever. Control security systems. I know I have one for Abode, ADT. I think all of them have those."
+    },
+    {
+      "start": 790.1,
+      "end": 790.4,
+      "speaker": "B",
+      "text": "You could have—"
+    },
+    {
+      "start": 790.4,
+      "end": 795,
+      "speaker": "A",
+      "text": "they wouldn't need to have their own apps. No, they wouldn't have to do anything."
+    },
+    {
+      "start": 795.1,
+      "end": 795.7,
+      "speaker": "D",
+      "text": "And like, there's—"
+    },
+    {
+      "start": 795.7,
+      "end": 812.8,
+      "speaker": "A",
+      "text": "that would make it a lot easier. To bring into your home and set up how you like. Because it seemed to me that it was most likely to just lock you into using Apple Home, using Google, using Apple Calendar, using FaceTime. But you're thinking this might give it a little bit more breathing room to not be so walled garden-like."
+    },
+    {
+      "start": 813.3,
+      "end": 816.6,
+      "speaker": "D",
+      "text": "Widgets are fully interactive now, so you can actually control stuff."
+    },
+    {
+      "start": 816.7,
+      "end": 817,
+      "speaker": "A",
+      "text": "Right."
+    },
+    {
+      "start": 817.4,
+      "end": 834.3,
+      "speaker": "D",
+      "text": "And yeah, they, it could just run off of your phone. And that rumor said it would show the widgets but hide personal information until it recognized you using the built-in camera and facial recognition. Once it recognized you, then and it would show your personal information. So it would have full multi-user support like we do on Apple TV technically."
+    },
+    {
+      "start": 834.8,
+      "end": 901.6,
+      "speaker": "A",
+      "text": "Right, and that's gonna be key here because whilst we have that on HomePods, it's a little spotty. Too many times a day I get, who am I speaking to? From my Siri. I'm like, eh. So yeah, it'll be, that's something that Apple really needs to focus on. And this is the problem that has been, we've had with using iPads as a home controller, which is something that people have been doing to date to try and fill this gap, is that they're not multi-user. Yeah, it's not easy to switch. And so, a visual interaction makes a lot of sense. Face ID, you see who it is. You also have a guest mode, you would assume, for people be able to use and control devices. I just want something simple. I want Apple to crack the simple smart home interface. I don't want to have to deal with tons of little buttons or taps. I wanna be able to walk towards, say what I want, and it just appears and I can tap. Like, you know, turn the lights on and the brightness of appears. And I think they've got, and hopefully there'll be some sort of motion sensing, UWB or something that, so it recognises you as you approach and adapts the display for you."
+    },
+    {
+      "start": 901.8,
+      "end": 903.8,
+      "speaker": "D",
+      "text": "Yep. Some sort of proximity stuff. Yep."
+    },
+    {
+      "start": 904.3,
+      "end": 915,
+      "speaker": "A",
+      "text": "Okay. So where do we think this is on the probability scale? Is this like 1 or 2, or are we thinking later this year, maybe 3 or 4?"
+    },
+    {
+      "start": 915.7,
+      "end": 954.9,
+      "speaker": "D",
+      "text": "This has been, I don't know what they're going to do without like spoiling the rest of our list here. There's other rumors for things like Apple TV and HomePod that are perhaps more likely. So like this would have to be a minimum of 3, but yeah, that's what I would say. I would be really surprised slash confused if Apple introduced like part of its smart home plan and not the other part. Like I know there's like a rumored October event where we I could see this, but it just seems weird. It's like, here's an Apple TV and HomePod, but not the display. We're going to wait one month until we show that off. So I don't know. I think at a minimum, I'm going to, I'm going to have to say 3."
+    },
+    {
+      "start": 955.6,
+      "end": 955.7,
+      "speaker": "A",
+      "text": "Okay."
+    },
+    {
+      "start": 955.7,
+      "end": 957.1,
+      "speaker": "D",
+      "text": "I think it's more likely than some of the other stuff."
+    },
+    {
+      "start": 957.8,
+      "end": 990.5,
+      "speaker": "A",
+      "text": "Well, and that was, so I think that leads us right into the new HomePod and the new Apple TV, which kind of feel like sure things, like the rumors are that they've been ready for ages, but something's been holding it up. What might that be, Siri? What might that be? So yeah, um, what are we getting with new Apple TV and new HomePod Mini here? So HomePod Mini is so long in the tooth, what, 6 years old now? Really old. So yeah, you got, you gotta do this one, Apple. You gotta. There's no choice, really."
+    },
+    {
+      "start": 991.4,
+      "end": 1031.2,
+      "speaker": "D",
+      "text": "Yeah, 100%. And what, so here's, okay, Switching to conspiracy hat a little bit. Part of me wonders when they do this, like I wonder if they could do some sort of pairing with the HomePods and the Smart Display. Because right now your HomePod is running off of Apple Watch chips, right? Just like the current ones are. So could they do something like bring Apple intelligence and the new version of Siri AI to this Home Smart Display? And then relay the more complicated messages through this hub and not have to put a, you know, crazy high, like not an A17 Pro in here."
+    },
+    {
+      "start": 1031.3,
+      "end": 1031.7,
+      "speaker": "A",
+      "text": "Right."
+    },
+    {
+      "start": 1031.7,
+      "end": 1054.9,
+      "speaker": "D",
+      "text": "But then again, also like the new version of Apple Watch does have kind of Apple intelligence on it now, uh, you know, with watchOS 27. So maybe you'll do that, but we're going to have some form of Apple intelligence, I think is like a guarantee, like Siri AI will be here because right now. Apple's assistant is so inconsistent. I don't want my HomePods to answer me when I talk to my, to Siri."
+    },
+    {
+      "start": 1055.6,
+      "end": 1063.8,
+      "speaker": "A",
+      "text": "I know this is, it drives me nuts trying to add something to the shopping list and it, my phone will, and then my HomePod and they'll be like competing with each other."
+    },
+    {
+      "start": 1064.2,
+      "end": 1077.9,
+      "speaker": "D",
+      "text": "The HomePod can't tell if you're stumbling over your phrases. The HomePod can't do, you know, almost any of the intelligent stuff that you can now do on your phone. And then the TV is a whole separate thing. It has an even more limited set of controls."
+    },
+    {
+      "start": 1078.2,
+      "end": 1080.5,
+      "speaker": "A",
+      "text": "We need that unification. Yeah."
+    },
+    {
+      "start": 1080.6,
+      "end": 1120.6,
+      "speaker": "D",
+      "text": "Yeah. So I think that no matter what, this is going to have to have some sort of, you know, Siri AI. That's what this has been held up for. That's going to be your biggest thing. Other than that, like updated, you know, acoustic, probably second generation ultra wideband chip to improve like handoff experience. I don't know if they'll do anything with like people tracking in the home or if that's just like a pin it for possible later utilities with things, but I think likely upgraded chip. I don't know if they'll do it in an N1. You don't really need Wi-Fi 7 on something like a smart speaker. Um, yeah, but they could throw it in because they just made a whole bunch of those N1 chips and they just have them lying around. But other than that, it's probably just gonna sound better and have Apple intelligence."
+    },
+    {
+      "start": 1121.1,
+      "end": 1196.1,
+      "speaker": "A",
+      "text": "And that's, and that's probably key. That's what, that's one of our other top 7 is, uh, Siri in Apple Home. Um, because in case people weren't aware, it's a lot like the whole Google Home Gemini thing that's going on right now is that that the assistant that you use in your home with Apple is completely different from the assistant you use on your phone. And this is talking about the new assistant on iOS 27. I'm currently on the beta for that, public beta for that. So yeah, and that is a very frustrating disconnect because your home and your phone are not separate. You use the two of them together a lot. So yeah, we really need that. And I think actually this may even bump the Home Smart Display to 4 because I think we're gonna have, a new Apple TV, a new HomePod mini, and a new Siri in September because that lays that foundation, that lays that groundwork for making this Apple Home shift into new hardware. I think that's long time coming and pretty guaranteed that we're gonna get that. And the Apple TV, we've actually had a number of updates recently. So what do we think is gonna be about this one? Is it just the Siri AI bump or are we gonna get anything else? And maybe more on-device Apple intelligence?"
+    },
+    {
+      "start": 1196.7,
+      "end": 1242.8,
+      "speaker": "D",
+      "text": "Yeah, I think there's going to be a number of new things with this one. Now compared to something like the HomePod mini, because they're definitely not putting an A17 Pro in there, the new Apple TV, I think, will have at minimum an A17 Pro to support actual, like, on-device Apple intelligence. We've seen with, like, the new versions of Apple software, they specifically have, like, these powerful on-device models and some that are limited to the more recent devices. So I don't know where they'll land. With Apple TV, because it doesn't need quite as much, but my guess is A17 Pro processor enabling Apple intelligence. We will have, um, likely Apple's N1 chip. I think there were some code references to Apple's N1 networking chip. So Wi-Fi 7, Bluetooth 6, and still Thread, which is jumping to 1.4 with tvOS 27."
+    },
+    {
+      "start": 1243.3,
+      "end": 1245.1,
+      "speaker": "A",
+      "text": "Yay. Only one behind."
+    },
+    {
+      "start": 1245.8,
+      "end": 1257.6,
+      "speaker": "D",
+      "text": "Yeah, I know, about time. So we'll have those. There was also a late leak that showed we would be getting a new remote. Bloomberg first said this and on this was in like that, uh, macOS code."
+    },
+    {
+      "start": 1257.7,
+      "end": 1262.4,
+      "speaker": "A",
+      "text": "That's exciting. My husband won't use the Apple TV because he hates the remote. What is it?"
+    },
+    {
+      "start": 1262.5,
+      "end": 1276.6,
+      "speaker": "D",
+      "text": "But it's, I think it's going to look basically the same. I'm just hoping that they put in Find My instead of whatever they have now. That's the one thing when I was reviewing like the Google TV, I know everybody really likes it."
+    },
+    {
+      "start": 1277.2,
+      "end": 1283,
+      "speaker": "A",
+      "text": "The button on the back that rings your remote. So simple. So good. Apple, do it."
+    },
+    {
+      "start": 1285.4,
+      "end": 1356.9,
+      "speaker": "D",
+      "text": "Support for the show comes from ProtonVPN. Ever notice how the second you Google something, suddenly every ad you see is about that thing? Or you try to watch a show while traveling and it's blocked. Whether you're on the road or just at home, your online activity shouldn't be up for grabs. ProtonVPN adds a layer of protection that keeps your browsing habits private and your data out of the wrong hands. They have a strict no-logs policy that's independently verified. It's open source, so anyone can inspect how it works, and it's backed by a foundation focused on protecting user rights, not selling your data behind the scenes. So whether you want to watch content from anywhere, get around blocked sites, or just keep your activity private on public Wi-Fi, ProtonVPN has you covered. It's easy to get started. Right now, ProtonVPN is offering our listeners 70% off a 2-year plan when you go to protonvpn.com/verge. That's P-R-O-T-O-N-V-P-N dot com slash verge for 70% off your 2-year plan. That's protonvpn.com/verge."
+    },
+    {
+      "start": 1359.7,
+      "end": 1396.3,
+      "speaker": "C",
+      "text": "When you need to build up your team to handle the growing chaos at work, use Indeed Sponsored Jobs. It gives your job posts the boost it needs to be seen and helps reach people with the right skills, certifications, and more. Spend less time searching and more time actually interviewing candidates who check all your boxes. Listeners of this show will get a $75 sponsored job credit at indeed.com/podcast. That's indeed.com/podcast. Terms and conditions apply. Need a hiring hero? This is a job for Indeed Sponsored Jobs. I get so many headaches every month. It could be chronic migraine, 15 or more headache days a month, each lasting 4 hours or more."
+    },
+    {
+      "start": 1396.8,
+      "end": 1441.2,
+      "speaker": "D",
+      "text": "Botox® prevents headaches in adults with chronic migraine. It's not for those who have 14 or fewer headache days a month. Prescription Botox® is injected by your doctor. Effects of Botox® may spread hours to weeks after injection, causing serious symptoms. Alert your doctor right away as difficulty swallowing, speaking, breathing, eye problems, or muscle weakness can be signs of a life-threatening condition. Patients with these conditions before injection are at highest risk. Side effects may include allergic reactions, neck and injection reaction site pain, fatigue, and headache. Allergic reactions can include rash, welts, asthma symptoms, and dizziness. Don't receive Botox if there's a skin infection. Tell your doctor your medical history, muscle or nerve conditions, including ALS Lou Gehrig's disease, myasthenia gravis, or Lambert-Eaton syndrome, and medications, including botulinum toxins, as these may increase the risk of serious side effects."
+    },
+    {
+      "start": 1441.9,
+      "end": 1479,
+      "speaker": "C",
+      "text": "Why wait? Ask your doctor. Visit botoxchronicmigraine.com or call 1-800-44-BOTOX. To learn more. You know those tiny back-to-school emergencies that somehow become your problem? That's why I love Uber Eats. You can order school supplies, snacks, and lunchbox essentials for $5 or less. So when your kid casually drops, \"I don't like peanut butter anymore,\" or, \"I need 5 green highlighters for a project due tomorrow,\" Uber Eats has you covered. Get everything you need for back-to-school today from your favorite brands like Albee and Staples on Uber Eats. Order now. Ends 9/7. $5 or less before taxes and fees. Select items only. Availability varies. See app for details."
+    },
+    {
+      "start": 1482.7,
+      "end": 1491.3,
+      "speaker": "A",
+      "text": "Let's rank these 3 that we just went over. Which do you think is a shoo-in number 1? HomePod mini, Apple TV, or better Siri for the home?"
+    },
+    {
+      "start": 1491.5,
+      "end": 1500.7,
+      "speaker": "D",
+      "text": "We can't do better Siri without the other 2. So I'm going to go Apple TV as number 1, mainly because I want it so much."
+    },
+    {
+      "start": 1501.1,
+      "end": 1501.6,
+      "speaker": "A",
+      "text": "So much."
+    },
+    {
+      "start": 1501.9,
+      "end": 1502.1,
+      "speaker": "C",
+      "text": "Okay."
+    },
+    {
+      "start": 1502.3,
+      "end": 1539.9,
+      "speaker": "A",
+      "text": "And then HomePod mini 2. Yes. New HomePods, which I'm not sure about Maxi, probably just Mini. We may get Maxi later. Sorry. Yep. Not official naming. And then Siri in the home, which probably won't have a different name, but this is the differentiation here is this is the different voice assistant that is slightly more tailored to the home and to communal use as opposed to just your phone. Okay, so 1, 2, 3, 4, we got. These are all coming this year, I would say. Fingers crossed. What do you think, Andrew?"
+    },
+    {
+      "start": 1539.9,
+      "end": 1540.2,
+      "speaker": "C",
+      "text": "Do you agree?"
+    },
+    {
+      "start": 1540.9,
+      "end": 1570.7,
+      "speaker": "D",
+      "text": "I think so. I guarantee it. I'm wondering just if there, maybe they'll announce like the smart display, you know, at the same time as the events, but it won't launch. 'Cause that's, you like, it's fuzzy with the rumors on terms of like announcement versus availability. They could announce this thing, let the phones and other tech get bigger highlights, and then launch the smart display can hit shelves a few weeks later to kind of keep that Apple PR train rolling. And to just kind of spread it out. So they could do something like that, even if it doesn't require much dev support."
+    },
+    {
+      "start": 1571.2,
+      "end": 1575.3,
+      "speaker": "A",
+      "text": "That would be an awful lot of saying Apple Home in an iPhone keynote."
+    },
+    {
+      "start": 1575.6,
+      "end": 1577.8,
+      "speaker": "D",
+      "text": "I mean, that would be so fun."
+    },
+    {
+      "start": 1577.9,
+      "end": 1646.4,
+      "speaker": "A",
+      "text": "Oh my gosh, I'd be so excited. We'll see. We'll see. We'll have to have a Vergecast game for how many times they say Apple Home in the next event. Okay. So we have 3 left that we're going to power through because they're all quite exciting, but also hugely dubious rumors at this stage. So the— we've got a robotic tabletop display and we have security cameras. So an Apple Doorbell and an Apple security camera. What are you thinking about these three? I mean, the most— let's start with the security cameras because that kind of leads on from what we've been talking about. Like it fits into Apple Home to bring their own first-party hardware security cameras. So maybe an indoor camera, and a doorbell camera, but they've never made an Apple Home smart device. This would be a first. The HomePods don't count. Apple TVs don't count. Those are hubs. They're not devices for running your— they're not devices that you use in your home like a camera is. So this would be a big shift. So how likely do you think these are and which one is more likely, would you say?"
+    },
+    {
+      "start": 1646.8,
+      "end": 1699.6,
+      "speaker": "D",
+      "text": "If I was, you know, putting money on it, I think that the camera, the security camera, dedicated camera would be more likely than the doorbell. Just because doorbells can require wiring. And I— that just is very un-Apple to have to do any install or have a pro doing any install. Jen, I know you talk— like, we talked to these doorbell companies and they talk about how they have, oh, well, you can do a white service option where we should— where someone shows up at your house and does the install. And I don't think Apple's going to want to get close. So if I'm putting money, I'm— the camera is going to be more important because it's plug and play and Even though there are so many cameras out there, I think this one could be very big for Apple. Obviously, its competition in Google and Amazon have their own first-party cameras that they are offering. And in the world that we are at right now, I think security and privacy are such huge things."
+    },
+    {
+      "start": 1699.9,
+      "end": 1700.4,
+      "speaker": "A",
+      "text": "Yeah."
+    },
+    {
+      "start": 1700.5,
+      "end": 1710.9,
+      "speaker": "D",
+      "text": "And I think it ties in with the AI stuff. And to really do a lot with AI in the home, you're going to need cameras to be able to do that."
+    },
+    {
+      "start": 1711,
+      "end": 1797.1,
+      "speaker": "A",
+      "text": "Yeah, the visual information that feeds in. I just wrote a piece about Gemini for Home and how they, how Gemini can take the text descriptions and match that to things that you are doing around the home. Like, so having that data fed into the home from the cameras gives so much context to a smart home system that could potentially unlock significant value in the way that your smart home can maybe be a little bit more autonomous and could potentially sort of run, help run your home for you, which is sort of that ambient home goal. But cameras, people don't really, I don't know, even from Apple, do you feel comfortable? Do you have cameras inside your house monitoring you while you're in your home? That I just don't, I just don't, and as I just don't see that as something that a lot of people are going to want to do. So it's a security camera when you you know, turns on when you leave, which is something that Apple Home does very well. But you're right, privacy and security are what Apple is selling here, and they've done this, that very well in the home. And really, they only have to beat Amazon and Google on trust here, which isn't gonna be that hard at this stage. So there are a lot of cameras out there, but there aren't a lot of cameras that people say, I feel 100% confident putting this inside my home. And I feel like Apple probably has has the, uh, the trump card there. What do you think?"
+    },
+    {
+      "start": 1797.6,
+      "end": 1849.7,
+      "speaker": "D",
+      "text": "I think that's absolutely their play because it can— once your home starts reacting or like doing things predictively, it can be creepy. And you want to have— if you're going to have something in there that does that, you're going to need like the one that's most secure and private. We do have cameras in the house because we have so many pets and stuff. When we leave, we, we watch them. So like, it needs to be— we for sure have to have cameras in the house, but we don't have them in any of the bedrooms or anything, but at least in like the living room, dining room, main areas, we do have cameras. And I just think that's Apple's play there to, to use that for AI and just really hammer home all these privacy security things is going to give them that leg up. But we, that the home predictive stuff could be 2 years away from Apple at a minimum doing anything with it, but it could start just with a basic."
+    },
+    {
+      "start": 1849.8,
+      "end": 1851.9,
+      "speaker": "A",
+      "text": "That's very optimistic."
+    },
+    {
+      "start": 1852.1,
+      "end": 1871.3,
+      "speaker": "D",
+      "text": "It's Apple. They can start super tiny. Like, I mean, technically Apple's been doing AI for how many years now, just with the little stuff of, you know, on-device Core ML, uh, the stuff showing up in Control Center, like that is AI predicting what controls you're going to need before you need it. And it's just been in Control Center and it's fantastic."
+    },
+    {
+      "start": 1871.9,
+      "end": 1885.5,
+      "speaker": "A",
+      "text": "Yeah. Yeah. No, you're right. There are little touches there and we may see more, but I actually think the doorbell camera. Is, makes more sense just because it is a much more popular device. Like a lot of people want doorbells."
+    },
+    {
+      "start": 1885.9,
+      "end": 1892.7,
+      "speaker": "D",
+      "text": "How, what do you think Apple's going to do with install? Like, I know it's just a weird question to hit so much, but how do you think Apple approaches that?"
+    },
+    {
+      "start": 1893.3,
+      "end": 1918.3,
+      "speaker": "A",
+      "text": "Yeah. I mean, well, there was rumors about it being some kind of like a MagSafe device. So like, I don't know, maybe that has to get wired first. Some kind of battery pack inside. I don't know. I mean, yeah, some kind of battery pack inside. Wired. Yeah. So that you don't actually have to wire anything. Although why— Apple HomeKit Secure Video only work with wired doorbells right now. So their whole infrastructure is around wired cameras. I know there were workarounds."
+    },
+    {
+      "start": 1918.6,
+      "end": 1928.6,
+      "speaker": "D",
+      "text": "Well, those workarounds are if you have a hub for them, like the, the Aqara one. What if the new Smart Display?"
+    },
+    {
+      "start": 1929.1,
+      "end": 1955.5,
+      "speaker": "A",
+      "text": "Oh, the new Smart Display would be the hub for the camera. That would make a lot of sense. Maybe these come, maybe these come together too, because that's one of one of the biggest uses for a smart display is seeing your video doorbell when someone rings the door. You can obviously do that with your Apple TV today. When you— someone rings the doorbell, you can have the video show up on your, on your big screen. But it's also nice to have it on your little screen that's on your desk or in your— on your kitchen counter. I think the doorbell just makes more sense for the actual consumer."
+    },
+    {
+      "start": 1955.6,
+      "end": 1960.5,
+      "speaker": "D",
+      "text": "Fine, if it's battery powered, I'm with you. We'll do 5. We'll say 5 for the doorbell."
+    },
+    {
+      "start": 1960.8,
+      "end": 1966.1,
+      "speaker": "A",
+      "text": "Doorbell 5. Um, I do love the facial ID feature on this that's been rumored though."
+    },
+    {
+      "start": 1966.3,
+      "end": 1966.4,
+      "speaker": "C",
+      "text": "Do you?"
+    },
+    {
+      "start": 1966.6,
+      "end": 1974.2,
+      "speaker": "A",
+      "text": "That you can— I do, because I've used it. I've used Face Unlock and I— with other cameras and I've actually really enjoyed it. I was surprised."
+    },
+    {
+      "start": 1974.8,
+      "end": 1977.8,
+      "speaker": "D",
+      "text": "Compared to UWB, do you— which one do you prefer or do you want both?"
+    },
+    {
+      "start": 1979.2,
+      "end": 2018.1,
+      "speaker": "A",
+      "text": "I liked both. I think the problem with UWB is you've got to have your phone on you. With Face Unlock, you don't have to have your phone on you, which is— it does make a difference, um, especially in for families if you have kids that don't have phones. I think it's a broader use case, Face ID. And with Apple, people are used to it. You use it to unlock your phone, so I use it to unlock my door. And that, I think that is just this more of a consumer use case in that. I think there's more of an AI use case in the camera. So we'll see. Let's go with 5 for doorbell, 6 for security camera. Does that sound good?"
+    },
+    {
+      "start": 2018.4,
+      "end": 2019.2,
+      "speaker": "D",
+      "text": "Sounds good."
+    },
+    {
+      "start": 2019.2,
+      "end": 2029.1,
+      "speaker": "A",
+      "text": "And then the last one, the most exciting one. Okay. Least likely to happen ever. I don't actually think this is going to happen. Robotic tabletop display."
+    },
+    {
+      "start": 2029.3,
+      "end": 2030.5,
+      "speaker": "D",
+      "text": "I think it's going to happen."
+    },
+    {
+      "start": 2030.5,
+      "end": 2033.1,
+      "speaker": "A",
+      "text": "What is this one, Andrew? You do think it's going to happen?"
+    },
+    {
+      "start": 2033.2,
+      "end": 2033.9,
+      "speaker": "D",
+      "text": "Oh, 100%."
+    },
+    {
+      "start": 2034.3,
+      "end": 2063.5,
+      "speaker": "A",
+      "text": "I want the lamp. The lamp. So this is what has been rumoured, like within Apple, they call it the Pixar lamp, this robot. And there's actually a video of Apple testing a similar robot lamp that they did for a sort of a white paper to prove that you need interaction with a, with a device that is endearing. And so it sounds like this device might be designed to sort of be your friend. Is that, is that what you're hearing?"
+    },
+    {
+      "start": 2064.5,
+      "end": 2088.1,
+      "speaker": "D",
+      "text": "I mean, we've heard— who knows where all these things are going to go together, but this is my thought. I think this is 100%, like, very likely to happen. I'm not gonna say guaranteed. Apple can scratch, scratch things at any point in the process for any reason. And it could be a little less exciting than some of the rumors say. Like, you talk about it like being your friend. I don't know about that. We've heard versions of Apple testing out like the—"
+    },
+    {
+      "start": 2088.4,
+      "end": 2093.8,
+      "speaker": "A",
+      "text": "well, apparently it's codenamed Charismatic is the OS that's going to be used."
+    },
+    {
+      "start": 2093.8,
+      "end": 2097.7,
+      "speaker": "D",
+      "text": "But I heard that was the name for Apple's HomeOS, which could just run on the smart display."
+    },
+    {
+      "start": 2098.1,
+      "end": 2103,
+      "speaker": "A",
+      "text": "Right. Yes. But charismatic is quite telling. Like that implies some kind of—"
+    },
+    {
+      "start": 2103.1,
+      "end": 2111.8,
+      "speaker": "D",
+      "text": "that Apple might have a version of Siri AI just running as a version of the little Finder face or little Finder guy."
+    },
+    {
+      "start": 2112.5,
+      "end": 2112.5,
+      "speaker": "A",
+      "text": "Yeah."
+    },
+    {
+      "start": 2112.7,
+      "end": 2125.2,
+      "speaker": "D",
+      "text": "So what if, Jen, it's literally just an adapter or an updated version of this smart display that uses the technology that Apple's already had out for a few years. The tracking—"
+    },
+    {
+      "start": 2125.2,
+      "end": 2125.8,
+      "speaker": "A",
+      "text": "Dot Kit."
+    },
+    {
+      "start": 2126.2,
+      "end": 2126.7,
+      "speaker": "D",
+      "text": "Dot Kit."
+    },
+    {
+      "start": 2127,
+      "end": 2127.1,
+      "speaker": "A",
+      "text": "Yeah."
+    },
+    {
+      "start": 2127.2,
+      "end": 2135.4,
+      "speaker": "D",
+      "text": "Like this is no longer an existing product. I'm holding up like the Belkin Tracking Stand Pro, which was, I think, recalled. Uh, it was."
+    },
+    {
+      "start": 2135.5,
+      "end": 2137.1,
+      "speaker": "A",
+      "text": "Yes. So you should not have that."
+    },
+    {
+      "start": 2137.4,
+      "end": 2139.9,
+      "speaker": "D",
+      "text": "I should not. It's a fire hazard apparently."
+    },
+    {
+      "start": 2140.2,
+      "end": 2156.2,
+      "speaker": "A",
+      "text": "But yeah, it can move. It was able to move and follow you around. And that's what this rumored tabletop display is going to be. It's rumored to be like a 7-inch display, right? On a motorized arm that can move. Around with you and like react to you is the rumor."
+    },
+    {
+      "start": 2156.7,
+      "end": 2173.9,
+      "speaker": "D",
+      "text": "It could just, instead of being on a stationary base like we have with, you know, rumored for the launch of a half HomePod mini with a 7-inch display, what if it's just a bigger version of that base that has Dot Kit built into it that follows you around the room?"
+    },
+    {
+      "start": 2174.4,
+      "end": 2179.8,
+      "speaker": "A",
+      "text": "That's far less exciting than a robot. I thought it was gonna be a robot, Andrew. Give me robots."
+    },
+    {
+      "start": 2181.2,
+      "end": 2215.6,
+      "speaker": "D",
+      "text": "I mean, we're getting there. You gotta start somewhere. You gotta start on your feet. On your counter. I keep seeing, I don't know, I, cause it's, it's, you know, X or Twitter, you see one video and then you see a thousand of the same video. But for the last several days, I've just seen all the companies launching their own versions of the Pixar lamps. And I just keep seeing videos of them as AI assistants rotating around literally as just lamps, but I could see Apple making a version of, you know, it's, it's assistant that has some sort of UI to it. And then on some sort of DotKit base with an improved speaker that feels very much like a personal assistant, a personal robot sitting on your counter."
+    },
+    {
+      "start": 2216.2,
+      "end": 2280.8,
+      "speaker": "A",
+      "text": "Okay, Andrew, we've got it. We've ranked the likelihood of the products arriving, and number 1 is Apple TV. We think that's a shoo-in. HomePod mini, maybe not Maxi. We didn't really get to that. Number 2. And then at number 3 will be Siri in Home, forgets the Apple Intelligence. And those 3 are, you know, neck and neck at the finish line, followed closely, hopefully, number 4, the smart— the Home Smart Display, the Apple Hub, Apple Home Hub. Who knows what it's going to be called? Apple Pad. Apple Pad sounds good to me. Home Pad. There we go. There you go, Apple. Take that one. And then number 5 is an Apple Doorbell Camera. Number 6, an Apple Security Camera. And then number 7, the robotic tabletop display that looks like the Pixar lamp and that's going to be charming. Um, that seems not likely in my books. Andrew's a lot more optimistic. Thank you, Andrew. Really appreciate you, uh, joining me to sort this one out, and we'll have to get back together in a few months and see if we got it right."
+    },
+    {
+      "start": 2281.1,
+      "end": 2283,
+      "speaker": "D",
+      "text": "Hopefully we do. Sounds great."
+    },
+    {
+      "start": 2283.8,
+      "end": 2306.3,
+      "speaker": "A",
+      "text": "That's it for The Vergecast. Remember to subscribe to The Verge for ad-free episodes of our podcasts. Exclusive newsletters, and more. We love to hear from you. Email us at vergecast@verge.com or call the hotline at 866-VIRGE-11. The Vergecast is a production of The Verge and the Vox Media Podcast Network. Today's show was produced by Josh Carhas, Eric Gomez, Brandon Kiefer, and Travis Larchuk."
+    },
+    {
+      "start": 2308.5,
+      "end": 2308.6,
+      "speaker": "B",
+      "text": "Bye!"
+    },
+    {
+      "start": 2310.1,
+      "end": 2339.6,
+      "speaker": "C",
+      "text": "You know those tiny back-to-school emergencies that somehow become your problem? That's why I love Uber Eats. You can order school supplies, snacks, and lunchbox essentials for $5 or less. Less. So when your kid casually drops, \"I don't like peanut butter anymore,\" or, \"I need 5 green highlighters for a project due tomorrow,\" Uber Eats has you covered. Get everything you need for back to school today from your favorite brands like Aldi and Staples on Uber Eats. Order now. Ends 9/7. $5 or less before taxes and fees. Select items only. Availability varies. See app for details."
+    },
+    {
+      "start": 2340.1,
+      "end": 2368.7,
+      "speaker": "D",
+      "text": "Labor Day savings are happening now at The Home Depot with select appliances starting at $399. Plus, save up to an extra $1,000 and get free delivery on appliance purchases of $998 or more. Get a Whirlpool Laundry Tower featuring industry-first UV Clean technology designed to reduce bacteria in the wash without fading fabrics. Plus, with great prices at The Home Depot, you can save on select appliances designed to make laundry day easier. Shop Labor Day savings at The Home Depot today. Offer valid August 27th through September 16th."
+    },
+    {
+      "start": 2368.7,
+      "end": 2369,
+      "speaker": "B",
+      "text": "US only."
+    },
+    {
+      "start": 2369.1,
+      "end": 2369.9,
+      "speaker": "D",
+      "text": "See store or online for details."
+    }
+  ]
+}

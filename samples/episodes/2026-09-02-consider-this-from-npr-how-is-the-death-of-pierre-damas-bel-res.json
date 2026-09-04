@@ -1,0 +1,192 @@
+{
+  "episode": {
+    "id": "71b402f19471e3c67cedab1aa44ba0b9b0578a6ee6eabf561876adec9ec84653",
+    "podcastTitle": "Consider This from NPR",
+    "feedUrl": "https://feeds.npr.org/510355/podcast.xml",
+    "guid": "a6c89a9c-3a33-402f-9329-2ea5270464bf",
+    "title": "How is the death of Pierre Damas Bel resonating with Ohio’s Haitian community?",
+    "description": "On Monday, Pierre Damas Bel died. His family believes he died by suicide, motivated by the loss of his temporary protected status -- a loss that many Haitian immigrants experienced earlier this summer.<br/><br/>As a result, President Trump’s immigration policies have become a flashpoint in Bel's death. How is it resonating with the Haitian community in Springfield, Ohio?<br/><br/><br>This episode was produced by Erika Ryan and Karen Zamora, with audio engineering by Becky Brown, Éowyn Fain and Ted Mebane. <br/><br/>Our director is Jonas Adams.<br/><br/>It was edited by Sarah Handel and Tinbete Ermyas.<br/><br/>Our interim executive producer is Courtney Dorning.<br/><br/>Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include bonus episodes and sponsor-free listening. Learn more at <a href=\"http://plus.npr.org/\"target=\"_blank\"   >plus.npr.org</a>.<br/><br/>See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for sponsorship and to manage your podcast sponsorship preferences.<br/><br/><a href=\"https://www.npr.org/about-npr/179878450/privacy-policy\">NPR Privacy Policy</a>",
+    "pubDate": "2026-09-02T21:40:57.000Z",
+    "duration": 472,
+    "audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510355/npr.simplecastaudio.com/2a4a748e-0a2f-495a-8208-99765f0dad47/episodes/595f9058-bf14-4e1f-a343-a76359631778/audio/128/default.mp3?awCollectionId=2a4a748e-0a2f-495a-8208-99765f0dad47&awEpisodeId=595f9058-bf14-4e1f-a343-a76359631778&feed=4XF9Dp_o&t=podcast&e=nx-s1-5954237&p=510355&d=472&size=7569285",
+    "artworkUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2200x2200+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F15%2F93%2F1a38e22b473d99785289dbb2f424%2F56c30822-3cef-415b-ae5d-91028cd16652.jpg"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 572,
+    "utteranceCount": 22
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:37:28.461Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Pierre Damas Bel's Promising Life",
+      "description": "A profile of the 20-year-old Haitian immigrant who graduated with honors, joined ROTC, and enrolled in college before his death.",
+      "startTime": 0.577,
+      "endTime": 174.983,
+      "anchorPhrase": "it's consider this, where every day we go deep on one big news story. today,"
+    },
+    {
+      "index": 1,
+      "title": "The Ankle Monitor's Deadly Shame",
+      "description": "Pastor Carl Ruby describes how Pierre's GPS ankle monitor — and being denied a uniform in ROTC class — pushed him to the brink.",
+      "startTime": 174.983,
+      "endTime": 325.607,
+      "anchorPhrase": "it's consider this from npr. joining me to share more about the life of pierre"
+    },
+    {
+      "index": 2,
+      "title": "A Community Living in Terror",
+      "description": "Ruby details the wave of fear gripping Springfield's Haitian community — rising ICE raids, lost jobs, and multiple reports of suicidal despair.",
+      "startTime": 325.607,
+      "endTime": 454.265,
+      "anchorPhrase": "well, i've heard lots of reports of people who are suicidal. so in some sense,"
+    },
+    {
+      "index": 3,
+      "title": "Deported Into Gang Violence",
+      "description": "An embedded reporter's account reveals that deportees are running for their lives off the planes as gangs target them for cash they were promised but never received.",
+      "startTime": 454.265,
+      "endTime": 572,
+      "anchorPhrase": "the gangs assume everyone's getting off the plane has that money. so they are targets"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.6,
+      "end": 26.6,
+      "speaker": "A",
+      "text": "It's Consider This, where every day we go deep on one big news story. Today, how a shocking death in Springfield, Ohio is resonating there and far beyond. 20-year-old Pierre Damas-Bell arrived in the US from Haiti in 2024. He graduated high school with honors, was involved with ROTC, and recently enrolled at Wright State University. But on Monday, Bell died."
+    },
+    {
+      "start": 26.8,
+      "end": 32.5,
+      "speaker": "B",
+      "text": "He had aspirations to major in neuroscience. He told me how much education was important to him."
+    },
+    {
+      "start": 32.9,
+      "end": 105.2,
+      "speaker": "A",
+      "text": "Yola Lamar spoke at a press conference on Tuesday. She's a friend and member of the Haitian Community Network in Ohio. Bell's family believes that he died by suicide, motivated by the loss of his Temporary Protected Status, or TPS, a loss that so many Haitian immigrants experienced earlier this summer. This past July, Bell had written on his Instagram account that ICE had placed a GPS monitor on his ankle. He said he was, quote, \"carrying a feeling of shame and humiliation that I never imagined I would experience.\" Pierre was more patriotic than hateful Americans that's pushing this harmful, dehumanizing rhetoric. Consider This— President Trump's immigration policies have become a flashpoint in Belle's death. We hear from a faith leader about how this death is resonating with the broader Haitian community in Springfield. From NPR, I'm Ailsa Chang."
+    },
+    {
+      "start": 107,
+      "end": 121.3,
+      "speaker": "B",
+      "text": "This message comes from Saatva. Big days require deep, restorative sleep the night before, the kind of sleep Saatva mattresses are designed for. And now save up to $625 on $1,000 or more at saatva.com/NPR."
+    },
+    {
+      "start": 122.2,
+      "end": 168.5,
+      "speaker": "C",
+      "text": "Support for this NPR podcast and the following message come from Carvana. Selling your car? Carvana has offers so good they're almost inexplicable. Sell your car 100% online in minutes. Visit carvana.com today. This message comes from BetterHelp. Imagine carrying a backpack every day. Inside it, every conversation, every mistake, every expectation. It is easy not to notice how heavy it is until someone asks if you want to put it down. Sometimes feeling better starts exactly like that. Better isn't one size fits all. Better is personal. It's therapy tailored to the individual to help lighten what you carry. Match with a therapist who truly understands. Visit betterhelp.com/NPR."
+    },
+    {
+      "start": 175,
+      "end": 202.5,
+      "speaker": "A",
+      "text": "It's Consider This from NPR. Joining me to share more about the life of Pierre de Maaspel is Carl Ruby. He's the senior pastor of the Central Christian Church in Springfield, Ohio. He is also an immigration advocate and has been with Bell's family since his death. And a warning, our conversation does include graphic descriptions of violence. Pastor Ruby, thank you so much for making the time to speak with us."
+    },
+    {
+      "start": 202.8,
+      "end": 203.8,
+      "speaker": "D",
+      "text": "You're welcome, Elsa."
+    },
+    {
+      "start": 205,
+      "end": 209.2,
+      "speaker": "A",
+      "text": "Can you just first tell me a little bit about Pierre? What was he like?"
+    },
+    {
+      "start": 210.2,
+      "end": 229.2,
+      "speaker": "D",
+      "text": "Pierre was friendly, joyful. Everyone who knew him loved him. His teachers speak well of him. He works at the Texas Roadhouse. His fellow Employees and managers speak well of him. He was just a joyful, very smart young man who wanted to be a doctor."
+    },
+    {
+      "start": 229.8,
+      "end": 236.5,
+      "speaker": "A",
+      "text": "I know that you've been in very close contact with Pierre's family this week. Can you share how they're doing right now?"
+    },
+    {
+      "start": 237.5,
+      "end": 257.8,
+      "speaker": "D",
+      "text": "Yeah, I mean, they're devastated, like, you know, all of our families would be. I think the difference is they're devastated and they're angry because This was just so unnecessary. This young man had never even had a traffic ticket, posed no threat at all. He was just terrified of going back to Haiti."
+    },
+    {
+      "start": 258.3,
+      "end": 266,
+      "speaker": "A",
+      "text": "Yeah. What is Pierre's family saying to you about his death? Why do they think it happened?"
+    },
+    {
+      "start": 267.4,
+      "end": 304.6,
+      "speaker": "D",
+      "text": "They believe that it happened because of the ankle monitor. He was teased at school about it. He's a student at Wright State. He posted about it. He talked with friends about it. I mean, there are two things. He was ashamed of it and he was afraid of going back to Haiti. So it's a combination of those, those two things. And I think what, what kind of pushed him over the brink was in the ROTC class, they were handing out uniforms and everyone in the class got a uniform except for him. And he was told he couldn't get one because of the his immigration status or the ankle monitor."
+    },
+    {
+      "start": 306.5,
+      "end": 323.5,
+      "speaker": "A",
+      "text": "Mm-hmm. This is so horrific. And I'm wondering if you've had a sense to talk to a number of people in the Haitian community in Springfield, and if you're gathering just how this death this week is affecting the broader community there, the broader Haitian community."
+    },
+    {
+      "start": 325.6,
+      "end": 395.3,
+      "speaker": "D",
+      "text": "Well, I've heard lots of reports of people who are suicidal. So in some sense, this doesn't come as a as a big surprise. It's like every time the Haitian community begins to get their balance, they get hit again. And they've taken one hit after another here in Springville. The first one recently was when they started getting letters telling them they had to show up at the ICE office down in Blue Ash or over in Westerville. And that's where they get the ankle monitors, which everyone here refers to as shackles now. Then the second blow was there's There's just a dramatic increase in ICE activity. They're here every single day picking up people. They seem to want to do it in areas where lots of people see them. It's usually on the main, one of the main streets, gas stations or grocery stores. They are just terrified. And it's hard because they've all lost their jobs. They don't have money. People are trying to take food to them. And they're just, they're afraid to come out of their homes, but they are more afraid of going back to Haiti."
+    },
+    {
+      "start": 396.6,
+      "end": 396.7,
+      "speaker": "B",
+      "text": "Yeah."
+    },
+    {
+      "start": 397.4,
+      "end": 404.4,
+      "speaker": "A",
+      "text": "And just living in that state of mind sounds so incredibly tiring, exhausting, and frightening."
+    },
+    {
+      "start": 404.9,
+      "end": 478.6,
+      "speaker": "D",
+      "text": "Yeah. I was walking into an ICE appointment with a man from my church, and as we were walking down the sidewalk to the door, he leaned over and he said, \"Pastor, the gangs in Haiti just kidnapped my brother.\" And I said, \"What happened to him?\" And he said, \"They burned him.\" I said, \"Is he okay?\" And he said, \"No, they burned him alive.\" And I've heard multiple stories like that just from the small sample of Haitians who attend my church. You know, I talked to a reporter who's down there right now. He's embedded with the gang suppression regiment. And he said people who've been deported are getting off the planes and running for their lives. You know, part of what happens, the government talks about giving them $2,400 or $2,600 if they self-deport. The gangs assume everyone's getting off the plane has that money. So they are targets and they don't have that. I haven't heard of anyone getting that money. I've heard they get $65 from someone in Haiti and that's it. So the level of fear is just so, so high, they will do anything, including take their lives, not to go back."
+    },
+    {
+      "start": 480.3,
+      "end": 491.4,
+      "speaker": "A",
+      "text": "Carl Ruby is the senior pastor at the Central Christian Church in Springfield, Ohio. Pastor Ruby, I'm so sorry for why we are talking today, but I thank you so much for joining us."
+    },
+    {
+      "start": 491.9,
+      "end": 492.5,
+      "speaker": "D",
+      "text": "Thank you, Alison."
+    },
+    {
+      "start": 493.4,
+      "end": 535.2,
+      "speaker": "A",
+      "text": "And if you or someone you know is in crisis, or if you're thinking about hurting yourself, Please, you can call or text the Suicide Crisis Lifeline at 988. Also, NPR has reached out to Wright State University ROTC for comment, and we have not yet heard back. This episode was produced by Erica Ryan and Karen Zamora, with audio engineering by Eowyn Fain and Ted Mebane. Our director is Jonas Adams. It was edited by Sarah Handel and Tinbeat Ermias. Our interim executive producer is Courtney Dornin. It's Consider This from NPR. I'm Ailsa Chang."
+    },
+    {
+      "start": 535.7,
+      "end": 570.1,
+      "speaker": "C",
+      "text": "Support for NPR and the following message come from WashingtonWise. Decisions made in Washington can affect your portfolio every day. WashingtonWise from Charles Schwab is an original podcast that unpacks the stories making news in Washington. Listen at schwab.com/washingtonwise. Want to hear this podcast without sponsor breaks? Amazon Prime members can listen to Consider This sponsor-free through Amazon Music. Or you can also support NPR's vital journalism and get NPR+ at plus.npr.org. That's plus.npr.org."
+    }
+  ]
+}

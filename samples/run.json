@@ -1,0 +1,49 @@
+{
+  "ranAt": "2026-09-04T16:42:41.987Z",
+  "models": {
+    "segment": "claude-sonnet-4-6",
+    "classify": "claude-haiku-4-5-20251001"
+  },
+  "transcription": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro"
+  },
+  "selection": {
+    "sinceDays": 3,
+    "maxPerFeed": 2,
+    "maxDurationSec": 2700
+  },
+  "counts": {
+    "podcastFeeds": 20,
+    "episodesSelected": 39,
+    "episodesTranscribed": 39,
+    "episodesSegmented": 39,
+    "newsFeeds": 9,
+    "stories": 37,
+    "storiesWithMatches": 13,
+    "matches": 45
+  },
+  "audioHours": 14.38,
+  "claudeUsage": {
+    "segment": {
+      "model": "claude-sonnet-4-6",
+      "calls": 39,
+      "inputTokens": 245563,
+      "outputTokens": 16830
+    },
+    "cluster": {
+      "model": "claude-haiku-4-5-20251001",
+      "calls": 4,
+      "inputTokens": 8159,
+      "outputTokens": 6955
+    },
+    "verify": {
+      "model": "claude-haiku-4-5-20251001",
+      "calls": 20,
+      "inputTokens": 15301,
+      "outputTokens": 1819
+    }
+  },
+  "claudeCostUsd": 1.0565,
+  "notes": []
+}

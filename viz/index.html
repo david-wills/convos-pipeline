@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Convos pipeline — stories × podcast segments</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #faf9f6; --panel: #ffffff; --ink: #1c1b18; --muted: #6b675e; --line: #e6e2d8;
+    --accent: #b5471f; --accent-soft: #f6e4da; --chip: #efece4; --bar: #e9e5db; --bar-hit: #b5471f;
+    --tech: #2f6f8f; --business: #7a5c1f; --politics: #7b2f4e; --science_health: #3d7a4a; --culture: #6a4c9c; --general: #555;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16151300; --panel: #1f1d19; --ink: #ece8df; --muted: #a39d90; --line: #35322b;
+      --accent: #e0733f; --accent-soft: #3a2519; --chip: #2b2823; --bar: #2b2823; --bar-hit: #e0733f;
+    }
+    body { background: #161513; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+  header { padding: 28px 32px 18px; border-bottom: 1px solid var(--line); }
+  header h1 { margin: 0 0 4px; font-size: 22px; letter-spacing: -0.01em; }
+  header p { margin: 0; color: var(--muted); max-width: 70ch; }
+  .stats { display: flex; gap: 28px; flex-wrap: wrap; margin-top: 16px; }
+  .stat b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; }
+  .stat span { color: var(--muted); font-size: 13px; }
+  main { display: grid; grid-template-columns: minmax(280px, 380px) 1fr; min-height: calc(100vh - 140px); }
+  @media (max-width: 860px) { main { grid-template-columns: 1fr; } }
+  nav { border-right: 1px solid var(--line); overflow-y: auto; }
+  nav button { display: block; width: 100%; text-align: left; border: 0; border-bottom: 1px solid var(--line); background: transparent; color: inherit; padding: 14px 20px; cursor: pointer; font: inherit; }
+  nav button:hover { background: var(--panel); }
+  nav button.active { background: var(--accent-soft); box-shadow: inset 4px 0 0 var(--accent); }
+  nav .t { font-weight: 600; display: block; margin-bottom: 4px; }
+  nav .m { color: var(--muted); font-size: 13px; display: flex; gap: 10px; align-items: center; }
+  .cat { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; padding: 2px 7px; border-radius: 3px; color: #fff; background: var(--general); }
+  section { padding: 26px 32px; overflow-y: auto; }
+  section h2 { margin: 0 0 6px; font-size: 24px; letter-spacing: -0.01em; }
+  .summary { color: var(--muted); max-width: 75ch; margin: 0 0 14px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+  .chip { background: var(--chip); border-radius: 999px; padding: 3px 10px; font-size: 13px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  details { margin-bottom: 20px; color: var(--muted); }
+  details summary { cursor: pointer; }
+  details li { margin: 3px 0; }
+  .show { margin: 0 0 18px; padding: 14px 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
+  .show h3 { margin: 0 0 2px; font-size: 15px; }
+  .show .ep { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
+  .seg { display: grid; grid-template-columns: 1fr auto; gap: 6px 14px; align-items: baseline; padding: 8px 0; border-top: 1px dashed var(--line); }
+  .seg:first-of-type { border-top: 0; }
+  .seg .st { font-weight: 600; }
+  .seg .sd { color: var(--muted); font-size: 13.5px; grid-column: 1; }
+  .seg .sc { font-variant-numeric: tabular-nums; font-size: 13px; color: var(--muted); white-space: nowrap; }
+  .seg .sc b { color: var(--accent); font-size: 15px; }
+  .bar { grid-column: 1 / -1; height: 8px; background: var(--bar); border-radius: 4px; position: relative; overflow: hidden; margin-top: 2px; }
+  .bar i { position: absolute; top: 0; bottom: 0; background: var(--bar-hit); border-radius: 4px; }
+  .bar-label { grid-column: 1 / -1; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .empty { color: var(--muted); font-style: italic; }
+  footer { padding: 14px 32px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Which podcasts talked about the same story this week?</h1>
+  <p>Each story on the left was clustered from news headlines. Each entry on the right is a segment of a podcast episode that a verifier scored as covering that story (7 or higher out of 10). The bar shows where in the episode the segment sits.</p>
+  <div class="stats" id="stats"></div>
+</header>
+<main>
+  <nav id="nav"></nav>
+  <section id="detail"><p class="empty">Select a story.</p></section>
+</main>
+<footer id="foot"></footer>
+<script src="data.js"></script>
+<script>
+(function () {
+  const D = window.CONVOS_DATA;
+  if (!D) { document.getElementById('detail').innerHTML = '<p class="empty">No data.js found. Run <code>node src/cli.ts report</code> first.</p>'; return; }
+  const episodes = new Map(D.episodes.map(e => [e.id, e]));
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const hms = s => { s = Math.round(s); const h = Math.floor(s/3600), m = Math.floor(s%3600/60), x = s%60; return (h ? h + ':' + String(m).padStart(2,'0') : m) + ':' + String(x).padStart(2,'0'); };
+  const catColor = c => `var(--${['technology','business','politics','science_health','culture'].includes(c) ? (c === 'technology' ? 'tech' : c) : 'general'})`;
+
+  const withMatches = D.stories.filter(s => s.matches.length);
+  const multi = withMatches.filter(s => new Set(s.matches.map(m => m.podcastTitle)).size >= 2);
+  document.getElementById('stats').innerHTML = [
+    [D.episodes.length, 'episodes from ' + new Set(D.episodes.map(e => e.podcastTitle)).size + ' shows'],
+    [D.episodes.reduce((n, e) => n + e.convos.length, 0), 'segments'],
+    [D.stories.length, 'stories clustered'],
+    [withMatches.length, 'with verified coverage'],
+    [multi.length, 'covered by 2+ shows'],
+  ].map(([n, l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join('');
+  document.getElementById('foot').textContent = 'Pipeline run ' + D.ranAt.slice(0, 16).replace('T', ' ') + ' UTC. Nothing on this page was edited by hand.';
+
+  const nav = document.getElementById('nav');
+  nav.innerHTML = D.stories.map((s, i) => {
+    const shows = new Set(s.matches.map(m => m.podcastTitle)).size;
+    return `<button data-i="${i}"><span class="t">${esc(s.title)}</span><span class="m"><span class="cat" style="background:${catColor(s.category)}">${esc(s.category.replace('_', ' / '))}</span>${s.matches.length} segment${s.matches.length === 1 ? '' : 's'} · ${shows} show${shows === 1 ? '' : 's'}</span></button>`;
+  }).join('');
+
+  function show(i) {
+    const s = D.stories[i];
+    nav.querySelectorAll('button').forEach(b => b.classList.toggle('active', +b.dataset.i === i));
+    const byShow = new Map();
+    for (const m of s.matches) { if (!byShow.has(m.podcastTitle)) byShow.set(m.podcastTitle, []); byShow.get(m.podcastTitle).push(m); }
+    let html = `<h2>${esc(s.title)}</h2><p class="summary">${esc(s.summary)}</p>`;
+    html += `<div class="chips">${s.keywords.map(k => `<span class="chip">${esc(k)}</span>`).join('')}</div>`;
+    html += `<details><summary>${s.sourceHeadlines.length} headlines from ${new Set(s.sourceHeadlines.map(h => h.source)).size} outlets</summary><ul>${s.sourceHeadlines.map(h => `<li>${esc(h.title)} — <i>${esc(h.source)}</i></li>`).join('')}</ul></details>`;
+    if (!s.matches.length) html += `<p class="empty">No segment passed verification for this story.</p>`;
+    for (const [podcast, ms] of byShow) {
+      html += `<div class="show"><h3>${esc(podcast)}</h3>`;
+      const byEp = new Map();
+      for (const m of ms) { if (!byEp.has(m.episodeId)) byEp.set(m.episodeId, []); byEp.get(m.episodeId).push(m); }
+      for (const [epId, list] of byEp) {
+        const ep = episodes.get(epId);
+        html += `<div class="ep">${esc(list[0].episodeTitle)}${ep && ep.pubDate ? ' · ' + ep.pubDate.slice(0, 10) : ''}</div>`;
+        for (const m of list) {
+          const dur = ep && ep.duration ? ep.duration : m.endTime;
+          const left = Math.max(0, Math.min(100, m.startTime / dur * 100));
+          const width = Math.max(1, Math.min(100 - left, (m.endTime - m.startTime) / dur * 100));
+          html += `<div class="seg"><span class="st">${esc(m.convoTitle)}</span><span class="sc">relevance <b>${m.relevanceScore}</b>/10</span><span class="sd">${esc(m.convoDescription)}</span><div class="bar"><i style="left:${left}%;width:${width}%"></i></div><span class="bar-label">${hms(m.startTime)} – ${hms(m.endTime)} of ${hms(dur)}</span></div>`;
+        }
+      }
+      html += `</div>`;
+    }
+    document.getElementById('detail').innerHTML = html;
+  }
+  nav.addEventListener('click', e => { const b = e.target.closest('button'); if (b) show(+b.dataset.i); });
+  if (D.stories.length) show(0);
+})();
+</script>
+</body>
+</html>

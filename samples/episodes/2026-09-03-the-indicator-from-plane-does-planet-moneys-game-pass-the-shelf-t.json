@@ -1,0 +1,604 @@
+{
+  "episode": {
+    "id": "f6dda046fe7091b3f7d1cab898e0dfa63e7115ff543b45b8612881f756f4b2dd",
+    "podcastTitle": "The Indicator from Planet Money",
+    "feedUrl": "https://feeds.npr.org/510325/podcast.xml",
+    "guid": "91531593-e287-4a89-b897-9f9aa452c985",
+    "title": "Does Planet Money’s game pass the shelf test? We go undercover to find out",
+    "description": "We go undercover at a big box store for an inside look at the secret shelf test the makers of Exploding Kittens use for their hit games.<br/><br/>Fact checking by <a href=\"https://www.npr.org/people/1268825622/sierra-juarez\"target=\"_blank\"   >Sierra Juarez</a>.<br/><br/><strong>Your Next Listen </strong><br>— <a href=\"http://lnk.to/NUvIrt\"target=\"_blank\"   >Who decides what big box sells? Our GAME got us answers</a><br/><br/><strong>Connect with The Indicator </strong><br>— Sign up for <a href=\"https://npr.org/indicatornewsletter\"target=\"_blank\"   >The Indicator’s weekly newsletter</a>! <br>— Buy the <a href=\"https://lnk.to/i3AukBdDWE\"target=\"_blank\"   >Planet Money book</a> <br>— Find our <a href=\"https://linktr.ee/indicator_npr\"target=\"_blank\"   >socials, YouTube and more</a>! <br>— For sponsor-free episodes, <a href=\"https://plus.npr.org/\"target=\"_blank\"   >subscribe to NPR+</a><br/><br/>See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for sponsorship and to manage your podcast sponsorship preferences.<br/><br/><a href=\"https://www.npr.org/about-npr/179878450/privacy-policy\">NPR Privacy Policy</a>",
+    "pubDate": "2026-09-03T07:00:00.000Z",
+    "duration": 592,
+    "audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510325/npr.simplecastaudio.com/0a4e8d3b-fe23-4948-9e39-20fcf16f9331/episodes/4b2e73e9-513a-4048-8c53-be2f269b426e/audio/128/default.mp3?awCollectionId=0a4e8d3b-fe23-4948-9e39-20fcf16f9331&awEpisodeId=4b2e73e9-513a-4048-8c53-be2f269b426e&feed=IFy3imsg&t=podcast&e=nx-s1-5954516&p=510325&d=592&size=9475221",
+    "artworkUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2F59%2Fa8cdf28342a6917af70905110d8b%2F1e64dc6c-0d54-4845-94d3-6aa5677afb0d.jpg"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 712,
+    "utteranceCount": 88
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:37:22.807Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Sneaking Games onto Store Shelves",
+      "description": "Kenny Malone and Exploding Kittens co-founder Elan Lee reveal their undercover mission to secretly place prototype board games in a big box store.",
+      "startTime": 6.524,
+      "endTime": 147.152,
+      "anchorPhrase": "npr. picture people huddled suspiciously in front of a big box retail store in los"
+    },
+    {
+      "index": 1,
+      "title": "The Secret Shelf Testing Process",
+      "description": "Elan explains how Exploding Kittens regularly sneaks game prototypes into retail stores to observe real-world shelf performance before launch.",
+      "startTime": 147.152,
+      "endTime": 273.441,
+      "anchorPhrase": "on their show. it's true. and, you know, we were hoping in part that this"
+    },
+    {
+      "index": 2,
+      "title": "Test One: Standing Out on the Shelf",
+      "description": "The team spots immediate design flaws — bad kerning and an oddly spaced title — while also discovering their unique purple box color is a surprising advantage.",
+      "startTime": 273.441,
+      "endTime": 327.009,
+      "anchorPhrase": "now that our purple little salmia sasquatch prototype is there, there are basic tests that"
+    },
+    {
+      "index": 3,
+      "title": "The Chaos Test: Knocked Over and Shoved Back",
+      "description": "Elan deliberately knocks the game off the shelf to simulate real store conditions and see if the box still catches a shopper's eye from a bad position.",
+      "startTime": 327.009,
+      "endTime": 401.474,
+      "anchorPhrase": "a shelf? the other interesting test for what it's worth is this. oh yeah. elon."
+    },
+    {
+      "index": 4,
+      "title": "Diego the Accidental Focus Group",
+      "description": "Kenny ambushes a stranger in a Ravens jersey to get unfiltered reactions to the game, revealing a confusing back-of-box description that needs serious work.",
+      "startTime": 401.474,
+      "endTime": 585.249,
+      "anchorPhrase": "wong. i don't know. i'm just zooming. yeah. you know, so there's a little variability,"
+    },
+    {
+      "index": 5,
+      "title": "Sell Me a Sasquatch Hits Real Shelves",
+      "description": "Kenny announces the finished game is now available at major retailers, and the team reflects on what the shelf tests ultimately taught them about game packaging.",
+      "startTime": 585.249,
+      "endTime": 712,
+      "anchorPhrase": "before diego called the cops on you for harassing him. let's get out before we"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 6.5,
+      "end": 12.5,
+      "speaker": "A",
+      "text": "NPR. Picture 4 people huddled suspiciously in front of a big box retail store in Los Angeles."
+    },
+    {
+      "start": 13,
+      "end": 14.2,
+      "speaker": "B",
+      "text": "Feels like we're about to do something bad."
+    },
+    {
+      "start": 14.4,
+      "end": 16.7,
+      "speaker": "C",
+      "text": "It does. It feels like clandestine somehow."
+    },
+    {
+      "start": 17.2,
+      "end": 20.3,
+      "speaker": "A",
+      "text": "That first voice might sound a little familiar. That was—"
+    },
+    {
+      "start": 20.4,
+      "end": 24.6,
+      "speaker": "B",
+      "text": "That was me! Surprise! Planet Money's Kenny Malone. Hello. I'm so excited to be here, Whalen."
+    },
+    {
+      "start": 24.7,
+      "end": 26.5,
+      "speaker": "A",
+      "text": "I am so excited you're here."
+    },
+    {
+      "start": 26.9,
+      "end": 56.3,
+      "speaker": "B",
+      "text": "Yes. So with me that day, on that dubious day, Ilan Lee, who who is the co-founder of the game company Exploding Kittens. And Elan and I were about to do— I guess you'd call it the opposite of shoplifting. We were about to go into this big box store and sneak a new board game onto the shelves because Elan was giving us an inside look at the very real secret shelf testing process that Exploding Kittens, a very popular party game company, uses in the real world."
+    },
+    {
+      "start": 58,
+      "end": 60.6,
+      "speaker": "A",
+      "text": "This is The Indicator from Planet Money. I'm Whalen Wong."
+    },
+    {
+      "start": 60.9,
+      "end": 74.9,
+      "speaker": "B",
+      "text": "And I'm Kenny Malone. You know, the retail shelves, they are still a surprisingly big part of our lives. And today we get unusual inside access to the art and the science of how companies design their products and test their products to catch our attention."
+    },
+    {
+      "start": 78.5,
+      "end": 106.2,
+      "speaker": "D",
+      "text": "This message comes from Satva. Back to school takes a lot of energy, focus, and stamina, not just for the kids, but for the teachers and parents too. And that requires deep, restorative sleep, the kind that every Saatva mattress is designed to provide. Because every tomorrow starts the night before. And now save up to $625 on $1,000 or more at saatva.com/NPR. That's S-A-A-T-V-A.com/NPR."
+    },
+    {
+      "start": 107.1,
+      "end": 136.6,
+      "speaker": "E",
+      "text": "This message comes from Superhuman. Superhuman brings together connected tools like Grammarly, Docs, and Mail into one productivity suite. Built on the idea that low-value tasks crowd out meaningful focus, Superhuman meets teams where they already work. It operates proactively alongside writing and email workflows to help clear what is in the way. Superhuman, from the makers of Grammarly. Start streamlining your workflows with Superhuman today at superhuman.com."
+    },
+    {
+      "start": 137.6,
+      "end": 146.8,
+      "speaker": "A",
+      "text": "Kenny and the Planet Money team have been working with the Exploding Kittens game company to make an economics-inspired board game and documenting that journey over on their show."
+    },
+    {
+      "start": 147.2,
+      "end": 172.8,
+      "speaker": "B",
+      "text": "It's true. And, you know, we were hoping in part that this game could be a Trojan horse to let us report from inside the world of big box retail. And for Alan Lee with Exploding Kittens, that big box process, it starts once they have prototypes of their game. He will often sneak copies of the game into big box stores to observe like a retail field scientist."
+    },
+    {
+      "start": 173.3,
+      "end": 178.3,
+      "speaker": "C",
+      "text": "Um, I don't know that there's so much a science to this as much as an art. Okay."
+    },
+    {
+      "start": 178.4,
+      "end": 181.3,
+      "speaker": "B",
+      "text": "Fine, fine. Okay, fine. Retail field artist, whatever."
+    },
+    {
+      "start": 181.6,
+      "end": 189.9,
+      "speaker": "C",
+      "text": "We're gonna try a bunch of stuff. If we're feeling adventurous, talk to some regular customers, point at the thing and say, \"What do you think of that?\" and see what we get."
+    },
+    {
+      "start": 190,
+      "end": 190.1,
+      "speaker": "E",
+      "text": "Okay."
+    },
+    {
+      "start": 190.3,
+      "end": 194.4,
+      "speaker": "A",
+      "text": "Okay, so the plan is to hide things on the shelf, observe. Yeah."
+    },
+    {
+      "start": 194.7,
+      "end": 200,
+      "speaker": "B",
+      "text": "Have you not done this before, Waylon? No, that's right. And so, you know, into the store we go, headed to the game."
+    },
+    {
+      "start": 200.8,
+      "end": 205.6,
+      "speaker": "C",
+      "text": "The game section is always on either a sidewall or a back wall."
+    },
+    {
+      "start": 205.7,
+      "end": 205.8,
+      "speaker": "E",
+      "text": "Okay."
+    },
+    {
+      "start": 206.1,
+      "end": 229.3,
+      "speaker": "B",
+      "text": "So, all right, picture Waylon, me, and Elan, plus we've got two accomplices here, Erika Barris, Maddie Murdock, and we're playing it totally cool, just walking like normal people who are, yes, holding two very professional-looking prototypes of our game. So this is about the size of a Kleenex box. It's a beautiful purple, and the name of the game is Sell me a Sasquatch."
+    },
+    {
+      "start": 229.5,
+      "end": 231,
+      "speaker": "A",
+      "text": "Sell me a Sasquatch."
+    },
+    {
+      "start": 231.1,
+      "end": 242.1,
+      "speaker": "B",
+      "text": "Sell me a Sasquatch. There's, you know, a whole episode about naming the game. And we arrive at the board game aisle. You know, we notice Uno, Scrabble, Settlers of Catan."
+    },
+    {
+      "start": 242.4,
+      "end": 248.7,
+      "speaker": "C",
+      "text": "You also will notice that with almost no exceptions, bigger boxes are bottom or top shelf."
+    },
+    {
+      "start": 249.2,
+      "end": 249.7,
+      "speaker": "A",
+      "text": "What does that do?"
+    },
+    {
+      "start": 250.4,
+      "end": 253.9,
+      "speaker": "C",
+      "text": "Makes them harder to sell, but they do that because they have more space."
+    },
+    {
+      "start": 254.6,
+      "end": 271.6,
+      "speaker": "B",
+      "text": "So, Waylon, that is why we decided to make Salmia Sasquatch a relatively small game so that it has a good chance if we get into big box of getting that eye-level shelf spot, which coincidentally is exactly where Elan puts our prototypes. Okay, you just put it up there."
+    },
+    {
+      "start": 272.1,
+      "end": 272.4,
+      "speaker": "F",
+      "text": "Yeah."
+    },
+    {
+      "start": 273.4,
+      "end": 287.8,
+      "speaker": "B",
+      "text": "Now that our purple little Salmia Sasquatch prototype is there, there are 3 basic tests that we're going to run to sort of answer 3 basic questions, Whalen. Question number 1 is pretty simple. It's how does it look on a shelf now that it's there with all these other games?"
+    },
+    {
+      "start": 288.1,
+      "end": 290.6,
+      "speaker": "A",
+      "text": "Right. So like, does it stand out from the crowd of games?"
+    },
+    {
+      "start": 290.9,
+      "end": 306,
+      "speaker": "B",
+      "text": "Yes, exactly. In part. But also, there are other obvious problems that we maybe just hadn't noticed yet until it was on a shelf. So for example, we noticed that from a distance, our game's title is like weirdly spaced, like all the words are running together. It looks like \"Somnia.\" It's one word."
+    },
+    {
+      "start": 306.4,
+      "end": 306.9,
+      "speaker": "C",
+      "text": "Easy fix."
+    },
+    {
+      "start": 307.2,
+      "end": 308.3,
+      "speaker": "A",
+      "text": "The kerning gotcha."
+    },
+    {
+      "start": 308.7,
+      "end": 317.4,
+      "speaker": "B",
+      "text": "Kerning was off. Or also we notice that no one else seems to be using the specific shade of purple we've chosen for our box."
+    },
+    {
+      "start": 317.7,
+      "end": 319.5,
+      "speaker": "C",
+      "text": "That's really interesting. That's good."
+    },
+    {
+      "start": 319.6,
+      "end": 320.2,
+      "speaker": "B",
+      "text": "Is that good or bad?"
+    },
+    {
+      "start": 320.3,
+      "end": 321.7,
+      "speaker": "C",
+      "text": "Really good. Really good."
+    },
+    {
+      "start": 321.9,
+      "end": 326.5,
+      "speaker": "B",
+      "text": "Yeah. So that's test one. How does it look when placed nicely on a shelf?"
+    },
+    {
+      "start": 327,
+      "end": 330.6,
+      "speaker": "C",
+      "text": "The other interesting test for what it's worth is this. Oh yeah."
+    },
+    {
+      "start": 330.7,
+      "end": 335.3,
+      "speaker": "B",
+      "text": "Elon. Whacks the game, knocks it over, and shoves it back into the shadows."
+    },
+    {
+      "start": 335.4,
+      "end": 345,
+      "speaker": "A",
+      "text": "Oh, but you know, this makes sense because if, you know, I know kids or I'm a short person, sometimes I'm reaching for something and I knock it over trying to get it."
+    },
+    {
+      "start": 345.7,
+      "end": 364.7,
+      "speaker": "B",
+      "text": "Yeah. You know, Elan says big box shelves, it's a little bit like a chaotic garage sale. And so this is test 2. Let's see if our game still stands out when it inevitably gets put back in the wrong spot, shoved behind other games, pushed over by a relatively short person. We love, we love the short shoppers."
+    },
+    {
+      "start": 364.8,
+      "end": 366.6,
+      "speaker": "A",
+      "text": "We love the short boarders. They call it the petite shopper test."
+    },
+    {
+      "start": 366.9,
+      "end": 367.6,
+      "speaker": "B",
+      "text": "Sorry, sorry. Yes."
+    },
+    {
+      "start": 368.1,
+      "end": 377.3,
+      "speaker": "C",
+      "text": "Uh, I would argue that still stands up in shadow, like, which is a tough position to be in. Um, the lighter colors on there still pop right out."
+    },
+    {
+      "start": 377.7,
+      "end": 391.3,
+      "speaker": "B",
+      "text": "You know, we talked to a retail consultant who explained that there is this 3 feet, 3 seconds rule, which is to say, once somebody is 3 feet away from your product in the store, you have 3 seconds to convince them to pick up your product."
+    },
+    {
+      "start": 391.5,
+      "end": 396.5,
+      "speaker": "A",
+      "text": "Hmm. Okay. Next time I go shopping, I'm going to see if like I'm feeling this, you know?"
+    },
+    {
+      "start": 396.6,
+      "end": 400.8,
+      "speaker": "B",
+      "text": "Well, I've been with you. You're a fast walker. So maybe we have less time with someone like Waylon Wong."
+    },
+    {
+      "start": 401.1,
+      "end": 401.3,
+      "speaker": "F",
+      "text": "I don't know."
+    },
+    {
+      "start": 401.5,
+      "end": 402.7,
+      "speaker": "A",
+      "text": "I'm just zooming. Yeah."
+    },
+    {
+      "start": 402.7,
+      "end": 415.2,
+      "speaker": "B",
+      "text": "You know, so there's a little variability, but this does kind of bring us to our final test. Like, what do real shoppers think? So Ilan notices there is someone kind of, kind of far away down the game aisle browsing the games."
+    },
+    {
+      "start": 415.3,
+      "end": 417.3,
+      "speaker": "C",
+      "text": "I think there's someone you could talk to."
+    },
+    {
+      "start": 417.7,
+      "end": 435.1,
+      "speaker": "B",
+      "text": "Okay, this cat, you got to go, Tim. I see a young man wearing a Baltimore Ravens jersey, even though we're in Los Angeles, respect. And then I kind of jump out from behind a shelf and interrupt him. Can I ask you a question real quick? Okay, 'cause we have some board game experts here, but they're all hiding. Well, don't worry, they're not, okay. What's your name?"
+    },
+    {
+      "start": 435.3,
+      "end": 435.6,
+      "speaker": "F",
+      "text": "Diego."
+    },
+    {
+      "start": 435.8,
+      "end": 436.8,
+      "speaker": "B",
+      "text": "So Diego, I want you to come with me."
+    },
+    {
+      "start": 436.9,
+      "end": 439.6,
+      "speaker": "A",
+      "text": "Wow, real normal interaction you're having with this person."
+    },
+    {
+      "start": 439.7,
+      "end": 459,
+      "speaker": "B",
+      "text": "Yes, yes, we're normal people in a normal store. This is Diego Ortiz, and Diego and I walk over to the section of the board game shelves where we have placed our game, though we don't tell him that. I want you to look on this shelf and just tell me if anything jumps out to you. We're just testing some things."
+    },
+    {
+      "start": 459.3,
+      "end": 461,
+      "speaker": "F",
+      "text": "Just looking, no context?"
+    },
+    {
+      "start": 461,
+      "end": 465.2,
+      "speaker": "B",
+      "text": "I'll give you more context later, but for now, is anything jumping out that makes you want to pick it up?"
+    },
+    {
+      "start": 466.6,
+      "end": 470.2,
+      "speaker": "F",
+      "text": "I'd probably say that Exploding Kittens, the red one right there."
+    },
+    {
+      "start": 470.5,
+      "end": 487.2,
+      "speaker": "B",
+      "text": "The red one! That's not our game. It was in fact pointing to the original Exploding Kittens game, the most popular game they've ever made, which is called Exploding Kittens. Okay, so this game has sold millions of copies. So you're right. They've, they've successfully made that one. Now, here's what I'll tell you. The game we're testing is this one here."
+    },
+    {
+      "start": 487.6,
+      "end": 490.4,
+      "speaker": "F",
+      "text": "Sell me a s— okay, okay. I'm not gonna lie. I was looking at it."
+    },
+    {
+      "start": 491,
+      "end": 507.8,
+      "speaker": "B",
+      "text": "You're just saying that. No, no. Now, whether or not this one random person happens to notice our game during this one test, that isn't really the test here. The real test is what happens when he, you know, chooses our game forced by us and then turns our game over."
+    },
+    {
+      "start": 508.3,
+      "end": 513.9,
+      "speaker": "A",
+      "text": "Right. So it's like, assuming you clear that first hurdle, 3 feet, 3 seconds. Now the test is what do you do?"
+    },
+    {
+      "start": 514.3,
+      "end": 525.2,
+      "speaker": "B",
+      "text": "Yeah, exactly. And specifically the question is, can the back of our game close the sale or does what we've written on the back confuse the heck out of people? For instance, for instance."
+    },
+    {
+      "start": 525.2,
+      "end": 526.7,
+      "speaker": "F",
+      "text": "Sorry, I'm reading everything. I'm rereading."
+    },
+    {
+      "start": 526.7,
+      "end": 527.5,
+      "speaker": "B",
+      "text": "No, no, take your time, man."
+    },
+    {
+      "start": 528.1,
+      "end": 530.1,
+      "speaker": "F",
+      "text": "By choosing 3 secret cards. You're—"
+    },
+    {
+      "start": 530.2,
+      "end": 530.8,
+      "speaker": "B",
+      "text": "it's confusing?"
+    },
+    {
+      "start": 532.1,
+      "end": 535.7,
+      "speaker": "F",
+      "text": "Collect the good creatures, dump the bad ones. How would you know which ones are good and bad?"
+    },
+    {
+      "start": 535.9,
+      "end": 537.3,
+      "speaker": "B",
+      "text": "Yeah, confusing."
+    },
+    {
+      "start": 537.5,
+      "end": 543,
+      "speaker": "F",
+      "text": "Yeah. Oh, okay. Reading it out loud and thinking about it more, it makes more sense."
+    },
+    {
+      "start": 543.1,
+      "end": 548.6,
+      "speaker": "B",
+      "text": "I know, but you shouldn't have to do that much work. So clearly we had some adjustments to make. Fine. That's fine."
+    },
+    {
+      "start": 549,
+      "end": 554.9,
+      "speaker": "A",
+      "text": "Yeah. I mean, it's a complicated game, right? It's like hard to explain on the back of a box, especially a small box, as we have noted."
+    },
+    {
+      "start": 555.2,
+      "end": 584.5,
+      "speaker": "B",
+      "text": "That's right. And to be fair, Elan says we don't have to put all the rules on the back. The goal here is just to— you You explain enough to give people the sense of what it'll feel like to play the game. Uh, and you know, you also don't want to confuse them. But I should note that Elan says these 3 shelf tests, they're not going to tell you if you're destined for success. Like, best case scenario is you're just using these to spot obviously broken things. And we had found a few. And so, you know what? It was time to grab our prototypes and get out of there quickly."
+    },
+    {
+      "start": 585.2,
+      "end": 588,
+      "speaker": "A",
+      "text": "Before Diego called the cops on you for harassing him."
+    },
+    {
+      "start": 589.2,
+      "end": 590.2,
+      "speaker": "B",
+      "text": "Let's get out before we get kicked out."
+    },
+    {
+      "start": 590.2,
+      "end": 590.5,
+      "speaker": "C",
+      "text": "Let's go."
+    },
+    {
+      "start": 590.7,
+      "end": 591,
+      "speaker": "E",
+      "text": "Yeah."
+    },
+    {
+      "start": 591.1,
+      "end": 598.7,
+      "speaker": "B",
+      "text": "Look, are you stealing those games? Excuse me. I wouldn't do that. Yeah, it does look bad to take your own games out of a store. It's true. Hadn't really thought that through."
+    },
+    {
+      "start": 598.8,
+      "end": 600.8,
+      "speaker": "A",
+      "text": "You're stuffing it under your shirt and running out."
+    },
+    {
+      "start": 601,
+      "end": 617.8,
+      "speaker": "B",
+      "text": "Uh, let me tell you, Waylon, that your listeners can now decide for themselves how well we did making those adjustments because we can announce that Sell Me a Sasquatch is now available at shop.npr.org and on the shelves of many big box retailers."
+    },
+    {
+      "start": 617.9,
+      "end": 618.3,
+      "speaker": "E",
+      "text": "It's there."
+    },
+    {
+      "start": 618.8,
+      "end": 628.6,
+      "speaker": "A",
+      "text": "And if you buy the game, it is super helpful to hold a big game night. Take photos of yourself having fun or getting angry at each other and tag Planet Money on social media."
+    },
+    {
+      "start": 628.9,
+      "end": 639.2,
+      "speaker": "B",
+      "text": "Yep, we are @planetmoney. Exploding Kittens is @gameofkittens. They tell us that showing people what it's like to play the game, that matters a ton right now at this point in the process. So yeah, thanks."
+    },
+    {
+      "start": 639.7,
+      "end": 649.5,
+      "speaker": "A",
+      "text": "This episode was produced by Cory Bridges with engineering by Kwesi Lee. It was fact-checked by Sarah Juárez and edited by Julia Ritchie. Caking Cannon is our show's editor, and The Indicator is a production of NPR."
+    },
+    {
+      "start": 652,
+      "end": 710.6,
+      "speaker": "D",
+      "text": "This message comes from NPR sponsor Charles Schwab with its original podcast, On Investing. It's hosted by Liz Ann Sonders, Schwab's chief investment strategist, and Collin Martin, head of fixed income research and strategy for the Schwab Center for Financial Research. Each week, Liz Ann, Collin, and their guests analyze economic developments and bring context to conversations around stocks, fixed income, the economy, and more. Download the latest episode and subscribe at schwab.com/oninvesting or wherever you get your podcasts. This message comes from Boll Branch. Change the way you sleep with soft, 100% organic cotton sheets from Boll Branch, designed to help you fall asleep faster with airy blankets, cloud-like duvets, and breathable sheets. Experience pure comfort on night one and feel your sheets get softer with every wash. Discover the difference with 15% off your first order at bowlandbranch.com with code NPR. Exclusions apply. See site for details."
+    }
+  ]
+}

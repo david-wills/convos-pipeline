@@ -1,0 +1,362 @@
+{
+  "episode": {
+    "id": "dea9738f1a90608e7920f9b765a515d16e4f26c2662831bde71aaabc7fa10316",
+    "podcastTitle": "The Intelligence from The Economist",
+    "feedUrl": "https://access.acast.com/rss/d556eb54-6160-4c85-95f4-47d9f5216c49",
+    "guid": "6a9a86ffe7a9fe2478c4fc41",
+    "title": "Bargaining chips: Nvidia is the bank of AI",
+    "description": "<p><a href=\"https://www.economist.com/leaders/2026/09/03/nvidia-is-driving-the-ai-boom-good?utm_campaign=a.io&utm_medium=audio.podcast.np&utm_source=theintelligence&utm_content=discovery.content.anonymous.tr_shownotes_na-na_article&utm_term=sa.listeners\" rel=\"noopener noreferrer\" target=\"_blank\">Nvidia</a>, the world’s most valuable company, has shifted strategy to boost demand for its chips. Our correspondent assesses the opportunities and risks. <a href=\"https://www.economist.com/britain/2026/09/03/the-changing-geography-of-violent-crime-in-britain?utm_campaign=a.io&utm_medium=audio.podcast.np&utm_source=theintelligence&utm_content=discovery.content.anonymous.tr_shownotes_na-na_article&utm_term=sa.listeners\" rel=\"noopener noreferrer\" target=\"_blank\">Knife crime</a> in Britain moves to rural pastures. And our obituaries editor recounts the life of <a href=\"https://www.economist.com/obituary/2026/08/27/frank-smith-never-managed-to-prove-he-was-innocent?utm_campaign=a.io&utm_medium=audio.podcast.np&utm_source=theintelligence&utm_content=discovery.content.anonymous.tr_shownotes_na-na_article&utm_term=sa.listeners\" rel=\"noopener noreferrer\" target=\"_blank\">Frank Smith</a>, who died in prison aged 101.&nbsp;</p><p>Watch extended clips from Insider <a href=\"https://www.economist.com/interactive/insider/previews?utm_campaign=a.brand_fy2627_q1_awareness-imp-tr_prospecting_global-global_direct_na&utm_medium=audio.podcast.pd&utm_source=economist&utm_content=discovery.awareness.anonymous.tr_nativeread_np-tiinsider-apr_na-na_web_na_na_na_na&utm_term=sa.arc-isi\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>, plus the full Elon Musk interview</p><br><p>Guests and host:</p><ul><li>Shailesh Chitnis, global business writer</li><li>Sonny Loughran, Britain correspondent</li><li>Ann Wroe, obituaries editor</li><li>Rosie Blau, co-host of “The Intelligence”</li></ul><p><br></p><p>Topics covered:&nbsp;</p><ul><li>Nvidia, AI, Jensen Huang</li><li>Knife crime, county lines, drug marke",
+    "pubDate": "2026-09-04T08:53:19.000Z",
+    "duration": 1473,
+    "audioUrl": "https://sphinx.acast.com/p/acast/s/theintelligencepodcast/e/6a9a86ffe7a9fe2478c4fc41/media.mp3?tk=eyJ0ayI6ImRlZmF1bHQiLCJhZHMiOnRydWUsInNwb25zIjp0cnVlLCJzdGF0dXMiOiJwdWJsaWMifQ==&sig=dex5m6hic6sdyoZO_K2jQse_Z90ZxOXpVkmNxMCUyfo",
+    "artworkUrl": "https://assets.pippa.io/shows/62e286a934d4d93d6587424a/1788511488375-4e397b07-5ff9-4aad-8ac4-a2cb0aac4fb9.jpeg"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 1623,
+    "utteranceCount": 49
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:32.498Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Nvidia Becomes the Bank of AI",
+      "description": "Nvidia has shifted from chipmaker to financial engineer, backstopping billions in AI infrastructure deals to sustain demand for its processors.",
+      "startTime": 1.156,
+      "endTime": 469.386,
+      "anchorPhrase": "from globalization to innovation, sustainability to market volatility, there's always more than one side to"
+    },
+    {
+      "index": 1,
+      "title": "Dot-Com Echoes and Circular Risk",
+      "description": "Critics warn Nvidia's vendor financing strategy mirrors the dangerous loan schemes that collapsed Cisco and Alcatel during the dot-com bust.",
+      "startTime": 469.386,
+      "endTime": 673.838,
+      "anchorPhrase": "lend more. okay, let's get to the risks then. why are some critics concerned about"
+    },
+    {
+      "index": 2,
+      "title": "Knife Crime Leaves the City",
+      "description": "Contrary to Trump-era narratives, London's knife crime has fallen sharply — but violence is surging in Britain's rural counties instead.",
+      "startTime": 673.838,
+      "endTime": 949.501,
+      "anchorPhrase": "and you can hear more about nvidia on this week's episode of insider, our video"
+    },
+    {
+      "index": 3,
+      "title": "County Lines Go Local",
+      "description": "Drug gangs are abandoning the train-and-courier model and embedding directly in rural communities, making violence stickier and harder to police.",
+      "startTime": 949.501,
+      "endTime": 1114.138,
+      "anchorPhrase": "the problem is just that it's much harder to replicate outside of urban centres. so"
+    },
+    {
+      "index": 4,
+      "title": "101 Years, Never Proven Innocent",
+      "description": "Frank Smith survived eight death row appointments only to spend over 70 years in prison still fighting — and failing — to clear his name.",
+      "startTime": 1114.138,
+      "endTime": 1623,
+      "anchorPhrase": "towards the end of his very long life, frank smith found himself in west, which"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 1.2,
+      "end": 47.9,
+      "speaker": "A",
+      "text": "From globalization to innovation, sustainability to market volatility, there's always more than one side to a story. Explore different perspectives on today's most important business and economic issues with The Flip Side podcast from Barclays Investment Bank. Hear two research analysts in a lively debate and get insights from every angle to further inform your view. Listen to The Flip Side on your favorite platform. Ever think a lyric says one thing and it's actually something totally different? See, not everything is what it sounds like. But Hotels.com? It's exactly what it sounds like. Go to Hotels.com to choose from hundreds of thousands of hotels. Instantly get up to 20% off with member prices and earn rewards on every stay. Sign up for free and book today. Hotels.com. It's all in the name."
+    },
+    {
+      "start": 55.4,
+      "end": 56.1,
+      "speaker": "B",
+      "text": "The Economist."
+    },
+    {
+      "start": 60.6,
+      "end": 127.8,
+      "speaker": "C",
+      "text": "Hello and welcome to The Intelligence from The Economist. I'm Rosie Bloor. Today on the show, the changing geography of knife crime in Britain and remembering Frank Smith, America's longest-serving prisoner. But first— Few companies have grown so slowly and then so fast as Nvidia. The chip designer, whose processors power much of the world's artificial intelligence, took 3 decades to reach a valuation of $1 trillion. Yet it doubled that in just 9 months. And it crossed the $5 trillion mark less than 2 years later, making it the most valuable company in the world. Problem is, when a firm is so big and so successful, people just expect it to keep on going."
+    },
+    {
+      "start": 129.9,
+      "end": 137.8,
+      "speaker": "A",
+      "text": "Jensen Huang, Nvidia's boss, has turned to an aggressive spree of financial engineering, which is designed to boost demand for its chips."
+    },
+    {
+      "start": 139.4,
+      "end": 141.7,
+      "speaker": "C",
+      "text": "Shailesh Chitnis is our global business writer."
+    },
+    {
+      "start": 142.8,
+      "end": 149.9,
+      "speaker": "A",
+      "text": "Now, this strategy carries some risks, and critics warn that it also has echoes of the dot-com boom of the late '90s."
+    },
+    {
+      "start": 153,
+      "end": 159.6,
+      "speaker": "C",
+      "text": "Shailesh, before we get to the risks, explain what you mean by the financial engineering. What does that look like in practice?"
+    },
+    {
+      "start": 161,
+      "end": 263.6,
+      "speaker": "A",
+      "text": "Yeah, so during the initial phases of the AI boom, demand for Nvidia's chips was just huge, and it couldn't make enough of them to satisfy demand. That's is still the case, but investors' expectations of the company's growth have also continued to increase over time. And so to really meet that, what NVIDIA is doing is it's coming up with different financial mechanisms in which it enables its customers to be able to afford its pricey chips. So to give you an example, in mid-August, NVIDIA agreed to provide a guarantee of up to $105 billion so that OpenAI, which is an AI lab, could lease a vast data center in Ohio. And then just a week earlier, it announced a partnership with 6 Wall Street investment firms, including Goldman Sachs, Blackstone, BlackRock, really the who's who of Wall Street, to help raise over $500 billion for an AI infrastructure fund, which would essentially be built on NVIDIA's equipment. and in turn, NVIDIA could potentially backstop around 25% of those deals by guaranteeing the value of its chips. Now, these are just two deals, but there are a multitude of deals that the company has announced over the past six months. And when you start to add all of those up, including the equity investments that it has made in startups, these backstop commitments, purchase commitments, it has all added up to over $350 billion. And just yesterday it acquired Hugging Face, which is an open-source platform for hosting AI models, for $13 billion. And so not surprisingly, some people have started calling NVIDIA the bank of AI."
+    },
+    {
+      "start": 264.4,
+      "end": 268.2,
+      "speaker": "C",
+      "text": "Given the continued demand for its chips, why the need to do this?"
+    },
+    {
+      "start": 269,
+      "end": 327.7,
+      "speaker": "A",
+      "text": "That's a really good question. And what NVIDIA would say is there's definitely a demand for its chips, but compute, which is essentially the processors and memory chips that make up an AI data center, are really, really expensive. So to give you a sense of scale, it costs almost $50 billion to build a 1-gigawatt data center. A 1-gigawatt data center is a massive data center that is being built by some of these large AI labs. Now, some of the big tech firms, which are called hyperscalers, like Amazon, Google, Microsoft, they can actually afford this spending. What NVIDIA says is a lot of the smaller firms or even AI labs that are bleeding cash don't have the cash flows today to be able to finance their investments in AI infrastructure. So what NVIDIA is saying is by stepping in and providing these guarantees, it's helping enable the demand for some of these type of projects."
+    },
+    {
+      "start": 328.3,
+      "end": 332.7,
+      "speaker": "C",
+      "text": "So what's the broader strategy behind that change in NVIDIA's approach?"
+    },
+    {
+      "start": 333.4,
+      "end": 468.9,
+      "speaker": "A",
+      "text": "You can think of it as having two legs. The first leg is what I would call plain vanilla, which is very standard Silicon Valley playbook, which is a large company investing in smaller startups in the hope that as those startups grow, they will increase the demand for its own product. So that's what NVIDIA has done. It has just gone out and has become one of the most prolific investors in startups across the Valley, and their investments now total over $100 billion. So as NVIDIA funds a lot of these startups, the goal is whether they're AI applications, software, whatever it is, as they mature, they will of course need a lot more compute. And when they need compute, they will turn to NVIDIA. The second leg I think is a little more novel, and this is the part that has caught most of the attention as has generated a lot of discussion, which is it's using its balance sheet heft to be able to help its customers that don't have such strong balance sheet to be able to finance some of these infrastructure. A good example is in late July, it announced a new business model for Neo Clouds. These are firms like hyperscalers that build AI infrastructure and rent it to other firms, except they don't have the cash flows that hyperscalers have. And so what NVIDIA has done is it has agreed to buy compute at pre-agreed prices if those Neo Clouds cannot sell it elsewhere. So what that does is it gives the lenders a little bit of guarantee in terms of predictability of the cash flows because NVIDIA is backing it. And then that in turn helps them raise loans at more agreeable rates instead of raising it at rates that may typically be for junk bonds. It comes closer to what could be classified as investment-grade loans. The other one I think is a little bit more creative where NVIDIA is now also starting to pull in capital from private sources. So it's no longer just its balance sheet. It wants external private credit, the funds that we talked about, to be able to invest. Now, one of the challenges for that is private creditors or banks are not very comfortable valuing GPUs as an asset class. They can value a data center, they can value machinery, but GPUs are very new. And so what NVIDIA is doing is it's saying, I'm gonna guarantee the value of my assets up to a certain point, and that gives creditors confidence to be able to lend more."
+    },
+    {
+      "start": 469.4,
+      "end": 473.7,
+      "speaker": "C",
+      "text": "Okay, let's get to the risks then. Why are some critics concerned about this shift?"
+    },
+    {
+      "start": 474.2,
+      "end": 522.6,
+      "speaker": "A",
+      "text": "I think the big question is what is known as quote unquote circular financing, which is a vendor financing its own customer sales. That's the absolute worst case scenario. And this is something that had happened a lot during the dot-com boom that we alluded to at the start of our discussion, where firms like Alcatel and Cisco essentially gave loans to a lot of telecom providers to be able to buy their equipment. When demand didn't materialize, they couldn't make good on their loans and everything fell down like a pack of cards. Nvidia is very sensitive to allegations about circular financing. What it says is it is enabling demand and not really creating circular financing. But a few folks I spoke to said that it's a very thin line between enabling demand and creating it. And one of the analysts mentioned that Nvidia is actually starting to get pretty close to that line."
+    },
+    {
+      "start": 523.1,
+      "end": 525.1,
+      "speaker": "C",
+      "text": "And are those anxieties warranted, do you think?"
+    },
+    {
+      "start": 525.6,
+      "end": 590.2,
+      "speaker": "A",
+      "text": "I think these are legitimate questions to ask. However, when you've worked through the math, at least today, NVIDIA's balance sheet is so strong that it can actually handle some of these guarantees. We calculated around $300 billion in potential obligations based on all the deals that we tracked. Now, the reality is it's very unlikely that NVIDIA would have to make good on the whole amount because the way these guarantees are structured is it's over a period of time. If certain things don't happen, then NVIDIA has to step in and pay the difference and all these different things. So when you actually work through that, the potential obligations actually start to reduce. Use as time goes on. So that's number one. Number two is we have to remember that NVIDIA is just an enormously profitable company, and there have been few companies in history that just generate this amount of cash. It's already sitting in around $96 billion in cash and short-term investments, and this year it's expected to generate almost $200 billion in free cash flow. So these are huge numbers we are talking about, and in our assessment, so far NVIDIA can actually abide by these commitments."
+    },
+    {
+      "start": 590.5,
+      "end": 596.3,
+      "speaker": "C",
+      "text": "And what if we're wrong? What if NVIDIA's wrong? If it's made the wrong bet, what would a fallout look like?"
+    },
+    {
+      "start": 597,
+      "end": 666.8,
+      "speaker": "A",
+      "text": "One thing to keep in mind is it need not be a completely disastrous outcome, like AI demand collapsing. Even a slowdown in AI demand could actually lead to a lot of these contingent guarantees coming due. And the reason I say that is everything in the market is priced for demand to just continue increasing at the pace that it is going right now. And that's why all the supply is being built around that as well. If demand does not grow at the same pace, it is quite possible that we will have a lot of unused compute, in which case Nvidia would have to step in and make good on those guarantees. Now, if that happens, you have to also remember on the input side, Nvidia would probably be selling a lot less chips as well. And so right at the time when it is making good on these commitments, its cash flow would start to reduce. And the danger I think is there could be a lot of speculative projects that may otherwise not get funded that are being funded today. And anytime there's a slowdown or a deceleration in demand, these ones could be the most exposed. And so investors should be really wary that more of the boom that Nvidia finances, the more of the bust also it may have to bear."
+    },
+    {
+      "start": 668.2,
+      "end": 669.3,
+      "speaker": "C",
+      "text": "Shailesh, thank you very much."
+    },
+    {
+      "start": 669.8,
+      "end": 670.4,
+      "speaker": "A",
+      "text": "Thank you for having me."
+    },
+    {
+      "start": 673.8,
+      "end": 700.4,
+      "speaker": "C",
+      "text": "And you can hear more about Nvidia on this week's episode of Insider, our video offering which takes you deep into the belly of our newsroom. Along with a panel of other Economist journalists, Shailesh will be chewing over what Nvidia's dealmaking might mean for the future of AI, the opportunities and the risks. If you're a digital subscriber, Insider is already part of your subscription. If you're listening free, you can watch extended clips. I've put a link in the show notes."
+    },
+    {
+      "start": 706.5,
+      "end": 715.6,
+      "speaker": "A",
+      "text": "This Intelligence podcast is sponsored by Zurich Insurance, helping businesses meet new opportunities Prepare. Meet change prepared."
+    },
+    {
+      "start": 716.1,
+      "end": 717.4,
+      "speaker": "B",
+      "text": "Meet growth prepared."
+    },
+    {
+      "start": 717.9,
+      "end": 762.7,
+      "speaker": "A",
+      "text": "Because with experienced professionals who understand your industry, decades of risk engineering expertise, and one of the world's largest commercial insurance networks, Zurich Insurance helps businesses understand risk, build resilience, and move forward with confidence. Meet tomorrow prepared with Zurich Insurance. That sound could mean a lot of things. And when something's going wrong at home, the hardest part can be figuring out what the problem actually is. At Thumbtack, you can upload a voice message or a photo, and our AI-powered search will help diagnose your project. Plus, the pros we know have over 14 million 5-star reviews, so you can hire with confidence."
+    },
+    {
+      "start": 763.2,
+      "end": 763.7,
+      "speaker": "B",
+      "text": "Thumbtack."
+    },
+    {
+      "start": 764,
+      "end": 766.7,
+      "speaker": "A",
+      "text": "We know homes. Hire the right pro today."
+    },
+    {
+      "start": 774.5,
+      "end": 780.1,
+      "speaker": "D",
+      "text": "We begin with breaking news out of London this morning. A local group says 2 people have been stabbed in a Jewish neighborhood."
+    },
+    {
+      "start": 780.2,
+      "end": 786.5,
+      "speaker": "A",
+      "text": "London, where a woman has been arrested after police say that she stabbed 4 men. The Metropolitan Police say they responded—"
+    },
+    {
+      "start": 786.5,
+      "end": 799.5,
+      "speaker": "C",
+      "text": "Knife attacks, stabbings, slashings, 62 weapons, handguns, and a man in his 20s died having been pursued Listen to the news or read social media and you'd think London was rife with knife attacks."
+    },
+    {
+      "start": 799.5,
+      "end": 805.2,
+      "speaker": "D",
+      "text": "Today you have people being stabbed in the ass or worse. But no, it's crazy."
+    },
+    {
+      "start": 805.2,
+      "end": 816.8,
+      "speaker": "C",
+      "text": "Donald Trump is one of many to speak of the city's apparent lawlessness. But his sources seem to be somewhat outdated. Knife crime in Britain is now moving out of its cities."
+    },
+    {
+      "start": 818,
+      "end": 827.9,
+      "speaker": "B",
+      "text": "Contrary to popular opinion, cities like London especially are much safer than they used to be. So if you look at homicides, they've halved since about 2018, which is when they peaked in Britain."
+    },
+    {
+      "start": 829.7,
+      "end": 831.8,
+      "speaker": "C",
+      "text": "Sunny Lochran is a Britain correspondent."
+    },
+    {
+      "start": 832.7,
+      "end": 843.7,
+      "speaker": "B",
+      "text": "And the same is broadly true nationally. Britain is just much safer than it was 20 years ago. But people don't feel that way. One underappreciated reason for that is because the geography of crime in Britain is changing."
+    },
+    {
+      "start": 845.9,
+      "end": 849,
+      "speaker": "C",
+      "text": "So what do you mean by that, the geography of crime in Britain is changing?"
+    },
+    {
+      "start": 849.4,
+      "end": 893,
+      "speaker": "B",
+      "text": "Well, what we're seeing is that the urban centres you traditionally associate with violent crime have experienced quite significant reductions over the last 10 years or so. London is a big example of that. So hospitalisations for assault by sharp object, which is one of the most reliable predictors of violent crime, have fallen by almost a third in London since their peak before the pandemic. Teen homicides as well are much lower than they used to be. And in other big cities like Manchester and Birmingham, homicides have fallen by nearly a third from their peak. As a result, last year homicides in Britain overall fell to a 50-year low, but rates are falling much more slowly in the counties, and in some they're increasing. So Cambridgeshire and Bedfordshire are quite leafy suburban places, but last year they had hospitalisation increases of over 50%."
+    },
+    {
+      "start": 894.4,
+      "end": 899.5,
+      "speaker": "C",
+      "text": "Sonny, as you say, this goes very much against what we hear. How have the big cities done it?"
+    },
+    {
+      "start": 900.3,
+      "end": 953.5,
+      "speaker": "B",
+      "text": "In places like London, you really have to give Sadiq Khan some credit. When knife crime started to take off around 2018, politicians really didn't know what to do. Sadiq Khan was one of the first to look at Glasgow, which is a city in Scotland that was once the murder capital of Europe. But Glasgow achieved big reductions in violent crime with what are called violence reduction units, which are basically offices that are designed to increase cooperation between different government agencies. So police, schools, hospitals, even things like sports clubs and things like that. And the idea is to identify children that are at risk of gang involvement, basically. And Sadiq Khan was the first English politician to really adopt this prevention strategy. It's not perfect, but it appears to be working, particularly in cities like London, where this kind of cooperation is easier to facilitate. The problem is just that it's much harder to replicate outside of urban centres."
+    },
+    {
+      "start": 954.2,
+      "end": 955.3,
+      "speaker": "C",
+      "text": "So what's going on there?"
+    },
+    {
+      "start": 956.1,
+      "end": 1028.3,
+      "speaker": "B",
+      "text": "So what's happening in more rural places is that the shape of Britain's drug market is changing. Violent crime is heavily associated with drug trafficking drug trafficking in Britain. And in the late 2010s, so-called county lines emerged as urban gangs looked for less crowded markets outside of city centres. Basically, that's a business model that uses vulnerable children to ferry drugs from urban gangs to rural addicts. And most places are still recording less violence than they were in this initial wave of expansion. But violence in rural areas is proving particularly sticky because it's still the most profitable route to growth for organised drug groups. So the number of county lines is up nearly tenfold since 2019, and that increased competition has created a market based on customer service. So fast deliveries, essentially. That's a hard service for a drugs gang based in London to provide customers in Margate. So gangs are increasingly setting up local hubs and dealing from there. They're recruiting local kids, and the number of internal lines, which is those operating within counties rather than between counties, has tripled since 2022, as well as the share of lines connecting to what the police called task force areas, which is basically traditional hotspots, has been falling over the last few years."
+    },
+    {
+      "start": 1029.3,
+      "end": 1037.3,
+      "speaker": "C",
+      "text": "So essentially the drug market has dispersed across the UK and out of the big cities. What can the government do about that?"
+    },
+    {
+      "start": 1038.6,
+      "end": 1097.1,
+      "speaker": "B",
+      "text": "The government's Knife Crime Action Plan, which they published in April, says a lot of the right things, but it adopts an outdated definition of the county lines model, focusing on the British Transport Police and stopping the train lines that these gangs are using to ferry drugs from the cities to the towns. But arguably what rural areas need most is a better local understanding of how these drugs gangs operate. In urban areas, experience with these kind of gangs has produced a certain amount of understanding, a bit of nous. You've got streetwise youth workers, family members who know what the signs are to look out for, whereas rural areas really lack that kind of exposure. And people in these areas are used to seeing knife crime as an urban, even a racial problem that you just need tougher policing to deal with. But policing can only get you so far, and when so much violence is perpetrated by kids being exploited by predatory organized crime groups, prevention is a public health problem as much as a policing one."
+    },
+    {
+      "start": 1098,
+      "end": 1099.1,
+      "speaker": "C",
+      "text": "Sonny, thank you very much."
+    },
+    {
+      "start": 1099.8,
+      "end": 1100,
+      "speaker": "B",
+      "text": "Thank you."
+    },
+    {
+      "start": 1114.1,
+      "end": 1124.7,
+      "speaker": "D",
+      "text": "Towards the end of his very long life, Frank Smith found himself in 60 West, which was a nursing home especially for people who'd come out of prison."
+    },
+    {
+      "start": 1127.4,
+      "end": 1129.7,
+      "speaker": "C",
+      "text": "And Ro is The Economist obituaries editor."
+    },
+    {
+      "start": 1131.1,
+      "end": 1497,
+      "speaker": "D",
+      "text": "He had actually been imprisoned then for more than 70 years. For him though, there really wasn't very much difference between that and the nursing home. His case concerned the murder in July 1949 of a night watchman called Grover Hart at the Indian Harbor Yacht Club in Greenwich, Connecticut. Two men had gone to the yacht club, which is a very swank place, at half past 1 in the morning. And there, Grover Hart, the night watchman, had surprised them, and they shot at him. They found a very small haul of stuff in the yacht club, only some ties, tie clips, and the manager's hat. But all the same, they had killed Hart, and with the life that was left in him, he told the police that the man who had fired the shot was wearing a bandana around his face and was very small. And that happened to fit the description of Frank Smith, who was indeed very small and was already known to the police for wearing a bandana. He seemed to look like the most likely suspect for the killing. He'd also run away and was found hiding in the woods with a bottle of hair dye, and he told the police an alibi about being on a camping trip, which turned out to be false. Now, it was true that he'd had a companion in crime, George Loudon, who had also been in the yacht club that night. But Loudon told the police that he had not fired the fatal shot. That had been Smith. Loudon himself had just fired into the air. For this cooperation, Loudon got off with second-degree murder, which was being locked up for life. But Frank Smith was convicted in the first degree, which meant he got the electric chair. And his life became a series of scheduled appointments with the chair. 8 times his final meal was served to him. The last time, with only 2 hours to go before his execution, his head was shaved so that it would take the electrodes. But then suddenly a petition came in from an officer who had interviewed him first who said that he was positive Smith hadn't done it. And there had been other evidence that had been building up before. Witnesses had changed their story. Loudon himself had changed it. And there was a feeling that the case was unsound and that too many doubts were hanging over it. So in 1954, his sentence was commuted. And he got life. What he didn't get, and what he really needed, was a second trial that would have proved him innocent. So for the rest of his long life, this was what he was trying to achieve. He found a champion in a property agent called Aaron Cohen, who encouraged him to write letters petitioning for a second trial. And then he stole books from the prison library to study his case more deeply. And he actually wrote a petition of 259 pages detailing 221 instances where he felt his rights had been violated. And this was delivered to the Second Circuit Court of Appeals as a petition for habeas corpus, but the court just threw it out. He didn't share his horror of the electric chair, which he still remembered vividly as something that he was about to undergo, as a machine that cooked people's bodies. He never shared that fear with anybody until a reporter from the Boston Globe called Annalisa Quinn went in 2023 to interview him. He liked her visits, and he poured out to her all his problems about his case. Although there were many questions she asked him about deeper things, about his childhood and any regrets he might have had, that he simply refused to answer. He told her he didn't think about that. He didn't even want to think about those sorts of things. And freedom was another thing that he didn't seem to want to think about too much. In 1967, when he was in a minimum security jail, he did manage to steal a truck and managed to get as far as Winthrop, Massachusetts. He was 12 days out on the open road, but then he was back inside. The next bit of parole he got was in 1975. He managed 10 months then, but he was then arrested for petty larceny and possession of a weapon, which violated the terms of his parole. So again, he was back inside, and at that point, he seems to have given up wanting to be paroled. Prison was safer and prison was routine. Freedom was difficult and perhaps he'd got out of the habit of it. Perhaps he'd stopped envying the birds he used to feed, who, when they'd stuffed themselves with the bread from the prison dining room, would just fly away."
+    },
+    {
+      "start": 1501.6,
+      "end": 1579.5,
+      "speaker": "C",
+      "text": "Anne Rowe on Frank Smith, who has died aged 101. Tomorrow on The Weekend Intelligence, meet the audacious members of a clandestine radio station. That gave Nigerians a voice in the 1990s, when the country was ruled by a brutal military dictator. Radio Kudarat offered Nigerians a glimmer of hope for a democratic and united future. Over 30 years on, it's time to hear that hidden history. You'll need to be a subscriber. And that's all for this episode of The Intelligence. The show's editors are Chris Impy and Jack Gill. Our deputy editor is Sarah Lanyon. Anouk, and our sound designer is Will Roe, with help this week from Mark Burrows. Our senior producers are Henrietta McFarlane and Alizée Jean-Baptiste. Our senior development producer is Rory Galloway, and our senior creative producer is William Warren. Our producer is Anne Hanna, and our assistant producer is Kunal Patel, with extra production help this week from Emily Elias and Sarah Treanor. We'll all see you back here for the Weekend Intelligence tomorrow."
+    },
+    {
+      "start": 1592.8,
+      "end": 1619.7,
+      "speaker": "A",
+      "text": "AI is transforming sales, support, and every customer interaction in between. But too often, you're sold a different AI agent for every job. That changes with Finn. Finn is a single customer agent that works across the entire customer journey. From qualifying sales leads to resolving support issues, Finn works across teams, carrying context from one conversation to the next. Meet the agent making perfect customer experiences possible at Finn.ai."
+    }
+  ]
+}

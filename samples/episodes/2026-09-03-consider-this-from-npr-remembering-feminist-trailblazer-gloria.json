@@ -1,0 +1,310 @@
+{
+  "episode": {
+    "id": "fc0d15a81e6812e6599c183809c8abe2561f898627174f78c57cfe4bf4ba5202",
+    "podcastTitle": "Consider This from NPR",
+    "feedUrl": "https://feeds.npr.org/510355/podcast.xml",
+    "guid": "4ba8160b-9646-472f-9451-8d6f9931b64f",
+    "title": "Remembering feminist trailblazer Gloria Steinem",
+    "description": "Gloria Steinem, the trailblazing journalist and women’s rights activist, has died. She was 92. Throughout her life, Steinem challenged gender stereotypes, advocated for women’s equality and founded numerous feminist organizations. What will her legacy be?<br/><br/><br>This episode was produced by Elena Burnett, Lauren Hodges and Karen Zamora, with audio engineering by Éowyn Fain and Ted Mebane. Our director is Jonas Adams.<br/><br/>It was edited by Mallory Yu and Tinbete Ermyas.<br/><br/>Our interim executive producer is Courtney Dorning.<br/><br/>Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include bonus episodes and sponsor-free listening. Learn more at <a href=\"http://plus.npr.org/\"target=\"_blank\"   >plus.npr.org</a>.<br/><br/>See <a href=\"https://pcm.adswizz.com\">pcm.adswizz.com</a> for information about our collection and use of personal data for sponsorship and to manage your podcast sponsorship preferences.<br/><br/><a href=\"https://www.npr.org/about-npr/179878450/privacy-policy\">NPR Privacy Policy</a>",
+    "pubDate": "2026-09-03T21:05:40.000Z",
+    "duration": 564,
+    "audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510355/npr.simplecastaudio.com/2a4a748e-0a2f-495a-8208-99765f0dad47/episodes/68520697-12aa-446d-a4e9-e1f0dfd228ba/audio/128/default.mp3?awCollectionId=2a4a748e-0a2f-495a-8208-99765f0dad47&awEpisodeId=68520697-12aa-446d-a4e9-e1f0dfd228ba&feed=4XF9Dp_o&t=podcast&e=nx-s1-5955508&p=510355&d=564&size=9036321",
+    "artworkUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3350x3350+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F75%2F83%2Fdfbc0d8b44ed8e0374aace251800%2Fdd26c0da-0a11-4f2d-9005-a5c2446edf6e.jpg"
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 666,
+    "utteranceCount": 39
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:37:26.622Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "Gloria Steinem Dies at 92",
+      "description": "NPR introduces the episode honoring the life and legacy of feminist icon Gloria Steinem.",
+      "startTime": 0.753,
+      "endTime": 177.036,
+      "anchorPhrase": "it's consider this, where every day we go deep on one big news story. today,"
+    },
+    {
+      "index": 1,
+      "title": "Abigail Disney's Personal Tribute",
+      "description": "Filmmaker and activist Abigail Disney shares what it was like to learn of her close friend Steinem's passing.",
+      "startTime": 177.036,
+      "endTime": 248.735,
+      "anchorPhrase": "it's consider this from npr. for many people, gloria steinem's name became synonymous with the"
+    },
+    {
+      "index": 2,
+      "title": "Meeting the 'Cultural Villain'",
+      "description": "Disney describes growing up in a household hostile to feminism and her surprising first encounter with Steinem in 1993.",
+      "startTime": 248.735,
+      "endTime": 325.961,
+      "anchorPhrase": "yeah. tell me, what surprised you the most when you first met her? when you"
+    },
+    {
+      "index": 3,
+      "title": "Steinem's Radical Generosity",
+      "description": "Disney recalls how Steinem visited her in the hospital weekly and became the mentor her own mother never was.",
+      "startTime": 325.961,
+      "endTime": 426.114,
+      "anchorPhrase": "you know? so, and she understood, really understood that just how terrifying the situation was"
+    },
+    {
+      "index": 4,
+      "title": "The Burden of Being the Face",
+      "description": "Disney reveals how Steinem quietly resisted being crowned feminism's sole symbol and faced criticism from within the movement itself.",
+      "startTime": 426.114,
+      "endTime": 522.617,
+      "anchorPhrase": "was gloria ever uncomfortable? did she ever discuss this with you about being uncomfortable being"
+    },
+    {
+      "index": 5,
+      "title": "Steinem's Vision for Every Movement",
+      "description": "Disney reflects on how Steinem wanted to be remembered — not as a hero, but as someone who helped everyone recognize their own power.",
+      "startTime": 522.617,
+      "endTime": 666,
+      "anchorPhrase": "how do you want women now and in the future to remember and to honor"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 0.8,
+      "end": 8.4,
+      "speaker": "A",
+      "text": "It's Consider This, where every day we go deep on one big news story. Today, remembering a feminist icon."
+    },
+    {
+      "start": 8.8,
+      "end": 22.2,
+      "speaker": "B",
+      "text": "It's just the radical idea that human beings are all equal and we can dispense with the labels of gender and class and race and begin to realize our unique individuality."
+    },
+    {
+      "start": 22.6,
+      "end": 35.4,
+      "speaker": "A",
+      "text": "Gloria Steinem, the trailblazing journalist and women's rights activist, has died. She was 92 years old. Here's how Steinem described described feminism to TED Women curator Pat Mitchell in 2020."
+    },
+    {
+      "start": 35.7,
+      "end": 52.2,
+      "speaker": "B",
+      "text": "Of course feminism was misunderstood in the beginning, as if it were about female superiority, or, uh, it was a movement for lesbians only, not for all women. I mean, I used to just send people to the dictionary to look up feminism. Very helpful."
+    },
+    {
+      "start": 52.8,
+      "end": 67.2,
+      "speaker": "A",
+      "text": "Throughout her life, Steinem pushed back on gender stereotypes, advocated for women's equality and founded many feminist organizations. And in doing so, she inspired generations of women, including myself."
+    },
+    {
+      "start": 67.7,
+      "end": 78.5,
+      "speaker": "C",
+      "text": "She made it okay to be a feminist for people who thought, you know, all feminists were man-haters and all feminists had hairy legs and, you know, all the stereotypes we have all lived through."
+    },
+    {
+      "start": 79,
+      "end": 105.6,
+      "speaker": "A",
+      "text": "Letty Cottin Pogrebin was a friend and co-founded Ms. Magazine with Steinem. Consider this: Gloria Steinem was a major figure in the feminist movement. What will her legacy be? We'll hear from one of her close friends. From NPR, I'm Ailsa Chang."
+    },
+    {
+      "start": 107.8,
+      "end": 132.6,
+      "speaker": "D",
+      "text": "This message comes from Satva. Back to school takes a lot of energy, focus, and stamina, not just for the kids, but for the teachers and parents too. And that requires deep, restorative sleep, the kind that every Saatva mattress is designed to provide. Because every tomorrow starts the night before. And now save up to $625 on $1,000 or more at saatva.com/NPR. That's S-A-A-T-V-A.com/NPR."
+    },
+    {
+      "start": 136.4,
+      "end": 168.8,
+      "speaker": "E",
+      "text": "This message comes from NPR sponsor Carvana. Carvana believes selling your car should be easy. Get a real offer down to the penny, picked up from your driveway. You may keep waiting for a catch. There isn't one. Sell today at carvana.com. Pickup fees may apply. Support for NPR and the following message come from WashingtonWise. Decisions made in Washington can affect your portfolio every day. WashingtonWise from Charles Schwab is an original podcast that unpacks the stories making news in Washington. Listen at schwab.com/washingtonwise."
+    },
+    {
+      "start": 177,
+      "end": 200.5,
+      "speaker": "A",
+      "text": "It's Consider This from NPR. For many people, Gloria Steinem's name became synonymous with the fight for women's rights. For others, like filmmaker and activist Abigail Disney, Steinem was also a personal friend and mentor. Abigail Disney joins us now to remember Steinem. Thank you so much for taking the time to speak with us, and I'm very sorry for your loss."
+    },
+    {
+      "start": 200.9,
+      "end": 203.7,
+      "speaker": "F",
+      "text": "Thank you, and I'm just so happy to talk about Gloria."
+    },
+    {
+      "start": 204,
+      "end": 207.3,
+      "speaker": "A",
+      "text": "Thank you. Well, what did it feel like when you first heard this news today?"
+    },
+    {
+      "start": 208.3,
+      "end": 232,
+      "speaker": "F",
+      "text": "Um, I've been in Ireland for a lot of the summer, but I did last week get on a plane and go see her before it was too late. So I'm really happy I had that little moment with her. Um, even if it was just so brief. But I was so blown away that she was, you know, just as gracious and funny and smart as she always was."
+    },
+    {
+      "start": 232.3,
+      "end": 248.6,
+      "speaker": "A",
+      "text": "Well, you have said before that you grew up in a household where feminism was criticized, like where Gloria Steinem's name was spoken about as if she were some sort of cultural villain. And then I understand that you met her for the first time at an event in 1993."
+    },
+    {
+      "start": 248.7,
+      "end": 248.9,
+      "speaker": "F",
+      "text": "Yeah."
+    },
+    {
+      "start": 249.3,
+      "end": 253.6,
+      "speaker": "A",
+      "text": "Tell me, what surprised you the most when you first met her? When you finally met her in person?"
+    },
+    {
+      "start": 254.9,
+      "end": 273.5,
+      "speaker": "F",
+      "text": "Her hilarity. You know, I told her sometimes I picture you with a Groucho Marx cigar in your hand because she would make— she would wisecrack like that all the time. And I did not see that coming, you know. So we just cracked each other up and had a great time together because she was so funny."
+    },
+    {
+      "start": 274,
+      "end": 278.5,
+      "speaker": "A",
+      "text": "Wait, how is it that you came to be such close personal friends with her as an adult?"
+    },
+    {
+      "start": 279.4,
+      "end": 353.3,
+      "speaker": "F",
+      "text": "You know, it's funny, 'cause yeah, I didn't meet her until I was 33. It was 30-some-odd years ago. And I said, \"Would you ever have lunch with me?\" I mean, like, I was in awe, as everyone is, you know? I was in awe of getting the chance to meet her. And she said, \"Yeah, that would be great.\" And it's so strange because she just made room for me in her heart, and she just opened right up to me. And then we had a series of things Like, I was in the hospital for quite a long time in '99 at Lenox Hill, which is right around the corner from where she lived, and she would come 2 or 3 times a week to visit me, a couple Starbucks in her perfectly manicured hands, and we would just sit there, 'cause what are you gonna do? I'm on bed rest for 10 weeks, you know? So, and she understood, really understood that just how terrifying the situation was for me, and that the only way to help me was to just come and talk and shoot the breeze with me. And she took that really seriously. And, you know, I came from something very different than what she came from. And there was a lot to sort of dig my way out from under."
+    },
+    {
+      "start": 353.8,
+      "end": 355.7,
+      "speaker": "A",
+      "text": "What do you mean? You mean as a Disney?"
+    },
+    {
+      "start": 356.1,
+      "end": 370.5,
+      "speaker": "F",
+      "text": "Yeah, as a Disney and from a very politically conservative, socially conservative family. You know, I was really— of all the of the issues flying around in the '60s and '70s, feminism was the one that got my family most worked up and angry."
+    },
+    {
+      "start": 370.5,
+      "end": 371.7,
+      "speaker": "A",
+      "text": "Oh, interesting. Wow."
+    },
+    {
+      "start": 372,
+      "end": 424.8,
+      "speaker": "F",
+      "text": "You know, and so, you know, and my mother used to say things to me like, \"Women make terrible friends. Never trust a woman,\" and things like that. I mean, a lot of what came out of her mouth was just the polar opposite of what Gloria thought. And so that's why I was so drawn to her from the beginning, because she felt like an other mother who might be better for me than the one that I was assigned. Not that I didn't love my mother, my mother. But, you know, it was just— she, she could look at a person and see everything she thought possible that they were capable of, and then she would just be bent on helping you understand how capable you were of things, big changes, big things. And so every time I was maybe having doubts or not sure of the next thing, you know, she was there with the right sentence and the right encouraging emotion."
+    },
+    {
+      "start": 426.1,
+      "end": 439.5,
+      "speaker": "A",
+      "text": "Was Gloria ever uncomfortable? Did she ever discuss this with you about being uncomfortable being treated as, like, the embodiment, the face, the spokeswoman of feminism, that it was all her?"
+    },
+    {
+      "start": 439.9,
+      "end": 440.3,
+      "speaker": "F",
+      "text": "Yeah."
+    },
+    {
+      "start": 440.5,
+      "end": 441.3,
+      "speaker": "A",
+      "text": "How did she carry that?"
+    },
+    {
+      "start": 441.5,
+      "end": 474.6,
+      "speaker": "F",
+      "text": "Yeah, no, she hated that. She really hated that because she felt, you know, she got too much credit for things that weren't necessarily all her doing. And that worked— badly in her life because then people would pin every problem on her, the hostile people would. And there were plenty of women in the feminist movement who thought she was problematic because she was pretty, that she was, you know, kind of putting forward, you know, a pleasing face that a lot of feminists didn't want out there."
+    },
+    {
+      "start": 474.7,
+      "end": 477.1,
+      "speaker": "A",
+      "text": "A conventionally attractive female face."
+    },
+    {
+      "start": 477.3,
+      "end": 477.8,
+      "speaker": "F",
+      "text": "Exactly."
+    },
+    {
+      "start": 477.9,
+      "end": 480.9,
+      "speaker": "A",
+      "text": "And that maybe didn't represent the diversity of the movement."
+    },
+    {
+      "start": 481.1,
+      "end": 521.6,
+      "speaker": "F",
+      "text": "Well, yeah. And, you know, that— By the way, she got a lot of hostility as a white feminist, but what is so interesting was she was the white feminist who was the first white feminist who was from the beginning saying, this is not a white movement. The vast majority of feminists are Black women, and we need to be listening to women of color. And so she wouldn't go speak. If somebody invited her to speak, just her, she would bring someone with her who was a woman of color. Partners who would travel with her to everything. And she was constantly insisting on, like, don't leave people of color out of this story because they are everything."
+    },
+    {
+      "start": 522.6,
+      "end": 532.2,
+      "speaker": "A",
+      "text": "How do you want women now and in the future to remember and to honor Gloria Steinem? Or how do you think she would want to be honored, to be honest?"
+    },
+    {
+      "start": 532.4,
+      "end": 546.4,
+      "speaker": "F",
+      "text": "You know, I told her, I think the word mensch is for men, but I think she's a wench. You know, she's been the best kind of wench I can imagine."
+    },
+    {
+      "start": 546.5,
+      "end": 547.4,
+      "speaker": "A",
+      "text": "The best wench."
+    },
+    {
+      "start": 547.9,
+      "end": 590.2,
+      "speaker": "F",
+      "text": "That would be, you know, if she could, like, get everybody to recognize how mutual and cooperative all social movements need to be to really make a change, that there doesn't need to be a hero at the top of the hill to— and she didn't need that. If everybody would recognize their own power and pitch in together, that was all she wanted to help people do. And women do have it better, believe it or not. It's hard to imagine right in this moment the way people are talking about it. But we do have it better because we have more rights and we have more recourse. So I think of that kind of movement as the heart of how Gloria wanted to change the world, and she had a big part in it."
+    },
+    {
+      "start": 591.1,
+      "end": 603.2,
+      "speaker": "A",
+      "text": "Filmmaker Abigail Disney remembering her very good friend Gloria Steinem. Thank you so much, Abigail, for talking to us on such a difficult day. It was a lovely conversation. Thank you."
+    },
+    {
+      "start": 603.2,
+      "end": 604.4,
+      "speaker": "F",
+      "text": "Thank you so much."
+    },
+    {
+      "start": 604.4,
+      "end": 628.5,
+      "speaker": "A",
+      "text": "This episode was produced by Elena Burnett, Lauren Hodges, and Karen Zamora, with audio engineering by Eowyn Fain and Ted Mebane. Our director is Jonas Adams. It was edited by Mallory Yu and Timbi Ermias. Our interim executive producer is Courtney Dorney. It's Consider This from NPR. I'm Ailsa Chang."
+    },
+    {
+      "start": 628.9,
+      "end": 664.5,
+      "speaker": "E",
+      "text": "Support for NPR and the following message come from WashingtonWise. Decisions made in Washington can affect your portfolio every day. WashingtonWise from Charles Schwab is an original podcast that unpacks the stories making news in Washington. Listen at schwab.com/washingtonwise. Want to hear this podcast without sponsor breaks? Amazon Prime members can listen to Consider This sponsor-free through Amazon Music. Or you can also support NPR's vital journalism and get NPR+ at plus.npr.org. That's plus.npr.org."
+    }
+  ]
+}

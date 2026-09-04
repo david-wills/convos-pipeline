@@ -1,0 +1,200 @@
+{
+  "episode": {
+    "id": "8b2d8ff0dfa56b4030efafd243133115caf904367696781000b1cdf1a9997511",
+    "podcastTitle": "CNN 5 Things",
+    "feedUrl": "https://feeds.megaphone.fm/WMHY2007701094",
+    "guid": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/2nzGkisFXQswLYT5s325/traffic.megaphone.fm/WMHY1213944736.mp3",
+    "title": "Strong Jobs Report, First Mail Ballots Go Out, NFL Players Return to NCAA and More",
+    "description": "We got a stronger than expected jobs report this morning – but Americans are still contending with sky-high gas prices. The first midterm mail-in ballots went out today with a USPS overhaul hanging in the balance at the Supreme Court. Argentina’s president is reviving a decades-old dispute with the UK. And one of college football’s top conferences has sued one of its premier schools – we'll explain why.CNN is covering the latest in the Lindsay Clancy trial here.\nLearn more about your ad choices. Visit podcastchoices.com/adchoices",
+    "pubDate": "2026-09-04T15:51:00.000Z",
+    "duration": 429,
+    "audioUrl": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/2nzGkisFXQswLYT5s325/traffic.megaphone.fm/WMHY1213944736.mp3",
+    "artworkUrl": null
+  },
+  "transcript": {
+    "provider": "assemblyai",
+    "model": "universal-3-pro",
+    "audioDuration": 461,
+    "utteranceCount": 22
+  },
+  "segmentation": {
+    "model": "claude-sonnet-4-6",
+    "generatedAt": "2026-09-04T16:38:44.678Z"
+  },
+  "convos": [
+    {
+      "index": 0,
+      "title": "August Jobs Boom Explained",
+      "description": "CNN's Alicia Wallace breaks down a stronger-than-expected hiring surge that blew past August forecasts.",
+      "startTime": 1.474,
+      "endTime": 60.161,
+      "anchorPhrase": "hey there, from cnn, i'm david rinde with the things you need to know for"
+    },
+    {
+      "index": 1,
+      "title": "Record Gas Prices This Labor Day",
+      "description": "CNN's Matt Egan explains why Americans are paying above $4 a gallon and why the Trump administration's fixes aren't working.",
+      "startTime": 60.161,
+      "endTime": 121.34,
+      "anchorPhrase": "you may have already started your holiday weekend. if so, i'm jealous, but lots more"
+    },
+    {
+      "index": 2,
+      "title": "Mail Ballots vs. Supreme Court",
+      "description": "The first midterm mail-in ballots go out in North Carolina as Trump asks the Supreme Court to fast-track a USPS overhaul.",
+      "startTime": 121.34,
+      "endTime": 212.467,
+      "anchorPhrase": "the first midterm mail-in ballots are going out today in north carolina ahead of november's"
+    },
+    {
+      "index": 3,
+      "title": "Argentina Reignites Falklands Fight",
+      "description": "Argentine President Milei sanctions oil companies near the Falkland Islands, reviving a dispute Britain thought was settled decades ago.",
+      "startTime": 212.467,
+      "endTime": 260.247,
+      "anchorPhrase": "a decades-long dispute over control of the falkland islands is heating up again. argentine president"
+    },
+    {
+      "index": 4,
+      "title": "SEC Sues LSU Over NFL Recruits",
+      "description": "The SEC takes LSU to federal court, alleging the school orchestrated a scheme to lure professional NFL players back to college football.",
+      "startTime": 260.247,
+      "endTime": 461,
+      "anchorPhrase": "law. the us has long avoided taking a position on who should control the islands"
+    }
+  ],
+  "utterances": [
+    {
+      "start": 1.5,
+      "end": 19.9,
+      "speaker": "A",
+      "text": "Hey there, from CNN, I'm David Rinde with the 5 things you need to know for Friday, September 4th. We got a new jobs report this morning. Data from the Bureau of Labor Statistics shows that hiring surged in August. CNN senior business writer Alicia Wallace is here to break it down. Alicia, safe to say this is good news for job seekers?"
+    },
+    {
+      "start": 20.4,
+      "end": 58.8,
+      "speaker": "B",
+      "text": "Yeah, David, this is certainly encouraging news for job seekers. The estimated 162,000 jobs added in August, that blew past expectations and it well surpassed the higher hiring we saw in July and in June. Now bear in mind, economic data can be volatile, and we've gotten our fair share of whiplash from jobs reports this year. However, there is an interesting little piece of data that I always like to look for in these jobs reports to tell us how broad-based that hiring is, and that index, it hit its highest level in 2 years. So that's great news for job seekers."
+    },
+    {
+      "start": 60.2,
+      "end": 74.9,
+      "speaker": "A",
+      "text": "You may have already started your holiday weekend. If so, I'm jealous, but lots More people will be on the road and they'll likely be facing the highest Labor Day gas prices on record. CNN's Matt Egan is here. Matt, just how high are we talking and what is the Trump administration trying to do to bring them down?"
+    },
+    {
+      "start": 75.5,
+      "end": 119.9,
+      "speaker": "C",
+      "text": "Yeah, David, for the first time ever, gas prices are expected to be above $4 a gallon on Labor Day. That's up from just about $3 last Labor Day. This would shatter the prior record set in 2012. Now, Trump officials, they're going all out to try to bring down prices. They've waived regulations to speed up fuel deliveries. They've released record-setting amounts of emergency oil. But the reality is there are no easy solutions here. The war with Iran, it has scrambled global energy supplies and it has driven up the price of oil. Not only that, but there's a shortage of refineries that can turn all that crude into gas, diesel, and jet fuel. Meanwhile, the Iran war continues to drag on longer than many feared. It's hard to see how gas prices go back to those pre-war levels until the war gets resolved."
+    },
+    {
+      "start": 121.3,
+      "end": 173.8,
+      "speaker": "A",
+      "text": "The first midterm mail-in ballots are going out today in North Carolina ahead of November's general election. but a Trump administration plan to drastically reshape how the U.S. Postal Service handles these ballots is hanging in the balance. President Donald Trump made an emergency appeal to the Supreme Court yesterday, asking them to quickly resolve the issue even though lower courts are still considering it. The administration insists that changes are necessary to prevent voting fraud and has framed ballot handling changes as more about how the USPS regulates the mail rather than having to do with the elections themselves. Many state election officials believe that it's just too late to implement the changes, which would require the envelopes carrying the ballots to the voters and back to election offices have barcodes unique to each voter for tracking. A lower court had previously blocked the USPS change with a temporary order. All right, coming up, back to school takes on a whole new meaning."
+    },
+    {
+      "start": 174.4,
+      "end": 209.2,
+      "speaker": "D",
+      "text": "Have I got news for your ears, the podcast. I am your host, Michael Ian Black. What are we going to talk about? Let's get into it. We're talking about We're back at war with Iran and Trump has the AI slop videos to prove it. Dan Driscoll quits right when we learned who he was. Trump's midterm plans involve several unpopular things, himself and data centers. Have I got news for your ears. Check us out on Apple, Amazon Music, wherever you get your podcasts. Even better, you can watch the vodcast on Spotify."
+    },
+    {
+      "start": 212.5,
+      "end": 328.4,
+      "speaker": "A",
+      "text": "A decades-long dispute over control of the Falkland Islands is heating up again. Argentine President Javier Milei announced plans to sanction oil companies working near the Falkland Islands last night. He also reasserted Argentina's claim to the islands in the South Atlantic Ocean. Just one problem: the UK has controlled the territory since 1833. The two countries fought a war over it in the early 1980s. Milei also took aim at an oil field project off the coast of the Falklands and involving Israeli and British firms, he called it a, quote, \"concrete and urgent danger\" and accused the companies of moving towards oil extraction without Argentina's permission. Britain's foreign minister hit back today, saying the UK's commitment to the Falkland Islands was, quote, \"unwavering\" and that the islanders' right to self-determination is grounded in international law. The US has long avoided taking a position on who should control the islands while recognizing Britain's de facto rule. President Trump suggested earlier this week that Washington could reconsider that stance. College football is back in earnest this weekend with a full slate of games, but the most interesting matchup may be in court. The Southeastern Conference, the SEC, has sued LSU in federal court over what it alleges is a coordinated campaign to recruit professional athletes. It comes as another judge cleared the way yesterday for former New Orleans Saints defensive lineman Xavien Harris and former Cleveland Browns tight end Daquan Wright to leave the NFL and return to college under head coach Lane Kiffin at LSU. Several dozen athletes are attempting to take advantage of new NCAA rules allowing for 5 full years of competition. The SEC said it plans to appeal the ruling allowing the players to compete. Quote, \"The SEC will continue to defend this standard, the principle of fair competition, and the conference's authority to govern competition among its member universities.\" LSU says it will carefully review the court's order and will work with the SEC and the NCAA as the matter moves forward."
+    },
+    {
+      "start": 329.7,
+      "end": 330.2,
+      "speaker": "E",
+      "text": "All right."
+    },
+    {
+      "start": 330.2,
+      "end": 339.6,
+      "speaker": "A",
+      "text": "That's all the time we have for now. And if you're following the latest in the Lindsay Clancy trial, we have constant updates going right now at CNN.com. We'll be back with another update later today."
+    },
+    {
+      "start": 344.3,
+      "end": 381.8,
+      "speaker": "F",
+      "text": "I'm Dr. Sanjay Gupta, host of the Chasing Life podcast. Last week, there was this important report that dropped that I think got a lot of attention. It's about football. And there was this new study in the British Medical Journal which estimates that of all the NFL players who died between 2000 and 2020, between 2016 and 2021, about 878 players, at least 25% of them had confirmed CTE. That is the disease that is caused by repetitive hits to the brain. So CNN's resident NFL veteran, Coy Wire, he called me, we called fellow CNN sports anchor Andy Schollz, and we were talking about it."
+    },
+    {
+      "start": 382.3,
+      "end": 391.7,
+      "speaker": "C",
+      "text": "I know as a former player, anytime I forget my keys, if I get a slight headache, It pops in my head. I'm thinking like, man, I hope this is just—"
+    },
+    {
+      "start": 391.9,
+      "end": 392.8,
+      "speaker": "A",
+      "text": "Andy, do you forget your keys?"
+    },
+    {
+      "start": 393.2,
+      "end": 393.5,
+      "speaker": "D",
+      "text": "Rarely."
+    },
+    {
+      "start": 393.6,
+      "end": 397.4,
+      "speaker": "A",
+      "text": "I— Oh, you're supposed to say yes all the time, Coy. Make me feel better."
+    },
+    {
+      "start": 397.5,
+      "end": 397.6,
+      "speaker": "D",
+      "text": "Sorry."
+    },
+    {
+      "start": 397.8,
+      "end": 398.3,
+      "speaker": "E",
+      "text": "Sorry."
+    },
+    {
+      "start": 398.7,
+      "end": 402.3,
+      "speaker": "F",
+      "text": "Listen to Chasing Life streaming now wherever you get your podcasts."
+    },
+    {
+      "start": 403.8,
+      "end": 419.6,
+      "speaker": "G",
+      "text": "Hey, I'm Anderson Cooper. On my podcast, All There Is, we explore grief and loss in all its complexities. My guest on the podcast is NASCAR champion and Hall of Famer Kurt Busch. He's grieving the recent death of his younger brother, NASCAR champion Kyle Busch."
+    },
+    {
+      "start": 420.6,
+      "end": 441.4,
+      "speaker": "E",
+      "text": "I'm trying to grieve in ways to help people, you know, my mom, my dad. And I try to do it where I'm not biting off more than I can chew and then back off a little bit and trying to help everyone get through this and share stories. And it's not gonna get any easier, but time will help heal. I have a nice therapist that I worked with towards the twilight of my career."
+    },
+    {
+      "start": 441.7,
+      "end": 442.5,
+      "speaker": "G",
+      "text": "Has therapy helped?"
+    },
+    {
+      "start": 443.3,
+      "end": 449.8,
+      "speaker": "E",
+      "text": "It has. I embraced it a few years back, whereas the young Kurt, you know, a teenager, 20-year-old, 30-year-old, nah."
+    },
+    {
+      "start": 451.4,
+      "end": 459.7,
+      "speaker": "G",
+      "text": "Talking grief, building community. That's what the podcast is all about. This Is All There Is. Listen and follow wherever you get your podcasts."
+    }
+  ]
+}
