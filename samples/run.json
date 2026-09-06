@@ -1,8 +1,9 @@
 {
-  "ranAt": "2026-09-04T16:42:41.987Z",
+  "ranAt": "2026-09-06T17:32:38.480Z",
   "models": {
     "segment": "claude-sonnet-4-6",
-    "classify": "claude-haiku-4-5-20251001"
+    "classify": "claude-haiku-4-5-20251001",
+    "embed": "voyage-4-lite"
   },
   "transcription": {
     "provider": "assemblyai",
@@ -13,6 +14,16 @@
     "maxPerFeed": 2,
     "maxDurationSec": 2700
   },
+  "matching": {
+    "minScore": 8,
+    "maxCandidates": 200,
+    "retriever": "both",
+    "verifier": "context",
+    "embedding": {
+      "topK": 25,
+      "minSimilarity": 0.45
+    }
+  },
   "counts": {
     "podcastFeeds": 20,
     "episodesSelected": 39,
@@ -20,8 +31,8 @@
     "episodesSegmented": 39,
     "newsFeeds": 9,
     "stories": 37,
-    "storiesWithMatches": 13,
-    "matches": 45
+    "storiesWithMatches": 9,
+    "matches": 35
   },
   "audioHours": 14.38,
   "claudeUsage": {
@@ -39,11 +50,20 @@
     },
     "verify": {
       "model": "claude-haiku-4-5-20251001",
-      "calls": 20,
-      "inputTokens": 15301,
-      "outputTokens": 1819
+      "calls": 26,
+      "inputTokens": 24690,
+      "outputTokens": 2732
     }
   },
-  "claudeCostUsd": 1.0565,
+  "claudeCostUsd": 1.0704,
+  "embeddingUsage": {
+    "embed": {
+      "model": "voyage-4-lite",
+      "calls": 4,
+      "inputTokens": 11486,
+      "outputTokens": 0
+    }
+  },
+  "embeddingCostUsd": 0.0002,
   "notes": []
 }

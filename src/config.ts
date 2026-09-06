@@ -65,8 +65,10 @@ export function loadConfig(file: string): PipelineConfig {
     selection: { sinceDays: 3, maxPerFeed: 2, maxDurationSec: 2700, ...partial.selection },
     clustering: { maxHeadlines: 75, ...partial.clustering },
     matching: {
-      minScore: 7,
+      minScore: 8,
       maxCandidates: 200,
+      retriever: 'both',
+      verifier: 'context',
       ...partial.matching,
       embedding: { topK: 25, minSimilarity: 0.5, ...partial.matching?.embedding },
     },

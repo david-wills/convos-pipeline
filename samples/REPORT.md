@@ -1,6 +1,6 @@
 # Pipeline run report
 
-Run at 2026-09-04 16:42 UTC. Everything below was produced by the pipeline; nothing was edited by hand.
+Run at 2026-09-06 17:32 UTC. Everything below was produced by the pipeline; nothing was edited by hand.
 
 | | |
 |---|---|
@@ -10,13 +10,17 @@ Run at 2026-09-04 16:42 UTC. Everything below was produced by the pipeline; noth
 | Segments produced | 267 |
 | Headlines fetched | 270 |
 | Stories clustered | 37 |
-| Stories with verified podcast coverage | 13 |
+| Stories with verified podcast coverage | 9 |
 | Stories covered by 2+ different shows | 7 |
-| Claude cost (list price) | $1.06 |
+| Verified matches | 35 |
+| Retrieval | keyword search + embeddings (voyage-4-lite, top 25 by cosine, floor 0.45), union |
+| Verifier | claude-haiku-4-5-20251001, context prompt, keep 8 and above |
+| Claude cost (list price) | $1.07 |
+| Embedding cost (list price) | $0.0002 |
 
 ## Stories, ranked by trending score
 
-Trending score = matches × mean relevance × (1 + 0.2 × distinct shows) × decay. Relevance is the verifier's 0–10 score; only ≥7 is kept.
+Trending score = matches × mean relevance × (1 + 0.2 × distinct shows) × decay. Relevance is the verifier's 0–10 score; only ≥8 is kept.
 
 ### Gloria Steinem, Feminist Icon, Dies at 92
 
@@ -24,7 +28,7 @@ Legendary feminist activist and journalist Gloria Steinem passed away at age 92,
 
 - **Category:** culture · **Keywords:** `Gloria Steinem`, `feminist`, `activist`, `journalist`
 - **Sources:** 1 headlines from 1 outlets
-- **Podcast coverage:** 8 segments across 4 shows · trending 129.58 · status active
+- **Podcast coverage:** 12 segments across 4 shows · trending 115.85 · status active
 
 <details><summary>Headlines in this cluster</summary>
 
@@ -35,41 +39,17 @@ Legendary feminist activist and journalist Gloria Steinem passed away at age 92,
 | Show | Episode | Segment | Time | Score |
 |---|---|---|---|---|
 | Consider This from NPR | [Remembering feminist trailblazer Gloria Steinem](episodes/2026-09-03-consider-this-from-npr-remembering-feminist-trailblazer-gloria.json) | **Gloria Steinem Dies at 92** — NPR introduces the episode honoring the life and legacy of feminist icon Gloria Steinem. | 00:00–02:57 | 10 |
-| Reuters World News | [UPDATE: Gloria Steinem, Iran's economy and the Pentagon's testosterone pullback](episodes/2026-09-03-reuters-world-news-update-gloria-steinem-irans-economy-and.json) | **Gloria Steinem's Fearless Legacy** — The feminist icon and co-founder of Ms. Magazine died at 92, leaving behind five decades of activism for women's equality and social justice. | 03:17–04:44 | 10 |
 | The Daily | [The Intertwined Legacies of Gloria Steinem and Dolly Parton](episodes/2026-09-04-the-daily-the-intertwined-legacies-of-gloria-stein.json) | **Two Icons, One Week** — Michael Barbaro sets up the episode by framing the back-to-back deaths of Gloria Steinem and Dolly Parton as an unexpected cultural moment. | 00:00–01:00 | 9 |
 | The Daily | [The Intertwined Legacies of Gloria Steinem and Dolly Parton](episodes/2026-09-04-the-daily-the-intertwined-legacies-of-gloria-stein.json) | **Steinem Was My Family** — Longtime friend and colleague Lettie Cotton Pogrebin reflects on learning of Gloria Steinem's death and what a 55-year friendship meant to her. | 01:00–03:13 | 9 |
 | Start Here | [Trump’s DOJ Arrests an ICE Agent](episodes/2026-09-04-start-here-trumps-doj-arrests-an-ice-agent.json) | **Gloria Steinem's Life-Long Fight** — Feminist historian Deborah Michaels reflects on Steinem's journey from undercover Playboy Bunny to the face of second-wave feminism and why her fight never felt finished. | 15:09–23:39 | 9 |
 | Consider This from NPR | [Remembering feminist trailblazer Gloria Steinem](episodes/2026-09-03-consider-this-from-npr-remembering-feminist-trailblazer-gloria.json) | **Abigail Disney's Personal Tribute** — Filmmaker and activist Abigail Disney shares what it was like to learn of her close friend Steinem's passing. | 02:57–04:08 | 9 |
+| Reuters World News | [UPDATE: Gloria Steinem, Iran's economy and the Pentagon's testosterone pullback](episodes/2026-09-03-reuters-world-news-update-gloria-steinem-irans-economy-and.json) | **Gloria Steinem's Fearless Legacy** — The feminist icon and co-founder of Ms. Magazine died at 92, leaving behind five decades of activism for women's equality and social justice. | 03:17–04:44 | 9 |
 | The Daily | [The Intertwined Legacies of Gloria Steinem and Dolly Parton](episodes/2026-09-04-the-daily-the-intertwined-legacies-of-gloria-stein.json) | **Feminism Needed Both Women** — Times Magazine writer Susan Dominus explains why Steinem and Parton functioned as a duo — one the explicit organizer, one the joyful embodiment of feminist ideals. | 03:13–05:59 | 8 |
 | The Daily | [The Intertwined Legacies of Gloria Steinem and Dolly Parton](episodes/2026-09-04-the-daily-the-intertwined-legacies-of-gloria-stein.json) | **Growing Up With Gloria Steinem** — Dominus traces how Steinem's rise — from undercover Playboy Bunny reporting to co-founding Ms. Magazine — shaped the cultural landscape of her entire childhood. | 05:59–10:20 | 8 |
-
-### Nepal Tunnel Rescues Bring Hope After Floods
-
-Rescue teams pull workers alive more than a week after Nepal-China floods, with families performing symbolic cremations for victims.
-
-- **Category:** science_health · **Keywords:** `Nepal`, `floods`, `tunnel rescues`, `China`, `survivors`
-- **Sources:** 4 headlines from 3 outlets
-- **Podcast coverage:** 8 segments across 3 shows · trending 105.59 · status active
-
-<details><summary>Headlines in this cluster</summary>
-
-- Live updates: Rescues underway as two workers pulled alive more than a week after Nepal-China floods — *CNN*
-- 'A rare moment of joy': Nepal tunnel rescues bring hope for more flood survivors — *BBC World*
-- Families Turn to Symbolic Cremation After Nepal Floods — *The New York Times*
-- 'Layer upon layer of miracles' to find tunnel survivors, Nepal rescue adviser tells BBC — *BBC World*
-
-</details>
-
-| Show | Episode | Segment | Time | Score |
-|---|---|---|---|---|
-| CNN 5 Things | [Miraculous Rescues in Nepal](episodes/2026-09-04-cnn-5-things-miraculous-rescues-in-nepal.json) | **Nepal Tunnel Survivors Emerge** — Two men are pulled alive from a flooded tunnel over nine days after catastrophic floods hit Nepal, with roughly 900 workers still missing. | 00:00–02:28 | 9 |
-| Reuters World News | [Nepal rescue, Nvidia's bet and Texas vs big tech](episodes/2026-09-04-reuters-world-news-nepal-rescue-nvidias-bet-and-texas-vs-bi.json) | **Nine Days Alive Underground** — Two workers are pulled from a flooded Nepal hydropower tunnel nine days after a catastrophic glacier collapse killed over 1,200 people. | 00:00–01:45 | 9 |
-| Big Take | [Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability](episodes/2026-09-02-big-take-deadly-flooding-in-nepal-highlights-asia.json) | **Nepal's Catastrophic Glacial Flood** — Hundreds of hydropower workers go missing as a glacial collapse sends a devastating wall of water through valley communities on Nepal's border with China. | 00:00–05:21 | 9 |
-| Big Take | [Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability](episodes/2026-09-02-big-take-deadly-flooding-in-nepal-highlights-asia.json) | **Why Mountains Are Falling Apart** — Melting glaciers and thawing permafrost are destabilizing mountain landscapes globally, making deadly landslides and flash floods an increasingly common occurrence. | 05:21–07:53 | 8 |
-| Big Take | [Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability](episodes/2026-09-02-big-take-deadly-flooding-in-nepal-highlights-asia.json) | **A Global Crisis, Not Just Nepal** — From Alaska to Switzerland to the Indian Himalayas, glacial lake outburst floods are threatening communities on four continents. | 07:53–09:13 | 8 |
-| Big Take | [Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability](episodes/2026-09-02-big-take-deadly-flooding-in-nepal-highlights-asia.json) | **Warning Systems Rich vs. Poor Countries** — Switzerland evacuated its village nine days before a glacier collapsed, while Nepal received only minutes of warning — exposing a stark gap in monitoring and data-sharing capacity. | 09:13–13:16 | 8 |
-| Big Take | [Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability](episodes/2026-09-02-big-take-deadly-flooding-in-nepal-highlights-asia.json) | **Hydropower: Flood Shield or Sitting Duck?** — Nepal's reliance on run-of-river dams, cheaper but lacking flood storage capacity, leaves communities more exposed compared to the large reservoir dams built elsewhere. | 13:16–15:41 | 8 |
-| Big Take | [Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability](episodes/2026-09-02-big-take-deadly-flooding-in-nepal-highlights-asia.json) | **Can Nepal Still Win the Hydro Bet?** — Despite the devastation, Nepal's hydropower ambitions remain viable if the new government can establish proper oversight and learn from countries like Ethiopia and Laos. | 18:23–22:06 | 7 |
+| The Daily | [The Intertwined Legacies of Gloria Steinem and Dolly Parton](episodes/2026-09-04-the-daily-the-intertwined-legacies-of-gloria-stein.json) | **When Steinem Claimed Parton** — In 1987, Gloria Steinem personally wrote Ms. Magazine's tribute naming Dolly Parton a Woman of the Year, formally recognizing her as a feminist force on her own terms. | 25:22–28:46 | 8 |
+| Consider This from NPR | [Remembering feminist trailblazer Gloria Steinem](episodes/2026-09-03-consider-this-from-npr-remembering-feminist-trailblazer-gloria.json) | **Steinem's Radical Generosity** — Disney recalls how Steinem visited her in the hospital weekly and became the mentor her own mother never was. | 05:25–07:06 | 8 |
+| Consider This from NPR | [Remembering feminist trailblazer Gloria Steinem](episodes/2026-09-03-consider-this-from-npr-remembering-feminist-trailblazer-gloria.json) | **The Burden of Being the Face** — Disney reveals how Steinem quietly resisted being crowned feminism's sole symbol and faced criticism from within the movement itself. | 07:06–08:42 | 8 |
+| Consider This from NPR | [Remembering feminist trailblazer Gloria Steinem](episodes/2026-09-03-consider-this-from-npr-remembering-feminist-trailblazer-gloria.json) | **Steinem's Vision for Every Movement** — Disney reflects on how Steinem wanted to be remembered — not as a hero, but as someone who helped everyone recognize their own power. | 08:42–11:06 | 8 |
 
 ### Nvidia Acquires Hugging Face for $12.9 Billion
 
@@ -77,7 +57,7 @@ Nvidia announced a major acquisition of AI platform Hugging Face for $12.9 billi
 
 - **Category:** business · **Keywords:** `Nvidia`, `Hugging Face`, `acquisition`, `$12.9 billion`, `AI`, `$13 billion`, `AI platform`
 - **Sources:** 3 headlines from 3 outlets
-- **Podcast coverage:** 6 segments across 3 shows · trending 87.99 · status active
+- **Podcast coverage:** 5 segments across 3 shows · trending 45.99 · status active
 
 <details><summary>Headlines in this cluster</summary>
 
@@ -93,7 +73,6 @@ Nvidia announced a major acquisition of AI platform Hugging Face for $12.9 billi
 | Reuters World News | [Nepal rescue, Nvidia's bet and Texas vs big tech](episodes/2026-09-04-reuters-world-news-nepal-rescue-nvidias-bet-and-texas-vs-bi.json) | **Nvidia's $13 Billion AI Gamble** — Nvidia acquires Hugging Face to lock in a massive open-source developer community as its biggest customers increasingly build their own chips. | 05:16–06:45 | 9 |
 | Reuters World News | [Nepal rescue, Nvidia's bet and Texas vs big tech](episodes/2026-09-04-reuters-world-news-nepal-rescue-nvidias-bet-and-texas-vs-bi.json) | **Open Source vs. China's AI Push** — The Hugging Face deal positions Nvidia at the center of a geopolitical race between U.S. open-source AI and China's freely released models. | 06:45–07:27 | 9 |
 | FT News Briefing | [Top US trade official reveals ‘problem’ in UK negotiations](episodes/2026-09-04-ft-news-briefing-top-us-trade-official-reveals-problem-in.json) | **Nvidia Swallows the AI Ecosystem** — The chip giant's $13 billion acquisition of Hugging Face puts it at the center of open-source AI development, alarming millions of independent developers. | 07:36–11:29 | 9 |
-| Tech Brew Ride Home | [Nvidia Buys Hugging Face For A Rabbit?](episodes/2026-09-03-tech-brew-ride-home-nvidia-buys-hugging-face-for-a-rabbit.json) | **The $399 Duck Changes Everything** — Hugging Face's MicroDuck — a cheap bipedal robot designed to generate open physical AI training data — may be the hidden strategic asset driving Nvidia's massive valuation premium. | 03:59–08:15 | 9 |
 | Tech Brew Ride Home | [Nvidia Buys Hugging Face For A Rabbit?](episodes/2026-09-03-tech-brew-ride-home-nvidia-buys-hugging-face-for-a-rabbit.json) | **Why 86x Revenue Makes Sense** — Analyst Raffaella Di Ornano argues Nvidia is buying an option on Hugging Face becoming the data commons for physical AI, making the eye-popping price tag a strategic bet, not an overpay. | 08:15–12:09 | 9 |
 
 ### Nepal Tunnel Rescue and Flood Recovery Efforts
@@ -102,7 +81,7 @@ Workers were rescued from a collapsed tunnel in Nepal as the country faces devas
 
 - **Category:** science_health · **Keywords:** `Nepal`, `tunnel collapse`, `flash floods`, `rescue`
 - **Sources:** 2 headlines from 1 outlets
-- **Podcast coverage:** 5 segments across 3 shows · trending 68.79 · status active
+- **Podcast coverage:** 4 segments across 3 shows · trending 34.99 · status active
 
 <details><summary>Headlines in this cluster</summary>
 
@@ -116,7 +95,6 @@ Workers were rescued from a collapsed tunnel in Nepal as the country faces devas
 | CNN 5 Things | [Miraculous Rescues in Nepal](episodes/2026-09-04-cnn-5-things-miraculous-rescues-in-nepal.json) | **Nepal Tunnel Survivors Emerge** — Two men are pulled alive from a flooded tunnel over nine days after catastrophic floods hit Nepal, with roughly 900 workers still missing. | 00:00–02:28 | 9 |
 | Reuters World News | [Nepal rescue, Nvidia's bet and Texas vs big tech](episodes/2026-09-04-reuters-world-news-nepal-rescue-nvidias-bet-and-texas-vs-bi.json) | **Nine Days Alive Underground** — Two workers are pulled from a flooded Nepal hydropower tunnel nine days after a catastrophic glacier collapse killed over 1,200 people. | 00:00–01:45 | 9 |
 | Big Take | [Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability](episodes/2026-09-02-big-take-deadly-flooding-in-nepal-highlights-asia.json) | **Nepal's Catastrophic Glacial Flood** — Hundreds of hydropower workers go missing as a glacial collapse sends a devastating wall of water through valley communities on Nepal's border with China. | 00:00–05:21 | 9 |
-| Big Take | [Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability](episodes/2026-09-02-big-take-deadly-flooding-in-nepal-highlights-asia.json) | **Why Mountains Are Falling Apart** — Melting glaciers and thawing permafrost are destabilizing mountain landscapes globally, making deadly landslides and flash floods an increasingly common occurrence. | 05:21–07:53 | 8 |
 | Big Take | [Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability](episodes/2026-09-02-big-take-deadly-flooding-in-nepal-highlights-asia.json) | **Warning Systems Rich vs. Poor Countries** — Switzerland evacuated its village nine days before a glacier collapsed, while Nepal received only minutes of warning — exposing a stark gap in monitoring and data-sharing capacity. | 09:13–13:16 | 8 |
 
 ### Strong US Jobs Report Fuels Rate Rise Expectations
@@ -125,7 +103,7 @@ US nonfarm payrolls surge in August with unemployment steady at 4.1%, boosting e
 
 - **Category:** business · **Keywords:** `US jobs`, `payrolls`, `unemployment`, `interest rates`, `August`
 - **Sources:** 2 headlines from 2 outlets
-- **Podcast coverage:** 4 segments across 2 shows · trending 46.19 · status active
+- **Podcast coverage:** 4 segments across 2 shows · trending 30.62 · status active
 
 <details><summary>Headlines in this cluster</summary>
 
@@ -138,8 +116,31 @@ US nonfarm payrolls surge in August with unemployment steady at 4.1%, boosting e
 |---|---|---|---|---|
 | CNN 5 Things | [Strong Jobs Report, First Mail Ballots Go Out, NFL Players Return to NCAA and More](episodes/2026-09-04-cnn-5-things-strong-jobs-report-first-mail-ballots-go.json) | **August Jobs Boom Explained** — CNN's Alicia Wallace breaks down a stronger-than-expected hiring surge that blew past August forecasts. | 00:01–01:00 | 9 |
 | Bloomberg Daybreak: US Edition | [Instant Reaction: US Adds 162,000 Jobs, Topping All Estimates](episodes/2026-09-04-bloomberg-daybreak-us-ed-instant-reaction-us-adds-162-000-jobs-to.json) | **Breaking: 162K Jobs Tops Every Estimate** — Caroline Hepker delivers the August nonfarm payrolls surprise live, with S&P futures turning negative and Treasury yields spiking on the stronger-than-expected print. | 00:00–04:11 | 9 |
-| Bloomberg Daybreak: US Edition | [Instant Reaction: US Adds 162,000 Jobs, Topping All Estimates](episodes/2026-09-04-bloomberg-daybreak-us-ed-instant-reaction-us-adds-162-000-jobs-to.json) | **Claudia Sahm Reads the Labor Market** — Chief Economist Claudia Sahm unpacks the K-12 seasonal noise behind the monthly swing and explains why the stable 4.1% unemployment rate matters more to the Fed than the payrolls headline. | 04:11–06:19 | 8 |
-| Bloomberg Daybreak: US Edition | [Vance Says Iran Conflict Isn’t a ‘War’; August Jobs in Focus](episodes/2026-09-04-bloomberg-daybreak-us-ed-vance-says-iran-conflict-isnt-a-war-augu.json) | **August Jobs Report Preview** — Stocks and Treasuries hold steady ahead of the August employment numbers, with September rate hike odds running roughly even. | 03:40–04:51 | 7 |
+| Bloomberg Daybreak: US Edition | [Instant Reaction: US Adds 162,000 Jobs, Topping All Estimates](episodes/2026-09-04-bloomberg-daybreak-us-ed-instant-reaction-us-adds-162-000-jobs-to.json) | **Claudia Sahm Reads the Labor Market** — Chief Economist Claudia Sahm unpacks the K-12 seasonal noise behind the monthly swing and explains why the stable 4.1% unemployment rate matters more to the Fed than the payrolls headline. | 04:11–06:19 | 9 |
+| Bloomberg Daybreak: US Edition | [Instant Reaction: US Adds 162,000 Jobs, Topping All Estimates](episodes/2026-09-04-bloomberg-daybreak-us-ed-instant-reaction-us-adds-162-000-jobs-to.json) | **September Hike: Coin Flip or Done Deal?** — Sahm walks through why today's report tilts toward officials favoring a hike but stops short of calling it decisive, with inflation data remaining the true swing factor. | 06:19–08:33 | 8 |
+
+### Nepal Tunnel Rescues Bring Hope After Floods
+
+Rescue teams pull workers alive more than a week after Nepal-China floods, with families performing symbolic cremations for victims.
+
+- **Category:** science_health · **Keywords:** `Nepal`, `floods`, `tunnel rescues`, `China`, `survivors`
+- **Sources:** 4 headlines from 3 outlets
+- **Podcast coverage:** 3 segments across 3 shows · trending 25.99 · status active
+
+<details><summary>Headlines in this cluster</summary>
+
+- Live updates: Rescues underway as two workers pulled alive more than a week after Nepal-China floods — *CNN*
+- 'A rare moment of joy': Nepal tunnel rescues bring hope for more flood survivors — *BBC World*
+- Families Turn to Symbolic Cremation After Nepal Floods — *The New York Times*
+- 'Layer upon layer of miracles' to find tunnel survivors, Nepal rescue adviser tells BBC — *BBC World*
+
+</details>
+
+| Show | Episode | Segment | Time | Score |
+|---|---|---|---|---|
+| CNN 5 Things | [Miraculous Rescues in Nepal](episodes/2026-09-04-cnn-5-things-miraculous-rescues-in-nepal.json) | **Nepal Tunnel Survivors Emerge** — Two men are pulled alive from a flooded tunnel over nine days after catastrophic floods hit Nepal, with roughly 900 workers still missing. | 00:00–02:28 | 9 |
+| Reuters World News | [Nepal rescue, Nvidia's bet and Texas vs big tech](episodes/2026-09-04-reuters-world-news-nepal-rescue-nvidias-bet-and-texas-vs-bi.json) | **Nine Days Alive Underground** — Two workers are pulled from a flooded Nepal hydropower tunnel nine days after a catastrophic glacier collapse killed over 1,200 people. | 00:00–01:45 | 9 |
+| Big Take | [Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability](episodes/2026-09-02-big-take-deadly-flooding-in-nepal-highlights-asia.json) | **Nepal's Catastrophic Glacial Flood** — Hundreds of hydropower workers go missing as a glacial collapse sends a devastating wall of water through valley communities on Nepal's border with China. | 00:00–05:21 | 8 |
 
 ### Lindsay Clancy Murder Trial Heads Toward Mistrial
 
@@ -147,7 +148,7 @@ Judge plans to declare mistrial in Lindsay Clancy's murder case as jury remains 
 
 - **Category:** politics · **Keywords:** `Lindsay Clancy`, `murder trial`, `mistrial`, `jury deadlocked`, `emergency appeal`
 - **Sources:** 2 headlines from 2 outlets
-- **Podcast coverage:** 3 segments across 3 shows · trending 39.99 · status active
+- **Podcast coverage:** 3 segments across 3 shows · trending 24.99 · status active
 
 <details><summary>Headlines in this cluster</summary>
 
@@ -162,34 +163,13 @@ Judge plans to declare mistrial in Lindsay Clancy's murder case as jury remains 
 | CNN 5 Things | [Miraculous Rescues in Nepal](episodes/2026-09-04-cnn-5-things-miraculous-rescues-in-nepal.json) | **The Clancy Jury Holdout** — A deadlocked 11-to-1 jury puts the Lindsay Clancy trial in jeopardy as the judge prepares to question the lone dissenting juror. | 02:28–04:04 | 8 |
 | Start Here | [Trump’s DOJ Arrests an ICE Agent](episodes/2026-09-04-start-here-trumps-doj-arrests-an-ice-agent.json) | **One Juror Blocking Lindsay Clancy Verdict** — Defense attorneys claim 11 jurors favor acquittal by reason of insanity, and move to remove the lone holdout they say refuses to follow the judge's instructions. | 10:25–15:09 | 8 |
 
-### India's Avocado Market Booms Despite Skepticism
-
-India's avocado industry is experiencing rapid growth, transforming the fruit from a dismissed 'dog fruit' into a beloved agricultural commodity.
-
-- **Category:** business · **Keywords:** `India`, `avocado`, `agriculture`, `boom`
-- **Sources:** 2 headlines from 2 outlets
-- **Podcast coverage:** 3 segments across 3 shows · trending 33.6 · status active
-
-<details><summary>Headlines in this cluster</summary>
-
-- From 'dog fruit' to darling: India's avocado boom — *BBC Business*
-- From 'dog fruit' to darling: India's avocado boom — *BBC Science*
-
-</details>
-
-| Show | Episode | Segment | Time | Score |
-|---|---|---|---|---|
-| FT News Briefing | [Top US trade official reveals ‘problem’ in UK negotiations](episodes/2026-09-04-ft-news-briefing-top-us-trade-official-reveals-problem-in.json) | **Agriculture, Tariffs, and 'Iconic' UK Goods** — Greer flags the US-UK agricultural trade deficit and expresses skepticism about some of Britain's requests for better market access. | 03:32–05:50 | 7 |
-| The Journal. | [The Cardboard Box Economy Is Breaking Down](episodes/2026-09-03-the-journal-the-cardboard-box-economy-is-breaking-do.json) | **Blueberries Over Pine Trees** — Facing uncertain pulpwood markets, some Southern farmers are already switching to agriculture, solar leases, and development rather than replanting forests. | 14:25–15:40 | 7 |
-| Today, Explained | [The farmers turning on Trump](episodes/2026-09-03-today-explained-the-farmers-turning-on-trump.json) | **The Cost Crunch Squeezing Agriculture** — Guardian reporter Chris Stein breaks down how rising diesel, fertilizer prices, and lost soybean markets in China are hammering farm country across the US. | 02:04–05:15 | 7 |
-
 ### Global Bond Market Turmoil Concerns World Leaders
 
 Bond market volatility creates economic uncertainty, with rising interest rates affecting governments and businesses worldwide.
 
 - **Category:** business · **Keywords:** `bond market`, `interest rates`, `economic crisis`, `global markets`
 - **Sources:** 2 headlines from 1 outlets
-- **Podcast coverage:** 2 segments across 1 show · trending 20.4 · status active
+- **Podcast coverage:** 2 segments across 2 shows · trending 14 · status active
 
 <details><summary>Headlines in this cluster</summary>
 
@@ -200,8 +180,8 @@ Bond market volatility creates economic uncertainty, with rising interest rates 
 
 | Show | Episode | Segment | Time | Score |
 |---|---|---|---|---|
-| Odd Lots | [What's Behind the Big Surge in US Government Bond Yields](episodes/2026-09-03-odd-lots-whats-behind-the-big-surge-in-us-governm.json) | **Bessant's Bond Market Gamble** — Duffie dissects Treasury Secretary Scott Bessent's expanded buyback program, arguing the market saw through the signal quickly and that Treasury simply lacks the firepower to move yields meaningfully. | 17:36–22:07 | 9 |
-| Odd Lots | [What's Behind the Big Surge in US Government Bond Yields](episodes/2026-09-03-odd-lots-whats-behind-the-big-surge-in-us-governm.json) | **Meet Darrell Duffie** — Stanford finance professor Darrell Duffie joins to discuss the intersection of bond market mechanics, macro forces, and Treasury market plumbing. | 04:06–05:42 | 8 |
+| Bloomberg Daybreak: US Edition | [Instant Reaction: US Adds 162,000 Jobs, Topping All Estimates](episodes/2026-09-04-bloomberg-daybreak-us-ed-instant-reaction-us-adds-162-000-jobs-to.json) | **Kristina Campmany: Shorter Duration, Full Stop** — Invesco's senior portfolio manager argues for staying short duration globally, warning that a flood of long-end supply and unaddressed fiscal concerns spell indigestion ahead for bond markets. | 19:02–23:33 | 8 |
+| Odd Lots | [What's Behind the Big Surge in US Government Bond Yields](episodes/2026-09-03-odd-lots-whats-behind-the-big-surge-in-us-governm.json) | **Why Is the 30-Year at 5%?** — Duffie explains that soaring yields are driven by sheer supply — $31 trillion and rising — overwhelming discretionary investors who need higher compensation to absorb more debt. | 05:42–08:40 | 8 |
 
 ### US Diesel Prices Hit Record Highs
 
@@ -209,7 +189,7 @@ Diesel prices reach all-time highs, pushing up transportation costs and affectin
 
 - **Category:** business · **Keywords:** `diesel prices`, `record high`, `transportation costs`, `inflation`
 - **Sources:** 3 headlines from 2 outlets
-- **Podcast coverage:** 2 segments across 1 show · trending 19.2 · status active
+- **Podcast coverage:** 1 segment across 1 show · trending 6.75 · status active
 
 <details><summary>Headlines in this cluster</summary>
 
@@ -222,7 +202,6 @@ Diesel prices reach all-time highs, pushing up transportation costs and affectin
 | Show | Episode | Segment | Time | Score |
 |---|---|---|---|---|
 | Marketplace | [Even higher diesel prices are coming](episodes/2026-09-02-marketplace-even-higher-diesel-prices-are-coming.json) | **Diesel's Record-Breaking Price Surge** — At $5.68 a gallon and climbing, diesel prices are hitting historic highs — and seasonal demand means they're not done yet. | 00:00–04:17 | 9 |
-| Marketplace | [Chevron's big bet](episodes/2026-09-03-marketplace-chevrons-big-bet.json) | **Why Freight Is Ditching Trucks** — Sky-high diesel prices are pushing companies toward rail shipping, sending intermodal freight volumes to record highs. | 12:17–18:10 | 7 |
 
 ### Foldable iPhone Production Ramping Up Slowly
 
@@ -230,7 +209,7 @@ Early production of Apple's foldable iPhone is expected to be limited to just a 
 
 - **Category:** technology · **Keywords:** `foldable iPhone`, `Apple`, `production`, `Nikkei Asia`
 - **Sources:** 1 headlines from 1 outlets
-- **Podcast coverage:** 1 segment across 1 show · trending 10.8 · status active
+- **Podcast coverage:** 1 segment across 1 show · trending 6 · status active
 
 <details><summary>Headlines in this cluster</summary>
 
@@ -240,69 +219,7 @@ Early production of Apple's foldable iPhone is expected to be limited to just a 
 
 | Show | Episode | Segment | Time | Score |
 |---|---|---|---|---|
-| Marketplace Tech | [NYC public schools ban AI through middle school](episodes/2026-09-04-marketplace-tech-nyc-public-schools-ban-ai-through-middle.json) | **The Foldable iPhone Moment** — With a major iPhone event days away, Stern previews the rumored foldable iPhone, expected price hikes, and why this could be one of the most consequential launches in Apple history. | 02:40–03:40 | 9 |
-
-### Volkswagen Cuts 50,000 Jobs in Major Restructuring
-
-Volkswagen's board approved plans to eliminate another 50,000 positions as the automaker undergoes significant cost-cutting measures.
-
-- **Category:** business · **Keywords:** `Volkswagen`, `job cuts`, `restructuring`, `50000 jobs`, `Uber`, `robotaxis`, `UK`
-- **Sources:** 4 headlines from 3 outlets
-- **Podcast coverage:** 1 segment across 1 show · trending 8.4 · status active
-
-<details><summary>Headlines in this cluster</summary>
-
-- Volkswagen board approves plan to cut another 50,000 jobs — *BBC Business*
-- Volkswagen board approves plan to cut another 50,000 jobs — *BBC World*
-- Uber launches UK's first robotaxis with a driver — *BBC Technology*
-- Uber to cut over 3,000 jobs in major global restructuring — *BBC Business*
-
-</details>
-
-| Show | Episode | Segment | Time | Score |
-|---|---|---|---|---|
-| Marketplace | [Even higher diesel prices are coming](episodes/2026-09-02-marketplace-even-higher-diesel-prices-are-coming.json) | **Uber Cuts Its Middle Layer** — Uber's 10% workforce reduction targets management bloat, raising questions about what middle managers actually do — and who suffers when they're gone. | 08:50–11:19 | 7 |
-
-### El Niño Weather Impacts Intensify Globally
-
-The UN warns of a 'supersized' El Niño phenomenon affecting weather patterns worldwide, with particular concerns about wildfire haze in Southeast Asia and potential impacts on UK weather.
-
-- **Category:** science_health · **Keywords:** `El Niño`, `weather`, `wildfire haze`, `Southeast Asia`, `climate`
-- **Sources:** 4 headlines from 1 outlets
-- **Podcast coverage:** 1 segment across 1 show · trending 8.4 · status active
-
-<details><summary>Headlines in this cluster</summary>
-
-- UN warns of 'supersized' El Niño as countries prepare for impact — *BBC Science*
-- Toxic wildfire haze spreads across South East Asia as 'super' El Niño intensifies — *BBC Science*
-- Will El Nino bring chaos to UK weather? — *BBC Science*
-- Stormy autumn, cold winter - how might El Niño affect the UK weather? — *BBC Science*
-
-</details>
-
-| Show | Episode | Segment | Time | Score |
-|---|---|---|---|---|
-| Big Take | [The Hottest New Trade Is Your Own Electricity](episodes/2026-09-03-big-take-the-hottest-new-trade-is-your-own-electr.json) | **Heat Waves Are Payday** — UK traders who can predict extreme weather events are cashing in on the grid's most vulnerable — and lucrative — moments. | 11:22–15:00 | 7 |
-
-### UK Drought Crisis Impacts Agriculture and Water Supply
-
-Extended drought across UK triggers hosepipe bans and affects food production, with cider makers and farmers facing severe shortages.
-
-- **Category:** science_health · **Keywords:** `UK drought`, `hosepipe bans`, `agriculture`, `water crisis`
-- **Sources:** 3 headlines from 2 outlets
-- **Podcast coverage:** 1 segment across 1 show · trending 8.4 · status active
-
-<details><summary>Headlines in this cluster</summary>
-
-- More hosepipe bans in force as drought declared - is your area affected? — *BBC Science*
-- Drought leaves 'barely any apples' to make cider — *BBC Business*
-- France relaxes strict cheese-making rules after prolonged drought — *BBC Science*
-
-</details>
-
-| Show | Episode | Segment | Time | Score |
-|---|---|---|---|---|
-| The Journal. | [The Cardboard Box Economy Is Breaking Down](episodes/2026-09-03-the-journal-the-cardboard-box-economy-is-breaking-do.json) | **Blueberries Over Pine Trees** — Facing uncertain pulpwood markets, some Southern farmers are already switching to agriculture, solar leases, and development rather than replanting forests. | 14:25–15:40 | 7 |
+| Marketplace Tech | [NYC public schools ban AI through middle school](episodes/2026-09-04-marketplace-tech-nyc-public-schools-ban-ai-through-middle.json) | **The Foldable iPhone Moment** — With a major iPhone event days away, Stern previews the rumored foldable iPhone, expected price hikes, and why this could be one of the most consequential launches in Apple history. | 02:40–03:40 | 8 |
 
 ### Trump's Peace Envoys Visit Moscow and Kyiv
 
@@ -403,6 +320,25 @@ Google released an urgent Chrome update to patch an actively exploited V8 zero-d
 
 _No segment passed verification._
 
+### Volkswagen Cuts 50,000 Jobs in Major Restructuring
+
+Volkswagen's board approved plans to eliminate another 50,000 positions as the automaker undergoes significant cost-cutting measures.
+
+- **Category:** business · **Keywords:** `Volkswagen`, `job cuts`, `restructuring`, `50000 jobs`, `Uber`, `robotaxis`, `UK`
+- **Sources:** 4 headlines from 3 outlets
+- **Podcast coverage:** 0 segments across 0 shows · trending 0 · status archived
+
+<details><summary>Headlines in this cluster</summary>
+
+- Volkswagen board approves plan to cut another 50,000 jobs — *BBC Business*
+- Volkswagen board approves plan to cut another 50,000 jobs — *BBC World*
+- Uber launches UK's first robotaxis with a driver — *BBC Technology*
+- Uber to cut over 3,000 jobs in major global restructuring — *BBC Business*
+
+</details>
+
+_No segment passed verification._
+
 ### NVIDIA DLSS 5 Expands GPU Support
 
 NVIDIA confirmed that DLSS 5 will support RTX 40 series GPUs while prioritizing optimization for the new RTX 50 series.
@@ -431,6 +367,23 @@ The Irwin family celebrated the legacy of 'The Crocodile Hunter' Steve Irwin two
 
 - Steve Irwin's family celebrates 'superhero' dad, 20 years after shock death — *BBC Entertainment*
 - Steve Irwin's family celebrates 'superhero' dad, 20 years after shock death — *BBC World*
+
+</details>
+
+_No segment passed verification._
+
+### India's Avocado Market Booms Despite Skepticism
+
+India's avocado industry is experiencing rapid growth, transforming the fruit from a dismissed 'dog fruit' into a beloved agricultural commodity.
+
+- **Category:** business · **Keywords:** `India`, `avocado`, `agriculture`, `boom`
+- **Sources:** 2 headlines from 2 outlets
+- **Podcast coverage:** 0 segments across 0 shows · trending 0 · status archived
+
+<details><summary>Headlines in this cluster</summary>
+
+- From 'dog fruit' to darling: India's avocado boom — *BBC Business*
+- From 'dog fruit' to darling: India's avocado boom — *BBC Science*
 
 </details>
 
@@ -480,6 +433,25 @@ Multiple major gaming titles are set to launch in late January 2027, including U
 
 - Until Dawn 2 Launches January 28 — *Engadget*
 - Fate/EXTRA Record launches January 28, 2027 for PS5, Switch 2, PS4, Switch, and PC — *Gematsu*
+
+</details>
+
+_No segment passed verification._
+
+### El Niño Weather Impacts Intensify Globally
+
+The UN warns of a 'supersized' El Niño phenomenon affecting weather patterns worldwide, with particular concerns about wildfire haze in Southeast Asia and potential impacts on UK weather.
+
+- **Category:** science_health · **Keywords:** `El Niño`, `weather`, `wildfire haze`, `Southeast Asia`, `climate`
+- **Sources:** 4 headlines from 1 outlets
+- **Podcast coverage:** 0 segments across 0 shows · trending 0 · status archived
+
+<details><summary>Headlines in this cluster</summary>
+
+- UN warns of 'supersized' El Niño as countries prepare for impact — *BBC Science*
+- Toxic wildfire haze spreads across South East Asia as 'super' El Niño intensifies — *BBC Science*
+- Will El Nino bring chaos to UK weather? — *BBC Science*
+- Stormy autumn, cold winter - how might El Niño affect the UK weather? — *BBC Science*
 
 </details>
 
@@ -600,6 +572,24 @@ Astronauts conduct rare all-female spacewalk while NASA's Artemis mission marks 
 - Astronauts set out on rare all-female spacewalk — *BBC Science*
 - From blast off to splashdown: My days following Nasa's historic mission to the Moon — *BBC Science*
 - The 40 minutes when the Artemis crew loses contact with the Earth — *BBC Science*
+
+</details>
+
+_No segment passed verification._
+
+### UK Drought Crisis Impacts Agriculture and Water Supply
+
+Extended drought across UK triggers hosepipe bans and affects food production, with cider makers and farmers facing severe shortages.
+
+- **Category:** science_health · **Keywords:** `UK drought`, `hosepipe bans`, `agriculture`, `water crisis`
+- **Sources:** 3 headlines from 2 outlets
+- **Podcast coverage:** 0 segments across 0 shows · trending 0 · status archived
+
+<details><summary>Headlines in this cluster</summary>
+
+- More hosepipe bans in force as drought declared - is your area affected? — *BBC Science*
+- Drought leaves 'barely any apples' to make cider — *BBC Business*
+- France relaxes strict cheese-making rules after prolonged drought — *BBC Science*
 
 </details>
 

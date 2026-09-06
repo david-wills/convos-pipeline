@@ -9,7 +9,7 @@ import { parseArgs } from 'node:util';
 import { estimateCostUsd, isClaudeModel, MODELS, usageByStep } from './claude.ts';
 import { comparisonFiles, runComparison, summarize, withConfiguredFloor, writeComparisonSamples, writeSpotCheck, type ComparisonData } from './compare.ts';
 import { loadConfig, loadDotenv, requireEnv, resolvePaths, type Paths } from './config.ts';
-import { buildSegmentIndex, embedStories, requireVoyageKey } from './embed.ts';
+import { buildSegmentIndex, EMBED_MODEL, embedStories, requireVoyageKey } from './embed.ts';
 import { ingest } from './ingest.ts';
 import { embeddingRetriever, keywordRetriever, matchStories, RETRIEVER_NAMES, unionRetriever, VERIFIER_NAMES, type Retriever, type RetrieverName, type VerifierName } from './match.ts';
 import { writeSamples, type RunSummary } from './report.ts';
@@ -28,7 +28,7 @@ Commands
   transcribe  Transcribe selected episodes with AssemblyAI   (paid: audio hours)
   segment     Split transcripts into topical segments        (paid: Claude)
   stories     Fetch news feeds, cluster into stories         (paid: Claude, small)
-  match       Find and verify segments that cover each story (paid: Claude, small)
+  match       Find and verify segments that cover each story (paid: Claude small, Voyage tiny)
   report      Write samples/ (REPORT.md, JSON) and viz/data.js
   run         All of the above, in order
   compare     Keyword search vs embeddings over existing data  (paid: Claude small, Voyage tiny)
@@ -38,11 +38,11 @@ Options
   --data <dir>        Working directory           (default: ./data)
   --out <dir>         Report directory            (default: ./samples)
   --concurrency <n>   Parallel Claude calls       (default: 4)
-  --retriever <name>  match: keyword | embedding | both (default: keyword;
-                      embedding and both need VOYAGE_API_KEY)
-  --verifier <name>   match, compare: production | context (default: production;
-                      context also shows the verifier the story summary,
-                      keywords and headlines)
+  --retriever <name>  keyword | embedding | both. Default: matching.retriever in
+                      feeds.json (both). embedding and both need VOYAGE_API_KEY
+  --verifier <name>   production | context. Default: matching.verifier in
+                      feeds.json (context, which shows the verifier the story
+                      summary, keywords and headlines)
   --force             Redo steps that already have output
   --help
 `;
@@ -67,8 +67,8 @@ async function main(): Promise<void> {
       data: { type: 'string', default: 'data' },
       out: { type: 'string', default: 'samples' },
       concurrency: { type: 'string', default: '4' },
-      retriever: { type: 'string', default: 'keyword' },
-      verifier: { type: 'string', default: 'production' },
+      retriever: { type: 'string' },
+      verifier: { type: 'string' },
       force: { type: 'boolean', default: false },
       help: { type: 'boolean', default: false },
     },
@@ -79,20 +79,23 @@ async function main(): Promise<void> {
     process.exit(command ? 0 : 1);
   }
 
-  if (!(RETRIEVER_NAMES as readonly string[]).includes(values.retriever)) {
-    console.error(`--retriever must be one of ${RETRIEVER_NAMES.join(', ')}, got "${values.retriever}"`);
+  const config = loadConfig(values.config);
+  const retriever = values.retriever ?? config.matching.retriever;
+  const verifier = values.verifier ?? config.matching.verifier;
+  if (!(RETRIEVER_NAMES as readonly string[]).includes(retriever)) {
+    console.error(`retriever must be one of ${RETRIEVER_NAMES.join(', ')}, got "${retriever}"`);
     process.exit(1);
   }
-  if (!(VERIFIER_NAMES as readonly string[]).includes(values.verifier)) {
-    console.error(`--verifier must be one of ${VERIFIER_NAMES.join(', ')}, got "${values.verifier}"`);
+  if (!(VERIFIER_NAMES as readonly string[]).includes(verifier)) {
+    console.error(`verifier must be one of ${VERIFIER_NAMES.join(', ')}, got "${verifier}"`);
     process.exit(1);
   }
   const ctx: Ctx = {
-    config: loadConfig(values.config),
+    config,
     paths: resolvePaths(values.data, values.out),
     concurrency: Math.max(1, parseInt(values.concurrency, 10) || 4),
-    retriever: values.retriever as RetrieverName,
-    verifier: values.verifier as VerifierName,
+    retriever: retriever as RetrieverName,
+    verifier: verifier as VerifierName,
     force: values.force,
     startedAt: new Date(),
     notes: [],
@@ -330,9 +333,10 @@ async function stepReport(ctx: Ctx): Promise<void> {
   // so re-running `report` over unchanged data is a no-op in git.
   const run: RunSummary = {
     ranAt: latest || ctx.startedAt.toISOString(),
-    models: { ...MODELS },
+    models: { ...MODELS, ...(ctx.retriever === 'keyword' ? {} : { embed: EMBED_MODEL }) },
     transcription: { provider: 'assemblyai', model: SPEECH_MODEL },
     selection: ctx.config.selection,
+    matching: { ...ctx.config.matching, retriever: ctx.retriever, verifier: ctx.verifier },
     counts: {
       podcastFeeds: ctx.config.podcasts.length,
       episodesSelected: episodes.length,

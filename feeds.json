@@ -41,8 +41,10 @@
     "maxHeadlines": 75
   },
   "matching": {
-    "minScore": 7,
+    "minScore": 8,
     "maxCandidates": 200,
+    "retriever": "both",
+    "verifier": "context",
     "embedding": {
       "topK": 25,
       "minSimilarity": 0.45

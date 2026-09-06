@@ -24,7 +24,7 @@ as a story-by-show view. Open it locally in a browser; it needs no server.
 ```jsonc
 {
   "title": "NVIDIA Acquires Hugging Face for $12.9 Billion",
-  "keywords": ["NVIDIA", "Hugging Face", "acquisition", ...],   // drive candidate retrieval
+  "keywords": ["NVIDIA", "Hugging Face", "acquisition", ...],   // keyword retrieval; title + summary + keywords are also embedded
   "sourceHeadlines": [{ "title": "...", "source": "BBC Technology" }, ...],
   "status": "active",            // candidate -> active on first verified match
   "trendingScore": 41.2,         // matches × mean relevance × (1 + 0.2 × shows) × decay
@@ -33,7 +33,7 @@ as a story-by-show view. Open it locally in a browser; it needs no server.
       "podcastTitle": "Tech Brew Ride Home",
       "episodeTitle": "Nvidia Buys Hugging Face For A Rabbit?",
       "convoTitle": "...",       // the segment the verifier scored
-      "relevanceScore": 9,       // 0–10; only ≥ 7 is kept
+      "relevanceScore": 9,       // 0–10; only ≥ 8 is kept
       "startTime": 61.2, "endTime": 412.8,   // seconds into the episode audio
       "episodeFile": "2026-09-03-tech-brew-ride-home-nvidia-buys-hugging-face-for-a-rabbit.json"
     }

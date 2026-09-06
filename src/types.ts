@@ -12,6 +12,11 @@ export interface NewsFeedConfig {
   category: string;
 }
 
+/** Which candidate generator feeds the verifier. */
+export type RetrieverName = 'keyword' | 'embedding' | 'both';
+/** Which verifier prompt scores candidates: the one that shipped, or the one shown the story. */
+export type VerifierName = 'production' | 'context';
+
 export interface PipelineConfig {
   podcasts: PodcastFeedConfig[];
   news: NewsFeedConfig[];
@@ -32,7 +37,9 @@ export interface PipelineConfig {
     minScore: number;
     /** Cap on candidates sent to the verifier per story. */
     maxCandidates: number;
-    /** Knobs for the optional embedding retriever (`match --retriever` and `compare`). */
+    retriever: RetrieverName;
+    verifier: VerifierName;
+    /** Knobs for the embedding retriever. */
     embedding: {
       /** Segments per story, best cosine similarity first. */
       topK: number;

@@ -13,14 +13,12 @@ import path from 'node:path';
 import { estimateCostUsd, MODELS, usageByStep } from './claude.ts';
 import type { Paths } from './config.ts';
 import { buildSegmentIndex, EMBED_MODEL, embedStories, rankSegments } from './embed.ts';
-import { candidateKey, keywordSearch, sortCandidates, toCandidate, VERIFIER_PROMPT_FILES, verifyCandidates, type Candidate, type VerifierName } from './match.ts';
+import { candidateKey, keywordSearch, sortCandidates, toCandidate, VERIFIER_PROMPT_FILES, VERIFY_CHUNK_SIZE, verifyInChunks, type Candidate, type VerifierName } from './match.ts';
 import type { Episode, EpisodeConvos, Match, ModelUsage, PipelineConfig, Story } from './types.ts';
 import { log, readJson, secondsToHhmmss, writeJson } from './util.ts';
 
 export const EMBED_STEP = 'compare:embed';
 export const VERIFY_STEP = 'compare:verify';
-/** Candidates per verifier call. Index addressing fixed the 126-candidate failure; shorter lists still score more consistently. */
-const CHUNK_SIZE = 50;
 
 export interface ComparedCandidate {
   episodeId: string;
@@ -118,15 +116,12 @@ export async function runComparison(paths: Paths, config: PipelineConfig, now: D
     const list = sortCandidates([...union.values()]);
 
     const scores = new Map<string, number>();
-    for (let i = 0; i < list.length; i += CHUNK_SIZE) {
-      const chunk = list.slice(i, i + CHUNK_SIZE);
-      const { scored } = await verifyCandidates(story, chunk, minScore, VERIFY_STEP, verifier);
-      calls++;
-      for (const s of scored) {
-        if (!Number.isInteger(s.index) || typeof s.score !== 'number') continue;
-        const c = chunk[s.index];
-        if (c && !scores.has(candidateKey(c))) scores.set(candidateKey(c), s.score);
-      }
+    const verification = await verifyInChunks(story, list, minScore, VERIFY_STEP, verifier);
+    calls += verification.calls;
+    for (const s of verification.scored) {
+      if (!Number.isInteger(s.index) || typeof s.score !== 'number') continue;
+      const c = list[s.index];
+      if (c && !scores.has(candidateKey(c))) scores.set(candidateKey(c), s.score);
     }
 
     const candidates: ComparedCandidate[] = list.map((c) => {
@@ -160,7 +155,7 @@ export async function runComparison(paths: Paths, config: PipelineConfig, now: D
   return {
     ranAt: now.toISOString(),
     embedding: { model: EMBED_MODEL, dimension: index[0]?.vector.length ?? 0, topK, minSimilarity },
-    verifier: { model: MODELS.classify, variant: verifier, prompt: VERIFIER_PROMPT_FILES[verifier], minScore, chunkSize: CHUNK_SIZE, calls },
+    verifier: { model: MODELS.classify, variant: verifier, prompt: VERIFIER_PROMPT_FILES[verifier], minScore, chunkSize: VERIFY_CHUNK_SIZE, calls },
     keywordMaxCandidates: maxCandidates,
     segments: index.length,
     committedMatches: matches.length,

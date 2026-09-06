@@ -62,7 +62,7 @@
 <body>
 <header>
   <h1>Which podcasts talked about the same story this week?</h1>
-  <p>Each story on the left was clustered from news headlines. Each entry on the right is a segment of a podcast episode that a verifier scored as covering that story (7 or higher out of 10). The bar shows where in the episode the segment sits.</p>
+  <p>Each story on the left was clustered from news headlines. Each entry on the right is a segment of a podcast episode that a verifier scored as covering that story (<span id="cutoff">8</span> or higher out of 10). The bar shows where in the episode the segment sits.</p>
   <div class="stats" id="stats"></div>
 </header>
 <main>
@@ -127,6 +127,7 @@
   nav.addEventListener('click', e => { const b = e.target.closest('button'); if (b) show(+b.dataset.i); });
   if (D.stories.length) show(0);
 })();
+document.getElementById('cutoff').textContent = String((window.CONVOS_DATA && window.CONVOS_DATA.minScore) || 8);
 </script>
 </body>
 </html>

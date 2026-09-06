@@ -15,6 +15,7 @@ export interface RunSummary {
   models: Record<string, string>;
   transcription: { provider: string; model: string };
   selection: unknown;
+  matching: PipelineConfig['matching'];
   counts: Record<string, number>;
   audioHours: number;
   claudeUsage: unknown;
@@ -106,6 +107,7 @@ export function writeSamples(paths: Paths, run: RunSummary, matching: PipelineCo
   // Data for viz/index.html. A JS file so the page works from file:// with no server.
   const vizData = {
     ranAt: run.ranAt,
+    minScore: run.matching.minScore,
     stories: storiesOut.map((s) => ({
       id: s.id, title: s.title, summary: s.summary, category: s.category, keywords: s.keywords,
       status: s.status, trendingScore: s.trendingScore, sourceHeadlines: s.sourceHeadlines,
@@ -167,11 +169,15 @@ function renderReport(
   L.push(`| Stories clustered | ${stories.length} |`);
   L.push(`| Stories with verified podcast coverage | ${withMatches.length} |`);
   L.push(`| Stories covered by 2+ different shows | ${multiShow.length} |`);
+  L.push(`| Verified matches | ${stories.reduce((n, s) => n + s.matches.length, 0)} |`);
+  L.push(`| Retrieval | ${retrievalLabel(run)} |`);
+  L.push(`| Verifier | ${run.models.classify}, ${run.matching.verifier} prompt, keep ${run.matching.minScore} and above |`);
   L.push(`| Claude cost (list price) | $${run.claudeCostUsd.toFixed(2)} |`);
+  if (run.embeddingCostUsd !== undefined) L.push(`| Embedding cost (list price) | $${run.embeddingCostUsd.toFixed(4)} |`);
   L.push('');
 
   L.push(`## Stories, ranked by trending score`, '');
-  L.push(`Trending score = matches × mean relevance × (1 + 0.2 × distinct shows) × decay. Relevance is the verifier's 0–10 score; only ≥7 is kept.`, '');
+  L.push(`Trending score = matches × mean relevance × (1 + 0.2 × distinct shows) × decay. Relevance is the verifier's 0–10 score; only ≥${run.matching.minScore} is kept.`, '');
 
   for (const s of stories) {
     const shows = new Set(s.matches.map((m) => m.podcastTitle));
@@ -212,6 +218,14 @@ function renderReport(
     L.push('');
   }
   return L.join('\n');
+}
+
+function retrievalLabel(run: RunSummary): string {
+  const { retriever, embedding } = run.matching;
+  const embed = `embeddings (${run.models.embed ?? 'not run'}, top ${embedding.topK} by cosine, floor ${embedding.minSimilarity})`;
+  if (retriever === 'keyword') return 'keyword search on segment title and description';
+  if (retriever === 'embedding') return embed;
+  return `keyword search + ${embed}, union`;
 }
 
 export function listEpisodeFiles(outDir: string): string[] {

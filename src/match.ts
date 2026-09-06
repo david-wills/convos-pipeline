@@ -9,15 +9,16 @@
 
 import { complete, loadPrompt, MODELS, parseJsonArray } from './claude.ts';
 import { rankSegments, type IndexedSegment } from './embed.ts';
-import type { Convo, Episode, EpisodeConvos, Match, PipelineConfig, Story } from './types.ts';
+import type { Convo, Episode, EpisodeConvos, Match, PipelineConfig, RetrieverName, Story, VerifierName } from './types.ts';
 import { log } from './util.ts';
+
+export type { RetrieverName, VerifierName } from './types.ts';
 
 /**
  * Two verifier prompts. `production` is the one that shipped: it sees the story
  * title and category. `context` also sees the summary, keywords and headlines,
  * and is told that the same beat is not the same event.
  */
-export type VerifierName = 'production' | 'context';
 export const VERIFIER_NAMES: readonly VerifierName[] = ['production', 'context'];
 export const VERIFIER_PROMPT_FILES: Record<VerifierName, string> = {
   production: 'verify-match.md',
@@ -130,7 +131,6 @@ export function embeddingSearch(storyVector: number[], index: IndexedSegment[], 
 
 // --- retrievers ---------------------------------------------------------------
 
-export type RetrieverName = 'keyword' | 'embedding' | 'both';
 export const RETRIEVER_NAMES: readonly RetrieverName[] = ['keyword', 'embedding', 'both'];
 
 export interface Retriever {
@@ -224,6 +224,35 @@ export async function verifyCandidates(
   return { matches, scored };
 }
 
+export const VERIFY_CHUNK_SIZE = 50;
+
+/**
+ * Verify in calls of at most VERIFY_CHUNK_SIZE candidates. Index addressing
+ * fixed the failure at 126 candidates; shorter lists still score more
+ * consistently. The pipeline and the comparison share this so their scores
+ * line up. Indices in `scored` are into the full list.
+ */
+export async function verifyInChunks(
+  story: Story,
+  candidates: Candidate[],
+  minScore: number,
+  step = 'verify',
+  verifier: VerifierName = 'production',
+  chunkSize = VERIFY_CHUNK_SIZE,
+): Promise<VerificationResult & { calls: number }> {
+  const matches: Match[] = [];
+  const scored: VerificationResult['scored'] = [];
+  let calls = 0;
+  for (let i = 0; i < candidates.length; i += chunkSize) {
+    const chunk = candidates.slice(i, i + chunkSize);
+    const result = await verifyCandidates(story, chunk, minScore, step, verifier);
+    calls++;
+    matches.push(...result.matches);
+    scored.push(...result.scored.map((s) => ({ ...s, index: Number.isInteger(s.index) ? s.index + i : s.index })));
+  }
+  return { matches, scored, calls };
+}
+
 /**
  * trending = matches x avg relevance x (1 + 0.2 x distinct podcasts) x 0.5^(age in days / 3)
  * A story with one verified match becomes active; an active story decays to
@@ -263,7 +292,7 @@ export async function matchStories(
     force = false,
     now = new Date(),
     retriever = keywordRetriever(episodes, convosByEpisode, config),
-    verifier = 'production',
+    verifier = config.matching.verifier,
   }: { force?: boolean; now?: Date; retriever?: Retriever; verifier?: VerifierName } = {},
 ): Promise<MatchRunResult> {
   const result: MatchRunResult = { retriever: retriever.name, verifier, storiesProcessed: 0, candidatesTotal: 0, matchesTotal: 0, perStory: [] };
@@ -275,7 +304,7 @@ export async function matchStories(
     const candidates = retriever.candidates(story);
     let verified: Match[] = [];
     if (candidates.length > 0) {
-      ({ matches: verified } = await verifyCandidates(story, candidates, config.matching.minScore, 'verify', verifier));
+      ({ matches: verified } = await verifyInChunks(story, candidates, config.matching.minScore, 'verify', verifier));
     }
 
     // Replace this story's matches wholesale; the verifier is the source of truth.
