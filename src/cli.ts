@@ -7,11 +7,11 @@ import { existsSync, mkdirSync } from 'node:fs';
 import path from 'node:path';
 import { parseArgs } from 'node:util';
 import { estimateCostUsd, isClaudeModel, MODELS, usageByStep } from './claude.ts';
-import { runComparison, summarize, withConfiguredFloor, writeComparisonSamples, writeSpotCheck, type ComparisonData } from './compare.ts';
+import { comparisonFiles, runComparison, summarize, withConfiguredFloor, writeComparisonSamples, writeSpotCheck, type ComparisonData } from './compare.ts';
 import { loadConfig, loadDotenv, requireEnv, resolvePaths, type Paths } from './config.ts';
 import { buildSegmentIndex, embedStories, requireVoyageKey } from './embed.ts';
 import { ingest } from './ingest.ts';
-import { embeddingRetriever, keywordRetriever, matchStories, RETRIEVER_NAMES, unionRetriever, type Retriever, type RetrieverName } from './match.ts';
+import { embeddingRetriever, keywordRetriever, matchStories, RETRIEVER_NAMES, unionRetriever, VERIFIER_NAMES, type Retriever, type RetrieverName, type VerifierName } from './match.ts';
 import { writeSamples, type RunSummary } from './report.ts';
 import { segmentEpisode } from './segment.ts';
 import { clusterHeadlines, fetchAllNews, mergeStories } from './stories.ts';
@@ -40,6 +40,9 @@ Options
   --concurrency <n>   Parallel Claude calls       (default: 4)
   --retriever <name>  match: keyword | embedding | both (default: keyword;
                       embedding and both need VOYAGE_API_KEY)
+  --verifier <name>   match, compare: production | context (default: production;
+                      context also shows the verifier the story summary,
+                      keywords and headlines)
   --force             Redo steps that already have output
   --help
 `;
@@ -49,6 +52,7 @@ interface Ctx {
   paths: Paths;
   concurrency: number;
   retriever: RetrieverName;
+  verifier: VerifierName;
   force: boolean;
   startedAt: Date;
   notes: string[];
@@ -64,6 +68,7 @@ async function main(): Promise<void> {
       out: { type: 'string', default: 'samples' },
       concurrency: { type: 'string', default: '4' },
       retriever: { type: 'string', default: 'keyword' },
+      verifier: { type: 'string', default: 'production' },
       force: { type: 'boolean', default: false },
       help: { type: 'boolean', default: false },
     },
@@ -78,11 +83,16 @@ async function main(): Promise<void> {
     console.error(`--retriever must be one of ${RETRIEVER_NAMES.join(', ')}, got "${values.retriever}"`);
     process.exit(1);
   }
+  if (!(VERIFIER_NAMES as readonly string[]).includes(values.verifier)) {
+    console.error(`--verifier must be one of ${VERIFIER_NAMES.join(', ')}, got "${values.verifier}"`);
+    process.exit(1);
+  }
   const ctx: Ctx = {
     config: loadConfig(values.config),
     paths: resolvePaths(values.data, values.out),
     concurrency: Math.max(1, parseInt(values.concurrency, 10) || 4),
     retriever: values.retriever as RetrieverName,
+    verifier: values.verifier as VerifierName,
     force: values.force,
     startedAt: new Date(),
     notes: [],
@@ -247,11 +257,11 @@ async function stepMatch(ctx: Ctx): Promise<void> {
   }
 
   const retriever = await buildRetriever(ctx, episodes, stories, convosByEpisode);
-  const result = await matchStories(stories, episodes, convosByEpisode, matches, ctx.config, { force: ctx.force, now: ctx.startedAt, retriever });
+  const result = await matchStories(stories, episodes, convosByEpisode, matches, ctx.config, { force: ctx.force, now: ctx.startedAt, retriever, verifier: ctx.verifier });
   writeJson(ctx.paths.stories, stories);
   writeJson(ctx.paths.matches, matches);
   writeJson(path.join(ctx.paths.data, 'match-log.json'), { ranAt: ctx.startedAt.toISOString(), ...result });
-  log('match', `${result.storiesProcessed} stories processed with ${result.retriever} retrieval, ${result.candidatesTotal} candidates, ${result.matchesTotal} verified matches`);
+  log('match', `${result.storiesProcessed} stories processed with ${result.retriever} retrieval and the ${result.verifier} verifier, ${result.candidatesTotal} candidates, ${result.matchesTotal} verified matches`);
 }
 
 /** The keyword retriever needs nothing; the others embed every segment and story first (cached under data/embeddings/). */
@@ -270,21 +280,24 @@ async function buildRetriever(ctx: Ctx, episodes: Episode[], stories: Story[], c
  * data/comparison.json, data/spot-check.md and samples/retrieval-comparison.*.
  */
 async function stepCompare(ctx: Ctx): Promise<void> {
-  let data = readJson<ComparisonData>(ctx.paths.comparison);
+  const files = comparisonFiles(ctx.paths, ctx.verifier);
+  let data = readJson<ComparisonData>(files.data);
   if (data && !ctx.force) {
-    log('compare', `${ctx.paths.comparison} exists; re-rendering from it with the floor in feeds.json (--force re-runs retrieval and verification)`);
+    log('compare', `${files.data} exists; re-rendering from it with the floor in feeds.json (--force re-runs retrieval and verification)`);
   } else {
     requireVoyageKey();
     requireEnv('ANTHROPIC_API_KEY');
-    data = await runComparison(ctx.paths, ctx.config, ctx.startedAt);
-    writeJson(ctx.paths.comparison, data);
+    data = await runComparison(ctx.paths, ctx.config, ctx.startedAt, ctx.verifier);
+    writeJson(files.data, data);
   }
   data = withConfiguredFloor(data, ctx.config.matching);
-  const { md } = writeComparisonSamples(ctx.paths.out, data);
-  const listed = writeSpotCheck(ctx.paths.spotCheck, data);
+  // A variant verifier is reported against the production one when that has been run.
+  const production = ctx.verifier === 'production' ? null : readJson<ComparisonData>(ctx.paths.comparison);
+  const { md } = writeComparisonSamples(ctx.paths.out, data, production ? withConfiguredFloor(production, ctx.config.matching) : undefined);
+  const listed = writeSpotCheck(files.spotCheck, data);
   const s = summarize(data);
   log('compare', `keyword: ${s.keyword.verified} verified of ${s.keyword.candidates} candidates. embedding (top ${data.embedding.topK}, floor ${s.floor}): ${s.embedding.verified} of ${s.embedding.candidates}. only keyword ${s.keyword.onlyVerified}, only embedding ${s.embedding.onlyVerified}, both ${s.overlap.verified}`);
-  log('compare', `wrote ${md}; ${listed} disagreements to label in ${ctx.paths.spotCheck}`);
+  log('compare', `wrote ${md}; ${listed} disagreements to label in ${files.spotCheck}`);
 }
 
 async function stepReport(ctx: Ctx): Promise<void> {

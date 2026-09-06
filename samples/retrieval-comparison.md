@@ -1,6 +1,6 @@
 # Retrieval comparison: keyword search against embeddings
 
-Written by `node src/cli.ts compare` on 2026-09-06. Same 37 stories, same 267 segments, same verifier prompt and model. Nothing here was edited by hand.
+Written by `node src/cli.ts compare` on 2026-09-06. Same 37 stories, same 267 segments, same verifier prompt and model for every candidate. Nothing here was edited by hand.
 
 ## How the two retrievers were compared
 
@@ -132,6 +132,16 @@ The embedding retriever at each floor. "Lost" counts verified segments inside th
 | 0.80 | 0 | 0 | 0 | 50 |
 
 The configured floor is 0.45, set in `feeds.json` under `matching.embedding.minSimilarity`.
+
+## Choosing the threshold
+
+The pipeline keeps scores of 7 and above. Same candidates and same scores at a stricter cutoff:
+
+| Threshold | Keyword verified | Embedding verified | Only keyword | Only embedding | Either | Both |
+|---|---|---|---|---|---|---|
+| 7 | 45 | 61 | 5 | 21 | 66 | 40 |
+| 8 | 37 | 53 | 2 | 18 | 55 | 35 |
+| 9 | 24 | 29 | 0 | 5 | 29 | 24 |
 
 ## Agreement with the pipeline run
 

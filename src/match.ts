@@ -12,7 +12,34 @@ import { rankSegments, type IndexedSegment } from './embed.ts';
 import type { Convo, Episode, EpisodeConvos, Match, PipelineConfig, Story } from './types.ts';
 import { log } from './util.ts';
 
-const SYSTEM_PROMPT = loadPrompt('verify-match.md');
+/**
+ * Two verifier prompts. `production` is the one that shipped: it sees the story
+ * title and category. `context` also sees the summary, keywords and headlines,
+ * and is told that the same beat is not the same event.
+ */
+export type VerifierName = 'production' | 'context';
+export const VERIFIER_NAMES: readonly VerifierName[] = ['production', 'context'];
+export const VERIFIER_PROMPT_FILES: Record<VerifierName, string> = {
+  production: 'verify-match.md',
+  context: 'verify-match-context.md',
+};
+const SYSTEM_PROMPTS: Record<VerifierName, string> = {
+  production: loadPrompt(VERIFIER_PROMPT_FILES.production),
+  context: loadPrompt(VERIFIER_PROMPT_FILES.context),
+};
+
+function storyBrief(story: Story, verifier: VerifierName): string {
+  const lines = [`Story: "${story.title}"`, `Category: ${story.category}`];
+  if (verifier === 'context') {
+    lines.push(
+      `Summary: ${story.summary}`,
+      `Keywords: ${story.keywords.join(', ')}`,
+      'Headlines:',
+      ...story.sourceHeadlines.map((h) => `- ${h.title} (${h.source})`),
+    );
+  }
+  return lines.join('\n');
+}
 
 export interface Candidate {
   episodeId: string;
@@ -148,7 +175,13 @@ export interface VerificationResult {
   scored: { index: number; score: number }[];
 }
 
-export async function verifyCandidates(story: Story, candidates: Candidate[], minScore: number, step = 'verify'): Promise<VerificationResult> {
+export async function verifyCandidates(
+  story: Story,
+  candidates: Candidate[],
+  minScore: number,
+  step = 'verify',
+  verifier: VerifierName = 'production',
+): Promise<VerificationResult> {
   // Candidates are addressed by list position. The production prompt asked the
   // model to echo (episodeId, convoIdx) instead; with 100+ candidates it started
   // returning list positions in the convoIdx slot and every match was dropped.
@@ -159,8 +192,8 @@ export async function verifyCandidates(story: Story, candidates: Candidate[], mi
   const { text } = await complete({
     step,
     model: MODELS.classify,
-    system: SYSTEM_PROMPT,
-    user: `Story: "${story.title}"\nCategory: ${story.category}\n\nRate these podcast convos for relevance (0-10):\n\n${convoList}`,
+    system: SYSTEM_PROMPTS[verifier],
+    user: `${storyBrief(story, verifier)}\n\nRate these podcast convos for relevance (0-10):\n\n${convoList}`,
     maxTokens: 4096,
     temperature: 0,
   });
@@ -213,6 +246,7 @@ export function scoreStory(story: Story, matches: Match[], now: Date): void {
 
 export interface MatchRunResult {
   retriever: RetrieverName;
+  verifier: VerifierName;
   storiesProcessed: number;
   candidatesTotal: number;
   matchesTotal: number;
@@ -225,9 +259,14 @@ export async function matchStories(
   convosByEpisode: Map<string, EpisodeConvos>,
   matches: Match[],
   config: PipelineConfig,
-  { force = false, now = new Date(), retriever = keywordRetriever(episodes, convosByEpisode, config) }: { force?: boolean; now?: Date; retriever?: Retriever } = {},
+  {
+    force = false,
+    now = new Date(),
+    retriever = keywordRetriever(episodes, convosByEpisode, config),
+    verifier = 'production',
+  }: { force?: boolean; now?: Date; retriever?: Retriever; verifier?: VerifierName } = {},
 ): Promise<MatchRunResult> {
-  const result: MatchRunResult = { retriever: retriever.name, storiesProcessed: 0, candidatesTotal: 0, matchesTotal: 0, perStory: [] };
+  const result: MatchRunResult = { retriever: retriever.name, verifier, storiesProcessed: 0, candidatesTotal: 0, matchesTotal: 0, perStory: [] };
 
   for (const story of stories) {
     if (story.status === 'archived') continue;
@@ -236,7 +275,7 @@ export async function matchStories(
     const candidates = retriever.candidates(story);
     let verified: Match[] = [];
     if (candidates.length > 0) {
-      ({ matches: verified } = await verifyCandidates(story, candidates, config.matching.minScore));
+      ({ matches: verified } = await verifyCandidates(story, candidates, config.matching.minScore, 'verify', verifier));
     }
 
     // Replace this story's matches wholesale; the verifier is the source of truth.

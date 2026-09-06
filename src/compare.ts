@@ -13,7 +13,7 @@ import path from 'node:path';
 import { estimateCostUsd, MODELS, usageByStep } from './claude.ts';
 import type { Paths } from './config.ts';
 import { buildSegmentIndex, EMBED_MODEL, embedStories, rankSegments } from './embed.ts';
-import { candidateKey, keywordSearch, sortCandidates, toCandidate, verifyCandidates, type Candidate } from './match.ts';
+import { candidateKey, keywordSearch, sortCandidates, toCandidate, VERIFIER_PROMPT_FILES, verifyCandidates, type Candidate, type VerifierName } from './match.ts';
 import type { Episode, EpisodeConvos, Match, ModelUsage, PipelineConfig, Story } from './types.ts';
 import { log, readJson, secondsToHhmmss, writeJson } from './util.ts';
 
@@ -54,7 +54,7 @@ export interface ComparedStory {
 export interface ComparisonData {
   ranAt: string;
   embedding: { model: string; dimension: number; topK: number; minSimilarity: number };
-  verifier: { model: string; minScore: number; chunkSize: number; calls: number };
+  verifier: { model: string; variant: VerifierName; prompt: string; minScore: number; chunkSize: number; calls: number };
   keywordMaxCandidates: number;
   segments: number;
   committedMatches: number;
@@ -68,7 +68,19 @@ function round(n: number, places: number): number {
   return Math.round(n * f) / f;
 }
 
-export async function runComparison(paths: Paths, config: PipelineConfig, now: Date): Promise<ComparisonData> {
+/** File names for one verifier variant. The production variant keeps the unsuffixed names. */
+export function comparisonNames(verifier: VerifierName): { spotCheck: string; sampleBase: string } {
+  const suffix = verifier === 'production' ? '' : `-${verifier}`;
+  return { spotCheck: `spot-check${suffix}.md`, sampleBase: `retrieval-comparison${suffix}` };
+}
+
+export function comparisonFiles(paths: Paths, verifier: VerifierName): { data: string; spotCheck: string; sampleBase: string } {
+  const suffix = verifier === 'production' ? '' : `-${verifier}`;
+  const names = comparisonNames(verifier);
+  return { data: path.join(paths.data, `comparison${suffix}.json`), spotCheck: path.join(paths.data, names.spotCheck), sampleBase: names.sampleBase };
+}
+
+export async function runComparison(paths: Paths, config: PipelineConfig, now: Date, verifier: VerifierName = 'production'): Promise<ComparisonData> {
   const episodes = readJson<Episode[]>(paths.episodes) ?? [];
   const stories = readJson<Story[]>(paths.stories) ?? [];
   const matches = readJson<Match[]>(paths.matches) ?? [];
@@ -108,7 +120,7 @@ export async function runComparison(paths: Paths, config: PipelineConfig, now: D
     const scores = new Map<string, number>();
     for (let i = 0; i < list.length; i += CHUNK_SIZE) {
       const chunk = list.slice(i, i + CHUNK_SIZE);
-      const { scored } = await verifyCandidates(story, chunk, minScore, VERIFY_STEP);
+      const { scored } = await verifyCandidates(story, chunk, minScore, VERIFY_STEP, verifier);
       calls++;
       for (const s of scored) {
         if (!Number.isInteger(s.index) || typeof s.score !== 'number') continue;
@@ -148,7 +160,7 @@ export async function runComparison(paths: Paths, config: PipelineConfig, now: D
   return {
     ranAt: now.toISOString(),
     embedding: { model: EMBED_MODEL, dimension: index[0]?.vector.length ?? 0, topK, minSimilarity },
-    verifier: { model: MODELS.classify, minScore, chunkSize: CHUNK_SIZE, calls },
+    verifier: { model: MODELS.classify, variant: verifier, prompt: VERIFIER_PROMPT_FILES[verifier], minScore, chunkSize: CHUNK_SIZE, calls },
     keywordMaxCandidates: maxCandidates,
     segments: index.length,
     committedMatches: matches.length,
@@ -159,11 +171,11 @@ export async function runComparison(paths: Paths, config: PipelineConfig, now: D
 
 // --- derived numbers ---------------------------------------------------------------
 
-function flags(c: ComparedCandidate, data: ComparisonData, floor: number) {
+function flags(c: ComparedCandidate, data: ComparisonData, floor: number, minScore = data.verifier.minScore) {
   return {
     kw: c.keyword,
     emb: c.rank <= data.embedding.topK && c.similarity >= floor,
-    verified: c.score !== null && c.score >= data.verifier.minScore,
+    verified: c.score !== null && c.score >= minScore,
   };
 }
 
@@ -204,7 +216,7 @@ type Acc = RetrieverTotals & { storyIds: Set<string>; showNames: Set<string> };
 const newAcc = (): Acc => ({ candidates: 0, verified: 0, stories: 0, shows: 0, onlyVerified: 0, storyIds: new Set(), showNames: new Set() });
 const finish = ({ storyIds, showNames, ...t }: Acc): RetrieverTotals => ({ ...t, stories: storyIds.size, shows: showNames.size });
 
-export function summarize(data: ComparisonData, floor = data.embedding.minSimilarity): Summary {
+export function summarize(data: ComparisonData, floor = data.embedding.minSimilarity, minScore = data.verifier.minScore): Summary {
   const acc = { keyword: newAcc(), embedding: newAcc(), union: newAcc(), overlap: newAcc() };
   let verifiedBelowFloor = 0;
   const perStory: PerStory[] = [];
@@ -221,7 +233,7 @@ export function summarize(data: ComparisonData, floor = data.embedding.minSimila
       unionVerified: 0,
     };
     for (const c of s.candidates) {
-      const { kw, emb, verified } = flags(c, data, floor);
+      const { kw, emb, verified } = flags(c, data, floor, minScore);
       const sets: (keyof typeof acc)[] = [];
       if (kw) sets.push('keyword');
       if (emb) sets.push('embedding');
@@ -272,6 +284,30 @@ export function floorSweep(data: ComparisonData): SweepRow[] {
     const s = summarize(data, floor);
     return { floor, candidates: s.embedding.candidates, verified: s.embedding.verified, onlyVerified: s.embedding.onlyVerified, verifiedLost: s.verifiedBelowFloor };
   });
+}
+
+export interface ThresholdRow {
+  threshold: number;
+  keyword: { verified: number; onlyVerified: number };
+  embedding: { verified: number; onlyVerified: number };
+  either: number;
+  both: number;
+}
+
+/** Same scores, higher cutoffs. The pipeline keeps 7 and above; 8 and 9 are what a stricter cutoff would leave. */
+export function thresholdSweep(data: ComparisonData): ThresholdRow[] {
+  const rows: ThresholdRow[] = [];
+  for (let threshold = data.verifier.minScore; threshold <= 9; threshold++) {
+    const s = summarize(data, data.embedding.minSimilarity, threshold);
+    rows.push({
+      threshold,
+      keyword: { verified: s.keyword.verified, onlyVerified: s.keyword.onlyVerified },
+      embedding: { verified: s.embedding.verified, onlyVerified: s.embedding.onlyVerified },
+      either: s.union.verified,
+      both: s.overlap.verified,
+    });
+  }
+  return rows;
 }
 
 export interface Distribution { count: number; min: number; p10: number; median: number; p90: number; max: number }
@@ -357,6 +393,66 @@ export function committedAgreement(data: ComparisonData): Agreement {
   return out;
 }
 
+export interface VerdictCell {
+  both: number;
+  onlyBaseline: number;
+  onlyThis: number;
+}
+
+export type Attribution = 'keyword only' | 'embedding only' | 'both retrievers' | 'top-K under the floor';
+const ATTRIBUTIONS: Attribution[] = ['keyword only', 'embedding only', 'both retrievers', 'top-K under the floor'];
+
+export interface BaselineDiff {
+  baselineVariant: VerifierName;
+  byAttribution: Record<Attribution, VerdictCell>;
+  all: VerdictCell;
+  changed: {
+    storyTitle: string;
+    foundBy: Attribution;
+    podcastTitle: string;
+    convoTitle: string;
+    convoDescription: string;
+    baselineScore: number | null;
+    score: number | null;
+  }[];
+}
+
+/**
+ * Same candidates scored by two verifier prompts: who verified what. Retrieval
+ * attribution is identical on both sides because the union is the same.
+ */
+export function againstBaseline(data: ComparisonData, baseline: ComparisonData): BaselineDiff {
+  const base = new Map<string, ComparedCandidate>();
+  for (const s of baseline.stories) for (const c of s.candidates) base.set(`${s.storyId}:${candidateKey(c)}`, c);
+  const cell = (): VerdictCell => ({ both: 0, onlyBaseline: 0, onlyThis: 0 });
+  const out: BaselineDiff = {
+    baselineVariant: baseline.verifier.variant,
+    byAttribution: { 'keyword only': cell(), 'embedding only': cell(), 'both retrievers': cell(), 'top-K under the floor': cell() },
+    all: cell(),
+    changed: [],
+  };
+  for (const s of data.stories) {
+    for (const c of s.candidates) {
+      const b = base.get(`${s.storyId}:${candidateKey(c)}`);
+      if (!b) continue;
+      const { kw, emb, verified } = flags(c, data, data.embedding.minSimilarity);
+      const baseVerified = b.score !== null && b.score >= baseline.verifier.minScore;
+      const attribution: Attribution = kw && emb ? 'both retrievers' : kw ? 'keyword only' : emb ? 'embedding only' : 'top-K under the floor';
+      for (const target of [out.byAttribution[attribution], out.all]) {
+        if (verified && baseVerified) target.both++;
+        else if (baseVerified) target.onlyBaseline++;
+        else if (verified) target.onlyThis++;
+      }
+      if (verified !== baseVerified) {
+        out.changed.push({ storyTitle: s.title, foundBy: attribution, podcastTitle: c.podcastTitle, convoTitle: c.convoTitle, convoDescription: c.convoDescription, baselineScore: b.score, score: c.score });
+      }
+    }
+  }
+  const order = (x: BaselineDiff['changed'][number]) => (x.baselineScore !== null && x.score === null ? 0 : 1);
+  out.changed.sort((a, b) => order(a) - order(b) || ATTRIBUTIONS.indexOf(a.foundBy) - ATTRIBUTIONS.indexOf(b.foundBy) || a.storyTitle.localeCompare(b.storyTitle));
+  return out;
+}
+
 // --- rendering ---------------------------------------------------------------
 
 const cell = (s: string) => s.replace(/\|/g, '\\|').replace(/\n/g, ' ');
@@ -364,7 +460,7 @@ const hms = (seconds: number) => secondsToHhmmss(seconds).replace(/^00:/, '');
 const pct = (n: number, d: number) => (d ? `${Math.round((100 * n) / d)}%` : 'n/a');
 const sim = (n: number) => n.toFixed(3);
 
-export function renderComparison(data: ComparisonData): string {
+export function renderComparison(data: ComparisonData, baseline?: ComparisonData): string {
   const s = summarize(data);
   const sweep = floorSweep(data);
   const stats = similarityStats(data);
@@ -376,14 +472,18 @@ export function renderComparison(data: ComparisonData): string {
   const { minScore } = data.verifier;
   const L: string[] = [];
 
-  L.push(`# Retrieval comparison: keyword search against embeddings`, '');
-  L.push(`Written by \`node src/cli.ts compare\` on ${data.ranAt.slice(0, 10)}. Same ${data.stories.length} stories, same ${data.segments} segments, same verifier prompt and model. Nothing here was edited by hand.`, '');
+  const variant = data.verifier.variant;
+  L.push(`# Retrieval comparison: keyword search against embeddings${variant === 'production' ? '' : `, ${variant} verifier`}`, '');
+  L.push(`Written by \`node src/cli.ts compare${variant === 'production' ? '' : ` --verifier ${variant}`}\` on ${data.ranAt.slice(0, 10)}. Same ${data.stories.length} stories, same ${data.segments} segments, same verifier prompt and model for every candidate. Nothing here was edited by hand.`, '');
 
   L.push(`## How the two retrievers were compared`, '');
   L.push(`- **Keyword.** Any story keyword, matched as a whole word, in a segment's title or description. Capped at ${data.keywordMaxCandidates} candidates per story, newest episode first. This is the pipeline's retriever.`);
   L.push(`- **Embedding.** Cosine similarity between the story text and each segment text with \`${data.embedding.model}\` at ${data.embedding.dimension} dimensions. Story text is the title, summary and keywords; segment text is the title and description. The top ${topK} segments per story, then a similarity floor of ${floor}.`);
   L.push(`- **Same input.** Neither retriever sees transcript text. Both read the same segment title and one-sentence description.`);
-  L.push(`- **Verified once.** For each story the union of both candidate lists was scored by \`${data.verifier.model}\` at temperature 0 with \`prompts/verify-match.md\`, in calls of at most ${data.verifier.chunkSize} candidates. A candidate both retrievers found therefore has one score. Verified means ${minScore} or more.`);
+  L.push(`- **Verified once.** For each story the union of both candidate lists was scored by \`${data.verifier.model}\` at temperature 0 with \`prompts/${data.verifier.prompt}\`, in calls of at most ${data.verifier.chunkSize} candidates. A candidate both retrievers found therefore has one score. Verified means ${minScore} or more.`);
+  if (variant === 'context') {
+    L.push(`- **Story context.** This verifier was also shown the story's summary, keywords and source headlines, and told that a convo about the same beat but a different event scores at most 6. The production verifier sees only the title and category.`);
+  }
   L.push(`- **No floor at verification time.** The whole top ${topK} was verified, so the floor is a filter over already-scored candidates and can be varied below without another model call.`, '');
   L.push(`| | |`, `|---|---|`);
   L.push(`| Verifier calls | ${data.verifier.calls} |`);
@@ -438,6 +538,12 @@ export function renderComparison(data: ComparisonData): string {
   for (const r of sweep) L.push(`| ${r.floor === 0 ? 'none' : r.floor.toFixed(2)} | ${r.candidates} | ${r.verified} | ${r.onlyVerified} | ${r.verifiedLost} |`);
   L.push('', `The configured floor is ${floor}, set in \`feeds.json\` under \`matching.embedding.minSimilarity\`.`, '');
 
+  L.push(`## Choosing the threshold`, '');
+  L.push(`The pipeline keeps scores of ${minScore} and above. Same candidates and same scores at a stricter cutoff:`, '');
+  L.push(`| Threshold | Keyword verified | Embedding verified | Only keyword | Only embedding | Either | Both |`, `|---|---|---|---|---|---|---|`);
+  for (const r of thresholdSweep(data)) L.push(`| ${r.threshold} | ${r.keyword.verified} | ${r.embedding.verified} | ${r.keyword.onlyVerified} | ${r.embedding.onlyVerified} | ${r.either} | ${r.both} |`);
+  L.push('');
+
   L.push(`## Agreement with the pipeline run`, '');
   L.push(`\`data/matches.json\` holds ${agree.committed} matches from the keyword pipeline. ${agree.rescored} of them were re-scored here, ${agree.reverified} scored ${minScore} or more again and ${agree.dropped.length} did not. ${agree.newlyVerifiedKeyword} keyword candidate${agree.newlyVerifiedKeyword === 1 ? '' : 's'} verified here that had not in the pipeline run. The verifier runs at temperature 0, but a candidate's score moves with the other candidates in its call, so some drift is expected.`, '');
   if (agree.dropped.length) {
@@ -446,8 +552,25 @@ export function renderComparison(data: ComparisonData): string {
     L.push('');
   }
 
+  if (baseline && baseline.verifier.variant !== variant) {
+    const d = againstBaseline(data, baseline);
+    L.push(`## Against the ${d.baselineVariant} verifier`, '');
+    L.push(`Same candidates in the same chunks; only the prompt differs. "Only ${d.baselineVariant}" is what this verifier stopped passing, "only ${variant}" is what it newly passed.`, '');
+    L.push(`| Candidates found by | Verified by both | Only ${d.baselineVariant} | Only ${variant} |`, `|---|---|---|---|`);
+    for (const a of ATTRIBUTIONS) { const c = d.byAttribution[a]; L.push(`| ${a[0].toUpperCase()}${a.slice(1)} | ${c.both} | ${c.onlyBaseline} | ${c.onlyThis} |`); }
+    L.push(`| All | ${d.all.both} | ${d.all.onlyBaseline} | ${d.all.onlyThis} |`, '');
+    if (d.changed.length) {
+      L.push(`Every verdict that changed:`, '');
+      L.push(`| Story | Found by | Show | Segment | ${d.baselineVariant[0].toUpperCase()}${d.baselineVariant.slice(1)} | ${variant[0].toUpperCase()}${variant.slice(1)} |`, `|---|---|---|---|---|---|`);
+      for (const c of d.changed) {
+        L.push(`| ${cell(c.storyTitle)} | ${c.foundBy} | ${cell(c.podcastTitle)} | **${cell(c.convoTitle)}** ${cell(c.convoDescription)} | ${c.baselineScore ?? `under ${minScore}`} | ${c.score ?? `under ${minScore}`} |`);
+      }
+      L.push('');
+    }
+  }
+
   L.push(`## Caveats`, '');
-  L.push(`- Every number above is graded by the verifier, not by a person. \`data/spot-check.md\` lists the disagreements for manual labelling; until that comes back, "verified" means the verifier said ${minScore} or more.`);
+  L.push(`- Every number above is graded by the verifier, not by a person. \`data/${comparisonNames(variant).spotCheck}\` lists the disagreements for manual labelling; until that comes back, "verified" means the verifier said ${minScore} or more.`);
   L.push(`- Both retrievers read only the segment title and description. Embedding transcript text would be a different experiment with a different cost.`);
   L.push(`- Candidates were verified in chunks, so a score can depend on its chunk-mates. Both retrievers share the chunks, so the comparison stays fair where absolute scores drift.`);
   L.push(`- Story clustering is not reproducible at temperature 0. This comparison used the committed \`data/stories.json\` and did not re-cluster.`);
@@ -466,8 +589,9 @@ export function withConfiguredFloor(data: ComparisonData, matching: PipelineConf
   return { ...data, embedding: { ...data.embedding, minSimilarity: matching.embedding.minSimilarity } };
 }
 
-export function writeComparisonSamples(outDir: string, data: ComparisonData): { md: string; json: string } {
+export function writeComparisonSamples(outDir: string, data: ComparisonData, baseline?: ComparisonData): { md: string; json: string } {
   const { perStory, ...totals } = summarize(data);
+  const baseName = comparisonNames(data.verifier.variant).sampleBase;
   // The committed twin keeps every candidate a retriever surfaced at the configured
   // floor, plus anything the verifier passed. Unverified top-K segments under the
   // floor stay in data/comparison.json, where the floor sweep reads them.
@@ -478,7 +602,7 @@ export function writeComparisonSamples(outDir: string, data: ComparisonData): { 
       return kw || emb || verified;
     }),
   }));
-  const json = path.join(outDir, 'retrieval-comparison.json');
+  const json = path.join(outDir, `${baseName}.json`);
   writeJson(json, {
     ranAt: data.ranAt,
     embedding: data.embedding,
@@ -488,16 +612,18 @@ export function writeComparisonSamples(outDir: string, data: ComparisonData): { 
     totals,
     perStory,
     floorSweep: floorSweep(data),
+    thresholdSweep: thresholdSweep(data),
     similarity: similarityStats(data),
     disagreements: disagreements(data),
     committedAgreement: committedAgreement(data),
+    ...(baseline && baseline.verifier.variant !== data.verifier.variant ? { againstBaseline: againstBaseline(data, baseline) } : {}),
     usage: data.usage,
     costUsd: estimateCostUsd(data.usage),
     candidatesIncluded: 'surfaced by keyword search, by the embedding retriever at the configured floor, or verified',
     stories,
   });
-  const md = path.join(outDir, 'retrieval-comparison.md');
-  writeFileSync(md, renderComparison(data));
+  const md = path.join(outDir, `${baseName}.md`);
+  writeFileSync(md, renderComparison(data, baseline));
   return { md, json };
 }
 

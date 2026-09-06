@@ -13,6 +13,8 @@ edited by hand. Start with **[REPORT.md](REPORT.md)**.
 | `news-items.json` | The raw headlines that were clustered, with source and category. |
 | `retrieval-comparison.md` | Keyword search against an embedding retriever over the same stories and segments, verified once by the same model: totals, story by story, every disagreement, and the similarity-floor sweep. Written by `node src/cli.ts compare`. |
 | `retrieval-comparison.json` | The same comparison as data: every candidate either retriever surfaced, with which retriever found it, its cosine similarity and rank, and the verifier's score. |
+| `retrieval-comparison-context.md` | The same candidates re-scored by a verifier that is also shown the story's summary, keywords and headlines, with every verdict that changed against the production verifier. Written by `node src/cli.ts compare --verifier context`. |
+| `retrieval-comparison-context.json` | Data twin of the above, including the per-candidate diff against the production verifier. |
 
 The static page at [`../viz/index.html`](../viz/index.html) renders `stories.json`
 as a story-by-show view. Open it locally in a browser; it needs no server.

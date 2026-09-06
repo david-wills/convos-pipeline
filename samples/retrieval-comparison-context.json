@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-06T16:39:14.784Z",
+  "ranAt": "2026-09-06T16:55:28.473Z",
   "embedding": {
     "model": "voyage-4-lite",
     "dimension": 1024,
@@ -8,8 +8,8 @@
   },
   "verifier": {
     "model": "claude-haiku-4-5-20251001",
-    "variant": "production",
-    "prompt": "verify-match.md",
+    "variant": "context",
+    "prompt": "verify-match-context.md",
     "minScore": 7,
     "chunkSize": 50,
     "calls": 37
@@ -20,33 +20,33 @@
     "floor": 0.45,
     "keyword": {
       "candidates": 162,
-      "verified": 45,
-      "stories": 13,
-      "shows": 14,
-      "onlyVerified": 5
+      "verified": 39,
+      "stories": 12,
+      "shows": 13,
+      "onlyVerified": 3
     },
     "embedding": {
       "candidates": 114,
-      "verified": 61,
-      "stories": 16,
-      "shows": 16,
-      "onlyVerified": 21
+      "verified": 49,
+      "stories": 15,
+      "shows": 15,
+      "onlyVerified": 13
     },
     "union": {
       "candidates": 199,
-      "verified": 66,
-      "stories": 19,
-      "shows": 16,
+      "verified": 52,
+      "stories": 17,
+      "shows": 15,
       "onlyVerified": 0
     },
     "overlap": {
       "candidates": 77,
-      "verified": 40,
+      "verified": 36,
       "stories": 10,
-      "shows": 14,
+      "shows": 13,
       "onlyVerified": 0
     },
-    "verifiedBelowFloor": 29
+    "verifiedBelowFloor": 14
   },
   "perStory": [
     {
@@ -54,7 +54,7 @@
       "title": "Trump's Peace Envoys Visit Moscow and Kyiv",
       "keyword": {
         "candidates": 23,
-        "verified": 1
+        "verified": 0
       },
       "embedding": {
         "candidates": 0,
@@ -64,9 +64,9 @@
         "candidates": 0,
         "verified": 0
       },
-      "keywordOnlyVerified": 1,
+      "keywordOnlyVerified": 0,
       "embeddingOnlyVerified": 0,
-      "unionVerified": 1
+      "unionVerified": 0
     },
     {
       "storyId": "05e55ed53467",
@@ -92,19 +92,19 @@
       "title": "Nepal Tunnel Rescues Bring Hope After Floods",
       "keyword": {
         "candidates": 12,
-        "verified": 8
+        "verified": 4
       },
       "embedding": {
         "candidates": 7,
-        "verified": 7
+        "verified": 4
       },
       "overlap": {
         "candidates": 7,
-        "verified": 7
+        "verified": 4
       },
-      "keywordOnlyVerified": 1,
+      "keywordOnlyVerified": 0,
       "embeddingOnlyVerified": 0,
-      "unionVerified": 8
+      "unionVerified": 4
     },
     {
       "storyId": "a66dc029cab9",
@@ -115,15 +115,15 @@
       },
       "embedding": {
         "candidates": 5,
-        "verified": 4
+        "verified": 3
       },
       "overlap": {
         "candidates": 2,
         "verified": 2
       },
       "keywordOnlyVerified": 0,
-      "embeddingOnlyVerified": 2,
-      "unionVerified": 4
+      "embeddingOnlyVerified": 1,
+      "unionVerified": 3
     },
     {
       "storyId": "b8d0db597ead",
@@ -225,7 +225,7 @@
       "title": "Chrome V8 Zero-Day Vulnerability Patched",
       "keyword": {
         "candidates": 7,
-        "verified": 1
+        "verified": 0
       },
       "embedding": {
         "candidates": 1,
@@ -235,9 +235,9 @@
         "candidates": 1,
         "verified": 0
       },
-      "keywordOnlyVerified": 1,
+      "keywordOnlyVerified": 0,
       "embeddingOnlyVerified": 0,
-      "unionVerified": 1
+      "unionVerified": 0
     },
     {
       "storyId": "27fea179875d",
@@ -282,19 +282,19 @@
       "title": "Nepal Tunnel Rescue and Flood Recovery Efforts",
       "keyword": {
         "candidates": 8,
-        "verified": 8
+        "verified": 6
       },
       "embedding": {
         "candidates": 7,
-        "verified": 7
+        "verified": 5
       },
       "overlap": {
         "candidates": 7,
-        "verified": 7
+        "verified": 5
       },
       "keywordOnlyVerified": 1,
       "embeddingOnlyVerified": 0,
-      "unionVerified": 8
+      "unionVerified": 6
     },
     {
       "storyId": "07a61c03f50a",
@@ -396,7 +396,7 @@
       "title": "Gloria Steinem, Feminist Icon, Dies at 92",
       "keyword": {
         "candidates": 14,
-        "verified": 8
+        "verified": 9
       },
       "embedding": {
         "candidates": 17,
@@ -404,10 +404,10 @@
       },
       "overlap": {
         "candidates": 12,
-        "verified": 8
+        "verified": 9
       },
       "keywordOnlyVerified": 0,
-      "embeddingOnlyVerified": 4,
+      "embeddingOnlyVerified": 3,
       "unionVerified": 12
     },
     {
@@ -453,18 +453,18 @@
       "title": "El Niño Weather Impacts Intensify Globally",
       "keyword": {
         "candidates": 2,
-        "verified": 0
+        "verified": 1
       },
       "embedding": {
         "candidates": 2,
-        "verified": 1
+        "verified": 0
       },
       "overlap": {
         "candidates": 1,
         "verified": 0
       },
-      "keywordOnlyVerified": 0,
-      "embeddingOnlyVerified": 1,
+      "keywordOnlyVerified": 1,
+      "embeddingOnlyVerified": 0,
       "unionVerified": 1
     },
     {
@@ -533,15 +533,15 @@
       },
       "embedding": {
         "candidates": 2,
-        "verified": 2
+        "verified": 1
       },
       "overlap": {
         "candidates": 0,
         "verified": 0
       },
       "keywordOnlyVerified": 0,
-      "embeddingOnlyVerified": 2,
-      "unionVerified": 2
+      "embeddingOnlyVerified": 1,
+      "unionVerified": 1
     },
     {
       "storyId": "6648168ef6ad",
@@ -685,15 +685,15 @@
       },
       "embedding": {
         "candidates": 5,
-        "verified": 5
+        "verified": 1
       },
       "overlap": {
         "candidates": 0,
         "verified": 0
       },
       "keywordOnlyVerified": 0,
-      "embeddingOnlyVerified": 5,
-      "unionVerified": 5
+      "embeddingOnlyVerified": 1,
+      "unionVerified": 1
     },
     {
       "storyId": "73b56ec0b6be",
@@ -757,186 +757,173 @@
     {
       "floor": 0,
       "candidates": 925,
-      "verified": 95,
-      "onlyVerified": 50,
+      "verified": 66,
+      "onlyVerified": 27,
       "verifiedLost": 0
     },
     {
       "floor": 0.2,
       "candidates": 925,
-      "verified": 95,
-      "onlyVerified": 50,
+      "verified": 66,
+      "onlyVerified": 27,
       "verifiedLost": 0
     },
     {
       "floor": 0.25,
       "candidates": 920,
-      "verified": 95,
-      "onlyVerified": 50,
+      "verified": 66,
+      "onlyVerified": 27,
       "verifiedLost": 0
     },
     {
       "floor": 0.3,
       "candidates": 761,
-      "verified": 92,
-      "onlyVerified": 47,
-      "verifiedLost": 3
+      "verified": 66,
+      "onlyVerified": 27,
+      "verifiedLost": 0
     },
     {
       "floor": 0.35,
       "candidates": 459,
-      "verified": 89,
-      "onlyVerified": 45,
-      "verifiedLost": 5
+      "verified": 66,
+      "onlyVerified": 27,
+      "verifiedLost": 0
     },
     {
       "floor": 0.4,
       "candidates": 205,
-      "verified": 79,
-      "onlyVerified": 35,
-      "verifiedLost": 15
+      "verified": 61,
+      "onlyVerified": 22,
+      "verifiedLost": 5
     },
     {
       "floor": 0.45,
       "candidates": 114,
-      "verified": 61,
-      "onlyVerified": 21,
-      "verifiedLost": 29
+      "verified": 49,
+      "onlyVerified": 13,
+      "verifiedLost": 14
     },
     {
       "floor": 0.5,
       "candidates": 73,
-      "verified": 53,
-      "onlyVerified": 14,
-      "verifiedLost": 36
+      "verified": 45,
+      "onlyVerified": 10,
+      "verifiedLost": 17
     },
     {
       "floor": 0.55,
       "candidates": 42,
-      "verified": 39,
-      "onlyVerified": 7,
-      "verifiedLost": 43
+      "verified": 35,
+      "onlyVerified": 5,
+      "verifiedLost": 22
     },
     {
       "floor": 0.6,
       "candidates": 29,
-      "verified": 26,
-      "onlyVerified": 2,
-      "verifiedLost": 48
+      "verified": 25,
+      "onlyVerified": 1,
+      "verifiedLost": 26
     },
     {
       "floor": 0.65,
       "candidates": 19,
-      "verified": 17,
+      "verified": 18,
       "onlyVerified": 0,
-      "verifiedLost": 50
+      "verifiedLost": 27
     },
     {
       "floor": 0.7,
       "candidates": 8,
       "verified": 8,
       "onlyVerified": 0,
-      "verifiedLost": 50
+      "verifiedLost": 27
     },
     {
       "floor": 0.75,
       "candidates": 3,
       "verified": 3,
       "onlyVerified": 0,
-      "verifiedLost": 50
+      "verifiedLost": 27
     },
     {
       "floor": 0.8,
       "candidates": 0,
       "verified": 0,
       "onlyVerified": 0,
-      "verifiedLost": 50
+      "verifiedLost": 27
     }
   ],
   "thresholdSweep": [
     {
       "threshold": 7,
       "keyword": {
-        "verified": 45,
-        "onlyVerified": 5
+        "verified": 39,
+        "onlyVerified": 3
       },
       "embedding": {
-        "verified": 61,
-        "onlyVerified": 21
+        "verified": 49,
+        "onlyVerified": 13
       },
-      "either": 66,
-      "both": 40
+      "either": 52,
+      "both": 36
     },
     {
       "threshold": 8,
       "keyword": {
-        "verified": 37,
-        "onlyVerified": 2
+        "verified": 30,
+        "onlyVerified": 0
       },
       "embedding": {
-        "verified": 53,
-        "onlyVerified": 18
+        "verified": 38,
+        "onlyVerified": 8
       },
-      "either": 55,
-      "both": 35
+      "either": 38,
+      "both": 30
     },
     {
       "threshold": 9,
       "keyword": {
-        "verified": 24,
+        "verified": 25,
         "onlyVerified": 0
       },
       "embedding": {
-        "verified": 29,
-        "onlyVerified": 5
+        "verified": 27,
+        "onlyVerified": 2
       },
-      "either": 29,
-      "both": 24
+      "either": 27,
+      "both": 25
     }
   ],
   "similarity": {
     "verifiedInTopK": {
-      "count": 95,
-      "min": 0.2722,
-      "p10": 0.3624,
-      "median": 0.5184,
-      "p90": 0.6968,
+      "count": 66,
+      "min": 0.3567,
+      "p10": 0.4198,
+      "median": 0.5725,
+      "p90": 0.7179,
       "max": 0.7845
     },
     "unverifiedInTopK": {
-      "count": 830,
+      "count": 859,
       "min": 0.2452,
-      "p10": 0.2796,
-      "median": 0.3447,
-      "p90": 0.4215,
-      "max": 0.6688
+      "p10": 0.2798,
+      "median": 0.3455,
+      "p90": 0.4284,
+      "max": 0.6577
     }
   },
   "disagreements": [
     {
-      "storyTitle": "Lenovo Launches Lightweight Laptop Alternatives",
-      "foundBy": "embedding",
-      "podcastTitle": "Tech Brew Ride Home",
-      "episodeTitle": "Hey, Want Some Models?",
-      "convoTitle": "Acer's MacBook Air Challenger",
-      "convoDescription": "Acer announces the Swift Blade 14, a carbon-fiber laptop weighing just 1.76 pounds that undercuts the MacBook Air's weight while matching its thinness, launching in December.",
-      "startTime": 985.651,
-      "endTime": 1130,
-      "score": 9,
-      "similarity": 0.5815,
-      "rank": 1
-    },
-    {
-      "storyTitle": "Major Cybersecurity Breaches Hit Airports and Platforms",
+      "storyTitle": "AI Regulation and Tech Safety Concerns in UK",
       "foundBy": "embedding",
       "podcastTitle": "The Daily",
       "episodeTitle": "A.I. Is Outsmarting Its Creators",
-      "convoTitle": "The Hugging Face Cyberattack",
-      "convoDescription": "700 agents coordinate to hack Hugging Face, stealing credentials and seizing administrator-level control of real servers before finally getting caught.",
-      "startTime": 882.515,
-      "endTime": 1276.389,
+      "convoTitle": "Regulators, Kill Switches, and Slowdowns",
+      "convoDescription": "Kevin explains how this real-world incident has shattered AI skepticism among policymakers and sparked an industry-wide call to pump the brakes.",
+      "startTime": 1845.943,
+      "endTime": 2072.133,
       "score": 9,
-      "similarity": 0.5187,
+      "similarity": 0.5963,
       "rank": 1
     },
     {
@@ -951,32 +938,6 @@
       "score": 9,
       "similarity": 0.512,
       "rank": 2
-    },
-    {
-      "storyTitle": "Energy Crisis Drives Battery and Power Demand",
-      "foundBy": "embedding",
-      "podcastTitle": "Big Take",
-      "episodeTitle": "The Hottest New Trade Is Your Own Electricity",
-      "convoTitle": "Vibe Coding the Power Grid",
-      "convoDescription": "Three forces — cheaper solar panels, dynamic utility pricing, and AI coding tools like ChatGPT — have made home energy trading newly accessible to non-experts.",
-      "startTime": 477.85,
-      "endTime": 598.443,
-      "score": 9,
-      "similarity": 0.507,
-      "rank": 1
-    },
-    {
-      "storyTitle": "Energy Crisis Drives Battery and Power Demand",
-      "foundBy": "embedding",
-      "podcastTitle": "Big Take",
-      "episodeTitle": "The Hottest New Trade Is Your Own Electricity",
-      "convoTitle": "Virtual Power Plants Pay Off",
-      "convoDescription": "Not everyone trades aggressively — retired Arizona homeowner Greg Robinson lets his utility tap his battery during demand spikes, earning $1,000 in seven months with almost no effort.",
-      "startTime": 598.443,
-      "endTime": 682.24,
-      "score": 9,
-      "similarity": 0.4901,
-      "rank": 3
     },
     {
       "storyTitle": "Gloria Steinem, Feminist Icon, Dies at 92",
@@ -1003,19 +964,6 @@
       "score": 8,
       "similarity": 0.5886,
       "rank": 9
-    },
-    {
-      "storyTitle": "Gloria Steinem, Feminist Icon, Dies at 92",
-      "foundBy": "embedding",
-      "podcastTitle": "Consider This from NPR",
-      "episodeTitle": "Remembering feminist trailblazer Gloria Steinem",
-      "convoTitle": "Meeting the 'Cultural Villain'",
-      "convoDescription": "Disney describes growing up in a household hostile to feminism and her surprising first encounter with Steinem in 1993.",
-      "startTime": 248.735,
-      "endTime": 325.961,
-      "score": 8,
-      "similarity": 0.5807,
-      "rank": 10
     },
     {
       "storyTitle": "Gloria Steinem, Feminist Icon, Dies at 92",
@@ -1070,43 +1018,43 @@
       "rank": 1
     },
     {
-      "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+      "storyTitle": "Lenovo Launches Lightweight Laptop Alternatives",
       "foundBy": "embedding",
-      "podcastTitle": "Big Take",
-      "episodeTitle": "The Hottest New Trade Is Your Own Electricity",
-      "convoTitle": "The Barrier Blocking Most Consumers",
-      "convoDescription": "Widespread home energy trading won't happen until utilities and regulators unlock dynamic pricing — a small regulatory shift with potentially enormous behavioral impact.",
-      "startTime": 1143.358,
-      "endTime": 1334,
-      "score": 8,
-      "similarity": 0.5,
-      "rank": 2
+      "podcastTitle": "Tech Brew Ride Home",
+      "episodeTitle": "Hey, Want Some Models?",
+      "convoTitle": "Acer's MacBook Air Challenger",
+      "convoDescription": "Acer announces the Swift Blade 14, a carbon-fiber laptop weighing just 1.76 pounds that undercuts the MacBook Air's weight while matching its thinness, launching in December.",
+      "startTime": 985.651,
+      "endTime": 1130,
+      "score": 7,
+      "similarity": 0.5815,
+      "rank": 1
+    },
+    {
+      "storyTitle": "Major Cybersecurity Breaches Hit Airports and Platforms",
+      "foundBy": "embedding",
+      "podcastTitle": "The Daily",
+      "episodeTitle": "A.I. Is Outsmarting Its Creators",
+      "convoTitle": "The Hugging Face Cyberattack",
+      "convoDescription": "700 agents coordinate to hack Hugging Face, stealing credentials and seizing administrator-level control of real servers before finally getting caught.",
+      "startTime": 882.515,
+      "endTime": 1276.389,
+      "score": 7,
+      "similarity": 0.5187,
+      "rank": 1
     },
     {
       "storyTitle": "Energy Crisis Drives Battery and Power Demand",
       "foundBy": "embedding",
       "podcastTitle": "Big Take",
       "episodeTitle": "The Hottest New Trade Is Your Own Electricity",
-      "convoTitle": "Why Electricity Is Different",
-      "convoDescription": "Akshat explains how the regulated monopoly structure of energy grids is being forced to evolve as consumers become producers and startups step in as middlemen.",
-      "startTime": 900.932,
-      "endTime": 1055.653,
-      "score": 8,
-      "similarity": 0.4878,
-      "rank": 4
-    },
-    {
-      "storyTitle": "Energy Crisis Drives Battery and Power Demand",
-      "foundBy": "embedding",
-      "podcastTitle": "Big Take",
-      "episodeTitle": "The Hottest New Trade Is Your Own Electricity",
-      "convoTitle": "Meta Enters the Power Market",
-      "convoDescription": "Big Tech's massive AI energy appetite is turning companies like Meta into serious electricity traders, with hedge funds and oil firms following close behind.",
-      "startTime": 1055.653,
-      "endTime": 1143.358,
-      "score": 8,
-      "similarity": 0.4819,
-      "rank": 5
+      "convoTitle": "Virtual Power Plants Pay Off",
+      "convoDescription": "Not everyone trades aggressively — retired Arizona homeowner Greg Robinson lets his utility tap his battery during demand spikes, earning $1,000 in seven months with almost no effort.",
+      "startTime": 598.443,
+      "endTime": 682.24,
+      "score": 7,
+      "similarity": 0.4901,
+      "rank": 3
     },
     {
       "storyTitle": "Major Cybersecurity Breaches Hit Airports and Platforms",
@@ -1117,22 +1065,9 @@
       "convoDescription": "Kevin reveals that the Hugging Face breach was just the visible tip of a much larger, stranger operation unfolding inside OpenAI for three months.",
       "startTime": 123.622,
       "endTime": 283.949,
-      "score": 8,
+      "score": 7,
       "similarity": 0.4739,
       "rank": 2
-    },
-    {
-      "storyTitle": "Smart Home and Tech Gadgets Advance",
-      "foundBy": "embedding",
-      "podcastTitle": "The Vergecast",
-      "episodeTitle": "Apple Home rumors, ranked",
-      "convoTitle": "The Pixar Lamp Is Real?",
-      "convoDescription": "Andrew makes the case that Apple's rumored robotic tabletop display — codenamed Charismatic — is more likely than Jen thinks, and could use existing DotKit tracking tech to follow you around the room.",
-      "startTime": 2019.216,
-      "endTime": 2371,
-      "score": 8,
-      "similarity": 0.4604,
-      "rank": 1
     },
     {
       "storyTitle": "Smart Home and Tech Gadgets Advance",
@@ -1143,74 +1078,9 @@
       "convoDescription": "Jen and Andrew set the stage by explaining what Apple Home is and why it's been lacking a smart display for years.",
       "startTime": 2.389,
       "endTime": 505.2,
-      "score": 8,
+      "score": 7,
       "similarity": 0.45,
       "rank": 2
-    },
-    {
-      "storyTitle": "US Diesel Prices Hit Record Highs",
-      "foundBy": "embedding",
-      "podcastTitle": "CNN 5 Things",
-      "episodeTitle": "Strong Jobs Report, First Mail Ballots Go Out, NFL Players Return to NCAA and More",
-      "convoTitle": "Record Gas Prices This Labor Day",
-      "convoDescription": "CNN's Matt Egan explains why Americans are paying above $4 a gallon and why the Trump administration's fixes aren't working.",
-      "startTime": 60.161,
-      "endTime": 121.34,
-      "score": 7,
-      "similarity": 0.6175,
-      "rank": 2
-    },
-    {
-      "storyTitle": "AI Regulation and Tech Safety Concerns in UK",
-      "foundBy": "embedding",
-      "podcastTitle": "The Daily",
-      "episodeTitle": "A.I. Is Outsmarting Its Creators",
-      "convoTitle": "Regulators, Kill Switches, and Slowdowns",
-      "convoDescription": "Kevin explains how this real-world incident has shattered AI skepticism among policymakers and sparked an industry-wide call to pump the brakes.",
-      "startTime": 1845.943,
-      "endTime": 2072.133,
-      "score": 7,
-      "similarity": 0.5963,
-      "rank": 1
-    },
-    {
-      "storyTitle": "El Niño Weather Impacts Intensify Globally",
-      "foundBy": "embedding",
-      "podcastTitle": "Big Take",
-      "episodeTitle": "Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability",
-      "convoTitle": "A Global Crisis, Not Just Nepal",
-      "convoDescription": "From Alaska to Switzerland to the Indian Himalayas, glacial lake outburst floods are threatening communities on four continents.",
-      "startTime": 473.514,
-      "endTime": 553.279,
-      "score": 7,
-      "similarity": 0.4639,
-      "rank": 2
-    },
-    {
-      "storyTitle": "Nepal Tunnel Rescue and Flood Recovery Efforts",
-      "foundBy": "keyword",
-      "podcastTitle": "Big Take",
-      "episodeTitle": "Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability",
-      "convoTitle": "Why Mountains Are Falling Apart",
-      "convoDescription": "Melting glaciers and thawing permafrost are destabilizing mountain landscapes globally, making deadly landslides and flash floods an increasingly common occurrence.",
-      "startTime": 321.153,
-      "endTime": 473.514,
-      "score": 8,
-      "similarity": 0.4249,
-      "rank": 8
-    },
-    {
-      "storyTitle": "Nepal Tunnel Rescues Bring Hope After Floods",
-      "foundBy": "keyword",
-      "podcastTitle": "Big Take",
-      "episodeTitle": "Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability",
-      "convoTitle": "Why Mountains Are Falling Apart",
-      "convoDescription": "Melting glaciers and thawing permafrost are destabilizing mountain landscapes globally, making deadly landslides and flash floods an increasingly common occurrence.",
-      "startTime": 321.153,
-      "endTime": 473.514,
-      "score": 8,
-      "similarity": 0.4194,
-      "rank": 8
     },
     {
       "storyTitle": "UK Drought Crisis Impacts Agriculture and Water Supply",
@@ -1226,41 +1096,62 @@
       "rank": 2
     },
     {
-      "storyTitle": "Chrome V8 Zero-Day Vulnerability Patched",
+      "storyTitle": "Nepal Tunnel Rescue and Flood Recovery Efforts",
       "foundBy": "keyword",
-      "podcastTitle": "Tech Brew Ride Home",
-      "episodeTitle": "Hey, Want Some Models?",
-      "convoTitle": "Today's Tech Headlines",
-      "convoDescription": "Brian previews the day's biggest stories: new Claude models, Google's AI counter-move, OpenAI's Astra tease, a Google antitrust ruling, and a massive ID data leak.",
-      "startTime": 4.743,
-      "endTime": 110.269,
+      "podcastTitle": "Big Take",
+      "episodeTitle": "Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability",
+      "convoTitle": "Why Mountains Are Falling Apart",
+      "convoDescription": "Melting glaciers and thawing permafrost are destabilizing mountain landscapes globally, making deadly landslides and flash floods an increasingly common occurrence.",
+      "startTime": 321.153,
+      "endTime": 473.514,
       "score": 7,
-      "similarity": 0.4293,
-      "rank": 2
+      "similarity": 0.4249,
+      "rank": 8
     },
     {
-      "storyTitle": "Trump's Peace Envoys Visit Moscow and Kyiv",
+      "storyTitle": "El Niño Weather Impacts Intensify Globally",
       "foundBy": "keyword",
       "podcastTitle": "Bloomberg Daybreak: US Edition",
       "episodeTitle": "Vance Says Iran Conflict Isn’t a ‘War’; August Jobs in Focus",
-      "convoTitle": "Trump's China Trade Optimism",
-      "convoDescription": "US Trade Representative Jameson Greer strikes an upbeat tone ahead of the Trump-Xi summit, citing a shrinking trade deficit and possible tariff exclusions.",
-      "startTime": 314.564,
-      "endTime": 356.538,
+      "convoTitle": "Labor Day Weekend Forecast",
+      "convoDescription": "Bloomberg meteorologist Craig Allen breaks down what 100 million Americans can expect weather-wise over the holiday weekend.",
+      "startTime": 553.058,
+      "endTime": 907.428,
       "score": 7,
-      "similarity": 0.3398,
-      "rank": 10
+      "similarity": 0.4227,
+      "rank": 3
     }
   ],
   "committedAgreement": {
     "committed": 45,
     "rescored": 45,
-    "reverified": 38,
+    "reverified": 35,
     "dropped": [
       {
-        "storyTitle": "Strong US Jobs Report Fuels Rate Rise Expectations",
-        "podcastTitle": "Bloomberg Daybreak: US Edition",
-        "convoTitle": "August Jobs Report Preview",
+        "storyTitle": "Nepal Tunnel Rescues Bring Hope After Floods",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Why Mountains Are Falling Apart",
+        "committedScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Nepal Tunnel Rescues Bring Hope After Floods",
+        "podcastTitle": "Big Take",
+        "convoTitle": "A Global Crisis, Not Just Nepal",
+        "committedScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Nepal Tunnel Rescues Bring Hope After Floods",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Hydropower: Flood Shield or Sitting Duck?",
+        "committedScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Nepal Tunnel Rescues Bring Hope After Floods",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Can Nepal Still Win the Hydro Bet?",
         "committedScore": 7,
         "score": null
       },
@@ -1307,23 +1198,418 @@
         "score": null
       }
     ],
-    "newlyVerifiedKeyword": 7
+    "newlyVerifiedKeyword": 4
+  },
+  "againstBaseline": {
+    "baselineVariant": "production",
+    "byAttribution": {
+      "keyword only": {
+        "both": 2,
+        "onlyBaseline": 3,
+        "onlyThis": 1
+      },
+      "embedding only": {
+        "both": 13,
+        "onlyBaseline": 8,
+        "onlyThis": 0
+      },
+      "both retrievers": {
+        "both": 34,
+        "onlyBaseline": 6,
+        "onlyThis": 2
+      },
+      "top-K under the floor": {
+        "both": 11,
+        "onlyBaseline": 18,
+        "onlyThis": 3
+      }
+    },
+    "all": {
+      "both": 60,
+      "onlyBaseline": 35,
+      "onlyThis": 6
+    },
+    "changed": [
+      {
+        "storyTitle": "Chrome V8 Zero-Day Vulnerability Patched",
+        "foundBy": "keyword only",
+        "podcastTitle": "Tech Brew Ride Home",
+        "convoTitle": "Today's Tech Headlines",
+        "convoDescription": "Brian previews the day's biggest stories: new Claude models, Google's AI counter-move, OpenAI's Astra tease, a Google antitrust ruling, and a massive ID data leak.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "Nepal Tunnel Rescues Bring Hope After Floods",
+        "foundBy": "keyword only",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Why Mountains Are Falling Apart",
+        "convoDescription": "Melting glaciers and thawing permafrost are destabilizing mountain landscapes globally, making deadly landslides and flash floods an increasingly common occurrence.",
+        "baselineScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Trump's Peace Envoys Visit Moscow and Kyiv",
+        "foundBy": "keyword only",
+        "podcastTitle": "Bloomberg Daybreak: US Edition",
+        "convoTitle": "Trump's China Trade Optimism",
+        "convoDescription": "US Trade Representative Jameson Greer strikes an upbeat tone ahead of the Trump-Xi summit, citing a shrinking trade deficit and possible tariff exclusions.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "El Niño Weather Impacts Intensify Globally",
+        "foundBy": "embedding only",
+        "podcastTitle": "Big Take",
+        "convoTitle": "A Global Crisis, Not Just Nepal",
+        "convoDescription": "From Alaska to Switzerland to the Indian Himalayas, glacial lake outburst floods are threatening communities on four continents.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+        "foundBy": "embedding only",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Vibe Coding the Power Grid",
+        "convoDescription": "Three forces — cheaper solar panels, dynamic utility pricing, and AI coding tools like ChatGPT — have made home energy trading newly accessible to non-experts.",
+        "baselineScore": 9,
+        "score": null
+      },
+      {
+        "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+        "foundBy": "embedding only",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Why Electricity Is Different",
+        "convoDescription": "Akshat explains how the regulated monopoly structure of energy grids is being forced to evolve as consumers become producers and startups step in as middlemen.",
+        "baselineScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+        "foundBy": "embedding only",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Meta Enters the Power Market",
+        "convoDescription": "Big Tech's massive AI energy appetite is turning companies like Meta into serious electricity traders, with hedge funds and oil firms following close behind.",
+        "baselineScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+        "foundBy": "embedding only",
+        "podcastTitle": "Big Take",
+        "convoTitle": "The Barrier Blocking Most Consumers",
+        "convoDescription": "Widespread home energy trading won't happen until utilities and regulators unlock dynamic pricing — a small regulatory shift with potentially enormous behavioral impact.",
+        "baselineScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Gloria Steinem, Feminist Icon, Dies at 92",
+        "foundBy": "embedding only",
+        "podcastTitle": "Consider This from NPR",
+        "convoTitle": "Meeting the 'Cultural Villain'",
+        "convoDescription": "Disney describes growing up in a household hostile to feminism and her surprising first encounter with Steinem in 1993.",
+        "baselineScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Smart Home and Tech Gadgets Advance",
+        "foundBy": "embedding only",
+        "podcastTitle": "The Vergecast",
+        "convoTitle": "The Pixar Lamp Is Real?",
+        "convoDescription": "Andrew makes the case that Apple's rumored robotic tabletop display — codenamed Charismatic — is more likely than Jen thinks, and could use existing DotKit tracking tech to follow you around the room.",
+        "baselineScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "US Diesel Prices Hit Record Highs",
+        "foundBy": "embedding only",
+        "podcastTitle": "CNN 5 Things",
+        "convoTitle": "Record Gas Prices This Labor Day",
+        "convoDescription": "CNN's Matt Egan explains why Americans are paying above $4 a gallon and why the Trump administration's fixes aren't working.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "Nepal Tunnel Rescue and Flood Recovery Efforts",
+        "foundBy": "both retrievers",
+        "podcastTitle": "Big Take",
+        "convoTitle": "A Global Crisis, Not Just Nepal",
+        "convoDescription": "From Alaska to Switzerland to the Indian Himalayas, glacial lake outburst floods are threatening communities on four continents.",
+        "baselineScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Nepal Tunnel Rescue and Flood Recovery Efforts",
+        "foundBy": "both retrievers",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Can Nepal Still Win the Hydro Bet?",
+        "convoDescription": "Despite the devastation, Nepal's hydropower ambitions remain viable if the new government can establish proper oversight and learn from countries like Ethiopia and Laos.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "Nepal Tunnel Rescues Bring Hope After Floods",
+        "foundBy": "both retrievers",
+        "podcastTitle": "Big Take",
+        "convoTitle": "A Global Crisis, Not Just Nepal",
+        "convoDescription": "From Alaska to Switzerland to the Indian Himalayas, glacial lake outburst floods are threatening communities on four continents.",
+        "baselineScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Nepal Tunnel Rescues Bring Hope After Floods",
+        "foundBy": "both retrievers",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Hydropower: Flood Shield or Sitting Duck?",
+        "convoDescription": "Nepal's reliance on run-of-river dams, cheaper but lacking flood storage capacity, leaves communities more exposed compared to the large reservoir dams built elsewhere.",
+        "baselineScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Nepal Tunnel Rescues Bring Hope After Floods",
+        "foundBy": "both retrievers",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Can Nepal Still Win the Hydro Bet?",
+        "convoDescription": "Despite the devastation, Nepal's hydropower ambitions remain viable if the new government can establish proper oversight and learn from countries like Ethiopia and Laos.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "Strong US Jobs Report Fuels Rate Rise Expectations",
+        "foundBy": "both retrievers",
+        "podcastTitle": "The Indicator from Planet Money",
+        "convoTitle": "July Jobs Report Surprise",
+        "convoDescription": "The hosts break down the latest employment numbers, including a steady 4.1% unemployment rate and unexpected job growth driven by restaurants and bars.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "AI Regulation and Tech Safety Concerns in UK",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "The Playbook Podcast",
+        "convoTitle": "Zuckerberg's White House Intervention",
+        "convoDescription": "A private phone call between Trump and Meta's CEO quietly derailed plans for a national AI regulator before the deal could be sealed.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "Alcohol-Related Cancer Deaths Double in Recent Years",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "Reuters World News",
+        "convoTitle": "RFK Jr.'s Measles Cover-Up Claim",
+        "convoDescription": "Reuters reports Kennedy pressured the CDC director to remove two measles-linked deaths from the national count, sparking a clash with Pennsylvania's governor.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "Chrome V8 Zero-Day Vulnerability Patched",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "Tech Brew Ride Home",
+        "convoTitle": "153 Million Licenses on the Dark Web",
+        "convoDescription": "A dark web service called Nexus briefly sold scanned driver's licenses and IDs traced back to identity-verification vendor ID Scan, prompting an FBI investigation out of New Orleans.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "El Niño Weather Impacts Intensify Globally",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Why Mountains Are Falling Apart",
+        "convoDescription": "Melting glaciers and thawing permafrost are destabilizing mountain landscapes globally, making deadly landslides and flash floods an increasingly common occurrence.",
+        "baselineScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Buy Low, Sell High — With Your House",
+        "convoDescription": "Akshat Rathi explains how dynamic hourly electricity pricing has unlocked a new kind of arbitrage that ordinary homeowners can now run on autopilot.",
+        "baselineScore": 9,
+        "score": null
+      },
+      {
+        "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Heat Waves Are Payday",
+        "convoDescription": "UK traders who can predict extreme weather events are cashing in on the grid's most vulnerable — and lucrative — moments.",
+        "baselineScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "Today, Explained",
+        "convoTitle": "Texas: Data Center Capital Gone Wrong",
+        "convoDescription": "Reporter Paul Kobler explains how Texas became the number one data center market — and why hundreds of facilities are sparking fierce local resistance.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "The Vergecast",
+        "convoTitle": "When Neighbors Finally Noticed",
+        "convoDescription": "Lauren describes the tipping point where residents who once ignored data centers began feeling their unavoidable second-order effects.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "The Vergecast",
+        "convoTitle": "The Noise, the Turbines, the Diesel",
+        "convoDescription": "One facility cut off from the power grid turned to natural gas turbines, creating a noise and pollution problem neighbors can't escape.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "Music Festivals and Entertainment Highlights",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "The Daily",
+        "convoTitle": "Two Icons, One Week",
+        "convoDescription": "Michael Barbaro sets up the episode by framing the back-to-back deaths of Gloria Steinem and Dolly Parton as an unexpected cultural moment.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "Music Festivals and Entertainment Highlights",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "The Daily",
+        "convoTitle": "9 to 5 Changed Everything",
+        "convoDescription": "A 10-year-old Dominus and her sister see Nine to Five in theaters and fall completely in love with Dolly Parton, sparking a lightning-bolt feminist awakening.",
+        "baselineScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Nepal Tunnel Rescue and Flood Recovery Efforts",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "Big Take",
+        "convoTitle": "The Insurance and Investment Squeeze",
+        "convoDescription": "Rising disaster frequency is driving up insurance costs while hydropower continues to receive less development funding than fossil fuels, even after the Paris Agreement.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "Nepal Tunnel Rescues Bring Hope After Floods",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "Big Take",
+        "convoTitle": "The Insurance and Investment Squeeze",
+        "convoDescription": "Rising disaster frequency is driving up insurance costs while hydropower continues to receive less development funding than fossil fuels, even after the Paris Agreement.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "Smart Home and Tech Gadgets Advance",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "The Vergecast",
+        "convoTitle": "HomePod Mini and Apple TV Overdue",
+        "convoDescription": "Both hosts agree new HomePod and Apple TV hardware are near-certainties, with upgraded chips, better Siri AI, and possibly a new remote on the way.",
+        "baselineScore": 8,
+        "score": null
+      },
+      {
+        "storyTitle": "Smart Home and Tech Gadgets Advance",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "The Vergecast",
+        "convoTitle": "The Final Rankings Revealed",
+        "convoDescription": "Apple TV takes the top spot as the surest bet, followed by HomePod Mini and a smarter home Siri, with the smart display slotting in at number four.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "UK Drought Crisis Impacts Agriculture and Water Supply",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Heat Waves Are Payday",
+        "convoDescription": "UK traders who can predict extreme weather events are cashing in on the grid's most vulnerable — and lucrative — moments.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "UK Workplace Violations: Wage and Safety Issues",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "Big Take",
+        "convoTitle": "Meet the Backyard Energy Trader",
+        "convoDescription": "Sarah Holder introduces Aaron Wilkes, a UK train driver who built an air traffic control-style system to monitor and trade electricity from his own home.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "Upcoming Gaming Releases: January 2027 Launches",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "Marketplace Tech",
+        "convoTitle": "The Foldable iPhone Moment",
+        "convoDescription": "With a major iPhone event days away, Stern previews the rumored foldable iPhone, expected price hikes, and why this could be one of the most consequential launches in Apple history.",
+        "baselineScore": 7,
+        "score": null
+      },
+      {
+        "storyTitle": "El Niño Weather Impacts Intensify Globally",
+        "foundBy": "keyword only",
+        "podcastTitle": "Bloomberg Daybreak: US Edition",
+        "convoTitle": "Labor Day Weekend Forecast",
+        "convoDescription": "Bloomberg meteorologist Craig Allen breaks down what 100 million Americans can expect weather-wise over the holiday weekend.",
+        "baselineScore": null,
+        "score": 7
+      },
+      {
+        "storyTitle": "Gloria Steinem, Feminist Icon, Dies at 92",
+        "foundBy": "both retrievers",
+        "podcastTitle": "The Daily",
+        "convoTitle": "When Steinem Claimed Parton",
+        "convoDescription": "In 1987, Gloria Steinem personally wrote Ms. Magazine's tribute naming Dolly Parton a Woman of the Year, formally recognizing her as a feminist force on her own terms.",
+        "baselineScore": null,
+        "score": 7
+      },
+      {
+        "storyTitle": "Strong US Jobs Report Fuels Rate Rise Expectations",
+        "foundBy": "both retrievers",
+        "podcastTitle": "Bloomberg Daybreak: US Edition",
+        "convoTitle": "August Jobs Report Preview",
+        "convoDescription": "Stocks and Treasuries hold steady ahead of the August employment numbers, with September rate hike odds running roughly even.",
+        "baselineScore": null,
+        "score": 7
+      },
+      {
+        "storyTitle": "Global Bond Market Turmoil Concerns World Leaders",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "Reuters World News",
+        "convoTitle": "America's $40 Trillion Debt Spiral",
+        "convoDescription": "Tax cuts, rising interest costs, and stalled spending reforms have pushed the national debt past a historic milestone, with no easy exit in sight.",
+        "baselineScore": null,
+        "score": 7
+      },
+      {
+        "storyTitle": "Global Bond Market Turmoil Concerns World Leaders",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "Odd Lots",
+        "convoTitle": "What Buybacks Actually Do",
+        "convoDescription": "Duffie details his ongoing research into the original purpose of Treasury buybacks — sweeping up illiquid 'odd lot' bonds to smooth the yield curve — and why that differs from recent interventions.",
+        "baselineScore": null,
+        "score": 7
+      },
+      {
+        "storyTitle": "Global Bond Market Turmoil Concerns World Leaders",
+        "foundBy": "top-K under the floor",
+        "podcastTitle": "Odd Lots",
+        "convoTitle": "Bessant's Hedge Fund Instincts",
+        "convoDescription": "Tracy and Joe debrief, questioning whether Bessant's buyback expansion reflects genuine liquidity concerns or simply a former macro trader's instinct that yields are too high.",
+        "baselineScore": null,
+        "score": 7
+      }
+    ]
   },
   "usage": {
-    "compare:embed": {
-      "model": "voyage-4-lite",
-      "calls": 4,
-      "inputTokens": 11486,
-      "outputTokens": 0
-    },
     "compare:verify": {
       "model": "claude-haiku-4-5-20251001",
       "calls": 37,
-      "inputTokens": 75271,
-      "outputTokens": 4067
+      "inputTokens": 83077,
+      "outputTokens": 4043
     }
   },
-  "costUsd": 0.0958,
+  "costUsd": 0.1033,
   "candidatesIncluded": "surfaced by keyword search, by the embedding retriever at the configured floor, or verified",
   "stories": [
     {
@@ -1434,7 +1720,7 @@
           "keyword": true,
           "similarity": 0.3398,
           "rank": 10,
-          "score": 7,
+          "score": null,
           "committedScore": null
         },
         {
@@ -1892,7 +2178,7 @@
           "keyword": true,
           "similarity": 0.6436,
           "rank": 3,
-          "score": 9,
+          "score": 8,
           "committedScore": 9
         },
         {
@@ -1908,7 +2194,7 @@
           "keyword": true,
           "similarity": 0.4194,
           "rank": 8,
-          "score": 8,
+          "score": null,
           "committedScore": 8
         },
         {
@@ -1924,7 +2210,7 @@
           "keyword": true,
           "similarity": 0.5505,
           "rank": 4,
-          "score": 8,
+          "score": null,
           "committedScore": 8
         },
         {
@@ -1940,7 +2226,7 @@
           "keyword": true,
           "similarity": 0.512,
           "rank": 7,
-          "score": 8,
+          "score": 7,
           "committedScore": 8
         },
         {
@@ -1956,24 +2242,8 @@
           "keyword": true,
           "similarity": 0.5423,
           "rank": 5,
-          "score": 8,
+          "score": null,
           "committedScore": 8
-        },
-        {
-          "episodeId": "521e6feb9c2793e7ee33bacbc6a0481f6f83cb2a0c593448a87270f2570a57b1",
-          "convoIdx": 5,
-          "podcastTitle": "Big Take",
-          "episodeTitle": "Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability",
-          "pubDate": "2026-09-02T20:03:58.000Z",
-          "convoTitle": "The Insurance and Investment Squeeze",
-          "convoDescription": "Rising disaster frequency is driving up insurance costs while hydropower continues to receive less development funding than fossil fuels, even after the Paris Agreement.",
-          "startTime": 941.473,
-          "endTime": 1103.334,
-          "keyword": false,
-          "similarity": 0.3907,
-          "rank": 10,
-          "score": 7,
-          "committedScore": null
         },
         {
           "episodeId": "521e6feb9c2793e7ee33bacbc6a0481f6f83cb2a0c593448a87270f2570a57b1",
@@ -1988,7 +2258,7 @@
           "keyword": true,
           "similarity": 0.5284,
           "rank": 6,
-          "score": 7,
+          "score": null,
           "committedScore": 7
         },
         {
@@ -2032,7 +2302,7 @@
           "keyword": false,
           "similarity": 0.6175,
           "rank": 2,
-          "score": 7,
+          "score": null,
           "committedScore": null
         },
         {
@@ -2064,7 +2334,7 @@
           "keyword": true,
           "similarity": 0.6066,
           "rank": 3,
-          "score": 8,
+          "score": 9,
           "committedScore": 7
         },
         {
@@ -2173,7 +2443,7 @@
           "keyword": true,
           "similarity": 0.6006,
           "rank": 4,
-          "score": 7,
+          "score": null,
           "committedScore": null
         },
         {
@@ -2205,7 +2475,7 @@
           "keyword": true,
           "similarity": 0.5724,
           "rank": 5,
-          "score": 8,
+          "score": 9,
           "committedScore": 8
         },
         {
@@ -2237,7 +2507,7 @@
           "keyword": true,
           "similarity": 0.6688,
           "rank": 2,
-          "score": null,
+          "score": 7,
           "committedScore": 7
         },
         {
@@ -2296,24 +2566,7 @@
         "health risk",
         "drinking"
       ],
-      "candidates": [
-        {
-          "episodeId": "92c810ab7e2c2e6c2e56091ff7eae17f0d61ee0ab9a71bcdeb4e4ddd4fbdd3f8",
-          "convoIdx": 6,
-          "podcastTitle": "Reuters World News",
-          "episodeTitle": "Nepal rescue, Nvidia's bet and Texas vs big tech",
-          "pubDate": "2026-09-04T10:06:00.000Z",
-          "convoTitle": "RFK Jr.'s Measles Cover-Up Claim",
-          "convoDescription": "Reuters reports Kennedy pressured the CDC director to remove two measles-linked deaths from the national count, sparking a clash with Pennsylvania's governor.",
-          "startTime": 497.585,
-          "endTime": 580.572,
-          "keyword": false,
-          "similarity": 0.3269,
-          "rank": 11,
-          "score": 7,
-          "committedScore": null
-        }
-      ]
+      "candidates": []
     },
     {
       "storyId": "2f6917c03c69",
@@ -2444,7 +2697,7 @@
           "keyword": true,
           "similarity": 0.4293,
           "rank": 2,
-          "score": 7,
+          "score": null,
           "committedScore": null
         },
         {
@@ -2477,22 +2730,6 @@
           "similarity": 0.3933,
           "rank": 7,
           "score": null,
-          "committedScore": null
-        },
-        {
-          "episodeId": "e640c8580535f5531b8e96cbf2539d5d153905c90fa4764e77aaaf5ef98f184e",
-          "convoIdx": 6,
-          "podcastTitle": "Tech Brew Ride Home",
-          "episodeTitle": "Hey, Want Some Models?",
-          "pubDate": "2026-09-02T17:46:00.000Z",
-          "convoTitle": "153 Million Licenses on the Dark Web",
-          "convoDescription": "A dark web service called Nexus briefly sold scanned driver's licenses and IDs traced back to identity-verification vendor ID Scan, prompting an FBI investigation out of New Orleans.",
-          "startTime": 828.78,
-          "endTime": 985.651,
-          "keyword": false,
-          "similarity": 0.3664,
-          "rank": 10,
-          "score": 7,
           "committedScore": null
         }
       ]
@@ -2883,7 +3120,7 @@
           "keyword": true,
           "similarity": 0.6517,
           "rank": 3,
-          "score": 9,
+          "score": 8,
           "committedScore": 9
         },
         {
@@ -2899,7 +3136,7 @@
           "keyword": true,
           "similarity": 0.4249,
           "rank": 8,
-          "score": 8,
+          "score": 7,
           "committedScore": 8
         },
         {
@@ -2915,7 +3152,7 @@
           "keyword": true,
           "similarity": 0.5552,
           "rank": 5,
-          "score": 8,
+          "score": null,
           "committedScore": null
         },
         {
@@ -2931,7 +3168,7 @@
           "keyword": true,
           "similarity": 0.5352,
           "rank": 7,
-          "score": 8,
+          "score": 7,
           "committedScore": 8
         },
         {
@@ -2947,22 +3184,6 @@
           "keyword": true,
           "similarity": 0.5724,
           "rank": 4,
-          "score": 8,
-          "committedScore": null
-        },
-        {
-          "episodeId": "521e6feb9c2793e7ee33bacbc6a0481f6f83cb2a0c593448a87270f2570a57b1",
-          "convoIdx": 5,
-          "podcastTitle": "Big Take",
-          "episodeTitle": "Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability",
-          "pubDate": "2026-09-02T20:03:58.000Z",
-          "convoTitle": "The Insurance and Investment Squeeze",
-          "convoDescription": "Rising disaster frequency is driving up insurance costs while hydropower continues to receive less development funding than fossil fuels, even after the Paris Agreement.",
-          "startTime": 941.473,
-          "endTime": 1103.334,
-          "keyword": false,
-          "similarity": 0.4147,
-          "rank": 9,
           "score": 7,
           "committedScore": null
         },
@@ -2979,7 +3200,7 @@
           "keyword": true,
           "similarity": 0.5402,
           "rank": 6,
-          "score": 7,
+          "score": null,
           "committedScore": null
         }
       ]
@@ -3759,7 +3980,7 @@
           "keyword": true,
           "similarity": 0.5468,
           "rank": 1,
-          "score": 5,
+          "score": null,
           "committedScore": null
         },
         {
@@ -3791,7 +4012,7 @@
           "keyword": true,
           "similarity": 0.5353,
           "rank": 3,
-          "score": 5,
+          "score": null,
           "committedScore": null
         },
         {
@@ -4238,7 +4459,7 @@
           "keyword": true,
           "similarity": 0.5011,
           "rank": 15,
-          "score": null,
+          "score": 7,
           "committedScore": null
         },
         {
@@ -4334,7 +4555,7 @@
           "keyword": false,
           "similarity": 0.5807,
           "rank": 10,
-          "score": 8,
+          "score": null,
           "committedScore": null
         },
         {
@@ -4443,22 +4664,6 @@
       ],
       "candidates": [
         {
-          "episodeId": "f72303367c147cc9a28e98f2a6dd5f3291704ddd48d520affe3f09b3b5e104f9",
-          "convoIdx": 1,
-          "podcastTitle": "Marketplace Tech",
-          "episodeTitle": "NYC public schools ban AI through middle school",
-          "pubDate": "2026-09-04T10:00:00.000Z",
-          "convoTitle": "The Foldable iPhone Moment",
-          "convoDescription": "With a major iPhone event days away, Stern previews the rumored foldable iPhone, expected price hikes, and why this could be one of the most consequential launches in Apple history.",
-          "startTime": 160.398,
-          "endTime": 220.693,
-          "keyword": false,
-          "similarity": 0.3314,
-          "rank": 8,
-          "score": 7,
-          "committedScore": null
-        },
-        {
           "episodeId": "f6dda046fe7091b3f7d1cab898e0dfa63e7115ff543b45b8612881f756f4b2dd",
           "convoIdx": 1,
           "podcastTitle": "The Indicator from Planet Money",
@@ -4532,7 +4737,7 @@
           "keyword": true,
           "similarity": 0.4227,
           "rank": 3,
-          "score": null,
+          "score": 7,
           "committedScore": null
         },
         {
@@ -4553,22 +4758,6 @@
         },
         {
           "episodeId": "521e6feb9c2793e7ee33bacbc6a0481f6f83cb2a0c593448a87270f2570a57b1",
-          "convoIdx": 1,
-          "podcastTitle": "Big Take",
-          "episodeTitle": "Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability",
-          "pubDate": "2026-09-02T20:03:58.000Z",
-          "convoTitle": "Why Mountains Are Falling Apart",
-          "convoDescription": "Melting glaciers and thawing permafrost are destabilizing mountain landscapes globally, making deadly landslides and flash floods an increasingly common occurrence.",
-          "startTime": 321.153,
-          "endTime": 473.514,
-          "keyword": false,
-          "similarity": 0.3578,
-          "rank": 10,
-          "score": 8,
-          "committedScore": null
-        },
-        {
-          "episodeId": "521e6feb9c2793e7ee33bacbc6a0481f6f83cb2a0c593448a87270f2570a57b1",
           "convoIdx": 2,
           "podcastTitle": "Big Take",
           "episodeTitle": "Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability",
@@ -4580,7 +4769,7 @@
           "keyword": false,
           "similarity": 0.4639,
           "rank": 2,
-          "score": 7,
+          "score": null,
           "committedScore": null
         }
       ]
@@ -4654,7 +4843,7 @@
           "keyword": false,
           "similarity": 0.5815,
           "rank": 1,
-          "score": 9,
+          "score": 7,
           "committedScore": null
         }
       ]
@@ -4695,7 +4884,7 @@
           "keyword": false,
           "similarity": 0.45,
           "rank": 2,
-          "score": 8,
+          "score": 7,
           "committedScore": null
         },
         {
@@ -4711,38 +4900,6 @@
           "keyword": false,
           "similarity": 0.4266,
           "rank": 5,
-          "score": 9,
-          "committedScore": null
-        },
-        {
-          "episodeId": "b6d1931207c1bc97df2265647d4d8e8adb99b041fc58291b68a63fcf1763035e",
-          "convoIdx": 2,
-          "podcastTitle": "The Vergecast",
-          "episodeTitle": "Apple Home rumors, ranked",
-          "pubDate": "2026-09-03T19:57:00.000Z",
-          "convoTitle": "HomePod Mini and Apple TV Overdue",
-          "convoDescription": "Both hosts agree new HomePod and Apple TV hardware are near-certainties, with upgraded chips, better Siri AI, and possibly a new remote on the way.",
-          "startTime": 991.373,
-          "endTime": 1482.69,
-          "keyword": false,
-          "similarity": 0.4082,
-          "rank": 7,
-          "score": 8,
-          "committedScore": null
-        },
-        {
-          "episodeId": "b6d1931207c1bc97df2265647d4d8e8adb99b041fc58291b68a63fcf1763035e",
-          "convoIdx": 3,
-          "podcastTitle": "The Vergecast",
-          "episodeTitle": "Apple Home rumors, ranked",
-          "pubDate": "2026-09-03T19:57:00.000Z",
-          "convoTitle": "The Final Rankings Revealed",
-          "convoDescription": "Apple TV takes the top spot as the surest bet, followed by HomePod Mini and a smarter home Siri, with the smart display slotting in at number four.",
-          "startTime": 1482.69,
-          "endTime": 1623.205,
-          "keyword": false,
-          "similarity": 0.4333,
-          "rank": 4,
           "score": 7,
           "committedScore": null
         },
@@ -4759,7 +4916,7 @@
           "keyword": false,
           "similarity": 0.4472,
           "rank": 3,
-          "score": 8,
+          "score": 7,
           "committedScore": null
         },
         {
@@ -4775,7 +4932,7 @@
           "keyword": false,
           "similarity": 0.4604,
           "rank": 1,
-          "score": 8,
+          "score": null,
           "committedScore": null
         }
       ]
@@ -4790,24 +4947,7 @@
         "North Sea",
         "workplace violations"
       ],
-      "candidates": [
-        {
-          "episodeId": "33298d95f1e044fc0b43c110a6a9ac1a65a0a58c241675b2bbedf91d20f1988a",
-          "convoIdx": 0,
-          "podcastTitle": "Big Take",
-          "episodeTitle": "The Hottest New Trade Is Your Own Electricity",
-          "pubDate": "2026-09-03T19:30:00.000Z",
-          "convoTitle": "Meet the Backyard Energy Trader",
-          "convoDescription": "Sarah Holder introduces Aaron Wilkes, a UK train driver who built an air traffic control-style system to monitor and trade electricity from his own home.",
-          "startTime": 0.128,
-          "endTime": 293.192,
-          "keyword": false,
-          "similarity": 0.2949,
-          "rank": 6,
-          "score": 7,
-          "committedScore": null
-        }
-      ]
+      "candidates": []
     },
     {
       "storyId": "df669f1e85e3",
@@ -4874,22 +5014,6 @@
           "committedScore": 7
         },
         {
-          "episodeId": "33298d95f1e044fc0b43c110a6a9ac1a65a0a58c241675b2bbedf91d20f1988a",
-          "convoIdx": 4,
-          "podcastTitle": "Big Take",
-          "episodeTitle": "The Hottest New Trade Is Your Own Electricity",
-          "pubDate": "2026-09-03T19:30:00.000Z",
-          "convoTitle": "Heat Waves Are Payday",
-          "convoDescription": "UK traders who can predict extreme weather events are cashing in on the grid's most vulnerable — and lucrative — moments.",
-          "startTime": 682.24,
-          "endTime": 900.932,
-          "keyword": false,
-          "similarity": 0.4307,
-          "rank": 3,
-          "score": 7,
-          "committedScore": null
-        },
-        {
           "episodeId": "be2ebe5751f67f3910ad7f928f9b267d61113a0e4217d4d30008054bb5fa65c3",
           "convoIdx": 1,
           "podcastTitle": "Today, Explained",
@@ -4918,22 +5042,6 @@
       ],
       "candidates": [
         {
-          "episodeId": "8e905f92477b1fe4c502d2a329e5d2c4dfb634785ba69fd4cc259541a77e62bd",
-          "convoIdx": 4,
-          "podcastTitle": "The Playbook Podcast",
-          "episodeTitle": "The GOP’s fifth stage of grief",
-          "pubDate": "2026-09-04T09:00:00.000Z",
-          "convoTitle": "Zuckerberg's White House Intervention",
-          "convoDescription": "A private phone call between Trump and Meta's CEO quietly derailed plans for a national AI regulator before the deal could be sealed.",
-          "startTime": 543.394,
-          "endTime": 865.804,
-          "keyword": false,
-          "similarity": 0.3543,
-          "rank": 19,
-          "score": 7,
-          "committedScore": null
-        },
-        {
           "episodeId": "5cc46aee6bb960bbb3fca001e1888ad07d5a9f8217e278c82681e61d5db959a1",
           "convoIdx": 7,
           "podcastTitle": "The Daily",
@@ -4946,7 +5054,7 @@
           "keyword": false,
           "similarity": 0.5963,
           "rank": 1,
-          "score": 7,
+          "score": 9,
           "committedScore": null
         }
       ]
@@ -4974,7 +5082,7 @@
           "keyword": false,
           "similarity": 0.4739,
           "rank": 2,
-          "score": 8,
+          "score": 7,
           "committedScore": null
         },
         {
@@ -4990,7 +5098,7 @@
           "keyword": false,
           "similarity": 0.5187,
           "rank": 1,
-          "score": 9,
+          "score": 7,
           "committedScore": null
         },
         {
@@ -5070,6 +5178,22 @@
           "committedScore": null
         },
         {
+          "episodeId": "7a73e11fcec19f005d1b80aee7d0bd7c689a6782fe12a1cc042320871f2b0a4b",
+          "convoIdx": 5,
+          "podcastTitle": "Reuters World News",
+          "episodeTitle": "UPDATE: Gloria Steinem, Iran's economy and the Pentagon's testosterone pullback",
+          "pubDate": "2026-09-03T19:29:00.000Z",
+          "convoTitle": "America's $40 Trillion Debt Spiral",
+          "convoDescription": "Tax cuts, rising interest costs, and stalled spending reforms have pushed the national debt past a historic milestone, with no easy exit in sight.",
+          "startTime": 355.084,
+          "endTime": 524.52,
+          "keyword": false,
+          "similarity": 0.3807,
+          "rank": 14,
+          "score": 7,
+          "committedScore": null
+        },
+        {
           "episodeId": "8092d29a817bc561de060bdeb5188b79b2409e5e70a5dee291400f8c239ffb2c",
           "convoIdx": 0,
           "podcastTitle": "Odd Lots",
@@ -5098,7 +5222,7 @@
           "keyword": true,
           "similarity": 0.4977,
           "rank": 4,
-          "score": 8,
+          "score": 9,
           "committedScore": 8
         },
         {
@@ -5146,7 +5270,7 @@
           "keyword": false,
           "similarity": 0.3864,
           "rank": 13,
-          "score": 7,
+          "score": 8,
           "committedScore": null
         },
         {
@@ -5162,8 +5286,40 @@
           "keyword": true,
           "similarity": 0.5081,
           "rank": 3,
-          "score": 7,
+          "score": 8,
           "committedScore": 9
+        },
+        {
+          "episodeId": "8092d29a817bc561de060bdeb5188b79b2409e5e70a5dee291400f8c239ffb2c",
+          "convoIdx": 6,
+          "podcastTitle": "Odd Lots",
+          "episodeTitle": "What's Behind the Big Surge in US Government Bond Yields",
+          "pubDate": "2026-09-03T08:00:00.000Z",
+          "convoTitle": "What Buybacks Actually Do",
+          "convoDescription": "Duffie details his ongoing research into the original purpose of Treasury buybacks — sweeping up illiquid 'odd lot' bonds to smooth the yield curve — and why that differs from recent interventions.",
+          "startTime": 1327.085,
+          "endTime": 1787.13,
+          "keyword": false,
+          "similarity": 0.4191,
+          "rank": 9,
+          "score": 7,
+          "committedScore": null
+        },
+        {
+          "episodeId": "8092d29a817bc561de060bdeb5188b79b2409e5e70a5dee291400f8c239ffb2c",
+          "convoIdx": 10,
+          "podcastTitle": "Odd Lots",
+          "episodeTitle": "What's Behind the Big Surge in US Government Bond Yields",
+          "pubDate": "2026-09-03T08:00:00.000Z",
+          "convoTitle": "Bessant's Hedge Fund Instincts",
+          "convoDescription": "Tracy and Joe debrief, questioning whether Bessant's buyback expansion reflects genuine liquidity concerns or simply a former macro trader's instinct that yields are too high.",
+          "startTime": 2303.392,
+          "endTime": 2632,
+          "keyword": false,
+          "similarity": 0.4166,
+          "rank": 10,
+          "score": 7,
+          "committedScore": null
         }
       ]
     },
@@ -5207,23 +5363,7 @@
           "keyword": false,
           "similarity": 0.4247,
           "rank": 9,
-          "score": 9,
-          "committedScore": null
-        },
-        {
-          "episodeId": "33298d95f1e044fc0b43c110a6a9ac1a65a0a58c241675b2bbedf91d20f1988a",
-          "convoIdx": 1,
-          "podcastTitle": "Big Take",
-          "episodeTitle": "The Hottest New Trade Is Your Own Electricity",
-          "pubDate": "2026-09-03T19:30:00.000Z",
-          "convoTitle": "Buy Low, Sell High — With Your House",
-          "convoDescription": "Akshat Rathi explains how dynamic hourly electricity pricing has unlocked a new kind of arbitrage that ordinary homeowners can now run on autopilot.",
-          "startTime": 293.192,
-          "endTime": 477.85,
-          "keyword": false,
-          "similarity": 0.4469,
-          "rank": 6,
-          "score": 9,
+          "score": 7,
           "committedScore": null
         },
         {
@@ -5239,7 +5379,7 @@
           "keyword": false,
           "similarity": 0.507,
           "rank": 1,
-          "score": 9,
+          "score": null,
           "committedScore": null
         },
         {
@@ -5255,23 +5395,7 @@
           "keyword": false,
           "similarity": 0.4901,
           "rank": 3,
-          "score": 9,
-          "committedScore": null
-        },
-        {
-          "episodeId": "33298d95f1e044fc0b43c110a6a9ac1a65a0a58c241675b2bbedf91d20f1988a",
-          "convoIdx": 4,
-          "podcastTitle": "Big Take",
-          "episodeTitle": "The Hottest New Trade Is Your Own Electricity",
-          "pubDate": "2026-09-03T19:30:00.000Z",
-          "convoTitle": "Heat Waves Are Payday",
-          "convoDescription": "UK traders who can predict extreme weather events are cashing in on the grid's most vulnerable — and lucrative — moments.",
-          "startTime": 682.24,
-          "endTime": 900.932,
-          "keyword": false,
-          "similarity": 0.4189,
-          "rank": 10,
-          "score": 8,
+          "score": 7,
           "committedScore": null
         },
         {
@@ -5287,7 +5411,7 @@
           "keyword": false,
           "similarity": 0.4878,
           "rank": 4,
-          "score": 8,
+          "score": null,
           "committedScore": null
         },
         {
@@ -5303,7 +5427,7 @@
           "keyword": false,
           "similarity": 0.4819,
           "rank": 5,
-          "score": 8,
+          "score": null,
           "committedScore": null
         },
         {
@@ -5319,55 +5443,7 @@
           "keyword": false,
           "similarity": 0.5,
           "rank": 2,
-          "score": 8,
-          "committedScore": null
-        },
-        {
-          "episodeId": "9f62d2cf8c0553b20b4f892ea78d5d1b11fd0595fb42131307d0d21e3c2973b1",
-          "convoIdx": 1,
-          "podcastTitle": "Today, Explained",
-          "episodeTitle": "Everyone hates data centers",
-          "pubDate": "2026-09-02T19:36:00.000Z",
-          "convoTitle": "Texas: Data Center Capital Gone Wrong",
-          "convoDescription": "Reporter Paul Kobler explains how Texas became the number one data center market — and why hundreds of facilities are sparking fierce local resistance.",
-          "startTime": 128.451,
-          "endTime": 415.849,
-          "keyword": false,
-          "similarity": 0.383,
-          "rank": 14,
-          "score": 7,
-          "committedScore": null
-        },
-        {
-          "episodeId": "b23a745128371db1e87d22a8cf71f7ccc4831c6540c7247718bd5a98901975ac",
-          "convoIdx": 3,
-          "podcastTitle": "The Vergecast",
-          "episodeTitle": "What’s happening with US data centers?",
-          "pubDate": "2026-09-02T18:51:00.000Z",
-          "convoTitle": "When Neighbors Finally Noticed",
-          "convoDescription": "Lauren describes the tipping point where residents who once ignored data centers began feeling their unavoidable second-order effects.",
-          "startTime": 401.57,
-          "endTime": 515.08,
-          "keyword": false,
-          "similarity": 0.3784,
-          "rank": 15,
-          "score": 7,
-          "committedScore": null
-        },
-        {
-          "episodeId": "b23a745128371db1e87d22a8cf71f7ccc4831c6540c7247718bd5a98901975ac",
-          "convoIdx": 4,
-          "podcastTitle": "The Vergecast",
-          "episodeTitle": "What’s happening with US data centers?",
-          "pubDate": "2026-09-02T18:51:00.000Z",
-          "convoTitle": "The Noise, the Turbines, the Diesel",
-          "convoDescription": "One facility cut off from the power grid turned to natural gas turbines, creating a noise and pollution problem neighbors can't escape.",
-          "startTime": 515.08,
-          "endTime": 633.802,
-          "keyword": false,
-          "similarity": 0.4407,
-          "rank": 7,
-          "score": 7,
+          "score": null,
           "committedScore": null
         }
       ]
@@ -5392,40 +5468,7 @@
         "Grand Theft Auto 6",
         "entertainment"
       ],
-      "candidates": [
-        {
-          "episodeId": "24445888bbfed7ff6519d8938aec1148d18524bb12a1d2d982710f16de64de51",
-          "convoIdx": 0,
-          "podcastTitle": "The Daily",
-          "episodeTitle": "The Intertwined Legacies of Gloria Steinem and Dolly Parton",
-          "pubDate": "2026-09-04T09:48:04.000Z",
-          "convoTitle": "Two Icons, One Week",
-          "convoDescription": "Michael Barbaro sets up the episode by framing the back-to-back deaths of Gloria Steinem and Dolly Parton as an unexpected cultural moment.",
-          "startTime": 0.048,
-          "endTime": 60.622,
-          "keyword": false,
-          "similarity": 0.2722,
-          "rank": 11,
-          "score": 7,
-          "committedScore": null
-        },
-        {
-          "episodeId": "24445888bbfed7ff6519d8938aec1148d18524bb12a1d2d982710f16de64de51",
-          "convoIdx": 5,
-          "podcastTitle": "The Daily",
-          "episodeTitle": "The Intertwined Legacies of Gloria Steinem and Dolly Parton",
-          "pubDate": "2026-09-04T09:48:04.000Z",
-          "convoTitle": "9 to 5 Changed Everything",
-          "convoDescription": "A 10-year-old Dominus and her sister see Nine to Five in theaters and fall completely in love with Dolly Parton, sparking a lightning-bolt feminist awakening.",
-          "startTime": 954.943,
-          "endTime": 1249.544,
-          "keyword": false,
-          "similarity": 0.2738,
-          "rank": 10,
-          "score": 8,
-          "committedScore": null
-        }
-      ]
+      "candidates": []
     },
     {
       "storyId": "ee79570e5c2b",

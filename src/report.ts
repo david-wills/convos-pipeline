@@ -4,7 +4,8 @@
 
 import { mkdirSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
-import { withConfiguredFloor, writeComparisonSamples, type ComparisonData } from './compare.ts';
+import { comparisonFiles, withConfiguredFloor, writeComparisonSamples, type ComparisonData } from './compare.ts';
+import { VERIFIER_NAMES } from './match.ts';
 import type { Paths } from './config.ts';
 import type { Episode, EpisodeConvos, Match, NewsItem, PipelineConfig, Story, Transcript } from './types.ts';
 import { readJson, secondsToHhmmss, slugify, writeJson } from './util.ts';
@@ -126,9 +127,16 @@ export function writeSamples(paths: Paths, run: RunSummary, matching: PipelineCo
   mkdirSync(vizDir, { recursive: true });
   writeFileSync(path.join(vizDir, 'data.js'), `window.CONVOS_DATA = ${JSON.stringify(vizData)};\n`);
 
-  // The retrieval comparison is a separate experiment over the same data; render it when it has been run.
-  const comparison = readJson<ComparisonData>(paths.comparison);
-  if (comparison) writeComparisonSamples(out, withConfiguredFloor(comparison, matching));
+  // The retrieval comparison is a separate experiment over the same data; render
+  // whichever verifier variants have been run, each against the production one.
+  let baseline: ComparisonData | undefined;
+  for (const verifier of VERIFIER_NAMES) {
+    const data = readJson<ComparisonData>(comparisonFiles(paths, verifier).data);
+    if (!data) continue;
+    const floored = withConfiguredFloor(data, matching);
+    writeComparisonSamples(out, floored, baseline);
+    if (verifier === 'production') baseline = floored;
+  }
 
   return { report: path.join(out, 'REPORT.md') };
 }
