@@ -30,8 +30,15 @@ export interface PipelineConfig {
   matching: {
     /** Verification score (0-10) required to keep a candidate. */
     minScore: number;
-    /** Cap on keyword-search candidates sent to the verifier per story. */
+    /** Cap on candidates sent to the verifier per story. */
     maxCandidates: number;
+    /** Knobs for the optional embedding retriever (`match --retriever` and `compare`). */
+    embedding: {
+      /** Segments per story, best cosine similarity first. */
+      topK: number;
+      /** Drop candidates under this cosine similarity even inside the top K. */
+      minSimilarity: number;
+    };
   };
 }
 

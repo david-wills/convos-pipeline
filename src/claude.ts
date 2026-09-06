@@ -22,16 +22,35 @@ export const MODELS = {
   classify: process.env.CONVOS_CLASSIFY_MODEL ?? 'claude-haiku-4-5-20251001',
 };
 
-/** USD per million tokens; used only for the cost estimate in run.json. */
+/**
+ * USD per million tokens; used only for cost estimates. Claude models, plus the
+ * Voyage embedding models the optional retriever can use (input tokens only).
+ */
 const PRICING: Record<string, { input: number; output: number }> = {
   'claude-sonnet-4-6': { input: 3, output: 15 },
   'claude-sonnet-5': { input: 2, output: 10 },
   'claude-opus-5': { input: 5, output: 25 },
   'claude-haiku-4-5-20251001': { input: 1, output: 5 },
   'claude-haiku-4-5': { input: 1, output: 5 },
+  'voyage-4-large': { input: 0.12, output: 0 },
+  'voyage-4': { input: 0.06, output: 0 },
+  'voyage-4-lite': { input: 0.02, output: 0 },
+  'voyage-3.5': { input: 0.06, output: 0 },
+  'voyage-3.5-lite': { input: 0.02, output: 0 },
 };
 
+export function isClaudeModel(model: string): boolean {
+  return model.startsWith('claude');
+}
+
 export const usageByStep: Record<string, ModelUsage & { model: string }> = {};
+
+export function recordUsage(step: string, model: string, inputTokens: number, outputTokens: number): void {
+  const tally = (usageByStep[step] ??= { model, calls: 0, inputTokens: 0, outputTokens: 0 });
+  tally.calls += 1;
+  tally.inputTokens += inputTokens;
+  tally.outputTokens += outputTokens;
+}
 
 export function estimateCostUsd(usage: Record<string, ModelUsage & { model: string }> = usageByStep): number {
   let total = 0;
@@ -77,10 +96,7 @@ export async function complete(req: CompletionRequest): Promise<Completion> {
     messages: [{ role: 'user', content: req.user }],
   });
 
-  const tally = (usageByStep[req.step] ??= { model: req.model, calls: 0, inputTokens: 0, outputTokens: 0 });
-  tally.calls += 1;
-  tally.inputTokens += response.usage.input_tokens;
-  tally.outputTokens += response.usage.output_tokens;
+  recordUsage(req.step, req.model, response.usage.input_tokens, response.usage.output_tokens);
 
   const text = response.content
     .filter((block) => block.type === 'text')

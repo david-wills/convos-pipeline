@@ -13,6 +13,12 @@ export interface Paths {
   stories: string;
   matches: string;
   transcribeState: string;
+  /** Cached vectors for the optional embedding retriever. */
+  embeddings: string;
+  /** Raw output of `compare`. */
+  comparison: string;
+  /** Disagreements from `compare`, laid out for a person to label. */
+  spotCheck: string;
 }
 
 export function resolvePaths(dataDir: string, outDir: string): Paths {
@@ -27,6 +33,9 @@ export function resolvePaths(dataDir: string, outDir: string): Paths {
     stories: path.join(data, 'stories.json'),
     matches: path.join(data, 'matches.json'),
     transcribeState: path.join(data, 'transcribe-state.json'),
+    embeddings: path.join(data, 'embeddings'),
+    comparison: path.join(data, 'comparison.json'),
+    spotCheck: path.join(data, 'spot-check.md'),
   };
 }
 
@@ -55,7 +64,12 @@ export function loadConfig(file: string): PipelineConfig {
     ...config,
     selection: { sinceDays: 3, maxPerFeed: 2, maxDurationSec: 2700, ...partial.selection },
     clustering: { maxHeadlines: 75, ...partial.clustering },
-    matching: { minScore: 7, maxCandidates: 200, ...partial.matching },
+    matching: {
+      minScore: 7,
+      maxCandidates: 200,
+      ...partial.matching,
+      embedding: { topK: 25, minSimilarity: 0.5, ...partial.matching?.embedding },
+    },
   };
 }
 

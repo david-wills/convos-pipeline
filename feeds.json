@@ -42,6 +42,10 @@
   },
   "matching": {
     "minScore": 7,
-    "maxCandidates": 200
+    "maxCandidates": 200,
+    "embedding": {
+      "topK": 25,
+      "minSimilarity": 0.45
+    }
   }
 }

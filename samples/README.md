@@ -11,6 +11,8 @@ edited by hand. Start with **[REPORT.md](REPORT.md)**.
 | `stories.json` | Every clustered story with its keywords, source headlines, trending score, status, and verified matches. Ranked by trending score. |
 | `episodes/*.json` | One file per episode: feed metadata, the segments the pipeline produced (title, description, start/end, anchor phrase), and the speaker-labelled transcript at utterance granularity. Word-level timings are dropped here to keep files readable; the pipeline keeps them under `data/`. |
 | `news-items.json` | The raw headlines that were clustered, with source and category. |
+| `retrieval-comparison.md` | Keyword search against an embedding retriever over the same stories and segments, verified once by the same model: totals, story by story, every disagreement, and the similarity-floor sweep. Written by `node src/cli.ts compare`. |
+| `retrieval-comparison.json` | The same comparison as data: every candidate either retriever surfaced, with which retriever found it, its cosine similarity and rank, and the verifier's score. |
 
 The static page at [`../viz/index.html`](../viz/index.html) renders `stories.json`
 as a story-by-show view. Open it locally in a browser; it needs no server.

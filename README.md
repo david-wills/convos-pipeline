@@ -25,6 +25,9 @@ flowchart LR
   end
   D --> H[Keyword search<br/>segment title + description]
   G --> H
+  D -.-> H2[Embeddings, optional<br/>same text, Voyage]
+  G -.-> H2
+  H2 -.-> I
   H --> I[Claude Haiku<br/>score 0–10, keep ≥ 7]
   I --> J[Trending score<br/>rank + activate]
 ```
@@ -63,6 +66,8 @@ For each story, stage one is lexical: any story keyword appearing as a substring
 Stage two is one Haiku call per story ([`prompts/verify-match.md`](prompts/verify-match.md)): every candidate's episode title, segment title, and description, scored 0–10 against the story title. Only 7 and above survive, where 7–8 means "discusses the same topic in depth" and 9–10 means "directly discusses this exact event".
 
 The shape is deliberate. Stage one is free and has good recall for proper nouns, which is exactly what the keyword prompt asks for. Stage two is where precision comes from, and it is cheap because it reads about fifty tokens per candidate. A segment "covers" a story when it contains a keyword *and* the verifier rates it 7 or better.
+
+Semantic search was in the plan. The v0.8 plan scoped it, priced Cloudflare Vectorize against Pinecone and Weaviate, and listed "evaluate Vectorize for transcript embeddings" as a step. It was never reached. What shipped was keyword retrieval with the verifier carrying precision, and the app's backend never had a vector store. This repository adds an embedding retriever as an optional stage ([`src/embed.ts`](src/embed.ts)) so the two can be compared on the same data: Voyage AI embeddings of the same segment title and description the keyword search reads, ranked by cosine similarity, top 25 per story with a similarity floor. It is behind a flag, needs a third key, and the default path never calls it. The comparison itself is `node src/cli.ts compare`, which runs both retrievers over the stories and segments already on disk, verifies the union of their candidates once so a shared candidate gets one score, and writes [`samples/retrieval-comparison.md`](samples/retrieval-comparison.md). The result is below.
 
 ### Ranking
 
@@ -109,6 +114,30 @@ The 35 rejected candidates include The Intelligence's episode on Nvidia as "the 
 
 Gloria Steinem's death was found in 8 segments across 4 shows, the Nepal tunnel rescue in 8 across 3, the August jobs report in 4 across 2, and the Lindsay Clancy mistrial in 3 across 3.
 
+### Keyword search against embeddings
+
+The semantic search the plan never reached is now a second retriever, and `node src/cli.ts compare` ran both over the same 37 stories and 267 segments, then had the same verifier score the union of their candidates once. The full output is [`samples/retrieval-comparison.md`](samples/retrieval-comparison.md). The whole comparison cost $0.10.
+
+| Retriever | Candidates sent to the verifier | Verified at 7 or more | Stories with coverage | Verified that only this retriever found |
+|---|---|---|---|---|
+| Keyword: whole-word match on title and description | 162 | 45 | 13 | 5 |
+| Embedding: `voyage-4-lite`, top 25 by cosine, floor 0.45 | 114 | 61 | 16 | 21 |
+| Both | 77 | 40 | 10 | |
+| Either | 199 | 66 | 19 | |
+
+The floor came from the sweep in the report. Unverified candidates inside the top 25 have a 90th-percentile similarity of 0.42, and 0.45 is the first step above it. At that floor the embedding retriever sends fewer candidates than keyword search and the verifier passes more of them. Where the difference comes from:
+
+| Story | Keyword candidates, verified | Embedding candidates, verified | Only keyword | Only embedding |
+|---|---|---|---|---|
+| Gloria Steinem dies at 92 | 14, 8 | 17, 12 | 0 | 4 |
+| Nvidia acquires Hugging Face | 41, 5 | 25, 5 | 0 | 0 |
+| Energy crisis drives battery and power demand | 0, 0 | 5, 5 | 0 | 5 |
+| Global bond market turmoil | 2, 2 | 5, 4 | 0 | 2 |
+
+The Steinem row is a genuine keyword miss. NPR's episode about her has six segments, four of which say "Steinem" and never "Gloria Steinem"; the keyword is the full name, and whole-word matching does not match half of it. Nvidia is the reassuring row: the story with the most proper nouns, and both retrievers verified the same five segments. The energy row is the other thing embeddings do. The story is battery shortages in Spain and Portugal; the five segments are a Big Take episode about trading your own home electricity in the US, scored 8 and 9. Same beat, different event. Keyword search never sent those because they share no entity with the story, and the verifier, reading a title and one sentence, did not tell the two apart.
+
+These numbers are verifier-graded. The 26 disagreements are in a spot-check list waiting for hand labels, and nothing above should be read as precision until they come back. Re-scoring also moved the pipeline's own matches: 38 of the 45 passed again, and 5 of the 7 that did not were the score-7 false positives named below.
+
 ## Where it breaks
 
 Everything below was observed on the sample run, and the sample was left as it came out.
@@ -125,11 +154,12 @@ Everything below was observed on the sample run, and the sample was left as it c
 
 - **The headline feeds do not cover the podcasts' beat.** This week's shows spent more segments on the arrest of an ICE agent (7 shows), New York's school AI ban (5), the Venezuela oil deal (5), the Iran strikes (5), and Meta's settlement (4) than on anything that became a story. None of those became stories, because BBC sections plus Google News top stories plus a ten-item NPR feed underrepresent US domestic and business news at the moment of the run. The story side is only as good as its headline sources, and these were chosen for being free and stable, not for matching the catalog. Adding US-domestic feeds is the obvious fix; so is the production habit of clustering every 30 minutes so stories accumulate across a day.
 - **Two production bugs, found here.** Keyword search was a substring match (`LIKE '%AI%'` in production). The keyword `AI` therefore matched 124 of 267 segments through "said", "raise", and "Haiti", and every story that inherited `AI` through a merge sent 126 candidates to the verifier. With that many candidates the verifier began returning list positions in the `convoIdx` field, and since the code matched results back by `(episodeId, convoIdx)`, all of them were dropped: the Nvidia story verified 0 of 126. Whole-word matching and index-addressed results fixed both, and the sample was produced after the fix. The "Discover sparsity" that production tuned around by lowering the activation threshold was, I now think, partly this.
-- **It is still keyword search.** Recall depends on a story's proper nouns appearing verbatim in a segment's title or one-sentence description; transcript text is never searched. A segment that discusses a story without naming it the way the headlines did is invisible. Embeddings over segment descriptions are the next step and were never wired in: the app's backend had no vector store and this was a weekend feature.
+- **It is still keyword search, and now that is measured.** Recall depends on a story's keywords appearing verbatim in a segment's title or one-sentence description; transcript text is never searched. The comparison above puts a number on the cost: 21 verified segments the embedding retriever found and keyword search did not, against 5 the other way. The clean case is a surname, since "Steinem" does not match the keyword "Gloria Steinem". The unclean case is most of the rest, where the embedding retriever surfaces the same beat rather than the same event and the verifier lets it through. Keyword search's entity requirement was doing precision work that nothing else in the pipeline does, and swapping it for embeddings moves that work onto a verifier that cannot yet do it. The spot check will say how much of the 21 is real.
 
 ### Verification
 
-- **Seven is too low and eight is too high.** Every false positive in the sample scored exactly 7: "India's Avocado Market Booms" matched three unrelated agriculture segments, "UK Drought Crisis" matched a Georgia timber farmer switching to blueberries, "El Niño" matched UK energy traders, and the mis-merged Volkswagen story matched Uber's layoffs. Every score of 8 or above is correct. Raising the threshold to 8 would remove those six false positives and three true matches (Nepal's hydropower bet, the jobs-report preview, freight moving to rail). The threshold stays at 7, the production value; the number that matters is that 6 of 45 matches are wrong.
+- **Seven is too low and eight is too high.** Every false positive in the sample scored exactly 7: "India's Avocado Market Booms" matched three unrelated agriculture segments, "UK Drought Crisis" matched a Georgia timber farmer switching to blueberries, "El Niño" matched UK energy traders, and the mis-merged Volkswagen story matched Uber's layoffs. Every score of 8 or above is correct. Raising the threshold to 8 would remove those six false positives and three true matches (Nepal's hydropower bet, the jobs-report preview, freight moving to rail). The threshold stays at 7, the production value; the number that matters is that 6 of 45 matches are wrong. Re-scoring those 45 during the retrieval comparison, with different candidates alongside them and no prompt change, dropped 5 of the 6. The 7s are borderline in the model's own eyes.
+- **It cannot tell the same beat from the same event.** Keyword candidates share an entity with the story by construction, so the verifier only had to reject the wrong story about the right company, which it does. Embedding candidates need not share anything, and then it fails: Acer's lightweight laptop scored 9 against a Lenovo laptop story, a US home-electricity episode scored 9 against Spanish battery shortages, The Daily's Hugging Face hack scored 9 against an airport data breach. The verifier is shown the story's title and category, not its summary or keywords. Showing it the summary is the cheap next experiment.
 - **It cannot see depth.** The verifier reads a title and one sentence per candidate, so an episode's cold open ("Meet Darrell Duffie", "Two Icons, One Week") scores as high as the ten-minute discussion that follows. Ranking by score does not rank by how much of the story a listener will hear.
 
 ### Segmentation
@@ -141,13 +171,13 @@ Everything below was observed on the sample run, and the sample was left as it c
 
 ### Everything
 
-- **No tests, no eval set.** Quality was judged by reading output, which is how every threshold above was chosen. The first thing this needs is a hundred labelled (story, segment) pairs, so that the 7-versus-8 question becomes a number instead of a paragraph.
+- **No tests, no eval set.** Quality was judged by reading output, which is how every threshold above was chosen. The retrieval comparison is the first measurement in the repository, and it is graded by the same verifier, so it measures the two retrievers against each other rather than against truth; its 26 disagreements sit in a spot-check list waiting for hand labels. The first thing this still needs is a hundred labelled (story, segment) pairs, so that the 7-versus-8 question becomes a number instead of a paragraph.
 - **Cost tracking is list-price arithmetic on token counts.** Transcription cost is not computed; `run.json` records audio hours for pricing against whatever the current rate is.
 - **Nothing scales.** Candidates are an in-memory scan and stories are one JSON file. Production had a database for that and a Worker CPU limit to fight; this repository has neither, by design.
 
 ## Run it yourself
 
-Requirements: Node 22.18 or newer (the code is TypeScript run directly by Node, no build step), an [AssemblyAI](https://www.assemblyai.com) key, and an [Anthropic](https://console.anthropic.com) key.
+Requirements: Node 22.18 or newer (the code is TypeScript run directly by Node, no build step), an [AssemblyAI](https://www.assemblyai.com) key, and an [Anthropic](https://console.anthropic.com) key. A [Voyage AI](https://www.voyageai.com) key is optional and only needed for the embedding retriever and the comparison.
 
 ```bash
 git clone https://github.com/david-wills/convos-pipeline
@@ -171,6 +201,16 @@ node src/cli.ts report        # write samples/ and viz/data.js
 ```
 
 `--force` redoes a step that already has output. `--concurrency N` sets parallel Claude calls (default 4). Models can be overridden with `CONVOS_SEGMENT_MODEL` and `CONVOS_CLASSIFY_MODEL`. `npm run typecheck` runs `tsc` if you want types checked; nothing depends on it.
+
+The embedding retriever needs `VOYAGE_API_KEY` in `.env` and nothing else changes:
+
+```bash
+node src/cli.ts compare                             # both retrievers over existing data -> samples/retrieval-comparison.md
+node src/cli.ts match --retriever embedding --force # re-match with embeddings instead of keywords
+node src/cli.ts match --retriever both --force      # union of the two
+```
+
+Vectors are cached under `data/embeddings/` by content hash, so a second `compare` re-verifies but does not re-embed, and `report` re-renders the comparison from `data/comparison.json` without any API call. The top-K and similarity floor live in `feeds.json` under `matching.embedding`; `CONVOS_EMBED_MODEL` overrides the model (default `voyage-4-lite`).
 
 ## What this was extracted from
 

@@ -6,10 +6,12 @@
 import { existsSync, mkdirSync } from 'node:fs';
 import path from 'node:path';
 import { parseArgs } from 'node:util';
-import { estimateCostUsd, MODELS, usageByStep } from './claude.ts';
+import { estimateCostUsd, isClaudeModel, MODELS, usageByStep } from './claude.ts';
+import { runComparison, summarize, withConfiguredFloor, writeComparisonSamples, writeSpotCheck, type ComparisonData } from './compare.ts';
 import { loadConfig, loadDotenv, requireEnv, resolvePaths, type Paths } from './config.ts';
+import { buildSegmentIndex, embedStories, requireVoyageKey } from './embed.ts';
 import { ingest } from './ingest.ts';
-import { matchStories } from './match.ts';
+import { embeddingRetriever, keywordRetriever, matchStories, RETRIEVER_NAMES, unionRetriever, type Retriever, type RetrieverName } from './match.ts';
 import { writeSamples, type RunSummary } from './report.ts';
 import { segmentEpisode } from './segment.ts';
 import { clusterHeadlines, fetchAllNews, mergeStories } from './stories.ts';
@@ -29,12 +31,15 @@ Commands
   match       Find and verify segments that cover each story (paid: Claude, small)
   report      Write samples/ (REPORT.md, JSON) and viz/data.js
   run         All of the above, in order
+  compare     Keyword search vs embeddings over existing data  (paid: Claude small, Voyage tiny)
 
 Options
   --config <file>     Feed and selection config   (default: ./feeds.json)
   --data <dir>        Working directory           (default: ./data)
   --out <dir>         Report directory            (default: ./samples)
   --concurrency <n>   Parallel Claude calls       (default: 4)
+  --retriever <name>  match: keyword | embedding | both (default: keyword;
+                      embedding and both need VOYAGE_API_KEY)
   --force             Redo steps that already have output
   --help
 `;
@@ -43,6 +48,7 @@ interface Ctx {
   config: PipelineConfig;
   paths: Paths;
   concurrency: number;
+  retriever: RetrieverName;
   force: boolean;
   startedAt: Date;
   notes: string[];
@@ -57,6 +63,7 @@ async function main(): Promise<void> {
       data: { type: 'string', default: 'data' },
       out: { type: 'string', default: 'samples' },
       concurrency: { type: 'string', default: '4' },
+      retriever: { type: 'string', default: 'keyword' },
       force: { type: 'boolean', default: false },
       help: { type: 'boolean', default: false },
     },
@@ -67,10 +74,15 @@ async function main(): Promise<void> {
     process.exit(command ? 0 : 1);
   }
 
+  if (!(RETRIEVER_NAMES as readonly string[]).includes(values.retriever)) {
+    console.error(`--retriever must be one of ${RETRIEVER_NAMES.join(', ')}, got "${values.retriever}"`);
+    process.exit(1);
+  }
   const ctx: Ctx = {
     config: loadConfig(values.config),
     paths: resolvePaths(values.data, values.out),
     concurrency: Math.max(1, parseInt(values.concurrency, 10) || 4),
+    retriever: values.retriever as RetrieverName,
     force: values.force,
     startedAt: new Date(),
     notes: [],
@@ -84,6 +96,7 @@ async function main(): Promise<void> {
     stories: stepStories,
     match: stepMatch,
     report: stepReport,
+    compare: stepCompare,
     run: async (c) => {
       for (const step of [stepIngest, stepTranscribe, stepSegment, stepStories, stepMatch, stepReport]) await step(c);
     },
@@ -219,6 +232,7 @@ async function stepStories(ctx: Ctx): Promise<void> {
 
 async function stepMatch(ctx: Ctx): Promise<void> {
   requireEnv('ANTHROPIC_API_KEY');
+  if (ctx.retriever !== 'keyword') requireVoyageKey();
   const episodes = readJson<Episode[]>(ctx.paths.episodes) ?? [];
   const stories = readJson<Story[]>(ctx.paths.stories) ?? [];
   const matches = readJson<Match[]>(ctx.paths.matches) ?? [];
@@ -232,11 +246,45 @@ async function stepMatch(ctx: Ctx): Promise<void> {
     return;
   }
 
-  const result = await matchStories(stories, episodes, convosByEpisode, matches, ctx.config, { force: ctx.force, now: ctx.startedAt });
+  const retriever = await buildRetriever(ctx, episodes, stories, convosByEpisode);
+  const result = await matchStories(stories, episodes, convosByEpisode, matches, ctx.config, { force: ctx.force, now: ctx.startedAt, retriever });
   writeJson(ctx.paths.stories, stories);
   writeJson(ctx.paths.matches, matches);
   writeJson(path.join(ctx.paths.data, 'match-log.json'), { ranAt: ctx.startedAt.toISOString(), ...result });
-  log('match', `${result.storiesProcessed} stories processed, ${result.candidatesTotal} candidates, ${result.matchesTotal} verified matches`);
+  log('match', `${result.storiesProcessed} stories processed with ${result.retriever} retrieval, ${result.candidatesTotal} candidates, ${result.matchesTotal} verified matches`);
+}
+
+/** The keyword retriever needs nothing; the others embed every segment and story first (cached under data/embeddings/). */
+async function buildRetriever(ctx: Ctx, episodes: Episode[], stories: Story[], convosByEpisode: Map<string, EpisodeConvos>): Promise<Retriever> {
+  const keyword = keywordRetriever(episodes, convosByEpisode, ctx.config);
+  if (ctx.retriever === 'keyword') return keyword;
+  const index = await buildSegmentIndex(episodes, convosByEpisode, ctx.paths.embeddings);
+  const vectors = await embedStories(stories, ctx.paths.embeddings);
+  const embedding = embeddingRetriever(index, vectors, ctx.config);
+  return ctx.retriever === 'embedding' ? embedding : unionRetriever(keyword, embedding, ctx.config.matching.maxCandidates);
+}
+
+/**
+ * Run both retrievers over the data the pipeline already produced and write the
+ * comparison. Reads stories, segments and matches; writes only data/embeddings/,
+ * data/comparison.json, data/spot-check.md and samples/retrieval-comparison.*.
+ */
+async function stepCompare(ctx: Ctx): Promise<void> {
+  let data = readJson<ComparisonData>(ctx.paths.comparison);
+  if (data && !ctx.force) {
+    log('compare', `${ctx.paths.comparison} exists; re-rendering from it with the floor in feeds.json (--force re-runs retrieval and verification)`);
+  } else {
+    requireVoyageKey();
+    requireEnv('ANTHROPIC_API_KEY');
+    data = await runComparison(ctx.paths, ctx.config, ctx.startedAt);
+    writeJson(ctx.paths.comparison, data);
+  }
+  data = withConfiguredFloor(data, ctx.config.matching);
+  const { md } = writeComparisonSamples(ctx.paths.out, data);
+  const listed = writeSpotCheck(ctx.paths.spotCheck, data);
+  const s = summarize(data);
+  log('compare', `keyword: ${s.keyword.verified} verified of ${s.keyword.candidates} candidates. embedding (top ${data.embedding.topK}, floor ${s.floor}): ${s.embedding.verified} of ${s.embedding.candidates}. only keyword ${s.keyword.onlyVerified}, only embedding ${s.embedding.onlyVerified}, both ${s.overlap.verified}`);
+  log('compare', `wrote ${md}; ${listed} disagreements to label in ${ctx.paths.spotCheck}`);
 }
 
 async function stepReport(ctx: Ctx): Promise<void> {
@@ -257,7 +305,13 @@ async function stepReport(ctx: Ctx): Promise<void> {
   const stories = readJson<Story[]>(ctx.paths.stories) ?? [];
   const matches = readJson<Match[]>(ctx.paths.matches) ?? [];
 
+  // Claude usage from the pipeline steps only. The comparison's own calls are
+  // prefixed `compare:` and reported in retrieval-comparison.json instead; a
+  // pipeline run with `--retriever embedding` records Voyage tokens separately.
   const usage = persistUsage(ctx);
+  const pipeline = Object.entries(usage).filter(([step]) => !step.startsWith('compare:'));
+  const claude = Object.fromEntries(pipeline.filter(([, u]) => isClaudeModel(u.model)));
+  const embedding = Object.fromEntries(pipeline.filter(([, u]) => !isClaudeModel(u.model)));
 
   // Stamp the report with when the pipeline last produced data, not when it was rendered,
   // so re-running `report` over unchanged data is a no-op in git.
@@ -277,11 +331,12 @@ async function stepReport(ctx: Ctx): Promise<void> {
       matches: matches.length,
     },
     audioHours: Math.round((audioSeconds / 3600) * 100) / 100,
-    claudeUsage: usage,
-    claudeCostUsd: estimateCostUsd(usage),
+    claudeUsage: claude,
+    claudeCostUsd: estimateCostUsd(claude),
+    ...(Object.keys(embedding).length ? { embeddingUsage: embedding, embeddingCostUsd: estimateCostUsd(embedding) } : {}),
     notes: ctx.notes,
   };
-  const { report } = writeSamples(ctx.paths, run);
+  const { report } = writeSamples(ctx.paths, run, ctx.config.matching);
   log('report', `wrote ${report}`);
 }
 

@@ -4,8 +4,9 @@
 
 import { mkdirSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
+import { withConfiguredFloor, writeComparisonSamples, type ComparisonData } from './compare.ts';
 import type { Paths } from './config.ts';
-import type { Episode, EpisodeConvos, Match, NewsItem, Story, Transcript } from './types.ts';
+import type { Episode, EpisodeConvos, Match, NewsItem, PipelineConfig, Story, Transcript } from './types.ts';
 import { readJson, secondsToHhmmss, slugify, writeJson } from './util.ts';
 
 export interface RunSummary {
@@ -17,6 +18,9 @@ export interface RunSummary {
   audioHours: number;
   claudeUsage: unknown;
   claudeCostUsd: number;
+  /** Present only when the pipeline itself ran the embedding retriever. */
+  embeddingUsage?: unknown;
+  embeddingCostUsd?: number;
   notes: string[];
 }
 
@@ -45,7 +49,7 @@ function hms(seconds: number): string {
   return secondsToHhmmss(seconds).replace(/^00:/, '');
 }
 
-export function writeSamples(paths: Paths, run: RunSummary): { report: string } {
+export function writeSamples(paths: Paths, run: RunSummary, matching: PipelineConfig['matching']): { report: string } {
   const { episodes, stories, matches, newsItems, convosByEpisode, transcriptsByEpisode } = loadAll(paths);
   const out = paths.out;
 
@@ -121,6 +125,10 @@ export function writeSamples(paths: Paths, run: RunSummary): { report: string } 
   const vizDir = path.join(out, '..', 'viz');
   mkdirSync(vizDir, { recursive: true });
   writeFileSync(path.join(vizDir, 'data.js'), `window.CONVOS_DATA = ${JSON.stringify(vizData)};\n`);
+
+  // The retrieval comparison is a separate experiment over the same data; render it when it has been run.
+  const comparison = readJson<ComparisonData>(paths.comparison);
+  if (comparison) writeComparisonSamples(out, withConfiguredFloor(comparison, matching));
 
   return { report: path.join(out, 'REPORT.md') };
 }
