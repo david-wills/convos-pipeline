@@ -1,0 +1,558 @@
+{
+  "about": "Labels for the retrieval disagreements. label=right means the segment really covers the story. Produced by reading each segment transcript against the story; see spot-check-labels.md for method and caveats.",
+  "labelledBy": "claude-opus-5, reading data/transcripts/",
+  "criterion": "Would a listener looking for coverage of this story want this segment? Same beat is not the same event.",
+  "summary": {
+    "Production verifier, cutoff 7 (as shipped)": {
+      "passed": 26,
+      "correct": 11,
+      "keywordOnly": {
+        "n": 5,
+        "right": 2
+      },
+      "embeddingOnly": {
+        "n": 21,
+        "right": 9
+      }
+    },
+    "Production verifier, cutoff 8": {
+      "passed": 20,
+      "correct": 10,
+      "keywordOnly": {
+        "n": 2,
+        "right": 2
+      },
+      "embeddingOnly": {
+        "n": 18,
+        "right": 8
+      }
+    },
+    "Context verifier, cutoff 7": {
+      "passed": 16,
+      "correct": 8,
+      "keywordOnly": {
+        "n": 3,
+        "right": 1
+      },
+      "embeddingOnly": {
+        "n": 13,
+        "right": 7
+      }
+    },
+    "Context verifier, cutoff 8 (current default)": {
+      "passed": 8,
+      "correct": 7,
+      "keywordOnly": {
+        "n": 0,
+        "right": 0
+      },
+      "embeddingOnly": {
+        "n": 8,
+        "right": 7
+      }
+    }
+  },
+  "labels": [
+    {
+      "n": 1,
+      "label": "wrong",
+      "reason": "Acer's Swift Blade, not Lenovo's IdeaPad. The same beat — an ultralight MacBook Air rival — and a different company and product.",
+      "storyTitle": "Lenovo Launches Lightweight Laptop Alternatives",
+      "foundBy": "embedding",
+      "similarity": 0.582,
+      "rank": 1,
+      "scores": {
+        "production": 9,
+        "context": 7
+      },
+      "podcastTitle": "Tech Brew Ride Home",
+      "episodeTitle": "Hey, Want Some Models?",
+      "episodeFile": "2026-09-02-tech-brew-ride-home-hey-want-some-models.json",
+      "convoTitle": "Acer's MacBook Air Challenger",
+      "startTime": 985.651,
+      "endTime": 1130
+    },
+    {
+      "n": 2,
+      "label": "wrong",
+      "reason": "The Hugging Face rogue-agent hack, not the airport breach or the Booking.com listings.",
+      "storyTitle": "Major Cybersecurity Breaches Hit Airports and Platforms",
+      "foundBy": "embedding",
+      "similarity": 0.519,
+      "rank": 1,
+      "scores": {
+        "production": 9,
+        "context": 7
+      },
+      "podcastTitle": "The Daily",
+      "episodeTitle": "A.I. Is Outsmarting Its Creators",
+      "episodeFile": "2026-09-03-the-daily-a-i-is-outsmarting-its-creators.json",
+      "convoTitle": "The Hugging Face Cyberattack",
+      "startTime": 882.515,
+      "endTime": 1276.389
+    },
+    {
+      "n": 3,
+      "label": "right",
+      "reason": "Duffie on why the 30-year sits at 5%, driven by supply and deficits: the selloff the headlines are about.",
+      "storyTitle": "Global Bond Market Turmoil Concerns World Leaders",
+      "foundBy": "embedding",
+      "similarity": 0.512,
+      "rank": 2,
+      "scores": {
+        "production": 9,
+        "context": 9
+      },
+      "podcastTitle": "Odd Lots",
+      "episodeTitle": "What's Behind the Big Surge in US Government Bond Yields",
+      "episodeFile": "2026-09-03-odd-lots-whats-behind-the-big-surge-in-us-governm.json",
+      "convoTitle": "Why Is the 30-Year at 5%?",
+      "startTime": 342.118,
+      "endTime": 520.779
+    },
+    {
+      "n": 4,
+      "label": "wrong",
+      "reason": "US and UK households trading their own electricity, not the battery shortage in Spain and Portugal.",
+      "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+      "foundBy": "embedding",
+      "similarity": 0.507,
+      "rank": 1,
+      "scores": {
+        "production": 9
+      },
+      "podcastTitle": "Big Take",
+      "episodeTitle": "The Hottest New Trade Is Your Own Electricity",
+      "episodeFile": "2026-09-03-big-take-the-hottest-new-trade-is-your-own-electr.json",
+      "convoTitle": "Vibe Coding the Power Grid",
+      "startTime": 477.85,
+      "endTime": 598.443
+    },
+    {
+      "n": 5,
+      "label": "wrong",
+      "reason": "An Arizona homeowner's virtual power plant payout. Same beat, different event.",
+      "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+      "foundBy": "embedding",
+      "similarity": 0.49,
+      "rank": 3,
+      "scores": {
+        "production": 9,
+        "context": 7
+      },
+      "podcastTitle": "Big Take",
+      "episodeTitle": "The Hottest New Trade Is Your Own Electricity",
+      "episodeFile": "2026-09-03-big-take-the-hottest-new-trade-is-your-own-electr.json",
+      "convoTitle": "Virtual Power Plants Pay Off",
+      "startTime": 598.443,
+      "endTime": 682.24
+    },
+    {
+      "n": 6,
+      "label": "right",
+      "reason": "NPR's obituary episode: her friend on how Steinem wanted to be remembered.",
+      "storyTitle": "Gloria Steinem, Feminist Icon, Dies at 92",
+      "foundBy": "embedding",
+      "similarity": 0.605,
+      "rank": 6,
+      "scores": {
+        "production": 8,
+        "context": 8
+      },
+      "podcastTitle": "Consider This from NPR",
+      "episodeTitle": "Remembering feminist trailblazer Gloria Steinem",
+      "episodeFile": "2026-09-03-consider-this-from-npr-remembering-feminist-trailblazer-gloria.json",
+      "convoTitle": "Steinem's Vision for Every Movement",
+      "startTime": 522.617,
+      "endTime": 666
+    },
+    {
+      "n": 7,
+      "label": "right",
+      "reason": "Same obituary episode, on Steinem resisting being made feminism’s single face.",
+      "storyTitle": "Gloria Steinem, Feminist Icon, Dies at 92",
+      "foundBy": "embedding",
+      "similarity": 0.589,
+      "rank": 9,
+      "scores": {
+        "production": 8,
+        "context": 8
+      },
+      "podcastTitle": "Consider This from NPR",
+      "episodeTitle": "Remembering feminist trailblazer Gloria Steinem",
+      "episodeFile": "2026-09-03-consider-this-from-npr-remembering-feminist-trailblazer-gloria.json",
+      "convoTitle": "The Burden of Being the Face",
+      "startTime": 426.114,
+      "endTime": 522.617
+    },
+    {
+      "n": 8,
+      "label": "right",
+      "reason": "Same obituary episode. A first meeting in 1993 is reminiscence, but reminiscence is what an obituary interview is made of. Borderline.",
+      "storyTitle": "Gloria Steinem, Feminist Icon, Dies at 92",
+      "foundBy": "embedding",
+      "similarity": 0.581,
+      "rank": 10,
+      "scores": {
+        "production": 8
+      },
+      "podcastTitle": "Consider This from NPR",
+      "episodeTitle": "Remembering feminist trailblazer Gloria Steinem",
+      "episodeFile": "2026-09-03-consider-this-from-npr-remembering-feminist-trailblazer-gloria.json",
+      "convoTitle": "Meeting the 'Cultural Villain'",
+      "startTime": 248.735,
+      "endTime": 325.961
+    },
+    {
+      "n": 9,
+      "label": "right",
+      "reason": "Same obituary episode, on her mentorship. Borderline for the same reason as 8.",
+      "storyTitle": "Gloria Steinem, Feminist Icon, Dies at 92",
+      "foundBy": "embedding",
+      "similarity": 0.573,
+      "rank": 11,
+      "scores": {
+        "production": 8,
+        "context": 8
+      },
+      "podcastTitle": "Consider This from NPR",
+      "episodeTitle": "Remembering feminist trailblazer Gloria Steinem",
+      "episodeFile": "2026-09-03-consider-this-from-npr-remembering-feminist-trailblazer-gloria.json",
+      "convoTitle": "Steinem's Radical Generosity",
+      "startTime": 325.961,
+      "endTime": 426.114
+    },
+    {
+      "n": 10,
+      "label": "right",
+      "reason": "The segment names the diesel price rise directly as what is squeezing farm country.",
+      "storyTitle": "US Diesel Prices Hit Record Highs",
+      "foundBy": "embedding",
+      "similarity": 0.548,
+      "rank": 4,
+      "scores": {
+        "production": 8,
+        "context": 8
+      },
+      "podcastTitle": "Today, Explained",
+      "episodeTitle": "The farmers turning on Trump",
+      "episodeFile": "2026-09-03-today-explained-the-farmers-turning-on-trump.json",
+      "convoTitle": "The Cost Crunch Squeezing Agriculture",
+      "startTime": 124.78,
+      "endTime": 315.192
+    },
+    {
+      "n": 11,
+      "label": "right",
+      "reason": "The episode is the instant reaction to the same August payrolls print.",
+      "storyTitle": "Strong US Jobs Report Fuels Rate Rise Expectations",
+      "foundBy": "embedding",
+      "similarity": 0.54,
+      "rank": 6,
+      "scores": {
+        "production": 8,
+        "context": 8
+      },
+      "podcastTitle": "Bloomberg Daybreak: US Edition",
+      "episodeTitle": "Instant Reaction: US Adds 162,000 Jobs, Topping All Estimates",
+      "episodeFile": "2026-09-04-bloomberg-daybreak-us-ed-instant-reaction-us-adds-162-000-jobs-to.json",
+      "convoTitle": "September Hike: Coin Flip or Done Deal?",
+      "startTime": 379.587,
+      "endTime": 513.13
+    },
+    {
+      "n": 12,
+      "label": "right",
+      "reason": "A bond manager on long-end supply and unaddressed fiscal risk: the same selloff.",
+      "storyTitle": "Global Bond Market Turmoil Concerns World Leaders",
+      "foundBy": "embedding",
+      "similarity": 0.518,
+      "rank": 1,
+      "scores": {
+        "production": 8,
+        "context": 8
+      },
+      "podcastTitle": "Bloomberg Daybreak: US Edition",
+      "episodeTitle": "Instant Reaction: US Adds 162,000 Jobs, Topping All Estimates",
+      "episodeFile": "2026-09-04-bloomberg-daybreak-us-ed-instant-reaction-us-adds-162-000-jobs-to.json",
+      "convoTitle": "Kristina Campmany: Shorter Duration, Full Stop",
+      "startTime": 1142.205,
+      "endTime": 1413.1
+    },
+    {
+      "n": 13,
+      "label": "wrong",
+      "reason": "Dynamic pricing as the barrier to home energy trading, not the Iberian battery shortage.",
+      "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+      "foundBy": "embedding",
+      "similarity": 0.5,
+      "rank": 2,
+      "scores": {
+        "production": 8
+      },
+      "podcastTitle": "Big Take",
+      "episodeTitle": "The Hottest New Trade Is Your Own Electricity",
+      "episodeFile": "2026-09-03-big-take-the-hottest-new-trade-is-your-own-electr.json",
+      "convoTitle": "The Barrier Blocking Most Consumers",
+      "startTime": 1143.358,
+      "endTime": 1334
+    },
+    {
+      "n": 14,
+      "label": "wrong",
+      "reason": "Why electricity is a regulated monopoly. The story’s beat, not its event.",
+      "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+      "foundBy": "embedding",
+      "similarity": 0.488,
+      "rank": 4,
+      "scores": {
+        "production": 8
+      },
+      "podcastTitle": "Big Take",
+      "episodeTitle": "The Hottest New Trade Is Your Own Electricity",
+      "episodeFile": "2026-09-03-big-take-the-hottest-new-trade-is-your-own-electr.json",
+      "convoTitle": "Why Electricity Is Different",
+      "startTime": 900.932,
+      "endTime": 1055.653
+    },
+    {
+      "n": 15,
+      "label": "wrong",
+      "reason": "Meta as a power trader. Same beat, different event.",
+      "storyTitle": "Energy Crisis Drives Battery and Power Demand",
+      "foundBy": "embedding",
+      "similarity": 0.482,
+      "rank": 5,
+      "scores": {
+        "production": 8
+      },
+      "podcastTitle": "Big Take",
+      "episodeTitle": "The Hottest New Trade Is Your Own Electricity",
+      "episodeFile": "2026-09-03-big-take-the-hottest-new-trade-is-your-own-electr.json",
+      "convoTitle": "Meta Enters the Power Market",
+      "startTime": 1055.653,
+      "endTime": 1143.358
+    },
+    {
+      "n": 16,
+      "label": "wrong",
+      "reason": "The Hugging Face hack again, not the airport breach.",
+      "storyTitle": "Major Cybersecurity Breaches Hit Airports and Platforms",
+      "foundBy": "embedding",
+      "similarity": 0.474,
+      "rank": 2,
+      "scores": {
+        "production": 8,
+        "context": 7
+      },
+      "podcastTitle": "The Daily",
+      "episodeTitle": "A.I. Is Outsmarting Its Creators",
+      "episodeFile": "2026-09-03-the-daily-a-i-is-outsmarting-its-creators.json",
+      "convoTitle": "The Hack Beneath the Hack",
+      "startTime": 123.622,
+      "endTime": 283.949
+    },
+    {
+      "n": 17,
+      "label": "wrong",
+      "reason": "Apple's rumoured tabletop robot, not SwitchBot, Govee or lawn mowers. The story is an umbrella group rather than an event, so nothing can really cover it.",
+      "storyTitle": "Smart Home and Tech Gadgets Advance",
+      "foundBy": "embedding",
+      "similarity": 0.46,
+      "rank": 1,
+      "scores": {
+        "production": 8
+      },
+      "podcastTitle": "The Vergecast",
+      "episodeTitle": "Apple Home rumors, ranked",
+      "episodeFile": "2026-09-03-the-vergecast-apple-home-rumors-ranked.json",
+      "convoTitle": "The Pixar Lamp Is Real?",
+      "startTime": 2019.216,
+      "endTime": 2371
+    },
+    {
+      "n": 18,
+      "label": "wrong",
+      "reason": "The Vergecast intro to an Apple Home episode. The umbrella story again.",
+      "storyTitle": "Smart Home and Tech Gadgets Advance",
+      "foundBy": "embedding",
+      "similarity": 0.45,
+      "rank": 2,
+      "scores": {
+        "production": 8,
+        "context": 7
+      },
+      "podcastTitle": "The Vergecast",
+      "episodeTitle": "Apple Home rumors, ranked",
+      "episodeFile": "2026-09-03-the-vergecast-apple-home-rumors-ranked.json",
+      "convoTitle": "Apple Home's Missing Piece",
+      "startTime": 2.389,
+      "endTime": 505.2
+    },
+    {
+      "n": 19,
+      "label": "right",
+      "reason": "Record pump prices from the Iran war and a refinery shortage, diesel named among them. Borderline: the story is titled for diesel and the segment leads on gasoline.",
+      "storyTitle": "US Diesel Prices Hit Record Highs",
+      "foundBy": "embedding",
+      "similarity": 0.618,
+      "rank": 2,
+      "scores": {
+        "production": 7
+      },
+      "podcastTitle": "CNN 5 Things",
+      "episodeTitle": "Strong Jobs Report, First Mail Ballots Go Out, NFL Players Return to NCAA and More",
+      "episodeFile": "2026-09-04-cnn-5-things-strong-jobs-report-first-mail-ballots-go.json",
+      "convoTitle": "Record Gas Prices This Labor Day",
+      "startTime": 60.161,
+      "endTime": 121.34
+    },
+    {
+      "n": 20,
+      "label": "wrong",
+      "reason": "The kill-switch debate as reopened by the Hugging Face incident, not the UK Lords' call for kill-switch powers. Same beat, different event. Borderline.",
+      "storyTitle": "AI Regulation and Tech Safety Concerns in UK",
+      "foundBy": "embedding",
+      "similarity": 0.596,
+      "rank": 1,
+      "scores": {
+        "production": 7,
+        "context": 9
+      },
+      "podcastTitle": "The Daily",
+      "episodeTitle": "A.I. Is Outsmarting Its Creators",
+      "episodeFile": "2026-09-03-the-daily-a-i-is-outsmarting-its-creators.json",
+      "convoTitle": "Regulators, Kill Switches, and Slowdowns",
+      "startTime": 1845.943,
+      "endTime": 2072.133
+    },
+    {
+      "n": 21,
+      "label": "wrong",
+      "reason": "Glacial lake outburst floods across four continents. Not El Niño.",
+      "storyTitle": "El Niño Weather Impacts Intensify Globally",
+      "foundBy": "embedding",
+      "similarity": 0.464,
+      "rank": 2,
+      "scores": {
+        "production": 7
+      },
+      "podcastTitle": "Big Take",
+      "episodeTitle": "Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability",
+      "episodeFile": "2026-09-02-big-take-deadly-flooding-in-nepal-highlights-asia.json",
+      "convoTitle": "A Global Crisis, Not Just Nepal",
+      "startTime": 473.514,
+      "endTime": 553.279
+    },
+    {
+      "n": 22,
+      "label": "right",
+      "reason": "The explainer inside the Nepal flood episode on what caused those floods.",
+      "storyTitle": "Nepal Tunnel Rescue and Flood Recovery Efforts",
+      "foundBy": "keyword",
+      "similarity": 0.425,
+      "rank": 8,
+      "scores": {
+        "production": 8,
+        "context": 7
+      },
+      "podcastTitle": "Big Take",
+      "episodeTitle": "Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability",
+      "episodeFile": "2026-09-02-big-take-deadly-flooding-in-nepal-highlights-asia.json",
+      "convoTitle": "Why Mountains Are Falling Apart",
+      "startTime": 321.153,
+      "endTime": 473.514
+    },
+    {
+      "n": 23,
+      "label": "right",
+      "reason": "Same segment, same event. That this story and 22's are two clusters for one event is the merge rule failing, not retrieval.",
+      "storyTitle": "Nepal Tunnel Rescues Bring Hope After Floods",
+      "foundBy": "keyword",
+      "similarity": 0.419,
+      "rank": 8,
+      "scores": {
+        "production": 8
+      },
+      "podcastTitle": "Big Take",
+      "episodeTitle": "Deadly Flooding in Nepal Highlights Asia’s Climate Vulnerability",
+      "episodeFile": "2026-09-02-big-take-deadly-flooding-in-nepal-highlights-asia.json",
+      "convoTitle": "Why Mountains Are Falling Apart",
+      "startTime": 321.153,
+      "endTime": 473.514
+    },
+    {
+      "n": 24,
+      "label": "wrong",
+      "reason": "US–UK agricultural trade talks. No drought in it.",
+      "storyTitle": "UK Drought Crisis Impacts Agriculture and Water Supply",
+      "foundBy": "keyword",
+      "similarity": 0.44,
+      "rank": 2,
+      "scores": {
+        "production": 7,
+        "context": 7
+      },
+      "podcastTitle": "FT News Briefing",
+      "episodeTitle": "Top US trade official reveals ‘problem’ in UK negotiations",
+      "episodeFile": "2026-09-04-ft-news-briefing-top-us-trade-official-reveals-problem-in.json",
+      "convoTitle": "Agriculture, Tariffs, and 'Iconic' UK Goods",
+      "startTime": 212.003,
+      "endTime": 350.434
+    },
+    {
+      "n": 25,
+      "label": "wrong",
+      "reason": "The episode's headline preview. No Chrome, no V8.",
+      "storyTitle": "Chrome V8 Zero-Day Vulnerability Patched",
+      "foundBy": "keyword",
+      "similarity": 0.429,
+      "rank": 2,
+      "scores": {
+        "production": 7
+      },
+      "podcastTitle": "Tech Brew Ride Home",
+      "episodeTitle": "Hey, Want Some Models?",
+      "episodeFile": "2026-09-02-tech-brew-ride-home-hey-want-some-models.json",
+      "convoTitle": "Today's Tech Headlines",
+      "startTime": 4.743,
+      "endTime": 110.269
+    },
+    {
+      "n": 26,
+      "label": "wrong",
+      "reason": "US–China trade optimism. The story absorbed generic keywords in a bad merge and this is what that costs.",
+      "storyTitle": "Trump's Peace Envoys Visit Moscow and Kyiv",
+      "foundBy": "keyword",
+      "similarity": 0.34,
+      "rank": 10,
+      "scores": {
+        "production": 7
+      },
+      "podcastTitle": "Bloomberg Daybreak: US Edition",
+      "episodeTitle": "Vance Says Iran Conflict Isn’t a ‘War’; August Jobs in Focus",
+      "episodeFile": "2026-09-04-bloomberg-daybreak-us-ed-vance-says-iran-conflict-isnt-a-war-augu.json",
+      "convoTitle": "Trump's China Trade Optimism",
+      "startTime": 314.564,
+      "endTime": 356.538
+    },
+    {
+      "n": 27,
+      "label": "wrong",
+      "reason": "A Labor Day weekend weather forecast is not the El Niño story.",
+      "storyTitle": "El Niño Weather Impacts Intensify Globally",
+      "foundBy": "keyword",
+      "similarity": 0.423,
+      "rank": 3,
+      "scores": {
+        "context": 7
+      },
+      "podcastTitle": "Bloomberg Daybreak: US Edition",
+      "episodeTitle": "Vance Says Iran Conflict Isn’t a ‘War’; August Jobs in Focus",
+      "episodeFile": "2026-09-04-bloomberg-daybreak-us-ed-vance-says-iran-conflict-isnt-a-war-augu.json",
+      "convoTitle": "Labor Day Weekend Forecast",
+      "startTime": 553.058,
+      "endTime": 907.428
+    }
+  ]
+}

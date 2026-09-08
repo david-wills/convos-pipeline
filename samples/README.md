@@ -15,6 +15,8 @@ edited by hand. Start with **[REPORT.md](REPORT.md)**.
 | `retrieval-comparison.json` | The same comparison as data: every candidate either retriever surfaced, with which retriever found it, its cosine similarity and rank, and the verifier's score. |
 | `retrieval-comparison-context.md` | The same candidates re-scored by a verifier that is also shown the story's summary, keywords and headlines, with every verdict that changed against the production verifier. Written by `node src/cli.ts compare --verifier context`. |
 | `retrieval-comparison-context.json` | Data twin of the above, including the per-candidate diff against the production verifier. |
+| `spot-check-labels.md` | Every retrieval disagreement labelled right or wrong by reading the segment's transcript against the story, with precision by verifier and cutoff. The labels are model-written, not hand labels; the file explains the method and its limits. |
+| `spot-check-labels.json` | The same labels as data, with the verifier scores, cosine similarity and rank for each pair. |
 
 The static page at [`../viz/index.html`](../viz/index.html) renders `stories.json`
 as a story-by-show view. Open it locally in a browser; it needs no server.
